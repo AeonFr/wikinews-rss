@@ -76,8 +76,8 @@ def finalize(cfg, raw_items, pages, known=None):
     """Assign guid, link and enrichment; drop duplicates within one scrape.
 
     Each item gets "group_key" (its main article: pageid, or title if the page does not
-    exist) used to group headlines about the same article, plus "page_date" and "pos"
-    (position within its portal page) that order the headlines of a group.
+    exist) used to group headlines about the same article (and day), plus "page_date" and
+    "pos" (position within its portal page) that order the headlines of a group.
     In single_list mode a second bullet about the same article keeps its own headline
     guid (article guid + text hash) so it can be grouped instead of dropped; the plain
     article guid stays with the bullet that already had it in `known` (the state).

@@ -2,9 +2,10 @@
 
 - "items": headline guid -> headline (one portal entry, with first_seen and pub_date).
 - "groups": feed guid -> {"members": [headline guids], "first_seen", "pub_date"} for
-  headlines about the same main article shown as one feed item. The key is the guid of
-  the group's first (oldest) headline and never changes, nor do first_seen/pub_date,
-  when headlines are added. Headlines in no group are feed items on their own.
+  headlines about the same main article and the same day shown as one feed item. The key
+  is the guid of the group's first (oldest) headline and never changes, nor do
+  first_seen/pub_date, when headlines are added. Headlines in no group are feed items on
+  their own.
 
 The state only changes when the scraped content changes, so a run that finds
 nothing new leaves the file byte-for-byte identical (no per-run timestamps):
@@ -138,50 +139,79 @@ def _first_key(it):
     return (it["pub_date"], it["first_seen"], it.get("order", 0))
 
 
+def day_of(rec):
+    """UTC calendar day of a headline or group: the day of its pub_date.
+
+    pub_date is the item's own date (en: daily page; es: bullet prefix) at 00:00, or
+    first_seen when it has no date (or was first seen on that same day), so this is the
+    event's day, falling back to the day it was first seen.
+    """
+    return rec["pub_date"][:10]
+
+
+def split_mixed_days(state):
+    """Undo groups formed by older versions that mixed headlines from different days.
+
+    Members whose day differs from the group's (its founder's: the group's pub_date)
+    leave the group and become feed items on their own again, under their own headline
+    guid with their own first_seen/pub_date (both already in "items"). The group keeps its
+    guid and dates; if only its founder is left the record is dropped (same feed item).
+    """
+    known, groups = state["items"], state["groups"]
+    for g in list(groups):
+        rec = groups[g]
+        rec["members"] = [m for m in rec["members"] if m not in known or day_of(known[m]) == day_of(rec)]
+        if rec["members"] == [g]:
+            del groups[g]
+
+
 def regroup(state, current, pending, max_group):
-    """Put each pending headline into the group of its main article.
+    """Put each pending headline into the group of its main article and day.
 
     current: headline guids scraped in this run; pending: the ones not yet assigned
     (new headlines, or every scraped one when migrating an old state).
-    A pending headline joins the most recent open unit (feed item) of the same
-    "group_key" that is still on the portal (has a headline in `current`) and has fewer
-    than max_group headlines; otherwise it starts its own unit. Pending headlines are
-    processed oldest first, so a unit's guid and pubDate are those of its oldest
-    headline. Assignments are never revisited, which keeps guids stable.
+    A pending headline joins the most recent open unit (feed item) with the same
+    "group_key" and the same day (day_of: the unit's day is its founder's) that is still
+    on the portal (has a headline in `current`) and has fewer than max_group headlines;
+    otherwise it starts its own unit, so a later development of a story is a new item.
+    Pending headlines are processed oldest first, so a unit's guid and pubDate are those
+    of its oldest headline. Assignments are never revisited, which keeps guids stable.
     Returns headline guid -> unit guid for grouped headlines.
     """
     known, groups = state["items"], state["groups"]
+    split_mixed_days(state)
     for g in list(groups):
         groups[g]["members"] = [m for m in groups[g]["members"] if m in known]
         if not groups[g]["members"]:  # every headline expired by retention
             del groups[g]
     owner = {m: g for g, rec in groups.items() for m in rec["members"]}
 
+    def unit(u):
+        return groups[u] if u in groups else known[u]
+
     def unit_key(u):
         members = groups[u]["members"] if u in groups else [u]
         return next((known[m]["group_key"] for m in members if known[m].get("group_key")), None)
 
-    def unit_start(u):
-        return _first_key(groups[u] if u in groups else known[u])
-
     pending = sorted(set(pending), key=lambda g: _first_key(known[g]))
     waiting = set(pending)
-    open_units = {}  # group_key -> live unit guids
+    open_units = {}  # (group_key, day) -> live unit guids
     for u in sorted({owner.get(g, g) for g in current if g not in waiting}):
         key = unit_key(u)
         if key:
-            open_units.setdefault(key, []).append(u)
+            open_units.setdefault((key, day_of(unit(u))), []).append(u)
 
     for h in pending:
         key = known[h].get("group_key")
         if not key:
             continue
-        candidates = [u for u in open_units.get(key, [])
+        slot = (key, day_of(known[h]))
+        candidates = [u for u in open_units.get(slot, [])
                       if len(groups[u]["members"] if u in groups else [u]) < max_group]
         if not candidates:
-            open_units.setdefault(key, []).append(h)
+            open_units.setdefault(slot, []).append(h)
             continue
-        u = max(candidates, key=unit_start)
+        u = max(candidates, key=lambda c: _first_key(unit(c)))
         if u not in groups:
             groups[u] = {"members": [u], "first_seen": known[u]["first_seen"], "pub_date": known[u]["pub_date"]}
             owner[u] = u
@@ -191,9 +221,14 @@ def regroup(state, current, pending, max_group):
 
 
 def _display_order(members):
-    """Order of the portal: most recent daily page first, then position in the page."""
-    members = sorted(members, key=lambda m: m.get("pos", m.get("order", 0)))
-    return sorted(members, key=lambda m: m.get("page_date") or "", reverse=True)
+    """Oldest first: the reverse of the portal's order.
+
+    The portal shows the most recent daily page first and, within a page (or the es
+    list), tends to put follow-ups above the story they follow, so the title reads
+    oldest page first and, within a page, from the bottom of the document up.
+    """
+    members = sorted(members, key=lambda m: m.get("pos", m.get("order", 0)), reverse=True)
+    return sorted(members, key=lambda m: m.get("page_date") or "")
 
 
 def feed_items(state):
