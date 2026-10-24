@@ -1,4 +1,10 @@
-"""Persistent per-language state: guid -> item (with first_seen and pub_date).
+"""Persistent per-language state.
+
+- "items": headline guid -> headline (one portal entry, with first_seen and pub_date).
+- "groups": feed guid -> {"members": [headline guids], "first_seen", "pub_date"} for
+  headlines about the same main article shown as one feed item. The key is the guid of
+  the group's first (oldest) headline and never changes, nor do first_seen/pub_date,
+  when headlines are added. Headlines in no group are feed items on their own.
 
 The state only changes when the scraped content changes, so a run that finds
 nothing new leaves the file byte-for-byte identical (no per-run timestamps):
@@ -71,15 +77,20 @@ def pub_date_for(item, first_seen):
     return utc_iso(first_seen)
 
 
-def merge(state, items, now, retention_days=90):
-    """Merge freshly scraped items (each with a 'guid') into state. Returns the new guids.
+def merge(state, items, now, retention_days=90, max_group=3):
+    """Merge freshly scraped headlines (each with a 'guid') into state, then group them.
 
-    Known items keep first_seen, pub_date and date_source; their content is refreshed.
-    Items no longer on the portal get "gone_since" and stay until it is older than
-    retention_days. state["updated"] only moves to now if the items actually changed.
+    Returns the guids of the new feed items (new headlines not absorbed by a group).
+
+    Known headlines keep first_seen, pub_date and date_source; their content is refreshed.
+    Headlines no longer on the portal get "gone_since" and stay until it is older than
+    retention_days. state["updated"] only moves to now if the state actually changed.
     """
     known = state.setdefault("items", {})
-    before = json.dumps(known, sort_keys=True)
+    # State written before grouping existed: regroup everything currently scraped.
+    migrating = "groups" not in state
+    groups = state.setdefault("groups", {})
+    before = json.dumps([known, groups], sort_keys=True)
     now_iso = utc_iso(now)
     scraped = {it["guid"] for it in items}
     # An edited daily item gets a new text hash; recognise it by date + first source URL.
@@ -116,13 +127,100 @@ def merge(state, items, now, retention_days=90):
         it.setdefault("gone_since", last_seen or now_iso)
         if parse_iso(it["gone_since"]) < cutoff:
             del known[guid]
-    if "updated" not in state or json.dumps(known, sort_keys=True) != before:
+
+    owner = regroup(state, [it["guid"] for it in items], list(current) if migrating else new, max_group)
+    if "updated" not in state or json.dumps([known, groups], sort_keys=True) != before:
         state["updated"] = now_iso
-    return new
+    return [g for g in new if owner.get(g, g) == g]
+
+
+def _first_key(it):
+    return (it["pub_date"], it["first_seen"], it.get("order", 0))
+
+
+def regroup(state, current, pending, max_group):
+    """Put each pending headline into the group of its main article.
+
+    current: headline guids scraped in this run; pending: the ones not yet assigned
+    (new headlines, or every scraped one when migrating an old state).
+    A pending headline joins the most recent open unit (feed item) of the same
+    "group_key" that is still on the portal (has a headline in `current`) and has fewer
+    than max_group headlines; otherwise it starts its own unit. Pending headlines are
+    processed oldest first, so a unit's guid and pubDate are those of its oldest
+    headline. Assignments are never revisited, which keeps guids stable.
+    Returns headline guid -> unit guid for grouped headlines.
+    """
+    known, groups = state["items"], state["groups"]
+    for g in list(groups):
+        groups[g]["members"] = [m for m in groups[g]["members"] if m in known]
+        if not groups[g]["members"]:  # every headline expired by retention
+            del groups[g]
+    owner = {m: g for g, rec in groups.items() for m in rec["members"]}
+
+    def unit_key(u):
+        members = groups[u]["members"] if u in groups else [u]
+        return next((known[m]["group_key"] for m in members if known[m].get("group_key")), None)
+
+    def unit_start(u):
+        return _first_key(groups[u] if u in groups else known[u])
+
+    pending = sorted(set(pending), key=lambda g: _first_key(known[g]))
+    waiting = set(pending)
+    open_units = {}  # group_key -> live unit guids
+    for u in sorted({owner.get(g, g) for g in current if g not in waiting}):
+        key = unit_key(u)
+        if key:
+            open_units.setdefault(key, []).append(u)
+
+    for h in pending:
+        key = known[h].get("group_key")
+        if not key:
+            continue
+        candidates = [u for u in open_units.get(key, [])
+                      if len(groups[u]["members"] if u in groups else [u]) < max_group]
+        if not candidates:
+            open_units.setdefault(key, []).append(h)
+            continue
+        u = max(candidates, key=unit_start)
+        if u not in groups:
+            groups[u] = {"members": [u], "first_seen": known[u]["first_seen"], "pub_date": known[u]["pub_date"]}
+            owner[u] = u
+        groups[u]["members"].append(h)
+        owner[h] = u
+    return owner
+
+
+def _display_order(members):
+    """Order of the portal: most recent daily page first, then position in the page."""
+    members = sorted(members, key=lambda m: m.get("pos", m.get("order", 0)))
+    return sorted(members, key=lambda m: m.get("page_date") or "", reverse=True)
+
+
+def feed_items(state):
+    """Feed items: ungrouped headlines as they are, plus one combined item per group."""
+    known, groups = state.get("items", {}), state.get("groups", {})
+    grouped = {m for rec in groups.values() for m in rec["members"]}
+    out = [it for g, it in known.items() if g not in grouped]
+    for g, rec in groups.items():
+        members = _display_order([known[m] for m in rec["members"] if m in known])
+        if not members:
+            continue
+        head = known.get(g, members[0])
+        out.append({
+            "guid": g,
+            "title": " / ".join(m["title"] for m in members),
+            "link": members[0]["link"],
+            "pub_date": rec["pub_date"],
+            "first_seen": rec["first_seen"],
+            "date_source": head.get("date_source"),
+            "order": min(m.get("order", 0) for m in members),
+            "members": members,
+        })
+    return out
 
 
 def latest(state, limit):
-    items = sorted(state.get("items", {}).values(),
+    items = sorted(feed_items(state),
                    key=lambda it: (it["pub_date"], it["first_seen"], -it.get("order", 0)),
                    reverse=True)
     return items[:limit]

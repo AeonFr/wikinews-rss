@@ -72,10 +72,19 @@ def article_created(client, title):
     return st.parse_iso(ts) if ts else None
 
 
-def finalize(cfg, raw_items, pages):
-    """Assign guid, link and enrichment; drop duplicates within one scrape."""
-    items, seen = [], set()
-    for order, it in enumerate(raw_items):
+def finalize(cfg, raw_items, pages, known=None):
+    """Assign guid, link and enrichment; drop duplicates within one scrape.
+
+    Each item gets "group_key" (its main article: pageid, or title if the page does not
+    exist) used to group headlines about the same article, plus "page_date" and "pos"
+    (position within its portal page) that order the headlines of a group.
+    In single_list mode a second bullet about the same article keeps its own headline
+    guid (article guid + text hash) so it can be grouped instead of dropped; the plain
+    article guid stays with the bullet that already had it in `known` (the state).
+    """
+    known = known or {}
+    resolved = []
+    for it in raw_items:
         page = pages.get(it["main_title"]) if it["main_title"] else None
         date = it["date"].isoformat() if it["date"] else None
         if cfg.mode == "daily_pages":
@@ -86,30 +95,48 @@ def finalize(cfg, raw_items, pages):
             guid = "wikipedia:%s:title:%s" % (cfg.code, it["main_title"])
         else:
             guid = "wikipedia:%s:text:%s" % (cfg.code, parsers.text_hash(it["text"]))
+        resolved.append((it, page, date, guid))
+
+    owner = {}  # article guid -> index of the raw item that keeps it
+    if cfg.mode != "daily_pages":
+        for i, (it, page, date, guid) in enumerate(resolved):
+            old = known.get(guid)
+            if guid not in owner or (old and old.get("text") == it["text"]
+                                     and resolved[owner[guid]][0]["text"] != old.get("text")):
+                owner[guid] = i
+
+    items, seen, pos = [], set(), {}
+    for order, (it, page, date, guid) in enumerate(resolved):
+        if cfg.mode != "daily_pages" and owner[guid] != order and it["main_title"]:
+            guid = "%s:%s" % (guid, parsers.text_hash(it["text"]))
         if guid in seen:
             continue
         seen.add(guid)
-        it = dict(it, guid=guid, date=date, order=order)
+        it = dict(it, guid=guid, date=date, order=order, pos=pos.setdefault(it["page"], 0),
+                  page_date=date if cfg.mode == "daily_pages" else None)
+        pos[it["page"]] += 1
         it["link"] = page["url"] if page else (cfg.url(it["main_title"]) if it["main_title"] else cfg.url(it["page"]))
         if page:
             it["pageid"], it["qid"] = page["pageid"], page["qid"]
+            it["group_key"] = "pageid:%s" % page["pageid"]
             if cfg.use_extracts:
                 it["extract"] = page["extract"]
+        elif it["main_title"]:
+            it["group_key"] = "title:%s" % it["main_title"]
         items.append(it)
     return items
 
 
 def run_language(cfg, client, now, days=7, max_items=50, state_dir="state", out_dir="feeds",
-                 base_url=None, dry_run=False, article_dates=False, retention_days=90):
+                 base_url=None, dry_run=False, article_dates=False, retention_days=90, max_group=3):
     today = now.date()
     raw_items = collect(cfg, client, today, days)
     if not raw_items:
         raise RuntimeError("no items parsed; the page layout may have changed")
     pages = lookup_pages(client, [it["main_title"] for it in raw_items], extracts=cfg.use_extracts)
-    items = finalize(cfg, raw_items, pages)
-
     state_path = os.path.join(state_dir, "%s.json" % cfg.code)
     state = st.load_state(state_path)
+    items = finalize(cfg, raw_items, pages, state.get("items"))
 
     if article_dates:
         # Optional: a recently created article dates an otherwise undated item.
@@ -121,7 +148,7 @@ def run_language(cfg, client, now, days=7, max_items=50, state_dir="state", out_
             if created and created >= cutoff:
                 it["date"], it["date_source"] = created.date().isoformat(), "article_created"
 
-    new = st.merge(state, items, now, retention_days)
+    new = st.merge(state, items, now, retention_days, max_group)
     feed_items = st.latest(state, max_items)
     xml = rss.build_rss(cfg, feed_items, st.parse_iso(state["updated"]), base_url)
     if not dry_run:

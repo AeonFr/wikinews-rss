@@ -14,30 +14,61 @@ def _link(url, label):
     return '<a href="%s">%s</a>' % (html.escape(url), html.escape(label, quote=False))
 
 
-def item_description(item, cfg):
-    s = cfg.strings
-    parts = ["<p>%s</p>" % item["html"]]
-    if item.get("extract"):
-        parts.append("<p>%s</p>" % html.escape(item["extract"], quote=False))
-    if item.get("sources"):
-        parts.append("<p>%s: %s</p>" % (s["sources"], ", ".join(
-            _link(src["url"], src["name"] or src["url"]) for src in item["sources"])))
+def _sources(item, s):
+    return "<p>%s: %s</p>" % (s["sources"], ", ".join(
+        _link(src["url"], src["name"] or src["url"]) for src in item["sources"]))
+
+
+def _topics(item, cfg):
     topics = [t for t in item.get("topics", []) if t.get("title")]
-    if topics:
-        parts.append("<p>%s: %s</p>" % (s["topics"], " › ".join(
-            _link(cfg.url(t["title"]), t["label"]) for t in topics)))
-    page = item["page"]
-    parts.append("<p><small>%s</small></p>" % s["attribution"].format(
+    return "<p>%s: %s</p>" % (cfg.strings["topics"], " › ".join(
+        _link(cfg.url(t["title"]), t["label"]) for t in topics)) if topics else None
+
+
+def _attribution(page, cfg):
+    return "<p><small>%s</small></p>" % cfg.strings["attribution"].format(
         page=_link(cfg.url(page), page),
-        history=_link(cfg.history_url(page), s["history"]),
-        license=_link(LICENSE_URL, LICENSE_NAME)))
-    return "\n".join(parts)
+        history=_link(cfg.history_url(page), cfg.strings["history"]),
+        license=_link(LICENSE_URL, LICENSE_NAME))
+
+
+def item_description(item, cfg):
+    """One headline: text, extract, sources, topics, attribution.
+
+    A group lists each headline with its sources (in title order), then the article
+    extract and topics once, and an attribution line per portal page used.
+    """
+    s = cfg.strings
+    members = item.get("members") or [item]
+    if len(members) == 1:
+        it = members[0]
+        parts = ["<p>%s</p>" % it["html"]]
+        if it.get("extract"):
+            parts.append("<p>%s</p>" % html.escape(it["extract"], quote=False))
+        if it.get("sources"):
+            parts.append(_sources(it, s))
+        parts.append(_topics(it, cfg))
+        parts.append(_attribution(it["page"], cfg))
+        return "\n".join(p for p in parts if p)
+    parts = []
+    for it in members:
+        parts.append("<p>%s</p>" % it["html"])
+        if it.get("sources"):
+            parts.append(_sources(it, s))
+    extract = next((it["extract"] for it in members if it.get("extract")), None)
+    if extract:
+        parts.append("<p>%s</p>" % html.escape(extract, quote=False))
+    parts.append(next((t for t in (_topics(it, cfg) for it in members) if t), None))
+    parts += [_attribution(page, cfg) for page in dict.fromkeys(it["page"] for it in members)]
+    return "\n".join(p for p in parts if p)
 
 
 def _categories(item):
-    cats = [item.get("category")]
-    if item.get("topics"):
-        cats.append(item["topics"][-1]["label"])
+    cats = []
+    for it in item.get("members") or [item]:
+        cats.append(it.get("category"))
+        if it.get("topics"):
+            cats.append(it["topics"][-1]["label"])
     return [c for i, c in enumerate(cats) if c and c not in cats[:i]]
 
 

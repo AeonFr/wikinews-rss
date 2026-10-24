@@ -16,7 +16,7 @@ python3 wikipedia_rss.py --cache .cache     # caché HTTP en disco (30 min), út
 python3 -m unittest discover -s tests       # tests (sin red)
 ```
 
-Otras opciones (`python3 wikipedia_rss.py --help`): `--days N` (páginas diarias a leer en en, 7 por defecto), `--out DIR`, `--state DIR`, `--max-items N` (50), `--base-url URL` (URL pública del directorio de los feeds, para `atom:link rel="self"`), `--retention-days N` (90), `--article-dates`. También funciona `python3 -m wikipedia_rss`.
+Otras opciones (`python3 wikipedia_rss.py --help`): `--days N` (páginas diarias a leer en en, 7 por defecto), `--out DIR`, `--state DIR`, `--max-items N` (50), `--base-url URL` (URL pública del directorio de los feeds, para `atom:link rel="self"`), `--retention-days N` (90), `--max-group N` (3, ver *Agrupación*), `--article-dates`. También funciona `python3 -m wikipedia_rss`.
 
 El código de salida es 1 si algún idioma falla; los demás se generan igualmente.
 
@@ -32,16 +32,29 @@ Con `--article-dates`, un item sin fecha cuyo artículo se creó hace pocos día
 
 ## Deduplicación y estado
 
-Cada item tiene un `guid` estable:
+Cada titular (una entrada del portal) tiene un `guid` estable:
 
-- es: `wikipedia:es:<pageid>` del artículo principal (sigue redirecciones, así que renombrar el artículo no duplica el item).
+- es: `wikipedia:es:<pageid>` del artículo principal (sigue redirecciones, así que renombrar el artículo no duplica el item). Si otro bullet apunta al mismo artículo, recibe `wikipedia:es:<pageid>:<hash del texto>` (antes se descartaba) y se agrupa con el primero; el guid sin hash se queda con el bullet que ya lo tenía en el estado.
 - en: `wikipedia:en:<fecha>:<hash del texto>`. Si alguien edita el texto, el item se reconoce por fecha + primera URL de fuente y conserva su guid.
 
-`state/<idioma>.json` guarda cada item con `first_seen` y `pub_date`. Un item ya conocido conserva su `pub_date` aunque se actualice su contenido, así los lectores no lo marcan como nuevo. Cuando un item desaparece del portal se le añade `gone_since` (y se le quita si vuelve); se queda en el estado hasta que `gone_since` tiene más de `--retention-days` días (90). El feed muestra los `--max-items` más recientes. `state/` y `feeds/` se versionan en git: el estado es lo que evita duplicados entre ejecuciones.
+`state/<idioma>.json` guarda en `items` cada titular con `first_seen` y `pub_date`. Un titular ya conocido conserva su `pub_date` aunque se actualice su contenido, así los lectores no lo marcan como nuevo. Cuando desaparece del portal se le añade `gone_since` (y se le quita si vuelve); se queda en el estado hasta que `gone_since` tiene más de `--retention-days` días (90). El feed muestra los `--max-items` items más recientes. `state/` y `feeds/` se versionan en git: el estado es lo que evita duplicados entre ejecuciones.
+
+### Agrupación por artículo
+
+Varios titulares sobre el mismo artículo principal (mismo `pageid`; o mismo título si el artículo no existe) se publican como **un solo item**. En en es habitual: el portal repite un tema en días sucesivos (p. ej. *2026 West Bank lockdown* el 23 y el 24 de octubre). Las entradas de en sin artículo principal (enlazan a la página diaria) no se agrupan nunca.
+
+- **Título**: los titulares unidos con ` / `, en el orden en que los muestra el portal: la página diaria más reciente primero y, dentro de cada página, el orden del documento (en es, el orden de la lista).
+- **Descripción**: cada titular con sus fuentes, en el orden del título; después el extracto del artículo y los temas una sola vez, y una línea de atribución por cada página del portal usada. **Categorías**: unión sin duplicados, en orden.
+- **guid y pubDate** son los del titular más antiguo del grupo (el primero visto) y no cambian al añadirse titulares: el item cambia de contenido, pero los lectores no lo ven como nuevo. Se guardan en `groups` del estado: `{guid del grupo: {members: [guids de titulares], first_seen, pub_date}}`. Las asignaciones no se revisan nunca, lo que mantiene los guids estables; un titular agrupado sigue en `items` (no reaparece como item suelto).
+- **Ventana**: un titular nuevo solo se une a un item que siga *vigente*, es decir, con algún titular presente en el portal en esta ejecución (los últimos `--days` días en en, la lista actual en es). Si el tema vuelve cuando su item ya salió del portal, empieza un item nuevo: actualizar en silencio un item viejo con pubDate antigua no lo haría visible a nadie.
+- **Tope**: como mucho `--max-group` titulares por item (3). Así un artículo de tema largo (una guerra, una crisis) no acumula decenas de titulares en un solo item: al llenarse, el siguiente titular empieza otro item (que a su vez agrupa a los siguientes). No se descarta ningún titular. `--max-group 1` desactiva la agrupación.
+- Los titulares nuevos de una misma ejecución se procesan del más antiguo al más reciente (`pub_date`, `first_seen`, posición), de modo que el guid del grupo es siempre el del miembro más antiguo.
+
+**Migración**: un estado sin la clave `groups` (de versiones anteriores) se reagrupa en la primera ejecución: los titulares presentes en el portal se agrupan con las reglas anteriores, cada grupo reutiliza el guid y la pubDate del miembro más antiguo (así no aparece como item nuevo) y los guids absorbidos desaparecen del feed, aunque siguen en `items` para no volver a salir sueltos.
 
 ### Salida estable
 
-Una ejecución sin cambios reales deja `feeds/` y `state/` idénticos byte a byte (y no reescribe los archivos). Cambio real es un item nuevo, uno que desaparece del portal o se elimina por retención, o un cambio en el contenido de un item (título, descripción, enlaces, categoría, fecha). Para ello no se guardan marcas de tiempo por ejecución:
+Una ejecución sin cambios reales deja `feeds/` y `state/` idénticos byte a byte (y no reescribe los archivos). Cambio real es un item nuevo, uno que desaparece del portal o se elimina por retención, un titular que se une a un grupo, o un cambio en el contenido de un item (título, descripción, enlaces, categoría, fecha). Para ello no se guardan marcas de tiempo por ejecución:
 
 - `updated` en el estado es el momento del último cambio real, y es también el `lastBuildDate` del feed.
 - No hay `last_seen` por item; la retención usa `gone_since`, que solo se escribe cuando el item desaparece.

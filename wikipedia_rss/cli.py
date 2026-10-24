@@ -23,6 +23,8 @@ def main(argv=None):
     ap.add_argument("--cache", metavar="DIR", help="caché HTTP en disco (30 min)")
     ap.add_argument("--retention-days", type=int, default=90,
                     help="días que se conserva en el estado un item que ya no aparece")
+    ap.add_argument("--max-group", type=int, default=3,
+                    help="máximo de titulares sobre el mismo artículo agrupados en un item (1 desactiva la agrupación)")
     ap.add_argument("--article-dates", action="store_true",
                     help="fechar items sin fecha con la creación del artículo si es reciente (1 petición por item nuevo)")
     ap.add_argument("--dry-run", action="store_true", help="no escribe feeds ni estado; muestra un resumen")
@@ -42,7 +44,7 @@ def main(argv=None):
             res = run_language(cfg, client, now, days=args.days, max_items=args.max_items,
                                state_dir=args.state, out_dir=args.out, base_url=args.base_url,
                                dry_run=args.dry_run, article_dates=args.article_dates,
-                               retention_days=args.retention_days)
+                               retention_days=args.retention_days, max_group=args.max_group)
         except Exception as e:
             log.error("%s: failed: %s", code, e, exc_info=args.verbose)
             failed.append(code)
