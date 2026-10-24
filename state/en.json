@@ -1,21 +1,5 @@
 {
  "groups": {
-  "wikipedia:en:2026-10-18:674587665837": {
-   "first_seen": "2026-10-24T09:15:58Z",
-   "members": [
-    "wikipedia:en:2026-10-18:674587665837",
-    "wikipedia:en:2026-10-21:0a86829bf4b5"
-   ],
-   "pub_date": "2026-10-18T00:00:00Z"
-  },
-  "wikipedia:en:2026-10-18:a126ca0f5899": {
-   "first_seen": "2026-10-24T09:15:58Z",
-   "members": [
-    "wikipedia:en:2026-10-18:a126ca0f5899",
-    "wikipedia:en:2026-10-22:17cf24bd5e6f"
-   ],
-   "pub_date": "2026-10-18T00:00:00Z"
-  },
   "wikipedia:en:2026-10-19:7891857af553": {
    "first_seen": "2026-10-24T09:15:58Z",
    "members": [
@@ -24,30 +8,6 @@
    ],
    "pub_date": "2026-10-19T00:00:00Z"
   },
-  "wikipedia:en:2026-10-19:866f99899903": {
-   "first_seen": "2026-10-24T09:15:58Z",
-   "members": [
-    "wikipedia:en:2026-10-19:866f99899903",
-    "wikipedia:en:2026-10-20:81fdef49b169"
-   ],
-   "pub_date": "2026-10-19T00:00:00Z"
-  },
-  "wikipedia:en:2026-10-20:1b4d51fbbc79": {
-   "first_seen": "2026-10-24T09:15:58Z",
-   "members": [
-    "wikipedia:en:2026-10-20:1b4d51fbbc79",
-    "wikipedia:en:2026-10-21:ff07cad49c0b"
-   ],
-   "pub_date": "2026-10-20T00:00:00Z"
-  },
-  "wikipedia:en:2026-10-20:27695276ce45": {
-   "first_seen": "2026-10-24T09:15:58Z",
-   "members": [
-    "wikipedia:en:2026-10-20:27695276ce45",
-    "wikipedia:en:2026-10-22:7582d968dc2b"
-   ],
-   "pub_date": "2026-10-20T00:00:00Z"
-  },
   "wikipedia:en:2026-10-21:08547ca9719d": {
    "first_seen": "2026-10-24T09:15:58Z",
    "members": [
@@ -55,30 +15,6 @@
     "wikipedia:en:2026-10-21:5aca3eedb554"
    ],
    "pub_date": "2026-10-21T00:00:00Z"
-  },
-  "wikipedia:en:2026-10-21:c44afae56fb6": {
-   "first_seen": "2026-10-24T09:15:58Z",
-   "members": [
-    "wikipedia:en:2026-10-21:c44afae56fb6",
-    "wikipedia:en:2026-10-22:a7f69410f239"
-   ],
-   "pub_date": "2026-10-21T00:00:00Z"
-  },
-  "wikipedia:en:2026-10-23:ae82be5b60bd": {
-   "first_seen": "2026-10-24T09:15:58Z",
-   "members": [
-    "wikipedia:en:2026-10-23:ae82be5b60bd",
-    "wikipedia:en:2026-10-24:6be57464bbda"
-   ],
-   "pub_date": "2026-10-23T00:00:00Z"
-  },
-  "wikipedia:en:2026-10-23:b96d0b8e2f76": {
-   "first_seen": "2026-10-24T09:15:58Z",
-   "members": [
-    "wikipedia:en:2026-10-23:b96d0b8e2f76",
-    "wikipedia:en:2026-10-24:cb9db550b7d6"
-   ],
-   "pub_date": "2026-10-23T00:00:00Z"
   }
  },
  "items": {
@@ -4085,5 +4021,5 @@
    ]
   }
  },
- "updated": "2026-10-24T12:20:57Z"
+ "updated": "2026-10-24T12:22:00Z"
 }

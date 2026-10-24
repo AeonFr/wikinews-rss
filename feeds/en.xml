@@ -6,11 +6,35 @@
     <description>News items from Wikipedia's Portal:Current events, one item per entry of the daily pages. Text from Wikipedia contributors, licensed under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). (history: https://en.wikipedia.org/w/index.php?title=Portal:Current_events&amp;action=history)</description>
     <language>en</language>
     <copyright>Text from Wikipedia contributors, licensed under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).</copyright>
-    <lastBuildDate>Sat, 24 Oct 2026 12:20:57 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 12:22:00 GMT</lastBuildDate>
     <generator>wikipedia-noticias-rss</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
     <atom:link href="https://aeonfr.github.io/wikinews-rss/feeds/en.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Israeli military raids 15 cities in the occupied West Bank, arresting several Palestinians and destroying a three-storey building in Hebron.</title>
+      <link>https://en.wikipedia.org/wiki/2026_West_Bank_lockdown</link>
+      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Israel"&gt;Israeli&lt;/a&gt; military raids 15 cities in the occupied &lt;a href="https://en.wikipedia.org/wiki/West_Bank"&gt;West Bank&lt;/a&gt;, arresting several &lt;a href="https://en.wikipedia.org/wiki/Palestinians"&gt;Palestinians&lt;/a&gt; and destroying a three-storey building in &lt;a href="https://en.wikipedia.org/wiki/Hebron"&gt;Hebron&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/10/24/israel-raids-towns-detains-dozens-of-palestinians-in-occupied-west-bank"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Gaza_war"&gt;Gaza war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_West_Bank_lockdown"&gt;2026 West Bank lockdown&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_24"&gt;Portal:Current events/2026 October 24&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_24&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-10-24:6be57464bbda</guid>
+      <pubDate>Sat, 24 Oct 2026 09:15:58 GMT</pubDate>
+      <category>Armed conflicts and attacks</category>
+      <category>2026 West Bank lockdown</category>
+    </item>
+    <item>
+      <title>A critically wounded woman succumbs to her injuries sustained yesterday during a mass shooting at a Greek Orthodox Church in Karak Governorate, Jordan, bringing the toll to eight killed and 39…</title>
+      <link>https://en.wikipedia.org/wiki/2026_Karak_church_shooting</link>
+      <description>&lt;p&gt;A critically wounded woman succumbs to her injuries sustained yesterday during a &lt;a href="https://en.wikipedia.org/wiki/Mass_shooting"&gt;mass shooting&lt;/a&gt; at a &lt;a href="https://en.wikipedia.org/wiki/Greek_Orthodox_Patriarchate_of_Jerusalem"&gt;Greek Orthodox Church&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Karak_Governorate"&gt;Karak Governorate&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Jordan"&gt;Jordan&lt;/a&gt;, bringing the toll to eight killed and 39 injured.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://en.ammonnews.net/mobile/article/96443"&gt;Ammon News&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Karak_church_shooting"&gt;2026 Karak church shooting&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_24"&gt;Portal:Current events/2026 October 24&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_24&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-10-24:cb9db550b7d6</guid>
+      <pubDate>Sat, 24 Oct 2026 09:15:58 GMT</pubDate>
+      <category>Law and crime</category>
+      <category>2026 Karak church shooting</category>
+    </item>
     <item>
       <title>Two Philippine Air Force (PAF) SF-260 aircraft collide during a low-altitude training flight and crash at Basilio Fernando Air Base in Lipa, Batangas, killing all four pilots aboard.</title>
       <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_23</link>
@@ -22,34 +46,16 @@
       <category>Disasters and accidents</category>
     </item>
     <item>
-      <title>The Israeli military raids 15 cities in the occupied West Bank, arresting several Palestinians and destroying a three-storey building in Hebron. / The Israeli government orders the military to prepare for a complete lockdown of the West Bank.</title>
+      <title>The Israeli government orders the military to prepare for a complete lockdown of the West Bank.</title>
       <link>https://en.wikipedia.org/wiki/2026_West_Bank_lockdown</link>
-      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Israel"&gt;Israeli&lt;/a&gt; military raids 15 cities in the occupied &lt;a href="https://en.wikipedia.org/wiki/West_Bank"&gt;West Bank&lt;/a&gt;, arresting several &lt;a href="https://en.wikipedia.org/wiki/Palestinians"&gt;Palestinians&lt;/a&gt; and destroying a three-storey building in &lt;a href="https://en.wikipedia.org/wiki/Hebron"&gt;Hebron&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/10/24/israel-raids-towns-detains-dozens-of-palestinians-in-occupied-west-bank"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Israel"&gt;Israeli&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Israeli_government"&gt;government&lt;/a&gt; orders &lt;a href="https://en.wikipedia.org/wiki/Israel_Defense_Forces"&gt;the military&lt;/a&gt; to prepare for a complete &lt;a href="https://en.wikipedia.org/wiki/Lockdown"&gt;lockdown&lt;/a&gt; of the &lt;a href="https://en.wikipedia.org/wiki/West_Bank"&gt;West Bank&lt;/a&gt;. This comes after two men who allegedly planned an attack were killed.&lt;/p&gt;
+      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Israel"&gt;Israeli&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Israeli_government"&gt;government&lt;/a&gt; orders &lt;a href="https://en.wikipedia.org/wiki/Israel_Defense_Forces"&gt;the military&lt;/a&gt; to prepare for a complete &lt;a href="https://en.wikipedia.org/wiki/Lockdown"&gt;lockdown&lt;/a&gt; of the &lt;a href="https://en.wikipedia.org/wiki/West_Bank"&gt;West Bank&lt;/a&gt;. This comes after two men who allegedly planned an attack were killed.&lt;/p&gt;
 &lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/10/23/israel-arrests-36-palestinians-in-the-west-bank-attacks-on-farmers-ramp-up"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Gaza_war"&gt;Gaza war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_West_Bank_lockdown"&gt;2026 West Bank lockdown&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_24"&gt;Portal:Current events/2026 October 24&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_24&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_23"&gt;Portal:Current events/2026 October 23&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_23&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:en:2026-10-23:ae82be5b60bd</guid>
       <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
       <category>Armed conflicts and attacks</category>
       <category>2026 West Bank lockdown</category>
-    </item>
-    <item>
-      <title>A critically wounded woman succumbs to her injuries sustained yesterday during a mass shooting at a Greek Orthodox Church in Karak Governorate, Jordan, bringing the toll to eight killed and 39… / Seven people are killed and 34 others are wounded in a mass shooting during a funeral procession at a Greek Orthodox Church in Hamoud, Karak Governorate, Jordan.</title>
-      <link>https://en.wikipedia.org/wiki/2026_Karak_church_shooting</link>
-      <description>&lt;p&gt;A critically wounded woman succumbs to her injuries sustained yesterday during a &lt;a href="https://en.wikipedia.org/wiki/Mass_shooting"&gt;mass shooting&lt;/a&gt; at a &lt;a href="https://en.wikipedia.org/wiki/Greek_Orthodox_Patriarchate_of_Jerusalem"&gt;Greek Orthodox Church&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Karak_Governorate"&gt;Karak Governorate&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Jordan"&gt;Jordan&lt;/a&gt;, bringing the toll to eight killed and 39 injured.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://en.ammonnews.net/mobile/article/96443"&gt;Ammon News&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Seven people are killed and 34 others are wounded in a &lt;a href="https://en.wikipedia.org/wiki/Mass_shooting"&gt;mass shooting&lt;/a&gt; during a &lt;a href="https://en.wikipedia.org/wiki/Funeral_procession"&gt;funeral procession&lt;/a&gt; at a &lt;a href="https://en.wikipedia.org/wiki/Greek_Orthodox_Patriarchate_of_Jerusalem"&gt;Greek Orthodox Church&lt;/a&gt; in Hamoud, &lt;a href="https://en.wikipedia.org/wiki/Karak_Governorate"&gt;Karak Governorate&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Jordan"&gt;Jordan&lt;/a&gt;. All of the gunmen escape from the scene.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/10/23/at-least-seven-killed-after-gunmen-open-fire-at-church-in-jordan"&gt;Al Jazeera&lt;/a&gt;, &lt;a href="https://apnews.com/article/jordan-gunmen-greek-orthodox-church-deaths-karak-19599ce75b9ab6749a1e1bf2ff66f2ab"&gt;AP&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Karak_church_shooting"&gt;2026 Karak church shooting&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_24"&gt;Portal:Current events/2026 October 24&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_24&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_23"&gt;Portal:Current events/2026 October 23&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_23&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-23:b96d0b8e2f76</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Law and crime</category>
-      <category>2026 Karak church shooting</category>
     </item>
     <item>
       <title>A merchant ship is hit by drones of unknown origins in the Romanian Black Sea, killing a crew member and leaving three more missing.</title>
@@ -122,6 +128,18 @@
       <category>Australia–North Korea relations, North Korean remote worker scheme</category>
     </item>
     <item>
+      <title>Seven people are killed and 34 others are wounded in a mass shooting during a funeral procession at a Greek Orthodox Church in Hamoud, Karak Governorate, Jordan.</title>
+      <link>https://en.wikipedia.org/wiki/2026_Karak_church_shooting</link>
+      <description>&lt;p&gt;Seven people are killed and 34 others are wounded in a &lt;a href="https://en.wikipedia.org/wiki/Mass_shooting"&gt;mass shooting&lt;/a&gt; during a &lt;a href="https://en.wikipedia.org/wiki/Funeral_procession"&gt;funeral procession&lt;/a&gt; at a &lt;a href="https://en.wikipedia.org/wiki/Greek_Orthodox_Patriarchate_of_Jerusalem"&gt;Greek Orthodox Church&lt;/a&gt; in Hamoud, &lt;a href="https://en.wikipedia.org/wiki/Karak_Governorate"&gt;Karak Governorate&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Jordan"&gt;Jordan&lt;/a&gt;. All of the gunmen escape from the scene.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/10/23/at-least-seven-killed-after-gunmen-open-fire-at-church-in-jordan"&gt;Al Jazeera&lt;/a&gt;, &lt;a href="https://apnews.com/article/jordan-gunmen-greek-orthodox-church-deaths-karak-19599ce75b9ab6749a1e1bf2ff66f2ab"&gt;AP&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Karak_church_shooting"&gt;2026 Karak church shooting&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_23"&gt;Portal:Current events/2026 October 23&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_23&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-10-23:b96d0b8e2f76</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Law and crime</category>
+      <category>2026 Karak church shooting</category>
+    </item>
+    <item>
       <title>The Eagle's Nest in Germany is lit on fire.</title>
       <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_23</link>
       <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Kehlsteinhaus"&gt;Eagle's Nest&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Germany"&gt;Germany&lt;/a&gt; is lit on fire. A suspect is arrested.&lt;/p&gt;
@@ -154,6 +172,18 @@
       <category>Sports</category>
     </item>
     <item>
+      <title>Iran's Islamic Revolutionary Guard Corps reports that seven oil tankers have been hit in the Strait of Hormuz.</title>
+      <link>https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis</link>
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Iran"&gt;Iran&lt;/a&gt;'s &lt;a href="https://en.wikipedia.org/wiki/Islamic_Revolutionary_Guard_Corps"&gt;Islamic Revolutionary Guard Corps&lt;/a&gt; reports that seven oil tankers have been hit in the &lt;a href="https://en.wikipedia.org/wiki/Strait_of_Hormuz"&gt;Strait of Hormuz&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/10/22/iran-says-seven-ships-hit-in-hormuz-strait-warns-us-of-wider-response"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"&gt;Middle Eastern crisis&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_Iran_war"&gt;2026 Iran war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"&gt;2026 Strait of Hormuz crisis&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_22"&gt;Portal:Current events/2026 October 22&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_22&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-10-22:17cf24bd5e6f</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Armed conflicts and attacks</category>
+      <category>2026 Strait of Hormuz crisis</category>
+    </item>
+    <item>
       <title>Al-Qaeda gunmen ambush Yemeni Armed Forces soldiers at a mountainous area in the Shabwah Governorate, killing two soldiers and wounding several more.</title>
       <link>https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)</link>
       <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Al-Qaeda_in_the_Arabian_Peninsula"&gt;Al-Qaeda&lt;/a&gt; gunmen &lt;a href="https://en.wikipedia.org/wiki/Ambush"&gt;ambush&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Yemeni_Armed_Forces"&gt;Yemeni Armed Forces&lt;/a&gt; soldiers at a &lt;a href="https://en.wikipedia.org/wiki/Mountain"&gt;mountainous&lt;/a&gt; area in the &lt;a href="https://en.wikipedia.org/wiki/Shabwah_Governorate"&gt;Shabwah Governorate&lt;/a&gt;, killing two soldiers and wounding several more.&lt;/p&gt;
@@ -164,6 +194,30 @@
       <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
       <category>Armed conflicts and attacks</category>
       <category>Yemeni civil war, Al-Qaeda insurgency in Yemen</category>
+    </item>
+    <item>
+      <title>El Salvador deploys 100 special forces soldiers to Haiti to assist in the search efforts for the four missing Air Force technicians attached to the Gang Suppression Force.</title>
+      <link>https://en.wikipedia.org/wiki/2026_Croix-des-Bouquets_gang_ambush</link>
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/El_Salvador"&gt;El Salvador&lt;/a&gt; deploys 100 special forces &lt;a href="https://en.wikipedia.org/wiki/Salvadoran_Army"&gt;soldiers&lt;/a&gt; to &lt;a href="https://en.wikipedia.org/wiki/Haiti"&gt;Haiti&lt;/a&gt; to assist in the search efforts for the four missing &lt;a href="https://en.wikipedia.org/wiki/Salvadoran_Air_Force"&gt;Air Force&lt;/a&gt; technicians attached to the &lt;a href="https://en.wikipedia.org/wiki/Gang_Suppression_Force"&gt;Gang Suppression Force&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://apnews.com/article/el-salvador-haiti-special-forces-gangs-03ec2bf89616d8b313c54da34c24eab1"&gt;AP&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Haitian_conflict"&gt;Haitian conflict&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_Croix-des-Bouquets_gang_ambush"&gt;2026 Croix-des-Bouquets gang ambush&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_22"&gt;Portal:Current events/2026 October 22&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_22&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-10-22:a7f69410f239</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Armed conflicts and attacks</category>
+      <category>2026 Croix-des-Bouquets gang ambush</category>
+    </item>
+    <item>
+      <title>The Sudanese Armed Forces recaptures two strategic areas in Sudan's Blue Nile state, including the Bukuri base in Ad-Damazin.</title>
+      <link>https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign</link>
+      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Sudanese_Armed_Forces"&gt;Sudanese Armed Forces&lt;/a&gt; recaptures two strategic areas in &lt;a href="https://en.wikipedia.org/wiki/Sudan"&gt;Sudan&lt;/a&gt;'s &lt;a href="https://en.wikipedia.org/wiki/Blue_Nile_State"&gt;Blue Nile&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/States_of_Sudan"&gt;state&lt;/a&gt;, including the Bukuri base in &lt;a href="https://en.wikipedia.org/wiki/Ad-Damazin"&gt;Ad-Damazin&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://sudantribune.com/article/320301"&gt;Sudan Tribune&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Sudanese_civil_war_(2023%E2%80%93present)"&gt;Sudanese civil war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"&gt;Blue Nile campaign&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_22"&gt;Portal:Current events/2026 October 22&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_22&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-10-22:7582d968dc2b</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Armed conflicts and attacks</category>
+      <category>Blue Nile campaign</category>
     </item>
     <item>
       <title>British singer Raye wins the 2026 Mercury Prize for her album This Music May Contain Hope.</title>
@@ -334,21 +388,6 @@
       <category>Sports</category>
     </item>
     <item>
-      <title>El Salvador deploys 100 special forces soldiers to Haiti to assist in the search efforts for the four missing Air Force technicians attached to the Gang Suppression Force. / Salvadoran president Nayib Bukele announces the start of a military operation to rescue four Air Force technicians.</title>
-      <link>https://en.wikipedia.org/wiki/2026_Croix-des-Bouquets_gang_ambush</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/El_Salvador"&gt;El Salvador&lt;/a&gt; deploys 100 special forces &lt;a href="https://en.wikipedia.org/wiki/Salvadoran_Army"&gt;soldiers&lt;/a&gt; to &lt;a href="https://en.wikipedia.org/wiki/Haiti"&gt;Haiti&lt;/a&gt; to assist in the search efforts for the four missing &lt;a href="https://en.wikipedia.org/wiki/Salvadoran_Air_Force"&gt;Air Force&lt;/a&gt; technicians attached to the &lt;a href="https://en.wikipedia.org/wiki/Gang_Suppression_Force"&gt;Gang Suppression Force&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://apnews.com/article/el-salvador-haiti-special-forces-gangs-03ec2bf89616d8b313c54da34c24eab1"&gt;AP&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/El_Salvador"&gt;Salvadoran&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/President_of_El_Salvador"&gt;president&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Nayib_Bukele"&gt;Nayib Bukele&lt;/a&gt; announces the start of a &lt;a href="https://en.wikipedia.org/wiki/Armed_Forces_of_El_Salvador"&gt;military&lt;/a&gt; operation to rescue four &lt;a href="https://en.wikipedia.org/wiki/Salvadoran_Air_Force"&gt;Air Force&lt;/a&gt; technicians. The technicians, attached to the international &lt;a href="https://en.wikipedia.org/wiki/Gang_Suppression_Force"&gt;Gang Suppression Force&lt;/a&gt;, were taken hostage after gangs attacked their armored vehicle on 18 October.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.reuters.com/world/americas/el-salvador-says-haiti-gangs-holding-4-force-members-hostage-announces-new-2026-10-21/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Haitian_conflict"&gt;Haitian conflict&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_Croix-des-Bouquets_gang_ambush"&gt;2026 Croix-des-Bouquets gang ambush&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_22"&gt;Portal:Current events/2026 October 22&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_22&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21"&gt;Portal:Current events/2026 October 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-21:c44afae56fb6</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Armed conflicts and attacks</category>
-      <category>2026 Croix-des-Bouquets gang ambush</category>
-    </item>
-    <item>
       <title>Two people are killed and eight others are injured in a Houthi attack on King Fahd International Airport in Dammam, Saudi Arabia.</title>
       <link>https://en.wikipedia.org/wiki/2026_Houthi_attacks_on_Saudi_airports</link>
       <description>&lt;p&gt;Two people are killed and eight others are injured in a &lt;a href="https://en.wikipedia.org/wiki/Houthis"&gt;Houthi&lt;/a&gt; attack on &lt;a href="https://en.wikipedia.org/wiki/King_Fahd_International_Airport"&gt;King Fahd International Airport&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Dammam"&gt;Dammam&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Saudi_Arabia"&gt;Saudi Arabia&lt;/a&gt;.&lt;/p&gt;
@@ -373,6 +412,18 @@
       <category>Saudi Arabia–United States relations</category>
     </item>
     <item>
+      <title>Two people are killed and two others are injured by debris after a suspected Houthi drone is shot down near Shaybah oil field in Eastern Province, Saudi Arabia.</title>
+      <link>https://en.wikipedia.org/wiki/Houthi%E2%80%93Saudi_conflict</link>
+      <description>&lt;p&gt;Two people are killed and two others are injured by debris after a suspected Houthi drone is shot down near &lt;a href="https://en.wikipedia.org/wiki/Shaybah_oil_field"&gt;Shaybah oil field&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Eastern_Province,_Saudi_Arabia"&gt;Eastern Province&lt;/a&gt;, Saudi Arabia.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.abs-cbn.com/news/nation/2026/10/22/filipino-killed-in-drone-attack-targeting-saudi-arabia-oil-field-1739"&gt;ABS-CBN News&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"&gt;Middle Eastern crisis&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)"&gt;Yemeni civil war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Houthi%E2%80%93Saudi_conflict"&gt;Houthi–Saudi conflict&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21"&gt;Portal:Current events/2026 October 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-10-21:ff07cad49c0b</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Armed conflicts and attacks</category>
+      <category>Houthi–Saudi conflict</category>
+    </item>
+    <item>
       <title>The Israel Defense Forces (IDF) and Shin Bet say that they have killed Musa Abd Muhammad Hamouda, a Hamas Nukhba forces militant that took part in planning the killing of four IDF soldiers in…</title>
       <link>https://en.wikipedia.org/wiki/2025_Gaza_City_offensive</link>
       <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Israel_Defense_Forces"&gt;Israel Defense Forces&lt;/a&gt; (IDF) and &lt;a href="https://en.wikipedia.org/wiki/Shin_Bet"&gt;Shin Bet&lt;/a&gt; say that they have killed Musa Abd Muhammad Hamouda, a &lt;a href="https://en.wikipedia.org/wiki/Hamas"&gt;Hamas&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Nukhba_forces"&gt;Nukhba forces&lt;/a&gt; militant that took part in planning the killing of four IDF soldiers in &lt;a href="https://en.wikipedia.org/wiki/2025_Gaza_City_offensive"&gt;September 2025&lt;/a&gt;.&lt;/p&gt;
@@ -385,12 +436,24 @@
       <category>2025 Gaza City offensive</category>
     </item>
     <item>
-      <title>United States special envoy Steve Witkoff arrives in Saint Petersburg to talk with Russian president Vladimir Putin about potentially resolving the war with Ukraine. / American military veteran Stephen Hubbard, who was arrested by Russian authorities in 2022 during the Battle of Izium, is released from custody during the meeting between Putin and Witkoff.</title>
+      <title>Salvadoran president Nayib Bukele announces the start of a military operation to rescue four Air Force technicians.</title>
+      <link>https://en.wikipedia.org/wiki/2026_Croix-des-Bouquets_gang_ambush</link>
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/El_Salvador"&gt;Salvadoran&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/President_of_El_Salvador"&gt;president&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Nayib_Bukele"&gt;Nayib Bukele&lt;/a&gt; announces the start of a &lt;a href="https://en.wikipedia.org/wiki/Armed_Forces_of_El_Salvador"&gt;military&lt;/a&gt; operation to rescue four &lt;a href="https://en.wikipedia.org/wiki/Salvadoran_Air_Force"&gt;Air Force&lt;/a&gt; technicians. The technicians, attached to the international &lt;a href="https://en.wikipedia.org/wiki/Gang_Suppression_Force"&gt;Gang Suppression Force&lt;/a&gt;, were taken hostage after gangs attacked their armored vehicle on 18 October.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.reuters.com/world/americas/el-salvador-says-haiti-gangs-holding-4-force-members-hostage-announces-new-2026-10-21/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Haitian_conflict"&gt;Haitian conflict&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_Croix-des-Bouquets_gang_ambush"&gt;2026 Croix-des-Bouquets gang ambush&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21"&gt;Portal:Current events/2026 October 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-10-21:c44afae56fb6</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Armed conflicts and attacks</category>
+      <category>2026 Croix-des-Bouquets gang ambush</category>
+    </item>
+    <item>
+      <title>American military veteran Stephen Hubbard, who was arrested by Russian authorities in 2022 during the Battle of Izium, is released from custody during the meeting between Putin and Witkoff. / United States special envoy Steve Witkoff arrives in Saint Petersburg to talk with Russian president Vladimir Putin about potentially resolving the war with Ukraine.</title>
       <link>https://en.wikipedia.org/wiki/Peace_negotiations_in_the_Russo-Ukrainian_war</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/United_States_special_envoy"&gt;United States special envoy&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Steve_Witkoff"&gt;Steve Witkoff&lt;/a&gt; arrives in &lt;a href="https://en.wikipedia.org/wiki/Saint_Petersburg"&gt;Saint Petersburg&lt;/a&gt; to talk with &lt;a href="https://en.wikipedia.org/wiki/Russia"&gt;Russian&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/President_of_Russia"&gt;president&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Vladimir_Putin"&gt;Vladimir Putin&lt;/a&gt; about potentially resolving the &lt;a href="https://en.wikipedia.org/wiki/Russo-Ukrainian_war"&gt;war&lt;/a&gt; with &lt;a href="https://en.wikipedia.org/wiki/Ukraine"&gt;Ukraine&lt;/a&gt;. Putin states he would resume &lt;a href="https://en.wikipedia.org/wiki/United_States"&gt;United States&lt;/a&gt;-mediated trilateral peace talks with Ukraine, on or after November 10.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.reuters.com/world/us-envoy-witkoff-arrives-st-petersburg-talks-with-putin-2026-10-21/"&gt;Reuters&lt;/a&gt;, &lt;a href="https://www.reuters.com/world/europe/putin-hosts-trump-envoy-new-ukraine-peace-talks-frees-us-citizen-held-russia-2026-10-21/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/United_States_Armed_Forces"&gt;American military&lt;/a&gt; veteran &lt;a href="https://en.wikipedia.org/wiki/Stephen_Hubbard"&gt;Stephen Hubbard&lt;/a&gt;, who was arrested by &lt;a href="https://en.wikipedia.org/wiki/Government_of_Russia"&gt;Russian authorities&lt;/a&gt; in 2022 during the &lt;a href="https://en.wikipedia.org/wiki/Battle_of_Izium"&gt;Battle of Izium&lt;/a&gt;, is released from custody during the meeting between Putin and Witkoff.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/United_States_Armed_Forces"&gt;American military&lt;/a&gt; veteran &lt;a href="https://en.wikipedia.org/wiki/Stephen_Hubbard"&gt;Stephen Hubbard&lt;/a&gt;, who was arrested by &lt;a href="https://en.wikipedia.org/wiki/Government_of_Russia"&gt;Russian authorities&lt;/a&gt; in 2022 during the &lt;a href="https://en.wikipedia.org/wiki/Battle_of_Izium"&gt;Battle of Izium&lt;/a&gt;, is released from custody during the meeting between Putin and Witkoff.&lt;/p&gt;
 &lt;p&gt;Sources: &lt;a href="https://apnews.com/article/russia-american-released-stephen-hubbard-ukraine-witkoff-2c7e34d6606be242ed4a7473e57110c7"&gt;AP&lt;/a&gt;, &lt;a href="https://www.bbc.com/news/articles/c6m24l9v3745o"&gt;BBC News&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/United_States_special_envoy"&gt;United States special envoy&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Steve_Witkoff"&gt;Steve Witkoff&lt;/a&gt; arrives in &lt;a href="https://en.wikipedia.org/wiki/Saint_Petersburg"&gt;Saint Petersburg&lt;/a&gt; to talk with &lt;a href="https://en.wikipedia.org/wiki/Russia"&gt;Russian&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/President_of_Russia"&gt;president&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Vladimir_Putin"&gt;Vladimir Putin&lt;/a&gt; about potentially resolving the &lt;a href="https://en.wikipedia.org/wiki/Russo-Ukrainian_war"&gt;war&lt;/a&gt; with &lt;a href="https://en.wikipedia.org/wiki/Ukraine"&gt;Ukraine&lt;/a&gt;. Putin states he would resume &lt;a href="https://en.wikipedia.org/wiki/United_States"&gt;United States&lt;/a&gt;-mediated trilateral peace talks with Ukraine, on or after November 10.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.reuters.com/world/us-envoy-witkoff-arrives-st-petersburg-talks-with-putin-2026-10-21/"&gt;Reuters&lt;/a&gt;, &lt;a href="https://www.reuters.com/world/europe/putin-hosts-trump-envoy-new-ukraine-peace-talks-frees-us-citizen-held-russia-2026-10-21/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Russo-Ukrainian_war_(2022%E2%80%93present)"&gt;Russo-Ukrainian war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Peace_negotiations_in_the_Russo-Ukrainian_war"&gt;Peace negotiations in the Russo-Ukrainian war, United States and the Russo-Ukrainian war&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21"&gt;Portal:Current events/2026 October 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:en:2026-10-21:08547ca9719d</guid>
@@ -465,6 +528,18 @@
       <category>2026 Italian unrest</category>
     </item>
     <item>
+      <title>Taiwanese prosecutors indict five people for allegedly accepting money and planning to injure Huang Yihao, an anti-Chinese Communist Party comedian in New Taipei City.</title>
+      <link>https://en.wikipedia.org/wiki/Cross-strait_relations</link>
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Taiwan"&gt;Taiwanese&lt;/a&gt; prosecutors indict five people for allegedly accepting money and planning to injure Huang Yihao, an anti-&lt;a href="https://en.wikipedia.org/wiki/Chinese_Communist_Party"&gt;Chinese Communist Party&lt;/a&gt; comedian in &lt;a href="https://en.wikipedia.org/wiki/New_Taipei_City"&gt;New Taipei City&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://apnews.com/article/taiwan-china-xi-jinping-comedian-huang-attacked-5de1ede690a3881d79f74624e81acf0c"&gt;AP&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Cross-strait_relations"&gt;Cross-strait relations&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21"&gt;Portal:Current events/2026 October 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-10-21:0a86829bf4b5</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Law and crime</category>
+      <category>Cross-strait relations</category>
+    </item>
+    <item>
       <title>A district judge in New Mexico, United States, orders Meta to pay $25 billion after a jury found it guilty of misleading Facebook users about privacy violations, marking its largest fine ever.</title>
       <link>https://en.wikipedia.org/wiki/Lawsuits_involving_Meta_Platforms</link>
       <description>&lt;p&gt;A &lt;a href="https://en.wikipedia.org/wiki/United_States_District_Court_for_the_District_of_New_Mexico"&gt;district judge&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/New_Mexico"&gt;New Mexico&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/United_States"&gt;United States&lt;/a&gt;, orders &lt;a href="https://en.wikipedia.org/wiki/Meta_Platforms"&gt;Meta&lt;/a&gt; to pay $25 billion after a jury found it guilty of misleading &lt;a href="https://en.wikipedia.org/wiki/Facebook"&gt;Facebook&lt;/a&gt; users about privacy violations, marking its largest fine ever.&lt;/p&gt;
@@ -507,96 +582,6 @@
       <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
       <category>Politics and elections</category>
       <category>2026 European unrest</category>
-    </item>
-    <item>
-      <title>Paul St-Pierre Plamondon is sworn in as the 34th premier of Quebec, Canada, following the Parti Québécois's victory in the general election.</title>
-      <link>https://en.wikipedia.org/wiki/2026_Quebec_general_election</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Paul_St-Pierre_Plamondon"&gt;Paul St-Pierre Plamondon&lt;/a&gt; is sworn in as the 34th &lt;a href="https://en.wikipedia.org/wiki/Premier_of_Quebec"&gt;premier of Quebec&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Canada"&gt;Canada&lt;/a&gt;, following the &lt;a href="https://en.wikipedia.org/wiki/Parti_Qu%C3%A9b%C3%A9cois"&gt;Parti Québécois&lt;/a&gt;'s victory in the &lt;a href="https://en.wikipedia.org/wiki/2026_Quebec_general_election"&gt;general election&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.theglobeandmail.com/canada/article-paul-st-pierre-plamondon-quebec-premier-cabinet-independence-minister/"&gt;The Globe and Mail&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Quebec_general_election"&gt;2026 Quebec general election, St-Pierre Plamondon ministry&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21"&gt;Portal:Current events/2026 October 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-21:c583aaf82bb2</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Politics and elections</category>
-      <category>2026 Quebec general election, St-Pierre Plamondon ministry</category>
-    </item>
-    <item>
-      <title>American video game publisher Electronic Arts, which was recently bought-out by Saudi Arabia's Public Investment Fund, announces the closing of its Canadian studio BioWare.</title>
-      <link>https://en.wikipedia.org/wiki/Leveraged_buyout_of_Electronic_Arts</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Video_games_in_the_United_States"&gt;American video game&lt;/a&gt; publisher &lt;a href="https://en.wikipedia.org/wiki/Electronic_Arts"&gt;Electronic Arts&lt;/a&gt;, which was recently &lt;a href="https://en.wikipedia.org/wiki/Bought_out_deal"&gt;bought-out&lt;/a&gt; by &lt;a href="https://en.wikipedia.org/wiki/Saudi_Arabia"&gt;Saudi Arabia&lt;/a&gt;'s &lt;a href="https://en.wikipedia.org/wiki/Public_Investment_Fund"&gt;Public Investment Fund&lt;/a&gt;, announces the closing of its &lt;a href="https://en.wikipedia.org/wiki/Canada"&gt;Canadian&lt;/a&gt; studio &lt;a href="https://en.wikipedia.org/wiki/BioWare"&gt;BioWare&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://kotaku.com/ea-to-shut-down-bioware-and-cancel-the-next-mass-effect-game-2000748374"&gt;Kotaku&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2022%E2%80%932026_video_game_industry_layoffs"&gt;2022–2026 video game industry layoffs&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Leveraged_buyout_of_Electronic_Arts"&gt;Leveraged buyout of Electronic Arts&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21"&gt;Portal:Current events/2026 October 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-21:9082476eda3c</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Science and technology</category>
-      <category>Leveraged buyout of Electronic Arts</category>
-    </item>
-    <item>
-      <title>Node.js releases three security updates to 10 different vulnerabilities, including 4 deemed high-severity, which affect how it handles DNS resolution, TLS handshakes, and Brotli decoding.</title>
-      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Node.js"&gt;Node.js&lt;/a&gt; releases three &lt;a href="https://en.wikipedia.org/wiki/Security_update"&gt;security updates&lt;/a&gt; to 10 different vulnerabilities, including 4 deemed high-severity, which affect how it handles &lt;a href="https://en.wikipedia.org/wiki/DNS_resolution"&gt;DNS resolution&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/TLS_handshakes"&gt;TLS handshakes&lt;/a&gt;, and &lt;a href="https://en.wikipedia.org/wiki/Brotli"&gt;Brotli&lt;/a&gt; decoding.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.heise.de/en/news/Node-js-fixes-its-own-and-inherited-security-vulnerabilities-11496143.html"&gt;Heise Online&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21"&gt;Portal:Current events/2026 October 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-21:defcab2c86a3</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Science and technology</category>
-    </item>
-    <item>
-      <title>In association football, Forge FC defeats CF Montréal in a penalty shoot-out to become the first Canadian Premier League team to win a Canadian Championship.</title>
-      <link>https://en.wikipedia.org/wiki/2026_Canadian_Championship_final</link>
-      <description>&lt;p&gt;In &lt;a href="https://en.wikipedia.org/wiki/Association_football"&gt;association football&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Forge_FC"&gt;Forge FC&lt;/a&gt; defeats &lt;a href="https://en.wikipedia.org/wiki/CF_Montr%C3%A9al"&gt;CF Montréal&lt;/a&gt; in a &lt;a href="https://en.wikipedia.org/wiki/Penalty_shoot-out_(association_football)"&gt;penalty shoot-out&lt;/a&gt; to become the first &lt;a href="https://en.wikipedia.org/wiki/Canadian_Premier_League"&gt;Canadian Premier League&lt;/a&gt; team to win a &lt;a href="https://en.wikipedia.org/wiki/Canadian_Championship"&gt;Canadian Championship&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.cbc.ca/sports/soccer/canadian-championship-forge-fc-cf-montreal-9.7391259"&gt;CBC&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Canadian_Championship"&gt;2026 Canadian Championship&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_Canadian_Championship_final"&gt;2026 Canadian Championship final&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21"&gt;Portal:Current events/2026 October 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-21:68c91e4bfca9</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Sports</category>
-      <category>2026 Canadian Championship final</category>
-    </item>
-    <item>
-      <title>In association football, St. Louis City SC defeats Columbus Crew in a penalty shoot-out to win the U.S. Open Cup, earning the club its first trophy since beginning play in 2023.</title>
-      <link>https://en.wikipedia.org/wiki/2026_U.S._Open_Cup_final</link>
-      <description>&lt;p&gt;In association football, &lt;a href="https://en.wikipedia.org/wiki/St._Louis_City_SC"&gt;St. Louis City SC&lt;/a&gt; defeats &lt;a href="https://en.wikipedia.org/wiki/Columbus_Crew"&gt;Columbus Crew&lt;/a&gt; in a penalty shoot-out to win the &lt;a href="https://en.wikipedia.org/wiki/U.S._Open_Cup"&gt;U.S. Open Cup&lt;/a&gt;, earning the club its first trophy since beginning play in 2023.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.espn.com/soccer/story/_/id/50242822/st-louis-city-beats-columbus-open-cup-final"&gt;ESPN&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_U.S._Open_Cup"&gt;2026 U.S. Open Cup&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_U.S._Open_Cup_final"&gt;2026 U.S. Open Cup final&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21"&gt;Portal:Current events/2026 October 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-21:0629cc8affa1</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Sports</category>
-      <category>2026 U.S. Open Cup final</category>
-    </item>
-    <item>
-      <title>The Sudanese Armed Forces recaptures two strategic areas in Sudan's Blue Nile state, including the Bukuri base in Ad-Damazin. / The Sudanese Army says that they have repelled an attack by the Rapid Support Forces and Sudan People's Liberation Movement–North (SPLM–N) on the Blue Nile state.</title>
-      <link>https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign</link>
-      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Sudanese_Armed_Forces"&gt;Sudanese Armed Forces&lt;/a&gt; recaptures two strategic areas in &lt;a href="https://en.wikipedia.org/wiki/Sudan"&gt;Sudan&lt;/a&gt;'s &lt;a href="https://en.wikipedia.org/wiki/Blue_Nile_State"&gt;Blue Nile&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/States_of_Sudan"&gt;state&lt;/a&gt;, including the Bukuri base in &lt;a href="https://en.wikipedia.org/wiki/Ad-Damazin"&gt;Ad-Damazin&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://sudantribune.com/article/320301"&gt;Sudan Tribune&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Sudanese_Army"&gt;Sudanese Army&lt;/a&gt; says that they have repelled an attack by the &lt;a href="https://en.wikipedia.org/wiki/Rapid_Support_Forces"&gt;Rapid Support Forces&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Sudan_People%27s_Liberation_Movement%E2%80%93North"&gt;Sudan People's Liberation Movement–North&lt;/a&gt; (SPLM–N) on the &lt;a href="https://en.wikipedia.org/wiki/Blue_Nile_State"&gt;Blue Nile&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/States_of_Sudan"&gt;state&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://sudantribune.com/article/320207#google_vignette"&gt;Sudan Tribune&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Sudanese_civil_war_(2023%E2%80%93present)"&gt;Sudanese civil war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"&gt;Blue Nile campaign&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_22"&gt;Portal:Current events/2026 October 22&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_22&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_20"&gt;Portal:Current events/2026 October 20&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_20&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-20:27695276ce45</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Armed conflicts and attacks</category>
-      <category>Blue Nile campaign</category>
-    </item>
-    <item>
-      <title>Two people are killed and two others are injured by debris after a suspected Houthi drone is shot down near Shaybah oil field in Eastern Province, Saudi Arabia. / United Kingdom says it will deploy RAF Typhoons to help Saudis defend against Houthi attacks.</title>
-      <link>https://en.wikipedia.org/wiki/Houthi%E2%80%93Saudi_conflict</link>
-      <description>&lt;p&gt;Two people are killed and two others are injured by debris after a suspected Houthi drone is shot down near &lt;a href="https://en.wikipedia.org/wiki/Shaybah_oil_field"&gt;Shaybah oil field&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Eastern_Province,_Saudi_Arabia"&gt;Eastern Province&lt;/a&gt;, Saudi Arabia.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.abs-cbn.com/news/nation/2026/10/22/filipino-killed-in-drone-attack-targeting-saudi-arabia-oil-field-1739"&gt;ABS-CBN News&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/United_Kingdom"&gt;United Kingdom&lt;/a&gt; says it will deploy &lt;a href="https://en.wikipedia.org/wiki/Royal_Air_Force"&gt;RAF&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Eurofighter_Typhoon"&gt;Typhoons&lt;/a&gt; to help &lt;a href="https://en.wikipedia.org/wiki/Saudi_Arabia"&gt;Saudis&lt;/a&gt; defend against &lt;a href="https://en.wikipedia.org/wiki/Houthi"&gt;Houthi&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/October_2026_Houthi_attacks_on_Saudi_Arabian_airports"&gt;attacks&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.bbc.com/news/articles/ckr5yqe1r1llo"&gt;BBC News&lt;/a&gt;, &lt;a href="https://www.reuters.com/business/aerospace-defense/uk-fly-raf-missions-defending-saudi-arabia-against-houthi-attacks-bloomberg-2026-10-20/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"&gt;Middle Eastern crisis&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)"&gt;Yemeni civil war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Houthi%E2%80%93Saudi_conflict"&gt;Houthi–Saudi conflict&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21"&gt;Portal:Current events/2026 October 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_20"&gt;Portal:Current events/2026 October 20&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_20&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-20:1b4d51fbbc79</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Armed conflicts and attacks</category>
-      <category>Houthi–Saudi conflict</category>
-      <category>International relations</category>
-      <category>Houthi–Saudi conflict, Saudi Arabia–United Kingdom relations</category>
     </item>
   </channel>
 </rss>
