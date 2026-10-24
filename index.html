@@ -14,6 +14,13 @@
     .lang-switch { float: right; font-size: .875rem; color: GrayText; }
     .lang-switch button { font: inherit; color: inherit; background: none; border: 0; padding: 0 .2rem; cursor: pointer; text-decoration: underline; }
     .lang-switch button[aria-pressed="true"] { color: CanvasText; font-weight: 600; text-decoration: none; cursor: default; }
+    .latest h2 { font-size: 1.125rem; margin: 1.75rem 0 .5rem; }
+    .latest ol { list-style: none; padding: 0; margin: 0; }
+    .latest li { padding: .5rem 0; border-top: 1px solid color-mix(in srgb, GrayText 30%, transparent); }
+    .latest li:first-child { border-top: 0; }
+    .latest li a { overflow-wrap: anywhere; hyphens: auto; }
+    .latest time { display: block; font-size: .875rem; color: GrayText; }
+    .latest-status { color: GrayText; font-size: .875rem; margin: .25rem 0; }
   </style>
 </head>
 <body>
@@ -31,8 +38,13 @@
       <a href="https://en.wikipedia.org/wiki/Portal:Current_events" hreflang="en">Portal:Current events</a>
       on English Wikipedia. Its entries are in English.</li>
   </ul>
-  <p data-i18n="note">Each feed keeps the language of the Wikipedia it comes from, whatever language this page is shown in.</p>
   <p data-i18n="howto">Copy the link address into your feed reader.</p>
+  <!-- Filled in by the script below; stays hidden without JavaScript. -->
+  <section class="latest" id="latest" aria-labelledby="latest-title" hidden>
+    <h2 id="latest-title"></h2>
+    <p class="latest-status" id="latest-status" role="status"></p>
+    <ol id="latest-list"></ol>
+  </section>
   <p><small data-i18n="license">Unofficial project, not affiliated with the Wikimedia Foundation.
     The text comes from Wikipedia contributors and is available under the
     <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> license;
@@ -51,14 +63,24 @@
         en: '<a href="feeds/en.xml">Feed en inglés</a>: entradas de ' +
             '<a href="https://en.wikipedia.org/wiki/Portal:Current_events" hreflang="en">Portal:Current events</a> ' +
             'de Wikipedia en inglés. Sus entradas están en inglés.',
-        note: "Cada feed mantiene el idioma de la Wikipedia de la que procede, sea cual sea el idioma en que veas esta página.",
         howto: "Copia la dirección del enlace en tu lector de feeds.",
         license: "Proyecto no oficial, sin relación con la Fundación Wikimedia. " +
             "El texto procede de colaboradores de Wikipedia y se distribuye bajo licencia " +
             '<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">CC BY-SA 4.0</a>; ' +
-            "cada entrada enlaza al artículo y al historial de la página de origen."
+            "cada entrada enlaza al artículo y al historial de la página de origen.",
+        latestTitle: "Últimos artículos del feed en {language}",
+        langName: { es: "español", en: "inglés" },
+        latestLoading: "Cargando…",
+        latestError: "No se han podido cargar los últimos artículos.",
+        latestEmpty: "El feed no tiene artículos por ahora."
       },
-      en: {}
+      en: {
+        latestTitle: "Latest articles from the {language} feed",
+        langName: { es: "Spanish", en: "English" },
+        latestLoading: "Loading…",
+        latestError: "Couldn’t load the latest articles.",
+        latestEmpty: "The feed has no articles yet."
+      }
     };
 
     // Snapshot the static (English) markup as the "en" dictionary.
@@ -101,6 +123,119 @@
 
     var buttons = document.querySelectorAll(".lang-switch button");
 
+    // --- Latest articles from the feed in the interface language ---
+    var LATEST_COUNT = 4;
+    var latest = {
+      section: document.getElementById("latest"),
+      title: document.getElementById("latest-title"),
+      status: document.getElementById("latest-status"),
+      list: document.getElementById("latest-list")
+    };
+    var feedCache = {};   // lang -> Promise of items, kept for the session
+    var latestToken = 0;  // ignores responses for a language no longer shown
+
+    function textOf(parent, tag) {
+      var el = parent.getElementsByTagName(tag)[0];
+      return el ? String(el.textContent || "").trim() : "";
+    }
+
+    // Feed XML text -> [{title, link, date}] sorted by pubDate (newest first).
+    function parseFeed(xmlText) {
+      var doc = new DOMParser().parseFromString(xmlText, "text/xml");
+      if (doc.getElementsByTagName("parsererror").length) throw new Error("Invalid feed XML");
+      var nodes = doc.getElementsByTagName("item");
+      var items = [];
+      for (var i = 0; i < nodes.length; i++) {
+        var link = textOf(nodes[i], "link");
+        var date = new Date(textOf(nodes[i], "pubDate"));
+        items.push({
+          title: textOf(nodes[i], "title") || link,
+          link: /^https?:\/\//i.test(link) ? link : "",
+          date: isNaN(date.getTime()) ? null : date,
+          index: i
+        });
+      }
+      items.sort(function (a, b) {
+        var ta = a.date ? a.date.getTime() : -Infinity;
+        var tb = b.date ? b.date.getTime() : -Infinity;
+        return tb - ta || a.index - b.index;
+      });
+      return items;
+    }
+
+    function loadFeed(lang) {
+      if (!feedCache[lang]) {
+        feedCache[lang] = fetch("feeds/" + lang + ".xml").then(function (r) {
+          if (!r.ok) throw new Error("HTTP " + r.status);
+          return r.text();
+        }).then(parseFeed);
+        // Don't cache failures: the next language switch retries.
+        feedCache[lang].catch(function () { delete feedCache[lang]; });
+      }
+      return feedCache[lang];
+    }
+
+    function formatDate(date, lang) {
+      // Midnight UTC means "date only" (e.g. en daily pages): show that day
+      // as-is instead of shifting it to the previous day west of Greenwich.
+      var opts = { dateStyle: "long" };
+      if (date.getUTCHours() === 0 && date.getUTCMinutes() === 0 && date.getUTCSeconds() === 0) {
+        opts.timeZone = "UTC";
+      }
+      try {
+        return new Intl.DateTimeFormat(lang, opts).format(date);
+      } catch (e) {
+        return date.toLocaleString();
+      }
+    }
+
+    function setStatus(text) {
+      latest.status.textContent = text;
+      latest.status.hidden = !text;
+    }
+
+    function renderItems(items, lang) {
+      var d = T[lang];
+      latest.list.textContent = "";
+      items = items.slice(0, LATEST_COUNT);
+      if (!items.length) { setStatus(d.latestEmpty); return; }
+      setStatus("");
+      for (var i = 0; i < items.length; i++) {
+        var li = document.createElement("li");
+        var title = document.createElement(items[i].link ? "a" : "span");
+        if (items[i].link) title.setAttribute("href", items[i].link);
+        title.setAttribute("lang", lang);
+        title.textContent = items[i].title;
+        li.appendChild(title);
+        if (items[i].date) {
+          var time = document.createElement("time");
+          time.setAttribute("datetime", items[i].date.toISOString());
+          time.textContent = formatDate(items[i].date, lang);
+          li.appendChild(time);
+        }
+        latest.list.appendChild(li);
+      }
+    }
+
+    function showLatest(lang) {
+      if (!latest.section) return;
+      var d = T[lang];
+      var token = ++latestToken;
+      latest.section.hidden = false;
+      latest.title.textContent = d.latestTitle.replace("{language}", d.langName[lang]);
+      latest.list.textContent = "";
+      setStatus(d.latestLoading);
+      var p;
+      try { p = loadFeed(lang); } catch (e) { p = Promise.reject(e); }
+      p.then(function (items) {
+        if (token === latestToken) renderItems(items, lang);
+      }, function () {
+        if (token !== latestToken) return;
+        latest.list.textContent = "";
+        setStatus(d.latestError);
+      });
+    }
+
     function apply(lang) {
       var d = T[lang];
       document.documentElement.lang = lang;
@@ -113,6 +248,7 @@
         buttons[j].setAttribute("aria-pressed", String(buttons[j].getAttribute("data-lang") === lang));
       }
       current = lang;
+      showLatest(lang);
     }
 
     for (var k = 0; k < buttons.length; k++) {
