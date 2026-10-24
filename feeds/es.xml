@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Wikipedia Actualidad</title>
     <link>https://es.wikipedia.org/wiki/Portal:Actualidad</link>
-    <description>Temas de actualidad de la portada de Wikipedia en español (Plantilla:Portada:Actualidad). Texto de colaboradores de Wikipedia, bajo licencia CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). https://es.wikipedia.org/w/index.php?title=Plantilla%3APortada%3AActualidad&amp;action=history</description>
+    <description>Temas de actualidad de la portada de Wikipedia en español (Plantilla:Portada:Actualidad). Texto de colaboradores de Wikipedia, bajo licencia CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). (historial: https://es.wikipedia.org/w/index.php?title=Plantilla:Portada:Actualidad&amp;action=history)</description>
     <language>es</language>
     <copyright>Texto de colaboradores de Wikipedia, bajo licencia CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).</copyright>
-    <lastBuildDate>Sat, 24 Oct 2026 09:16:01 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 10:04:11 GMT</lastBuildDate>
     <generator>wikipedia-noticias-rss</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
+    <atom:link href="https://aeonfr.github.io/wikinews-rss/feeds/es.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Guerras y conflictos: Estados Unidos-Irán-Israel/Estrecho de Ormuz</title>
       <link>https://es.wikipedia.org/wiki/Guerra_de_Estados_Unidos_e_Israel_contra_Ir%C3%A1n</link>
       <description>&lt;p&gt;&lt;a href="https://es.wikipedia.org/wiki/Guerra_de_Estados_Unidos_e_Israel_contra_Ir%C3%A1n"&gt;Estados Unidos-Irán-Israel&lt;/a&gt;/&lt;a href="https://es.wikipedia.org/wiki/Crisis_del_estrecho_de_Ormuz_de_2026"&gt;Estrecho de Ormuz&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;La guerra de Estados Unidos e Israel contra Irán es un conflicto bélico que dio inicio el 28 de febrero de 2026 con una serie de bombardeos aéreos sobre varias ciudades de Irán llevados a cabo por sorpresa por los Estados Unidos e Israel, mientras estaban en curso negociaciones diplomáticas entre…&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;De &lt;a href="https://es.wikipedia.org/wiki/Plantilla:Portada:Actualidad"&gt;Plantilla:Portada:Actualidad&lt;/a&gt; de Wikipedia (&lt;a href="https://es.wikipedia.org/w/index.php?title=Plantilla%3APortada%3AActualidad&amp;amp;action=history"&gt;historial&lt;/a&gt;). Texto bajo licencia &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;De &lt;a href="https://es.wikipedia.org/wiki/Plantilla:Portada:Actualidad"&gt;Plantilla:Portada:Actualidad&lt;/a&gt; de Wikipedia (&lt;a href="https://es.wikipedia.org/w/index.php?title=Plantilla:Portada:Actualidad&amp;amp;action=history"&gt;historial&lt;/a&gt;). Texto bajo licencia &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:es:11444491</guid>
       <pubDate>Sat, 24 Oct 2026 09:15:58 GMT</pubDate>
       <category>Guerras y conflictos</category>
@@ -25,7 +26,7 @@
       <link>https://es.wikipedia.org/wiki/Guerra_de_Gaza</link>
       <description>&lt;p&gt;&lt;a href="https://es.wikipedia.org/wiki/Guerra_de_Gaza"&gt;Gaza-Israel&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;La Guerra de Gaza es un conflicto armado en curso que comenzó con un ataque de represalia realizado por Hamás y otras milicias contra Israel el 7 de octubre de 2023 y que ha desencadenado un genocidio en Gaza por parte de Israel contra la población civil palestina. Como parte de los conflictos no…&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;De &lt;a href="https://es.wikipedia.org/wiki/Plantilla:Portada:Actualidad"&gt;Plantilla:Portada:Actualidad&lt;/a&gt; de Wikipedia (&lt;a href="https://es.wikipedia.org/w/index.php?title=Plantilla%3APortada%3AActualidad&amp;amp;action=history"&gt;historial&lt;/a&gt;). Texto bajo licencia &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;De &lt;a href="https://es.wikipedia.org/wiki/Plantilla:Portada:Actualidad"&gt;Plantilla:Portada:Actualidad&lt;/a&gt; de Wikipedia (&lt;a href="https://es.wikipedia.org/w/index.php?title=Plantilla:Portada:Actualidad&amp;amp;action=history"&gt;historial&lt;/a&gt;). Texto bajo licencia &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:es:10681220</guid>
       <pubDate>Sat, 24 Oct 2026 09:15:58 GMT</pubDate>
       <category>Guerras y conflictos</category>
@@ -35,7 +36,7 @@
       <link>https://es.wikipedia.org/wiki/Invasi%C3%B3n_israel%C3%AD_del_L%C3%ADbano_de_2026</link>
       <description>&lt;p&gt;&lt;a href="https://es.wikipedia.org/wiki/Invasi%C3%B3n_israel%C3%AD_del_L%C3%ADbano_de_2026"&gt;Hezbolá-Israel&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;La invasión israelí del Líbano de 2026, octava desde la existencia de Israel, comenzó el 2 de marzo de 2026, en el marco del conflicto entre Hezbolá e Israel. Se trata de una reanudación de las hostilidades a gran escala en el mencionado conflicto, que comenzó a finales de 2023, integrado a su vez…&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;De &lt;a href="https://es.wikipedia.org/wiki/Plantilla:Portada:Actualidad"&gt;Plantilla:Portada:Actualidad&lt;/a&gt; de Wikipedia (&lt;a href="https://es.wikipedia.org/w/index.php?title=Plantilla%3APortada%3AActualidad&amp;amp;action=history"&gt;historial&lt;/a&gt;). Texto bajo licencia &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;De &lt;a href="https://es.wikipedia.org/wiki/Plantilla:Portada:Actualidad"&gt;Plantilla:Portada:Actualidad&lt;/a&gt; de Wikipedia (&lt;a href="https://es.wikipedia.org/w/index.php?title=Plantilla:Portada:Actualidad&amp;amp;action=history"&gt;historial&lt;/a&gt;). Texto bajo licencia &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:es:11447113</guid>
       <pubDate>Sat, 24 Oct 2026 09:15:58 GMT</pubDate>
       <category>Guerras y conflictos</category>
@@ -45,7 +46,7 @@
       <link>https://es.wikipedia.org/wiki/Guerra_ruso-ucraniana</link>
       <description>&lt;p&gt;&lt;a href="https://es.wikipedia.org/wiki/Guerra_ruso-ucraniana"&gt;Rusia-Ucrania&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;La guerra ruso-ucraniana, también conocida como la Guerra de Ucrania, que se inició con la invasión rusa de Ucrania el 24 de febrero de 2022, constituye una escalada del conflicto ruso-ucraniano que comenzó tras los sucesos del Euromaidán en 2014. Se trata del mayor conflicto militar convencional…&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;De &lt;a href="https://es.wikipedia.org/wiki/Plantilla:Portada:Actualidad"&gt;Plantilla:Portada:Actualidad&lt;/a&gt; de Wikipedia (&lt;a href="https://es.wikipedia.org/w/index.php?title=Plantilla%3APortada%3AActualidad&amp;amp;action=history"&gt;historial&lt;/a&gt;). Texto bajo licencia &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;De &lt;a href="https://es.wikipedia.org/wiki/Plantilla:Portada:Actualidad"&gt;Plantilla:Portada:Actualidad&lt;/a&gt; de Wikipedia (&lt;a href="https://es.wikipedia.org/w/index.php?title=Plantilla:Portada:Actualidad&amp;amp;action=history"&gt;historial&lt;/a&gt;). Texto bajo licencia &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:es:10168390</guid>
       <pubDate>Sat, 24 Oct 2026 09:15:58 GMT</pubDate>
       <category>Guerras y conflictos</category>
@@ -55,7 +56,7 @@
       <link>https://es.wikipedia.org/wiki/Crisis_migratoria_de_Ceuta_de_2026</link>
       <description>&lt;p&gt;&lt;a href="https://es.wikipedia.org/wiki/Crisis_migratoria_de_Ceuta_de_2026"&gt;España-Marruecos&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;La crisis migratoria de Ceuta de 2026 es un incidente internacional y una crisis migratoria que se desarrolla desde finales de julio de 2026, marcada por la entrada masiva de decenas de miles de personas desde Marruecos a la ciudad autónoma de Ceuta el 30 de julio. La mayoría de las entradas se…&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;De &lt;a href="https://es.wikipedia.org/wiki/Plantilla:Portada:Actualidad"&gt;Plantilla:Portada:Actualidad&lt;/a&gt; de Wikipedia (&lt;a href="https://es.wikipedia.org/w/index.php?title=Plantilla%3APortada%3AActualidad&amp;amp;action=history"&gt;historial&lt;/a&gt;). Texto bajo licencia &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;De &lt;a href="https://es.wikipedia.org/wiki/Plantilla:Portada:Actualidad"&gt;Plantilla:Portada:Actualidad&lt;/a&gt; de Wikipedia (&lt;a href="https://es.wikipedia.org/w/index.php?title=Plantilla:Portada:Actualidad&amp;amp;action=history"&gt;historial&lt;/a&gt;). Texto bajo licencia &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:es:11563292</guid>
       <pubDate>Sat, 24 Oct 2026 09:15:58 GMT</pubDate>
       <category>Guerras y conflictos</category>
@@ -65,7 +66,7 @@
       <link>https://es.wikipedia.org/wiki/Ofensiva_del_oeste_de_Yemen_de_2026</link>
       <description>&lt;p&gt;&lt;a href="https://es.wikipedia.org/wiki/Ofensiva_del_oeste_de_Yemen_de_2026"&gt;Yemen&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;El 3 de septiembre de 2026, estallaron intensos combates entre los hutíes y el gobierno yemení, en medio de la guerra civil yemení en el oeste de Yemen. Los enfrentamientos comenzaron al principio con una ofensiva hutí en la gobernación de Taiz, lo que provocó posteriormente una contraofensiva de…&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;De &lt;a href="https://es.wikipedia.org/wiki/Plantilla:Portada:Actualidad"&gt;Plantilla:Portada:Actualidad&lt;/a&gt; de Wikipedia (&lt;a href="https://es.wikipedia.org/w/index.php?title=Plantilla%3APortada%3AActualidad&amp;amp;action=history"&gt;historial&lt;/a&gt;). Texto bajo licencia &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;De &lt;a href="https://es.wikipedia.org/wiki/Plantilla:Portada:Actualidad"&gt;Plantilla:Portada:Actualidad&lt;/a&gt; de Wikipedia (&lt;a href="https://es.wikipedia.org/w/index.php?title=Plantilla:Portada:Actualidad&amp;amp;action=history"&gt;historial&lt;/a&gt;). Texto bajo licencia &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:es:11594359</guid>
       <pubDate>Sat, 24 Oct 2026 09:15:58 GMT</pubDate>
       <category>Guerras y conflictos</category>
@@ -75,7 +76,7 @@
       <link>https://es.wikipedia.org/wiki/Ofensiva_del_norte_de_Etiop%C3%ADa_de_2026</link>
       <description>&lt;p&gt;&lt;a href="https://es.wikipedia.org/wiki/Ofensiva_del_norte_de_Etiop%C3%ADa_de_2026"&gt;Etiopía&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;El 23 de septiembre de 2026, la Alianza de Fuerzas Populares Etíopes por la Supervivencia, una coalición de varios grupos insurgentes, lanzó una ofensiva en las regiones de Tigray, Amhara y Afar, al norte de Etiopía. El Frente de Liberación Popular de Tigray, uno de los miembros de la coalición…&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;De &lt;a href="https://es.wikipedia.org/wiki/Plantilla:Portada:Actualidad"&gt;Plantilla:Portada:Actualidad&lt;/a&gt; de Wikipedia (&lt;a href="https://es.wikipedia.org/w/index.php?title=Plantilla%3APortada%3AActualidad&amp;amp;action=history"&gt;historial&lt;/a&gt;). Texto bajo licencia &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;De &lt;a href="https://es.wikipedia.org/wiki/Plantilla:Portada:Actualidad"&gt;Plantilla:Portada:Actualidad&lt;/a&gt; de Wikipedia (&lt;a href="https://es.wikipedia.org/w/index.php?title=Plantilla:Portada:Actualidad&amp;amp;action=history"&gt;historial&lt;/a&gt;). Texto bajo licencia &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:es:11605462</guid>
       <pubDate>Sat, 24 Oct 2026 09:15:58 GMT</pubDate>
       <category>Guerras y conflictos</category>
@@ -85,7 +86,7 @@
       <link>https://es.wikipedia.org/wiki/Protestas_estudiantiles_de_Francia_de_2026</link>
       <description>&lt;p&gt;&lt;a href="https://es.wikipedia.org/wiki/Protestas_estudiantiles_de_Francia_de_2026"&gt;Protestas estudiantiles de Francia&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Las protestas estudiantiles de Francia de 2026 son una serie de manifestaciones y bloqueos que se iniciaron el 18 de septiembre, por los estudiantes de liceos que comenzaron en la academia de Créteil y desde entonces se han extendido por todo el país. Los estudiantes mencionaron la falta de…&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;De &lt;a href="https://es.wikipedia.org/wiki/Plantilla:Portada:Actualidad"&gt;Plantilla:Portada:Actualidad&lt;/a&gt; de Wikipedia (&lt;a href="https://es.wikipedia.org/w/index.php?title=Plantilla%3APortada%3AActualidad&amp;amp;action=history"&gt;historial&lt;/a&gt;). Texto bajo licencia &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;De &lt;a href="https://es.wikipedia.org/wiki/Plantilla:Portada:Actualidad"&gt;Plantilla:Portada:Actualidad&lt;/a&gt; de Wikipedia (&lt;a href="https://es.wikipedia.org/w/index.php?title=Plantilla:Portada:Actualidad&amp;amp;action=history"&gt;historial&lt;/a&gt;). Texto bajo licencia &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:es:11615120</guid>
       <pubDate>Sat, 24 Oct 2026 09:15:58 GMT</pubDate>
     </item>
@@ -94,7 +95,7 @@
       <link>https://es.wikipedia.org/wiki/PHP2Shell</link>
       <description>&lt;p&gt;&lt;a href="https://es.wikipedia.org/wiki/PHP2Shell"&gt;Vulnerabilidad crítica en el lenguaje PHP denominada PHP2Shell&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;CVE-2026-109618 y CVE-2026-109619 son dos vulnerabilidades de seguridad en el lenguaje de programación PHP que permiten la ejecución remota de código y que se conocen conjuntamente como PHP2Shell.&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;De &lt;a href="https://es.wikipedia.org/wiki/Plantilla:Portada:Actualidad"&gt;Plantilla:Portada:Actualidad&lt;/a&gt; de Wikipedia (&lt;a href="https://es.wikipedia.org/w/index.php?title=Plantilla%3APortada%3AActualidad&amp;amp;action=history"&gt;historial&lt;/a&gt;). Texto bajo licencia &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;De &lt;a href="https://es.wikipedia.org/wiki/Plantilla:Portada:Actualidad"&gt;Plantilla:Portada:Actualidad&lt;/a&gt; de Wikipedia (&lt;a href="https://es.wikipedia.org/w/index.php?title=Plantilla:Portada:Actualidad&amp;amp;action=history"&gt;historial&lt;/a&gt;). Texto bajo licencia &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:es:11627058</guid>
       <pubDate>Sat, 24 Oct 2026 09:15:58 GMT</pubDate>
     </item>
@@ -103,7 +104,7 @@
       <link>https://es.wikipedia.org/wiki/Festival_de_la_Canci%C3%B3n_de_Eurovisi%C3%B3n_Junior_2026</link>
       <description>&lt;p&gt;&lt;a href="https://es.wikipedia.org/wiki/Festival_de_la_Canci%C3%B3n_de_Eurovisi%C3%B3n_Junior_2026"&gt;Festival de la Canción de Eurovisión Junior&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;El XXIV Festival de la Canción de Eurovisión Junior será organizado por la Unión Europea de Radiodifusión (UER) y la emisora nacional del país anfitrión. A pesar de que en la pasada edición la victoria fue para Francia con la canción «Ce Monde» interpretada por Lou Deleuze, la emisora francesa…&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;De &lt;a href="https://es.wikipedia.org/wiki/Plantilla:Portada:Actualidad"&gt;Plantilla:Portada:Actualidad&lt;/a&gt; de Wikipedia (&lt;a href="https://es.wikipedia.org/w/index.php?title=Plantilla%3APortada%3AActualidad&amp;amp;action=history"&gt;historial&lt;/a&gt;). Texto bajo licencia &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;De &lt;a href="https://es.wikipedia.org/wiki/Plantilla:Portada:Actualidad"&gt;Plantilla:Portada:Actualidad&lt;/a&gt; de Wikipedia (&lt;a href="https://es.wikipedia.org/w/index.php?title=Plantilla:Portada:Actualidad&amp;amp;action=history"&gt;historial&lt;/a&gt;). Texto bajo licencia &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:es:11380059</guid>
       <pubDate>Sat, 24 Oct 2026 09:15:58 GMT</pubDate>
     </item>
@@ -112,7 +113,7 @@
       <link>https://es.wikipedia.org/wiki/Acampadas_por_el_derecho_a_la_vivienda_en_Espa%C3%B1a_de_2026</link>
       <description>&lt;p&gt;&lt;a href="https://es.wikipedia.org/wiki/Acampadas_por_el_derecho_a_la_vivienda_en_Espa%C3%B1a_de_2026"&gt;Acampadas por la vivienda en España&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Las acampadas por el derecho a la vivienda en España de 2026, también conocidas como 26-S,son una serie de acampadas protesta por el derecho a la vivienda emplazadas en varias ciudades españolas. Se iniciaron la noche del sábado 26 de septiembre de 2026 con la primera acampada en la Puerta del Sol…&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;De &lt;a href="https://es.wikipedia.org/wiki/Plantilla:Portada:Actualidad"&gt;Plantilla:Portada:Actualidad&lt;/a&gt; de Wikipedia (&lt;a href="https://es.wikipedia.org/w/index.php?title=Plantilla%3APortada%3AActualidad&amp;amp;action=history"&gt;historial&lt;/a&gt;). Texto bajo licencia &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;De &lt;a href="https://es.wikipedia.org/wiki/Plantilla:Portada:Actualidad"&gt;Plantilla:Portada:Actualidad&lt;/a&gt; de Wikipedia (&lt;a href="https://es.wikipedia.org/w/index.php?title=Plantilla:Portada:Actualidad&amp;amp;action=history"&gt;historial&lt;/a&gt;). Texto bajo licencia &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:es:11608858</guid>
       <pubDate>Sat, 24 Oct 2026 09:15:58 GMT</pubDate>
     </item>
@@ -121,7 +122,7 @@
       <link>https://es.wikipedia.org/wiki/Serie_Mundial_de_2026</link>
       <description>&lt;p&gt;&lt;a href="https://es.wikipedia.org/wiki/Serie_Mundial_de_2026"&gt;Serie Mundial las Grandes Ligas de Béisbol&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;La Serie Mundial de la Temporada 2026 de las Grandes Ligas de Béisbol, es la 122.ª edición de este clásico, al mejor de siete juegos entre el campeón de la Liga Americana (AL), los Tampa Bay Rays, y el campeón de la Liga Nacional (NL), Milwaukee Brewers. Los Cerveceros avanzaron a su segunda Serie…&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;De &lt;a href="https://es.wikipedia.org/wiki/Plantilla:Portada:Actualidad"&gt;Plantilla:Portada:Actualidad&lt;/a&gt; de Wikipedia (&lt;a href="https://es.wikipedia.org/w/index.php?title=Plantilla%3APortada%3AActualidad&amp;amp;action=history"&gt;historial&lt;/a&gt;). Texto bajo licencia &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;De &lt;a href="https://es.wikipedia.org/wiki/Plantilla:Portada:Actualidad"&gt;Plantilla:Portada:Actualidad&lt;/a&gt; de Wikipedia (&lt;a href="https://es.wikipedia.org/w/index.php?title=Plantilla:Portada:Actualidad&amp;amp;action=history"&gt;historial&lt;/a&gt;). Texto bajo licencia &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:es:11625909</guid>
       <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -130,7 +131,7 @@
       <link>https://es.wikipedia.org/wiki/Anexo:Gran_Premio_de_los_Estados_Unidos_de_2026</link>
       <description>&lt;p&gt;&lt;a href="https://es.wikipedia.org/wiki/Anexo:Gran_Premio_de_los_Estados_Unidos_de_2026"&gt;Gran Premio de los Estados Unidos de Fórmula 1&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;El Gran Premio de los Estados Unidos de 2026 es la decimoctava ronda de la temporada 2026 de Fórmula 1.&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;De &lt;a href="https://es.wikipedia.org/wiki/Plantilla:Portada:Actualidad"&gt;Plantilla:Portada:Actualidad&lt;/a&gt; de Wikipedia (&lt;a href="https://es.wikipedia.org/w/index.php?title=Plantilla%3APortada%3AActualidad&amp;amp;action=history"&gt;historial&lt;/a&gt;). Texto bajo licencia &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;De &lt;a href="https://es.wikipedia.org/wiki/Plantilla:Portada:Actualidad"&gt;Plantilla:Portada:Actualidad&lt;/a&gt; de Wikipedia (&lt;a href="https://es.wikipedia.org/w/index.php?title=Plantilla:Portada:Actualidad&amp;amp;action=history"&gt;historial&lt;/a&gt;). Texto bajo licencia &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:es:11378413</guid>
       <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -139,7 +140,7 @@
       <link>https://es.wikipedia.org/wiki/Premios_Princesa_de_Asturias</link>
       <description>&lt;p&gt;Entrega de los &lt;a href="https://es.wikipedia.org/wiki/Premios_Princesa_de_Asturias"&gt;Premios Princesa de Asturias&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Los Premios Princesa de Asturias (llamados Premios Príncipe de Asturias desde 1981 hasta 2014) son unos galardones entregados por el heredero al trono español y que están destinados a honrar la labor científica, técnica, cultural, social y humana realizada por personas, grupos de personas o de…&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;De &lt;a href="https://es.wikipedia.org/wiki/Plantilla:Portada:Actualidad"&gt;Plantilla:Portada:Actualidad&lt;/a&gt; de Wikipedia (&lt;a href="https://es.wikipedia.org/w/index.php?title=Plantilla%3APortada%3AActualidad&amp;amp;action=history"&gt;historial&lt;/a&gt;). Texto bajo licencia &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;De &lt;a href="https://es.wikipedia.org/wiki/Plantilla:Portada:Actualidad"&gt;Plantilla:Portada:Actualidad&lt;/a&gt; de Wikipedia (&lt;a href="https://es.wikipedia.org/w/index.php?title=Plantilla:Portada:Actualidad&amp;amp;action=history"&gt;historial&lt;/a&gt;). Texto bajo licencia &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:es:19350</guid>
       <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -148,7 +149,7 @@
       <link>https://es.wikipedia.org/wiki/Torneo_de_Almat%C3%BD_2026</link>
       <description>&lt;p&gt;Torneos de &lt;a href="https://es.wikipedia.org/wiki/Torneo_de_Almat%C3%BD_2026"&gt;Almatý&lt;/a&gt;, &lt;a href="https://es.wikipedia.org/wiki/Torneo_ATP_de_Bruselas_2026"&gt;Bruselas&lt;/a&gt; y &lt;a href="https://es.wikipedia.org/wiki/Torneo_de_Lyon_2026"&gt;Lyon&lt;/a&gt; de tenis&lt;/p&gt;
 &lt;p&gt;El Almatý Open 2026 será un torneo de tenis perteneciente al ATP Tour 2026 en la categoría ATP Tour 250.&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;De &lt;a href="https://es.wikipedia.org/wiki/Plantilla:Portada:Actualidad"&gt;Plantilla:Portada:Actualidad&lt;/a&gt; de Wikipedia (&lt;a href="https://es.wikipedia.org/w/index.php?title=Plantilla%3APortada%3AActualidad&amp;amp;action=history"&gt;historial&lt;/a&gt;). Texto bajo licencia &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;De &lt;a href="https://es.wikipedia.org/wiki/Plantilla:Portada:Actualidad"&gt;Plantilla:Portada:Actualidad&lt;/a&gt; de Wikipedia (&lt;a href="https://es.wikipedia.org/w/index.php?title=Plantilla:Portada:Actualidad&amp;amp;action=history"&gt;historial&lt;/a&gt;). Texto bajo licencia &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:es:11619793</guid>
       <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -157,7 +158,7 @@
       <link>https://es.wikipedia.org/wiki/Copa_Mundial_Femenina_de_F%C3%BAtbol_Sub-17_de_2026</link>
       <description>&lt;p&gt;&lt;a href="https://es.wikipedia.org/wiki/Copa_Mundial_Femenina_de_F%C3%BAtbol_Sub-17_de_2026"&gt;Copa Mundial Femenina de Fútbol Sub-17&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;La Copa Mundial Femenina de Fútbol Sub-17 de 2026 (En árabe:كأس العالم للسيدات تحت 17 سنة المغرب) es la décima edición del torneo organizada por la FIFA. El torneo se disputa por segunda vez en Marruecos, participando 24 equipos nacionales. Esta es la tercera Copa Mundial Femenina Sub-17 de la FIFA…&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;De &lt;a href="https://es.wikipedia.org/wiki/Plantilla:Portada:Actualidad"&gt;Plantilla:Portada:Actualidad&lt;/a&gt; de Wikipedia (&lt;a href="https://es.wikipedia.org/w/index.php?title=Plantilla%3APortada%3AActualidad&amp;amp;action=history"&gt;historial&lt;/a&gt;). Texto bajo licencia &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;De &lt;a href="https://es.wikipedia.org/wiki/Plantilla:Portada:Actualidad"&gt;Plantilla:Portada:Actualidad&lt;/a&gt; de Wikipedia (&lt;a href="https://es.wikipedia.org/w/index.php?title=Plantilla:Portada:Actualidad&amp;amp;action=history"&gt;historial&lt;/a&gt;). Texto bajo licencia &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:es:11343618</guid>
       <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
     </item>
@@ -166,7 +167,7 @@
       <link>https://es.wikipedia.org/wiki/Copa_Libertadores_Femenina_2026</link>
       <description>&lt;p&gt;&lt;a href="https://es.wikipedia.org/wiki/Copa_Libertadores_Femenina_2026"&gt;Copa Libertadores Femenina&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;La Copa Libertadores Femenina 2026 es la decimoctava edición de la Copa Libertadores de América Femenina, principal torneo de clubes de fútbol femenino de América del Sur, organizado por la Conmebol. El certamen se disputa en Ecuador entre el 15 y el 31 de octubre de 2026. Es la tercera ocasión en…&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;De &lt;a href="https://es.wikipedia.org/wiki/Plantilla:Portada:Actualidad"&gt;Plantilla:Portada:Actualidad&lt;/a&gt; de Wikipedia (&lt;a href="https://es.wikipedia.org/w/index.php?title=Plantilla%3APortada%3AActualidad&amp;amp;action=history"&gt;historial&lt;/a&gt;). Texto bajo licencia &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;De &lt;a href="https://es.wikipedia.org/wiki/Plantilla:Portada:Actualidad"&gt;Plantilla:Portada:Actualidad&lt;/a&gt; de Wikipedia (&lt;a href="https://es.wikipedia.org/w/index.php?title=Plantilla:Portada:Actualidad&amp;amp;action=history"&gt;historial&lt;/a&gt;). Texto bajo licencia &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:es:11347015</guid>
       <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
     </item>
