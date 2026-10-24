@@ -1,30 +1,140 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Noticias de Wikipedia en RSS</title>
-  <link rel="alternate" type="application/rss+xml" title="Wikipedia Actualidad (español)" href="feeds/es.xml">
-  <link rel="alternate" type="application/rss+xml" title="Wikipedia Current events (English)" href="feeds/en.xml">
+  <title>Wikipedia news as RSS</title>
+  <meta name="description" content="Daily RSS feeds built from the current events portals of Spanish and English Wikipedia.">
+  <link rel="alternate" type="application/rss+xml" title="Wikipedia news (es)" href="feeds/es.xml">
+  <link rel="alternate" type="application/rss+xml" title="Wikipedia news (en)" href="feeds/en.xml">
   <style>
     :root { color-scheme: light dark; }
     body { font-family: system-ui, sans-serif; max-width: 40rem; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; }
     small { color: GrayText; }
+    .lang-switch { float: right; font-size: .875rem; color: GrayText; }
+    .lang-switch button { font: inherit; color: inherit; background: none; border: 0; padding: 0 .2rem; cursor: pointer; text-decoration: underline; }
+    .lang-switch button[aria-pressed="true"] { color: CanvasText; font-weight: 600; text-decoration: none; cursor: default; }
   </style>
 </head>
 <body>
-  <h1>Noticias de Wikipedia en RSS</h1>
-  <p>Feeds RSS generados cada hora a partir de los portales de actualidad de Wikipedia.</p>
+  <nav class="lang-switch" aria-label="Language / Idioma" hidden>
+    <button type="button" data-lang="es" lang="es">ES</button> |
+    <button type="button" data-lang="en" lang="en">EN</button>
+  </nav>
+  <h1 data-i18n="h1">Wikipedia news as RSS</h1>
+  <p data-i18n="intro">RSS feeds built every day from Wikipedia’s current events portals.</p>
   <ul>
-    <li><a href="feeds/es.xml">Español</a>: temas de
-      <a href="https://es.wikipedia.org/wiki/Portal:Actualidad">Portal:Actualidad</a></li>
-    <li><a href="feeds/en.xml">English</a>: entradas de
-      <a href="https://en.wikipedia.org/wiki/Portal:Current_events">Portal:Current events</a></li>
+    <li data-i18n="es"><a href="feeds/es.xml">Spanish feed</a>: topics from
+      <a href="https://es.wikipedia.org/wiki/Portal:Actualidad" hreflang="es">Portal:Actualidad</a>
+      on Spanish Wikipedia. Its entries are in Spanish.</li>
+    <li data-i18n="en"><a href="feeds/en.xml">English feed</a>: entries from
+      <a href="https://en.wikipedia.org/wiki/Portal:Current_events" hreflang="en">Portal:Current events</a>
+      on English Wikipedia. Its entries are in English.</li>
   </ul>
-  <p>Copia la dirección del enlace en tu lector de feeds.</p>
-  <p><small>Proyecto no oficial, sin relación con la Fundación Wikimedia.
-    El texto procede de colaboradores de Wikipedia y se distribuye bajo licencia
-    <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">CC BY-SA 4.0</a>;
-    cada entrada enlaza al artículo y al historial de la página de origen.</small></p>
+  <p data-i18n="note">Each feed keeps the language of the Wikipedia it comes from, whatever language this page is shown in.</p>
+  <p data-i18n="howto">Copy the link address into your feed reader.</p>
+  <p><small data-i18n="license">Unofficial project, not affiliated with the Wikimedia Foundation.
+    The text comes from Wikipedia contributors and is available under the
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> license;
+    every entry links to the source article and its page history.</small></p>
+  <script>
+  (function () {
+    var T = {
+      es: {
+        title: "Noticias de Wikipedia en RSS",
+        description: "Feeds RSS diarios generados a partir de los portales de actualidad de Wikipedia en español y en inglés.",
+        h1: "Noticias de Wikipedia en RSS",
+        intro: "Feeds RSS generados cada día a partir de los portales de actualidad de Wikipedia.",
+        es: '<a href="feeds/es.xml">Feed en español</a>: temas de ' +
+            '<a href="https://es.wikipedia.org/wiki/Portal:Actualidad" hreflang="es">Portal:Actualidad</a> ' +
+            'de Wikipedia en español. Sus entradas están en español.',
+        en: '<a href="feeds/en.xml">Feed en inglés</a>: entradas de ' +
+            '<a href="https://en.wikipedia.org/wiki/Portal:Current_events" hreflang="en">Portal:Current events</a> ' +
+            'de Wikipedia en inglés. Sus entradas están en inglés.',
+        note: "Cada feed mantiene el idioma de la Wikipedia de la que procede, sea cual sea el idioma en que veas esta página.",
+        howto: "Copia la dirección del enlace en tu lector de feeds.",
+        license: "Proyecto no oficial, sin relación con la Fundación Wikimedia. " +
+            "El texto procede de colaboradores de Wikipedia y se distribuye bajo licencia " +
+            '<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">CC BY-SA 4.0</a>; ' +
+            "cada entrada enlaza al artículo y al historial de la página de origen."
+      },
+      en: {}
+    };
+
+    // Snapshot the static (English) markup as the "en" dictionary.
+    var nodes = document.querySelectorAll("[data-i18n]");
+    var metaDesc = document.querySelector('meta[name="description"]');
+    T.en.title = document.title;
+    T.en.description = metaDesc.getAttribute("content");
+    for (var i = 0; i < nodes.length; i++) {
+      T.en[nodes[i].getAttribute("data-i18n")] = nodes[i].innerHTML;
+    }
+
+    function norm(code) {
+      code = String(code || "").toLowerCase();
+      if (code.indexOf("es") === 0) return "es";
+      if (code.indexOf("en") === 0) return "en";
+      return null;
+    }
+
+    function fromBrowser(langs) {
+      for (var i = 0; i < langs.length; i++) {
+        var l = norm(langs[i]);
+        if (l) return l;
+      }
+      return "en";
+    }
+
+    function storageGet() {
+      try { return localStorage.getItem("lang"); } catch (e) { return null; }
+    }
+    function storageSet(v) {
+      try { localStorage.setItem("lang", v); } catch (e) {}
+    }
+
+    var urlLang = null;
+    try { urlLang = norm(new URLSearchParams(location.search).get("lang")); } catch (e) {}
+
+    var langs = navigator.languages && navigator.languages.length
+      ? navigator.languages : [navigator.language || navigator.userLanguage];
+    var current = urlLang || norm(storageGet()) || fromBrowser(langs);
+
+    var buttons = document.querySelectorAll(".lang-switch button");
+
+    function apply(lang) {
+      var d = T[lang];
+      document.documentElement.lang = lang;
+      document.title = d.title;
+      metaDesc.setAttribute("content", d.description);
+      for (var i = 0; i < nodes.length; i++) {
+        nodes[i].innerHTML = d[nodes[i].getAttribute("data-i18n")];
+      }
+      for (var j = 0; j < buttons.length; j++) {
+        buttons[j].setAttribute("aria-pressed", String(buttons[j].getAttribute("data-lang") === lang));
+      }
+      current = lang;
+    }
+
+    for (var k = 0; k < buttons.length; k++) {
+      buttons[k].addEventListener("click", function () {
+        var lang = this.getAttribute("data-lang");
+        if (lang === current) return;
+        storageSet(lang);
+        // Keep an explicit ?lang= in sync so a reload shows the same choice.
+        try {
+          var u = new URL(location.href);
+          if (u.searchParams.has("lang")) {
+            u.searchParams.set("lang", lang);
+            history.replaceState(null, "", u);
+          }
+        } catch (e) {}
+        apply(lang);
+      });
+    }
+
+    apply(current);
+    document.querySelector(".lang-switch").hidden = false;
+  })();
+  </script>
 </body>
 </html>

@@ -81,7 +81,7 @@ Añade una entrada a `LANGUAGES` en [`wikipedia_rss/config.py`](wikipedia_rss/co
 - `mode="daily_pages"` si la wiki tiene una página por día (define `daily_title` con `{year}`, `{month}`, `{day}` y `month_names`), o `mode="single_list"` si hay una lista de bullets editada a mano (define `list_page`; se lee como wikitext con secciones `;Encabezado`).
 - `skip_sections`, `ignore_namespaces` (espacios de nombres de imágenes y categorías en ese idioma), `use_extracts` y los textos de `strings`.
 
-Después ejecuta `python3 wikipedia_rss.py --lang <código> --dry-run -v`, añade un fixture y un test en `tests/`, y un enlace en `index.html`. El workflow genera todos los idiomas de `LANGUAGES` automáticamente.
+Después ejecuta `python3 wikipedia_rss.py --lang <código> --dry-run -v`, añade un fixture y un test en `tests/`, y un enlace en `index.html` (la página es bilingüe: añádelo en el HTML, que está en inglés, y en el diccionario `es` del script). El workflow genera todos los idiomas de `LANGUAGES` automáticamente.
 
 ## Licencia, atribución y User-Agent
 
