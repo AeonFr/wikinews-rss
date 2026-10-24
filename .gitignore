@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+# Caché HTTP opcional (--cache DIR); usa este nombre por convención.
+.cache/
+# Temporales de escritura atómica (state.write_atomic) si un proceso muere a medias.
+.tmp-*
+# Logs de la ejecución local con launchd
+logs/

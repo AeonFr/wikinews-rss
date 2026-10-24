@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  Ejecución local cada hora con launchd (macOS), alternativa a GitHub Actions.
+
+  1. Sustituye /RUTA/AL/REPO por la ruta absoluta del repositorio y TU_CONTACTO
+     por un email o URL (política de User-Agent de Wikimedia).
+  2. Copia el archivo:
+       cp deploy/launchd/org.example.wikipedia-noticias.plist ~/Library/LaunchAgents/
+  3. Crea la carpeta de logs y carga el agente:
+       mkdir -p /RUTA/AL/REPO/logs
+       launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/org.example.wikipedia-noticias.plist
+  4. Para ejecutarlo ya:  launchctl kickstart gui/$(id -u)/org.example.wikipedia-noticias
+     Para quitarlo:       launchctl bootout gui/$(id -u)/org.example.wikipedia-noticias
+
+  Con el Mac dormido no se ejecuta; launchd lanza una ejecución al despertar.
+  Para publicar los feeds tendrías que añadir un git commit/push o copiarlos a un servidor.
+-->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>org.example.wikipedia-noticias</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/usr/bin/python3</string>
+    <string>/RUTA/AL/REPO/wikipedia_rss.py</string>
+    <string>--cache</string>
+    <string>.cache</string>
+  </array>
+
+  <!-- Directorio de trabajo: feeds/, state/ y .cache/ se resuelven respecto a él. -->
+  <key>WorkingDirectory</key>
+  <string>/RUTA/AL/REPO</string>
+
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>WIKIPEDIA_RSS_USER_AGENT</key>
+    <string>wikipedia-noticias-rss/0.1 (TU_CONTACTO)</string>
+  </dict>
+
+  <!-- Cada 3600 segundos (1 hora). -->
+  <key>StartInterval</key>
+  <integer>3600</integer>
+
+  <key>RunAtLoad</key>
+  <true/>
+
+  <key>StandardOutPath</key>
+  <string>/RUTA/AL/REPO/logs/wikipedia-rss.log</string>
+  <key>StandardErrorPath</key>
+  <string>/RUTA/AL/REPO/logs/wikipedia-rss.log</string>
+</dict>
+</plist>

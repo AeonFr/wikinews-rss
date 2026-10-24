@@ -1,0 +1,98 @@
+name: Actualizar feeds
+
+on:
+  schedule:
+    # Cada hora en el minuto 17 (los minutos redondos están más saturados en GitHub).
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Nunca dos ejecuciones a la vez: la siguiente espera a que termine la actual.
+concurrency:
+  group: update-feeds
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      # Opcional: define la variable de repositorio WIKIPEDIA_RSS_USER_AGENT
+      # (Settings > Secrets and variables > Actions > Variables) con tu contacto.
+      WIKIPEDIA_RSS_USER_AGENT: ${{ vars.WIKIPEDIA_RSS_USER_AGENT }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Tests
+        run: python3 -m unittest discover -s tests
+
+      - name: Generar feeds
+        id: generate
+        env:
+          OWNER: ${{ github.repository_owner }}
+          REPO: ${{ github.event.repository.name }}
+          # Opcional: variable de repositorio FEEDS_BASE_URL para un dominio propio
+          # (debe apuntar al directorio que contiene es.xml y en.xml).
+          FEEDS_BASE_URL: ${{ vars.FEEDS_BASE_URL }}
+        run: |
+          owner="${OWNER,,}"   # los hostnames de Pages van en minúsculas
+          if [ -n "$FEEDS_BASE_URL" ]; then
+            base="$FEEDS_BASE_URL"
+          elif [ "${REPO,,}" = "${owner}.github.io" ]; then
+            base="https://${owner}.github.io/feeds"
+          else
+            base="https://${owner}.github.io/${REPO}/feeds"
+          fi
+          echo "Base URL: $base"
+          # Si un idioma falla, el script escribe los demás y sale con código 1.
+          # No cortamos aquí: primero se hace commit de lo generado y el job
+          # se marca en rojo en el último paso.
+          set +e
+          python3 wikipedia_rss.py --base-url "$base"
+          echo "exit_code=$?" >> "$GITHUB_OUTPUT"
+
+      - name: Keepalive
+        # GitHub desactiva los workflows programados tras 60 días sin actividad.
+        run: |
+          last=$(git log -1 --format=%ct)
+          age_days=$(( ( $(date +%s) - last ) / 86400 ))
+          echo "Último commit hace ${age_days} días"
+          if [ "$age_days" -ge 45 ]; then
+            date -u +%Y-%m-%dT%H:%M:%SZ > state/.keepalive
+          fi
+
+      - name: Commit y push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state feeds
+          if git diff --cached --quiet; then
+            echo "Sin cambios"
+            exit 0
+          fi
+          git commit -q -m "Actualizar feeds $(date -u +%Y-%m-%dT%H:%MZ)"
+          branch="${GITHUB_REF_NAME}"
+          for attempt in 1 2 3 4 5; do
+            if git push origin "HEAD:${branch}"; then
+              exit 0
+            fi
+            echo "Push rechazado (intento ${attempt}); rebase y reintento"
+            # En un rebase, -X theirs da prioridad a nuestro commit (el que se reaplica)
+            # si alguien tocó a la vez state/ o feeds/.
+            git pull --rebase -X theirs origin "${branch}" || { git rebase --abort; sleep 5; }
+            sleep $(( attempt * 3 ))
+          done
+          echo "::error::No se pudo hacer push tras 5 intentos"
+          exit 1
+
+      - name: Fallar si algún idioma falló
+        if: steps.generate.outputs.exit_code != '0'
+        run: |
+          echo "::error::wikipedia_rss.py terminó con código ${{ steps.generate.outputs.exit_code }} (algún idioma falló; revisa el paso 'Generar feeds')"
+          exit 1

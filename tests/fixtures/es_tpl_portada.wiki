@@ -1,0 +1,60 @@
+<noinclude>{{Portada:Actualidad/doc}}</noinclude><!--
+#######################################################
+# Aquí empiezan los contenidos
+#######################################################
+La imagen de esta sección siempre debe estar al inicio de la sección. Una sola imagen en esta sección de la plantilla, ya que la versión móvil no se ve bien con dos.-->
+* [[Anexo:Guerras y conflictos actuales|Guerras y conflictos]]: [[Guerra de Estados Unidos e Israel contra Irán|Estados Unidos-Irán-Israel]]/[[Crisis del estrecho de Ormuz de 2026|Estrecho de Ormuz]] — [[Guerra de Gaza|Gaza-Israel]] — [[Invasión israelí del Líbano de 2026|Hezbolá-Israel]] — [[Guerra ruso-ucraniana|Rusia-Ucrania]] — [[Crisis migratoria de Ceuta de 2026|España-Marruecos]] — [[Ofensiva del oeste de Yemen de 2026|Yemen]] — [[Ofensiva del norte de Etiopía de 2026|Etiopía]]
+* [[Protestas estudiantiles de Francia de 2026|Protestas estudiantiles de Francia]]
+* [[PHP2Shell|Vulnerabilidad crítica en el lenguaje PHP denominada PHP2Shell]]
+* 24 de octubre: [[Festival de la Canción de Eurovisión Junior 2026|Festival de la Canción de Eurovisión Junior]]
+* [[Acampadas por el derecho a la vivienda en España de 2026|Acampadas por la vivienda en España]]
+* 23-31 de octubre: [[Serie Mundial de 2026|Serie Mundial las Grandes Ligas de Béisbol]]
+* 23-25 de octubre: [[Anexo:Gran Premio de los Estados Unidos de 2026|Gran Premio de los Estados Unidos de Fórmula 1]]
+* 23 de octubre: Entrega de los [[Premios Princesa de Asturias]]
+* 19-25 de octubre: Torneos de [[Torneo de Almatý 2026|Almatý]], [[Torneo ATP de Bruselas 2026|Bruselas]] y [[Torneo de Lyon 2026|Lyon]] de tenis
+* 17 de octubre-7 de noviembre: [[Copa Mundial Femenina de Fútbol Sub-17 de 2026|Copa Mundial Femenina de Fútbol Sub-17]]
+* 15-31 de octubre: [[Copa Libertadores Femenina 2026|Copa Libertadores Femenina]]
+
+<div style="margin-top: .9em; margin-bottom: .9em;">
+;[[Anexo:Fallecidos en {{#time:Y}}|Fallecimientos]]
+<!--[[Archivo:Donal-lunny-the-basement-sydney-australia-24-03-06.jpg|120px|right|El músico y productor irlandés Dónal Lunny]]-->
+* 23 de octubre: [[Dónal Lunny]], músico y productor irlandés (79)
+* 23 de octubre: [[Fernando González de Nicolás]], piloto de motociclismo español (77)
+<!--[[Archivo:Claude Cohen-Tannoudji.JPG|120px|right|El físico francés Claude Cohen-Tannoudji]]-->
+* 22 de octubre: [[Claude Cohen-Tannoudji]], físico francés (93)
+* 22 de octubre: [[Jaume Pont]], poeta español (79)
+[[Archivo:Cornell Green 1960.jpeg|120px|right|El baloncestista y jugador de fútbol americano estadounidense Cornell Green]]
+* 21 de octubre: [[Cornell Green]], baloncestista y jugador de fútbol americano estadounidense (86; ''en la imagen superior'')
+[[Archivo:D. Sorín.jpg|120px|right|El escritor argentino Daniel Sorín]]
+* 21 de octubre: [[Daniel Sorín]], escritor argentino (75; ''en la imagen inferior'')
+* 21 de octubre: [[Tom Skerritt]], actor estadounidense (93)
+* 21 de octubre: [[Şahan Arzruni]], músico armenio (83)
+* 21 de octubre: [[Hugo Rivero]], futbolista uruguayo (56)
+* 21 de octubre: [[Ken Ring]], escritor neozelandés (81)
+* 21 de octubre: [[Dennis Vargas Marín]], político peruano (74)
+* 21 de octubre: [[Ng Joo Pong]], ciclista Malayo (80)
+* 20 de octubre: [[Sergey Kucherov]], ciclista ruso (46)
+* 20 de octubre: [[Saúl Blanch]], cantante argentino (75)
+</div>
+
+<!-- IMPORTANTE: Como criterio de relevancia, esta sección sólo recoge la fiesta principal de cada país, así como conmemoraciones o fiestas de ámbito continental o mundial -->
+;Conmemoraciones y fiestas
+* 24-31 de octubre: [[Semana Mundial de la Alfabetización Mediática e Informacional]]
+* 24-30 de octubre: [[Semana del Desarme]]
+* 24 de octubre: [[Día de las Naciones Unidas]]
+* 24 de octubre: [[Día Mundial de Información sobre el Desarrollo]]
+* 24 de octubre: [[Día Mundial de la Poliomielitis]]
+* 24 de octubre: [[Zambia|Día Nacional de Zambia]]
+* 18-24 de octubre: [[Semana Internacional de Prevención de la Intoxicación por Plomo]]
+
+<!--
+#############################################################################################
+# Aquí terminan los contenidos. No borrar nada de aquí en adelante
+############################################################################################
+-->
+
+'''Véase también:''' [[:Categoría:Actualidad]] — [[{{#time:Y}}]] — [[:Categoría:{{#time:Y}}]]
+{{#ifeq:{{FULLPAGENAME}}|Portal:Actualidad|<br /><br />'''¿Quieres colaborar?''' Puedes <span class="plainlinks">[//es.wikipedia.org/w/index.php?title=Plantilla_discusión:Portada:Actualidad&action=edit&section=new&editintro=Portal_discusión:Actualidad/preload avisarnos]</span> de un artículo de actualidad que falte.}}<!--
+* Cuadro de Actualidad reformado según http://es.wikipedia.org/wiki/Wikiproyecto:Actualidad/Mejoras_2010 y anunciado-aprobado en http://es.wikipedia.org/wiki/Wikipedia:Café/Portal/Archivo/Propuestas/Actual#Reforma_del_Portal:Actualidad_y_del_cuadro_de_Actualidad_en_la_Portada
+
+Antes de hacer cambios, se recomienda leer detalladamente la '''documentación de la plantilla''
