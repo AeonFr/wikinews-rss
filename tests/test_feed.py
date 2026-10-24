@@ -57,6 +57,61 @@ class RunLanguageTest(unittest.TestCase):
         self.assertEqual(first, second)
         self.assertIn("Extract of PHP2Shell.", " ".join(i.findtext("description") for i in self.read_feed("es").iter("item")))
 
+    def snapshot(self):
+        files = {}
+        for sub in ("state_dir", "out_dir"):
+            for name in sorted(os.listdir(self.dirs[sub])):
+                with open(os.path.join(self.dirs[sub], name), "rb") as f:
+                    files[(sub, name)] = f.read()
+        return files
+
+    def run_both(self, now, en=None, es=None):
+        feed.run_language(LANGUAGES["en"], en or en_client(), now, base_url="https://x.org/feeds", **self.dirs)
+        feed.run_language(LANGUAGES["es"], es or es_client(), now, base_url="https://x.org/feeds", **self.dirs)
+
+    def test_rerun_without_changes_is_byte_identical(self):
+        self.run_both(NOW)
+        first = self.snapshot()
+        self.assertEqual(len(first), 4)
+        for hours in (1, 24, 72):
+            self.run_both(NOW + datetime.timedelta(hours=hours))
+            self.assertEqual(self.snapshot(), first)
+        self.assertIn(b"<lastBuildDate>Sat, 24 Oct 2026 09:00:00 GMT</lastBuildDate>", first[("out_dir", "en.xml")])
+        self.assertNotIn(b"last_seen", first[("state_dir", "en.json")])
+
+    def test_new_or_modified_item_changes_output(self):
+        self.run_both(NOW)
+        first = self.snapshot()
+        later = NOW + datetime.timedelta(days=1)
+        wiki = fixture("es_tpl_portada.wiki")
+
+        # New item.
+        added = wiki.replace("* [[PHP2Shell|", "* [[Nueva noticia]]\n* [[PHP2Shell|", 1)
+        self.run_both(later, es=FakeClient(raw_pages={"Plantilla:Portada:Actualidad": added}))
+        second = self.snapshot()
+        self.assertEqual(second[("out_dir", "en.xml")], first[("out_dir", "en.xml")])
+        self.assertNotEqual(second[("out_dir", "es.xml")], first[("out_dir", "es.xml")])
+        self.assertNotEqual(second[("state_dir", "es.json")], first[("state_dir", "es.json")])
+        self.assertIn(b"Nueva noticia", second[("out_dir", "es.xml")])
+        self.assertIn(b"<lastBuildDate>Sun, 25 Oct 2026 09:00:00 GMT</lastBuildDate>", second[("out_dir", "es.xml")])
+
+        # Modified item (same guid, new title).
+        edited = added.replace("Vulnerabilidad crítica", "Grave vulnerabilidad", 1)
+        later2 = later + datetime.timedelta(days=1)
+        self.run_both(later2, es=FakeClient(raw_pages={"Plantilla:Portada:Actualidad": edited}))
+        third = self.snapshot()
+        self.assertNotEqual(third[("out_dir", "es.xml")], second[("out_dir", "es.xml")])
+        self.assertIn("Grave vulnerabilidad".encode(), third[("out_dir", "es.xml")])
+        self.assertNotIn("Vulnerabilidad crítica".encode(), third[("out_dir", "es.xml")])
+
+        # Modified en item: edited text keeps the guid but changes the description.
+        en_html = fixture("en_day.html").replace("prepare for a complete", "prepare for a full", 1)
+        en = FakeClient(day_pages={"Portal:Current events/2026 October 23": en_html})
+        self.run_both(later2, en=en, es=FakeClient(raw_pages={"Plantilla:Portada:Actualidad": edited}))
+        fourth = self.snapshot()
+        self.assertNotEqual(fourth[("out_dir", "en.xml")], third[("out_dir", "en.xml")])
+        self.assertEqual(fourth[("out_dir", "es.xml")], third[("out_dir", "es.xml")])
+
     def test_dry_run_writes_nothing(self):
         feed.run_language(LANGUAGES["es"], es_client(), NOW, dry_run=True, **self.dirs)
         self.assertFalse(os.path.exists(self.dirs["out_dir"]))

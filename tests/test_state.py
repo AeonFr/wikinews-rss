@@ -27,8 +27,52 @@ class MergeTest(unittest.TestCase):
     def test_retention(self):
         state = {"items": {}}
         st.merge(state, [item("old")], T0)
-        st.merge(state, [item("new")], T0 + datetime.timedelta(days=91), retention_days=90)
+        day1 = T0 + datetime.timedelta(days=1)
+        st.merge(state, [item("new")], day1, retention_days=90)
+        self.assertEqual(state["items"]["old"]["gone_since"], st.utc_iso(day1))
+        st.merge(state, [item("new")], day1 + datetime.timedelta(days=90), retention_days=90)
+        self.assertIn("old", state["items"])
+        st.merge(state, [item("new")], day1 + datetime.timedelta(days=91), retention_days=90)
         self.assertEqual(list(state["items"]), ["new"])
+
+    def test_returning_item_loses_gone_since(self):
+        state = {"items": {}}
+        st.merge(state, [item("a")], T0)
+        st.merge(state, [], T0 + datetime.timedelta(days=1))
+        self.assertIn("gone_since", state["items"]["a"])
+        st.merge(state, [item("a")], T0 + datetime.timedelta(days=2))
+        self.assertNotIn("gone_since", state["items"]["a"])
+
+    def test_unchanged_merge_leaves_state_identical(self):
+        state = {"items": {}}
+        st.merge(state, [item("a"), item("b", "2026-10-22")], T0)
+        st.merge(state, [item("a")], T0 + datetime.timedelta(days=1))  # b disappears
+        dumped = st.dump_state(state)
+        for days in (2, 3):
+            st.merge(state, [item("a")], T0 + datetime.timedelta(days=days))
+            self.assertEqual(st.dump_state(state), dumped)
+        self.assertEqual(state["updated"], st.utc_iso(T0 + datetime.timedelta(days=1)))
+        st.merge(state, [dict(item("a"), title="edited")], T0 + datetime.timedelta(days=4))
+        self.assertEqual(state["updated"], st.utc_iso(T0 + datetime.timedelta(days=4)))
+
+    def test_migrates_last_seen(self):
+        state = {"updated": "2026-10-24T09:00:00Z", "items": {}}
+        st.merge(state, [item("a"), item("b")], T0)
+        for it in state["items"].values():
+            it["last_seen"] = "2026-10-24T09:00:00Z"  # format written by older versions
+        st.merge(state, [item("a")], T0 + datetime.timedelta(hours=1))
+        self.assertNotIn("last_seen", state["items"]["a"])
+        self.assertEqual(state["items"]["b"], dict(state["items"]["b"], gone_since="2026-10-24T09:00:00Z"))
+        self.assertNotIn("last_seen", state["items"]["b"])
+
+    def test_write_atomic_skips_identical_content(self):
+        import os
+        import tempfile
+        with tempfile.TemporaryDirectory() as tmp:
+            path = os.path.join(tmp, "f.txt")
+            self.assertTrue(st.write_atomic(path, "x\n"))
+            self.assertFalse(st.write_atomic(path, "x\n"))
+            self.assertTrue(st.write_atomic(path, "y\n"))
 
     def test_edited_daily_item_reuses_guid(self):
         state = {"items": {}}

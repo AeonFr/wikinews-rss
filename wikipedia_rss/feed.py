@@ -123,7 +123,7 @@ def run_language(cfg, client, now, days=7, max_items=50, state_dir="state", out_
 
     new = st.merge(state, items, now, retention_days)
     feed_items = st.latest(state, max_items)
-    xml = rss.build_rss(cfg, feed_items, now, base_url)
+    xml = rss.build_rss(cfg, feed_items, st.parse_iso(state["updated"]), base_url)
     if not dry_run:
         st.write_atomic(os.path.join(out_dir, "%s.xml" % cfg.code), xml)
         st.save_state(state_path, state)

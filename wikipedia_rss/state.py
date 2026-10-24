@@ -1,4 +1,12 @@
-"""Persistent per-language state: guid -> item (with first_seen and pub_date)."""
+"""Persistent per-language state: guid -> item (with first_seen and pub_date).
+
+The state only changes when the scraped content changes, so a run that finds
+nothing new leaves the file byte-for-byte identical (no per-run timestamps):
+
+- "updated" is the time of the last real change (it is also the feed's lastBuildDate).
+- "gone_since" is set on an item only while it is missing from the portal; it
+  drives retention and is removed if the item comes back.
+"""
 import datetime
 import json
 import os
@@ -14,7 +22,16 @@ def parse_iso(s):
 
 
 def write_atomic(path, data):
-    """Write text to path via a temp file in the same directory + rename."""
+    """Write text to path via a temp file in the same directory + rename.
+
+    Does nothing if the file already has exactly this content. Returns True if written.
+    """
+    try:
+        with open(path, encoding="utf-8", newline="") as f:
+            if f.read() == data:
+                return False
+    except FileNotFoundError:
+        pass
     directory = os.path.dirname(os.path.abspath(path))
     os.makedirs(directory, exist_ok=True)
     fd, tmp = tempfile.mkstemp(dir=directory, prefix=".tmp-")
@@ -25,6 +42,7 @@ def write_atomic(path, data):
     except BaseException:
         os.unlink(tmp)
         raise
+    return True
 
 
 def load_state(path):
@@ -34,8 +52,12 @@ def load_state(path):
         return json.load(f)
 
 
+def dump_state(state):
+    return json.dumps(state, ensure_ascii=False, indent=1, sort_keys=True) + "\n"
+
+
 def save_state(path, state):
-    write_atomic(path, json.dumps(state, ensure_ascii=False, indent=1, sort_keys=True) + "\n")
+    return write_atomic(path, dump_state(state))
 
 
 def pub_date_for(item, first_seen):
@@ -53,9 +75,11 @@ def merge(state, items, now, retention_days=90):
     """Merge freshly scraped items (each with a 'guid') into state. Returns the new guids.
 
     Known items keep first_seen, pub_date and date_source; their content is refreshed.
-    Items no longer on the portal stay until not seen for retention_days.
+    Items no longer on the portal get "gone_since" and stay until it is older than
+    retention_days. state["updated"] only moves to now if the items actually changed.
     """
     known = state.setdefault("items", {})
+    before = json.dumps(known, sort_keys=True)
     now_iso = utc_iso(now)
     scraped = {it["guid"] for it in items}
     # An edited daily item gets a new text hash; recognise it by date + first source URL.
@@ -79,13 +103,21 @@ def merge(state, items, now, retention_days=90):
             item["first_seen"] = now_iso
             item["pub_date"] = pub_date_for(item, now)
             new.append(guid)
-        item["last_seen"] = now_iso
         known[guid] = item
 
+    current = {it["guid"] for it in items}
     cutoff = now - datetime.timedelta(days=retention_days)
-    for guid in [g for g, it in known.items() if parse_iso(it["last_seen"]) < cutoff]:
-        del known[guid]
-    state["updated"] = now_iso
+    for guid in list(known):
+        it = known[guid]
+        # "last_seen" came from older versions that stamped every item on every run.
+        last_seen = it.pop("last_seen", None)
+        if guid in current:
+            continue
+        it.setdefault("gone_since", last_seen or now_iso)
+        if parse_iso(it["gone_since"]) < cutoff:
+            del known[guid]
+    if "updated" not in state or json.dumps(known, sort_keys=True) != before:
+        state["updated"] = now_iso
     return new
 
 

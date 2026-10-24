@@ -41,7 +41,9 @@ def _categories(item):
     return [c for i, c in enumerate(cats) if c and c not in cats[:i]]
 
 
-def build_rss(cfg, items, now, base_url=None):
+def build_rss(cfg, items, last_build, base_url=None):
+    """last_build: time of the last real change (not the run time), so that an
+    unchanged feed is byte-for-byte identical between runs."""
     portal_url = cfg.url(cfg.portal)
     rss = ET.Element("rss", {"version": "2.0"})
     ch = ET.SubElement(rss, "channel")
@@ -59,7 +61,7 @@ def build_rss(cfg, items, now, base_url=None):
         cfg.history_url(cfg.list_page or cfg.portal)))
     sub(ch, "language", cfg.code)
     sub(ch, "copyright", cfg.strings["copyright"])
-    sub(ch, "lastBuildDate", format_datetime(now, usegmt=True))
+    sub(ch, "lastBuildDate", format_datetime(last_build, usegmt=True))
     sub(ch, "generator", "wikipedia-noticias-rss")
     sub(ch, "docs", "https://www.rssboard.org/rss-specification")
     sub(ch, "ttl", "60")

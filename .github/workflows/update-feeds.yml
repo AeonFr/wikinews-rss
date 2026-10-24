@@ -2,8 +2,9 @@ name: Actualizar feeds
 
 on:
   schedule:
-    # Cada hora en el minuto 17 (los minutos redondos están más saturados en GitHub).
-    - cron: "17 * * * *"
+    # Una vez al día a las 06:17 UTC (los minutos redondos están más saturados en GitHub).
+    # Si nada cambió en Wikipedia, los archivos quedan idénticos y no hay commit.
+    - cron: "17 6 * * *"
   workflow_dispatch:
 
 permissions:
@@ -59,6 +60,8 @@ jobs:
 
       - name: Keepalive
         # GitHub desactiva los workflows programados tras 60 días sin actividad.
+        # Solo se hace commit cuando hay cambios reales, así que si Wikipedia no
+        # cambiara en mucho tiempo, este archivo fuerza un commit a los 45 días.
         run: |
           last=$(git log -1 --format=%ct)
           age_days=$(( ( $(date +%s) - last ) / 86400 ))
