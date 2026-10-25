@@ -1,0 +1,31 @@
+name: Tests
+
+# Separado de update-feeds.yml: un test roto marca el commit/PR en rojo pero
+# nunca bloquea la actualización programada de los feeds.
+# (Los commits del bot con GITHUB_TOKEN no disparan este workflow.)
+on:
+  push:
+    paths-ignore: ["feeds/**", "state/**"]
+  pull_request:
+    paths-ignore: ["feeds/**", "state/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    strategy:
+      matrix:
+        python-version: ["3.9", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Tests
+        run: python3 -m unittest discover -s tests

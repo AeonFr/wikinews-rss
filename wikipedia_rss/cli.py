@@ -11,7 +11,8 @@ from .feed import run_language
 log = logging.getLogger("wikipedia_rss")
 
 
-def main(argv=None):
+def main(argv=None, now=None):
+    """`now` (datetime con zona) permite fijar el reloj, p. ej. en tests; por defecto, la hora actual UTC."""
     ap = argparse.ArgumentParser(prog="wikipedia_rss",
                                  description="Genera feeds RSS a partir de los portales de actualidad de Wikipedia.")
     ap.add_argument("--lang", nargs="+", choices=sorted(LANGUAGES), default=sorted(LANGUAGES))
@@ -34,7 +35,8 @@ def main(argv=None):
     logging.basicConfig(level=logging.DEBUG if args.verbose else logging.INFO,
                         format="%(levelname)s %(name)s: %(message)s")
     user_agent = os.environ.get(USER_AGENT_ENV) or DEFAULT_USER_AGENT
-    now = datetime.datetime.now(datetime.timezone.utc).replace(microsecond=0)
+    if now is None:
+        now = datetime.datetime.now(datetime.timezone.utc).replace(microsecond=0)
 
     failed = []
     for code in args.lang:

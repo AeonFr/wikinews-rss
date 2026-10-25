@@ -126,7 +126,7 @@ class CliTest(unittest.TestCase):
 
         with tempfile.TemporaryDirectory() as tmp, mock.patch.object(cli, "WikiClient", make_client):
             with self.assertLogs("wikipedia_rss", "ERROR"):
-                code = cli.main(["--out", tmp, "--state", tmp, "--days", "2"])
+                code = cli.main(["--out", tmp, "--state", tmp, "--days", "2"], now=NOW)
             self.assertEqual(code, 1)
             self.assertTrue(os.path.exists(os.path.join(tmp, "en.xml")))
             self.assertFalse(os.path.exists(os.path.join(tmp, "es.xml")))

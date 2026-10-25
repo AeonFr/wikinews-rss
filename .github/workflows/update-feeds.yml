@@ -30,8 +30,8 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Tests
-        run: python3 -m unittest discover -s tests
+      # Los tests corren aparte (tests.yml, en push y pull_request) para que un
+      # test roto nunca impida actualizar los feeds.
 
       - name: Generar feeds
         id: generate
@@ -55,8 +55,11 @@ jobs:
           # No cortamos aquí: primero se hace commit de lo generado y el job
           # se marca en rojo en el último paso.
           set +e
-          python3 wikipedia_rss.py --base-url "$base"
-          echo "exit_code=$?" >> "$GITHUB_OUTPUT"
+          log="$RUNNER_TEMP/generate.log"
+          python3 wikipedia_rss.py --base-url "$base" 2>&1 | tee "$log"
+          echo "exit_code=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
+          # Líneas "ERROR wikipedia_rss: <idioma>: failed: <motivo>" para el paso final.
+          grep -E '^ERROR wikipedia_rss: [a-z-]+: failed: ' "$log" | sed -E 's/^ERROR wikipedia_rss: //' > "$RUNNER_TEMP/failed.txt" || true
 
       - name: Keepalive
         # GitHub desactiva los workflows programados tras 60 días sin actividad.
@@ -96,6 +99,19 @@ jobs:
 
       - name: Fallar si algún idioma falló
         if: steps.generate.outputs.exit_code != '0'
+        env:
+          EXIT_CODE: ${{ steps.generate.outputs.exit_code }}
         run: |
-          echo "::error::wikipedia_rss.py terminó con código ${{ steps.generate.outputs.exit_code }} (algún idioma falló; revisa el paso 'Generar feeds')"
+          failed="$RUNNER_TEMP/failed.txt"
+          if [ -s "$failed" ]; then
+            while IFS= read -r line; do
+              lang="${line%%: failed: *}"
+              reason="${line#*: failed: }"
+              echo "::error title=Falló el idioma ${lang}::${lang}: ${reason}"
+            done < "$failed"
+            langs=$(cut -d: -f1 "$failed" | paste -sd ' ' -)
+            echo "::error::wikipedia_rss.py terminó con código ${EXIT_CODE}; idiomas fallidos: ${langs}"
+          else
+            echo "::error::wikipedia_rss.py terminó con código ${EXIT_CODE} sin indicar idioma (revisa el paso 'Generar feeds')"
+          fi
           exit 1
