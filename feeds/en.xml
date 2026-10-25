@@ -6,22 +6,52 @@
     <description>News items from Wikipedia's Portal:Current events, one item per entry of the daily pages. Text from Wikipedia contributors, licensed under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). (history: https://en.wikipedia.org/w/index.php?title=Portal:Current_events&amp;action=history)</description>
     <language>en</language>
     <copyright>Text from Wikipedia contributors, licensed under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).</copyright>
-    <lastBuildDate>Sat, 24 Oct 2026 12:22:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 09:02:10 GMT</lastBuildDate>
     <generator>wikipedia-noticias-rss</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
     <atom:link href="https://aeonfr.github.io/wikinews-rss/feeds/en.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The Israeli military raids 15 cities in the occupied West Bank, arresting several Palestinians and destroying a three-storey building in Hebron.</title>
-      <link>https://en.wikipedia.org/wiki/2026_West_Bank_lockdown</link>
-      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Israel"&gt;Israeli&lt;/a&gt; military raids 15 cities in the occupied &lt;a href="https://en.wikipedia.org/wiki/West_Bank"&gt;West Bank&lt;/a&gt;, arresting several &lt;a href="https://en.wikipedia.org/wiki/Palestinians"&gt;Palestinians&lt;/a&gt; and destroying a three-storey building in &lt;a href="https://en.wikipedia.org/wiki/Hebron"&gt;Hebron&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/10/24/israel-raids-towns-detains-dozens-of-palestinians-in-occupied-west-bank"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Gaza_war"&gt;Gaza war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_West_Bank_lockdown"&gt;2026 West Bank lockdown&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_24"&gt;Portal:Current events/2026 October 24&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_24&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-24:6be57464bbda</guid>
-      <pubDate>Sat, 24 Oct 2026 09:15:58 GMT</pubDate>
-      <category>Armed conflicts and attacks</category>
-      <category>2026 West Bank lockdown</category>
+      <title>Western Sydney Airport in New South Wales, Australia, commences passenger operations as the Greater Sydney's second airport.</title>
+      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_25</link>
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Western_Sydney_Airport"&gt;Western Sydney Airport&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/New_South_Wales"&gt;New South Wales&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Australia"&gt;Australia&lt;/a&gt;, commences passenger operations as the &lt;a href="https://en.wikipedia.org/wiki/Greater_Sydney"&gt;Greater Sydney&lt;/a&gt;'s &lt;a href="https://en.wikipedia.org/wiki/Proposals_for_a_second_Sydney_airport"&gt;second airport&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_25"&gt;Portal:Current events/2026 October 25&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_25&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-10-25:a3fd45a9dedd</guid>
+      <pubDate>Sun, 25 Oct 2026 09:02:10 GMT</pubDate>
+      <category>Business and economy</category>
+    </item>
+    <item>
+      <title>Citizens of Brazil vote in the second electoral round for the next President of Brazil.</title>
+      <link>https://en.wikipedia.org/wiki/2026_Brazilian_general_election</link>
+      <description>&lt;p&gt;Citizens of &lt;a href="https://en.wikipedia.org/wiki/Brazil"&gt;Brazil&lt;/a&gt; vote in the second electoral round for the next &lt;a href="https://en.wikipedia.org/wiki/President_of_Brazil"&gt;President of Brazil&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Brazilian_general_election"&gt;2026 Brazilian general election&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_25"&gt;Portal:Current events/2026 October 25&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_25&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-10-25:9b312914c3e2</guid>
+      <pubDate>Sun, 25 Oct 2026 09:02:10 GMT</pubDate>
+      <category>Politics and elections</category>
+      <category>2026 Brazilian general election</category>
+    </item>
+    <item>
+      <title>Citizens of Bulgaria vote in the first electoral round for the next President of Bulgaria.</title>
+      <link>https://en.wikipedia.org/wiki/2026_Bulgarian_presidential_election</link>
+      <description>&lt;p&gt;Citizens of &lt;a href="https://en.wikipedia.org/wiki/Bulgaria"&gt;Bulgaria&lt;/a&gt; vote in the first electoral round for the next &lt;a href="https://en.wikipedia.org/wiki/President_of_Bulgaria"&gt;President of Bulgaria&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Bulgarian_presidential_election"&gt;2026 Bulgarian presidential election&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_25"&gt;Portal:Current events/2026 October 25&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_25&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-10-25:e8911e4c89b1</guid>
+      <pubDate>Sun, 25 Oct 2026 09:02:10 GMT</pubDate>
+      <category>Politics and elections</category>
+      <category>2026 Bulgarian presidential election</category>
+    </item>
+    <item>
+      <title>Citizens of Serbia vote for all seats in the Serbian National Assembly in a snap election.</title>
+      <link>https://en.wikipedia.org/wiki/2026_Serbian_parliamentary_election</link>
+      <description>&lt;p&gt;Citizens of &lt;a href="https://en.wikipedia.org/wiki/Serbia"&gt;Serbia&lt;/a&gt; vote for all seats in the &lt;a href="https://en.wikipedia.org/wiki/National_Assembly_(Serbia)"&gt;Serbian National Assembly&lt;/a&gt; in a snap election.&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Serbian_parliamentary_election"&gt;2026 Serbian parliamentary election&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_25"&gt;Portal:Current events/2026 October 25&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_25&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-10-25:aa017b6711d8</guid>
+      <pubDate>Sun, 25 Oct 2026 09:02:10 GMT</pubDate>
+      <category>Politics and elections</category>
+      <category>2026 Serbian parliamentary election</category>
     </item>
     <item>
       <title>A critically wounded woman succumbs to her injuries sustained yesterday during a mass shooting at a Greek Orthodox Church in Karak Governorate, Jordan, bringing the toll to eight killed and 39…</title>
@@ -36,6 +66,186 @@
       <category>2026 Karak church shooting</category>
     </item>
     <item>
+      <title>The Israeli military raids 15 cities in the occupied West Bank, arresting several Palestinians, forcing over 2,000 from their homes, and destroying a three-storey building in Hebron.</title>
+      <link>https://en.wikipedia.org/wiki/2026_West_Bank_lockdown</link>
+      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Israeli_military"&gt;Israeli military&lt;/a&gt; raids 15 cities in the occupied &lt;a href="https://en.wikipedia.org/wiki/West_Bank"&gt;West Bank&lt;/a&gt;, arresting several &lt;a href="https://en.wikipedia.org/wiki/Palestinians"&gt;Palestinians&lt;/a&gt;, forcing over 2,000 from their homes, and destroying a three-storey building in &lt;a href="https://en.wikipedia.org/wiki/Hebron"&gt;Hebron&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/10/24/israel-raids-towns-detains-dozens-of-palestinians-in-occupied-west-bank"&gt;Al Jazeera&lt;/a&gt;, &lt;a href="https://www.aljazeera.com/news/2026/10/24/more-than-2000-forced-from-homes-in-hebron-amid-israels-west-bank-raids"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Gaza_war"&gt;Gaza war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_West_Bank_lockdown"&gt;2026 West Bank lockdown&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_24"&gt;Portal:Current events/2026 October 24&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_24&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-10-24:6be57464bbda</guid>
+      <pubDate>Sat, 24 Oct 2026 09:15:58 GMT</pubDate>
+      <category>Armed conflicts and attacks</category>
+      <category>2026 West Bank lockdown</category>
+    </item>
+    <item>
+      <title>Unknown gunmen attack a village in Taraba State, Nigeria, killing at least ten people.</title>
+      <link>https://en.wikipedia.org/wiki/Nigerian_bandit_conflict</link>
+      <description>&lt;p&gt;Unknown gunmen attack a village in &lt;a href="https://en.wikipedia.org/wiki/Taraba_State"&gt;Taraba State&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Nigeria"&gt;Nigeria&lt;/a&gt;, killing at least ten people. Locals place the death toll at 20, while &lt;a href="https://en.wikipedia.org/wiki/Amnesty_International"&gt;Amnesty International&lt;/a&gt; claims at least 40.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/10/24/gunmen-kill-at-least-10-people-in-eastern-nigeria-police-say"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Nigerian_bandit_conflict"&gt;Nigerian bandit conflict&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_24"&gt;Portal:Current events/2026 October 24&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_24&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-10-24:cbe6e9cc75bc</guid>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Armed conflicts and attacks</category>
+      <category>Nigerian bandit conflict</category>
+    </item>
+    <item>
+      <title>At least one person is killed and 527 others are injured as Typhoon Champi swept near Taiwan.</title>
+      <link>https://en.wikipedia.org/wiki/2026_Pacific_typhoon_season</link>
+      <description>&lt;p&gt;At least one person is killed and 527 others are injured as &lt;a href="https://en.wikipedia.org/wiki/Typhoon_Champi_(2026)"&gt;Typhoon Champi&lt;/a&gt; swept near &lt;a href="https://en.wikipedia.org/wiki/Taiwan"&gt;Taiwan&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.dw.com/en/typhoon-champi-taiwan/a-79748221"&gt;DW&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Pacific_typhoon_season"&gt;2026 Pacific typhoon season&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_24"&gt;Portal:Current events/2026 October 24&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_24&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-10-24:1b9bdd82e231</guid>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Disasters and accidents</category>
+      <category>2026 Pacific typhoon season</category>
+    </item>
+    <item>
+      <title>Six people are killed and another is injured when a passenger train collides with a minibus in Jewish Autonomous Oblast, Russia.</title>
+      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_24</link>
+      <description>&lt;p&gt;Six people are killed and another is injured when a passenger train collides with a &lt;a href="https://en.wikipedia.org/wiki/Minibus"&gt;minibus&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Jewish_Autonomous_Oblast"&gt;Jewish Autonomous Oblast&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Russia"&gt;Russia&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.reuters.com/world/train-hits-minibus-russias-far-east-killing-six-2026-10-24/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_24"&gt;Portal:Current events/2026 October 24&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_24&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-10-24:d961c158714b</guid>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Disasters and accidents</category>
+    </item>
+    <item>
+      <title>Two people are killed and over 2,000 others are displaced by flooding in Chaco and Corrientes, Argentina.</title>
+      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_24</link>
+      <description>&lt;p&gt;Two people are killed and over 2,000 others are displaced by flooding in &lt;a href="https://en.wikipedia.org/wiki/Chaco_Province"&gt;Chaco&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Corrientes_Province"&gt;Corrientes&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Argentina"&gt;Argentina&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://aa.com.tr/en/world/floods-in-argentina-kill-2-displace-over-2-000-amid-el-nino/4099759"&gt;AA&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_24"&gt;Portal:Current events/2026 October 24&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_24&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-10-24:fac47e52290e</guid>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Disasters and accidents</category>
+    </item>
+    <item>
+      <title>Survivors of sexual abuse by Catholic clergy reach a settlement with the Archdiocese of New York in the United States, which will see the archdiocese paying at least $250,000 to around 1,300…</title>
+      <link>https://en.wikipedia.org/wiki/Catholic_Church_sex_abuse_cases_in_the_United_States</link>
+      <description>&lt;p&gt;Survivors of &lt;a href="https://en.wikipedia.org/wiki/Sexual_abuse"&gt;sexual abuse&lt;/a&gt; by &lt;a href="https://en.wikipedia.org/wiki/Catholic_Church_in_the_United_States"&gt;Catholic&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Catholic_priest"&gt;clergy&lt;/a&gt; reach a &lt;a href="https://en.wikipedia.org/wiki/Settlement_(litigation)"&gt;settlement&lt;/a&gt; with the &lt;a href="https://en.wikipedia.org/wiki/Archdiocese_of_New_York"&gt;Archdiocese of New York&lt;/a&gt; in the &lt;a href="https://en.wikipedia.org/wiki/United_States"&gt;United States&lt;/a&gt;, which will see the archdiocese paying at least $250,000 to around 1,300 &lt;a href="https://en.wikipedia.org/wiki/Plaintiff"&gt;plaintiffs&lt;/a&gt;, totaling over $800 million.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.dw.com/en/new-york-archdiocese-to-pay-800-million-to-sex-abuse-survivors/a-79753347"&gt;DW&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Catholic_Church_sexual_abuse_cases"&gt;Catholic Church sexual abuse cases&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Catholic_Church_sex_abuse_cases_in_the_United_States"&gt;Catholic Church sex abuse cases in the United States&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_24"&gt;Portal:Current events/2026 October 24&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_24&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-10-24:d7174f4c88de</guid>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Law and crime</category>
+      <category>Catholic Church sex abuse cases in the United States</category>
+    </item>
+    <item>
+      <title>Two people succumb to their injuries sustained the day before during a mass shooting at a Greek Orthodox Church in Karak Governorate, Jordan, bringing the toll to nine killed and 40 injured.</title>
+      <link>https://en.wikipedia.org/wiki/2026_Karak_church_shooting</link>
+      <description>&lt;p&gt;Two people succumb to their injuries sustained the day before during a &lt;a href="https://en.wikipedia.org/wiki/Mass_shooting"&gt;mass shooting&lt;/a&gt; at a &lt;a href="https://en.wikipedia.org/wiki/Greek_Orthodox_Patriarchate_of_Jerusalem"&gt;Greek Orthodox Church&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Karak_Governorate"&gt;Karak Governorate&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Jordan"&gt;Jordan&lt;/a&gt;, bringing the toll to nine killed and 40 injured.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.cnn.com/2026/10/23/middleeast/church-shooting-jordan-intl"&gt;CNN&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Karak_church_shooting"&gt;2026 Karak church shooting&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_24"&gt;Portal:Current events/2026 October 24&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_24&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-10-24:8781b4df46c7</guid>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Law and crime</category>
+      <category>2026 Karak church shooting</category>
+    </item>
+    <item>
+      <title>Five people are killed and 3 are injured in a suspected gang-related shooting in a residence in Lavender Hill, Cape Flats, Western Cape, South Africa at 8 PM on Saturday night.</title>
+      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_24</link>
+      <description>&lt;p&gt;Five people are killed and 3 are injured in a suspected gang-related shooting in a residence in &lt;a href="https://en.wikipedia.org/wiki/Lavender_Hill"&gt;Lavender Hill&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Cape_Flats"&gt;Cape Flats&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Western_Cape"&gt;Western Cape&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/South_Africa"&gt;South Africa&lt;/a&gt; at 8 PM on Saturday night.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://smilefm.co.za/anti-gang-unit-deployed-in-lavender-hill-after-five-killed-three-wounded/"&gt;Smile 90.4FM&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_24"&gt;Portal:Current events/2026 October 24&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_24&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-10-24:a32248c90a4d</guid>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Law and crime</category>
+    </item>
+    <item>
+      <title>Rioters in Paris attack police with projectiles, but are dispersed with tear gas and water cannons. / About 110,000 protesters march in Paris, France. / The Yellow vests hold a second wave of mass demonstrations across France.</title>
+      <link>https://en.wikipedia.org/wiki/2026_French_fuel_protests</link>
+      <description>&lt;p&gt;Rioters in &lt;a href="https://en.wikipedia.org/wiki/Paris"&gt;Paris&lt;/a&gt; attack police with projectiles, but are dispersed with &lt;a href="https://en.wikipedia.org/wiki/Tear_gas"&gt;tear gas&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Water_cannon"&gt;water cannons&lt;/a&gt;. A &lt;a href="https://en.wikipedia.org/wiki/Gendarmerie"&gt;gendarmerie&lt;/a&gt; helicopter is deployed to locate remaining rioters.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.france24.com/en/france/20261024-live-hundreds-of-protests-expected-in-france-amid-high-tensions-and-heavy-police-presence#post=U0UXw9tBzJKh9utyIIRy"&gt;France 24&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;About 110,000 protesters march in &lt;a href="https://en.wikipedia.org/wiki/Paris"&gt;Paris&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/France"&gt;France&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.france24.com/en/france/20261024-live-hundreds-of-protests-expected-in-france-amid-high-tensions-and-heavy-police-presence#post=U0UXw9tBzJKh9utyIIRy"&gt;France 24&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Yellow_vests_protests"&gt;Yellow vests&lt;/a&gt; hold a second wave of mass demonstrations across &lt;a href="https://en.wikipedia.org/wiki/France"&gt;France&lt;/a&gt;. About 410,000 people participate and over 1,000 people are arrested.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.theguardian.com/world/live/2026/oct/24/france-demonstrations-police-macron-italy-albania-belgium-spain-ukraine-russia-europe-latest-news#top-of-blog"&gt;The Guardian&lt;/a&gt;, &lt;a href="https://www.france24.com/en/france/20261024-live-hundreds-of-protests-expected-in-france-amid-high-tensions-and-heavy-police-presence#post=U0UXw9tBzJKh9utyIIRy"&gt;France 24&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_European_unrest"&gt;2026 European unrest&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_French_fuel_protests"&gt;2026 French fuel protests&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_24"&gt;Portal:Current events/2026 October 24&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_24&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-10-24:c7b5c89e1a22</guid>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Politics and elections</category>
+      <category>2026 French fuel protests</category>
+    </item>
+    <item>
+      <title>Party leader Marine Le Pen holds the National Rally congress in Orléans, France.</title>
+      <link>https://en.wikipedia.org/wiki/2026_French_fuel_protests</link>
+      <description>&lt;p&gt;Party leader &lt;a href="https://en.wikipedia.org/wiki/Marine_Le_Pen"&gt;Marine Le Pen&lt;/a&gt; holds the &lt;a href="https://en.wikipedia.org/wiki/National_Rally"&gt;National Rally&lt;/a&gt; congress in &lt;a href="https://en.wikipedia.org/wiki/Orl%C3%A9ans"&gt;Orléans&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/France"&gt;France&lt;/a&gt;. Protesters, including &lt;a href="https://en.wikipedia.org/wiki/French_Left"&gt;left-wing&lt;/a&gt; politicians, marched in opposition.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.cbsnews.com/news/paris-france-new-protests-riots-museums-shops/"&gt;CBS&lt;/a&gt;, &lt;a href="https://www.euronews.com/2026/10/24/thousands-protest-against-far-right-national-rally-congress-in-france"&gt;Euronews&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_European_unrest"&gt;2026 European unrest&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_French_fuel_protests"&gt;2026 French fuel protests&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_24"&gt;Portal:Current events/2026 October 24&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_24&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-10-24:c3ca32e41821</guid>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Politics and elections</category>
+      <category>2026 French fuel protests</category>
+    </item>
+    <item>
+      <title>A new wave of protests is held across Italy.</title>
+      <link>https://en.wikipedia.org/wiki/2026_Italian_unrest</link>
+      <description>&lt;p&gt;A new wave of protests is held across &lt;a href="https://en.wikipedia.org/wiki/Italy"&gt;Italy&lt;/a&gt;. Clashes are reported in &lt;a href="https://en.wikipedia.org/wiki/Bologna"&gt;Bologna&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Turin"&gt;Turin&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.rainews.it/maratona/2026/10/caro-vita-secondo-giorno-di-guerriglia-a-milano-nuovi-saccheggi-in-centro-dopo-gli-scontri-di-ieri-f03a282c-8ad7-411b-826e-f50b88ca9ebe.html"&gt;Rai News&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_European_unrest"&gt;2026 European unrest&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_Italian_unrest"&gt;2026 Italian unrest&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_24"&gt;Portal:Current events/2026 October 24&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_24&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-10-24:f11a53c77949</guid>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Politics and elections</category>
+      <category>2026 Italian unrest</category>
+    </item>
+    <item>
+      <title>Anti-government protests break out in Tirana, Albania.</title>
+      <link>https://en.wikipedia.org/wiki/Flamingo_Revolution</link>
+      <description>&lt;p&gt;Anti-government protests break out in &lt;a href="https://en.wikipedia.org/wiki/Tirana"&gt;Tirana&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Albania"&gt;Albania&lt;/a&gt;. Various government buildings are attacked.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.theguardian.com/world/live/2026/oct/24/france-demonstrations-police-macron-italy-albania-belgium-spain-ukraine-russia-europe-latest-news#top-of-blog"&gt;The Guardian&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_European_unrest"&gt;2026 European unrest&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Flamingo_Revolution"&gt;Flamingo Revolution&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_24"&gt;Portal:Current events/2026 October 24&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_24&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-10-24:fc200c3fa901</guid>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Politics and elections</category>
+      <category>Flamingo Revolution</category>
+    </item>
+    <item>
+      <title>At least 25,000 people gather in Madrid, Spain, in support of the country's state pension fund as it could significantly weaken following the general election in November. / A student protest in Barcelona, Spain, ends in riots, looting and clashes with the police.</title>
+      <link>https://en.wikipedia.org/wiki/2026_European_unrest</link>
+      <description>&lt;p&gt;At least 25,000 people gather in &lt;a href="https://en.wikipedia.org/wiki/Madrid"&gt;Madrid&lt;/a&gt;, Spain, in support of &lt;a href="https://en.wikipedia.org/wiki/Social_Security_Reserve_Fund_(Spain)"&gt;the country's state pension fund&lt;/a&gt; as it could significantly weaken following the &lt;a href="https://en.wikipedia.org/wiki/2026_Spanish_general_election"&gt;general election&lt;/a&gt; in November.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/10/24/about-25000-rally-in-madrid-in-support-of-spains-state-pension-scheme"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A student protest in &lt;a href="https://en.wikipedia.org/wiki/Barcelona"&gt;Barcelona&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Spain"&gt;Spain&lt;/a&gt;, ends in riots, looting and clashes with the &lt;a href="https://en.wikipedia.org/wiki/Mossos_d%27Esquadra"&gt;police&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.rtve.es/noticias/20261024/protesta-estudiantes-barcelona-degenera-disturbios-enfrentamientos-con-mossos-desquadra/17282127.shtml"&gt;RTVE in Spanish&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_European_unrest"&gt;2026 European unrest&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_24"&gt;Portal:Current events/2026 October 24&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_24&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-10-24:ff3f6079ed2e</guid>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Politics and elections</category>
+      <category>2026 European unrest</category>
+    </item>
+    <item>
+      <title>Thousands of Israelis rally in Hostages Square in Tel Aviv to protest against the government, prime minister Benjamin Netanyahu's cabinet, and the continuation of the Gaza war.</title>
+      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_24</link>
+      <description>&lt;p&gt;Thousands of &lt;a href="https://en.wikipedia.org/wiki/Israel"&gt;Israelis&lt;/a&gt; rally in &lt;a href="https://en.wikipedia.org/wiki/Hostages_Square"&gt;Hostages Square&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Tel_Aviv"&gt;Tel Aviv&lt;/a&gt; to protest against the &lt;a href="https://en.wikipedia.org/wiki/Israeli_government"&gt;government&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Prime_Minister_of_Israel"&gt;prime minister&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Benjamin_Netanyahu"&gt;Benjamin Netanyahu&lt;/a&gt;'s &lt;a href="https://en.wikipedia.org/wiki/Netanyahu_cabinet"&gt;cabinet&lt;/a&gt;, and the continuation of the &lt;a href="https://en.wikipedia.org/wiki/Gaza_war"&gt;Gaza war&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/10/24/thousands-of-israelis-rally-against-netanyahu-govt-days-before-election"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_24"&gt;Portal:Current events/2026 October 24&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_24&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-10-24:f43218abc143</guid>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Politics and elections</category>
+    </item>
+    <item>
+      <title>Russia and Ukraine confirm the ceasefire agreement for Oleshky, with Ukrainian president Volodymyr Zelenskyy stating that peace talks will begin next month. / The U.S. government says that Russia and Ukraine reached a humanitarian ceasefire agreement in Oleshky brokered by U.S. first lady Melania Trump.</title>
+      <link>https://en.wikipedia.org/wiki/Peace_negotiations_in_the_Russo-Ukrainian_war_(2022%E2%80%93present)</link>
+      <description>&lt;p&gt;Russia and Ukraine confirm the &lt;a href="https://en.wikipedia.org/wiki/Ceasefire"&gt;ceasefire&lt;/a&gt; agreement for Oleshky, with &lt;a href="https://en.wikipedia.org/wiki/President_of_Ukraine"&gt;Ukrainian president&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Volodymyr_Zelenskyy"&gt;Volodymyr Zelenskyy&lt;/a&gt; stating that peace talks will begin next month.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.themoscowtimes.com/2026/10/24/russia-ukraine-agree-on-ceasefire-in-embattled-oleshky-plan-new-peace-talks-next-month-a94069"&gt;The Moscow Times&lt;/a&gt;, &lt;a href="https://kyivindependent.com/ukraine-war-latest-ukraine-russia-agree-to-local-ceasefire-for-russian-occupied-oleshky-mediated-by-melania-trump/"&gt;Kyiv Independent&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Second_presidency_of_Donald_Trump"&gt;U.S. government&lt;/a&gt; says that &lt;a href="https://en.wikipedia.org/wiki/Russia"&gt;Russia&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Ukraine"&gt;Ukraine&lt;/a&gt; reached a humanitarian &lt;a href="https://en.wikipedia.org/wiki/Ceasefire"&gt;ceasefire&lt;/a&gt; agreement in &lt;a href="https://en.wikipedia.org/wiki/Oleshky"&gt;Oleshky&lt;/a&gt; brokered by &lt;a href="https://en.wikipedia.org/wiki/First_Lady_of_the_United_States"&gt;U.S. first lady&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Melania_Trump"&gt;Melania Trump&lt;/a&gt;. The ceasefire will take effect on Thursday.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.reuters.com/world/europe/melania-trump-secures-oleshky-ceasefire-between-russia-ukraine-white-house-says-2026-10-23/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Russo-Ukrainian_war_(2022%E2%80%93present)"&gt;Russo-Ukrainian war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Peace_negotiations_in_the_Russo-Ukrainian_war_(2022%E2%80%93present)"&gt;Peace negotiations in the Russo-Ukrainian war, Blockade of Oleshky, United States and the Russo-Ukrainian war&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_23"&gt;Portal:Current events/2026 October 23&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_23&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-10-23:63a0d7fc7d4c</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Armed conflicts and attacks</category>
+      <category>Peace negotiations in the Russo-Ukrainian war, Blockade of Oleshky, United States and the Russo-Ukrainian war</category>
+    </item>
+    <item>
       <title>Two Philippine Air Force (PAF) SF-260 aircraft collide during a low-altitude training flight and crash at Basilio Fernando Air Base in Lipa, Batangas, killing all four pilots aboard.</title>
       <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_23</link>
       <description>&lt;p&gt;Two &lt;a href="https://en.wikipedia.org/wiki/Philippine_Air_Force"&gt;Philippine Air Force&lt;/a&gt; (PAF) &lt;a href="https://en.wikipedia.org/wiki/SIAI-Marchetti_SF.260"&gt;SF-260&lt;/a&gt; aircraft &lt;a href="https://en.wikipedia.org/wiki/Mid-air_collision"&gt;collide&lt;/a&gt; during a low-altitude training flight and crash at &lt;a href="https://en.wikipedia.org/wiki/Basilio_Fernando_Air_Base"&gt;Basilio Fernando Air Base&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Lipa,_Batangas"&gt;Lipa&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Batangas"&gt;Batangas&lt;/a&gt;, killing all four pilots aboard. The PAF grounds its remaining &lt;a href="https://en.wikipedia.org/wiki/List_of_equipment_of_the_Philippine_Air_Force#Aircraft"&gt;SF-260 fleet&lt;/a&gt; pending investigation.&lt;/p&gt;
@@ -44,18 +254,6 @@
       <guid isPermaLink="false">wikipedia:en:2026-10-23:dd2290b93dd3</guid>
       <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
       <category>Disasters and accidents</category>
-    </item>
-    <item>
-      <title>The Israeli government orders the military to prepare for a complete lockdown of the West Bank.</title>
-      <link>https://en.wikipedia.org/wiki/2026_West_Bank_lockdown</link>
-      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Israel"&gt;Israeli&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Israeli_government"&gt;government&lt;/a&gt; orders &lt;a href="https://en.wikipedia.org/wiki/Israel_Defense_Forces"&gt;the military&lt;/a&gt; to prepare for a complete &lt;a href="https://en.wikipedia.org/wiki/Lockdown"&gt;lockdown&lt;/a&gt; of the &lt;a href="https://en.wikipedia.org/wiki/West_Bank"&gt;West Bank&lt;/a&gt;. This comes after two men who allegedly planned an attack were killed.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/10/23/israel-arrests-36-palestinians-in-the-west-bank-attacks-on-farmers-ramp-up"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Gaza_war"&gt;Gaza war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_West_Bank_lockdown"&gt;2026 West Bank lockdown&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_23"&gt;Portal:Current events/2026 October 23&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_23&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-23:ae82be5b60bd</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Armed conflicts and attacks</category>
-      <category>2026 West Bank lockdown</category>
     </item>
     <item>
       <title>A merchant ship is hit by drones of unknown origins in the Romanian Black Sea, killing a crew member and leaving three more missing.</title>
@@ -72,7 +270,7 @@
     <item>
       <title>Ukrainian police detain a 17-year-old girl suspected of helping Russia's Federal Security Service send methadone-laced capsules to Ukrainian soldiers, which killed two in Zhytomyr Oblast and…</title>
       <link>https://en.wikipedia.org/wiki/Russo-Ukrainian_war_(2022%E2%80%93present)</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Ukraine"&gt;Ukrainian&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Ukrainian_police"&gt;police&lt;/a&gt; detain a 17-year-old girl suspected of helping &lt;a href="https://en.wikipedia.org/wiki/Russia"&gt;Russia&lt;/a&gt;'s &lt;a href="https://en.wikipedia.org/wiki/Federal_Security_Service"&gt;Federal Security Service&lt;/a&gt; send &lt;a href="https://en.wikipedia.org/wiki/Methadone"&gt;methadone&lt;/a&gt;-laced capsules to &lt;a href="https://en.wikipedia.org/wiki/Ukrainian_soldiers"&gt;Ukrainian soldiers&lt;/a&gt;, which killed two in &lt;a href="https://en.wikipedia.org/wiki/Zhytomyr_Oblast"&gt;Zhytomyr Oblast&lt;/a&gt; and allegedly targeting four others.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Ukraine"&gt;Ukrainian&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Ukrainian_police"&gt;police&lt;/a&gt; detain a 17-year-old girl suspected of helping Russia's &lt;a href="https://en.wikipedia.org/wiki/Federal_Security_Service"&gt;Federal Security Service&lt;/a&gt; send &lt;a href="https://en.wikipedia.org/wiki/Methadone"&gt;methadone&lt;/a&gt;-laced capsules to &lt;a href="https://en.wikipedia.org/wiki/Ukrainian_soldiers"&gt;Ukrainian soldiers&lt;/a&gt;, which killed two in &lt;a href="https://en.wikipedia.org/wiki/Zhytomyr_Oblast"&gt;Zhytomyr Oblast&lt;/a&gt; and allegedly targeting four others.&lt;/p&gt;
 &lt;p&gt;Sources: &lt;a href="https://www.rfi.fr/en/international-news/20261023-ukraine-says-two-soldiers-died-after-arrested-girl-sent-russian-poison"&gt;AFP via RFI&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Russo-Ukrainian_war_(2022%E2%80%93present)"&gt;Russo-Ukrainian war&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_23"&gt;Portal:Current events/2026 October 23&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_23&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
@@ -80,6 +278,20 @@
       <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
       <category>Armed conflicts and attacks</category>
       <category>Russo-Ukrainian war</category>
+    </item>
+    <item>
+      <title>The Israeli government orders the military to prepare for a complete lockdown of the West Bank. / Israeli forces launch a multi-day operation around Hebron in the occupied West Bank, conducting searches, questioning suspects, and demolishing structures after Palestinian gunmen killed two Israeli…</title>
+      <link>https://en.wikipedia.org/wiki/2026_West_Bank_lockdown</link>
+      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Israeli_government"&gt;Israeli government&lt;/a&gt; orders the military to prepare for a complete &lt;a href="https://en.wikipedia.org/wiki/Lockdown"&gt;lockdown&lt;/a&gt; of the &lt;a href="https://en.wikipedia.org/wiki/West_Bank"&gt;West Bank&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/10/23/israel-arrests-36-palestinians-in-the-west-bank-attacks-on-farmers-ramp-up"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Israel"&gt;Israeli&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Israel_Defense_Forces"&gt;forces&lt;/a&gt; launch a multi-day operation around &lt;a href="https://en.wikipedia.org/wiki/Hebron"&gt;Hebron&lt;/a&gt; in the &lt;a href="https://en.wikipedia.org/wiki/Israeli_occupation_of_the_West_Bank"&gt;occupied&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/West_Bank"&gt;West Bank&lt;/a&gt;, conducting searches, questioning suspects, and demolishing structures after &lt;a href="https://en.wikipedia.org/wiki/Palestinians"&gt;Palestinian&lt;/a&gt; gunmen killed two Israeli soldiers at a checkpoint.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://tribune.net.ph/2026/10/24/israel-launches-major-west-bank-operation"&gt;AFP via Daily Tribune&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Gaza_war"&gt;Gaza war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_West_Bank_lockdown"&gt;2026 West Bank lockdown&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_23"&gt;Portal:Current events/2026 October 23&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_23&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-10-23:ae82be5b60bd</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Armed conflicts and attacks</category>
+      <category>2026 West Bank lockdown</category>
     </item>
     <item>
       <title>A person is killed and five other people are injured in a drive-by shooting spree at three separate locations in Trappes and La Verrière, France.</title>
@@ -140,9 +352,9 @@
       <category>2026 Karak church shooting</category>
     </item>
     <item>
-      <title>The Eagle's Nest in Germany is lit on fire.</title>
+      <title>The Eagle's Nest in Germany is destroyed in a fire.</title>
       <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_23</link>
-      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Kehlsteinhaus"&gt;Eagle's Nest&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Germany"&gt;Germany&lt;/a&gt; is lit on fire. A suspect is arrested.&lt;/p&gt;
+      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Kehlsteinhaus"&gt;Eagle's Nest&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Germany"&gt;Germany&lt;/a&gt; is destroyed in a fire. A suspect is arrested.&lt;/p&gt;
 &lt;p&gt;Sources: &lt;a href="https://apnews.com/article/germany-hitler-eagles-nest-berchtesgaden-alps-fire-338ec9bbec52ecf52d1c127546d01eed"&gt;AP&lt;/a&gt;, &lt;a href="https://www.dw.com/en/hitlers-eagles-nest-retreat-catches-fire-police-say/a-79747820"&gt;DW&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_23"&gt;Portal:Current events/2026 October 23&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_23&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:en:2026-10-23:bf1b8a0c7765</guid>
@@ -150,9 +362,9 @@
       <category>Law and crime</category>
     </item>
     <item>
-      <title>The Greek parliament approves a law banning children under 15 from using social media from January 1, 2027, requiring age verification and penalties for platforms that fail to comply.</title>
+      <title>The Greek parliament approves a law banning children and teenagers under 15 from using social media from January 1, 2027, requiring age verification and penalties for platforms that fail to comply.</title>
       <link>https://en.wikipedia.org/wiki/Online_age_verification_laws_by_country</link>
-      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Greece"&gt;Greek&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Hellenic_Parliament"&gt;parliament&lt;/a&gt; approves a law &lt;a href="https://en.wikipedia.org/wiki/Ban_on_social_media"&gt;banning&lt;/a&gt; children under 15 from using &lt;a href="https://en.wikipedia.org/wiki/Social_media"&gt;social media&lt;/a&gt; from January 1, 2027, requiring &lt;a href="https://en.wikipedia.org/wiki/Age_verification"&gt;age verification&lt;/a&gt; and penalties for platforms that fail to comply.&lt;/p&gt;
+      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Greece"&gt;Greek&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Hellenic_Parliament"&gt;parliament&lt;/a&gt; approves a law &lt;a href="https://en.wikipedia.org/wiki/Ban_on_social_media"&gt;banning&lt;/a&gt; children and teenagers under 15 from using &lt;a href="https://en.wikipedia.org/wiki/Social_media"&gt;social media&lt;/a&gt; from January 1, 2027, requiring &lt;a href="https://en.wikipedia.org/wiki/Age_verification"&gt;age verification&lt;/a&gt; and penalties for platforms that fail to comply.&lt;/p&gt;
 &lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/10/23/greece-joins-push-to-ban-social-media-for-minors"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Online_age_verification_laws_by_country"&gt;Online age verification laws by country&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_23"&gt;Portal:Current events/2026 October 23&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_23&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
@@ -197,7 +409,7 @@
     </item>
     <item>
       <title>El Salvador deploys 100 special forces soldiers to Haiti to assist in the search efforts for the four missing Air Force technicians attached to the Gang Suppression Force.</title>
-      <link>https://en.wikipedia.org/wiki/2026_Croix-des-Bouquets_gang_ambush</link>
+      <link>https://en.wikipedia.org/wiki/2026_Croix-des-Bouquets_kidnapping</link>
       <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/El_Salvador"&gt;El Salvador&lt;/a&gt; deploys 100 special forces &lt;a href="https://en.wikipedia.org/wiki/Salvadoran_Army"&gt;soldiers&lt;/a&gt; to &lt;a href="https://en.wikipedia.org/wiki/Haiti"&gt;Haiti&lt;/a&gt; to assist in the search efforts for the four missing &lt;a href="https://en.wikipedia.org/wiki/Salvadoran_Air_Force"&gt;Air Force&lt;/a&gt; technicians attached to the &lt;a href="https://en.wikipedia.org/wiki/Gang_Suppression_Force"&gt;Gang Suppression Force&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Sources: &lt;a href="https://apnews.com/article/el-salvador-haiti-special-forces-gangs-03ec2bf89616d8b313c54da34c24eab1"&gt;AP&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Haitian_conflict"&gt;Haitian conflict&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_Croix-des-Bouquets_gang_ambush"&gt;2026 Croix-des-Bouquets gang ambush&lt;/a&gt;&lt;/p&gt;
@@ -358,12 +570,12 @@
       <link>https://en.wikipedia.org/wiki/2026_NFL_season</link>
       <description>&lt;p&gt;In &lt;a href="https://en.wikipedia.org/wiki/American_football"&gt;American football&lt;/a&gt;, the &lt;a href="https://en.wikipedia.org/wiki/Chicago_Bears"&gt;Chicago Bears&lt;/a&gt; receive an illegal forward handing penalty in a game against the &lt;a href="https://en.wikipedia.org/wiki/New_England_Patriots"&gt;New England Patriots&lt;/a&gt;, the first time in 16 years that the penalty has been handed out.&lt;/p&gt;
 &lt;p&gt;Sources: &lt;a href="https://www.cbssports.com/nfl/news/what-is-illegal-forward-handing-bears-patriots-nfl-penalty/"&gt;CBS Sports&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026-27_NFL_season"&gt;2026-27 NFL season&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_NFL_season"&gt;2026 NFL season&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_22"&gt;Portal:Current events/2026 October 22&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_22&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:en:2026-10-22:f9aac8aca485</guid>
       <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
       <category>Sports</category>
-      <category>2026-27 NFL season</category>
+      <category>2026 NFL season</category>
     </item>
     <item>
       <title>In women's association football, FIFA announces that the United States will host the inaugural FIFA Women's Club World Cup in 2028.</title>
@@ -376,212 +588,6 @@
       <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
       <category>Sports</category>
       <category>2028 FIFA Women's Club World Cup</category>
-    </item>
-    <item>
-      <title>The Athletics Integrity Unit bans Ethiopian marathon runner Ruti Aga for six years after she tested positive for methylprednisolone and submitted false information and a forged prescription during an…</title>
-      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_22</link>
-      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Athletics_Integrity_Unit"&gt;Athletics Integrity Unit&lt;/a&gt; bans &lt;a href="https://en.wikipedia.org/wiki/Ethiopia"&gt;Ethiopian&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Marathon"&gt;marathon&lt;/a&gt; runner &lt;a href="https://en.wikipedia.org/wiki/Ruti_Aga"&gt;Ruti Aga&lt;/a&gt; for six years after she tested &lt;a href="https://en.wikipedia.org/wiki/Doping_in_sport"&gt;positive&lt;/a&gt; for &lt;a href="https://en.wikipedia.org/wiki/Methylprednisolone"&gt;methylprednisolone&lt;/a&gt; and submitted false information and a forged prescription during an investigation.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.france24.com/en/live-news/20261022-marathon-star-aga-banned-six-years-for-doping-and-misleading-investigation"&gt;AFP via France 24&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_22"&gt;Portal:Current events/2026 October 22&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_22&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-22:f8da5528f053</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Sports</category>
-    </item>
-    <item>
-      <title>Two people are killed and eight others are injured in a Houthi attack on King Fahd International Airport in Dammam, Saudi Arabia.</title>
-      <link>https://en.wikipedia.org/wiki/2026_Houthi_attacks_on_Saudi_airports</link>
-      <description>&lt;p&gt;Two people are killed and eight others are injured in a &lt;a href="https://en.wikipedia.org/wiki/Houthis"&gt;Houthi&lt;/a&gt; attack on &lt;a href="https://en.wikipedia.org/wiki/King_Fahd_International_Airport"&gt;King Fahd International Airport&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Dammam"&gt;Dammam&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Saudi_Arabia"&gt;Saudi Arabia&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.bbc.com/news/articles/cqwy71ww156ro"&gt;BBC News&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"&gt;Middle Eastern crisis&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)"&gt;Yemeni civil war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Houthi%E2%80%93Saudi_conflict"&gt;Houthi–Saudi conflict&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/October_2026_Houthi_attacks_on_Saudi_Arabian_airports"&gt;October 2026 Houthi attacks on Saudi Arabian airports&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21"&gt;Portal:Current events/2026 October 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-21:4aad10458269</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Armed conflicts and attacks</category>
-      <category>October 2026 Houthi attacks on Saudi Arabian airports</category>
-    </item>
-    <item>
-      <title>The U.S. Department of State orders non-emergency employees at its embassy in Riyadh to leave the country as Houthi attacks ramp up.</title>
-      <link>https://en.wikipedia.org/wiki/Saudi_Arabia%E2%80%93United_States_relations</link>
-      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/United_States_Department_of_State"&gt;U.S. Department of State&lt;/a&gt; orders non-emergency employees at &lt;a href="https://en.wikipedia.org/wiki/Embassy_of_the_United_States,_Riyadh"&gt;its embassy&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Riyadh"&gt;Riyadh&lt;/a&gt; to leave the country as Houthi attacks ramp up.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/10/21/us-orders-departure-of-personnel-from-saudi-arabia-citing-houthi-threat"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"&gt;Middle Eastern crisis&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)"&gt;Yemeni civil war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Houthi%E2%80%93Saudi_conflict"&gt;Houthi–Saudi conflict&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Saudi_Arabia%E2%80%93United_States_relations"&gt;Saudi Arabia–United States relations&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21"&gt;Portal:Current events/2026 October 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-21:e6304f474bd6</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Armed conflicts and attacks</category>
-      <category>Saudi Arabia–United States relations</category>
-    </item>
-    <item>
-      <title>Two people are killed and two others are injured by debris after a suspected Houthi drone is shot down near Shaybah oil field in Eastern Province, Saudi Arabia.</title>
-      <link>https://en.wikipedia.org/wiki/Houthi%E2%80%93Saudi_conflict</link>
-      <description>&lt;p&gt;Two people are killed and two others are injured by debris after a suspected Houthi drone is shot down near &lt;a href="https://en.wikipedia.org/wiki/Shaybah_oil_field"&gt;Shaybah oil field&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Eastern_Province,_Saudi_Arabia"&gt;Eastern Province&lt;/a&gt;, Saudi Arabia.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.abs-cbn.com/news/nation/2026/10/22/filipino-killed-in-drone-attack-targeting-saudi-arabia-oil-field-1739"&gt;ABS-CBN News&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"&gt;Middle Eastern crisis&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)"&gt;Yemeni civil war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Houthi%E2%80%93Saudi_conflict"&gt;Houthi–Saudi conflict&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21"&gt;Portal:Current events/2026 October 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-21:ff07cad49c0b</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Armed conflicts and attacks</category>
-      <category>Houthi–Saudi conflict</category>
-    </item>
-    <item>
-      <title>The Israel Defense Forces (IDF) and Shin Bet say that they have killed Musa Abd Muhammad Hamouda, a Hamas Nukhba forces militant that took part in planning the killing of four IDF soldiers in…</title>
-      <link>https://en.wikipedia.org/wiki/2025_Gaza_City_offensive</link>
-      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Israel_Defense_Forces"&gt;Israel Defense Forces&lt;/a&gt; (IDF) and &lt;a href="https://en.wikipedia.org/wiki/Shin_Bet"&gt;Shin Bet&lt;/a&gt; say that they have killed Musa Abd Muhammad Hamouda, a &lt;a href="https://en.wikipedia.org/wiki/Hamas"&gt;Hamas&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Nukhba_forces"&gt;Nukhba forces&lt;/a&gt; militant that took part in planning the killing of four IDF soldiers in &lt;a href="https://en.wikipedia.org/wiki/2025_Gaza_City_offensive"&gt;September 2025&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.ynetnews.com/article/s1l00peuhgl"&gt;Ynetnews&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"&gt;Middle Eastern crisis&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Gaza_war"&gt;Gaza war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2025_Gaza_City_offensive"&gt;2025 Gaza City offensive&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21"&gt;Portal:Current events/2026 October 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-21:15e4a4eb4221</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Armed conflicts and attacks</category>
-      <category>2025 Gaza City offensive</category>
-    </item>
-    <item>
-      <title>Salvadoran president Nayib Bukele announces the start of a military operation to rescue four Air Force technicians.</title>
-      <link>https://en.wikipedia.org/wiki/2026_Croix-des-Bouquets_gang_ambush</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/El_Salvador"&gt;Salvadoran&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/President_of_El_Salvador"&gt;president&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Nayib_Bukele"&gt;Nayib Bukele&lt;/a&gt; announces the start of a &lt;a href="https://en.wikipedia.org/wiki/Armed_Forces_of_El_Salvador"&gt;military&lt;/a&gt; operation to rescue four &lt;a href="https://en.wikipedia.org/wiki/Salvadoran_Air_Force"&gt;Air Force&lt;/a&gt; technicians. The technicians, attached to the international &lt;a href="https://en.wikipedia.org/wiki/Gang_Suppression_Force"&gt;Gang Suppression Force&lt;/a&gt;, were taken hostage after gangs attacked their armored vehicle on 18 October.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.reuters.com/world/americas/el-salvador-says-haiti-gangs-holding-4-force-members-hostage-announces-new-2026-10-21/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Haitian_conflict"&gt;Haitian conflict&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_Croix-des-Bouquets_gang_ambush"&gt;2026 Croix-des-Bouquets gang ambush&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21"&gt;Portal:Current events/2026 October 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-21:c44afae56fb6</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Armed conflicts and attacks</category>
-      <category>2026 Croix-des-Bouquets gang ambush</category>
-    </item>
-    <item>
-      <title>American military veteran Stephen Hubbard, who was arrested by Russian authorities in 2022 during the Battle of Izium, is released from custody during the meeting between Putin and Witkoff. / United States special envoy Steve Witkoff arrives in Saint Petersburg to talk with Russian president Vladimir Putin about potentially resolving the war with Ukraine.</title>
-      <link>https://en.wikipedia.org/wiki/Peace_negotiations_in_the_Russo-Ukrainian_war</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/United_States_Armed_Forces"&gt;American military&lt;/a&gt; veteran &lt;a href="https://en.wikipedia.org/wiki/Stephen_Hubbard"&gt;Stephen Hubbard&lt;/a&gt;, who was arrested by &lt;a href="https://en.wikipedia.org/wiki/Government_of_Russia"&gt;Russian authorities&lt;/a&gt; in 2022 during the &lt;a href="https://en.wikipedia.org/wiki/Battle_of_Izium"&gt;Battle of Izium&lt;/a&gt;, is released from custody during the meeting between Putin and Witkoff.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://apnews.com/article/russia-american-released-stephen-hubbard-ukraine-witkoff-2c7e34d6606be242ed4a7473e57110c7"&gt;AP&lt;/a&gt;, &lt;a href="https://www.bbc.com/news/articles/c6m24l9v3745o"&gt;BBC News&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/United_States_special_envoy"&gt;United States special envoy&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Steve_Witkoff"&gt;Steve Witkoff&lt;/a&gt; arrives in &lt;a href="https://en.wikipedia.org/wiki/Saint_Petersburg"&gt;Saint Petersburg&lt;/a&gt; to talk with &lt;a href="https://en.wikipedia.org/wiki/Russia"&gt;Russian&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/President_of_Russia"&gt;president&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Vladimir_Putin"&gt;Vladimir Putin&lt;/a&gt; about potentially resolving the &lt;a href="https://en.wikipedia.org/wiki/Russo-Ukrainian_war"&gt;war&lt;/a&gt; with &lt;a href="https://en.wikipedia.org/wiki/Ukraine"&gt;Ukraine&lt;/a&gt;. Putin states he would resume &lt;a href="https://en.wikipedia.org/wiki/United_States"&gt;United States&lt;/a&gt;-mediated trilateral peace talks with Ukraine, on or after November 10.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.reuters.com/world/us-envoy-witkoff-arrives-st-petersburg-talks-with-putin-2026-10-21/"&gt;Reuters&lt;/a&gt;, &lt;a href="https://www.reuters.com/world/europe/putin-hosts-trump-envoy-new-ukraine-peace-talks-frees-us-citizen-held-russia-2026-10-21/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Russo-Ukrainian_war_(2022%E2%80%93present)"&gt;Russo-Ukrainian war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Peace_negotiations_in_the_Russo-Ukrainian_war"&gt;Peace negotiations in the Russo-Ukrainian war, United States and the Russo-Ukrainian war&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21"&gt;Portal:Current events/2026 October 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-21:08547ca9719d</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Armed conflicts and attacks</category>
-      <category>Peace negotiations in the Russo-Ukrainian war, United States and the Russo-Ukrainian war</category>
-    </item>
-    <item>
-      <title>South Africa cuts fuel levies by R3.00 (US$0.18) per litre of diesel and R1.50 ($0.09) per litre of petrol from November 4 to December 1 after fuel prices reach record highs.</title>
-      <link>https://en.wikipedia.org/wiki/2026_Iran_war_fuel_crisis</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/South_Africa"&gt;South Africa&lt;/a&gt; cuts &lt;a href="https://en.wikipedia.org/wiki/Petroleum_industry_in_South_Africa"&gt;fuel&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Tax_levy"&gt;levies&lt;/a&gt; by &lt;a href="https://en.wikipedia.org/wiki/South_African_rand"&gt;R&lt;/a&gt;3.00 (&lt;a href="https://en.wikipedia.org/wiki/US$"&gt;US$&lt;/a&gt;0.18) per litre of diesel and R1.50 ($0.09) per litre of petrol from November 4 to December 1 after fuel prices reach record highs.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.afp.com/en/south-africa-eases-fuel-pain-growth-slows"&gt;AFP&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Iran_war_fuel_crisis"&gt;2026 Iran war fuel crisis&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21"&gt;Portal:Current events/2026 October 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-21:ac2245225bc8</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Business and economy</category>
-      <category>2026 Iran war fuel crisis</category>
-    </item>
-    <item>
-      <title>The North Sea Transition Authority (NSTA) of the United Kingdom approves production from the Jackdaw gas field after energy secretary Miatta Fahnbulleh authorized the NSTA to grant consent, allowing…</title>
-      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21</link>
-      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/North_Sea_Transition_Authority"&gt;North Sea Transition Authority&lt;/a&gt; (NSTA) of the &lt;a href="https://en.wikipedia.org/wiki/United_Kingdom"&gt;United Kingdom&lt;/a&gt; approves &lt;a href="https://en.wikipedia.org/wiki/Oil_and_gas_industry_in_the_United_Kingdom"&gt;production&lt;/a&gt; from the &lt;a href="https://en.wikipedia.org/wiki/Jackdaw_gas_field"&gt;Jackdaw gas field&lt;/a&gt; after &lt;a href="https://en.wikipedia.org/wiki/Secretary_of_State_for_Energy_Security_and_Net_Zero"&gt;energy secretary&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Miatta_Fahnbulleh"&gt;Miatta Fahnbulleh&lt;/a&gt; authorized the NSTA to grant consent, allowing operator Adura to begin supplying gas by late October.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.upi.com/Top_News/World-News/2026/10/21/Jackdaw-gasfield-production-greenlighted/2721792570621/"&gt;UPI&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21"&gt;Portal:Current events/2026 October 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-21:6ab10bdf2e35</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Business and economy</category>
-    </item>
-    <item>
-      <title>Indonesia, Pakistan, Qatar, and Turkey jointly sign the Badr Memorandum of Understanding, a major agreement to deepen their defence industry cooperation.</title>
-      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Indonesia"&gt;Indonesia&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Pakistan"&gt;Pakistan&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Qatar"&gt;Qatar&lt;/a&gt;, and &lt;a href="https://en.wikipedia.org/wiki/Turkey"&gt;Turkey&lt;/a&gt; jointly sign the Badr Memorandum of Understanding, a major agreement to deepen their defence industry cooperation. The agreement aims to support joint military production projects and strengthen cooperation in technical training, research, and development.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/10/21/how-qatar-turkiye-pakistan-and-indonesia-are-deepening-defence-ties"&gt;Al Jazeera&lt;/a&gt;, &lt;a href="https://www.reuters.com/world/asia-pacific/turkey-qatar-pakistan-indonesia-sign-defence-cooperation-accord-ankara-says-2026-10-21/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21"&gt;Portal:Current events/2026 October 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-21:43ff192b6f99</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-      <category>International relations</category>
-    </item>
-    <item>
-      <title>Ireland's Dáil Éireann approves legislation removing the requirement for United Nations authorization before deploying more than 12 Defence Forces personnel overseas for peacekeeping missions, while…</title>
-      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Republic_of_Ireland"&gt;Ireland&lt;/a&gt;'s &lt;a href="https://en.wikipedia.org/wiki/D%C3%A1il_%C3%89ireann"&gt;Dáil Éireann&lt;/a&gt; approves &lt;a href="https://en.wikipedia.org/wiki/Law_of_the_Republic_of_Ireland"&gt;legislation&lt;/a&gt; removing the requirement for &lt;a href="https://en.wikipedia.org/wiki/United_Nations"&gt;United Nations&lt;/a&gt; authorization before deploying more than 12 &lt;a href="https://en.wikipedia.org/wiki/Defence_Forces_(Ireland)"&gt;Defence Forces&lt;/a&gt; personnel overseas for &lt;a href="https://en.wikipedia.org/wiki/United_Nations_peacekeeping"&gt;peacekeeping&lt;/a&gt; missions, while retaining approval by &lt;a href="https://en.wikipedia.org/wiki/Government_of_Ireland"&gt;the government&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Oireachtas"&gt;parliament&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.france24.com/en/europe/20261022-ireland-votes-un-veto-overseas-peacekeeping-missions"&gt;France 24&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21"&gt;Portal:Current events/2026 October 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-21:a1d2e9134f27</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-      <category>International relations</category>
-    </item>
-    <item>
-      <title>A foreign national is beaten to death by a crowd in Durban, South Africa.</title>
-      <link>https://en.wikipedia.org/wiki/2026_anti-immigrant_movement_and_xenophobia_in_South_Africa</link>
-      <description>&lt;p&gt;A foreign national is beaten to death by a crowd in &lt;a href="https://en.wikipedia.org/wiki/Durban"&gt;Durban&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/South_Africa"&gt;South Africa&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.bbc.com/news/articles/ck5yn9z3vnego"&gt;BBC News&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_anti-immigrant_movement_and_xenophobia_in_South_Africa"&gt;2026 anti-immigrant movement and xenophobia in South Africa&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21"&gt;Portal:Current events/2026 October 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-21:4e233d5dc97f</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Law and crime</category>
-      <category>2026 anti-immigrant movement and xenophobia in South Africa</category>
-    </item>
-    <item>
-      <title>Italian interior minister Matteo Piantedosi announces a crackdown on truck drivers and farmers protesting in southern Italy over the past month against high fuel prices by blocking highways and…</title>
-      <link>https://en.wikipedia.org/wiki/2026_Italian_unrest</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Italy"&gt;Italian&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Minister_of_the_Interior_(Italy)"&gt;interior minister&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Matteo_Piantedosi"&gt;Matteo Piantedosi&lt;/a&gt; announces a crackdown on truck drivers and &lt;a href="https://en.wikipedia.org/wiki/Agriculture_in_Italy"&gt;farmers&lt;/a&gt; protesting in &lt;a href="https://en.wikipedia.org/wiki/Southern_Italy"&gt;southern Italy&lt;/a&gt; over the past month against high &lt;a href="https://en.wikipedia.org/wiki/Energy_in_Italy"&gt;fuel prices&lt;/a&gt; by blocking highways and transport routes, reporting that they have identified 1,339 individuals, reported 71, and fined 242.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.ansa.it/amp/sito/notizie/cronaca/2026/10/21/protesta-autotrasporto-dilagano-blocchi-tir-denunce-e-pugno-duro-del-governo_9c1d4f81-b58b-423e-aef2-9fa4b224c7bf.html"&gt;Ansa in Italian&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Italian_unrest"&gt;2026 Italian unrest&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21"&gt;Portal:Current events/2026 October 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-21:6b0519ad4454</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Law and crime</category>
-      <category>2026 Italian unrest</category>
-    </item>
-    <item>
-      <title>Taiwanese prosecutors indict five people for allegedly accepting money and planning to injure Huang Yihao, an anti-Chinese Communist Party comedian in New Taipei City.</title>
-      <link>https://en.wikipedia.org/wiki/Cross-strait_relations</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Taiwan"&gt;Taiwanese&lt;/a&gt; prosecutors indict five people for allegedly accepting money and planning to injure Huang Yihao, an anti-&lt;a href="https://en.wikipedia.org/wiki/Chinese_Communist_Party"&gt;Chinese Communist Party&lt;/a&gt; comedian in &lt;a href="https://en.wikipedia.org/wiki/New_Taipei_City"&gt;New Taipei City&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://apnews.com/article/taiwan-china-xi-jinping-comedian-huang-attacked-5de1ede690a3881d79f74624e81acf0c"&gt;AP&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Cross-strait_relations"&gt;Cross-strait relations&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21"&gt;Portal:Current events/2026 October 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-21:0a86829bf4b5</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Law and crime</category>
-      <category>Cross-strait relations</category>
-    </item>
-    <item>
-      <title>A district judge in New Mexico, United States, orders Meta to pay $25 billion after a jury found it guilty of misleading Facebook users about privacy violations, marking its largest fine ever.</title>
-      <link>https://en.wikipedia.org/wiki/Lawsuits_involving_Meta_Platforms</link>
-      <description>&lt;p&gt;A &lt;a href="https://en.wikipedia.org/wiki/United_States_District_Court_for_the_District_of_New_Mexico"&gt;district judge&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/New_Mexico"&gt;New Mexico&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/United_States"&gt;United States&lt;/a&gt;, orders &lt;a href="https://en.wikipedia.org/wiki/Meta_Platforms"&gt;Meta&lt;/a&gt; to pay $25 billion after a jury found it guilty of misleading &lt;a href="https://en.wikipedia.org/wiki/Facebook"&gt;Facebook&lt;/a&gt; users about privacy violations, marking its largest fine ever.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/10/21/judge-orders-meta-to-pay-25bn-in-fines-for-facebook-privacy-violations"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Lawsuits_involving_Meta_Platforms"&gt;Lawsuits involving Meta Platforms&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21"&gt;Portal:Current events/2026 October 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-21:fca59bc23479</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Law and crime</category>
-      <category>Lawsuits involving Meta Platforms</category>
-    </item>
-    <item>
-      <title>Over 80 Americans, British citizens, and Israelis are detained by Israeli soldiers in the Israel-occupied West Bank, including U.S. House of Representatives candidate Brad Lander.</title>
-      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21</link>
-      <description>&lt;p&gt;Over 80 &lt;a href="https://en.wikipedia.org/wiki/Americans"&gt;Americans&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/British_people"&gt;British&lt;/a&gt; citizens, and &lt;a href="https://en.wikipedia.org/wiki/Israelis"&gt;Israelis&lt;/a&gt; are detained by &lt;a href="https://en.wikipedia.org/wiki/Israeli_Defense_Forces"&gt;Israeli soldiers&lt;/a&gt; in the &lt;a href="https://en.wikipedia.org/wiki/Israeli_occupation_of_the_West_Bank"&gt;Israel-occupied&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/West_Bank"&gt;West Bank&lt;/a&gt;, including &lt;a href="https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections"&gt;U.S. House of Representatives&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_York#District_10"&gt;candidate&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Brad_Lander"&gt;Brad Lander&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.theguardian.com/world/2026/oct/21/israeli-military-detains-brad-lander-rabbis-west-bank-olive-harvest"&gt;The Guardian&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21"&gt;Portal:Current events/2026 October 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-21:52c1b4454f32</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Law and crime</category>
-    </item>
-    <item>
-      <title>A Tunisian military court sentences politician and businesswoman Olfa Hamdi to four years in prison on state security charges linked to social media posts, including accusations of inciting military…</title>
-      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21</link>
-      <description>&lt;p&gt;A &lt;a href="https://en.wikipedia.org/wiki/Tunisia"&gt;Tunisian&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Military_court"&gt;military court&lt;/a&gt; sentences &lt;a href="https://en.wikipedia.org/wiki/Politics_of_Tunisia"&gt;politician&lt;/a&gt; and businesswoman &lt;a href="https://en.wikipedia.org/wiki/Olfa_Hamdi"&gt;Olfa Hamdi&lt;/a&gt; to four years in prison on &lt;a href="https://en.wikipedia.org/wiki/National_security"&gt;state security&lt;/a&gt; charges linked to &lt;a href="https://en.wikipedia.org/wiki/Social_media"&gt;social media&lt;/a&gt; posts, including accusations of &lt;a href="https://en.wikipedia.org/wiki/Incitement"&gt;inciting&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Tunisian_Armed_Forces"&gt;military&lt;/a&gt; personnel to disobey orders.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.arabnews.com/middle-east/tunisia-military-court-sentences-politician-to-4-years-in-prison-3007582"&gt;AFP via Arab News&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21"&gt;Portal:Current events/2026 October 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-21:e4ea981d4e1c</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Law and crime</category>
-    </item>
-    <item>
-      <title>Thousands of students and teachers march through Athens, Thessaloniki, and Patras in Greece to protest against the rising cost of living, calling for affordable student housing and more state…</title>
-      <link>https://en.wikipedia.org/wiki/2026_European_unrest</link>
-      <description>&lt;p&gt;Thousands of students and teachers march through &lt;a href="https://en.wikipedia.org/wiki/Athens"&gt;Athens&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Thessaloniki"&gt;Thessaloniki&lt;/a&gt;, and &lt;a href="https://en.wikipedia.org/wiki/Patras"&gt;Patras&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Greece"&gt;Greece&lt;/a&gt; to protest against the &lt;a href="https://en.wikipedia.org/wiki/Cost-of-living_crisis"&gt;rising cost of living&lt;/a&gt;, calling for affordable &lt;a href="https://en.wikipedia.org/wiki/Student_accommodation"&gt;student housing&lt;/a&gt; and more state investment in &lt;a href="https://en.wikipedia.org/wiki/Education_in_Greece"&gt;education&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://apnews.com/article/athens-greece-protest-student-education-cost-living-55e0df1ba0be02ae573bd0a55a520b3a"&gt;AP&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Gen_Z_protests"&gt;Gen Z protests&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_European_unrest"&gt;2026 European unrest&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21"&gt;Portal:Current events/2026 October 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-21:4acca0e61ff1</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Politics and elections</category>
-      <category>2026 European unrest</category>
     </item>
   </channel>
 </rss>
