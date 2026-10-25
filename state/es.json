@@ -164,7 +164,7 @@
    "category": null,
    "date": "2026-10-24",
    "date_source": "text_date",
-   "extract": "El XXIV Festival de la Canción de Eurovisión Junior fué organizado por la Unión Europea de Radiodifusión (UER) y la emisora nacional del país anfitrión. A pesar de que en la pasada edición la victoria fue para Francia con la canción «Ce Monde» interpretada por Lou Deleuze, la emisora francesa…",
+   "extract": "El XXIV Festival de la Canción de Eurovisión Junior fue organizado por la Unión Europea de Radiodifusión (UER) y la emisora nacional del país anfitrión. A pesar de que en la pasada edición la victoria fue para Francia con la canción «Ce Monde» interpretada por Lou Deleuze, la emisora francesa…",
    "first_seen": "2026-10-24T09:15:58Z",
    "group_key": "pageid:11380059",
    "guid": "wikipedia:es:11380059",
@@ -553,5 +553,5 @@
    "topics": []
   }
  },
- "updated": "2026-10-25T09:02:10Z"
+ "updated": "2026-10-25T11:32:07Z"
 }
