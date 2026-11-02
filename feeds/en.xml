@@ -6,11 +6,33 @@
     <description>News items from Wikipedia's Portal:Current events, one item per entry of the daily pages. Text from Wikipedia contributors, licensed under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). (history: https://en.wikipedia.org/w/index.php?title=Portal:Current_events&amp;action=history)</description>
     <language>en</language>
     <copyright>Text from Wikipedia contributors, licensed under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).</copyright>
-    <lastBuildDate>Sun, 01 Nov 2026 13:26:18 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 15:55:17 GMT</lastBuildDate>
     <generator>wikipedia-noticias-rss</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
     <atom:link href="https://aeonfr.github.io/wikinews-rss/feeds/en.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A truck bomb explodes near a military base in Planadas, Tolima Department, Colombia, killing four people and wounding several others.</title>
+      <link>https://en.wikipedia.org/wiki/Colombian_conflict</link>
+      <description>&lt;p&gt;A &lt;a href="https://en.wikipedia.org/wiki/Car_bomb"&gt;truck bomb&lt;/a&gt; explodes near a &lt;a href="https://en.wikipedia.org/wiki/National_Army_of_Colombia"&gt;military base&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Planadas"&gt;Planadas&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Tolima_Department"&gt;Tolima Department&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Colombia"&gt;Colombia&lt;/a&gt;, killing four people and wounding several others.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.infobae.com/colombia/2026/11/02/atentado-con-volqueta-bomba-en-planadas-tolima-deja-cuatro-muertos-en-balance-preliminar-entre-las-victimas-hay-una-bebe/?outputType=amp-type"&gt;Infobae&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Colombian_conflict"&gt;Colombian conflict&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_2"&gt;Portal:Current events/2026 November 2&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_2&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-02:77a65c65a0cc</guid>
+      <pubDate>Mon, 02 Nov 2026 15:55:17 GMT</pubDate>
+      <category>Armed conflicts and attacks</category>
+      <category>Colombian conflict</category>
+    </item>
+    <item>
+      <title>Freezers and refrigerators in supermarkets in multiple countries in Europe are targeted by a cyberattack, raising temperatures, in some places up to 50 degrees Celsius.</title>
+      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_2</link>
+      <description>&lt;p&gt;Freezers and refrigerators in supermarkets in multiple countries in Europe are targeted by a cyberattack, raising temperatures, in some places up to 50 degrees Celsius. Those affected include &lt;a href="https://en.wikipedia.org/wiki/Ahold_Delhaize"&gt;Ahold Delhaize&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Colruyt_(supermarket)"&gt;Colruyt&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/ICA_Gruppen"&gt;ICA&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Coop_(Sweden)"&gt;Coop&lt;/a&gt;, and &lt;a href="https://en.wikipedia.org/wiki/IKEA"&gt;IKEA&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.reuters.com/business/retail-consumer/temperature-soars-swedish-grocery-store-freezers-one-store-blames-hackers-2026-11-02/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_2"&gt;Portal:Current events/2026 November 2&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_2&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-02:faea8c2c5fef</guid>
+      <pubDate>Mon, 02 Nov 2026 15:55:17 GMT</pubDate>
+      <category>Armed conflicts and attacks</category>
+    </item>
     <item>
       <title>Bulgarians vote in the second round of presidential elections, deciding between incumbent Iliana Iotova and former acting prime minister Andrey Gyurov.</title>
       <link>https://en.wikipedia.org/wiki/2026_Bulgarian_presidential_election</link>
@@ -22,6 +44,158 @@
       <pubDate>Sun, 01 Nov 2026 13:26:18 GMT</pubDate>
       <category>Politics and elections</category>
       <category>2026 Bulgarian presidential election</category>
+    </item>
+    <item>
+      <title>Five civil police officers are killed in an Israeli airstrike in al-Mawasi, Rafah, Gaza Strip.</title>
+      <link>https://en.wikipedia.org/wiki/Israeli_bombing_of_the_Gaza_Strip</link>
+      <description>&lt;p&gt;Five &lt;a href="https://en.wikipedia.org/wiki/Palestinian_Civil_Police_Force_(Hamas)"&gt;civil police officers&lt;/a&gt; are killed in an &lt;a href="https://en.wikipedia.org/wiki/Israel"&gt;Israeli&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Airstrike"&gt;airstrike&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Al-Mawasi,_Rafah"&gt;al-Mawasi&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Rafah"&gt;Rafah&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Gaza_Strip"&gt;Gaza Strip&lt;/a&gt;. Separately, three more &lt;a href="https://en.wikipedia.org/wiki/Palestinians"&gt;Palestinians&lt;/a&gt;, including a four-year-old child, are killed in an airstrike on a building in &lt;a href="https://en.wikipedia.org/wiki/Gaza_City"&gt;Gaza City&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/11/1/at-least-eight-palestinians-killed-in-israeli-attacks-across-gaza"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Gaza_war"&gt;Gaza war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Israeli_bombing_of_the_Gaza_Strip"&gt;Israeli bombing of the Gaza Strip&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_1"&gt;Portal:Current events/2026 November 1&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_1&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-01:f53432023846</guid>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Armed conflicts and attacks</category>
+      <category>Israeli bombing of the Gaza Strip</category>
+    </item>
+    <item>
+      <title>Bolivian president Rodrigo Paz declares a national state of emergency to mobilize resources before the super El Niño event peaks in November or December.</title>
+      <link>https://en.wikipedia.org/wiki/2026%E2%80%932027_El_Ni%C3%B1o_event</link>
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Bolivia"&gt;Bolivian&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/President_of_Bolivia"&gt;president&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Rodrigo_Paz"&gt;Rodrigo Paz&lt;/a&gt; declares a national &lt;a href="https://en.wikipedia.org/wiki/State_of_emergency"&gt;state of emergency&lt;/a&gt; to mobilize resources before the &lt;a href="https://en.wikipedia.org/wiki/Super_El_Ni%C3%B1o_events"&gt;super&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/El_Ni%C3%B1o%E2%80%93Southern_Oscillation"&gt;El Niño&lt;/a&gt; event peaks in November or December.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.dw.com/en/bolivia-declares-emergency-as-el-nino-intensifies-threatens-severe-weather/a-79820253"&gt;DW&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026%E2%80%932027_El_Ni%C3%B1o_event"&gt;2026–2027 El Niño event&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_1"&gt;Portal:Current events/2026 November 1&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_1&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-01:152dfc822f48</guid>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Disasters and accidents</category>
+      <category>2026–2027 El Niño event</category>
+    </item>
+    <item>
+      <title>Nine people are killed after a Learjet 60 business jet bound for The Bahamas crashes in Greenacres, Florida, United States.</title>
+      <link>https://en.wikipedia.org/wiki/2026_Palm_Beach_County_Learjet_60_crash</link>
+      <description>&lt;p&gt;Nine people are killed after a &lt;a href="https://en.wikipedia.org/wiki/Learjet_60"&gt;Learjet 60&lt;/a&gt; business jet bound for &lt;a href="https://en.wikipedia.org/wiki/The_Bahamas"&gt;The Bahamas&lt;/a&gt; crashes in &lt;a href="https://en.wikipedia.org/wiki/Greenacres,_Florida"&gt;Greenacres&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Florida"&gt;Florida&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/United_States"&gt;United States&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.reuters.com/business/aerospace-defense/nine-people-dead-learjet-crash-south-florida-officials-say-2026-11-01/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Palm_Beach_County_Learjet_60_crash"&gt;2026 Palm Beach County Learjet 60 crash&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_1"&gt;Portal:Current events/2026 November 1&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_1&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-01:780f17b2a593</guid>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Disasters and accidents</category>
+      <category>2026 Palm Beach County Learjet 60 crash</category>
+    </item>
+    <item>
+      <title>Four workers are killed after entering a food waste tank at a hotel in Ujjain, Madhya Pradesh, India.</title>
+      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_1</link>
+      <description>&lt;p&gt;Four workers are killed after entering a food waste tank at a hotel in &lt;a href="https://en.wikipedia.org/wiki/Ujjain"&gt;Ujjain&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Madhya_Pradesh"&gt;Madhya Pradesh&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/India"&gt;India&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://indianexpress.com/article/india/ujjain-hote-deaths-suffocation-cleaning-waste-chamber-10945636/?ref=archive_pg"&gt;Indian Express&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_1"&gt;Portal:Current events/2026 November 1&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_1&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-01:fe8a7b214445</guid>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Disasters and accidents</category>
+    </item>
+    <item>
+      <title>The government of Delhi, India, introduces stricter pollution controls, including double parking fees, remote work arrangements, restrictions on high-emission vehicles, and bans on dust-producing…</title>
+      <link>https://en.wikipedia.org/wiki/Air_pollution_in_Delhi</link>
+      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Government_of_Delhi"&gt;government&lt;/a&gt; of &lt;a href="https://en.wikipedia.org/wiki/Delhi"&gt;Delhi&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/India"&gt;India&lt;/a&gt;, introduces stricter &lt;a href="https://en.wikipedia.org/wiki/Pollution_control"&gt;pollution controls&lt;/a&gt;, including &lt;a href="https://en.wikipedia.org/wiki/Double_parking"&gt;double parking&lt;/a&gt; fees, &lt;a href="https://en.wikipedia.org/wiki/Remote_work"&gt;remote work&lt;/a&gt; arrangements, &lt;a href="https://en.wikipedia.org/wiki/Emission_standards_in_India"&gt;restrictions&lt;/a&gt; on high-emission vehicles, and bans on dust-producing &lt;a href="https://en.wikipedia.org/wiki/Construction_industry_in_India"&gt;construction&lt;/a&gt;, as &lt;a href="https://en.wikipedia.org/wiki/PM2.5"&gt;PM2.5&lt;/a&gt; levels reach 201 micrograms per cubic metre.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.manilatimes.net/2026/11/02/world/asia-oceania/new-restrictions-kick-in-as-delhi-battles-pollution/2458971"&gt;AFP via The Manila Times&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Air_pollution_in_Delhi"&gt;Air pollution in Delhi&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_1"&gt;Portal:Current events/2026 November 1&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_1&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-01:9365114865a6</guid>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Health and environment</category>
+      <category>Air pollution in Delhi</category>
+    </item>
+    <item>
+      <title>Portuguese riot police dismantle protest camps in Lisbon's Rossio Square and Porto, arresting 13 people for refusing orders to disperse.</title>
+      <link>https://en.wikipedia.org/wiki/2026_Portuguese_housing_protests</link>
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Portugal"&gt;Portuguese&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Special_Operations_Group_(Portugal)"&gt;riot police&lt;/a&gt; dismantle &lt;a href="https://en.wikipedia.org/wiki/Protest_camp"&gt;protest camps&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Lisbon"&gt;Lisbon&lt;/a&gt;'s &lt;a href="https://en.wikipedia.org/wiki/Rossio_Square"&gt;Rossio Square&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Porto"&gt;Porto&lt;/a&gt;, arresting 13 people for refusing orders to disperse. Thirteen officers are injured, while activists say more than 30 protesters are also injured.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.afp.com/en/portuguese-police-clash-housing-protesters-arrest-13"&gt;AFP&lt;/a&gt;, &lt;a href="https://www.zaobao.com.sg/en/news/world/clashes-erupt-portugal-housing-protests-police-dismantle-camps-arrest-13"&gt;Lianhe Zaobao&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_European_unrest"&gt;2026 European unrest&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_Portuguese_housing_protests"&gt;2026 Portuguese housing protests&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_1"&gt;Portal:Current events/2026 November 1&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_1&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-01:0bf73c5283c1</guid>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Law and crime</category>
+      <category>2026 Portuguese housing protests</category>
+    </item>
+    <item>
+      <title>The United States Federal Bureau of Investigation says North Korea orchestrated the hack and theft of over $6 billion of cryptocurrency from exchange Binance, facilitated through the Lazarus Group…</title>
+      <link>https://en.wikipedia.org/wiki/2026_Binance_hack</link>
+      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/United_States"&gt;United States&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Federal_Bureau_of_Investigation"&gt;Federal Bureau of Investigation&lt;/a&gt; says &lt;a href="https://en.wikipedia.org/wiki/North_Korea"&gt;North Korea&lt;/a&gt; orchestrated the hack and theft of over $6 billion of &lt;a href="https://en.wikipedia.org/wiki/Cryptocurrency"&gt;cryptocurrency&lt;/a&gt; from &lt;a href="https://en.wikipedia.org/wiki/Cryptocurrency_exchange"&gt;exchange&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Binance"&gt;Binance&lt;/a&gt;, facilitated through the &lt;a href="https://en.wikipedia.org/wiki/Lazarus_Group"&gt;Lazarus Group&lt;/a&gt;, which also hacked &lt;a href="https://en.wikipedia.org/wiki/Dubai"&gt;Dubai&lt;/a&gt;-based exchange &lt;a href="https://en.wikipedia.org/wiki/Bybit"&gt;Bybit&lt;/a&gt; last year.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.dw.com/en/fbi-says-north-korea-behind-6-billion-binance-crypto-theft/a-79819998"&gt;DW&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Binance_hack"&gt;2026 Binance hack&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_1"&gt;Portal:Current events/2026 November 1&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_1&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-01:135d28a1f33c</guid>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Law and crime</category>
+      <category>2026 Binance hack</category>
+    </item>
+    <item>
+      <title>Garment workers clash with police in Dhaka, Bangladesh, over low pay and the rising cost of living.</title>
+      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_1</link>
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Textile_industry_in_Bangladesh"&gt;Garment workers&lt;/a&gt; clash with &lt;a href="https://en.wikipedia.org/wiki/Bangladesh_Police"&gt;police&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Dhaka"&gt;Dhaka&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Bangladesh"&gt;Bangladesh&lt;/a&gt;, over low pay and the rising &lt;a href="https://en.wikipedia.org/wiki/Cost_of_living"&gt;cost of living&lt;/a&gt;. In response, &lt;a href="https://en.wikipedia.org/wiki/Government_of_Bangladesh"&gt;the government&lt;/a&gt; forms a &lt;a href="https://en.wikipedia.org/wiki/Wage_board"&gt;wage board&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/amp/video/newsfeed/2026/11/1/bangladesh-workers-clash-with-police-in-protests-over-low-pay"&gt;Al Jazeera&lt;/a&gt;, &lt;a href="https://www.reuters.com/business/world-at-work/bangladesh-form-wage-board-after-garment-protests-shut-factories-2026-11-01/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_1"&gt;Portal:Current events/2026 November 1&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_1&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-01:957b0a2201e8</guid>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Law and crime</category>
+    </item>
+    <item>
+      <title>Thousands of people protest in New Delhi, India, to call for chief election commissioner Gyanesh Kumar to resign due to changes to voter lists that allegedly disproportionately affect opposition…</title>
+      <link>https://en.wikipedia.org/wiki/2026_anti-CEC_protests</link>
+      <description>&lt;p&gt;Thousands of people protest in &lt;a href="https://en.wikipedia.org/wiki/New_Delhi"&gt;New Delhi&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/India"&gt;India&lt;/a&gt;, to call for &lt;a href="https://en.wikipedia.org/wiki/Chief_Election_Commissioner_of_India"&gt;chief election commissioner&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Gyanesh_Kumar"&gt;Gyanesh Kumar&lt;/a&gt; to resign due to changes to &lt;a href="https://en.wikipedia.org/wiki/Voter_list"&gt;voter lists&lt;/a&gt; that allegedly disproportionately affect &lt;a href="https://en.wikipedia.org/wiki/List_of_political_parties_in_India"&gt;opposition parties&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.france24.com/en/live-news/20261101-tens-of-thousands-protest-in-india-s-capital-against-voter-roll-revision"&gt;AFP via France 24&lt;/a&gt;, &lt;a href="https://www.aljazeera.com/news/2026/11/1/thousands-rally-in-delhi-demanding-indias-election-chief-resign"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_anti-CEC_protests"&gt;2026 anti-CEC protests&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_1"&gt;Portal:Current events/2026 November 1&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_1&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-01:e74b0414414f</guid>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Politics and elections</category>
+      <category>2026 anti-CEC protests</category>
+    </item>
+    <item>
+      <title>Bulgarians vote in the second round of presidential elections between incumbent Iliana Iotova and former acting prime minister Andrey Gyurov.</title>
+      <link>https://en.wikipedia.org/wiki/2026_Bulgarian_presidential_election</link>
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Bulgaria"&gt;Bulgarians&lt;/a&gt; vote in the second round of &lt;a href="https://en.wikipedia.org/wiki/President_of_Bulgaria"&gt;presidential&lt;/a&gt; elections between incumbent &lt;a href="https://en.wikipedia.org/wiki/Iliana_Iotova"&gt;Iliana Iotova&lt;/a&gt; and former &lt;a href="https://en.wikipedia.org/wiki/Acting_(law)"&gt;acting&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Prime_Minister_of_Bulgaria"&gt;prime minister&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Andrey_Gyurov"&gt;Andrey Gyurov&lt;/a&gt;. Gyurov &lt;a href="https://en.wikipedia.org/wiki/Concession_(politics)"&gt;concedes&lt;/a&gt; to Iotova after polls close.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://apnews.com/article/bulgaria-president-runoff-yotova-gyrov-radev-russia-cc540e5540a7a268da15aa72c5ec033e"&gt;AP&lt;/a&gt;, &lt;a href="https://www.dw.com/en/bulgarians-vote-in-highly-polarized-presidential-runoff-overshadowed-by-ukraine-war/a-79820449"&gt;DW&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Bulgarian_presidential_election"&gt;2026 Bulgarian presidential election&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_1"&gt;Portal:Current events/2026 November 1&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_1&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-01:5f19ab34aec2</guid>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Politics and elections</category>
+      <category>2026 Bulgarian presidential election</category>
+    </item>
+    <item>
+      <title>In figure skating, Japan's Mao Shimada wins the women's singles title at Skate Canada in her senior Grand Prix debut, finishing ahead of South Korea's Kim Chae-yeon and Japan's Rion Sumiyoshi.</title>
+      <link>https://en.wikipedia.org/wiki/2026_Skate_Canada_International</link>
+      <description>&lt;p&gt;In &lt;a href="https://en.wikipedia.org/wiki/Figure_skating"&gt;figure skating&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Japan"&gt;Japan&lt;/a&gt;'s &lt;a href="https://en.wikipedia.org/wiki/Mao_Shimada"&gt;Mao Shimada&lt;/a&gt; wins the women's singles title at &lt;a href="https://en.wikipedia.org/wiki/Skate_Canada_International"&gt;Skate Canada&lt;/a&gt; in her &lt;a href="https://en.wikipedia.org/wiki/ISU_Grand_Prix_of_Figure_Skating"&gt;senior Grand Prix&lt;/a&gt; debut, finishing ahead of &lt;a href="https://en.wikipedia.org/wiki/South_Korea"&gt;South Korea&lt;/a&gt;'s &lt;a href="https://en.wikipedia.org/wiki/Kim_Chae-yeon_(figure_skater)"&gt;Kim Chae-yeon&lt;/a&gt; and Japan's &lt;a href="https://en.wikipedia.org/wiki/Rion_Sumiyoshi"&gt;Rion Sumiyoshi&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.france24.com/en/live-news/20261101-japan-s-shimada-wins-skate-canada-in-grand-prix-debut"&gt;AFP via France 24&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026%E2%80%9327_ISU_Grand_Prix_of_Figure_Skating"&gt;2026–27 ISU Grand Prix of Figure Skating&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_Skate_Canada_International"&gt;2026 Skate Canada International&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_1"&gt;Portal:Current events/2026 November 1&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_1&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-01:81ea40d34c4e</guid>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Sports</category>
+      <category>2026 Skate Canada International</category>
+    </item>
+    <item>
+      <title>In open-wheel racing, Italian driver Kimi Antonelli, driving for Mercedes, wins the Formula One World Drivers' Championship after finishing third at the Mexico City Grand Prix, becoming the youngest…</title>
+      <link>https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship</link>
+      <description>&lt;p&gt;In &lt;a href="https://en.wikipedia.org/wiki/Open-wheel_racing"&gt;open-wheel racing&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Italy"&gt;Italian&lt;/a&gt; driver &lt;a href="https://en.wikipedia.org/wiki/Kimi_Antonelli"&gt;Kimi Antonelli&lt;/a&gt;, driving for &lt;a href="https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One"&gt;Mercedes&lt;/a&gt;, wins the &lt;a href="https://en.wikipedia.org/wiki/Formula_One"&gt;Formula One&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/World_Drivers%27_Championship"&gt;World Drivers' Championship&lt;/a&gt; after finishing third at the &lt;a href="https://en.wikipedia.org/wiki/2026_Mexico_City_Grand_Prix"&gt;Mexico City Grand Prix&lt;/a&gt;, becoming the youngest Drivers' Champion at the age of 20 years, 68 days.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.espn.com/f1/story/_/id/50250037/kimi-antonelli-youngest-f1-world-champion-2026-mexico-city-grand-prix"&gt;ESPN&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship"&gt;2026 Formula One World Championship&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_1"&gt;Portal:Current events/2026 November 1&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_1&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-01:1af84b556967</guid>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Sports</category>
+      <category>2026 Formula One World Championship</category>
+    </item>
+    <item>
+      <title>In motorcycle racing, Yamaha withdraws from the Qatar Grand Prix next week, citing company-wide travel restrictions following its assessment of the Middle Eastern crisis.</title>
+      <link>https://en.wikipedia.org/wiki/2026_MotoGP_World_Championship</link>
+      <description>&lt;p&gt;In &lt;a href="https://en.wikipedia.org/wiki/Motorcycle_racing"&gt;motorcycle racing&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Yamaha_Motor_Racing"&gt;Yamaha&lt;/a&gt; withdraws from the &lt;a href="https://en.wikipedia.org/wiki/Qatar_motorcycle_Grand_Prix"&gt;Qatar Grand Prix&lt;/a&gt; next week, citing company-wide travel restrictions following its assessment of the &lt;a href="https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"&gt;Middle Eastern crisis&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.manilatimes.net/2026/11/01/sports/yamaha-pulls-out-of-qatar-motogp-over-middle-east-situation/2458965"&gt;AFP via The Manila Times&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_MotoGP_World_Championship"&gt;2026 MotoGP World Championship&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_1"&gt;Portal:Current events/2026 November 1&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_1&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-01:3cdd2a9c6fee</guid>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Sports</category>
+      <category>2026 MotoGP World Championship</category>
     </item>
     <item>
       <title>Polish Ambassador to Romania Paweł Soloch and Polish Ambassador to China Jakub Kumoch resign from their positions in protest of the suspension of Polish Constitutional Tribunal president Bogdan…</title>
@@ -36,40 +210,32 @@
       <category>Suspension of Bogdan Święczkowski</category>
     </item>
     <item>
-      <title>Poland's ambassador to Romania, Paweł Soloch, and Poland's ambassador to China, Jakub Kumoch, resign from their positions in protest of the suspension of Polish Constitutional Tribunal president…</title>
-      <link>https://en.wikipedia.org/wiki/Suspension_of_Bogdan_%C5%9Awi%C4%99czkowski</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Poland"&gt;Poland&lt;/a&gt;'s &lt;a href="https://en.wikipedia.org/wiki/List_of_ambassadors_of_Poland"&gt;ambassador&lt;/a&gt; to &lt;a href="https://en.wikipedia.org/wiki/Romania"&gt;Romania&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Pawe%C5%82_Soloch"&gt;Paweł Soloch&lt;/a&gt;, and Poland's ambassador to &lt;a href="https://en.wikipedia.org/wiki/China"&gt;China&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Jakub_Kumoch"&gt;Jakub Kumoch&lt;/a&gt;, resign from their positions in protest of the suspension of &lt;a href="https://en.wikipedia.org/wiki/Constitutional_Tribunal_(Poland)"&gt;Polish Constitutional Tribunal&lt;/a&gt; president &lt;a href="https://en.wikipedia.org/wiki/Bogdan_%C5%9Awi%C4%99czkowski"&gt;Bogdan Święczkowski&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://24tv.ua/geopolitics/en/polish-ambassador-romania-pawe-solok-has-resigned-amid-the-judicial_n3171202"&gt;24 Kanal&lt;/a&gt;, &lt;a href="https://www.firstpost.com/world/polish-envoy-to-china-resigns-on-x-foreign-minister-accepts-departure-amid-ongoing-political-turmoil-14056805.html"&gt;Firstpost&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Polish_constitutional_crisis"&gt;Polish constitutional crisis, China–Poland relations, Poland–Romania relations&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Polish_Constitutional_Tribunal_crisis_(2015_%E2%80%93_ongoing)"&gt;Polish Constitutional Tribunal crisis&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Suspension_of_Bogdan_%C5%9Awi%C4%99czkowski"&gt;Suspension of Bogdan Święczkowski&lt;/a&gt;&lt;/p&gt;
+      <title>The Dutch military police and coast guard rescue 38 people from a rubber boat adrift off the coast of Breskens, Zeeland, and detain two people on suspicion of people smuggling.</title>
+      <link>https://en.wikipedia.org/wiki/Human_trafficking_in_the_Netherlands</link>
+      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Netherlands"&gt;Dutch&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Royal_Marechaussee"&gt;military police&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Netherlands_Coastguard"&gt;coast guard&lt;/a&gt; rescue 38 people from a &lt;a href="https://en.wikipedia.org/wiki/Inflatable_boat"&gt;rubber boat&lt;/a&gt; adrift off the coast of &lt;a href="https://en.wikipedia.org/wiki/Breskens"&gt;Breskens&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Zeeland"&gt;Zeeland&lt;/a&gt;, and detain two people on suspicion of &lt;a href="https://en.wikipedia.org/wiki/People_smuggling"&gt;people smuggling&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://apnews.com/article/netherlands-boat-rescue-migration-f9541a0b4a67d8bcc26034f7a4302183"&gt;AP&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Human_trafficking_in_the_Netherlands"&gt;Human trafficking in the Netherlands&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_31"&gt;Portal:Current events/2026 October 31&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_31&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-31:945165baeee4</guid>
+      <guid isPermaLink="false">wikipedia:en:2026-10-31:775bf4e42b11</guid>
       <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
-      <category>International relations</category>
-      <category>Suspension of Bogdan Święczkowski</category>
+      <category>Disasters and accidents</category>
+      <category>Human trafficking in the Netherlands</category>
     </item>
     <item>
-      <title>Madagascar's justice ministry announces dismantling 13 Chinese-run scam centers since August, linked to 148 Chinese nationals who had previously operated scam centers in Cambodia, and who might have…</title>
-      <link>https://en.wikipedia.org/wiki/Trafficking_of_Chinese_nationals_to_scam_centers_abroad</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Madagascar"&gt;Madagascar&lt;/a&gt;'s &lt;a href="https://en.wikipedia.org/wiki/Justice_ministry"&gt;justice ministry&lt;/a&gt; announces dismantling 13 Chinese-run &lt;a href="https://en.wikipedia.org/wiki/Scam_center"&gt;scam centers&lt;/a&gt; since August, linked to 148 &lt;a href="https://en.wikipedia.org/wiki/Chinese_people_in_Madagascar"&gt;Chinese nationals&lt;/a&gt; who had previously operated &lt;a href="https://en.wikipedia.org/wiki/Scam_centers_in_Cambodia"&gt;scam centers in Cambodia&lt;/a&gt;, and who might have been involved in &lt;a href="https://en.wikipedia.org/wiki/Human_trafficking"&gt;trafficking&lt;/a&gt; Africans to commit fraud. The 148 Chinese are &lt;a href="https://en.wikipedia.org/wiki/Extradited"&gt;extradited&lt;/a&gt; to China.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.afp.com/en/scam-centres-relocated-cambodia-operate-madagascar"&gt;AFP&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Trafficking_of_Chinese_nationals_to_scam_centers_abroad"&gt;Trafficking of Chinese nationals to scam centers abroad, Human trafficking in Madagascar&lt;/a&gt;&lt;/p&gt;
+      <title>Clashes erupt in The Hague, Netherlands, in a youth-led protest, with 34 people arrested. / Riots erupt in Zurich and Basel, Switzerland, with fires reported. / Protests are held in 34 cities across Germany against the high cost of livings and wars.</title>
+      <link>https://en.wikipedia.org/wiki/2026_European_unrest</link>
+      <description>&lt;p&gt;Clashes erupt in &lt;a href="https://en.wikipedia.org/wiki/The_Hague"&gt;The Hague&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Netherlands"&gt;Netherlands&lt;/a&gt;, in a youth-led protest, with 34 people arrested.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://nltimes.nl/2026/11/01/gen-z-protest-hague-ends-without-major-incidents-34-arrested-mostly-teens"&gt;NL Times&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Riots erupt in &lt;a href="https://en.wikipedia.org/wiki/Zurich"&gt;Zurich&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Basel"&gt;Basel&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Switzerland"&gt;Switzerland&lt;/a&gt;, with fires reported.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.swissinfo.ch/eng/swiss-politics/zurich-and-basel-protests-turn-violent/92308905"&gt;Swiss Info&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Protests are held in 34 cities across &lt;a href="https://en.wikipedia.org/wiki/Germany"&gt;Germany&lt;/a&gt; against the high cost of livings and wars. Clashes with the police erupt in &lt;a href="https://en.wikipedia.org/wiki/Frankfurt"&gt;Frankfurt&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Berlin"&gt;Berlin&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Cologne"&gt;Cologne&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Hamburg"&gt;Hamburg&lt;/a&gt;. In Frankfurt, shops are &lt;a href="https://en.wikipedia.org/wiki/Looting"&gt;looted&lt;/a&gt;, with several people being arrested.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.bbc.com/news/articles/cqj34gnd3n30o"&gt;BBC News&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_European_unrest"&gt;2026 European unrest&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_31"&gt;Portal:Current events/2026 October 31&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_31&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-31:e7830d147a82</guid>
+      <guid isPermaLink="false">wikipedia:en:2026-10-31:6f8ddc68005a</guid>
       <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Law and crime</category>
-      <category>Trafficking of Chinese nationals to scam centers abroad, Human trafficking in Madagascar</category>
-    </item>
-    <item>
-      <title>Police arrest 139 people outside the United States embassy in London, United Kingdom, during a protest supporting Palestine Action, which the UK banned as a terrorist organisation in 2025.</title>
-      <link>https://en.wikipedia.org/wiki/Gaza_war_protests_in_the_United_Kingdom</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Metropolitan_Police"&gt;Police&lt;/a&gt; arrest 139 people outside the &lt;a href="https://en.wikipedia.org/wiki/Embassy_of_the_United_States,_London"&gt;United States embassy&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/London"&gt;London&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/United_Kingdom"&gt;United Kingdom&lt;/a&gt;, during a protest supporting &lt;a href="https://en.wikipedia.org/wiki/Palestine_Action"&gt;Palestine Action&lt;/a&gt;, which the UK banned as a &lt;a href="https://en.wikipedia.org/wiki/Terrorism_in_the_United_Kingdom"&gt;terrorist&lt;/a&gt; organisation in 2025. Police say most arrests involve support for a &lt;a href="https://en.wikipedia.org/wiki/Proscribed_organisation"&gt;proscribed organisation&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://apnews.com/article/uk-palestine-action-us-embassy-protest-arrests-181ab108a671bcabf5433863608949bc"&gt;AP&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Gaza_war_protests_in_the_United_Kingdom"&gt;Gaza war protests in the United Kingdom&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_31"&gt;Portal:Current events/2026 October 31&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_31&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-31:69bc4da9534d</guid>
-      <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Law and crime</category>
-      <category>Gaza war protests in the United Kingdom</category>
+      <category>Politics and elections</category>
+      <category>2026 European unrest</category>
     </item>
     <item>
       <title>A pregnant woman is shot dead and six other people are injured in a mass shooting at a Spirit Halloween store in Fairfield, California, United States.</title>
@@ -80,18 +246,6 @@
       <guid isPermaLink="false">wikipedia:en:2026-10-31:de8089ac45c4</guid>
       <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
       <category>Law and crime</category>
-    </item>
-    <item>
-      <title>Protests are held across France for the third consecutive weekend.</title>
-      <link>https://en.wikipedia.org/wiki/2026_French_student_protests</link>
-      <description>&lt;p&gt;Protests are held across &lt;a href="https://en.wikipedia.org/wiki/France"&gt;France&lt;/a&gt; for the third consecutive weekend.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://apnews.com/article/protests-europe-youth-france-germany-spain-362a7cb69871ab21bd894290dad639f5"&gt;AP&lt;/a&gt;, &lt;a href="https://www.france24.com/en/france/20261031-live-france-braces-for-halloween-protests-government-vows-tough-response"&gt;France 24&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_European_unrest"&gt;2026 European unrest&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_French_student_protests"&gt;2026 French student protests&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_31"&gt;Portal:Current events/2026 October 31&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_31&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-31:347d182f02bf</guid>
-      <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Politics and elections</category>
-      <category>2026 French student protests</category>
     </item>
     <item>
       <title>Protests are held in dozens of German cities.</title>
@@ -106,16 +260,52 @@
       <category>2026 European unrest</category>
     </item>
     <item>
-      <title>In thoroughbred horse racing, thoroughbred racehorse Sovereignty wins the Breeders' Cup classic at the Keeneland racetrack in Lexington, Kentucky, U.S.</title>
-      <link>https://en.wikipedia.org/wiki/2026_Breeders%27_Cup_Classic</link>
-      <description>&lt;p&gt;In &lt;a href="https://en.wikipedia.org/wiki/Thoroughbred_racing"&gt;thoroughbred&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Horse_racing"&gt;horse racing&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Thoroughbred"&gt;thoroughbred&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Horse_racing"&gt;racehorse&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Sovereignty_(horse)"&gt;Sovereignty&lt;/a&gt; wins &lt;a href="https://en.wikipedia.org/wiki/2026_Breeders%27_Cup_Classic"&gt;the&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Breeders%27_Cup"&gt;Breeders' Cup&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Breeders%27_Cup_Classic"&gt;classic&lt;/a&gt; at the &lt;a href="https://en.wikipedia.org/wiki/Keeneland"&gt;Keeneland&lt;/a&gt; racetrack in &lt;a href="https://en.wikipedia.org/wiki/Lexington,_Kentucky"&gt;Lexington&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Kentucky"&gt;Kentucky&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/United_States"&gt;U.S&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.espn.com/horse-racing/story/_/id/50342162/sovereignty-wins-breeders-cup-classic-year-missing-race"&gt;ESPN&lt;/a&gt;, &lt;a href="https://www.bloodhorse.com/horse-racing/articles/295752/sovereignty-caps-career-with-breeders-cup-classic-win"&gt;The Blood-Horse&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Breeders&amp;#x27;_Cup"&gt;2026 Breeders' Cup&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_Breeders&amp;#x27;_Cup_Classic"&gt;2026 Breeders' Cup Classic&lt;/a&gt;&lt;/p&gt;
+      <title>Poland's ambassador to Romania, Paweł Soloch, and Poland's ambassador to China, Jakub Kumoch, resign from their positions in protest of the suspension of Polish Constitutional Tribunal president…</title>
+      <link>https://en.wikipedia.org/wiki/Suspension_of_Bogdan_%C5%9Awi%C4%99czkowski</link>
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Poland"&gt;Poland&lt;/a&gt;'s &lt;a href="https://en.wikipedia.org/wiki/List_of_ambassadors_of_Poland"&gt;ambassador&lt;/a&gt; to &lt;a href="https://en.wikipedia.org/wiki/Romania"&gt;Romania&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Pawe%C5%82_Soloch"&gt;Paweł Soloch&lt;/a&gt;, and Poland's ambassador to &lt;a href="https://en.wikipedia.org/wiki/China"&gt;China&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Jakub_Kumoch"&gt;Jakub Kumoch&lt;/a&gt;, resign from their positions in protest of the suspension of &lt;a href="https://en.wikipedia.org/wiki/Constitutional_Tribunal_(Poland)"&gt;Polish Constitutional Tribunal&lt;/a&gt; president &lt;a href="https://en.wikipedia.org/wiki/Bogdan_%C5%9Awi%C4%99czkowski"&gt;Bogdan Święczkowski&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://24tv.ua/geopolitics/en/polish-ambassador-romania-pawe-solok-has-resigned-amid-the-judicial_n3171202"&gt;24 Kanal&lt;/a&gt;, &lt;a href="https://www.firstpost.com/world/polish-envoy-to-china-resigns-on-x-foreign-minister-accepts-departure-amid-ongoing-political-turmoil-14056805.html"&gt;Firstpost&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Polish_constitutional_crisis"&gt;Polish constitutional crisis, China–Poland relations, Poland–Romania relations&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Polish_Constitutional_Tribunal_crisis_(2015_%E2%80%93_ongoing)"&gt;Polish Constitutional Tribunal crisis&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Suspension_of_Bogdan_%C5%9Awi%C4%99czkowski"&gt;Suspension of Bogdan Święczkowski&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_31"&gt;Portal:Current events/2026 October 31&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_31&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-31:1e32978adc08</guid>
+      <guid isPermaLink="false">wikipedia:en:2026-10-31:945165baeee4</guid>
       <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Sports</category>
-      <category>2026 Breeders' Cup Classic</category>
+      <category>International relations</category>
+      <category>Suspension of Bogdan Święczkowski</category>
+    </item>
+    <item>
+      <title>Metropolitan Police arrest 139 people outside the United States embassy in London, United Kingdom, during a protest supporting Palestine Action, which is designated as a proscribed terrorist…</title>
+      <link>https://en.wikipedia.org/wiki/Gaza_war_protests_in_the_United_Kingdom</link>
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Metropolitan_Police"&gt;Metropolitan Police&lt;/a&gt; arrest 139 people outside the &lt;a href="https://en.wikipedia.org/wiki/Embassy_of_the_United_States,_London"&gt;United States embassy&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/London"&gt;London&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/United_Kingdom"&gt;United Kingdom&lt;/a&gt;, during a protest supporting &lt;a href="https://en.wikipedia.org/wiki/Palestine_Action"&gt;Palestine Action&lt;/a&gt;, which is designated as a &lt;a href="https://en.wikipedia.org/wiki/Proscribed_organisation"&gt;proscribed&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Terrorism_in_the_United_Kingdom"&gt;terrorist&lt;/a&gt; organisation.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://apnews.com/article/uk-palestine-action-us-embassy-protest-arrests-181ab108a671bcabf5433863608949bc"&gt;AP&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Gaza_war_protests_in_the_United_Kingdom"&gt;Gaza war protests in the United Kingdom&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_31"&gt;Portal:Current events/2026 October 31&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_31&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-10-31:69bc4da9534d</guid>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Law and crime</category>
+      <category>Gaza war protests in the United Kingdom</category>
+    </item>
+    <item>
+      <title>Madagascar's justice ministry announces dismantling 13 Chinese-run scam centers since August, linked to 148 Chinese nationals who had previously operated scam centers in Cambodia, and who might have…</title>
+      <link>https://en.wikipedia.org/wiki/Trafficking_of_Chinese_nationals_to_scam_centers_abroad</link>
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Madagascar"&gt;Madagascar&lt;/a&gt;'s &lt;a href="https://en.wikipedia.org/wiki/Justice_ministry"&gt;justice ministry&lt;/a&gt; announces dismantling 13 Chinese-run &lt;a href="https://en.wikipedia.org/wiki/Scam_center"&gt;scam centers&lt;/a&gt; since August, linked to 148 &lt;a href="https://en.wikipedia.org/wiki/Chinese_people_in_Madagascar"&gt;Chinese nationals&lt;/a&gt; who had previously operated &lt;a href="https://en.wikipedia.org/wiki/Scam_centers_in_Cambodia"&gt;scam centers in Cambodia&lt;/a&gt;, and who might have been involved in &lt;a href="https://en.wikipedia.org/wiki/Human_trafficking"&gt;trafficking&lt;/a&gt; Africans to commit fraud. The 148 Chinese are &lt;a href="https://en.wikipedia.org/wiki/Extradited"&gt;extradited&lt;/a&gt; to China.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.afp.com/en/scam-centres-relocated-cambodia-operate-madagascar"&gt;AFP&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Trafficking_of_Chinese_nationals_to_scam_centers_abroad"&gt;Trafficking of Chinese nationals to scam centers abroad, Human trafficking in Madagascar&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_31"&gt;Portal:Current events/2026 October 31&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_31&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-10-31:e7830d147a82</guid>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Law and crime</category>
+      <category>Trafficking of Chinese nationals to scam centers abroad, Human trafficking in Madagascar</category>
+    </item>
+    <item>
+      <title>Protests are held across France for the third consecutive weekend.</title>
+      <link>https://en.wikipedia.org/wiki/2026_French_student_protests</link>
+      <description>&lt;p&gt;Protests are held across &lt;a href="https://en.wikipedia.org/wiki/France"&gt;France&lt;/a&gt; for the third consecutive weekend.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://apnews.com/article/protests-europe-youth-france-germany-spain-362a7cb69871ab21bd894290dad639f5"&gt;AP&lt;/a&gt;, &lt;a href="https://www.france24.com/en/france/20261031-live-france-braces-for-halloween-protests-government-vows-tough-response"&gt;France 24&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_European_unrest"&gt;2026 European unrest&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_French_student_protests"&gt;2026 French student protests&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_31"&gt;Portal:Current events/2026 October 31&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_31&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-10-31:347d182f02bf</guid>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Politics and elections</category>
+      <category>2026 French student protests</category>
     </item>
     <item>
       <title>In figure skating, France's Kevin Aymoz wins the men's singles title at Skate Canada in Kelowna, British Columbia, overtaking Japan's Rio Nakata and becoming the second-oldest men's Grand Prix…</title>
@@ -130,6 +320,18 @@
       <category>2026 Skate Canada International</category>
     </item>
     <item>
+      <title>In thoroughbred horse racing, thoroughbred racehorse Sovereignty wins the Breeders' Cup classic at the Keeneland racetrack in Lexington, Kentucky, U.S.</title>
+      <link>https://en.wikipedia.org/wiki/2026_Breeders%27_Cup_Classic</link>
+      <description>&lt;p&gt;In &lt;a href="https://en.wikipedia.org/wiki/Thoroughbred_racing"&gt;thoroughbred&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Horse_racing"&gt;horse racing&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Thoroughbred"&gt;thoroughbred&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Horse_racing"&gt;racehorse&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Sovereignty_(horse)"&gt;Sovereignty&lt;/a&gt; wins &lt;a href="https://en.wikipedia.org/wiki/2026_Breeders%27_Cup_Classic"&gt;the&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Breeders%27_Cup"&gt;Breeders' Cup&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Breeders%27_Cup_Classic"&gt;classic&lt;/a&gt; at the &lt;a href="https://en.wikipedia.org/wiki/Keeneland"&gt;Keeneland&lt;/a&gt; racetrack in &lt;a href="https://en.wikipedia.org/wiki/Lexington,_Kentucky"&gt;Lexington&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Kentucky"&gt;Kentucky&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/United_States"&gt;U.S&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.espn.com/horse-racing/story/_/id/50342162/sovereignty-wins-breeders-cup-classic-year-missing-race"&gt;ESPN&lt;/a&gt;, &lt;a href="https://www.bloodhorse.com/horse-racing/articles/295752/sovereignty-caps-career-with-breeders-cup-classic-win"&gt;The Blood-Horse&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Breeders&amp;#x27;_Cup"&gt;2026 Breeders' Cup&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_Breeders&amp;#x27;_Cup_Classic"&gt;2026 Breeders' Cup Classic&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_31"&gt;Portal:Current events/2026 October 31&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_31&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-10-31:1e32978adc08</guid>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Sports</category>
+      <category>2026 Breeders' Cup Classic</category>
+    </item>
+    <item>
       <title>The 2026 Summer Youth Olympics opens in Dakar, Senegal, marking the first IOC event in Africa.</title>
       <link>https://en.wikipedia.org/wiki/2026_Summer_Youth_Olympics</link>
       <description>&lt;p&gt;The 2026 &lt;a href="https://en.wikipedia.org/wiki/Summer_Youth_Olympics"&gt;Summer Youth Olympics&lt;/a&gt; opens in &lt;a href="https://en.wikipedia.org/wiki/Dakar"&gt;Dakar&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Senegal"&gt;Senegal&lt;/a&gt;, marking the first &lt;a href="https://en.wikipedia.org/wiki/IOC"&gt;IOC&lt;/a&gt; event in &lt;a href="https://en.wikipedia.org/wiki/Africa"&gt;Africa&lt;/a&gt;.&lt;/p&gt;
@@ -142,10 +344,10 @@
       <category>2026 Summer Youth Olympics</category>
     </item>
     <item>
-      <title>In women's basketball, the Golden State Valkyries defeat the Atlanta Dream in game seven to win their first WNBA championship.</title>
+      <title>In women's basketball, the Golden State Valkyries defeat the Atlanta Dream 68–63 in game seven to win their first WNBA championship.</title>
       <link>https://en.wikipedia.org/wiki/2026_WNBA_Finals</link>
-      <description>&lt;p&gt;In &lt;a href="https://en.wikipedia.org/wiki/Women%27s_basketball"&gt;women's basketball&lt;/a&gt;, the &lt;a href="https://en.wikipedia.org/wiki/Golden_State_Valkyries"&gt;Golden State Valkyries&lt;/a&gt; defeat the &lt;a href="https://en.wikipedia.org/wiki/Atlanta_Dream"&gt;Atlanta Dream&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Game_seven"&gt;game seven&lt;/a&gt; to win their first &lt;a href="https://en.wikipedia.org/wiki/Women%27s_National_Basketball_Association"&gt;WNBA&lt;/a&gt; championship. &lt;a href="https://en.wikipedia.org/wiki/Gabby_Williams"&gt;Gabby Williams&lt;/a&gt; is named &lt;a href="https://en.wikipedia.org/wiki/WNBA_Finals_Most_Valuable_Player"&gt;MVP&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.afp.com/en/valkyries-defeat-dream-capture-first-wnba-crown"&gt;AFP&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;In &lt;a href="https://en.wikipedia.org/wiki/Women%27s_basketball"&gt;women's basketball&lt;/a&gt;, the &lt;a href="https://en.wikipedia.org/wiki/Golden_State_Valkyries"&gt;Golden State Valkyries&lt;/a&gt; defeat the &lt;a href="https://en.wikipedia.org/wiki/Atlanta_Dream"&gt;Atlanta Dream&lt;/a&gt; 68–63 in &lt;a href="https://en.wikipedia.org/wiki/Game_seven"&gt;game seven&lt;/a&gt; to win their first &lt;a href="https://en.wikipedia.org/wiki/Women%27s_National_Basketball_Association"&gt;WNBA&lt;/a&gt; championship. &lt;a href="https://en.wikipedia.org/wiki/Gabby_Williams"&gt;Gabby Williams&lt;/a&gt; is named &lt;a href="https://en.wikipedia.org/wiki/WNBA_Finals_Most_Valuable_Player"&gt;MVP&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.afp.com/en/valkyries-defeat-dream-capture-first-wnba-crown"&gt;AFP&lt;/a&gt;, &lt;a href="https://apnews.com/article/wnba-finals-game-7-valkyries-dream-189aa4b8ecb1d1fd8ddfacde3a9d6ac4"&gt;AP&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_WNBA_Finals"&gt;2026 WNBA Finals&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_31"&gt;Portal:Current events/2026 October 31&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_31&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:en:2026-10-31:aba09571175a</guid>
@@ -344,6 +546,28 @@
       <category>Disasters and accidents</category>
     </item>
     <item>
+      <title>Fifteen people are killed and 14 others are injured in a Russian drone strike on Dnipro railway station in Dnipro, Ukraine.</title>
+      <link>https://en.wikipedia.org/wiki/Russian_attacks_on_civilians_in_the_Russo-Ukrainian_war_(2022%E2%80%93present)</link>
+      <description>&lt;p&gt;Fifteen people are killed and 14 others are injured in a &lt;a href="https://en.wikipedia.org/wiki/Russian_Armed_Forces"&gt;Russian&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Drone_warfare"&gt;drone strike&lt;/a&gt; on &lt;a href="https://en.wikipedia.org/wiki/Dnipro_railway_station"&gt;Dnipro railway station&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Dnipro"&gt;Dnipro&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Ukraine"&gt;Ukraine&lt;/a&gt;. Two teenage girls are also killed in a &lt;a href="https://en.wikipedia.org/wiki/Ballistic_missile"&gt;ballistic missile&lt;/a&gt; strike on central &lt;a href="https://en.wikipedia.org/wiki/Chernihiv"&gt;Chernihiv&lt;/a&gt; with eight others being hospitalized. A local &lt;a href="https://en.wikipedia.org/wiki/Day_of_mourning"&gt;day of mourning&lt;/a&gt; is declared.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://kyivindependent.com/russian-attacks-across-ukraine-kill-27-injure-128-over-past-day-as-horrific-attack-strikes-dnipro-train-station/"&gt;The Kyiv Independnent&lt;/a&gt;, &lt;a href="https://www.theguardian.com/world/2026/oct/30/ukraine-war-briefing-russian-drone-attack-dnipro-rail-platform"&gt;The Guardian&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Russo-Ukrainian_war_(2022%E2%80%93present)"&gt;Russo–Ukrainian war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Russian_attacks_on_civilians_in_the_Russo-Ukrainian_war_(2022%E2%80%93present)"&gt;Russian attacks on civilians, Dnipro strikes&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_29"&gt;Portal:Current events/2026 October 29&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_29&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-10-29:4084d0c3b58a</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Armed conflicts and attacks</category>
+      <category>Russian attacks on civilians, Dnipro strikes</category>
+    </item>
+    <item>
+      <title>Non-profit fanfiction repository website Archive of Our Own is targeted in a cybersecurity incident, going offline.</title>
+      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_29</link>
+      <description>&lt;p&gt;Non-profit &lt;a href="https://en.wikipedia.org/wiki/Fanfiction"&gt;fanfiction&lt;/a&gt; repository website &lt;a href="https://en.wikipedia.org/wiki/Archive_of_Our_Own"&gt;Archive of Our Own&lt;/a&gt; is targeted in a cybersecurity incident, going offline. The &lt;a href="https://en.wikipedia.org/wiki/Organization_of_Transformative_Works"&gt;Organization of Transformative Works&lt;/a&gt; states user information and submissions have not been compromised, and projects restoring the website in 2 to 4 weeks.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.nytimes.com/2026/10/30/arts/ao3-fan-fiction-site-down.html"&gt;NY Times&lt;/a&gt;, &lt;a href="https://people.com/ao3-fanfiction-website-could-be-down-for-weeks-12202852"&gt;People&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_29"&gt;Portal:Current events/2026 October 29&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_29&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-10-29:7f1cf015b032</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+      <category>Arts and culture</category>
+    </item>
+    <item>
       <title>Teghaza 001, a Martian meteorite discovered in 2022 in the Sahara in Mali, is reported to be 4.1 billion years old.</title>
       <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_29</link>
       <description>&lt;p&gt;Teghaza 001, a &lt;a href="https://en.wikipedia.org/wiki/Martian_meteorite"&gt;Martian meteorite&lt;/a&gt; discovered in &lt;a href="https://en.wikipedia.org/wiki/2022_in_Mali"&gt;2022&lt;/a&gt; in the &lt;a href="https://en.wikipedia.org/wiki/Sahara"&gt;Sahara&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Mali"&gt;Mali&lt;/a&gt;, is reported to be 4.1 billion years old.&lt;/p&gt;
@@ -352,30 +576,6 @@
       <guid isPermaLink="false">wikipedia:en:2026-10-29:33336dcc4724</guid>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
       <category>Science and technology</category>
-    </item>
-    <item>
-      <title>The Salvadoran government deploys 2,000 troops to Haiti in response to the kidnapping of four Salvadoran Gang Suppression Force members that occurred earlier this month.</title>
-      <link>https://en.wikipedia.org/wiki/Salvadoran_military_intervention_in_Haiti</link>
-      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/El_Salvador"&gt;Salvadoran&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Government_of_El_Salvador"&gt;government&lt;/a&gt; deploys 2,000 &lt;a href="https://en.wikipedia.org/wiki/Armed_Forces_of_El_Salvador"&gt;troops&lt;/a&gt; to &lt;a href="https://en.wikipedia.org/wiki/Haiti"&gt;Haiti&lt;/a&gt; in response to the &lt;a href="https://en.wikipedia.org/wiki/2026_Croix-des-Bouquets_kidnapping"&gt;kidnapping&lt;/a&gt; of four Salvadoran &lt;a href="https://en.wikipedia.org/wiki/Gang_Suppression_Force"&gt;Gang Suppression Force&lt;/a&gt; members that occurred earlier this month.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.bbc.com/news/articles/ck0e075n79j5o"&gt;BBC News&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Haitian_conflict"&gt;Haitian conflict, El Salvador–Haiti relations&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Salvadoran_military_intervention_in_Haiti"&gt;Salvadoran military intervention in Haiti&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_29"&gt;Portal:Current events/2026 October 29&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_29&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-29:e436a4389c1c</guid>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Armed conflicts and attacks</category>
-      <category>Salvadoran military intervention in Haiti</category>
-    </item>
-    <item>
-      <title>Saudi Arabia launches airstrikes against two residential buildings in Taiz, Yemen, killing 12 civilians and wounding three more.</title>
-      <link>https://en.wikipedia.org/wiki/Houthi%E2%80%93Saudi_conflict</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Saudi_Arabia"&gt;Saudi Arabia&lt;/a&gt; launches &lt;a href="https://en.wikipedia.org/wiki/Airstrike"&gt;airstrikes&lt;/a&gt; against two residential buildings in &lt;a href="https://en.wikipedia.org/wiki/Taiz"&gt;Taiz&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Yemen"&gt;Yemen&lt;/a&gt;, killing 12 civilians and wounding three more.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://english.news.cn/20261029/44a9ff9e8822451ea1c2e37ac00c3657/c.html"&gt;Xinhua&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"&gt;Middle Eastern crisis&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Houthi%E2%80%93Saudi_conflict"&gt;Houthi–Saudi conflict, Yemeni civil war&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_29"&gt;Portal:Current events/2026 October 29&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_29&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-29:f8ed2bd20b79</guid>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Armed conflicts and attacks</category>
-      <category>Houthi–Saudi conflict, Yemeni civil war</category>
     </item>
     <item>
       <title>14 people are killed and 14 more are injured in a Russian drone strike on a train station in Dnipro, Ukraine.</title>
@@ -388,200 +588,6 @@
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
       <category>Armed conflicts and attacks</category>
       <category>Russian attacks on civilians</category>
-    </item>
-    <item>
-      <title>Canada's federal government invests up to C$1.6 billion (US$1.1 billion) in Toronto-based artificial intelligence company Cohere, taking an equity stake as part of a C$7 billion (US$5 billion)…</title>
-      <link>https://en.wikipedia.org/wiki/Artificial_intelligence_industry_in_Canada</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Canada"&gt;Canada&lt;/a&gt;'s &lt;a href="https://en.wikipedia.org/wiki/Government_of_Canada"&gt;federal government&lt;/a&gt; invests up to &lt;a href="https://en.wikipedia.org/wiki/Canadian_dollar"&gt;C$&lt;/a&gt;1.6 billion (&lt;a href="https://en.wikipedia.org/wiki/US$"&gt;US$&lt;/a&gt;1.1 billion) in &lt;a href="https://en.wikipedia.org/wiki/Toronto"&gt;Toronto&lt;/a&gt;-based &lt;a href="https://en.wikipedia.org/wiki/Artificial_intelligence"&gt;artificial intelligence&lt;/a&gt; company &lt;a href="https://en.wikipedia.org/wiki/Cohere"&gt;Cohere&lt;/a&gt;, taking an &lt;a href="https://en.wikipedia.org/wiki/Equity_stake"&gt;equity stake&lt;/a&gt; as part of a C$7 billion (US$5 billion) &lt;a href="https://en.wikipedia.org/wiki/Funding_round"&gt;funding round&lt;/a&gt; intended to expand domestic &lt;a href="https://en.wikipedia.org/wiki/Computing_infrastructure"&gt;computing infrastructure&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/AI_development"&gt;AI development&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.afp.com/en/canada-buying-stake-ai-firm-cohere-bolster-tech-sovereignty"&gt;AFP&lt;/a&gt;, &lt;a href="https://www.reuters.com/business/ottawa-takes-stake-cohere-ai-company-opens-45-billion-funding-round-2026-10-29/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/AI_boom"&gt;AI boom&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Artificial_intelligence_industry_in_Canada"&gt;Artificial intelligence industry in Canada&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_29"&gt;Portal:Current events/2026 October 29&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_29&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-29:98450c5cbaab</guid>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Business and economy</category>
-      <category>Artificial intelligence industry in Canada</category>
-    </item>
-    <item>
-      <title>Seychelles-based cryptocurrency exchange KuCoin ends services for customers in Russia and Belarus, citing ongoing sanctions.</title>
-      <link>https://en.wikipedia.org/wiki/Boycott_of_Russia_and_Belarus</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Seychelles"&gt;Seychelles&lt;/a&gt;-based &lt;a href="https://en.wikipedia.org/wiki/Cryptocurrency_exchange"&gt;cryptocurrency exchange&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/KuCoin"&gt;KuCoin&lt;/a&gt; ends services for customers in &lt;a href="https://en.wikipedia.org/wiki/Russia"&gt;Russia&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Belarus"&gt;Belarus&lt;/a&gt;, citing ongoing sanctions.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.cryptotimes.io/2026/10/29/kucoin-suspends-services-in-russia-and-belarus-with-immediate-effect/"&gt;The Crypto Times&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Boycott_of_Russia_and_Belarus"&gt;Boycott of Russia and Belarus&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_29"&gt;Portal:Current events/2026 October 29&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_29&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-29:f9b225b7c849</guid>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Business and economy</category>
-      <category>Boycott of Russia and Belarus</category>
-    </item>
-    <item>
-      <title>Christine Lagarde, the president of the European Central Bank, resigns, saying she could not remain neutral on current events.</title>
-      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_29</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Christine_Lagarde"&gt;Christine Lagarde&lt;/a&gt;, the &lt;a href="https://en.wikipedia.org/wiki/President_of_the_European_Central_Bank"&gt;president of the European Central Bank&lt;/a&gt;, resigns, saying she could not remain neutral on current events. She will step down from office in February 2027, eight months before her term officially ends.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.reuters.com/business/finance/ecb-hold-rates-investors-focus-french-bonds-lagardes-future-2026-10-28/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_29"&gt;Portal:Current events/2026 October 29&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_29&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-29:53922cfb4365</guid>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Business and economy</category>
-    </item>
-    <item>
-      <title>American food delivery company DoorDash announces an intent to acquire grocery delivery company Instacart for $17 billion in late 2027.</title>
-      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_29</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/United_States"&gt;American&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Food_delivery"&gt;food delivery&lt;/a&gt; company &lt;a href="https://en.wikipedia.org/wiki/DoorDash"&gt;DoorDash&lt;/a&gt; announces an intent to &lt;a href="https://en.wikipedia.org/wiki/Mergers_and_acquisitions"&gt;acquire&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Online_grocer"&gt;grocery delivery&lt;/a&gt; company &lt;a href="https://en.wikipedia.org/wiki/Instacart"&gt;Instacart&lt;/a&gt; for &lt;a href="https://en.wikipedia.org/wiki/United_States_dollar"&gt;$&lt;/a&gt;17 billion in late 2027.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://apnews.com/article/doordash-instacart-delivery-d6f30f5d18c288eeba6babcb49260e06"&gt;AP&lt;/a&gt;, &lt;a href="https://www.reuters.com/legal/transactional/doordash-strikes-17-billion-deal-us-rival-instacart-bets-grocery-delivery-2026-10-29/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_29"&gt;Portal:Current events/2026 October 29&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_29&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-29:e8b9ceb4d0cc</guid>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Business and economy</category>
-    </item>
-    <item>
-      <title>Four people are killed and eleven more are injured after an Italian Air Force Boeing CH-47 Chinook crashes near Brčko, Bosnia and Herzegovina.</title>
-      <link>https://en.wikipedia.org/wiki/2026_Br%C4%8Dko_helicopter_crash</link>
-      <description>&lt;p&gt;Four people are killed and eleven more are injured after an &lt;a href="https://en.wikipedia.org/wiki/Italian_Air_Force"&gt;Italian Air Force&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Boeing_CH-47_Chinook"&gt;Boeing CH-47 Chinook&lt;/a&gt; crashes near &lt;a href="https://en.wikipedia.org/wiki/Br%C4%8Dko"&gt;Brčko&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina"&gt;Bosnia and Herzegovina&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://apnews.com/article/bosnia-eufor-crash-helicopter-2eb085d8dcc0347ecd4f287d396091c4"&gt;AP&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Br%C4%8Dko_helicopter_crash"&gt;2026 Brčko helicopter crash&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_29"&gt;Portal:Current events/2026 October 29&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_29&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-29:92a8d531edf8</guid>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Disasters and accidents</category>
-      <category>2026 Brčko helicopter crash</category>
-    </item>
-    <item>
-      <title>Three people are killed and five more injured during the collapse of a hoodoo at Göreme's Open Air Museum in the Nevşehir District, Turkey.</title>
-      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_29</link>
-      <description>&lt;p&gt;Three people are killed and five more injured during the collapse of a &lt;a href="https://en.wikipedia.org/wiki/Hoodoo_(geology)"&gt;hoodoo&lt;/a&gt; at &lt;a href="https://en.wikipedia.org/wiki/G%C3%B6reme"&gt;Göreme&lt;/a&gt;'s Open Air Museum in the &lt;a href="https://en.wikipedia.org/wiki/Nev%C5%9Fehir_District"&gt;Nevşehir District&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Turkey"&gt;Turkey&lt;/a&gt;. It is suspected to be caused by heavy rainfall over the preceding days.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://apnews.com/article/turkey-cappadocia-rock-formation-collapse-climbers-tourism-701991bfabd99898df47e8eba0fbd9fd"&gt;AP&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_29"&gt;Portal:Current events/2026 October 29&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_29&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-29:7c580ac4dd53</guid>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Disasters and accidents</category>
-    </item>
-    <item>
-      <title>Andreas Norlén, speaker of the Swedish parliament, announces a second vote to elect the next prime minister.</title>
-      <link>https://en.wikipedia.org/wiki/2026_Swedish_government_formation</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Andreas_Norl%C3%A9n"&gt;Andreas Norlén&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Speaker_of_the_Riksdag"&gt;speaker&lt;/a&gt; of the &lt;a href="https://en.wikipedia.org/wiki/Sweden"&gt;Swedish&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Riksdag"&gt;parliament&lt;/a&gt;, announces a second vote to elect the next &lt;a href="https://en.wikipedia.org/wiki/Prime_Minister_of_Sweden"&gt;prime minister&lt;/a&gt;. He proposes a &lt;a href="https://en.wikipedia.org/wiki/Coalition_government"&gt;coalition&lt;/a&gt; led by the &lt;a href="https://en.wikipedia.org/wiki/Centre_Party_(Sweden)"&gt;Center Party&lt;/a&gt;'s leader, &lt;a href="https://en.wikipedia.org/wiki/Elisabeth_Thand_Ringqvist"&gt;Elisabeth Thand Ringqvist&lt;/a&gt;, alongside the &lt;a href="https://en.wikipedia.org/wiki/Social_Democratic_Party_of_Sweden"&gt;Social Democrats&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Green_Party_of_Sweden"&gt;Greens&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Christian_Democrats_(Sweden)"&gt;Christian Democrats&lt;/a&gt;, and the &lt;a href="https://en.wikipedia.org/wiki/Moderate_Party_(Sweden)"&gt;Moderates&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.reuters.com/world/swedish-parliament-vote-centre-party-leader-prime-minister-despite-gridlock-2026-10-29/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Swedish_government_formation"&gt;2026 Swedish government formation&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_29"&gt;Portal:Current events/2026 October 29&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_29&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-29:953809721522</guid>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Politics and elections</category>
-      <category>2026 Swedish government formation</category>
-    </item>
-    <item>
-      <title>Haiti's Provisional Electoral Council sets the first round of presidential and legislative elections for August 29, 2027, with a second round scheduled for December 5, as the country prepares for its…</title>
-      <link>https://en.wikipedia.org/wiki/2027_Haitian_general_election</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Haiti"&gt;Haiti&lt;/a&gt;'s &lt;a href="https://en.wikipedia.org/wiki/Provisional_Electoral_Council"&gt;Provisional Electoral Council&lt;/a&gt; sets the &lt;a href="https://en.wikipedia.org/wiki/Two-round_system"&gt;first round&lt;/a&gt; of &lt;a href="https://en.wikipedia.org/wiki/President_of_Haiti"&gt;presidential&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/National_Assembly_(Haiti)"&gt;legislative&lt;/a&gt; elections for August 29, 2027, with a second round scheduled for December 5, as the country prepares for its first &lt;a href="https://en.wikipedia.org/wiki/Elections_in_Haiti"&gt;national elections&lt;/a&gt; since &lt;a href="https://en.wikipedia.org/wiki/2015%E2%80%9317_Haitian_parliamentary_election"&gt;2017&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.rfi.fr/en/international-news/20261029-gang-plagued-haiti-sets-election-dates-for-2027"&gt;AFP via RFI&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2027_Haitian_general_election"&gt;2027 Haitian general election&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_29"&gt;Portal:Current events/2026 October 29&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_29&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-29:b088cdba3397</guid>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Politics and elections</category>
-      <category>2027 Haitian general election</category>
-    </item>
-    <item>
-      <title>In baseball, the Fukuoka SoftBank Hawks defeats the Yokohama DeNA BayStars in four games to win its 13th Japan Series championship.</title>
-      <link>https://en.wikipedia.org/wiki/2026_Japan_Series</link>
-      <description>&lt;p&gt;In &lt;a href="https://en.wikipedia.org/wiki/Baseball"&gt;baseball&lt;/a&gt;, the &lt;a href="https://en.wikipedia.org/wiki/Fukuoka_SoftBank_Hawks"&gt;Fukuoka SoftBank Hawks&lt;/a&gt; defeats the &lt;a href="https://en.wikipedia.org/wiki/Yokohama_DeNA_BayStars"&gt;Yokohama DeNA BayStars&lt;/a&gt; in four games to win its 13th &lt;a href="https://en.wikipedia.org/wiki/Japan_Series"&gt;Japan Series&lt;/a&gt; championship.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.sankei.com/article/20261028-GGAHQ34HQVPJTOJL32EPYJQTTU/"&gt;Sankei in Japanese&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Japan_Series"&gt;2026 Japan Series&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_28"&gt;Portal:Current events/2026 October 28&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_28&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-28:7f9b9f8f2bdc</guid>
-      <pubDate>Wed, 28 Oct 2026 12:56:24 GMT</pubDate>
-      <category>Sports</category>
-      <category>2026 Japan Series</category>
-    </item>
-    <item>
-      <title>At least 69 people are killed and 179 injured during a collision between two high speed trains carrying a total of 544 passengers between Los Yébenes and Urda, in the Province of Toledo, Spain.</title>
-      <link>https://en.wikipedia.org/wiki/2026_Toledo_train_collision</link>
-      <description>&lt;p&gt;At least 69 people are killed and 179 injured during a collision between two &lt;a href="https://en.wikipedia.org/wiki/High-speed_rail"&gt;high speed trains&lt;/a&gt; carrying a total of 544 passengers between &lt;a href="https://en.wikipedia.org/wiki/Los_Y%C3%A9benes"&gt;Los Yébenes&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Urda,_Toledo"&gt;Urda&lt;/a&gt;, in the &lt;a href="https://en.wikipedia.org/wiki/Province_of_Toledo"&gt;Province of Toledo&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Spain"&gt;Spain&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://news.sky.com/story/spain-train-crash-latest-numerous-injuries-reported-after-high-speed-collision-on-madrid-andalusia-line-13604696"&gt;Sky News&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Toledo_train_collision"&gt;2026 Toledo train collision&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_28"&gt;Portal:Current events/2026 October 28&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_28&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-28:00ec9fb5c995</guid>
-      <pubDate>Wed, 28 Oct 2026 12:56:24 GMT</pubDate>
-      <category>Disasters and accidents</category>
-      <category>2026 Toledo train collision</category>
-    </item>
-    <item>
-      <title>A youth armed with two knives wounds a police officer outside the Israeli embassy in Belgrade, Serbia, before being shot and killed.</title>
-      <link>https://en.wikipedia.org/wiki/List_of_attacks_against_Israeli_diplomatic_missions_and_personnel</link>
-      <description>&lt;p&gt;A youth armed with two knives wounds a &lt;a href="https://en.wikipedia.org/wiki/Police_of_Serbia"&gt;police officer&lt;/a&gt; outside the &lt;a href="https://en.wikipedia.org/wiki/List_of_diplomatic_missions_of_Israel#Europe"&gt;Israeli embassy&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Belgrade"&gt;Belgrade&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Serbia"&gt;Serbia&lt;/a&gt;, before being shot and killed.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.reuters.com/world/policeman-kills-knife-attacker-outside-israels-embassy-serbia-2026-10-28/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/List_of_attacks_against_Israeli_diplomatic_missions_and_personnel"&gt;Attacks on Israeli embassies&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_28"&gt;Portal:Current events/2026 October 28&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_28&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-28:0f3a0d1406bb</guid>
-      <pubDate>Wed, 28 Oct 2026 12:56:24 GMT</pubDate>
-      <category>Law and crime</category>
-      <category>Attacks on Israeli embassies</category>
-    </item>
-    <item>
-      <title>Jio Platforms raises US$3.2 billion in India's largest-ever initial public offering (IPO), attracting about $77 billion in bids and becoming the country's most-subscribed IPO before its stock-market…</title>
-      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_28</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Jio_Platforms"&gt;Jio Platforms&lt;/a&gt; raises &lt;a href="https://en.wikipedia.org/wiki/US$"&gt;US$&lt;/a&gt;3.2 billion in &lt;a href="https://en.wikipedia.org/wiki/India"&gt;India&lt;/a&gt;'s largest-ever &lt;a href="https://en.wikipedia.org/wiki/Initial_public_offering"&gt;initial public offering&lt;/a&gt; (IPO), attracting about $77 billion in bids and becoming the country's most-subscribed IPO before its &lt;a href="https://en.wikipedia.org/wiki/Stock_market"&gt;stock-market&lt;/a&gt; debut in &lt;a href="https://en.wikipedia.org/wiki/Bombay_Stock_Exchange"&gt;Mumbai&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.france24.com/en/live-news/20261028-billionaire-ambani-s-jio-to-debut-after-record-india-ipo"&gt;AFP via France 24&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_28"&gt;Portal:Current events/2026 October 28&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_28&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-28:1396e08de6ff</guid>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Business and economy</category>
-    </item>
-    <item>
-      <title>A bus transporting local tourists overturns in Sarapiquí, Costa Rica, killing three people and injuring 39 others, including seven seriously.</title>
-      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_28</link>
-      <description>&lt;p&gt;A bus transporting local tourists overturns in &lt;a href="https://en.wikipedia.org/wiki/Sarapiqu%C3%AD_(canton)"&gt;Sarapiquí&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Costa_Rica"&gt;Costa Rica&lt;/a&gt;, killing three people and injuring 39 others, including seven seriously.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://amcostarica.com/Costa%20Rica%20News%20Deadly%20Bus%20Crash%20in%20Costa%20Rica%20Leaves%20Three%20Dead,%2054%20Injured%20102926.html"&gt;AM Costa Rica&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_28"&gt;Portal:Current events/2026 October 28&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_28&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-28:e3dca799f779</guid>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Disasters and accidents</category>
-    </item>
-    <item>
-      <title>Saudi Arabia launches an airstrike at a market in Al Hazm, Al-Jawf Governorate, Yemen, killing 14 civilians and wounding ten more.</title>
-      <link>https://en.wikipedia.org/wiki/Houthi%E2%80%93Saudi_conflict</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Saudi_Arabia"&gt;Saudi Arabia&lt;/a&gt; launches an &lt;a href="https://en.wikipedia.org/wiki/Airstrike"&gt;airstrike&lt;/a&gt; at a market in &lt;a href="https://en.wikipedia.org/wiki/Al_Hazm,_Yemen"&gt;Al Hazm&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Al-Jawf_Governorate"&gt;Al-Jawf Governorate&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Yemen"&gt;Yemen&lt;/a&gt;, killing 14 civilians and wounding ten more.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://apnews.com/article/mideast-iran-saudi-yemen-israel-palestinians-october-282026-c032db4b09725fea0f6320eec49de5d4"&gt;AP&lt;/a&gt;, &lt;a href="https://english.news.cn/20261028/0bff5197bf7d4bd8aef67cc902090535/c.html"&gt;Xinhua&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"&gt;Middle Eastern crisis&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Houthi%E2%80%93Saudi_conflict"&gt;Houthi–Saudi conflict, Yemeni civil war&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_28"&gt;Portal:Current events/2026 October 28&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_28&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-28:55064dd0d76e</guid>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Armed conflicts and attacks</category>
-      <category>Houthi–Saudi conflict, Yemeni civil war</category>
-    </item>
-    <item>
-      <title>Eight women and children are reported to be injured in a airstrike in Kadugli, South Kordofan, Sudan.</title>
-      <link>https://en.wikipedia.org/wiki/War_crimes_in_the_Sudanese_civil_war_(2023%E2%80%93present)</link>
-      <description>&lt;p&gt;Eight women and children are reported to be injured in a airstrike in &lt;a href="https://en.wikipedia.org/wiki/Kadugli"&gt;Kadugli&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/South_Kordofan"&gt;South Kordofan&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Sudan"&gt;Sudan&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://sudantribune.com/article/320591"&gt;Sudan Tribune&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Sudanese_civil_war_(2023%E2%80%93present)"&gt;Sudanese civil war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/War_crimes_in_the_Sudanese_civil_war_(2023%E2%80%93present)"&gt;War crimes in the Sudanese civil war&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_28"&gt;Portal:Current events/2026 October 28&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_28&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-28:972432f67db7</guid>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Armed conflicts and attacks</category>
-      <category>War crimes in the Sudanese civil war</category>
-    </item>
-    <item>
-      <title>The Bank of Canada raises its policy interest rate by 25 basis points to 2.5%, its first increase since July 2023, citing persistent inflation driven partly by higher oil and gasoline prices linked…</title>
-      <link>https://en.wikipedia.org/wiki/2026_Iran_war_fuel_crisis</link>
-      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Bank_of_Canada"&gt;Bank of Canada&lt;/a&gt; raises its policy &lt;a href="https://en.wikipedia.org/wiki/Interest_rate"&gt;interest rate&lt;/a&gt; by 25 basis points to 2.5%, its first increase since July 2023, citing persistent &lt;a href="https://en.wikipedia.org/wiki/Inflation"&gt;inflation&lt;/a&gt; driven partly by higher &lt;a href="https://en.wikipedia.org/wiki/Petroleum_industry_in_Canada"&gt;oil&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Natural_gas_in_Canada"&gt;gasoline&lt;/a&gt; prices linked to the &lt;a href="https://en.wikipedia.org/wiki/2026_Iran_war"&gt;Iran war&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.afp.com/en/canada-hikes-rates-contain-oil-price-surge-caused-iran-war"&gt;AFP&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Iran_war_fuel_crisis"&gt;2026 Iran war fuel crisis, Canada and the 2026 Iran war&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_28"&gt;Portal:Current events/2026 October 28&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_28&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-28:c325e90cfd5c</guid>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Business and economy</category>
-      <category>2026 Iran war fuel crisis, Canada and the 2026 Iran war</category>
-    </item>
-    <item>
-      <title>At least three people are killed as Cyclone Arnab makes landfall in Andhra Pradesh, India.</title>
-      <link>https://en.wikipedia.org/wiki/2026_North_Indian_Ocean_cyclone_season</link>
-      <description>&lt;p&gt;At least three people are killed as &lt;a href="https://en.wikipedia.org/wiki/Cyclone_Arnab"&gt;Cyclone Arnab&lt;/a&gt; makes &lt;a href="https://en.wikipedia.org/wiki/Landfall"&gt;landfall&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Andhra_Pradesh"&gt;Andhra Pradesh&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/India"&gt;India&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.dnaindia.com/india/report-cyclone-arnab-3-dead-houses-damaged-as-strong-winds-lash-andhra-pradesh-3223161"&gt;DNA&lt;/a&gt;, &lt;a href="https://www.reuters.com/business/environment/cyclone-arnab-begins-making-landfall-indias-andhra-pradesh-state-2026-10-27/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_North_Indian_Ocean_cyclone_season"&gt;2026 North Indian Ocean cyclone season&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_28"&gt;Portal:Current events/2026 October 28&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_October_28&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-10-28:6228eb922995</guid>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
-      <category>Disasters and accidents</category>
-      <category>2026 North Indian Ocean cyclone season</category>
     </item>
   </channel>
 </rss>
