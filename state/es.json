@@ -123,11 +123,11 @@
    "html": "<a href=\"https://es.wikipedia.org/wiki/Copa_Mundial_Femenina_de_F%C3%BAtbol_Sub-17_de_2026\">Copa Mundial Femenina de Fútbol Sub-17</a>",
    "link": "https://es.wikipedia.org/wiki/Copa_Mundial_Femenina_de_F%C3%BAtbol_Sub-17_de_2026",
    "main_title": "Copa Mundial Femenina de Fútbol Sub-17 de 2026",
-   "order": 5,
+   "order": 7,
    "page": "Plantilla:Portada:Actualidad",
    "page_date": null,
    "pageid": 11343618,
-   "pos": 5,
+   "pos": 7,
    "pub_date": "2026-10-17T00:00:00Z",
    "qid": "Q136681299",
    "sources": [],
@@ -177,11 +177,11 @@
    "html": "Elecciones a gobernador de <a href=\"https://es.wikipedia.org/wiki/Elecci%C3%B3n_de_gobernador_de_Nueva_York_de_2026\">Nueva York</a> y <a href=\"https://es.wikipedia.org/wiki/Elecciones_de_gobernador_de_California_de_2026\">California</a>",
    "link": "https://es.wikipedia.org/wiki/Elecci%C3%B3n_de_gobernador_de_Nueva_York_de_2026",
    "main_title": "Elección de gobernador de Nueva York de 2026",
-   "order": 2,
+   "order": 5,
    "page": "Plantilla:Portada:Actualidad",
    "page_date": null,
    "pageid": 11349472,
-   "pos": 2,
+   "pos": 5,
    "pub_date": "2026-11-02T15:55:17Z",
    "qid": "Q117085630",
    "sources": [],
@@ -243,6 +243,32 @@
    "title": "Gran Premio de la Ciudad de México de Fórmula 1",
    "topics": []
   },
+  "wikipedia:es:11378416": {
+   "articles": [
+    "Anexo:Gran Premio de São Paulo de 2026"
+   ],
+   "category": null,
+   "date": null,
+   "date_source": "first_seen",
+   "extract": "El Gran Premio de São Paulo de 2026 será la vigésima ronda de la temporada 2026 de Fórmula 1.",
+   "first_seen": "2026-11-05T14:40:45Z",
+   "group_key": "pageid:11378416",
+   "guid": "wikipedia:es:11378416",
+   "html": "<a href=\"https://es.wikipedia.org/wiki/Anexo:Gran_Premio_de_S%C3%A3o_Paulo_de_2026\">Gran Premio de São Paulo</a>",
+   "link": "https://es.wikipedia.org/wiki/Anexo:Gran_Premio_de_S%C3%A3o_Paulo_de_2026",
+   "main_title": "Anexo:Gran Premio de São Paulo de 2026",
+   "order": 2,
+   "page": "Plantilla:Portada:Actualidad",
+   "page_date": null,
+   "pageid": 11378416,
+   "pos": 2,
+   "pub_date": "2026-11-05T14:40:45Z",
+   "qid": "Q124014141",
+   "sources": [],
+   "text": "Gran Premio de São Paulo",
+   "title": "Gran Premio de São Paulo",
+   "topics": []
+  },
   "wikipedia:es:11380059": {
    "articles": [
     "Festival de la Canción de Eurovisión Junior 2026"
@@ -285,11 +311,11 @@
    "html": "Elecciones al <a href=\"https://es.wikipedia.org/wiki/Elecciones_al_Senado_de_los_Estados_Unidos_de_2026\">Senado</a> y la <a href=\"https://es.wikipedia.org/wiki/Elecciones_a_la_C%C3%A1mara_de_Representantes_de_los_Estados_Unidos_de_2026\">Cámara de Representantes</a> de Estados Unidos",
    "link": "https://es.wikipedia.org/wiki/Elecciones_al_Senado_de_los_Estados_Unidos_de_2026",
    "main_title": "Elecciones al Senado de los Estados Unidos de 2026",
-   "order": 1,
+   "order": 4,
    "page": "Plantilla:Portada:Actualidad",
    "page_date": null,
    "pageid": 11405309,
-   "pos": 1,
+   "pos": 4,
    "pub_date": "2026-11-03T14:17:16Z",
    "qid": "Q104902179",
    "sources": [],
@@ -404,6 +430,32 @@
    "sources": [],
    "text": "España-Marruecos",
    "title": "Guerras y conflictos: España-Marruecos",
+   "topics": []
+  },
+  "wikipedia:es:11589301": {
+   "articles": [
+    "Viaje apostólico de León XIV a Uruguay"
+   ],
+   "category": null,
+   "date": null,
+   "date_source": "first_seen",
+   "extract": "El papa León XIV realizará su primera visita a Uruguay entre el 6 y el 8 de noviembre de 2026, en el marco de su séptimo viaje apostólico internacional y el primero al continente americano. El país será la primera escala de una gira que también incluirá visitas a Argentina y Perú.",
+   "first_seen": "2026-11-05T14:40:45Z",
+   "group_key": "pageid:11589301",
+   "guid": "wikipedia:es:11589301",
+   "html": "<a href=\"https://es.wikipedia.org/wiki/Viaje_apost%C3%B3lico_de_Le%C3%B3n_XIV_a_Uruguay\">Viaje apostólico de León XIV a Uruguay</a>",
+   "link": "https://es.wikipedia.org/wiki/Viaje_apost%C3%B3lico_de_Le%C3%B3n_XIV_a_Uruguay",
+   "main_title": "Viaje apostólico de León XIV a Uruguay",
+   "order": 1,
+   "page": "Plantilla:Portada:Actualidad",
+   "page_date": null,
+   "pageid": 11589301,
+   "pos": 1,
+   "pub_date": "2026-11-05T14:40:45Z",
+   "qid": "Q140892520",
+   "sources": [],
+   "text": "Viaje apostólico de León XIV a Uruguay",
+   "title": "Viaje apostólico de León XIV a Uruguay",
    "topics": []
   },
   "wikipedia:es:11594359": {
@@ -571,6 +623,32 @@
    "title": "Torneos de Almatý, Bruselas y Lyon de tenis",
    "topics": []
   },
+  "wikipedia:es:11623894": {
+   "articles": [
+    "XXX Cumbre Iberoamericana"
+   ],
+   "category": null,
+   "date": "2026-11-04",
+   "date_source": "text_date",
+   "extract": "La XXX Cumbre Iberoamericana de Jefas y Jefes de Estado y de Gobierno es una reunión que se está celebrando los días 4 y 5 de noviembre de 2026 en Madrid, España. La reunión congregará a representantes de los 22 países que integran la Comunidad Iberoamericana y constituye la trigésima edición de…",
+   "first_seen": "2026-11-05T14:40:45Z",
+   "group_key": "pageid:11623894",
+   "guid": "wikipedia:es:11623894",
+   "html": "<a href=\"https://es.wikipedia.org/wiki/XXX_Cumbre_Iberoamericana\">Cumbre Iberoamericana</a>",
+   "link": "https://es.wikipedia.org/wiki/XXX_Cumbre_Iberoamericana",
+   "main_title": "XXX Cumbre Iberoamericana",
+   "order": 3,
+   "page": "Plantilla:Portada:Actualidad",
+   "page_date": null,
+   "pageid": 11623894,
+   "pos": 3,
+   "pub_date": "2026-11-04T00:00:00Z",
+   "qid": "Q141908771",
+   "sources": [],
+   "text": "Cumbre Iberoamericana",
+   "title": "Cumbre Iberoamericana",
+   "topics": []
+  },
   "wikipedia:es:11625480": {
    "articles": [
     "Torneo de Basilea 2026",
@@ -722,11 +800,11 @@
    "html": "<a href=\"https://es.wikipedia.org/wiki/Masters_de_Par%C3%ADs_2026\">Masters de París</a> de tenis",
    "link": "https://es.wikipedia.org/wiki/Masters_de_Par%C3%ADs_2026",
    "main_title": "Masters de París 2026",
-   "order": 3,
+   "order": 6,
    "page": "Plantilla:Portada:Actualidad",
    "page_date": null,
    "pageid": 11631014,
-   "pos": 3,
+   "pos": 6,
    "pub_date": "2026-11-01T13:26:18Z",
    "qid": "Q141732157",
    "sources": [],
@@ -770,6 +848,7 @@
    "date_source": "text_date",
    "extract": "El conflicto por el control del Tribunal Constitucional de Polonia de 2026 es una crisis institucional y política iniciada en Polonia el 30 de octubre de 2026, cuando se anunció la suspensión del presidente del Tribunal Constitucional de Polonia, Bogdan Święczkowski, y de su vicepresidente…",
    "first_seen": "2026-11-01T13:26:18Z",
+   "gone_since": "2026-11-05T14:40:45Z",
    "group_key": "pageid:11634635",
    "guid": "wikipedia:es:11634635",
    "html": "<a href=\"https://es.wikipedia.org/wiki/Conflicto_por_el_control_del_Tribunal_Constitucional_de_Polonia_de_2026\">Conflicto por el control del Tribunal Constitucional de Polonia</a>",
@@ -815,5 +894,5 @@
    "topics": []
   }
  },
- "updated": "2026-11-04T14:33:55Z"
+ "updated": "2026-11-05T14:40:45Z"
 }

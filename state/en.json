@@ -112,9 +112,18 @@
    "first_seen": "2026-11-03T14:17:16Z",
    "members": [
     "wikipedia:en:2026-11-03:64d9af59c719",
-    "wikipedia:en:2026-11-03:6baad96f67e7"
+    "wikipedia:en:2026-11-03:6baad96f67e7",
+    "wikipedia:en:2026-11-03:807346568947"
    ],
    "pub_date": "2026-11-03T14:17:16Z"
+  },
+  "wikipedia:en:2026-11-03:bad936ba983f": {
+   "first_seen": "2026-11-05T14:40:45Z",
+   "members": [
+    "wikipedia:en:2026-11-03:bad936ba983f",
+    "wikipedia:en:2026-11-03:186cd4748157"
+   ],
+   "pub_date": "2026-11-03T00:00:00Z"
   }
  },
  "items": {
@@ -8772,6 +8781,7 @@
    "date": "2026-10-29",
    "date_source": "page_date",
    "first_seen": "2026-10-31T12:32:10Z",
+   "gone_since": "2026-11-05T14:40:45Z",
    "guid": "wikipedia:en:2026-10-29:33336dcc4724",
    "html": "Teghaza 001, a <a href=\"https://en.wikipedia.org/wiki/Martian_meteorite\">Martian meteorite</a> discovered in <a href=\"https://en.wikipedia.org/wiki/2022_in_Mali\">2022</a> in the <a href=\"https://en.wikipedia.org/wiki/Sahara\">Sahara</a> in <a href=\"https://en.wikipedia.org/wiki/Mali\">Mali</a>, is reported to be 4.1 billion years old.",
    "link": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_29",
@@ -8809,6 +8819,7 @@
    "date": "2026-10-29",
    "date_source": "page_date",
    "first_seen": "2026-11-02T15:55:17Z",
+   "gone_since": "2026-11-05T14:40:45Z",
    "group_key": "pageid:71499059",
    "guid": "wikipedia:en:2026-10-29:4084d0c3b58a",
    "html": "Fifteen people are killed and 14 others are injured in a <a href=\"https://en.wikipedia.org/wiki/Russian_Armed_Forces\">Russian</a> <a href=\"https://en.wikipedia.org/wiki/Drone_warfare\">drone strike</a> on <a href=\"https://en.wikipedia.org/wiki/Dnipro_railway_station\">Dnipro railway station</a> in <a href=\"https://en.wikipedia.org/wiki/Dnipro\">Dnipro</a>, <a href=\"https://en.wikipedia.org/wiki/Ukraine\">Ukraine</a>. Two teenage girls are also killed in a <a href=\"https://en.wikipedia.org/wiki/Ballistic_missile\">ballistic missile</a> strike on central <a href=\"https://en.wikipedia.org/wiki/Chernihiv\">Chernihiv</a> with eight others being hospitalized. A local <a href=\"https://en.wikipedia.org/wiki/Day_of_mourning\">day of mourning</a> is declared.",
@@ -8856,6 +8867,7 @@
    "date": "2026-10-29",
    "date_source": "page_date",
    "first_seen": "2026-10-29T13:03:24Z",
+   "gone_since": "2026-11-05T14:40:45Z",
    "guid": "wikipedia:en:2026-10-29:494bfcafead7",
    "html": "An <a href=\"https://en.wikipedia.org/wiki/Oxygen_tank\">oxygen cylinder</a> explodes inside an <a href=\"https://en.wikipedia.org/wiki/Ambulance\">ambulance</a> parked at a medical facility in <a href=\"https://en.wikipedia.org/wiki/Tharparkar\">Tharparkar</a>, <a href=\"https://en.wikipedia.org/wiki/Sindh\">Sindh Province</a>, <a href=\"https://en.wikipedia.org/wiki/Pakistan\">Pakistan</a>, killing ten people.",
    "link": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_29",
@@ -8884,6 +8896,7 @@
    "date": "2026-10-29",
    "date_source": "page_date",
    "first_seen": "2026-10-30T12:57:08Z",
+   "gone_since": "2026-11-05T14:40:45Z",
    "guid": "wikipedia:en:2026-10-29:53922cfb4365",
    "html": "<a href=\"https://en.wikipedia.org/wiki/Christine_Lagarde\">Christine Lagarde</a>, the <a href=\"https://en.wikipedia.org/wiki/President_of_the_European_Central_Bank\">president of the European Central Bank</a>, resigns, saying she could not remain neutral on current events. She will step down from office in February 2027, eight months before her term officially ends.",
    "link": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_29",
@@ -8914,6 +8927,7 @@
    "date": "2026-10-29",
    "date_source": "page_date",
    "first_seen": "2026-10-30T12:57:08Z",
+   "gone_since": "2026-11-05T14:40:45Z",
    "guid": "wikipedia:en:2026-10-29:7c580ac4dd53",
    "html": "Three people are killed and five more injured during the collapse of a <a href=\"https://en.wikipedia.org/wiki/Hoodoo_(geology)\">hoodoo</a> at <a href=\"https://en.wikipedia.org/wiki/G%C3%B6reme\">Göreme</a>'s Open Air Museum in the <a href=\"https://en.wikipedia.org/wiki/Nev%C5%9Fehir_District\">Nevşehir District</a>, <a href=\"https://en.wikipedia.org/wiki/Turkey\">Turkey</a>. It is suspected to be caused by heavy rainfall over the preceding days.",
    "link": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_29",
@@ -8943,6 +8957,7 @@
    "date": "2026-10-29",
    "date_source": "page_date",
    "first_seen": "2026-11-02T15:55:17Z",
+   "gone_since": "2026-11-05T14:40:45Z",
    "guid": "wikipedia:en:2026-10-29:7f1cf015b032",
    "html": "Non-profit <a href=\"https://en.wikipedia.org/wiki/Fanfiction\">fanfiction</a> repository website <a href=\"https://en.wikipedia.org/wiki/Archive_of_Our_Own\">Archive of Our Own</a> is targeted in a cybersecurity incident, going offline. The <a href=\"https://en.wikipedia.org/wiki/Organization_of_Transformative_Works\">Organization of Transformative Works</a> states user information and submissions have not been compromised, and projects restoring the website in 2 to 4 weeks.",
    "link": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_29",
@@ -8978,6 +8993,7 @@
    "date": "2026-10-29",
    "date_source": "page_date",
    "first_seen": "2026-10-30T12:57:08Z",
+   "gone_since": "2026-11-05T14:40:45Z",
    "group_key": "pageid:84658852",
    "guid": "wikipedia:en:2026-10-29:92a8d531edf8",
    "html": "Four people are killed and eleven more are injured after an <a href=\"https://en.wikipedia.org/wiki/Italian_Air_Force\">Italian Air Force</a> <a href=\"https://en.wikipedia.org/wiki/Boeing_CH-47_Chinook\">Boeing CH-47 Chinook</a> crashes near <a href=\"https://en.wikipedia.org/wiki/Br%C4%8Dko\">Brčko</a>, <a href=\"https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina\">Bosnia and Herzegovina</a>.",
@@ -9025,6 +9041,7 @@
    "date": "2026-10-29",
    "date_source": "page_date",
    "first_seen": "2026-10-30T12:57:08Z",
+   "gone_since": "2026-11-05T14:40:45Z",
    "group_key": "pageid:84372965",
    "guid": "wikipedia:en:2026-10-29:953809721522",
    "html": "<a href=\"https://en.wikipedia.org/wiki/Andreas_Norl%C3%A9n\">Andreas Norlén</a>, <a href=\"https://en.wikipedia.org/wiki/Speaker_of_the_Riksdag\">speaker</a> of the <a href=\"https://en.wikipedia.org/wiki/Sweden\">Swedish</a> <a href=\"https://en.wikipedia.org/wiki/Riksdag\">parliament</a>, announces a second vote to elect the next <a href=\"https://en.wikipedia.org/wiki/Prime_Minister_of_Sweden\">prime minister</a>. He proposes a <a href=\"https://en.wikipedia.org/wiki/Coalition_government\">coalition</a> led by the <a href=\"https://en.wikipedia.org/wiki/Centre_Party_(Sweden)\">Center Party</a>'s leader, <a href=\"https://en.wikipedia.org/wiki/Elisabeth_Thand_Ringqvist\">Elisabeth Thand Ringqvist</a>, alongside the <a href=\"https://en.wikipedia.org/wiki/Social_Democratic_Party_of_Sweden\">Social Democrats</a>, <a href=\"https://en.wikipedia.org/wiki/Green_Party_of_Sweden\">Greens</a>, <a href=\"https://en.wikipedia.org/wiki/Christian_Democrats_(Sweden)\">Christian Democrats</a>, and the <a href=\"https://en.wikipedia.org/wiki/Moderate_Party_(Sweden)\">Moderates</a>.",
@@ -9072,6 +9089,7 @@
    "date": "2026-10-29",
    "date_source": "page_date",
    "first_seen": "2026-10-30T12:57:08Z",
+   "gone_since": "2026-11-05T14:40:45Z",
    "group_key": "pageid:81194075",
    "guid": "wikipedia:en:2026-10-29:98450c5cbaab",
    "html": "<a href=\"https://en.wikipedia.org/wiki/Canada\">Canada</a>'s <a href=\"https://en.wikipedia.org/wiki/Government_of_Canada\">federal government</a> invests up to <a href=\"https://en.wikipedia.org/wiki/Canadian_dollar\">C$</a>1.6 billion (<a href=\"https://en.wikipedia.org/wiki/US$\">US$</a>1.1 billion) in <a href=\"https://en.wikipedia.org/wiki/Toronto\">Toronto</a>-based <a href=\"https://en.wikipedia.org/wiki/Artificial_intelligence\">artificial intelligence</a> company <a href=\"https://en.wikipedia.org/wiki/Cohere\">Cohere</a>, taking an <a href=\"https://en.wikipedia.org/wiki/Equity_stake\">equity stake</a> as part of a C$7 billion (US$5 billion) <a href=\"https://en.wikipedia.org/wiki/Funding_round\">funding round</a> intended to expand domestic <a href=\"https://en.wikipedia.org/wiki/Computing_infrastructure\">computing infrastructure</a> and <a href=\"https://en.wikipedia.org/wiki/AI_development\">AI development</a>.",
@@ -9164,6 +9182,7 @@
    "date": "2026-10-29",
    "date_source": "page_date",
    "first_seen": "2026-10-30T12:57:08Z",
+   "gone_since": "2026-11-05T14:40:45Z",
    "group_key": "pageid:59684636",
    "guid": "wikipedia:en:2026-10-29:b088cdba3397",
    "html": "<a href=\"https://en.wikipedia.org/wiki/Haiti\">Haiti</a>'s <a href=\"https://en.wikipedia.org/wiki/Provisional_Electoral_Council\">Provisional Electoral Council</a> sets the <a href=\"https://en.wikipedia.org/wiki/Two-round_system\">first round</a> of <a href=\"https://en.wikipedia.org/wiki/President_of_Haiti\">presidential</a> and <a href=\"https://en.wikipedia.org/wiki/National_Assembly_(Haiti)\">legislative</a> elections for August 29, 2027, with a second round scheduled for December 5, as the country prepares for its first <a href=\"https://en.wikipedia.org/wiki/Elections_in_Haiti\">national elections</a> since <a href=\"https://en.wikipedia.org/wiki/2015%E2%80%9317_Haitian_parliamentary_election\">2017</a>.",
@@ -9207,6 +9226,7 @@
    "date": "2026-10-29",
    "date_source": "page_date",
    "first_seen": "2026-10-30T12:57:08Z",
+   "gone_since": "2026-11-05T14:40:45Z",
    "group_key": "pageid:84650932",
    "guid": "wikipedia:en:2026-10-29:e436a4389c1c",
    "html": "The <a href=\"https://en.wikipedia.org/wiki/El_Salvador\">Salvadoran</a> <a href=\"https://en.wikipedia.org/wiki/Government_of_El_Salvador\">government</a> deploys 2,000 <a href=\"https://en.wikipedia.org/wiki/Armed_Forces_of_El_Salvador\">troops</a> to <a href=\"https://en.wikipedia.org/wiki/Haiti\">Haiti</a> in response to the <a href=\"https://en.wikipedia.org/wiki/2026_Croix-des-Bouquets_kidnapping\">kidnapping</a> of four Salvadoran <a href=\"https://en.wikipedia.org/wiki/Gang_Suppression_Force\">Gang Suppression Force</a> members that occurred earlier this month.",
@@ -9252,6 +9272,7 @@
    "date": "2026-10-29",
    "date_source": "page_date",
    "first_seen": "2026-10-30T12:57:08Z",
+   "gone_since": "2026-11-05T14:40:45Z",
    "guid": "wikipedia:en:2026-10-29:e8b9ceb4d0cc",
    "html": "<a href=\"https://en.wikipedia.org/wiki/United_States\">American</a> <a href=\"https://en.wikipedia.org/wiki/Food_delivery\">food delivery</a> company <a href=\"https://en.wikipedia.org/wiki/DoorDash\">DoorDash</a> announces an intent to <a href=\"https://en.wikipedia.org/wiki/Mergers_and_acquisitions\">acquire</a> <a href=\"https://en.wikipedia.org/wiki/Online_grocer\">grocery delivery</a> company <a href=\"https://en.wikipedia.org/wiki/Instacart\">Instacart</a> for <a href=\"https://en.wikipedia.org/wiki/United_States_dollar\">$</a>17 billion in late 2027.",
    "link": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_29",
@@ -9289,6 +9310,7 @@
    "date": "2026-10-29",
    "date_source": "page_date",
    "first_seen": "2026-10-30T12:57:08Z",
+   "gone_since": "2026-11-05T14:40:45Z",
    "group_key": "pageid:47695166",
    "guid": "wikipedia:en:2026-10-29:f8ed2bd20b79",
    "html": "<a href=\"https://en.wikipedia.org/wiki/Saudi_Arabia\">Saudi Arabia</a> launches <a href=\"https://en.wikipedia.org/wiki/Airstrike\">airstrikes</a> against two residential buildings in <a href=\"https://en.wikipedia.org/wiki/Taiz\">Taiz</a>, <a href=\"https://en.wikipedia.org/wiki/Yemen\">Yemen</a>, killing 12 civilians and wounding three more.",
@@ -9333,6 +9355,7 @@
    "date": "2026-10-29",
    "date_source": "page_date",
    "first_seen": "2026-10-30T12:57:08Z",
+   "gone_since": "2026-11-05T14:40:45Z",
    "group_key": "pageid:70202720",
    "guid": "wikipedia:en:2026-10-29:f9b225b7c849",
    "html": "<a href=\"https://en.wikipedia.org/wiki/Seychelles\">Seychelles</a>-based <a href=\"https://en.wikipedia.org/wiki/Cryptocurrency_exchange\">cryptocurrency exchange</a> <a href=\"https://en.wikipedia.org/wiki/KuCoin\">KuCoin</a> ends services for customers in <a href=\"https://en.wikipedia.org/wiki/Russia\">Russia</a> and <a href=\"https://en.wikipedia.org/wiki/Belarus\">Belarus</a>, citing ongoing sanctions.",
@@ -9364,7 +9387,7 @@
    "articles": [
     "Polish constitutional crisis",
     "Polish Constitutional Tribunal crisis (2015 – ongoing)",
-    "Suspension of Bogdan Święczkowski",
+    "2026 Polish Constitutional Tribunal crisis",
     "Poland",
     "Police of Poland",
     "Constitutional Tribunal (Poland)",
@@ -9380,9 +9403,9 @@
    "group_key": "pageid:84658464",
    "guid": "wikipedia:en:2026-10-30:00e4e2b62207",
    "html": "<a href=\"https://en.wikipedia.org/wiki/Poland\">Polish</a> <a href=\"https://en.wikipedia.org/wiki/Police_of_Poland\">police</a> enter the <a href=\"https://en.wikipedia.org/wiki/Constitutional_Tribunal_(Poland)\">Constitutional Tribunal</a> following the suspension of its president <a href=\"https://en.wikipedia.org/wiki/Bogdan_%C5%9Awi%C4%99czkowski\">Bogdan Święczkowski</a>, announced by judge <a href=\"https://en.wikipedia.org/wiki/Anna_Korwin-Piotrowska\">Anna Korwin-Piotrowska</a>. The tribunal describes the suspension as a <a href=\"https://en.wikipedia.org/wiki/Coup_d%27%C3%A9tat\">coup d'état</a>, while three protesters in support of <a href=\"https://en.wikipedia.org/wiki/Law_and_Justice\">PiS</a> are detained after breaching the tribunal's fence.",
-   "link": "https://en.wikipedia.org/wiki/Suspension_of_Bogdan_%C5%9Awi%C4%99czkowski",
-   "main_title": "Suspension of Bogdan Święczkowski",
-   "order": 64,
+   "link": "https://en.wikipedia.org/wiki/2026_Polish_Constitutional_Tribunal_crisis",
+   "main_title": "2026 Polish Constitutional Tribunal crisis",
+   "order": 79,
    "page": "Portal:Current events/2026 October 30",
    "page_date": "2026-10-30",
    "pageid": 84658464,
@@ -9408,7 +9431,7 @@
     },
     {
      "label": "Suspension of Bogdan Święczkowski",
-     "title": "Suspension of Bogdan Święczkowski"
+     "title": "2026 Polish Constitutional Tribunal crisis"
     }
    ]
   },
@@ -9433,7 +9456,7 @@
    "html": "The <a href=\"https://en.wikipedia.org/wiki/Supreme_Court_of_Victoria#Court_of_Appeal\">Court of Appeal</a> of <a href=\"https://en.wikipedia.org/wiki/Victoria_(state)\">Victoria</a>, <a href=\"https://en.wikipedia.org/wiki/Australia\">Australia</a>, rejects <a href=\"https://en.wikipedia.org/wiki/Erin_Patterson\">Erin Patterson</a>'s appeal against her <a href=\"https://en.wikipedia.org/wiki/Murder_in_Australian_law\">murder</a> convictions and removes her 33-year <a href=\"https://en.wikipedia.org/wiki/Parole\">parole</a> eligibility, effectively imposing <a href=\"https://en.wikipedia.org/wiki/Life_imprisonment_in_Australia\">life imprisonment without parole</a> for killing three relatives with <a href=\"https://en.wikipedia.org/wiki/Amanita_phalloides\">death cap mushrooms</a> in 2023.",
    "link": "https://en.wikipedia.org/wiki/Leongatha_mushroom_murders",
    "main_title": "Leongatha mushroom murders",
-   "order": 61,
+   "order": 76,
    "page": "Portal:Current events/2026 October 30",
    "page_date": "2026-10-30",
    "pageid": 75233819,
@@ -9506,7 +9529,7 @@
    "html": "The <a href=\"https://en.wikipedia.org/wiki/Switzerland\">Swiss</a> <a href=\"https://en.wikipedia.org/wiki/Federal_Criminal_Court_of_Switzerland\">supreme court</a> upholds a 20-year jail sentence for former <a href=\"https://en.wikipedia.org/wiki/Liberia\">Liberian</a> <a href=\"https://en.wikipedia.org/wiki/United_Liberation_Movement_of_Liberia_for_Democracy\">rebel</a> commander <a href=\"https://en.wikipedia.org/wiki/Alieu_Kosiah\">Alieu Kosiah</a> after he was found guilty in 2021 for atrocities committed during the <a href=\"https://en.wikipedia.org/wiki/First_Liberian_Civil_War\">First Liberian Civil War</a>, but overturns a conviction for <a href=\"https://en.wikipedia.org/wiki/Crimes_against_humanity\">crimes against humanity</a>.",
    "link": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_30",
    "main_title": null,
-   "order": 63,
+   "order": 78,
    "page": "Portal:Current events/2026 October 30",
    "page_date": "2026-10-30",
    "pos": 8,
@@ -9537,7 +9560,7 @@
    "html": "<a href=\"https://en.wikipedia.org/wiki/Cryptocurrency\">Cryptocurrency</a> <a href=\"https://en.wikipedia.org/wiki/Cryptocurrency_exchange\">exchange</a> <a href=\"https://en.wikipedia.org/wiki/Binance\">Binance</a> confirms that assets worth <a href=\"https://en.wikipedia.org/wiki/United_States_dollar\">US$</a>6.3 billion were <a href=\"https://en.wikipedia.org/wiki/2026_Binance_hack\">stolen</a>, making it the largest cryptocurrency theft in history.",
    "link": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_30",
    "main_title": null,
-   "order": 62,
+   "order": 77,
    "page": "Portal:Current events/2026 October 30",
    "page_date": "2026-10-30",
    "pos": 7,
@@ -9621,7 +9644,7 @@
    "html": "A general strike and multiple protests are held across <a href=\"https://en.wikipedia.org/wiki/Italy\">Italy</a> against the rising <a href=\"https://en.wikipedia.org/wiki/Cost_of_living\">cost of living</a> and <a href=\"https://en.wikipedia.org/wiki/Prime_Minister_of_Italy\">prime minister</a> <a href=\"https://en.wikipedia.org/wiki/Giorgia_Meloni\">Giorgia Meloni</a>'s <a href=\"https://en.wikipedia.org/wiki/Meloni_government\">government</a>, with clashes breaking out in multiple cities.",
    "link": "https://en.wikipedia.org/wiki/2026_Italian_unrest",
    "main_title": "2026 Italian unrest",
-   "order": 66,
+   "order": 81,
    "page": "Portal:Current events/2026 October 30",
    "page_date": "2026-10-30",
    "pageid": 84561061,
@@ -9674,7 +9697,7 @@
    "html": "In <a href=\"https://en.wikipedia.org/wiki/Thoroughbred_racing\">thoroughbred</a> <a href=\"https://en.wikipedia.org/wiki/Horse_racing\">horse racing</a>, race horse <a href=\"https://en.wikipedia.org/wiki/Sun_Goddess_(horse)\">Sun Goddess</a> dominates the <a href=\"https://en.wikipedia.org/wiki/Breeders%27_Cup_Juvenile_Fillies_Turf\">Juvenile Fillies Turf</a> at the <a href=\"https://en.wikipedia.org/wiki/Keeneland\">Keeneland</a> racetrack in <a href=\"https://en.wikipedia.org/wiki/Lexington,_Kentucky\">Lexington</a>, <a href=\"https://en.wikipedia.org/wiki/Kentucky\">Kentucky</a>, <a href=\"https://en.wikipedia.org/wiki/United_States\">United States</a>, during the <a href=\"https://en.wikipedia.org/wiki/Breeders%27_Cup\">Breeders' Cup</a>. Additionally, Emphatic wins the <a href=\"https://en.wikipedia.org/wiki/Breeders%27_Cup_Juvenile_Fillies\">Juvenile Fillies</a>.",
    "link": "https://en.wikipedia.org/wiki/2026_Breeders%27_Cup",
    "main_title": "2026 Breeders' Cup",
-   "order": 67,
+   "order": 82,
    "page": "Portal:Current events/2026 October 30",
    "page_date": "2026-10-30",
    "pageid": 84657838,
@@ -9713,7 +9736,7 @@
    "html": "Five children and two adults are killed, five other people are injured, and four are missing after <a href=\"https://en.wikipedia.org/wiki/Flash_flood\">flash floods</a> caused by heavy rainfall in eastern <a href=\"https://en.wikipedia.org/wiki/Syria\">Syria</a>.",
    "link": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_30",
    "main_title": null,
-   "order": 60,
+   "order": 75,
    "page": "Portal:Current events/2026 October 30",
    "page_date": "2026-10-30",
    "pos": 5,
@@ -9781,7 +9804,7 @@
    "html": "Civilian evacuations commence in <a href=\"https://en.wikipedia.org/wiki/Oleshky\">Oleshky</a>, <a href=\"https://en.wikipedia.org/wiki/Ukraine\">Ukraine</a>, as a <a href=\"https://en.wikipedia.org/wiki/Humanitarian_impact_of_the_Russo-Ukrainian_war_(2022%E2%80%93present)\">humanitarian</a> convoy arrives in the <a href=\"https://en.wikipedia.org/wiki/Russia\">Russian</a>-<a href=\"https://en.wikipedia.org/wiki/Russian_occupation_of_Ukraine\">held</a> and besieged city, as part of a local <a href=\"https://en.wikipedia.org/wiki/Ceasefire\">ceasefire</a> that <a href=\"https://en.wikipedia.org/wiki/First_Lady_of_the_United_States\">U.S. first lady</a> <a href=\"https://en.wikipedia.org/wiki/Melania_Trump\">Melania Trump</a> says she brokered.",
    "link": "https://en.wikipedia.org/wiki/Peace_negotiations_in_the_Russo-Ukrainian_war_(2022%E2%80%93present)",
    "main_title": "Peace negotiations in the Russo-Ukrainian war (2022–present)",
-   "order": 57,
+   "order": 72,
    "page": "Portal:Current events/2026 October 30",
    "page_date": "2026-10-30",
    "pageid": 70255183,
@@ -9828,7 +9851,7 @@
    "html": "<a href=\"https://en.wikipedia.org/wiki/Oman\">Oman</a> rescues 25 crew members from a burning <a href=\"https://en.wikipedia.org/wiki/Panama\">Panamanian</a>-flagged <a href=\"https://en.wikipedia.org/wiki/Oil_tanker\">oil tanker</a> in the <a href=\"https://en.wikipedia.org/wiki/Strait_of_Hormuz\">Strait of Hormuz</a>. The <a href=\"https://en.wikipedia.org/wiki/Iran\">Iranian</a> <a href=\"https://en.wikipedia.org/wiki/Iranian_Armed_Forces\">military</a> confirms it was a result of attempting to pass through an unauthorised route.",
    "link": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis",
    "main_title": "2026 Strait of Hormuz crisis",
-   "order": 55,
+   "order": 70,
    "page": "Portal:Current events/2026 October 30",
    "page_date": "2026-10-30",
    "pageid": 82550763,
@@ -9874,7 +9897,7 @@
    "html": "In <a href=\"https://en.wikipedia.org/wiki/Ice_hockey\">ice hockey</a>, the <a href=\"https://en.wikipedia.org/wiki/Court_of_Arbitration_for_Sport\">Court of Arbitration for Sports</a> rules that <a href=\"https://en.wikipedia.org/wiki/Sport_in_Russia\">Russian</a> <a href=\"https://en.wikipedia.org/wiki/Ice_hockey_in_Russia\">teams</a> must be allowed to take part in all international tournaments, overturning previous <a href=\"https://en.wikipedia.org/wiki/International_Ice_Hockey_Federation\">International Ice Hockey Federation</a> decisions.",
    "link": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_30",
    "main_title": null,
-   "order": 68,
+   "order": 83,
    "page": "Portal:Current events/2026 October 30",
    "page_date": "2026-10-30",
    "pos": 13,
@@ -9903,7 +9926,7 @@
    "html": "<a href=\"https://en.wikipedia.org/wiki/Russia\">Russian</a> independent newspaper <i><a href=\"https://en.wikipedia.org/wiki/Novaya_Gazeta\">Novaya Gazeta</a></i> announces plans to cease operations on 9 November, citing pressure from <a href=\"https://en.wikipedia.org/wiki/Government_of_Russia\">Russian authorities</a>.",
    "link": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_30",
    "main_title": null,
-   "order": 58,
+   "order": 73,
    "page": "Portal:Current events/2026 October 30",
    "page_date": "2026-10-30",
    "pos": 3,
@@ -9938,7 +9961,7 @@
    "html": "The <a href=\"https://en.wikipedia.org/wiki/Saudi_Arabia\">Saudi Arabia</a>-led coalition announces it intercepted a <a href=\"https://en.wikipedia.org/wiki/Drone_warfare\">drone</a> allegedly launched by the <a href=\"https://en.wikipedia.org/wiki/Houthis\">Houthis</a> towards the <a href=\"https://en.wikipedia.org/wiki/Mecca_Province\">Mecca region</a>, which the Houthis deny.",
    "link": "https://en.wikipedia.org/wiki/Houthi%E2%80%93Saudi_conflict",
    "main_title": "Houthi–Saudi conflict",
-   "order": 56,
+   "order": 71,
    "page": "Portal:Current events/2026 October 30",
    "page_date": "2026-10-30",
    "pageid": 47695166,
@@ -9980,7 +10003,7 @@
    "html": "Six people are killed when their helicopter crashes near <a href=\"https://en.wikipedia.org/wiki/Joshimath\">Joshimath</a>, <a href=\"https://en.wikipedia.org/wiki/Uttarakhand\">Uttarakhand</a>, <a href=\"https://en.wikipedia.org/wiki/India\">India</a>.",
    "link": "https://en.wikipedia.org/wiki/2026_Uttarakhand_helicopter_crash",
    "main_title": "2026 Uttarakhand helicopter crash",
-   "order": 59,
+   "order": 74,
    "page": "Portal:Current events/2026 October 30",
    "page_date": "2026-10-30",
    "pageid": 84657057,
@@ -10010,7 +10033,7 @@
    "articles": [
     "Polish constitutional crisis",
     "Polish Constitutional Tribunal crisis (2015 – ongoing)",
-    "Suspension of Bogdan Święczkowski",
+    "2026 Polish Constitutional Tribunal crisis",
     "Ministry of Justice (Poland)",
     "Waldemar Żurek",
     "Bartłomiej Sochański",
@@ -10026,9 +10049,9 @@
    "group_key": "pageid:84658464",
    "guid": "wikipedia:en:2026-10-30:f72bb22be730",
    "html": "<a href=\"https://en.wikipedia.org/wiki/Ministry_of_Justice_(Poland)\">Polish justice minister</a> <a href=\"https://en.wikipedia.org/wiki/Waldemar_%C5%BBurek\">Waldemar Żurek</a> requests stripping the tribunal's president and vice president <a href=\"https://en.wikipedia.org/wiki/Bart%C5%82omiej_Socha%C5%84ski\">Bartłomiej Sochański</a> of their immunity from prosecution in order to charge them. <a href=\"https://en.wikipedia.org/wiki/President_of_Poland\">President</a> <a href=\"https://en.wikipedia.org/wiki/Karol_Nawrocki\">Karol Nawrocki</a> cancels <a href=\"https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Karol_Nawrocki\">his trip</a> to <a href=\"https://en.wikipedia.org/wiki/Senegal\">Senegal</a> due to the situation and lands back in Poland.",
-   "link": "https://en.wikipedia.org/wiki/Suspension_of_Bogdan_%C5%9Awi%C4%99czkowski",
-   "main_title": "Suspension of Bogdan Święczkowski",
-   "order": 65,
+   "link": "https://en.wikipedia.org/wiki/2026_Polish_Constitutional_Tribunal_crisis",
+   "main_title": "2026 Polish Constitutional Tribunal crisis",
+   "order": 80,
    "page": "Portal:Current events/2026 October 30",
    "page_date": "2026-10-30",
    "pageid": 84658464,
@@ -10058,7 +10081,7 @@
     },
     {
      "label": "Suspension of Bogdan Święczkowski",
-     "title": "Suspension of Bogdan Święczkowski"
+     "title": "2026 Polish Constitutional Tribunal crisis"
     }
    ]
   },
@@ -10088,7 +10111,7 @@
    "html": "In <a href=\"https://en.wikipedia.org/wiki/Thoroughbred_racing\">thoroughbred</a> <a href=\"https://en.wikipedia.org/wiki/Horse_racing\">horse racing</a>, <a href=\"https://en.wikipedia.org/wiki/Thoroughbred\">thoroughbred</a> <a href=\"https://en.wikipedia.org/wiki/Horse_racing\">racehorse</a> <a href=\"https://en.wikipedia.org/wiki/Sovereignty_(horse)\">Sovereignty</a> wins <a href=\"https://en.wikipedia.org/wiki/2026_Breeders%27_Cup_Classic\">the</a> <a href=\"https://en.wikipedia.org/wiki/Breeders%27_Cup\">Breeders' Cup</a> <a href=\"https://en.wikipedia.org/wiki/Breeders%27_Cup_Classic\">classic</a> at the <a href=\"https://en.wikipedia.org/wiki/Keeneland\">Keeneland</a> racetrack in <a href=\"https://en.wikipedia.org/wiki/Lexington,_Kentucky\">Lexington</a>, <a href=\"https://en.wikipedia.org/wiki/Kentucky\">Kentucky</a>, <a href=\"https://en.wikipedia.org/wiki/United_States\">U.S</a>.",
    "link": "https://en.wikipedia.org/wiki/2026_Breeders%27_Cup_Classic",
    "main_title": "2026 Breeders' Cup Classic",
-   "order": 52,
+   "order": 67,
    "page": "Portal:Current events/2026 October 31",
    "page_date": "2026-10-31",
    "pageid": 84666662,
@@ -10133,7 +10156,7 @@
    "html": "Protests are held across <a href=\"https://en.wikipedia.org/wiki/France\">France</a> for the third consecutive weekend.",
    "link": "https://en.wikipedia.org/wiki/2026_French_student_protests",
    "main_title": "2026 French student protests",
-   "order": 47,
+   "order": 62,
    "page": "Portal:Current events/2026 October 31",
    "page_date": "2026-10-31",
    "pageid": 84387916,
@@ -10181,7 +10204,7 @@
    "html": "The 2026 <a href=\"https://en.wikipedia.org/wiki/Summer_Youth_Olympics\">Summer Youth Olympics</a> opens in <a href=\"https://en.wikipedia.org/wiki/Dakar\">Dakar</a>, <a href=\"https://en.wikipedia.org/wiki/Senegal\">Senegal</a>, marking the first <a href=\"https://en.wikipedia.org/wiki/IOC\">IOC</a> event in <a href=\"https://en.wikipedia.org/wiki/Africa\">Africa</a>.",
    "link": "https://en.wikipedia.org/wiki/2026_Summer_Youth_Olympics",
    "main_title": "2026 Summer Youth Olympics",
-   "order": 53,
+   "order": 68,
    "page": "Portal:Current events/2026 October 31",
    "page_date": "2026-10-31",
    "pageid": 64557687,
@@ -10256,7 +10279,7 @@
    "html": "Riots erupt in <a href=\"https://en.wikipedia.org/wiki/Zurich\">Zurich</a> and <a href=\"https://en.wikipedia.org/wiki/Basel\">Basel</a>, <a href=\"https://en.wikipedia.org/wiki/Switzerland\">Switzerland</a>, with fires reported.",
    "link": "https://en.wikipedia.org/wiki/2026_European_unrest",
    "main_title": "2026 European unrest",
-   "order": 49,
+   "order": 64,
    "page": "Portal:Current events/2026 October 31",
    "page_date": "2026-10-31",
    "pageid": 84556593,
@@ -10298,7 +10321,7 @@
    "html": "<a href=\"https://en.wikipedia.org/wiki/Metropolitan_Police\">Metropolitan Police</a> arrest 139 people outside the <a href=\"https://en.wikipedia.org/wiki/Embassy_of_the_United_States,_London\">United States embassy</a> in <a href=\"https://en.wikipedia.org/wiki/London\">London</a>, <a href=\"https://en.wikipedia.org/wiki/United_Kingdom\">United Kingdom</a>, during a protest supporting <a href=\"https://en.wikipedia.org/wiki/Palestine_Action\">Palestine Action</a>, which is designated as a <a href=\"https://en.wikipedia.org/wiki/Proscribed_organisation\">proscribed</a> <a href=\"https://en.wikipedia.org/wiki/Terrorism_in_the_United_Kingdom\">terrorist</a> organisation.",
    "link": "https://en.wikipedia.org/wiki/Gaza_war_protests_in_the_United_Kingdom",
    "main_title": "Gaza war protests in the United Kingdom",
-   "order": 45,
+   "order": 60,
    "page": "Portal:Current events/2026 October 31",
    "page_date": "2026-10-31",
    "pageid": 75371272,
@@ -10339,7 +10362,7 @@
    "html": "Protests are held in 34 cities across <a href=\"https://en.wikipedia.org/wiki/Germany\">Germany</a> against the high cost of livings and wars. Clashes with the police erupt in <a href=\"https://en.wikipedia.org/wiki/Frankfurt\">Frankfurt</a>, <a href=\"https://en.wikipedia.org/wiki/Berlin\">Berlin</a>, <a href=\"https://en.wikipedia.org/wiki/Cologne\">Cologne</a> and <a href=\"https://en.wikipedia.org/wiki/Hamburg\">Hamburg</a>. In Frankfurt, shops are <a href=\"https://en.wikipedia.org/wiki/Looting\">looted</a>, with several people being arrested.",
    "link": "https://en.wikipedia.org/wiki/2026_European_unrest",
    "main_title": "2026 European unrest",
-   "order": 48,
+   "order": 63,
    "page": "Portal:Current events/2026 October 31",
    "page_date": "2026-10-31",
    "pageid": 84556593,
@@ -10381,7 +10404,7 @@
    "html": "The <a href=\"https://en.wikipedia.org/wiki/Netherlands\">Dutch</a> <a href=\"https://en.wikipedia.org/wiki/Royal_Marechaussee\">military police</a> and <a href=\"https://en.wikipedia.org/wiki/Netherlands_Coastguard\">coast guard</a> rescue 38 people from a <a href=\"https://en.wikipedia.org/wiki/Inflatable_boat\">rubber boat</a> adrift off the coast of <a href=\"https://en.wikipedia.org/wiki/Breskens\">Breskens</a>, <a href=\"https://en.wikipedia.org/wiki/Zeeland\">Zeeland</a>, and detain two people on suspicion of <a href=\"https://en.wikipedia.org/wiki/People_smuggling\">people smuggling</a>.",
    "link": "https://en.wikipedia.org/wiki/Human_trafficking_in_the_Netherlands",
    "main_title": "Human trafficking in the Netherlands",
-   "order": 43,
+   "order": 58,
    "page": "Portal:Current events/2026 October 31",
    "page_date": "2026-10-31",
    "pageid": 30166758,
@@ -10409,7 +10432,7 @@
     "China–Poland relations",
     "Poland–Romania relations",
     "Polish Constitutional Tribunal crisis (2015 – ongoing)",
-    "Suspension of Bogdan Święczkowski",
+    "2026 Polish Constitutional Tribunal crisis",
     "Poland",
     "List of ambassadors of Poland",
     "Romania",
@@ -10426,9 +10449,9 @@
    "group_key": "pageid:84658464",
    "guid": "wikipedia:en:2026-10-31:945165baeee4",
    "html": "<a href=\"https://en.wikipedia.org/wiki/Poland\">Poland</a>'s <a href=\"https://en.wikipedia.org/wiki/List_of_ambassadors_of_Poland\">ambassador</a> to <a href=\"https://en.wikipedia.org/wiki/Romania\">Romania</a>, <a href=\"https://en.wikipedia.org/wiki/Pawe%C5%82_Soloch\">Paweł Soloch</a>, and Poland's ambassador to <a href=\"https://en.wikipedia.org/wiki/China\">China</a>, <a href=\"https://en.wikipedia.org/wiki/Jakub_Kumoch\">Jakub Kumoch</a>, resign from their positions in protest of the suspension of <a href=\"https://en.wikipedia.org/wiki/Constitutional_Tribunal_(Poland)\">Polish Constitutional Tribunal</a> president <a href=\"https://en.wikipedia.org/wiki/Bogdan_%C5%9Awi%C4%99czkowski\">Bogdan Święczkowski</a>.",
-   "link": "https://en.wikipedia.org/wiki/Suspension_of_Bogdan_%C5%9Awi%C4%99czkowski",
-   "main_title": "Suspension of Bogdan Święczkowski",
-   "order": 44,
+   "link": "https://en.wikipedia.org/wiki/2026_Polish_Constitutional_Tribunal_crisis",
+   "main_title": "2026 Polish Constitutional Tribunal crisis",
+   "order": 59,
    "page": "Portal:Current events/2026 October 31",
    "page_date": "2026-10-31",
    "pageid": 84658464,
@@ -10458,7 +10481,7 @@
     },
     {
      "label": "Suspension of Bogdan Święczkowski",
-     "title": "Suspension of Bogdan Święczkowski"
+     "title": "2026 Polish Constitutional Tribunal crisis"
     }
    ]
   },
@@ -10477,7 +10500,7 @@
    "html": "Clashes erupt in <a href=\"https://en.wikipedia.org/wiki/The_Hague\">The Hague</a>, <a href=\"https://en.wikipedia.org/wiki/Netherlands\">Netherlands</a>, in a youth-led protest, with 34 people arrested.",
    "link": "https://en.wikipedia.org/wiki/2026_European_unrest",
    "main_title": "2026 European unrest",
-   "order": 50,
+   "order": 65,
    "page": "Portal:Current events/2026 October 31",
    "page_date": "2026-10-31",
    "pageid": 84556593,
@@ -10519,7 +10542,7 @@
    "html": "In <a href=\"https://en.wikipedia.org/wiki/Women%27s_basketball\">women's basketball</a>, the <a href=\"https://en.wikipedia.org/wiki/Golden_State_Valkyries\">Golden State Valkyries</a> defeat the <a href=\"https://en.wikipedia.org/wiki/Atlanta_Dream\">Atlanta Dream</a> 68–63 in <a href=\"https://en.wikipedia.org/wiki/Game_seven\">game seven</a> to win their first <a href=\"https://en.wikipedia.org/wiki/Women%27s_National_Basketball_Association\">WNBA</a> championship. <a href=\"https://en.wikipedia.org/wiki/Gabby_Williams\">Gabby Williams</a> is named <a href=\"https://en.wikipedia.org/wiki/WNBA_Finals_Most_Valuable_Player\">MVP</a>.",
    "link": "https://en.wikipedia.org/wiki/2026_WNBA_Finals",
    "main_title": "2026 WNBA Finals",
-   "order": 54,
+   "order": 69,
    "page": "Portal:Current events/2026 October 31",
    "page_date": "2026-10-31",
    "pageid": 84464750,
@@ -10620,7 +10643,7 @@
    "html": "In <a href=\"https://en.wikipedia.org/wiki/Figure_skating\">figure skating</a>, <a href=\"https://en.wikipedia.org/wiki/France\">France</a>'s <a href=\"https://en.wikipedia.org/wiki/Kevin_Aymoz\">Kevin Aymoz</a> wins the men's singles title at <a href=\"https://en.wikipedia.org/wiki/Skate_Canada_International\">Skate Canada</a> in <a href=\"https://en.wikipedia.org/wiki/Kelowna\">Kelowna</a>, <a href=\"https://en.wikipedia.org/wiki/British_Columbia\">British Columbia</a>, overtaking <a href=\"https://en.wikipedia.org/wiki/Japan\">Japan</a>'s <a href=\"https://en.wikipedia.org/wiki/Rio_Nakata\">Rio Nakata</a> and becoming the second-oldest men's <a href=\"https://en.wikipedia.org/wiki/ISU_Grand_Prix_of_Figure_Skating\">Grand Prix</a> champion at age 29.",
    "link": "https://en.wikipedia.org/wiki/2026_Skate_Canada_International",
    "main_title": "2026 Skate Canada International",
-   "order": 51,
+   "order": 66,
    "page": "Portal:Current events/2026 October 31",
    "page_date": "2026-10-31",
    "pageid": 81429780,
@@ -10701,7 +10724,7 @@
    "html": "<a href=\"https://en.wikipedia.org/wiki/Madagascar\">Madagascar</a>'s <a href=\"https://en.wikipedia.org/wiki/Justice_ministry\">justice ministry</a> announces dismantling 13 Chinese-run <a href=\"https://en.wikipedia.org/wiki/Scam_center\">scam centers</a> since August, linked to 148 <a href=\"https://en.wikipedia.org/wiki/Chinese_people_in_Madagascar\">Chinese nationals</a> who had previously operated <a href=\"https://en.wikipedia.org/wiki/Scam_centers_in_Cambodia\">scam centers in Cambodia</a>, and who might have been involved in <a href=\"https://en.wikipedia.org/wiki/Human_trafficking\">trafficking</a> Africans to commit fraud. The 148 Chinese are <a href=\"https://en.wikipedia.org/wiki/Extradited\">extradited</a> to China.",
    "link": "https://en.wikipedia.org/wiki/Trafficking_of_Chinese_nationals_to_scam_centers_abroad",
    "main_title": "Trafficking of Chinese nationals to scam centers abroad",
-   "order": 46,
+   "order": 61,
    "page": "Portal:Current events/2026 October 31",
    "page_date": "2026-10-31",
    "pageid": 81555228,
@@ -10743,7 +10766,7 @@
    "html": "<a href=\"https://en.wikipedia.org/wiki/Portugal\">Portuguese</a> <a href=\"https://en.wikipedia.org/wiki/Special_Operations_Group_(Portugal)\">riot police</a> dismantle <a href=\"https://en.wikipedia.org/wiki/Protest_camp\">protest camps</a> in <a href=\"https://en.wikipedia.org/wiki/Lisbon\">Lisbon</a>'s <a href=\"https://en.wikipedia.org/wiki/Rossio_Square\">Rossio Square</a> and <a href=\"https://en.wikipedia.org/wiki/Porto\">Porto</a>, arresting 13 people for refusing orders to disperse. Thirteen officers are injured, while activists say more than 30 protesters are also injured.",
    "link": "https://en.wikipedia.org/wiki/2026_Portuguese_housing_protests",
    "main_title": "2026 Portuguese housing protests",
-   "order": 33,
+   "order": 48,
    "page": "Portal:Current events/2026 November 1",
    "page_date": "2026-11-01",
    "pageid": 84576799,
@@ -10795,7 +10818,7 @@
    "html": "The <a href=\"https://en.wikipedia.org/wiki/United_States\">United States</a> <a href=\"https://en.wikipedia.org/wiki/Federal_Bureau_of_Investigation\">Federal Bureau of Investigation</a> says <a href=\"https://en.wikipedia.org/wiki/North_Korea\">North Korea</a> orchestrated the hack and theft of over $6 billion of <a href=\"https://en.wikipedia.org/wiki/Cryptocurrency\">cryptocurrency</a> from <a href=\"https://en.wikipedia.org/wiki/Cryptocurrency_exchange\">exchange</a> <a href=\"https://en.wikipedia.org/wiki/Binance\">Binance</a>, facilitated through the <a href=\"https://en.wikipedia.org/wiki/Lazarus_Group\">Lazarus Group</a>, which also hacked <a href=\"https://en.wikipedia.org/wiki/Dubai\">Dubai</a>-based exchange <a href=\"https://en.wikipedia.org/wiki/Bybit\">Bybit</a> last year.",
    "link": "https://en.wikipedia.org/wiki/2026_Binance_hack",
    "main_title": "2026 Binance hack",
-   "order": 34,
+   "order": 49,
    "page": "Portal:Current events/2026 November 1",
    "page_date": "2026-11-01",
    "pageid": 84655492,
@@ -10836,7 +10859,7 @@
    "html": "<a href=\"https://en.wikipedia.org/wiki/Bolivia\">Bolivian</a> <a href=\"https://en.wikipedia.org/wiki/President_of_Bolivia\">president</a> <a href=\"https://en.wikipedia.org/wiki/Rodrigo_Paz\">Rodrigo Paz</a> declares a national <a href=\"https://en.wikipedia.org/wiki/State_of_emergency\">state of emergency</a> to mobilize resources before the <a href=\"https://en.wikipedia.org/wiki/Super_El_Ni%C3%B1o_events\">super</a> <a href=\"https://en.wikipedia.org/wiki/El_Ni%C3%B1o%E2%80%93Southern_Oscillation\">El Niño</a> event peaks in November or December.",
    "link": "https://en.wikipedia.org/wiki/2026%E2%80%932027_El_Ni%C3%B1o_event",
    "main_title": "2026–2027 El Niño event",
-   "order": 29,
+   "order": 44,
    "page": "Portal:Current events/2026 November 1",
    "page_date": "2026-11-01",
    "pageid": 83914690,
@@ -10878,7 +10901,7 @@
    "html": "In <a href=\"https://en.wikipedia.org/wiki/Open-wheel_racing\">open-wheel racing</a>, <a href=\"https://en.wikipedia.org/wiki/Italy\">Italian</a> driver <a href=\"https://en.wikipedia.org/wiki/Kimi_Antonelli\">Kimi Antonelli</a>, driving for <a href=\"https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One\">Mercedes</a>, wins the <a href=\"https://en.wikipedia.org/wiki/Formula_One\">Formula One</a> <a href=\"https://en.wikipedia.org/wiki/World_Drivers%27_Championship\">World Drivers' Championship</a> after finishing third at the <a href=\"https://en.wikipedia.org/wiki/2026_Mexico_City_Grand_Prix\">Mexico City Grand Prix</a>, becoming the youngest Drivers' Champion at the age of 20 years and 68 days.",
    "link": "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship",
    "main_title": "2026 Formula One World Championship",
-   "order": 39,
+   "order": 54,
    "page": "Portal:Current events/2026 November 1",
    "page_date": "2026-11-01",
    "pageid": 71681684,
@@ -10917,7 +10940,7 @@
    "html": "In <a href=\"https://en.wikipedia.org/wiki/Motorcycle_racing\">motorcycle racing</a>, <a href=\"https://en.wikipedia.org/wiki/Yamaha_Motor_Racing\">Yamaha</a> withdraws from the <a href=\"https://en.wikipedia.org/wiki/Qatar_motorcycle_Grand_Prix\">Qatar Grand Prix</a> next week, citing company-wide travel restrictions following its assessment of the <a href=\"https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)\">Middle Eastern crisis</a>.",
    "link": "https://en.wikipedia.org/wiki/2026_MotoGP_World_Championship",
    "main_title": "2026 MotoGP World Championship",
-   "order": 40,
+   "order": 55,
    "page": "Portal:Current events/2026 November 1",
    "page_date": "2026-11-01",
    "pageid": 78088946,
@@ -11004,7 +11027,7 @@
    "html": "In <a href=\"https://en.wikipedia.org/wiki/American_football\">American football</a>, the <a href=\"https://en.wikipedia.org/wiki/Tampa_Bay_Buccaneers\">Tampa Bay Buccaneers</a> refuse to complete a pass during its <a href=\"https://en.wikipedia.org/wiki/2026_Tampa_Bay_Buccaneers_season#Week_8:_vs._Atlanta_Falcons\">16-0</a> victory against the <a href=\"https://en.wikipedia.org/wiki/Buccaneers%E2%80%93Falcons_rivalry\">rival</a> <a href=\"https://en.wikipedia.org/wiki/Atlanta_Falcons\">Atlanta Falcons</a> in <a href=\"https://en.wikipedia.org/wiki/2026_Atlanta_Falcons_season#Week_8:_at_Tampa_Bay_Buccaneers\">Week 8</a>, becoming the first <a href=\"https://en.wikipedia.org/wiki/National_Football_League\">National Football League</a> team to win a game without completing a pass since the <a href=\"https://en.wikipedia.org/wiki/Buffalo_Bills\">Buffalo Bills</a> <a href=\"https://en.wikipedia.org/wiki/1974_Buffalo_Bills_season\">did so</a> in <a href=\"https://en.wikipedia.org/wiki/1974_NFL_season\">1974</a>.",
    "link": "https://en.wikipedia.org/wiki/2026_NFL_season",
    "main_title": "2026 NFL season",
-   "order": 41,
+   "order": 56,
    "page": "Portal:Current events/2026 November 1",
    "page_date": "2026-11-01",
    "pageid": 77792316,
@@ -11046,7 +11069,7 @@
    "html": "<a href=\"https://en.wikipedia.org/wiki/Bulgaria\">Bulgarians</a> vote in the second round of <a href=\"https://en.wikipedia.org/wiki/President_of_Bulgaria\">presidential</a> elections between incumbent <a href=\"https://en.wikipedia.org/wiki/Iliana_Iotova\">Iliana Iotova</a> and former <a href=\"https://en.wikipedia.org/wiki/Acting_(law)\">acting</a> <a href=\"https://en.wikipedia.org/wiki/Prime_Minister_of_Bulgaria\">prime minister</a> <a href=\"https://en.wikipedia.org/wiki/Andrey_Gyurov\">Andrey Gyurov</a>. Iotova is re-elected and Gyurov <a href=\"https://en.wikipedia.org/wiki/Concession_(politics)\">concedes</a> after polls close.",
    "link": "https://en.wikipedia.org/wiki/2026_Bulgarian_presidential_election",
    "main_title": "2026 Bulgarian presidential election",
-   "order": 37,
+   "order": 52,
    "page": "Portal:Current events/2026 November 1",
    "page_date": "2026-11-01",
    "pageid": 78095655,
@@ -11090,7 +11113,7 @@
    "html": "Nine people are killed after a <a href=\"https://en.wikipedia.org/wiki/Learjet_60\">Learjet 60</a> business jet bound for <a href=\"https://en.wikipedia.org/wiki/The_Bahamas\">The Bahamas</a> crashes in <a href=\"https://en.wikipedia.org/wiki/Greenacres,_Florida\">Greenacres</a>, <a href=\"https://en.wikipedia.org/wiki/Florida\">Florida</a>, <a href=\"https://en.wikipedia.org/wiki/United_States\">United States</a>.",
    "link": "https://en.wikipedia.org/wiki/2026_Palm_Beach_County_Learjet_60_crash",
    "main_title": "2026 Palm Beach County Learjet 60 crash",
-   "order": 30,
+   "order": 45,
    "page": "Portal:Current events/2026 November 1",
    "page_date": "2026-11-01",
    "pageid": 84673603,
@@ -11135,7 +11158,7 @@
    "html": "In <a href=\"https://en.wikipedia.org/wiki/Figure_skating\">figure skating</a>, <a href=\"https://en.wikipedia.org/wiki/Japan\">Japan</a>'s <a href=\"https://en.wikipedia.org/wiki/Mao_Shimada\">Mao Shimada</a> wins the women's singles title at <a href=\"https://en.wikipedia.org/wiki/Skate_Canada_International\">Skate Canada</a> in her <a href=\"https://en.wikipedia.org/wiki/ISU_Grand_Prix_of_Figure_Skating\">senior Grand Prix</a> debut, finishing ahead of <a href=\"https://en.wikipedia.org/wiki/Estonia\">Estonia</a>'s <a href=\"https://en.wikipedia.org/wiki/Niina_Petr%C3%B5kina\">Niina Petrõkina</a> and <a href=\"https://en.wikipedia.org/wiki/United_States\">American</a> <a href=\"https://en.wikipedia.org/wiki/Isabeau_Levito\">Isabeau Levito</a>.",
    "link": "https://en.wikipedia.org/wiki/2026_Skate_Canada_International",
    "main_title": "2026 Skate Canada International",
-   "order": 38,
+   "order": 53,
    "page": "Portal:Current events/2026 November 1",
    "page_date": "2026-11-01",
    "pageid": 81429780,
@@ -11183,7 +11206,7 @@
    "html": "The <a href=\"https://en.wikipedia.org/wiki/Government_of_Delhi\">government</a> of <a href=\"https://en.wikipedia.org/wiki/Delhi\">Delhi</a>, <a href=\"https://en.wikipedia.org/wiki/India\">India</a>, introduces stricter <a href=\"https://en.wikipedia.org/wiki/Pollution_control\">pollution controls</a>, including <a href=\"https://en.wikipedia.org/wiki/Double_parking\">double parking</a> fees, <a href=\"https://en.wikipedia.org/wiki/Remote_work\">remote work</a> arrangements, <a href=\"https://en.wikipedia.org/wiki/Emission_standards_in_India\">restrictions</a> on high-emission vehicles, and bans on dust-producing <a href=\"https://en.wikipedia.org/wiki/Construction_industry_in_India\">construction</a>, as <a href=\"https://en.wikipedia.org/wiki/PM2.5\">PM2.5</a> levels reach 201 micrograms per cubic metre.",
    "link": "https://en.wikipedia.org/wiki/Air_pollution_in_Delhi",
    "main_title": "Air pollution in Delhi",
-   "order": 32,
+   "order": 47,
    "page": "Portal:Current events/2026 November 1",
    "page_date": "2026-11-01",
    "pageid": 46877253,
@@ -11223,7 +11246,7 @@
    "html": "<a href=\"https://en.wikipedia.org/wiki/Textile_industry_in_Bangladesh\">Garment workers</a> clash with <a href=\"https://en.wikipedia.org/wiki/Bangladesh_Police\">police</a> in <a href=\"https://en.wikipedia.org/wiki/Dhaka\">Dhaka</a>, <a href=\"https://en.wikipedia.org/wiki/Bangladesh\">Bangladesh</a>, over low pay and the rising <a href=\"https://en.wikipedia.org/wiki/Cost_of_living\">cost of living</a>. In response, <a href=\"https://en.wikipedia.org/wiki/Government_of_Bangladesh\">the government</a> forms a <a href=\"https://en.wikipedia.org/wiki/Wage_board\">wage board</a>.",
    "link": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_1",
    "main_title": null,
-   "order": 35,
+   "order": 50,
    "page": "Portal:Current events/2026 November 1",
    "page_date": "2026-11-01",
    "pos": 7,
@@ -11261,7 +11284,7 @@
    "html": "<a href=\"https://en.wikipedia.org/wiki/Sweden\">Swedish</a> <a href=\"https://en.wikipedia.org/wiki/Long-distance_running\">long-distance runner</a> <a href=\"https://en.wikipedia.org/wiki/Andreas_Almgren\">Andreas Almgren</a> wins the 55th edition of the <a href=\"https://en.wikipedia.org/wiki/New_York_City_Marathon\">New York City Marathon</a> in <a href=\"https://en.wikipedia.org/wiki/New_York_City\">New York City</a>, <a href=\"https://en.wikipedia.org/wiki/New_York_(state)\">New York</a>, U.S., during his first debut.",
    "link": "https://en.wikipedia.org/wiki/2026_New_York_City_Marathon",
    "main_title": "2026 New York City Marathon",
-   "order": 42,
+   "order": 57,
    "page": "Portal:Current events/2026 November 1",
    "page_date": "2026-11-01",
    "pageid": 84675057,
@@ -11302,7 +11325,7 @@
    "html": "Thousands of people protest in <a href=\"https://en.wikipedia.org/wiki/New_Delhi\">New Delhi</a>, <a href=\"https://en.wikipedia.org/wiki/India\">India</a>, to call for <a href=\"https://en.wikipedia.org/wiki/Chief_Election_Commissioner_of_India\">chief election commissioner</a> <a href=\"https://en.wikipedia.org/wiki/Gyanesh_Kumar\">Gyanesh Kumar</a> to resign due to changes to <a href=\"https://en.wikipedia.org/wiki/Voter_list\">voter lists</a> that allegedly disproportionately affect <a href=\"https://en.wikipedia.org/wiki/List_of_political_parties_in_India\">opposition parties</a>.",
    "link": "https://en.wikipedia.org/wiki/2026_anti-CEC_protests",
    "main_title": "2026 anti-CEC protests",
-   "order": 36,
+   "order": 51,
    "page": "Portal:Current events/2026 November 1",
    "page_date": "2026-11-01",
    "pageid": 84419154,
@@ -11350,7 +11373,7 @@
    "html": "Five <a href=\"https://en.wikipedia.org/wiki/Palestinian_Civil_Police_Force_(Hamas)\">civil police officers</a> are killed in an <a href=\"https://en.wikipedia.org/wiki/Israel\">Israeli</a> <a href=\"https://en.wikipedia.org/wiki/Airstrike\">airstrike</a> in <a href=\"https://en.wikipedia.org/wiki/Al-Mawasi,_Rafah\">al-Mawasi</a>, <a href=\"https://en.wikipedia.org/wiki/Rafah\">Rafah</a>, <a href=\"https://en.wikipedia.org/wiki/Gaza_Strip\">Gaza Strip</a>. Separately, three more <a href=\"https://en.wikipedia.org/wiki/Palestinians\">Palestinians</a>, including a four-year-old child, are killed in an airstrike on a building in <a href=\"https://en.wikipedia.org/wiki/Gaza_City\">Gaza City</a>.",
    "link": "https://en.wikipedia.org/wiki/Israeli_bombing_of_the_Gaza_Strip",
    "main_title": "Israeli bombing of the Gaza Strip",
-   "order": 28,
+   "order": 43,
    "page": "Portal:Current events/2026 November 1",
    "page_date": "2026-11-01",
    "pageid": 76139149,
@@ -11390,7 +11413,7 @@
    "html": "Four workers are killed after entering a food waste tank at a hotel in <a href=\"https://en.wikipedia.org/wiki/Ujjain\">Ujjain</a>, <a href=\"https://en.wikipedia.org/wiki/Madhya_Pradesh\">Madhya Pradesh</a>, <a href=\"https://en.wikipedia.org/wiki/India\">India</a>.",
    "link": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_1",
    "main_title": null,
-   "order": 31,
+   "order": 46,
    "page": "Portal:Current events/2026 November 1",
    "page_date": "2026-11-01",
    "pos": 3,
@@ -11425,7 +11448,7 @@
    "html": "<a href=\"https://en.wikipedia.org/wiki/Armed_Forces_of_El_Salvador\">Salvadoran</a>, <a href=\"https://en.wikipedia.org/wiki/Armed_Forces_of_Haiti\">Haitian</a>, and <a href=\"https://en.wikipedia.org/wiki/Gang_Suppression_Force\">Gang Suppression Force</a> soldiers launch an offensive in <a href=\"https://en.wikipedia.org/wiki/Plain_of_the_Cul-de-Sac\">Plain of the Cul-de-Sac</a> which extends from <a href=\"https://en.wikipedia.org/wiki/Haiti\">Haiti</a> to the <a href=\"https://en.wikipedia.org/wiki/Dominican_Republic\">Dominican Republic</a>, killing at least a dozen gang members.",
    "link": "https://en.wikipedia.org/wiki/Salvadoran_military_intervention_in_Haiti",
    "main_title": "Salvadoran military intervention in Haiti",
-   "order": 17,
+   "order": 32,
    "page": "Portal:Current events/2026 November 2",
    "page_date": "2026-11-02",
    "pageid": 84650932,
@@ -11468,7 +11491,7 @@
    "html": "<a href=\"https://en.wikipedia.org/wiki/Uganda\">Uganda</a> begins withdrawing <a href=\"https://en.wikipedia.org/wiki/Uganda_People%27s_Defence_Force\">its troops</a> from <a href=\"https://en.wikipedia.org/wiki/Somalia\">Somalia</a>, planning to remove all personnel deployed under bilateral and <a href=\"https://en.wikipedia.org/wiki/African_Union\">African Union</a> missions by the end of 2027, ending nearly two decades of operations.",
    "link": "https://en.wikipedia.org/wiki/Somali_Civil_War_(2009%E2%80%93present)",
    "main_title": "Somali Civil War (2009–present)",
-   "order": 22,
+   "order": 37,
    "page": "Portal:Current events/2026 November 2",
    "page_date": "2026-11-02",
    "pageid": 21454663,
@@ -11508,7 +11531,7 @@
    "html": "A <a href=\"https://en.wikipedia.org/wiki/Car_bomb\">truck bomb</a> explodes near a <a href=\"https://en.wikipedia.org/wiki/National_Army_of_Colombia\">military base</a> in <a href=\"https://en.wikipedia.org/wiki/Planadas\">Planadas</a>, <a href=\"https://en.wikipedia.org/wiki/Tolima_Department\">Tolima Department</a>, <a href=\"https://en.wikipedia.org/wiki/Colombia\">Colombia</a>, killing four people, including a baby, and wounding several others.",
    "link": "https://en.wikipedia.org/wiki/Colombian_conflict",
    "main_title": "Colombian conflict",
-   "order": 20,
+   "order": 35,
    "page": "Portal:Current events/2026 November 2",
    "page_date": "2026-11-02",
    "pageid": 1857628,
@@ -11539,10 +11562,10 @@
     "Middle Eastern crisis (2023-present)",
     "2026 Iran war",
     "United States Armed Forces",
-    "Airstrikes",
+    "Airstrike",
     "Iran",
     "Strait of Hormuz",
-    "Surface-to-air missiles"
+    "Surface-to-air missile"
    ],
    "category": "Armed conflicts and attacks",
    "date": "2026-11-02",
@@ -11550,10 +11573,10 @@
    "first_seen": "2026-11-03T14:17:16Z",
    "group_key": "pageid:82533582",
    "guid": "wikipedia:en:2026-11-02:3fc3d4792c97",
-   "html": "The <a href=\"https://en.wikipedia.org/wiki/United_States_Armed_Forces\">United States military</a> carries out <a href=\"https://en.wikipedia.org/wiki/Airstrikes\">airstrikes</a> on <a href=\"https://en.wikipedia.org/wiki/Iran\">Iranian</a> targets across the <a href=\"https://en.wikipedia.org/wiki/Strait_of_Hormuz\">Strait of Hormuz</a> after Iranian <a href=\"https://en.wikipedia.org/wiki/Surface-to-air_missiles\">surface-to-air missiles</a> attack American aircraft in the Strait.",
+   "html": "The <a href=\"https://en.wikipedia.org/wiki/United_States_Armed_Forces\">United States military</a> carries out <a href=\"https://en.wikipedia.org/wiki/Airstrike\">airstrikes</a> on <a href=\"https://en.wikipedia.org/wiki/Iran\">Iranian</a> targets across the <a href=\"https://en.wikipedia.org/wiki/Strait_of_Hormuz\">Strait of Hormuz</a> after Iranian <a href=\"https://en.wikipedia.org/wiki/Surface-to-air_missile\">surface-to-air missiles</a> attack American aircraft in the Strait.",
    "link": "https://en.wikipedia.org/wiki/2026_Iran_war",
    "main_title": "2026 Iran war",
-   "order": 15,
+   "order": 30,
    "page": "Portal:Current events/2026 November 2",
    "page_date": "2026-11-02",
    "pageid": 82533582,
@@ -11603,7 +11626,7 @@
    "html": "<a href=\"https://en.wikipedia.org/wiki/Israel\">Israeli</a> <a href=\"https://en.wikipedia.org/wiki/Israel_Defense_Forces\">forces</a> withdraw from areas around <a href=\"https://en.wikipedia.org/wiki/Hebron\">Hebron</a> in the <a href=\"https://en.wikipedia.org/wiki/Israeli_occupation_of_the_West_Bank\">occupied</a> <a href=\"https://en.wikipedia.org/wiki/West_Bank\">West Bank</a> after a multi-day operation following the killing of two Israeli soldiers at a checkpoint.",
    "link": "https://en.wikipedia.org/wiki/2026_West_Bank_lockdown",
    "main_title": "2026 West Bank lockdown",
-   "order": 14,
+   "order": 29,
    "page": "Portal:Current events/2026 November 2",
    "page_date": "2026-11-02",
    "pageid": 84598806,
@@ -11639,6 +11662,9 @@
   },
   "wikipedia:en:2026-11-02:69c670988989": {
    "articles": [
+    "High-voltage direct current",
+    "Overhead power line",
+    "Jhunjhunu",
     "Rajasthan",
     "India"
    ],
@@ -11647,10 +11673,10 @@
    "date_source": "page_date",
    "first_seen": "2026-11-04T14:33:55Z",
    "guid": "wikipedia:en:2026-11-02:69c670988989",
-   "html": "Eight people are killed after they were electrocuted when a vehicle came into contact with a high-voltage power line in <a href=\"https://en.wikipedia.org/wiki/Rajasthan\">Rajasthan</a>, <a href=\"https://en.wikipedia.org/wiki/India\">India</a>.",
+   "html": "Eight people are killed after they were electrocuted when a vehicle comes into contact with a <a href=\"https://en.wikipedia.org/wiki/High-voltage_direct_current\">high-voltage</a> <a href=\"https://en.wikipedia.org/wiki/Overhead_power_line\">power line</a> in <a href=\"https://en.wikipedia.org/wiki/Jhunjhunu\">Jhunjhunu</a>, <a href=\"https://en.wikipedia.org/wiki/Rajasthan\">Rajasthan</a>, <a href=\"https://en.wikipedia.org/wiki/India\">India</a>.",
    "link": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_2",
    "main_title": null,
-   "order": 24,
+   "order": 39,
    "page": "Portal:Current events/2026 November 2",
    "page_date": "2026-11-02",
    "pos": 10,
@@ -11661,8 +11687,8 @@
      "url": "https://english.news.cn/20261102/0a5788a4c490493781903b35adfa486a/c.html"
     }
    ],
-   "text": "Eight people are killed after they were electrocuted when a vehicle came into contact with a high-voltage power line in Rajasthan, India.",
-   "title": "Eight people are killed after they were electrocuted when a vehicle came into contact with a high-voltage power line in Rajasthan, India.",
+   "text": "Eight people are killed after they were electrocuted when a vehicle comes into contact with a high-voltage power line in Jhunjhunu, Rajasthan, India.",
+   "title": "Eight people are killed after they were electrocuted when a vehicle comes into contact with a high-voltage power line in Jhunjhunu, Rajasthan, India.",
    "topics": []
   },
   "wikipedia:en:2026-11-02:6ce1d80074f2": {
@@ -11686,7 +11712,7 @@
    "html": "The <a href=\"https://en.wikipedia.org/wiki/United_States\">United States</a> announces the suspensions of <a href=\"https://en.wikipedia.org/wiki/Rwanda\">Rwanda</a> and <a href=\"https://en.wikipedia.org/wiki/South_Africa\">South Africa</a> from <a href=\"https://en.wikipedia.org/wiki/Duty-free_trade\">duty-free trade</a> benefits under the <a href=\"https://en.wikipedia.org/wiki/African_Growth_and_Opportunity_Act\">African Growth and Opportunity Act</a> beginning January 1, 2027, citing <a href=\"https://en.wikipedia.org/wiki/Trade_barrier\">trade barriers</a>, <a href=\"https://en.wikipedia.org/wiki/Human_rights\">human rights</a> concerns, and threats to U.S. interests.",
    "link": "https://en.wikipedia.org/wiki/Rwanda%E2%80%93United_States_relations",
    "main_title": "Rwanda–United States relations",
-   "order": 23,
+   "order": 38,
    "page": "Portal:Current events/2026 November 2",
    "page_date": "2026-11-02",
    "pageid": 15994271,
@@ -11815,7 +11841,7 @@
    "html": "The <a href=\"https://en.wikipedia.org/wiki/United_States\">United States</a> <a href=\"https://en.wikipedia.org/wiki/Food_and_Drug_Administration\">Food and Drug Administration</a> approves the first <a href=\"https://en.wikipedia.org/wiki/Generic_version\">generic version</a> of <a href=\"https://en.wikipedia.org/wiki/Lenacapavir\">lenacapavir</a>, a twice-yearly <a href=\"https://en.wikipedia.org/wiki/HIV_prevention\">HIV prevention</a> injection expected to cost about <a href=\"https://en.wikipedia.org/wiki/US$\">US$</a>40 annually in 120 <a href=\"https://en.wikipedia.org/wiki/Least_developed_countries\">low-</a> and <a href=\"https://en.wikipedia.org/wiki/Newly_industrialized_country\">middle-income countries</a>.",
    "link": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_2",
    "main_title": null,
-   "order": 25,
+   "order": 40,
    "page": "Portal:Current events/2026 November 2",
    "page_date": "2026-11-02",
    "pos": 11,
@@ -11847,7 +11873,7 @@
    "html": "An unidentified person throws an <a href=\"https://en.wikipedia.org/wiki/Improvised_explosive_device\">IED bomb</a> at the home of <a href=\"https://en.wikipedia.org/wiki/Villa_El_Salvador\">Villa El Salvador</a> mayor-elect Marcelino Huamán Cano in <a href=\"https://en.wikipedia.org/wiki/Lima\">Lima</a>, <a href=\"https://en.wikipedia.org/wiki/Peru\">Peru</a>, while he was with his family, causing property damage but no reported injuries.",
    "link": "https://en.wikipedia.org/wiki/Peruvian_security_crisis",
    "main_title": "Peruvian security crisis",
-   "order": 21,
+   "order": 36,
    "page": "Portal:Current events/2026 November 2",
    "page_date": "2026-11-02",
    "pageid": 81334576,
@@ -11888,7 +11914,7 @@
    "html": "The <a href=\"https://en.wikipedia.org/wiki/Rapid_Support_Forces\">Rapid Support Forces</a> launches drone strikes against three distribution stations in <a href=\"https://en.wikipedia.org/wiki/Sudan\">Sudan</a>'s <a href=\"https://en.wikipedia.org/wiki/Kassala_State\">Kassala</a> and <a href=\"https://en.wikipedia.org/wiki/Northern_State_(Sudan)\">Northern</a> <a href=\"https://en.wikipedia.org/wiki/States_of_Sudan\">states</a>.",
    "link": "https://en.wikipedia.org/wiki/War_crimes_in_the_Sudanese_civil_war_(2023%E2%80%93present)",
    "main_title": "War crimes in the Sudanese civil war (2023–present)",
-   "order": 19,
+   "order": 34,
    "page": "Portal:Current events/2026 November 2",
    "page_date": "2026-11-02",
    "pageid": 74944426,
@@ -11937,7 +11963,7 @@
    "html": "<a href=\"https://en.wikipedia.org/wiki/Russia\">Russian</a> <a href=\"https://en.wikipedia.org/wiki/Russian_Armed_Forces\">forces</a> drop at least nine bombs on a <a href=\"https://en.wikipedia.org/wiki/Education_in_Ukraine\">school</a> building serving as a <a href=\"https://en.wikipedia.org/wiki/Civil_defense\">civilian shelter</a> and <a href=\"https://en.wikipedia.org/wiki/List_of_humanitarian_aid_to_Ukraine_during_the_Russo-Ukrainian_war\">humanitarian aid</a> distribution centre in <a href=\"https://en.wikipedia.org/wiki/Komyshuvakha,_Zaporizhzhia_Oblast\">Komyshuvakha</a>, <a href=\"https://en.wikipedia.org/wiki/Zaporizhzhia_Oblast\">Zaporizhzhia Oblast</a>, <a href=\"https://en.wikipedia.org/wiki/Ukraine\">Ukraine</a>, killing at least 33 people and leaving 50 others missing.",
    "link": "https://en.wikipedia.org/wiki/Russian_attacks_on_civilians_in_the_Russo-Ukrainian_war_(2022%E2%80%93present)",
    "main_title": "Russian attacks on civilians in the Russo-Ukrainian war (2022–present)",
-   "order": 16,
+   "order": 31,
    "page": "Portal:Current events/2026 November 2",
    "page_date": "2026-11-02",
    "pageid": 71499059,
@@ -11984,7 +12010,7 @@
    "html": "The <a href=\"https://en.wikipedia.org/wiki/Spain\">Spanish</a> <a href=\"https://en.wikipedia.org/wiki/Ministry_of_the_Interior_(Spain)\">interior ministry</a> reportedly deports 16 migrants, including those from <a href=\"https://en.wikipedia.org/wiki/Bangladeshis\">Bangladesh</a>, <a href=\"https://en.wikipedia.org/wiki/Demographics_of_Cameroon\">Cameroon</a>, <a href=\"https://en.wikipedia.org/wiki/Nigerian_people_in_Spain\">Nigeria</a>, <a href=\"https://en.wikipedia.org/wiki/Demographics_of_Senegal\">Senegal</a>, and <a href=\"https://en.wikipedia.org/wiki/Yemenis\">Yemen</a>, from <a href=\"https://en.wikipedia.org/wiki/Ceuta\">Ceuta</a> to <a href=\"https://en.wikipedia.org/wiki/Morocco\">Morocco</a> following the <a href=\"https://en.wikipedia.org/wiki/2026_Ceuta_migrant_crisis\">migrant crisis in July</a>.",
    "link": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_2",
    "main_title": null,
-   "order": 27,
+   "order": 42,
    "page": "Portal:Current events/2026 November 2",
    "page_date": "2026-11-02",
    "pos": 13,
@@ -12018,7 +12044,7 @@
    "html": "Three people are killed and five more injured in two separated <a href=\"https://en.wikipedia.org/wiki/Mass_shooting\">mass shootings</a> at two <a href=\"https://en.wikipedia.org/wiki/Drug_rehabilitation\">drug rehabilitation</a> centers in <a href=\"https://en.wikipedia.org/wiki/Mazatl%C3%A1n\">Mazatlán</a>, <a href=\"https://en.wikipedia.org/wiki/Sinaloa\">Sinaloa</a>, <a href=\"https://en.wikipedia.org/wiki/Mexico\">Mexico</a>.",
    "link": "https://en.wikipedia.org/wiki/Infighting_in_the_Sinaloa_Cartel",
    "main_title": "Infighting in the Sinaloa Cartel",
-   "order": 18,
+   "order": 33,
    "page": "Portal:Current events/2026 November 2",
    "page_date": "2026-11-02",
    "pageid": 77932489,
@@ -12060,7 +12086,7 @@
    "html": "A second wave of <a href=\"https://en.wikipedia.org/wiki/Cyberattack\">cyberattacks</a> target freezers and refrigerators in supermarkets in multiple <a href=\"https://en.wikipedia.org/wiki/Europe\">European</a> countries, causing them to overheat and <a href=\"https://en.wikipedia.org/wiki/Food_spoilage\">spoil</a>.",
    "link": "https://en.wikipedia.org/wiki/2026_French_supermarket_refrigerator_hack",
    "main_title": "2026 French supermarket refrigerator hack",
-   "order": 26,
+   "order": 41,
    "page": "Portal:Current events/2026 November 2",
    "page_date": "2026-11-02",
    "pageid": 84487787,
@@ -12079,6 +12105,78 @@
     {
      "label": "2026 French supermarket refrigerator hack",
      "title": "2026 French supermarket refrigerator hack"
+    }
+   ]
+  },
+  "wikipedia:en:2026-11-03:0ecdb0893138": {
+   "articles": [
+    "Spain",
+    "Ministry of Development (Spain)",
+    "Óscar Puente",
+    "Railway accident",
+    "2026 Adamuz rail disaster",
+    "2026 Toledo train collision"
+   ],
+   "category": "Politics and elections",
+   "date": "2026-11-03",
+   "date_source": "page_date",
+   "first_seen": "2026-11-05T14:40:45Z",
+   "guid": "wikipedia:en:2026-11-03:0ecdb0893138",
+   "html": "<a href=\"https://en.wikipedia.org/wiki/Spain\">Spanish</a> <a href=\"https://en.wikipedia.org/wiki/Ministry_of_Development_(Spain)\">transport minister</a> <a href=\"https://en.wikipedia.org/wiki/%C3%93scar_Puente\">Óscar Puente</a> resigns after the country experienced two <a href=\"https://en.wikipedia.org/wiki/Railway_accident\">train collision</a> disasters in one year, the <a href=\"https://en.wikipedia.org/wiki/2026_Adamuz_rail_disaster\">Adamuz derailment in January</a> and the <a href=\"https://en.wikipedia.org/wiki/2026_Toledo_train_collision\">Toledo collision last week</a>, which had a combined casualty toll of 115 deaths and 492 injuries.",
+   "link": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_3",
+   "main_title": null,
+   "order": 25,
+   "page": "Portal:Current events/2026 November 3",
+   "page_date": "2026-11-03",
+   "pos": 14,
+   "pub_date": "2026-11-03T00:00:00Z",
+   "sources": [
+    {
+     "name": "CNN",
+     "url": "https://www.cnn.com/2026/11/03/americas/spain-transport-minister-resigns-intl-latam"
+    }
+   ],
+   "text": "Spanish transport minister Óscar Puente resigns after the country experienced two train collision disasters in one year, the Adamuz derailment in January and the Toledo collision last week, which had a combined casualty toll of 115 deaths and 492 injuries.",
+   "title": "Spanish transport minister Óscar Puente resigns after the country experienced two train collision disasters in one year, the Adamuz derailment in January and the Toledo collision last week, which had…",
+   "topics": []
+  },
+  "wikipedia:en:2026-11-03:186cd4748157": {
+   "articles": [
+    "2026 United States elections",
+    "Keisha Lance Bottoms",
+    "Rick Jackson (businessman)",
+    "2026 Georgia gubernatorial election",
+    "Georgia (U.S. state)",
+    "Governor (United States)"
+   ],
+   "category": "Politics and elections",
+   "date": "2026-11-03",
+   "date_source": "page_date",
+   "first_seen": "2026-11-05T14:40:45Z",
+   "group_key": "pageid:70357296",
+   "guid": "wikipedia:en:2026-11-03:186cd4748157",
+   "html": "<a href=\"https://en.wikipedia.org/wiki/Keisha_Lance_Bottoms\">Keisha Lance Bottoms</a> defeats <a href=\"https://en.wikipedia.org/wiki/Rick_Jackson_(businessman)\">Rick Jackson</a> in the <a href=\"https://en.wikipedia.org/wiki/2026_Georgia_gubernatorial_election\">gubernatorial election</a> in <a href=\"https://en.wikipedia.org/wiki/Georgia_(U.S._state)\">Georgia</a>, becoming the first black woman to be elected <a href=\"https://en.wikipedia.org/wiki/Governor_(United_States)\">governor</a> in U.S. history.",
+   "link": "https://en.wikipedia.org/wiki/2026_United_States_elections",
+   "main_title": "2026 United States elections",
+   "order": 24,
+   "page": "Portal:Current events/2026 November 3",
+   "page_date": "2026-11-03",
+   "pageid": 70357296,
+   "pos": 13,
+   "pub_date": "2026-11-03T00:00:00Z",
+   "qid": "Q115857612",
+   "sources": [
+    {
+     "name": "AP",
+     "url": "https://apnews.com/article/georgia-governor-lance-bottom-jackson-midterm-election-67c22a38b9a6e4cad5584aa44acf106f"
+    }
+   ],
+   "text": "Keisha Lance Bottoms defeats Rick Jackson in the gubernatorial election in Georgia, becoming the first black woman to be elected governor in U.S. history.",
+   "title": "Keisha Lance Bottoms defeats Rick Jackson in the gubernatorial election in Georgia, becoming the first black woman to be elected governor in U.S. history.",
+   "topics": [
+    {
+     "label": "2026 United States elections",
+     "title": "2026 United States elections"
     }
    ]
   },
@@ -12102,7 +12200,7 @@
    "html": "Two helicopters operated by <a href=\"https://en.wikipedia.org/wiki/Air_Dynasty\">Air Dynasty</a> and <a href=\"https://en.wikipedia.org/wiki/Fishtail_Air\">Fishtail Air</a> <a href=\"https://en.wikipedia.org/wiki/Mid-air_collision\">collide</a> while landing in <a href=\"https://en.wikipedia.org/wiki/Solukhumbu_District\">Solukhumbu District</a>, <a href=\"https://en.wikipedia.org/wiki/Nepal\">Nepal</a>, near <a href=\"https://en.wikipedia.org/wiki/Mount_Everest\">Mount Everest</a>, killing an <a href=\"https://en.wikipedia.org/wiki/India\">Indian</a> <a href=\"https://en.wikipedia.org/wiki/Tourism_in_Nepal\">tourist</a> and injuring a <a href=\"https://en.wikipedia.org/wiki/New_Zealand\">New Zealand</a> national.",
    "link": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_3",
    "main_title": null,
-   "order": 4,
+   "order": 15,
    "page": "Portal:Current events/2026 November 3",
    "page_date": "2026-11-03",
    "pos": 4,
@@ -12130,7 +12228,7 @@
    "html": "<a href=\"https://en.wikipedia.org/wiki/False_bomb_threats\">Bomb hoaxes</a> target seven flights from several <a href=\"https://en.wikipedia.org/wiki/Europe\">European</a> countries.",
    "link": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_3",
    "main_title": null,
-   "order": 7,
+   "order": 18,
    "page": "Portal:Current events/2026 November 3",
    "page_date": "2026-11-03",
    "pos": 7,
@@ -12155,6 +12253,7 @@
    "date": "2026-11-03",
    "date_source": "page_date",
    "first_seen": "2026-11-04T14:33:55Z",
+   "gone_since": "2026-11-05T14:40:45Z",
    "guid": "wikipedia:en:2026-11-03:50cba5b4a398",
    "html": "<a href=\"https://en.wikipedia.org/wiki/Spain\">Spanish</a> author <a href=\"https://en.wikipedia.org/wiki/Cristina_Fern%C3%A1ndez_Cubas\">Cristina Fernández Cubas</a> is awarded the <a href=\"https://en.wikipedia.org/wiki/Cervantes_Prize\">Cervantes Prize</a>.",
    "link": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_3",
@@ -12192,11 +12291,11 @@
    "html": "In <a href=\"https://en.wikipedia.org/wiki/Association_football\">association football</a>, <a href=\"https://en.wikipedia.org/wiki/CD_Tenerife\">CD Tenerife</a> striker <a href=\"https://en.wikipedia.org/wiki/Jes%C3%BAs_de_Miguel\">Jesús de Miguel</a> dies following an in-game collision with <a href=\"https://en.wikipedia.org/wiki/FC_Andorra\">FC Andorra</a> goalkeeper <a href=\"https://en.wikipedia.org/wiki/Jes%C3%BAs_Owono\">Jesús Owono</a> the previous day.",
    "link": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Segunda_Divisi%C3%B3n",
    "main_title": "2026–27 Segunda División",
-   "order": 11,
+   "order": 26,
    "page": "Portal:Current events/2026 November 3",
    "page_date": "2026-11-03",
    "pageid": 83082394,
-   "pos": 11,
+   "pos": 15,
    "pub_date": "2026-11-03T00:00:00Z",
    "qid": "Q139897969",
    "sources": [
@@ -12232,11 +12331,11 @@
    "html": "In association football, the <a href=\"https://en.wikipedia.org/wiki/Asian_Football_Confederation\">Asian Football Confederation</a> postpones the 2027 <a href=\"https://en.wikipedia.org/wiki/AFC_Asian_Cup\">Asian Cup</a> in <a href=\"https://en.wikipedia.org/wiki/Saudi_Arabia\">Saudi Arabia</a> from January 2027 to January 2028, citing security concerns and travel disruptions following <a href=\"https://en.wikipedia.org/wiki/Houthis\">Houthi</a> attacks on the country.",
    "link": "https://en.wikipedia.org/wiki/2027_AFC_Asian_Cup",
    "main_title": "2027 AFC Asian Cup",
-   "order": 13,
+   "order": 28,
    "page": "Portal:Current events/2026 November 3",
    "page_date": "2026-11-03",
    "pageid": 61226268,
-   "pos": 13,
+   "pos": 17,
    "pub_date": "2026-11-03T14:17:16Z",
    "qid": "Q97359865",
    "sources": [
@@ -12284,7 +12383,7 @@
    "html": "The <a href=\"https://en.wikipedia.org/wiki/United_States\">United States</a> holds <a href=\"https://en.wikipedia.org/wiki/United_States_midterm_election\">midterm elections</a> for 435 <a href=\"https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections\">members</a> and five <a href=\"https://en.wikipedia.org/wiki/Non-voting_members_of_the_United_States_House_of_Representatives\">non-voting delegates</a> of the <a href=\"https://en.wikipedia.org/wiki/United_States_House_of_Representatives\">House of Representatives</a>, 35 <a href=\"https://en.wikipedia.org/wiki/2026_United_States_Senate_elections\">members</a> of the <a href=\"https://en.wikipedia.org/wiki/United_States_Senate\">Senate</a> (including <a href=\"https://en.wikipedia.org/wiki/List_of_special_elections_to_the_United_States_Senate\">special elections</a> in <a href=\"https://en.wikipedia.org/wiki/2026_United_States_Senate_special_election_in_Florida\">Florida</a> and <a href=\"https://en.wikipedia.org/wiki/2026_United_States_Senate_special_election_in_Ohio\">Ohio</a>), 39 <a href=\"https://en.wikipedia.org/wiki/U.S._state\">state</a> and <a href=\"https://en.wikipedia.org/wiki/Territories_of_the_United_States\">territorial</a> <a href=\"https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections\">governors</a>, and numerous other <a href=\"https://en.wikipedia.org/wiki/2026_United_States_state_legislative_elections\">state</a>, <a href=\"https://en.wikipedia.org/wiki/2026_United_States_state_legislative_elections#Territorial_and_federal_district_summaries\">territorial</a>, <a href=\"https://en.wikipedia.org/wiki/2026_Navajo_Nation_presidential_election\">tribal</a>, and <a href=\"https://en.wikipedia.org/wiki/2026_United_States_local_elections\">local</a> officials.",
    "link": "https://en.wikipedia.org/wiki/2026_United_States_elections",
    "main_title": "2026 United States elections",
-   "order": 9,
+   "order": 20,
    "page": "Portal:Current events/2026 November 3",
    "page_date": "2026-11-03",
    "pageid": 70357296,
@@ -12312,7 +12411,8 @@
     "News media in the United States",
     "Democratic Party (United States)",
     "120th United States Congress",
-    "Republican Party (United States)"
+    "Republican Party (United States)",
+    "United States Congress"
    ],
    "category": "Politics and elections",
    "date": "2026-11-03",
@@ -12320,10 +12420,10 @@
    "first_seen": "2026-11-04T14:33:55Z",
    "group_key": "pageid:70357296",
    "guid": "wikipedia:en:2026-11-03:6baad96f67e7",
-   "html": "<a href=\"https://en.wikipedia.org/wiki/News_media_in_the_United_States\">U.S. news</a> organizations project that the <a href=\"https://en.wikipedia.org/wiki/Democratic_Party_(United_States)\">Democratic Party</a> will control the House of Representatives and the Senate in the upcoming <a href=\"https://en.wikipedia.org/wiki/120th_United_States_Congress\">120th Congress</a>, ending the <a href=\"https://en.wikipedia.org/wiki/Republican_Party_(United_States)\">Republican Party</a>'s majority in both chambers.",
+   "html": "<a href=\"https://en.wikipedia.org/wiki/News_media_in_the_United_States\">U.S. news</a> organizations project that the <a href=\"https://en.wikipedia.org/wiki/Democratic_Party_(United_States)\">Democratic Party</a> will control the House of Representatives and the Senate in the upcoming <a href=\"https://en.wikipedia.org/wiki/120th_United_States_Congress\">120th Congress</a>, ending the <a href=\"https://en.wikipedia.org/wiki/Republican_Party_(United_States)\">Republican Party</a>'s majority in <a href=\"https://en.wikipedia.org/wiki/United_States_Congress\">both chambers</a>.",
    "link": "https://en.wikipedia.org/wiki/2026_United_States_elections",
    "main_title": "2026 United States elections",
-   "order": 10,
+   "order": 21,
    "page": "Portal:Current events/2026 November 3",
    "page_date": "2026-11-03",
    "pageid": 70357296,
@@ -12349,9 +12449,60 @@
     }
    ]
   },
+  "wikipedia:en:2026-11-03:807346568947": {
+   "articles": [
+    "2026 United States elections",
+    "U.S. state",
+    "Adam Hamilton (American politician)",
+    "2026 United States Senate election in Kansas",
+    "1932 United States Senate election in Kansas",
+    "James Talarico",
+    "2026 United States Senate election in Texas",
+    "1988 United States Senate election in Texas",
+    "Gina Hinojosa",
+    "Governor of Texas",
+    "2026 Texas gubernatorial election",
+    "1990 Texas gubernatorial election"
+   ],
+   "category": "Politics and elections",
+   "date": "2026-11-03",
+   "date_source": "page_date",
+   "first_seen": "2026-11-05T14:40:45Z",
+   "group_key": "pageid:70357296",
+   "guid": "wikipedia:en:2026-11-03:807346568947",
+   "html": "Several <a href=\"https://en.wikipedia.org/wiki/U.S._state\">states</a> elect their first Democratic representatives in decades, including: <a href=\"https://en.wikipedia.org/wiki/Adam_Hamilton_(American_politician)\">Adam Hamilton</a>, the first Democrat to win a <a href=\"https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Kansas\">Kansas</a> Senate seat since <a href=\"https://en.wikipedia.org/wiki/1932_United_States_Senate_election_in_Kansas\">1932</a>; <a href=\"https://en.wikipedia.org/wiki/James_Talarico\">James Talarico</a>, the first Democrat to win a <a href=\"https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas\">Texas</a> Senate seat since <a href=\"https://en.wikipedia.org/wiki/1988_United_States_Senate_election_in_Texas\">1988</a>; and <a href=\"https://en.wikipedia.org/wiki/Gina_Hinojosa\">Gina Hinojosa</a>, the first Democrat to become <a href=\"https://en.wikipedia.org/wiki/Governor_of_Texas\">governor</a> of <a href=\"https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election\">Texas</a> since <a href=\"https://en.wikipedia.org/wiki/1990_Texas_gubernatorial_election\">1990</a>.",
+   "link": "https://en.wikipedia.org/wiki/2026_United_States_elections",
+   "main_title": "2026 United States elections",
+   "order": 22,
+   "page": "Portal:Current events/2026 November 3",
+   "page_date": "2026-11-03",
+   "pageid": 70357296,
+   "pos": 11,
+   "pub_date": "2026-11-03T00:00:00Z",
+   "qid": "Q115857612",
+   "sources": [
+    {
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/politics/2026-election/adam-hamilton-kansas-senate-democrat-winner-upset-roger-marshall-rcna603310"
+    },
+    {
+     "name": "Axios",
+     "url": "https://www.axios.com/local/san-antonio/2026/11/04/texas-governor-race-results-hinojosa-abbott"
+    }
+   ],
+   "text": "Several states elect their first Democratic representatives in decades, including: Adam Hamilton, the first Democrat to win a Kansas Senate seat since 1932; James Talarico, the first Democrat to win a Texas Senate seat since 1988; and Gina Hinojosa, the first Democrat to become governor of Texas since 1990.",
+   "title": "Several states elect their first Democratic representatives in decades, including: Adam Hamilton, the first Democrat to win a Kansas Senate seat since 1932; James Talarico, the first Democrat to win…",
+   "topics": [
+    {
+     "label": "2026 United States elections",
+     "title": "2026 United States elections"
+    }
+   ]
+  },
   "wikipedia:en:2026-11-03:ba764d273a0a": {
    "articles": [
     "Philippine National Police",
+    "Shootout",
     "Bacoor",
     "Cavite",
     "Philippines"
@@ -12361,10 +12512,10 @@
    "date_source": "page_date",
    "first_seen": "2026-11-04T14:33:55Z",
    "guid": "wikipedia:en:2026-11-03:ba764d273a0a",
-   "html": "Five suspected robbers, including two former <a href=\"https://en.wikipedia.org/wiki/Philippine_National_Police\">police</a> personnel, are killed in shootouts with police in <a href=\"https://en.wikipedia.org/wiki/Bacoor\">Bacoor</a>, <a href=\"https://en.wikipedia.org/wiki/Cavite\">Cavite</a>, <a href=\"https://en.wikipedia.org/wiki/Philippines\">Philippines</a>.",
+   "html": "Five suspected robbers, including two former <a href=\"https://en.wikipedia.org/wiki/Philippine_National_Police\">police</a> personnel, are killed in <a href=\"https://en.wikipedia.org/wiki/Shootout\">shootouts</a> with police in <a href=\"https://en.wikipedia.org/wiki/Bacoor\">Bacoor</a>, <a href=\"https://en.wikipedia.org/wiki/Cavite\">Cavite</a>, <a href=\"https://en.wikipedia.org/wiki/Philippines\">Philippines</a>.",
    "link": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_3",
    "main_title": null,
-   "order": 5,
+   "order": 16,
    "page": "Portal:Current events/2026 November 3",
    "page_date": "2026-11-03",
    "pos": 5,
@@ -12378,6 +12529,51 @@
    "text": "Five suspected robbers, including two former police personnel, are killed in shootouts with police in Bacoor, Cavite, Philippines.",
    "title": "Five suspected robbers, including two former police personnel, are killed in shootouts with police in Bacoor, Cavite, Philippines.",
    "topics": []
+  },
+  "wikipedia:en:2026-11-03:bad936ba983f": {
+   "articles": [
+    "2026 United States elections",
+    "Abdul El-Sayed",
+    "Mike Rogers (Michigan politician)",
+    "United States Senate",
+    "2026 United States Senate election in Michigan",
+    "Michigan",
+    "Islam in the United States"
+   ],
+   "category": "Politics and elections",
+   "date": "2026-11-03",
+   "date_source": "page_date",
+   "first_seen": "2026-11-05T14:40:45Z",
+   "group_key": "pageid:70357296",
+   "guid": "wikipedia:en:2026-11-03:bad936ba983f",
+   "html": "<a href=\"https://en.wikipedia.org/wiki/Abdul_El-Sayed\">Abdul El-Sayed</a> defeats <a href=\"https://en.wikipedia.org/wiki/Mike_Rogers_(Michigan_politician)\">Mike Rogers</a> in the <a href=\"https://en.wikipedia.org/wiki/United_States_Senate\">United States Senate</a> <a href=\"https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Michigan\">election</a> in <a href=\"https://en.wikipedia.org/wiki/Michigan\">Michigan</a>, making him the first <a href=\"https://en.wikipedia.org/wiki/Islam_in_the_United_States\">Muslim</a> to be elected to the U.S. Senate.",
+   "link": "https://en.wikipedia.org/wiki/2026_United_States_elections",
+   "main_title": "2026 United States elections",
+   "order": 23,
+   "page": "Portal:Current events/2026 November 3",
+   "page_date": "2026-11-03",
+   "pageid": 70357296,
+   "pos": 12,
+   "pub_date": "2026-11-03T00:00:00Z",
+   "qid": "Q115857612",
+   "sources": [
+    {
+     "name": "The Washington Post",
+     "url": "https://www.washingtonpost.com/elections/results/2026/11/03/michigan-senate-el-sayed-rogers-live-updates/"
+    },
+    {
+     "name": "Time",
+     "url": "https://time.com/article/2026/11/03/abdul-el-sayed-michigan-senate-2026-midterm-elections-mike-rogers/"
+    }
+   ],
+   "text": "Abdul El-Sayed defeats Mike Rogers in the United States Senate election in Michigan, making him the first Muslim to be elected to the U.S. Senate.",
+   "title": "Abdul El-Sayed defeats Mike Rogers in the United States Senate election in Michigan, making him the first Muslim to be elected to the U.S. Senate.",
+   "topics": [
+    {
+     "label": "2026 United States elections",
+     "title": "2026 United States elections"
+    }
+   ]
   },
   "wikipedia:en:2026-11-03:c60cdc9626b1": {
    "articles": [
@@ -12396,7 +12592,7 @@
    "html": "A commercial vessel is hit by an unidentified object in the waters of <a href=\"https://en.wikipedia.org/wiki/Musandam_Governorate\">Musandam Governorate</a>, <a href=\"https://en.wikipedia.org/wiki/Oman\">Oman</a>, killing an <a href=\"https://en.wikipedia.org/wiki/Indians_in_Oman\">Indian crew member</a>, while 13 others are rescued.",
    "link": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis",
    "main_title": "2026 Strait of Hormuz crisis",
-   "order": 0,
+   "order": 11,
    "page": "Portal:Current events/2026 November 3",
    "page_date": "2026-11-03",
    "pageid": 82550763,
@@ -12439,7 +12635,7 @@
    "html": "The <a href=\"https://en.wikipedia.org/wiki/Israel\">Israeli</a> <a href=\"https://en.wikipedia.org/wiki/Cruise_ship\">cruise ship</a> <a href=\"https://en.wikipedia.org/wiki/MS_Crown_Iris\">MS <i>Crown Iris</i></a> is targeted by a false <a href=\"https://en.wikipedia.org/wiki/Bomb_threat\">bomb threat</a>, and is searched on <a href=\"https://en.wikipedia.org/wiki/Syros\">Syros</a>, <a href=\"https://en.wikipedia.org/wiki/Greece\">Greece</a>.",
    "link": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_3",
    "main_title": null,
-   "order": 8,
+   "order": 19,
    "page": "Portal:Current events/2026 November 3",
    "page_date": "2026-11-03",
    "pos": 8,
@@ -12469,7 +12665,7 @@
    "html": "Three people are arrested for allegedly <a href=\"https://en.wikipedia.org/wiki/Wiretapping\">wiretapping</a> <a href=\"https://en.wikipedia.org/wiki/Indonesia\">Indonesian</a> <a href=\"https://en.wikipedia.org/wiki/President_of_Indonesia\">president</a> <a href=\"https://en.wikipedia.org/wiki/Prabowo_Subianto\">Prabowo Subianto</a>'s phone.",
    "link": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_3",
    "main_title": null,
-   "order": 6,
+   "order": 17,
    "page": "Portal:Current events/2026 November 3",
    "page_date": "2026-11-03",
    "pos": 6,
@@ -12482,6 +12678,36 @@
    ],
    "text": "Three people are arrested for allegedly wiretapping Indonesian president Prabowo Subianto's phone.",
    "title": "Three people are arrested for allegedly wiretapping Indonesian president Prabowo Subianto's phone.",
+   "topics": []
+  },
+  "wikipedia:en:2026-11-03:e3f2bb1f8f36": {
+   "articles": [
+    "Spain",
+    "Cristina Fernández Cubas",
+    "Cervantes Prize",
+    "Spanish language"
+   ],
+   "category": "Arts and culture",
+   "date": "2026-11-03",
+   "date_source": "page_date",
+   "first_seen": "2026-11-05T14:40:45Z",
+   "guid": "wikipedia:en:2026-11-03:e3f2bb1f8f36",
+   "html": "<a href=\"https://en.wikipedia.org/wiki/Spain\">Spanish</a> author <a href=\"https://en.wikipedia.org/wiki/Cristina_Fern%C3%A1ndez_Cubas\">Cristina Fernández Cubas</a> is awarded the 2026 <a href=\"https://en.wikipedia.org/wiki/Cervantes_Prize\">Cervantes Prize</a> to honor her writing in the <a href=\"https://en.wikipedia.org/wiki/Spanish_language\">Spanish language</a>.",
+   "link": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_3",
+   "main_title": null,
+   "order": 13,
+   "page": "Portal:Current events/2026 November 3",
+   "page_date": "2026-11-03",
+   "pos": 2,
+   "pub_date": "2026-11-03T00:00:00Z",
+   "sources": [
+    {
+     "name": "Euronews",
+     "url": "https://www.euronews.com/2026/11/03/cristina-fernandez-cubas-wins-2026-cervantes-prize-for-spanish-literature"
+    }
+   ],
+   "text": "Spanish author Cristina Fernández Cubas is awarded the 2026 Cervantes Prize to honor her writing in the Spanish language.",
+   "title": "Spanish author Cristina Fernández Cubas is awarded the 2026 Cervantes Prize to honor her writing in the Spanish language.",
    "topics": []
   },
   "wikipedia:en:2026-11-03:e45574177dfb": {
@@ -12503,7 +12729,7 @@
    "html": "The <a href=\"https://en.wikipedia.org/wiki/Reserve_Bank_of_Australia\">Reserve Bank</a> of <a href=\"https://en.wikipedia.org/wiki/Australia\">Australia</a> raises its benchmark <a href=\"https://en.wikipedia.org/wiki/Interest_rate\">interest rate</a> by 0.25 percentage points to 4.85%, its highest level since 2008, citing persistent <a href=\"https://en.wikipedia.org/wiki/Inflation\">inflation</a> and rising <a href=\"https://en.wikipedia.org/wiki/Energy_in_Australia\">energy</a> costs associated with the <a href=\"https://en.wikipedia.org/wiki/2026_Iran_war\">Iran war</a>.",
    "link": "https://en.wikipedia.org/wiki/2026_Iran_war_fuel_crisis",
    "main_title": "2026 Iran war fuel crisis",
-   "order": 3,
+   "order": 14,
    "page": "Portal:Current events/2026 November 3",
    "page_date": "2026-11-03",
    "pageid": 82827398,
@@ -12543,7 +12769,7 @@
    "html": "Unidentified attackers <a href=\"https://en.wikipedia.org/wiki/Ambush\">ambush</a> a <a href=\"https://en.wikipedia.org/wiki/Nigeria_Police_Force\">police</a> convoy near Gidan-Giye village in <a href=\"https://en.wikipedia.org/wiki/Zamfara_State\">Zamfara State</a>, <a href=\"https://en.wikipedia.org/wiki/Nigeria\">Nigeria</a>, killing at least five police officers and three members of the Zamfara Community Protection Guard, injuring two officers, and <a href=\"https://en.wikipedia.org/wiki/Kidnapping_in_Nigeria\">abducting</a> an unspecified number of personnel.",
    "link": "https://en.wikipedia.org/wiki/Communal_conflicts_in_Nigeria",
    "main_title": "Communal conflicts in Nigeria",
-   "order": 1,
+   "order": 12,
    "page": "Portal:Current events/2026 November 3",
    "page_date": "2026-11-03",
    "pageid": 47769620,
@@ -12585,11 +12811,11 @@
    "html": "In <a href=\"https://en.wikipedia.org/wiki/Thoroughbred_racing\">thoroughbred racing</a>, <a href=\"https://en.wikipedia.org/wiki/Point_Of_Law_(horse)\">Point Of Law</a>, trained by <a href=\"https://en.wikipedia.org/wiki/Ciaron_Maher\">Ciaron Maher</a>, wins the 2026 <a href=\"https://en.wikipedia.org/wiki/Melbourne_Cup\">Melbourne Cup</a> at <a href=\"https://en.wikipedia.org/wiki/Flemington_Racecourse\">Flemington Racecourse</a> in <a href=\"https://en.wikipedia.org/wiki/Victoria_(state)\">Victoria</a>, <a href=\"https://en.wikipedia.org/wiki/Australia\">Australia</a>. Zahrann and Juja Kibo, also trained by Maher, finish second and third respectively.",
    "link": "https://en.wikipedia.org/wiki/2026_Melbourne_Cup",
    "main_title": "2026 Melbourne Cup",
-   "order": 12,
+   "order": 27,
    "page": "Portal:Current events/2026 November 3",
    "page_date": "2026-11-03",
    "pageid": 82999207,
-   "pos": 12,
+   "pos": 16,
    "pub_date": "2026-11-03T14:17:16Z",
    "qid": "Q141736900",
    "sources": [
@@ -12606,7 +12832,391 @@
      "title": "2026 Melbourne Cup"
     }
    ]
+  },
+  "wikipedia:en:2026-11-04:10031745aaa7": {
+   "articles": [
+    "Hungary",
+    "Hungarian People's Republic",
+    "Secret police",
+    "Database",
+    "Ministry of Internal Affairs III",
+    "Prime Minister of Hungary",
+    "Péter Magyar"
+   ],
+   "category": "Politics and elections",
+   "date": "2026-11-04",
+   "date_source": "page_date",
+   "first_seen": "2026-11-05T14:40:45Z",
+   "guid": "wikipedia:en:2026-11-04:10031745aaa7",
+   "html": "<a href=\"https://en.wikipedia.org/wiki/Hungary\">Hungary</a> makes <a href=\"https://en.wikipedia.org/wiki/Hungarian_People%27s_Republic\">Communist-era</a> <a href=\"https://en.wikipedia.org/wiki/Secret_police\">secret police</a> records publicly accessible through a <a href=\"https://en.wikipedia.org/wiki/Database\">database</a> containing approximately 60,000 names linked to former <a href=\"https://en.wikipedia.org/wiki/Ministry_of_Internal_Affairs_III\">state security services</a>. <a href=\"https://en.wikipedia.org/wiki/Prime_Minister_of_Hungary\">Prime Minister</a> <a href=\"https://en.wikipedia.org/wiki/P%C3%A9ter_Magyar\">Péter Magyar</a> announces that additional documents will become available in February 2027.",
+   "link": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4",
+   "main_title": null,
+   "order": 9,
+   "page": "Portal:Current events/2026 November 4",
+   "page_date": "2026-11-04",
+   "pos": 4,
+   "pub_date": "2026-11-04T00:00:00Z",
+   "sources": [
+    {
+     "name": "Reuters",
+     "url": "https://www.reuters.com/world/hungary-opens-communist-era-informer-files-belated-reckoning-with-cold-war-past-2026-11-04/"
+    }
+   ],
+   "text": "Hungary makes Communist-era secret police records publicly accessible through a database containing approximately 60,000 names linked to former state security services. Prime Minister Péter Magyar announces that additional documents will become available in February 2027.",
+   "title": "Hungary makes Communist-era secret police records publicly accessible through a database containing approximately 60,000 names linked to former state security services.",
+   "topics": []
+  },
+  "wikipedia:en:2026-11-04:25178dc82521": {
+   "articles": [
+    "Bangladesh",
+    "Textile industry in Bangladesh",
+    "Worker standards board",
+    "Minimum wage",
+    "Strike action",
+    "Bangladesh Police",
+    "Bangladeshi taka",
+    "US$"
+   ],
+   "category": "Business and economy",
+   "date": "2026-11-04",
+   "date_source": "page_date",
+   "first_seen": "2026-11-05T14:40:45Z",
+   "guid": "wikipedia:en:2026-11-04:25178dc82521",
+   "html": "The <a href=\"https://en.wikipedia.org/wiki/Bangladesh\">Bangladeshi</a> <a href=\"https://en.wikipedia.org/wiki/Textile_industry_in_Bangladesh\">garment industry</a> <a href=\"https://en.wikipedia.org/wiki/Worker_standards_board\">wage board</a> agrees to increase <a href=\"https://en.wikipedia.org/wiki/Minimum_wage\">minimum wages</a> following five days of <a href=\"https://en.wikipedia.org/wiki/Strike_action\">worker protests</a> and clashes with <a href=\"https://en.wikipedia.org/wiki/Bangladesh_Police\">police</a>. Workers demand <a href=\"https://en.wikipedia.org/wiki/Bangladeshi_taka\">৳</a>30,000 (<a href=\"https://en.wikipedia.org/wiki/US$\">US$</a>240) monthly, up from ৳12,500 (US$100), while the board has not specified the increase.",
+   "link": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4",
+   "main_title": null,
+   "order": 5,
+   "page": "Portal:Current events/2026 November 4",
+   "page_date": "2026-11-04",
+   "pos": 0,
+   "pub_date": "2026-11-04T00:00:00Z",
+   "sources": [
+    {
+     "name": "AFP",
+     "url": "https://www.afp.com/en/bangladesh-increase-garment-sector-pay-after-protests"
+    }
+   ],
+   "text": "The Bangladeshi garment industry wage board agrees to increase minimum wages following five days of worker protests and clashes with police. Workers demand ৳30,000 (US$240) monthly, up from ৳12,500 (US$100), while the board has not specified the increase.",
+   "title": "The Bangladeshi garment industry wage board agrees to increase minimum wages following five days of worker protests and clashes with police.",
+   "topics": []
+  },
+  "wikipedia:en:2026-11-04:36adc5894020": {
+   "articles": [
+    "Neil Gehrels Swift Observatory",
+    "Space telescope",
+    "Gamma-ray burst",
+    "Atmospheric entry",
+    "Sumatra"
+   ],
+   "category": "Science and technology",
+   "date": "2026-11-04",
+   "date_source": "page_date",
+   "first_seen": "2026-11-05T14:40:45Z",
+   "guid": "wikipedia:en:2026-11-04:36adc5894020",
+   "html": "The <a href=\"https://en.wikipedia.org/wiki/Neil_Gehrels_Swift_Observatory\">Neil Gehrels Swift Observatory</a>, a <a href=\"https://en.wikipedia.org/wiki/Space_telescope\">space telescope</a> for studying <a href=\"https://en.wikipedia.org/wiki/Gamma-ray_burst\">gamma-ray bursts</a>, <a href=\"https://en.wikipedia.org/wiki/Atmospheric_entry#Uncontrolled_and_unprotected_entries\">re-enters</a> Earth's atmosphere over <a href=\"https://en.wikipedia.org/wiki/Sumatra\">Sumatra</a>, ending its mission of nearly 22 years.",
+   "link": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4",
+   "main_title": null,
+   "order": 10,
+   "page": "Portal:Current events/2026 November 4",
+   "page_date": "2026-11-04",
+   "pos": 5,
+   "pub_date": "2026-11-04T00:00:00Z",
+   "sources": [
+    {
+     "name": "NASA",
+     "url": "https://science.nasa.gov/blogs/swift/2026/11/02/nasas-swift-observatory-to-re-enter-atmosphere/"
+    }
+   ],
+   "text": "The Neil Gehrels Swift Observatory, a space telescope for studying gamma-ray bursts, re-enters Earth's atmosphere over Sumatra, ending its mission of nearly 22 years.",
+   "title": "The Neil Gehrels Swift Observatory, a space telescope for studying gamma-ray bursts, re-enters Earth's atmosphere over Sumatra, ending its mission of nearly 22 years.",
+   "topics": []
+  },
+  "wikipedia:en:2026-11-04:5115750f2dda": {
+   "articles": [
+    "United Kingdom",
+    "Office for National Statistics",
+    "Cocaine",
+    "Heroin",
+    "England and Wales"
+   ],
+   "category": "Health and environment",
+   "date": "2026-11-04",
+   "date_source": "page_date",
+   "first_seen": "2026-11-05T14:40:45Z",
+   "guid": "wikipedia:en:2026-11-04:5115750f2dda",
+   "html": "The <a href=\"https://en.wikipedia.org/wiki/United_Kingdom\">United Kingdom</a>'s <a href=\"https://en.wikipedia.org/wiki/Office_for_National_Statistics\">Office for National Statistics</a> reports that deaths linked to <a href=\"https://en.wikipedia.org/wiki/Cocaine\">cocaine</a> use have overtaken deaths from <a href=\"https://en.wikipedia.org/wiki/Heroin\">heroin</a> in <a href=\"https://en.wikipedia.org/wiki/England_and_Wales\">England and Wales</a> for the first time on record. The increase in deaths from cocaine use is blamed on increased purity of the drug and its widespread availability across the UK in recent years.",
+   "link": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4",
+   "main_title": null,
+   "order": 7,
+   "page": "Portal:Current events/2026 November 4",
+   "page_date": "2026-11-04",
+   "pos": 2,
+   "pub_date": "2026-11-04T00:00:00Z",
+   "sources": [
+    {
+     "name": "BBC News",
+     "url": "https://www.bbc.co.uk/news/articles/cmdxw051np9jo"
+    }
+   ],
+   "text": "The United Kingdom's Office for National Statistics reports that deaths linked to cocaine use have overtaken deaths from heroin in England and Wales for the first time on record. The increase in deaths from cocaine use is blamed on increased purity of the drug and its widespread availability across the UK in recent years.",
+   "title": "The United Kingdom's Office for National Statistics reports that deaths linked to cocaine use have overtaken deaths from heroin in England and Wales for the first time on record.",
+   "topics": []
+  },
+  "wikipedia:en:2026-11-04:703b7cc7a415": {
+   "articles": [
+    "2026 Southeast Asian haze",
+    "Singapore",
+    "Parliament of Singapore",
+    "Transboundary Haze Pollution Act of 2014",
+    "Law enforcement in Singapore",
+    "Trial in absentia",
+    "S$",
+    "Environmental issues in Singapore",
+    "Indonesia",
+    "2026 Indonesia wildfires"
+   ],
+   "category": "Health and environment",
+   "date": "2026-11-04",
+   "date_source": "page_date",
+   "first_seen": "2026-11-05T14:40:45Z",
+   "group_key": "pageid:84024602",
+   "guid": "wikipedia:en:2026-11-04:703b7cc7a415",
+   "html": "The <a href=\"https://en.wikipedia.org/wiki/Singapore\">Singaporean</a> <a href=\"https://en.wikipedia.org/wiki/Parliament_of_Singapore\">parliament</a> amends the <a href=\"https://en.wikipedia.org/wiki/Transboundary_Haze_Pollution_Act_of_2014\">Transboundary Haze Pollution Act of 2014</a>, introducing <a href=\"https://en.wikipedia.org/wiki/Law_enforcement_in_Singapore\">arrest powers</a>, permitting <a href=\"https://en.wikipedia.org/wiki/Trial_in_absentia\">trials <i>in absentia</i></a>, and increasing maximum fines tenfold to <a href=\"https://en.wikipedia.org/wiki/S$\">S$</a>20 million (US$15 million) following widespread <a href=\"https://en.wikipedia.org/wiki/Environmental_issues_in_Singapore\">air pollution</a> from <a href=\"https://en.wikipedia.org/wiki/Indonesia\">Indonesian</a> <a href=\"https://en.wikipedia.org/wiki/2026_Indonesia_wildfires\">wildfires</a>.",
+   "link": "https://en.wikipedia.org/wiki/2026_Southeast_Asian_haze",
+   "main_title": "2026 Southeast Asian haze",
+   "order": 6,
+   "page": "Portal:Current events/2026 November 4",
+   "page_date": "2026-11-04",
+   "pageid": 84024602,
+   "pos": 1,
+   "pub_date": "2026-11-04T00:00:00Z",
+   "qid": "Q141274248",
+   "sources": [
+    {
+     "name": "AFP",
+     "url": "https://www.afp.com/en/singapore-toughens-haze-law-arrest-powers-bigger-fines"
+    }
+   ],
+   "text": "The Singaporean parliament amends the Transboundary Haze Pollution Act of 2014, introducing arrest powers, permitting trials in absentia, and increasing maximum fines tenfold to S$20 million (US$15 million) following widespread air pollution from Indonesian wildfires.",
+   "title": "The Singaporean parliament amends the Transboundary Haze Pollution Act of 2014, introducing arrest powers, permitting trials in absentia, and increasing maximum fines tenfold to S$20 million (US$15…",
+   "topics": [
+    {
+     "label": "2026 Southeast Asian haze",
+     "title": "2026 Southeast Asian haze"
+    }
+   ]
+  },
+  "wikipedia:en:2026-11-04:b4a273d6e5da": {
+   "articles": [
+    "Philippines",
+    "Methamphetamine",
+    "Laos",
+    "Port of Manila",
+    "2026 Laos private jet drug smuggling case"
+   ],
+   "category": "Law and crime",
+   "date": "2026-11-04",
+   "date_source": "page_date",
+   "first_seen": "2026-11-05T14:40:45Z",
+   "guid": "wikipedia:en:2026-11-04:b4a273d6e5da",
+   "html": "<a href=\"https://en.wikipedia.org/wiki/Philippines\">Philippine</a> authorities seize a 200-kilogram (440 lb) shipment of <a href=\"https://en.wikipedia.org/wiki/Methamphetamine\">methamphetamine</a>, whose origin is traced to <a href=\"https://en.wikipedia.org/wiki/Laos\">Laos</a>, at the <a href=\"https://en.wikipedia.org/wiki/Port_of_Manila\">Manila International Container Port</a>. The shipment had arrived six days after local police in Laos <a href=\"https://en.wikipedia.org/wiki/2026_Laos_private_jet_drug_smuggling_case\">found the similar contraband, supposed to be brought to the Philippines,</a> on October 1.",
+   "link": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4",
+   "main_title": null,
+   "order": 8,
+   "page": "Portal:Current events/2026 November 4",
+   "page_date": "2026-11-04",
+   "pos": 3,
+   "pub_date": "2026-11-04T00:00:00Z",
+   "sources": [
+    {
+     "name": "Arab News",
+     "url": "https://www.arabnews.com/world/philippines-seizes-200-kg-of-methamphetamine-at-manila-port-3009754"
+    },
+    {
+     "name": "Philippine Daily Inquirer",
+     "url": "https://globalnation.inquirer.net/345789/this-time-shabu-cargo-from-laos-reaches-ph-before-seizure"
+    }
+   ],
+   "text": "Philippine authorities seize a 200-kilogram (440 lb) shipment of methamphetamine, whose origin is traced to Laos, at the Manila International Container Port. The shipment had arrived six days after local police in Laos found the similar contraband, supposed to be brought to the Philippines, on October 1.",
+   "title": "Philippine authorities seize a 200-kilogram (440 lb) shipment of methamphetamine, whose origin is traced to Laos, at the Manila International Container Port.",
+   "topics": []
+  },
+  "wikipedia:en:2026-11-05:320ae292cd76": {
+   "articles": [
+    "Public Security Directorate",
+    "Stabbing attack",
+    "Amman",
+    "Jordan",
+    "Terrorism"
+   ],
+   "category": "Armed conflicts and attacks",
+   "date": "2026-11-05",
+   "date_source": "page_date",
+   "first_seen": "2026-11-05T14:40:45Z",
+   "guid": "wikipedia:en:2026-11-05:320ae292cd76",
+   "html": "A <a href=\"https://en.wikipedia.org/wiki/Public_Security_Directorate\">police officer</a> is killed another injured in a <a href=\"https://en.wikipedia.org/wiki/Stabbing_attack\">stabbing attack</a> on a street in <a href=\"https://en.wikipedia.org/wiki/Amman\">Amman</a>, <a href=\"https://en.wikipedia.org/wiki/Jordan\">Jordan</a>. The suspect is arrested. The event is described as a <a href=\"https://en.wikipedia.org/wiki/Terrorism\">terrorist attack</a>.",
+   "link": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_5",
+   "main_title": null,
+   "order": 1,
+   "page": "Portal:Current events/2026 November 5",
+   "page_date": "2026-11-05",
+   "pos": 1,
+   "pub_date": "2026-11-05T14:40:45Z",
+   "sources": [
+    {
+     "name": "Ammon News",
+     "url": "https://en.ammonnews.net/mobile/article/96865"
+    }
+   ],
+   "text": "A police officer is killed another injured in a stabbing attack on a street in Amman, Jordan. The suspect is arrested. The event is described as a terrorist attack.",
+   "title": "A police officer is killed another injured in a stabbing attack on a street in Amman, Jordan.",
+   "topics": []
+  },
+  "wikipedia:en:2026-11-05:71b860381de5": {
+   "articles": [
+    "2026 French student protests",
+    "General strike",
+    "France",
+    "Yellow vests movement"
+   ],
+   "category": "Politics and elections",
+   "date": "2026-11-05",
+   "date_source": "page_date",
+   "first_seen": "2026-11-05T14:40:45Z",
+   "group_key": "pageid:84387916",
+   "guid": "wikipedia:en:2026-11-05:71b860381de5",
+   "html": "L’intersyndicale organizes a <a href=\"https://en.wikipedia.org/wiki/General_strike\">general strike</a> across <a href=\"https://en.wikipedia.org/wiki/France\">France</a>, supported by the <a href=\"https://en.wikipedia.org/wiki/Yellow_vests_movement\">Yellow vests movement</a>, activists, and student protesters.",
+   "link": "https://en.wikipedia.org/wiki/2026_French_student_protests",
+   "main_title": "2026 French student protests",
+   "order": 4,
+   "page": "Portal:Current events/2026 November 5",
+   "page_date": "2026-11-05",
+   "pageid": 84387916,
+   "pos": 4,
+   "pub_date": "2026-11-05T14:40:45Z",
+   "qid": "Q141615137",
+   "sources": [
+    {
+     "name": "CNN",
+     "url": "https://www.cnn.com/2026/11/05/world/live-news/france-strikes-protests-action-schools-intl"
+    }
+   ],
+   "text": "L’intersyndicale organizes a general strike across France, supported by the Yellow vests movement, activists, and student protesters.",
+   "title": "L’intersyndicale organizes a general strike across France, supported by the Yellow vests movement, activists, and student protesters.",
+   "topics": [
+    {
+     "label": "2026 French student protests",
+     "title": "2026 French student protests"
+    }
+   ]
+  },
+  "wikipedia:en:2026-11-05:88ea5515502c": {
+   "articles": [
+    "Operation Southern Spear",
+    "Bolivarian National Armed Forces of Venezuela",
+    "United States Armed Forces",
+    "Airstrike",
+    "Drone warfare",
+    "National Liberation Army (Colombia)",
+    "Apure",
+    "Venezuela"
+   ],
+   "category": "Armed conflicts and attacks",
+   "date": "2026-11-05",
+   "date_source": "page_date",
+   "first_seen": "2026-11-05T14:40:45Z",
+   "group_key": "pageid:81593523",
+   "guid": "wikipedia:en:2026-11-05:88ea5515502c",
+   "html": "It has been confirmed that the <a href=\"https://en.wikipedia.org/wiki/Bolivarian_National_Armed_Forces_of_Venezuela\">Venezuelan Armed Forces</a> and the <a href=\"https://en.wikipedia.org/wiki/United_States_Armed_Forces\">United States Armed Forces</a> carried out six days ago a joint operation with <a href=\"https://en.wikipedia.org/wiki/Airstrike\">airstrikes</a> and <a href=\"https://en.wikipedia.org/wiki/Drone_warfare\">drones</a> against an alleged hideout belonging to the <a href=\"https://en.wikipedia.org/wiki/National_Liberation_Army_(Colombia)\">National Liberation Army</a> in <a href=\"https://en.wikipedia.org/wiki/Apure\">Apure</a>, <a href=\"https://en.wikipedia.org/wiki/Venezuela\">Venezuela</a>, killing at least 23 people and wounding dozens more.",
+   "link": "https://en.wikipedia.org/wiki/Operation_Southern_Spear",
+   "main_title": "Operation Southern Spear",
+   "order": 0,
+   "page": "Portal:Current events/2026 November 5",
+   "page_date": "2026-11-05",
+   "pageid": 81593523,
+   "pos": 0,
+   "pub_date": "2026-11-05T14:40:45Z",
+   "qid": "Q136889101",
+   "sources": [
+    {
+     "name": "El Pais",
+     "url": "https://english.elpais.com/international/2026-11-04/the-us-takes-its-anti-narcotics-war-onto-venezuelan-soil-with-a-drone-strike-against-the-eln.html?outputType=amp"
+    }
+   ],
+   "text": "It has been confirmed that the Venezuelan Armed Forces and the United States Armed Forces carried out six days ago a joint operation with airstrikes and drones against an alleged hideout belonging to the National Liberation Army in Apure, Venezuela, killing at least 23 people and wounding dozens more.",
+   "title": "It has been confirmed that the Venezuelan Armed Forces and the United States Armed Forces carried out six days ago a joint operation with airstrikes and drones against an alleged hideout belonging to…",
+   "topics": [
+    {
+     "label": "Operation Southern Spear",
+     "title": "Operation Southern Spear"
+    }
+   ]
+  },
+  "wikipedia:en:2026-11-05:ba8e9cfaf680": {
+   "articles": [
+    "Russell Brand"
+   ],
+   "category": "Law and crime",
+   "date": "2026-11-05",
+   "date_source": "page_date",
+   "first_seen": "2026-11-05T14:40:45Z",
+   "guid": "wikipedia:en:2026-11-05:ba8e9cfaf680",
+   "html": "<a href=\"https://en.wikipedia.org/wiki/Russell_Brand\">Russell Brand</a> has been found guilty of one charge of rape and three of sexual assault.",
+   "link": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_5",
+   "main_title": null,
+   "order": 3,
+   "page": "Portal:Current events/2026 November 5",
+   "page_date": "2026-11-05",
+   "pos": 3,
+   "pub_date": "2026-11-05T14:40:45Z",
+   "sources": [
+    {
+     "name": "RTÉ",
+     "url": "https://www.rte.ie/news/courts/2026/1105/1598090-russell-brand-court/"
+    }
+   ],
+   "text": "Russell Brand has been found guilty of one charge of rape and three of sexual assault.",
+   "title": "Russell Brand has been found guilty of one charge of rape and three of sexual assault.",
+   "topics": []
+  },
+  "wikipedia:en:2026-11-05:be6fae59ec12": {
+   "articles": [
+    "Koldo affair",
+    "Corruption in Spain",
+    "PSOE",
+    "Ministry of Transport (Spain)"
+   ],
+   "category": "Law and crime",
+   "date": "2026-11-05",
+   "date_source": "page_date",
+   "first_seen": "2026-11-05T14:40:45Z",
+   "group_key": "pageid:76268688",
+   "guid": "wikipedia:en:2026-11-05:be6fae59ec12",
+   "html": "Six people are arrested in connection with a corruption investigation involving ruling <a href=\"https://en.wikipedia.org/wiki/PSOE\">PSOE</a> officials and the <a href=\"https://en.wikipedia.org/wiki/Ministry_of_Transport_(Spain)\">Ministry of Transport</a>.",
+   "link": "https://en.wikipedia.org/wiki/Koldo_affair",
+   "main_title": "Koldo affair",
+   "order": 2,
+   "page": "Portal:Current events/2026 November 5",
+   "page_date": "2026-11-05",
+   "pageid": 76268688,
+   "pos": 2,
+   "pub_date": "2026-11-05T14:40:45Z",
+   "qid": "Q124636002",
+   "sources": [
+    {
+     "name": "20 Minutos",
+     "url": "https://www.20minutos.es/nacional/registros-uco-directo-uco-registra-casa-abalos-valencia-un-nuevo-operativo-caso-koldo_7057529_6.html"
+    }
+   ],
+   "text": "Six people are arrested in connection with a corruption investigation involving ruling PSOE officials and the Ministry of Transport.",
+   "title": "Six people are arrested in connection with a corruption investigation involving ruling PSOE officials and the Ministry of Transport.",
+   "topics": [
+    {
+     "label": "Koldo affair, Corruption in Spain",
+     "title": "Koldo affair"
+    }
+   ]
   }
  },
- "updated": "2026-11-04T14:33:55Z"
+ "updated": "2026-11-05T14:40:45Z"
 }
