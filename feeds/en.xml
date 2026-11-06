@@ -6,11 +6,21 @@
     <description>News items from Wikipedia's Portal:Current events, one item per entry of the daily pages. Text from Wikipedia contributors, licensed under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). (history: https://en.wikipedia.org/w/index.php?title=Portal:Current_events&amp;action=history)</description>
     <language>en</language>
     <copyright>Text from Wikipedia contributors, licensed under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).</copyright>
-    <lastBuildDate>Thu, 05 Nov 2026 14:40:45 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 14:17:35 GMT</lastBuildDate>
     <generator>wikipedia-noticias-rss</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
     <atom:link href="https://aeonfr.github.io/wikinews-rss/feeds/en.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A bus crashes into a tree in Lent, France, killing two people and wounding 16 more.</title>
+      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_6</link>
+      <description>&lt;p&gt;A bus crashes into a tree in &lt;a href="https://en.wikipedia.org/wiki/Lent,_Ain"&gt;Lent&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/France"&gt;France&lt;/a&gt;, killing two people and wounding 16 more.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.lemonde.fr/en/france/article/2026/11/06/at-least-two-people-killed-after-bus-carrying-schoolchildren-crashes-in-france_6773528_7.html"&gt;Le Monde&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_6"&gt;Portal:Current events/2026 November 6&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_6&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-06:b6000c047dd8</guid>
+      <pubDate>Fri, 06 Nov 2026 14:17:35 GMT</pubDate>
+      <category>Disasters and accidents</category>
+    </item>
     <item>
       <title>It has been confirmed that the Venezuelan Armed Forces and the United States Armed Forces carried out six days ago a joint operation with airstrikes and drones against an alleged hideout belonging to…</title>
       <link>https://en.wikipedia.org/wiki/Operation_Southern_Spear</link>
@@ -24,10 +34,10 @@
       <category>Operation Southern Spear</category>
     </item>
     <item>
-      <title>A police officer is killed another injured in a stabbing attack on a street in Amman, Jordan.</title>
+      <title>A police officer is killed and another injured in a stabbing attack outside the Sri Lankan embassy in Amman, Jordan.</title>
       <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_5</link>
-      <description>&lt;p&gt;A &lt;a href="https://en.wikipedia.org/wiki/Public_Security_Directorate"&gt;police officer&lt;/a&gt; is killed another injured in a &lt;a href="https://en.wikipedia.org/wiki/Stabbing_attack"&gt;stabbing attack&lt;/a&gt; on a street in &lt;a href="https://en.wikipedia.org/wiki/Amman"&gt;Amman&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Jordan"&gt;Jordan&lt;/a&gt;. The suspect is arrested. The event is described as a &lt;a href="https://en.wikipedia.org/wiki/Terrorism"&gt;terrorist attack&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://en.ammonnews.net/mobile/article/96865"&gt;Ammon News&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;A &lt;a href="https://en.wikipedia.org/wiki/Public_Security_Directorate"&gt;police officer&lt;/a&gt; is killed and another injured in a &lt;a href="https://en.wikipedia.org/wiki/Stabbing_as_a_terrorist_tactic"&gt;stabbing attack&lt;/a&gt; outside the &lt;a href="https://en.wikipedia.org/wiki/Sri_Lanka"&gt;Sri Lankan&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Diplomatic_mission"&gt;embassy&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Amman"&gt;Amman&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Jordan"&gt;Jordan&lt;/a&gt;. The suspect is arrested. The event is described as a &lt;a href="https://en.wikipedia.org/wiki/Terrorism"&gt;terrorist attack&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://en.ammonnews.net/mobile/article/96865"&gt;Ammon News&lt;/a&gt;, &lt;a href="https://www.aljazeera.com/news/2026/11/5/security-%E2%81%A0officer-killed-in-stabbing-attack-in-jordans-capital"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_5"&gt;Portal:Current events/2026 November 5&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_5&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:en:2026-11-05:320ae292cd76</guid>
       <pubDate>Thu, 05 Nov 2026 14:40:45 GMT</pubDate>
@@ -56,26 +66,216 @@
       <category>Law and crime</category>
     </item>
     <item>
-      <title>L’intersyndicale organizes a general strike across France, supported by the Yellow vests movement, activists, and student protesters.</title>
+      <title>The syndicate of unions organizes a general strike across France, supported by the yellow vests movement, activists, and student protesters.</title>
       <link>https://en.wikipedia.org/wiki/2026_French_student_protests</link>
-      <description>&lt;p&gt;L’intersyndicale organizes a &lt;a href="https://en.wikipedia.org/wiki/General_strike"&gt;general strike&lt;/a&gt; across &lt;a href="https://en.wikipedia.org/wiki/France"&gt;France&lt;/a&gt;, supported by the &lt;a href="https://en.wikipedia.org/wiki/Yellow_vests_movement"&gt;Yellow vests movement&lt;/a&gt;, activists, and student protesters.&lt;/p&gt;
+      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Union_syndicale_Solidaires"&gt;syndicate of unions&lt;/a&gt; organizes a &lt;a href="https://en.wikipedia.org/wiki/General_strike"&gt;general strike&lt;/a&gt; across &lt;a href="https://en.wikipedia.org/wiki/France"&gt;France&lt;/a&gt;, supported by the &lt;a href="https://en.wikipedia.org/wiki/Yellow_vests_movement"&gt;yellow vests movement&lt;/a&gt;, activists, and student protesters.&lt;/p&gt;
 &lt;p&gt;Sources: &lt;a href="https://www.cnn.com/2026/11/05/world/live-news/france-strikes-protests-action-schools-intl"&gt;CNN&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_French_student_protests"&gt;2026 French student protests&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_European_unrest"&gt;2026 European unrest&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_French_student_protests"&gt;2026 French student protests, Yellow vests protests&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_5"&gt;Portal:Current events/2026 November 5&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_5&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:en:2026-11-05:71b860381de5</guid>
       <pubDate>Thu, 05 Nov 2026 14:40:45 GMT</pubDate>
       <category>Politics and elections</category>
-      <category>2026 French student protests</category>
+      <category>2026 French student protests, Yellow vests protests</category>
+    </item>
+    <item>
+      <title>Eleven people are killed and 33 more injured after the collision of a passenger bus with a truck in Pakpattan District, Punjab, Pakistan.</title>
+      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_5</link>
+      <description>&lt;p&gt;Eleven people are killed and 33 more injured after the collision of a passenger bus with a truck in &lt;a href="https://en.wikipedia.org/wiki/Pakpattan_District"&gt;Pakpattan District&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Punjab,_Pakistan"&gt;Punjab&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Pakistan"&gt;Pakistan&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://apnews.com/article/pakistan-passenger-bus-truck-accident-punjab-province-6fdc57a6e561f283c48cded6759956ea"&gt;AP&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_5"&gt;Portal:Current events/2026 November 5&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_5&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-05:c1903cd483ea</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Disasters and accidents</category>
+    </item>
+    <item>
+      <title>Six people are killed and nine more injured after a fire at a two-story home in Brooklyn, New York City, United States.</title>
+      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_5</link>
+      <description>&lt;p&gt;Six people are killed and nine more injured after a fire at a two-story home in &lt;a href="https://en.wikipedia.org/wiki/Brooklyn"&gt;Brooklyn&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/New_York_City"&gt;New York City&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/United_States"&gt;United States&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://apnews.com/article/fatal-fire-brooklyn-new-york-bb3c0c9753d0e64ec994cc892f32170e"&gt;AP&lt;/a&gt;, &lt;a href="https://news.sky.com/story/new-york-fire-kills-six-and-injures-nine-including-firefighters-and-police-officers-13608446"&gt;Sky News&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_5"&gt;Portal:Current events/2026 November 5&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_5&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-05:fa964b989d4b</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Disasters and accidents</category>
+    </item>
+    <item>
+      <title>Six more people are found dead under the debris of a building that collapsed two weeks ago in Nairobi, Kenya, bringing the death toll to eight.</title>
+      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_5</link>
+      <description>&lt;p&gt;Six more people are found dead under the debris of a building that collapsed two weeks ago in &lt;a href="https://en.wikipedia.org/wiki/Nairobi"&gt;Nairobi&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Kenya"&gt;Kenya&lt;/a&gt;, bringing the death toll to eight. Sixteen others are still missing.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://apnews.com/article/kenya-building-collapse-nairobi-death-toll-5c66ab1fdf995e92dad8aabae5358ba9"&gt;AP&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_5"&gt;Portal:Current events/2026 November 5&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_5&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-05:f1cdcd24045d</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Disasters and accidents</category>
+    </item>
+    <item>
+      <title>The Nepali supreme court directs the government to regulate cannabis cultivation for medicinal, scientific, agricultural, horticultural, and industrial purposes.</title>
+      <link>https://en.wikipedia.org/wiki/Cannabis_in_Nepal</link>
+      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Nepal"&gt;Nepali&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Supreme_Court_of_Nepal"&gt;supreme court&lt;/a&gt; directs &lt;a href="https://en.wikipedia.org/wiki/Balen_Shah_cabinet"&gt;the government&lt;/a&gt; to regulate &lt;a href="https://en.wikipedia.org/wiki/Cannabis_cultivation"&gt;cannabis cultivation&lt;/a&gt; for &lt;a href="https://en.wikipedia.org/wiki/Medical_cannabis"&gt;medicinal&lt;/a&gt;, scientific, agricultural, horticultural, and &lt;a href="https://en.wikipedia.org/wiki/Cannabis_industry"&gt;industrial&lt;/a&gt; purposes.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.france24.com/en/live-news/20261105-nepal-court-gives-green-light-to-controlled-cannabis-cultivation"&gt;AFP via France 24&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Cannabis_in_Nepal"&gt;Cannabis in Nepal&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_5"&gt;Portal:Current events/2026 November 5&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_5&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-05:09ea42f060b2</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Law and crime</category>
+      <category>Cannabis in Nepal</category>
+    </item>
+    <item>
+      <title>The Mexican government approves the Digital Economy Act for Digital and Electronic Payments, which allows it to designate sectors in which digital payments are the only accepted means of payment.</title>
+      <link>https://en.wikipedia.org/wiki/Economy_of_Mexico</link>
+      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Federal_government_of_Mexico"&gt;Mexican government&lt;/a&gt; approves the Digital Economy Act for Digital and Electronic Payments, which allows it to designate sectors in which &lt;a href="https://en.wikipedia.org/wiki/E-commerce_payment_system"&gt;digital payments&lt;/a&gt; are the only accepted means of payment.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.nmas.com.mx/economia/aplica-a-partir-de-hoy-jueves-5-noviembre-2026-ley-economia-digital-reducir-uso-efectivo/"&gt;N+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Economy_of_Mexico"&gt;Economy of Mexico&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_5"&gt;Portal:Current events/2026 November 5&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_5&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-05:9dc70fb04e1b</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Law and crime</category>
+      <category>Economy of Mexico</category>
+    </item>
+    <item>
+      <title>Six people are arrested in connection with a corruption investigation involving ruling PSOE officials and the transport ministry in Spain.</title>
+      <link>https://en.wikipedia.org/wiki/Koldo_affair</link>
+      <description>&lt;p&gt;Six people are arrested in connection with a &lt;a href="https://en.wikipedia.org/wiki/Corruption_in_Spain"&gt;corruption&lt;/a&gt; investigation involving ruling &lt;a href="https://en.wikipedia.org/wiki/Spanish_Socialist_Workers%27_Party"&gt;PSOE&lt;/a&gt; officials and the &lt;a href="https://en.wikipedia.org/wiki/Ministry_of_Transport_(Spain)"&gt;transport ministry&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Spain"&gt;Spain&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://en.ara.cat/politics/six-arrested-in-new-secret-piece-of-the-koldo-case_1_5900925.html"&gt;Ara&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Koldo_affair"&gt;Koldo affair&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_5"&gt;Portal:Current events/2026 November 5&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_5&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-05:ac74b329e084</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Law and crime</category>
+      <category>Koldo affair</category>
+    </item>
+    <item>
+      <title>The Hong Kong High Court sentences pro-democracy activist Joshua Wong to an additional 10 years in prison under the national security law for conspiring with foreign entities to impose sanctions…</title>
+      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_5</link>
+      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Hong_Kong_High_Court"&gt;Hong Kong High Court&lt;/a&gt; sentences &lt;a href="https://en.wikipedia.org/wiki/Pro-democracy_camp_(Hong_Kong)"&gt;pro-democracy activist&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Joshua_Wong"&gt;Joshua Wong&lt;/a&gt; to an additional 10 years in &lt;a href="https://en.wikipedia.org/wiki/Prisons_in_Hong_Kong"&gt;prison&lt;/a&gt; under the &lt;a href="https://en.wikipedia.org/wiki/2020_Hong_Kong_national_security_law"&gt;national security law&lt;/a&gt; for conspiring with foreign entities to impose &lt;a href="https://en.wikipedia.org/wiki/International_sanctions"&gt;sanctions&lt;/a&gt; against &lt;a href="https://en.wikipedia.org/wiki/China"&gt;China&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Hong_Kong"&gt;Hong Kong&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.afp.com/en/hong-kong-activist-joshua-wong-given-10-more-years-collusion"&gt;AFP&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_5"&gt;Portal:Current events/2026 November 5&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_5&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-05:3c64eb654bbf</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Law and crime</category>
+    </item>
+    <item>
+      <title>Grenadians vote to elect 15 members of the House of Representatives.</title>
+      <link>https://en.wikipedia.org/wiki/2026_Grenadian_general_election</link>
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Grenada"&gt;Grenadians&lt;/a&gt; vote to elect 15 members of the &lt;a href="https://en.wikipedia.org/wiki/House_of_Representatives_(Grenada)"&gt;House of Representatives&lt;/a&gt;. Incumbent &lt;a href="https://en.wikipedia.org/wiki/List_of_heads_of_government_of_Grenada"&gt;prime minister&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Dickon_Mitchell"&gt;Dickon Mitchell&lt;/a&gt; wins a second consecutive &lt;a href="https://en.wikipedia.org/wiki/National_Democratic_Congress_(Grenada)"&gt;NDC&lt;/a&gt; government, with &lt;a href="https://en.wikipedia.org/wiki/Leader_of_the_Opposition_(Grenada)"&gt;opposition&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/New_National_Party_(Grenada)"&gt;NNP&lt;/a&gt; leader &lt;a href="https://en.wikipedia.org/wiki/Emmalin_Pierre"&gt;Emmalin Pierre&lt;/a&gt; losing her seat in &lt;a href="https://en.wikipedia.org/wiki/Saint_Andrew_South_East_(Grenada)"&gt;St. Andrew South East&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://apnews.com/article/grenada-election-mitchell-david-slavery-e1b1b344507f5c6180983e0271c463ad"&gt;AP&lt;/a&gt;, &lt;a href="https://www.stvincenttimes.com/mitchells-ndc-wins-14-of-15-seats-in-grenada-election/"&gt;St. Vincent Times&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Grenadian_general_election"&gt;2026 Grenadian general election&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_5"&gt;Portal:Current events/2026 November 5&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_5&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-05:48c4e73bed87</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Politics and elections</category>
+      <category>2026 Grenadian general election</category>
+    </item>
+    <item>
+      <title>Paraguayan president Santiago Peña announces his resignation after the collapse of ueno bank, and the Chamber of Deputies unanimously votes to begin an impeachment trial against him.</title>
+      <link>https://en.wikipedia.org/wiki/2026_Paraguay_banking_crisis</link>
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Paraguay"&gt;Paraguayan&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/President_of_Paraguay"&gt;president&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Santiago_Pe%C3%B1a"&gt;Santiago Peña&lt;/a&gt; announces his &lt;a href="https://en.wikipedia.org/wiki/Resignation"&gt;resignation&lt;/a&gt; after the collapse of &lt;a href="https://en.wikipedia.org/wiki/Ueno_bank"&gt;ueno bank&lt;/a&gt;, and the &lt;a href="https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_Paraguay"&gt;Chamber of Deputies&lt;/a&gt; unanimously votes to begin an &lt;a href="https://en.wikipedia.org/wiki/Impeachment"&gt;impeachment&lt;/a&gt; trial against him.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://apnews.com/article/ueno-bank-collapse-paraguay-banking-crisis-santiago-pena-impeachment-eccea1c9a64808b5cd7e6e1d5542084f"&gt;AP&lt;/a&gt;, &lt;a href="https://www.reuters.com/world/americas/paraguay-president-pea-resigns-under-mounting-pressure-bank-collapse-2026-11-05/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Paraguay_banking_crisis"&gt;2026 Paraguay banking crisis&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_5"&gt;Portal:Current events/2026 November 5&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_5&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-05:0dace8a7644e</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Politics and elections</category>
+      <category>2026 Paraguay banking crisis</category>
+    </item>
+    <item>
+      <title>The Federal High Court of Nigeria invalidates former vice president Atiku Abubakar's nomination as the African Democratic Congress candidate for the 2027 presidential election, ruling that the…</title>
+      <link>https://en.wikipedia.org/wiki/2027_Nigerian_general_election</link>
+      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Federal_High_Court_of_Nigeria"&gt;Federal High Court&lt;/a&gt; of &lt;a href="https://en.wikipedia.org/wiki/Nigeria"&gt;Nigeria&lt;/a&gt; invalidates former &lt;a href="https://en.wikipedia.org/wiki/Vice_President_of_Nigeria"&gt;vice president&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Atiku_Abubakar"&gt;Atiku Abubakar&lt;/a&gt;'s nomination as the &lt;a href="https://en.wikipedia.org/wiki/African_Democratic_Congress"&gt;African Democratic Congress&lt;/a&gt; candidate for the 2027 &lt;a href="https://en.wikipedia.org/wiki/President_of_Nigeria"&gt;presidential&lt;/a&gt; election, ruling that the party's leadership was improperly &lt;a href="https://en.wikipedia.org/wiki/Constitution_of_Nigeria"&gt;constituted&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.reuters.com/world/africa/nigerian-court-voids-candidacy-opposition-adcs-atiku-2027-election-2026-11-05/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2027_Nigerian_general_election"&gt;2027 Nigerian general election&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_5"&gt;Portal:Current events/2026 November 5&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_5&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-05:07d0b4ab2873</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Politics and elections</category>
+      <category>2027 Nigerian general election</category>
+    </item>
+    <item>
+      <title>The Supreme Court of Somalia nullifies the amendments to the country's constitution, ruling that the term of president Hassan Sheikh Mohamud expired on 15 May 2026, while ordering new elections…</title>
+      <link>https://en.wikipedia.org/wiki/Constitutional_crisis_in_Somalia</link>
+      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Supreme_Court_of_Somalia"&gt;Supreme Court&lt;/a&gt; of &lt;a href="https://en.wikipedia.org/wiki/Somalia"&gt;Somalia&lt;/a&gt; nullifies the amendments to the country's &lt;a href="https://en.wikipedia.org/wiki/Constitution_of_Somalia"&gt;constitution&lt;/a&gt;, ruling that the term of &lt;a href="https://en.wikipedia.org/wiki/President_of_Somalia"&gt;president&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Hassan_Sheikh_Mohamud"&gt;Hassan Sheikh Mohamud&lt;/a&gt; expired on 15 May 2026, while ordering new &lt;a href="https://en.wikipedia.org/wiki/Elections_in_Somalia"&gt;elections&lt;/a&gt; within 90 days.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.modernghana.com/news/1542285/somalia-faces-fresh-chaos-as-court-finds-president.html"&gt;AFP via Modern Ghana&lt;/a&gt;, &lt;a href="https://www.somaliguardian.com/news/somalia-news/somalia-supreme-court-nullifies-constitutional-amendments-orders-elections-90-days/"&gt;Somali Guardian&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Constitutional_crisis_in_Somalia"&gt;Constitutional crisis in Somalia, Controversies of Hassan Sheikh Mohamud&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_5"&gt;Portal:Current events/2026 November 5&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_5&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-05:ea081c3ea1c6</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Politics and elections</category>
+      <category>Constitutional crisis in Somalia, Controversies of Hassan Sheikh Mohamud</category>
+    </item>
+    <item>
+      <title>Belarus sentences Roman Catholic Priest Anatoly Parakhnevich to three years in prison for opposing the war in Ukraine.</title>
+      <link>https://en.wikipedia.org/wiki/Protests_against_the_Russo-Ukrainian_war_(2022%E2%80%93present)</link>
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Belarus"&gt;Belarus&lt;/a&gt; sentences &lt;a href="https://en.wikipedia.org/wiki/Catholic_Church_in_Belarus"&gt;Roman Catholic&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Priesthood_in_the_Catholic_Church"&gt;Priest&lt;/a&gt; Anatoly Parakhnevich to three years in prison for opposing &lt;a href="https://en.wikipedia.org/wiki/Russo-Ukrainian_war_(2022%E2%80%93present)"&gt;the war&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Ukraine"&gt;Ukraine&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://apnews.com/article/belarus-catholic-priest-crackdown-lukashenko-ukraine-war-0cbca46fc4d8125dfa53ec626232b11e"&gt;AP&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Protests_against_the_Russo-Ukrainian_war_(2022%E2%80%93present)"&gt;Protests against the Russo-Ukrainian war, Belarusian involvement in the Russo-Ukrainian war&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_5"&gt;Portal:Current events/2026 November 5&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_5&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-05:0d5c71f225fe</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Politics and elections</category>
+      <category>Protests against the Russo-Ukrainian war, Belarusian involvement in the Russo-Ukrainian war</category>
+    </item>
+    <item>
+      <title>In golf, professional tour LIV Golf ceases operations after five seasons and liquidates its assets, following bankruptcy proceedings and the withdrawal of financial support from Saudi Arabia's Public…</title>
+      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_5</link>
+      <description>&lt;p&gt;In &lt;a href="https://en.wikipedia.org/wiki/Golf"&gt;golf&lt;/a&gt;, professional &lt;a href="https://en.wikipedia.org/wiki/Professional_golf_tours"&gt;tour&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/LIV_Golf"&gt;LIV Golf&lt;/a&gt; ceases operations after five seasons and &lt;a href="https://en.wikipedia.org/wiki/Liquidate"&gt;liquidates&lt;/a&gt; its assets, following &lt;a href="https://en.wikipedia.org/wiki/Bankruptcy"&gt;bankruptcy&lt;/a&gt; proceedings and the withdrawal of financial support from &lt;a href="https://en.wikipedia.org/wiki/Saudi_Arabia"&gt;Saudi Arabia&lt;/a&gt;'s &lt;a href="https://en.wikipedia.org/wiki/Public_Investment_Fund"&gt;Public Investment Fund&lt;/a&gt; and prospective investor &lt;a href="https://en.wikipedia.org/wiki/BC_Partners"&gt;BC Partners&lt;/a&gt; Credit.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.france24.com/en/live-news/20261105-liv-golf-league-to-shut-down-after-five-years"&gt;AFP via France 24&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_5"&gt;Portal:Current events/2026 November 5&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_5&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-05:b3a2fc3d0496</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Sports</category>
+    </item>
+    <item>
+      <title>Two women are killed in a airstrike by Sudan's army on a water source in Umm Badr, North Kordofan.</title>
+      <link>https://en.wikipedia.org/wiki/War_crimes_in_the_Sudanese_civil_war_(2023%E2%80%93present)</link>
+      <description>&lt;p&gt;Two women are killed in a airstrike by &lt;a href="https://en.wikipedia.org/wiki/Sudan"&gt;Sudan&lt;/a&gt;'s &lt;a href="https://en.wikipedia.org/wiki/Sudanese_Army"&gt;army&lt;/a&gt; on a water source in &lt;a href="https://en.wikipedia.org/wiki/Umm_Badr"&gt;Umm Badr&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/North_Kordofan"&gt;North Kordofan&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://sudantribune.com/article/320888"&gt;Sudan Tribune&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Sudanese_civil_war_(2023%E2%80%93present)"&gt;Sudanese civil war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/War_crimes_in_the_Sudanese_civil_war_(2023%E2%80%93present)"&gt;War crimes in the Sudanese civil war, Kordofan campaign&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4"&gt;Portal:Current events/2026 November 4&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_4&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-04:c72de79a76c6</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Armed conflicts and attacks</category>
+      <category>War crimes in the Sudanese civil war, Kordofan campaign</category>
+    </item>
+    <item>
+      <title>Five people are killed while two others are injured in an explosion at a suspected illegal fireworks factory in Malasiqui, Pangasinan, Philippines.</title>
+      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4</link>
+      <description>&lt;p&gt;Five people are killed while two others are injured in an explosion at a suspected illegal &lt;a href="https://en.wikipedia.org/wiki/Firework"&gt;fireworks&lt;/a&gt; factory in &lt;a href="https://en.wikipedia.org/wiki/Malasiqui,_Pangasinan"&gt;Malasiqui, Pangasinan&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Philippines"&gt;Philippines&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.philstar.com/nation/2026/11/06/2568219/5-killed-pangasinan-firecracker-factory-explosion/"&gt;The Philippine Star&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4"&gt;Portal:Current events/2026 November 4&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_4&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-04:b9e352c665cc</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Disasters and accidents</category>
+    </item>
+    <item>
+      <title>A fire and explosion at a Panasonic subsidiary's factory in Hsinchu County, Taiwan, kills two employees and injures five others.</title>
+      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4</link>
+      <description>&lt;p&gt;A fire and explosion at a &lt;a href="https://en.wikipedia.org/wiki/Panasonic"&gt;Panasonic&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Subsidiary"&gt;subsidiary&lt;/a&gt;'s factory in &lt;a href="https://en.wikipedia.org/wiki/Hsinchu_County"&gt;Hsinchu County&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Taiwan"&gt;Taiwan&lt;/a&gt;, kills two employees and injures five others.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.reuters.com/world/asia-pacific/two-confirmed-dead-after-taiwan-panasonic-factory-fire-2026-11-05/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4"&gt;Portal:Current events/2026 November 4&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_4&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-04:f2a698680a07</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Disasters and accidents</category>
+    </item>
+    <item>
+      <title>Hackers steal approximately €100 million (US$112 million) from French bank Crédit Mutuel through unauthorized transactions using the bank's account.</title>
+      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4</link>
+      <description>&lt;p&gt;Hackers steal approximately &lt;a href="https://en.wikipedia.org/wiki/Euro"&gt;€&lt;/a&gt;100 million (US$112 million) from &lt;a href="https://en.wikipedia.org/wiki/France"&gt;French&lt;/a&gt; bank &lt;a href="https://en.wikipedia.org/wiki/Cr%C3%A9dit_Mutuel"&gt;Crédit Mutuel&lt;/a&gt; through unauthorized transactions using the bank's account.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.firstpost.com/business/french-bank-hit-by-cyberattack-hackers-siphon-off-nearly-112-million-14058157.html"&gt;Firstpost&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4"&gt;Portal:Current events/2026 November 4&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_4&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-04:d0c61ff55a45</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Law and crime</category>
     </item>
     <item>
       <title>The Bangladeshi garment industry wage board agrees to increase minimum wages following five days of worker protests and clashes with police.</title>
-      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4</link>
+      <link>https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests</link>
       <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Bangladesh"&gt;Bangladeshi&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Textile_industry_in_Bangladesh"&gt;garment industry&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Worker_standards_board"&gt;wage board&lt;/a&gt; agrees to increase &lt;a href="https://en.wikipedia.org/wiki/Minimum_wage"&gt;minimum wages&lt;/a&gt; following five days of &lt;a href="https://en.wikipedia.org/wiki/Strike_action"&gt;worker protests&lt;/a&gt; and clashes with &lt;a href="https://en.wikipedia.org/wiki/Bangladesh_Police"&gt;police&lt;/a&gt;. Workers demand &lt;a href="https://en.wikipedia.org/wiki/Bangladeshi_taka"&gt;৳&lt;/a&gt;30,000 (&lt;a href="https://en.wikipedia.org/wiki/US$"&gt;US$&lt;/a&gt;240) monthly, up from ৳12,500 (US$100), while the board has not specified the increase.&lt;/p&gt;
 &lt;p&gt;Sources: &lt;a href="https://www.afp.com/en/bangladesh-increase-garment-sector-pay-after-protests"&gt;AFP&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"&gt;2026 Bangladesh garment workers protests&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4"&gt;Portal:Current events/2026 November 4&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_4&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:en:2026-11-04:25178dc82521</guid>
       <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
       <category>Business and economy</category>
+      <category>2026 Bangladesh garment workers protests</category>
     </item>
     <item>
       <title>The Singaporean parliament amends the Transboundary Haze Pollution Act of 2014, introducing arrest powers, permitting trials in absentia, and increasing maximum fines tenfold to S$20 million (US$15…</title>
@@ -101,13 +301,15 @@
     </item>
     <item>
       <title>Philippine authorities seize a 200-kilogram (440 lb) shipment of methamphetamine, whose origin is traced to Laos, at the Manila International Container Port.</title>
-      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Philippines"&gt;Philippine&lt;/a&gt; authorities seize a 200-kilogram (440 lb) shipment of &lt;a href="https://en.wikipedia.org/wiki/Methamphetamine"&gt;methamphetamine&lt;/a&gt;, whose origin is traced to &lt;a href="https://en.wikipedia.org/wiki/Laos"&gt;Laos&lt;/a&gt;, at the &lt;a href="https://en.wikipedia.org/wiki/Port_of_Manila"&gt;Manila International Container Port&lt;/a&gt;. The shipment had arrived six days after local police in Laos &lt;a href="https://en.wikipedia.org/wiki/2026_Laos_private_jet_drug_smuggling_case"&gt;found the similar contraband, supposed to be brought to the Philippines,&lt;/a&gt; on October 1.&lt;/p&gt;
+      <link>https://en.wikipedia.org/wiki/Illegal_drug_trade_in_the_Philippines</link>
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Philippines"&gt;Philippine&lt;/a&gt; authorities seize a 200-kilogram (440 lb) shipment of &lt;a href="https://en.wikipedia.org/wiki/Methamphetamine"&gt;methamphetamine&lt;/a&gt;, whose origin is traced to &lt;a href="https://en.wikipedia.org/wiki/Laos"&gt;Laos&lt;/a&gt;, at the &lt;a href="https://en.wikipedia.org/wiki/Port_of_Manila"&gt;Manila International Container Port&lt;/a&gt;. The shipment had arrived six days after Laotian police &lt;a href="https://en.wikipedia.org/wiki/2026_Laos_private_jet_drug_smuggling_case"&gt;found&lt;/a&gt; similar contraband destined for the Philippines.&lt;/p&gt;
 &lt;p&gt;Sources: &lt;a href="https://www.arabnews.com/world/philippines-seizes-200-kg-of-methamphetamine-at-manila-port-3009754"&gt;Arab News&lt;/a&gt;, &lt;a href="https://globalnation.inquirer.net/345789/this-time-shabu-cargo-from-laos-reaches-ph-before-seizure"&gt;Philippine Daily Inquirer&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Illegal_drug_trade_in_the_Philippines"&gt;Illegal drug trade in the Philippines&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4"&gt;Portal:Current events/2026 November 4&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_4&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:en:2026-11-04:b4a273d6e5da</guid>
       <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
       <category>Law and crime</category>
+      <category>Illegal drug trade in the Philippines</category>
     </item>
     <item>
       <title>Hungary makes Communist-era secret police records publicly accessible through a database containing approximately 60,000 names linked to former state security services.</title>
@@ -367,216 +569,6 @@
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_2"&gt;Portal:Current events/2026 November 2&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_2&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:en:2026-11-02:69c670988989</guid>
       <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Disasters and accidents</category>
-    </item>
-    <item>
-      <title>At least 29 people are killed, 10 others are injured, and 48 are missing following a Russian glide bomb strike on an aid distribution centre in Komyshuvakha, Zaporizhzhia Oblast.</title>
-      <link>https://en.wikipedia.org/wiki/Russian_attacks_on_civilians_in_the_Russo-Ukrainian_war_(2022%E2%80%93present)</link>
-      <description>&lt;p&gt;At least 29 people are killed, 10 others are injured, and 48 are missing following a &lt;a href="https://en.wikipedia.org/wiki/Russian_Air_Force"&gt;Russian&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Glide_bomb"&gt;glide bomb&lt;/a&gt; strike on an &lt;a href="https://en.wikipedia.org/wiki/Humanitarian_aid"&gt;aid distribution centre&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Komyshuvakha,_Zaporizhzhia_Oblast"&gt;Komyshuvakha&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Zaporizhzhia_Oblast"&gt;Zaporizhzhia Oblast&lt;/a&gt;. &lt;a href="https://en.wikipedia.org/wiki/Ukraine"&gt;Ukraine&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.bbc.com/news/articles/cjy56dndlyz0o"&gt;BBC News&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Russo-Ukrainian_war_(2022%E2%80%93present)"&gt;Russo-Ukrainian war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Russian_attacks_on_civilians_in_the_Russo-Ukrainian_war_(2022%E2%80%93present)"&gt;Russian attacks on civilians in the Russo-Ukrainian war&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_2"&gt;Portal:Current events/2026 November 2&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_2&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-02:93be3dea3724</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Armed conflicts and attacks</category>
-      <category>Russian attacks on civilians in the Russo-Ukrainian war</category>
-    </item>
-    <item>
-      <title>Israeli forces withdraw from areas around Hebron in the occupied West Bank after a multi-day operation following the killing of two Israeli soldiers at a checkpoint.</title>
-      <link>https://en.wikipedia.org/wiki/2026_West_Bank_lockdown</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Israel"&gt;Israeli&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Israel_Defense_Forces"&gt;forces&lt;/a&gt; withdraw from areas around &lt;a href="https://en.wikipedia.org/wiki/Hebron"&gt;Hebron&lt;/a&gt; in the &lt;a href="https://en.wikipedia.org/wiki/Israeli_occupation_of_the_West_Bank"&gt;occupied&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/West_Bank"&gt;West Bank&lt;/a&gt; after a multi-day operation following the killing of two Israeli soldiers at a checkpoint.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.rfi.fr/en/international-news/20261102-israel-army-withdraws-after-hebron-operation"&gt;AFP via RFI&lt;/a&gt;, &lt;a href="https://www.aljazeera.com/amp/news/2026/11/2/hebron-governor-says-israeli-forces-withdraw-from-city-after-10-day-siege"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023-present)"&gt;Middle Eastern crisis&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Gaza_war"&gt;Gaza war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_West_Bank_lockdown"&gt;2026 West Bank lockdown&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_2"&gt;Portal:Current events/2026 November 2&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_2&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-02:5c418666d715</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Armed conflicts and attacks</category>
-      <category>2026 West Bank lockdown</category>
-    </item>
-    <item>
-      <title>The United States military carries out airstrikes on Iranian targets across the Strait of Hormuz after Iranian surface-to-air missiles attack American aircraft in the Strait.</title>
-      <link>https://en.wikipedia.org/wiki/2026_Iran_war</link>
-      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/United_States_Armed_Forces"&gt;United States military&lt;/a&gt; carries out &lt;a href="https://en.wikipedia.org/wiki/Airstrike"&gt;airstrikes&lt;/a&gt; on &lt;a href="https://en.wikipedia.org/wiki/Iran"&gt;Iranian&lt;/a&gt; targets across the &lt;a href="https://en.wikipedia.org/wiki/Strait_of_Hormuz"&gt;Strait of Hormuz&lt;/a&gt; after Iranian &lt;a href="https://en.wikipedia.org/wiki/Surface-to-air_missile"&gt;surface-to-air missiles&lt;/a&gt; attack American aircraft in the Strait.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/11/3/explosions-hit-irans-qeshm-island-as-us-media-report-us-strikes-in-hormuz"&gt;Al Jazeera&lt;/a&gt;, &lt;a href="https://apnews.com/article/iran-us-trump-netanyahu-israel-war-b4519ef86bafe2672e0855d7a48ce309"&gt;AP&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023-present)"&gt;Middle Eastern crisis&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_Iran_war"&gt;2026 Iran war&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_2"&gt;Portal:Current events/2026 November 2&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_2&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-02:3fc3d4792c97</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Armed conflicts and attacks</category>
-      <category>2026 Iran war</category>
-    </item>
-    <item>
-      <title>Salvadoran, Haitian, and Gang Suppression Force soldiers launch an offensive in Plain of the Cul-de-Sac which extends from Haiti to the Dominican Republic, killing at least a dozen gang members.</title>
-      <link>https://en.wikipedia.org/wiki/Salvadoran_military_intervention_in_Haiti</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Armed_Forces_of_El_Salvador"&gt;Salvadoran&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Armed_Forces_of_Haiti"&gt;Haitian&lt;/a&gt;, and &lt;a href="https://en.wikipedia.org/wiki/Gang_Suppression_Force"&gt;Gang Suppression Force&lt;/a&gt; soldiers launch an offensive in &lt;a href="https://en.wikipedia.org/wiki/Plain_of_the_Cul-de-Sac"&gt;Plain of the Cul-de-Sac&lt;/a&gt; which extends from &lt;a href="https://en.wikipedia.org/wiki/Haiti"&gt;Haiti&lt;/a&gt; to the &lt;a href="https://en.wikipedia.org/wiki/Dominican_Republic"&gt;Dominican Republic&lt;/a&gt;, killing at least a dozen gang members.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://efe.com/mundo/2026-11-03/soldados-el-salvador-operacion-haiti/"&gt;EFE in Spanish&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Haitian_conflict"&gt;Haitian conflict&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Salvadoran_military_intervention_in_Haiti"&gt;Salvadoran military intervention in Haiti&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_2"&gt;Portal:Current events/2026 November 2&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_2&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-02:14adf73b5eac</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Armed conflicts and attacks</category>
-      <category>Salvadoran military intervention in Haiti</category>
-    </item>
-    <item>
-      <title>Three people are killed and five more injured in two separated mass shootings at two drug rehabilitation centers in Mazatlán, Sinaloa, Mexico.</title>
-      <link>https://en.wikipedia.org/wiki/Infighting_in_the_Sinaloa_Cartel</link>
-      <description>&lt;p&gt;Three people are killed and five more injured in two separated &lt;a href="https://en.wikipedia.org/wiki/Mass_shooting"&gt;mass shootings&lt;/a&gt; at two &lt;a href="https://en.wikipedia.org/wiki/Drug_rehabilitation"&gt;drug rehabilitation&lt;/a&gt; centers in &lt;a href="https://en.wikipedia.org/wiki/Mazatl%C3%A1n"&gt;Mazatlán&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Sinaloa"&gt;Sinaloa&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Mexico"&gt;Mexico&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.jornada.com.mx/noticia/2026/11/01/estados/atacan-centros-de-rehabilitacion-en-mazatlan-y-matan-a-3-personas"&gt;La Jornada in Spanish&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Mexican_drug_war"&gt;Mexican drug war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Infighting_in_the_Sinaloa_Cartel"&gt;Infighting in the Sinaloa Cartel&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_2"&gt;Portal:Current events/2026 November 2&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_2&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-02:ed34c0eb4a90</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Armed conflicts and attacks</category>
-      <category>Infighting in the Sinaloa Cartel</category>
-    </item>
-    <item>
-      <title>The Rapid Support Forces launches drone strikes against three distribution stations in Sudan's Kassala and Northern states.</title>
-      <link>https://en.wikipedia.org/wiki/War_crimes_in_the_Sudanese_civil_war_(2023%E2%80%93present)</link>
-      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Rapid_Support_Forces"&gt;Rapid Support Forces&lt;/a&gt; launches drone strikes against three distribution stations in &lt;a href="https://en.wikipedia.org/wiki/Sudan"&gt;Sudan&lt;/a&gt;'s &lt;a href="https://en.wikipedia.org/wiki/Kassala_State"&gt;Kassala&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Northern_State_(Sudan)"&gt;Northern&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/States_of_Sudan"&gt;states&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://sudantribune.com/article/320792"&gt;Sudan Tribune&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Sudanese_civil_war_(2023%E2%80%93present)"&gt;Sudanese civil war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/War_crimes_in_the_Sudanese_civil_war_(2023%E2%80%93present)"&gt;War crimes in the Sudanese civil war&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_2"&gt;Portal:Current events/2026 November 2&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_2&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-02:ce94571f026f</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Armed conflicts and attacks</category>
-      <category>War crimes in the Sudanese civil war</category>
-    </item>
-    <item>
-      <title>A truck bomb explodes near a military base in Planadas, Tolima Department, Colombia, killing four people, including a baby, and wounding several others.</title>
-      <link>https://en.wikipedia.org/wiki/Colombian_conflict</link>
-      <description>&lt;p&gt;A &lt;a href="https://en.wikipedia.org/wiki/Car_bomb"&gt;truck bomb&lt;/a&gt; explodes near a &lt;a href="https://en.wikipedia.org/wiki/National_Army_of_Colombia"&gt;military base&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Planadas"&gt;Planadas&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Tolima_Department"&gt;Tolima Department&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Colombia"&gt;Colombia&lt;/a&gt;, killing four people, including a baby, and wounding several others.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.bbc.com/news/articles/cqn06n30l406o"&gt;BBC News&lt;/a&gt;, &lt;a href="https://www.reuters.com/world/ukraines-zelenskiy-russian-bombing-kills-18-southeastern-zaporizhzhia-region-2026-11-02/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Colombian_conflict"&gt;Colombian conflict&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_2"&gt;Portal:Current events/2026 November 2&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_2&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-02:3e2893b52b25</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Armed conflicts and attacks</category>
-      <category>Colombian conflict</category>
-    </item>
-    <item>
-      <title>An unidentified person throws an IED bomb at the home of Villa El Salvador mayor-elect Marcelino Huamán Cano in Lima, Peru, while he was with his family, causing property damage but no reported…</title>
-      <link>https://en.wikipedia.org/wiki/Peruvian_security_crisis</link>
-      <description>&lt;p&gt;An unidentified person throws an &lt;a href="https://en.wikipedia.org/wiki/Improvised_explosive_device"&gt;IED bomb&lt;/a&gt; at the home of &lt;a href="https://en.wikipedia.org/wiki/Villa_El_Salvador"&gt;Villa El Salvador&lt;/a&gt; mayor-elect Marcelino Huamán Cano in &lt;a href="https://en.wikipedia.org/wiki/Lima"&gt;Lima&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Peru"&gt;Peru&lt;/a&gt;, while he was with his family, causing property damage but no reported injuries.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://peru21.pe/policiales/villa-el-salvador-detonan-explosivo-en-casa-de-alcalde-electo-marcelino-huaman-cuando-estaba-con-su-familia/"&gt;Perú.21 in Spanish&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Peruvian_security_crisis"&gt;Peruvian security crisis&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_2"&gt;Portal:Current events/2026 November 2&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_2&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-02:ae5721532bc4</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Armed conflicts and attacks</category>
-      <category>Peruvian security crisis</category>
-    </item>
-    <item>
-      <title>Uganda begins withdrawing its troops from Somalia, planning to remove all personnel deployed under bilateral and African Union missions by the end of 2027, ending nearly two decades of operations.</title>
-      <link>https://en.wikipedia.org/wiki/Somali_Civil_War_(2009%E2%80%93present)</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Uganda"&gt;Uganda&lt;/a&gt; begins withdrawing &lt;a href="https://en.wikipedia.org/wiki/Uganda_People%27s_Defence_Force"&gt;its troops&lt;/a&gt; from &lt;a href="https://en.wikipedia.org/wiki/Somalia"&gt;Somalia&lt;/a&gt;, planning to remove all personnel deployed under bilateral and &lt;a href="https://en.wikipedia.org/wiki/African_Union"&gt;African Union&lt;/a&gt; missions by the end of 2027, ending nearly two decades of operations.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.arabnews.com/world/uganda-withdrawing-troops-from-somalia-in-blow-to-anti-extremist-mission-3009438"&gt;AFP via Arab News&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Somali_Civil_War_(2009%E2%80%93present)"&gt;Somali Civil War&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_2"&gt;Portal:Current events/2026 November 2&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_2&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-02:1eeafa3e3309</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Armed conflicts and attacks</category>
-      <category>Somali Civil War</category>
-    </item>
-    <item>
-      <title>The United States Food and Drug Administration approves the first generic version of lenacapavir, a twice-yearly HIV prevention injection expected to cost about US$40 annually in 120 low- and…</title>
-      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_2</link>
-      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/United_States"&gt;United States&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Food_and_Drug_Administration"&gt;Food and Drug Administration&lt;/a&gt; approves the first &lt;a href="https://en.wikipedia.org/wiki/Generic_version"&gt;generic version&lt;/a&gt; of &lt;a href="https://en.wikipedia.org/wiki/Lenacapavir"&gt;lenacapavir&lt;/a&gt;, a twice-yearly &lt;a href="https://en.wikipedia.org/wiki/HIV_prevention"&gt;HIV prevention&lt;/a&gt; injection expected to cost about &lt;a href="https://en.wikipedia.org/wiki/US$"&gt;US$&lt;/a&gt;40 annually in 120 &lt;a href="https://en.wikipedia.org/wiki/Least_developed_countries"&gt;low-&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Newly_industrialized_country"&gt;middle-income countries&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.france24.com/en/live-news/20261102-us-approves-cheap-generic-of-breakthrough-hiv-shot-for-poorer-countries"&gt;AFP via France 24&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_2"&gt;Portal:Current events/2026 November 2&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_2&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-02:a61fd322faa2</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Health and environment</category>
-    </item>
-    <item>
-      <title>The Spanish interior ministry reportedly deports 16 migrants, including those from Bangladesh, Cameroon, Nigeria, Senegal, and Yemen, from Ceuta to Morocco following the migrant crisis in July.</title>
-      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_2</link>
-      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Spain"&gt;Spanish&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Ministry_of_the_Interior_(Spain)"&gt;interior ministry&lt;/a&gt; reportedly deports 16 migrants, including those from &lt;a href="https://en.wikipedia.org/wiki/Bangladeshis"&gt;Bangladesh&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Demographics_of_Cameroon"&gt;Cameroon&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Nigerian_people_in_Spain"&gt;Nigeria&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Demographics_of_Senegal"&gt;Senegal&lt;/a&gt;, and &lt;a href="https://en.wikipedia.org/wiki/Yemenis"&gt;Yemen&lt;/a&gt;, from &lt;a href="https://en.wikipedia.org/wiki/Ceuta"&gt;Ceuta&lt;/a&gt; to &lt;a href="https://en.wikipedia.org/wiki/Morocco"&gt;Morocco&lt;/a&gt; following the &lt;a href="https://en.wikipedia.org/wiki/2026_Ceuta_migrant_crisis"&gt;migrant crisis in July&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.newarab.com/news/spain-deports-ceuta-african-asian-asylum-seekers-morocco"&gt;The New Arab&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_2"&gt;Portal:Current events/2026 November 2&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_2&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-02:db3cec8410af</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Politics and elections</category>
-    </item>
-    <item>
-      <title>Bulgarians vote in the second round of presidential elections, deciding between incumbent Iliana Iotova and former acting prime minister Andrey Gyurov.</title>
-      <link>https://en.wikipedia.org/wiki/2026_Bulgarian_presidential_election</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Bulgaria"&gt;Bulgarians&lt;/a&gt; vote in the second round of &lt;a href="https://en.wikipedia.org/wiki/President_of_Bulgaria"&gt;presidential&lt;/a&gt; elections, deciding between incumbent &lt;a href="https://en.wikipedia.org/wiki/Iliana_Iotova"&gt;Iliana Iotova&lt;/a&gt; and former &lt;a href="https://en.wikipedia.org/wiki/Acting_(law)"&gt;acting&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Prime_Minister_of_Bulgaria"&gt;prime minister&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Andrey_Gyurov"&gt;Andrey Gyurov&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.dw.com/en/bulgarians-vote-in-highly-polarized-presidential-runoff-overshadowed-by-ukraine-war/a-79820449"&gt;DW&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Bulgarian_presidential_election"&gt;2026 Bulgarian presidential election&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_1"&gt;Portal:Current events/2026 November 1&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_1&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-01:4057091b2035</guid>
-      <pubDate>Sun, 01 Nov 2026 13:26:18 GMT</pubDate>
-      <category>Politics and elections</category>
-      <category>2026 Bulgarian presidential election</category>
-    </item>
-    <item>
-      <title>In American football, the Tampa Bay Buccaneers refuse to complete a pass during its 16-0 victory against the rival Atlanta Falcons in Week 8, becoming the first National Football League team to win a…</title>
-      <link>https://en.wikipedia.org/wiki/2026_NFL_season</link>
-      <description>&lt;p&gt;In &lt;a href="https://en.wikipedia.org/wiki/American_football"&gt;American football&lt;/a&gt;, the &lt;a href="https://en.wikipedia.org/wiki/Tampa_Bay_Buccaneers"&gt;Tampa Bay Buccaneers&lt;/a&gt; refuse to complete a pass during its &lt;a href="https://en.wikipedia.org/wiki/2026_Tampa_Bay_Buccaneers_season#Week_8:_vs._Atlanta_Falcons"&gt;16-0&lt;/a&gt; victory against the &lt;a href="https://en.wikipedia.org/wiki/Buccaneers%E2%80%93Falcons_rivalry"&gt;rival&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Atlanta_Falcons"&gt;Atlanta Falcons&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/2026_Atlanta_Falcons_season#Week_8:_at_Tampa_Bay_Buccaneers"&gt;Week 8&lt;/a&gt;, becoming the first &lt;a href="https://en.wikipedia.org/wiki/National_Football_League"&gt;National Football League&lt;/a&gt; team to win a game without completing a pass since the &lt;a href="https://en.wikipedia.org/wiki/Buffalo_Bills"&gt;Buffalo Bills&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/1974_Buffalo_Bills_season"&gt;did so&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/1974_NFL_season"&gt;1974&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.nbcnews.com/sports/nfl/tampa-bay-buccaneers-atlanta-falcons-nfl-result-rcna606882"&gt;NBC News&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_NFL_season"&gt;2026 NFL season&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_1"&gt;Portal:Current events/2026 November 1&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_1&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-01:4bcfa42a6e55</guid>
-      <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Sports</category>
-      <category>2026 NFL season</category>
-    </item>
-    <item>
-      <title>Swedish long-distance runner Andreas Almgren wins the 55th edition of the New York City Marathon in New York City, New York, U.S., during his first debut.</title>
-      <link>https://en.wikipedia.org/wiki/2026_New_York_City_Marathon</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Sweden"&gt;Swedish&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Long-distance_running"&gt;long-distance runner&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Andreas_Almgren"&gt;Andreas Almgren&lt;/a&gt; wins the 55th edition of the &lt;a href="https://en.wikipedia.org/wiki/New_York_City_Marathon"&gt;New York City Marathon&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/New_York_City"&gt;New York City&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/New_York_(state)"&gt;New York&lt;/a&gt;, U.S., during his first debut.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.nytimes.com/athletic/7744275/2026/11/01/nyc-marathon-2026-results-andreas-almgren-sheila-chepkirui/"&gt;The Athletic via The New York Times&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_New_York_City_Marathon"&gt;2026 New York City Marathon&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_1"&gt;Portal:Current events/2026 November 1&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_1&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-01:cf3299064d5b</guid>
-      <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Sports</category>
-      <category>2026 New York City Marathon</category>
-    </item>
-    <item>
-      <title>Five civil police officers are killed in an Israeli airstrike in al-Mawasi, Rafah, Gaza Strip.</title>
-      <link>https://en.wikipedia.org/wiki/Israeli_bombing_of_the_Gaza_Strip</link>
-      <description>&lt;p&gt;Five &lt;a href="https://en.wikipedia.org/wiki/Palestinian_Civil_Police_Force_(Hamas)"&gt;civil police officers&lt;/a&gt; are killed in an &lt;a href="https://en.wikipedia.org/wiki/Israel"&gt;Israeli&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Airstrike"&gt;airstrike&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Al-Mawasi,_Rafah"&gt;al-Mawasi&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Rafah"&gt;Rafah&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Gaza_Strip"&gt;Gaza Strip&lt;/a&gt;. Separately, three more &lt;a href="https://en.wikipedia.org/wiki/Palestinians"&gt;Palestinians&lt;/a&gt;, including a four-year-old child, are killed in an airstrike on a building in &lt;a href="https://en.wikipedia.org/wiki/Gaza_City"&gt;Gaza City&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/11/1/at-least-eight-palestinians-killed-in-israeli-attacks-across-gaza"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Gaza_war"&gt;Gaza war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Israeli_bombing_of_the_Gaza_Strip"&gt;Israeli bombing of the Gaza Strip&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_1"&gt;Portal:Current events/2026 November 1&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_1&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-01:f53432023846</guid>
-      <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Armed conflicts and attacks</category>
-      <category>Israeli bombing of the Gaza Strip</category>
-    </item>
-    <item>
-      <title>Bolivian president Rodrigo Paz declares a national state of emergency to mobilize resources before the super El Niño event peaks in November or December.</title>
-      <link>https://en.wikipedia.org/wiki/2026%E2%80%932027_El_Ni%C3%B1o_event</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Bolivia"&gt;Bolivian&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/President_of_Bolivia"&gt;president&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Rodrigo_Paz"&gt;Rodrigo Paz&lt;/a&gt; declares a national &lt;a href="https://en.wikipedia.org/wiki/State_of_emergency"&gt;state of emergency&lt;/a&gt; to mobilize resources before the &lt;a href="https://en.wikipedia.org/wiki/Super_El_Ni%C3%B1o_events"&gt;super&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/El_Ni%C3%B1o%E2%80%93Southern_Oscillation"&gt;El Niño&lt;/a&gt; event peaks in November or December.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.dw.com/en/bolivia-declares-emergency-as-el-nino-intensifies-threatens-severe-weather/a-79820253"&gt;DW&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026%E2%80%932027_El_Ni%C3%B1o_event"&gt;2026–2027 El Niño event&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_1"&gt;Portal:Current events/2026 November 1&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_1&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-01:152dfc822f48</guid>
-      <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Disasters and accidents</category>
-      <category>2026–2027 El Niño event</category>
-    </item>
-    <item>
-      <title>Nine people are killed after a Learjet 60 business jet bound for The Bahamas crashes in Greenacres, Florida, United States.</title>
-      <link>https://en.wikipedia.org/wiki/2026_Palm_Beach_County_Learjet_60_crash</link>
-      <description>&lt;p&gt;Nine people are killed after a &lt;a href="https://en.wikipedia.org/wiki/Learjet_60"&gt;Learjet 60&lt;/a&gt; business jet bound for &lt;a href="https://en.wikipedia.org/wiki/The_Bahamas"&gt;The Bahamas&lt;/a&gt; crashes in &lt;a href="https://en.wikipedia.org/wiki/Greenacres,_Florida"&gt;Greenacres&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Florida"&gt;Florida&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/United_States"&gt;United States&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.reuters.com/business/aerospace-defense/nine-people-dead-learjet-crash-south-florida-officials-say-2026-11-01/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Palm_Beach_County_Learjet_60_crash"&gt;2026 Palm Beach County Learjet 60 crash&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_1"&gt;Portal:Current events/2026 November 1&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_1&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-01:780f17b2a593</guid>
-      <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Disasters and accidents</category>
-      <category>2026 Palm Beach County Learjet 60 crash</category>
-    </item>
-    <item>
-      <title>Four workers are killed after entering a food waste tank at a hotel in Ujjain, Madhya Pradesh, India.</title>
-      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_1</link>
-      <description>&lt;p&gt;Four workers are killed after entering a food waste tank at a hotel in &lt;a href="https://en.wikipedia.org/wiki/Ujjain"&gt;Ujjain&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Madhya_Pradesh"&gt;Madhya Pradesh&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/India"&gt;India&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://indianexpress.com/article/india/ujjain-hote-deaths-suffocation-cleaning-waste-chamber-10945636/?ref=archive_pg"&gt;Indian Express&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_1"&gt;Portal:Current events/2026 November 1&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_1&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-01:fe8a7b214445</guid>
-      <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
       <category>Disasters and accidents</category>
     </item>
   </channel>
