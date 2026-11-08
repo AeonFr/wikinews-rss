@@ -6,22 +6,124 @@
     <description>News items from Wikipedia's Portal:Current events, one item per entry of the daily pages. Text from Wikipedia contributors, licensed under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). (history: https://en.wikipedia.org/w/index.php?title=Portal:Current_events&amp;action=history)</description>
     <language>en</language>
     <copyright>Text from Wikipedia contributors, licensed under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).</copyright>
-    <lastBuildDate>Sat, 07 Nov 2026 13:03:30 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 13:26:12 GMT</lastBuildDate>
     <generator>wikipedia-noticias-rss</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
     <atom:link href="https://aeonfr.github.io/wikinews-rss/feeds/en.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>New Zealanders vote to elect 120 members of the House of Representatives, with additional overhang seats.</title>
+      <title>A magnitude 5.7 earthquake strikes central Japan with its epicenter in Shizuoka Prefecture, while also primarily affecting Aichi, Gifu, Nagano and Yamanashi Prefectures.</title>
+      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_8</link>
+      <description>&lt;p&gt;A magnitude 5.7 &lt;a href="https://en.wikipedia.org/wiki/Earthquake"&gt;earthquake&lt;/a&gt; strikes central &lt;a href="https://en.wikipedia.org/wiki/Japan"&gt;Japan&lt;/a&gt; with its epicenter in &lt;a href="https://en.wikipedia.org/wiki/Shizuoka_Prefecture"&gt;Shizuoka Prefecture&lt;/a&gt;, while also primarily affecting &lt;a href="https://en.wikipedia.org/wiki/Aichi_Prefecture"&gt;Aichi&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Gifu_Prefecture"&gt;Gifu&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Nagano_Prefecture"&gt;Nagano&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Yamanashi_Prefecture"&gt;Yamanashi&lt;/a&gt; Prefectures. 22 people are injured.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://apnews.com/article/earthquake-japan-170119b720b08d9f40028e5bc40feb17"&gt;AP&lt;/a&gt;, &lt;a href="https://www3.nhk.or.jp/nhkworld/news/20261108de72261/"&gt;NHK World&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_8"&gt;Portal:Current events/2026 November 8&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_8&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-08:cac48281c17a</guid>
+      <pubDate>Sun, 08 Nov 2026 13:26:12 GMT</pubDate>
+      <category>Disasters and accidents</category>
+    </item>
+    <item>
+      <title>New Zealanders vote to elect 120 members of the House of Representatives, with 11 additional overhang seats.</title>
       <link>https://en.wikipedia.org/wiki/2026_New_Zealand_general_election</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/New_Zealanders"&gt;New Zealanders&lt;/a&gt; vote to elect 120 members of the &lt;a href="https://en.wikipedia.org/wiki/New_Zealand_House_of_Representatives"&gt;House of Representatives&lt;/a&gt;, with additional &lt;a href="https://en.wikipedia.org/wiki/Overhang_seat"&gt;overhang seats&lt;/a&gt;. &lt;a href="https://en.wikipedia.org/wiki/New_Zealand_National_Party"&gt;National&lt;/a&gt; leader &lt;a href="https://en.wikipedia.org/wiki/Christopher_Luxon"&gt;Christopher Luxon&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/New_Zealand_Labour_Party"&gt;Labour&lt;/a&gt; leader &lt;a href="https://en.wikipedia.org/wiki/Chris_Hipkins"&gt;Chris Hipkins&lt;/a&gt; both seek reappointment as the country's &lt;a href="https://en.wikipedia.org/wiki/Prime_Minister_of_New_Zealand"&gt;prime minister&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://apnews.com/article/new-zealand-election-results-luxon-hipkins-voting-8c1728ae2533201f68d5a5e75fc9e907"&gt;AP&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/New_Zealanders"&gt;New Zealanders&lt;/a&gt; vote to elect 120 members of the &lt;a href="https://en.wikipedia.org/wiki/New_Zealand_House_of_Representatives"&gt;House of Representatives&lt;/a&gt;, with 11 additional &lt;a href="https://en.wikipedia.org/wiki/Overhang_seat"&gt;overhang seats&lt;/a&gt;. &lt;a href="https://en.wikipedia.org/wiki/New_Zealand_National_Party"&gt;National&lt;/a&gt; leader &lt;a href="https://en.wikipedia.org/wiki/Christopher_Luxon"&gt;Christopher Luxon&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/New_Zealand_Labour_Party"&gt;Labour&lt;/a&gt; leader &lt;a href="https://en.wikipedia.org/wiki/Chris_Hipkins"&gt;Chris Hipkins&lt;/a&gt; both seek reappointment as the country's &lt;a href="https://en.wikipedia.org/wiki/Prime_Minister_of_New_Zealand"&gt;prime minister&lt;/a&gt;. Preliminary results see Labour lead in the &lt;a href="https://en.wikipedia.org/wiki/Popular_vote"&gt;popular vote&lt;/a&gt; and the Nationals having the most amount of seats, with &lt;a href="https://en.wikipedia.org/wiki/Special_vote"&gt;special votes&lt;/a&gt; yet to be counted.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://apnews.com/article/new-zealand-election-results-luxon-hipkins-voting-8c1728ae2533201f68d5a5e75fc9e907"&gt;AP&lt;/a&gt;, &lt;a href="https://www.rnz.co.nz/news/politics_election-2026/2420113/too-close-to-call-wait-begins-for-special-votes-after-cliffhanger-election-night"&gt;RNZ&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_New_Zealand_general_election"&gt;2026 New Zealand general election&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_7"&gt;Portal:Current events/2026 November 7&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_7&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:en:2026-11-07:b49c48587f99</guid>
       <pubDate>Sat, 07 Nov 2026 13:03:30 GMT</pubDate>
       <category>Politics and elections</category>
       <category>2026 New Zealand general election</category>
+    </item>
+    <item>
+      <title>Sudan's armed forces (SAF) says that they have recaptured the West Kordofan town of Iyal Bakhit.</title>
+      <link>https://en.wikipedia.org/wiki/Kordofan_campaign_(2023%E2%80%93present)</link>
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Sudan"&gt;Sudan&lt;/a&gt;'s &lt;a href="https://en.wikipedia.org/wiki/Sudanese_Armed_Forces"&gt;armed forces&lt;/a&gt; (SAF) says that they have recaptured the &lt;a href="https://en.wikipedia.org/wiki/West_Kordofan"&gt;West Kordofan&lt;/a&gt; town of Iyal Bakhit. Additionally, the SAF also says that they have downed a &lt;a href="https://en.wikipedia.org/wiki/Rapid_Support_Forces"&gt;Rapid Support Forces&lt;/a&gt; drone.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://sudantribune.com/article/320981"&gt;Sudan Tribune&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Sudanese_civil_war_(2023%E2%80%93present)"&gt;Sudanese civil war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Kordofan_campaign_(2023%E2%80%93present)"&gt;Kordofan campaign&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_7"&gt;Portal:Current events/2026 November 7&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_7&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-07:5455b2372911</guid>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Armed conflicts and attacks</category>
+      <category>Kordofan campaign</category>
+    </item>
+    <item>
+      <title>Six people are killed and 15 more injured in a drive-by mass shooting in the center of Kraków, Poland.</title>
+      <link>https://en.wikipedia.org/wiki/2026_Krak%C3%B3w_shooting</link>
+      <description>&lt;p&gt;Six people are killed and 15 more injured in a &lt;a href="https://en.wikipedia.org/wiki/Drive-by_shooting"&gt;drive-by&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Mass_shooting"&gt;mass shooting&lt;/a&gt; in the center of &lt;a href="https://en.wikipedia.org/wiki/Krak%C3%B3w"&gt;Kraków&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Poland"&gt;Poland&lt;/a&gt;. The perpetrator, who also killed his parents and his sister at their home in &lt;a href="https://en.wikipedia.org/wiki/Ostrowiec_%C5%9Awi%C4%99tokrzyski"&gt;Ostrowiec Świętokrzyski&lt;/a&gt;, is wounded by &lt;a href="https://en.wikipedia.org/wiki/Police_of_Poland"&gt;police&lt;/a&gt; and arrested.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.reuters.com/world/europe/two-kiled-least-10-injured-shooting-polish-city-krakow-tvn24-reports-2026-11-07/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Krak%C3%B3w_shooting"&gt;2026 Kraków shooting&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_7"&gt;Portal:Current events/2026 November 7&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_7&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-07:64ea9d9b1b29</guid>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Armed conflicts and attacks</category>
+      <category>2026 Kraków shooting</category>
+    </item>
+    <item>
+      <title>Saudi airstrikes hit homes near Sanaa, Yemen, killing at least 27 people and wounding 36 others.</title>
+      <link>https://en.wikipedia.org/wiki/Houthi%E2%80%93Saudi_conflict</link>
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Saudi_Arabia"&gt;Saudi&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Airstrike"&gt;airstrikes&lt;/a&gt; hit homes near &lt;a href="https://en.wikipedia.org/wiki/Sanaa"&gt;Sanaa&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Yemen"&gt;Yemen&lt;/a&gt;, killing at least 27 people and wounding 36 others.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://apnews.com/article/yemen-houthi-saudi-attacks-1b5aef5b86be2e96e1cd8a18165afaf6"&gt;AP&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Houthi%E2%80%93Saudi_conflict"&gt;Houthi–Saudi conflict&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_7"&gt;Portal:Current events/2026 November 7&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_7&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-07:b645846a91fe</guid>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Armed conflicts and attacks</category>
+      <category>Houthi–Saudi conflict</category>
+    </item>
+    <item>
+      <title>A drone strike of unknown origin is launched against a military base in Santa Rosa del Sur, Bolívar Department, Colombia, killing three soldiers and wounding 16 more.</title>
+      <link>https://en.wikipedia.org/wiki/Colombian_conflict</link>
+      <description>&lt;p&gt;A &lt;a href="https://en.wikipedia.org/wiki/Drone_warfare"&gt;drone strike&lt;/a&gt; of unknown origin is launched against &lt;a href="https://en.wikipedia.org/wiki/National_Army_of_Colombia"&gt;a military base&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Santa_Rosa_del_Sur"&gt;Santa Rosa del Sur&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Bol%C3%ADvar_Department"&gt;Bolívar Department&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Colombia"&gt;Colombia&lt;/a&gt;, killing three soldiers and wounding 16 more.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://apnews.com/article/colombia-drone-attack-military-base-7eb8bd82e98900f790b6d4e35eb702ec"&gt;AP&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Colombian_conflict"&gt;Colombian conflict&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_7"&gt;Portal:Current events/2026 November 7&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_7&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-07:aa0c44e4d498</guid>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Armed conflicts and attacks</category>
+      <category>Colombian conflict</category>
+    </item>
+    <item>
+      <title>Twenty-one people are killed and one person has been rescued after a migrant boat sinks off the coast of Kebemer, Senegal.</title>
+      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_7</link>
+      <description>&lt;p&gt;Twenty-one people are killed and one person has been rescued after a migrant boat sinks off the coast of &lt;a href="https://en.wikipedia.org/wiki/Kebemer"&gt;Kebemer&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Senegal"&gt;Senegal&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://english.news.cn/20261108/b421ddd6df0c45a7aff62b629f9a3581/c.html"&gt;Xinhua&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_7"&gt;Portal:Current events/2026 November 7&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_7&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-07:d522f8d3b613</guid>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Disasters and accidents</category>
+    </item>
+    <item>
+      <title>Unions, the yellow vests, and student protesters hold a fourth consecutive weekend of protests across France with about 146,000 participants.</title>
+      <link>https://en.wikipedia.org/wiki/2026_French_student_protests</link>
+      <description>&lt;p&gt;Unions, the &lt;a href="https://en.wikipedia.org/wiki/Yellow_vests_protests"&gt;yellow vests&lt;/a&gt;, and student protesters hold a fourth consecutive weekend of protests across &lt;a href="https://en.wikipedia.org/wiki/France"&gt;France&lt;/a&gt; with about 146,000 participants.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.afp.com/en/france-braces-protests-yellow-vests-urge-mass-disobedience"&gt;AFP&lt;/a&gt;, &lt;a href="https://www.aljazeera.com/news/2026/11/7/more-than-140000-rally-as-new-protests-against-rising-costs-sweep-france"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_French_student_protests"&gt;2026 French student protests&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_7"&gt;Portal:Current events/2026 November 7&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_7&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-07:7018ad4b7532</guid>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Politics and elections</category>
+      <category>2026 French student protests</category>
+    </item>
+    <item>
+      <title>Israeli president Isaac Herzog selects Yashar party leader Gadi Eisenkot to attempt to form a coalition government following inconclusive Knesset elections.</title>
+      <link>https://en.wikipedia.org/wiki/2026_Israeli_legislative_election</link>
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Israel"&gt;Israeli&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/President_of_Israel"&gt;president&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Isaac_Herzog"&gt;Isaac Herzog&lt;/a&gt; selects &lt;a href="https://en.wikipedia.org/wiki/Yashar_(political_party)"&gt;Yashar&lt;/a&gt; party leader &lt;a href="https://en.wikipedia.org/wiki/Gadi_Eisenkot"&gt;Gadi Eisenkot&lt;/a&gt; to attempt to form a &lt;a href="https://en.wikipedia.org/wiki/Coalition_government"&gt;coalition government&lt;/a&gt; following &lt;a href="https://en.wikipedia.org/wiki/Hung_parliament"&gt;inconclusive&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Knesset"&gt;Knesset&lt;/a&gt; elections. Eisenkot will have 28 days to secure sufficient support in the Knesset.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.abc.net.au/news/2026-11-08/israel-president-prime-minister-government-picked-eisenkot/107360472"&gt;ABC News Australia&lt;/a&gt;, &lt;a href="https://www.koreaherald.com/article/10929589"&gt;AFP via The Korea Herald&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Israeli_legislative_election"&gt;2026 Israeli legislative election&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_7"&gt;Portal:Current events/2026 November 7&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_7&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-07:f0b4ae2644f9</guid>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Politics and elections</category>
+      <category>2026 Israeli legislative election</category>
+    </item>
+    <item>
+      <title>In sailing, Frenchman Tom Laperche wins the 2026 Route du Rhum in a record six days, 13 hours, 27 minutes and 40 seconds, beating Charles Caudrelier's 2022 time by six hours and 19 minutes.</title>
+      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_7</link>
+      <description>&lt;p&gt;In &lt;a href="https://en.wikipedia.org/wiki/Sailing_(sport)"&gt;sailing&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/France"&gt;Frenchman&lt;/a&gt; Tom Laperche wins the 2026 &lt;a href="https://en.wikipedia.org/wiki/Route_du_Rhum"&gt;Route du Rhum&lt;/a&gt; in a record six days, 13 hours, 27 minutes and 40 seconds, beating &lt;a href="https://en.wikipedia.org/wiki/Charles_Caudrelier"&gt;Charles Caudrelier&lt;/a&gt;'s 2022 time by six hours and 19 minutes.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.afp.com/en/laperche-wins-route-du-rhum-record-time"&gt;AFP&lt;/a&gt;, &lt;a href="https://www.reuters.com/sports/frances-laperche-wins-route-du-rhum-ultim-record-time-2026-11-08/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_7"&gt;Portal:Current events/2026 November 7&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_7&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-07:6c2e72f4b56a</guid>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Sports</category>
     </item>
     <item>
       <title>A bus crashes into a tree in Lent, France, killing two people and wounding 16 more.</title>
@@ -32,6 +134,28 @@
       <guid isPermaLink="false">wikipedia:en:2026-11-06:b6000c047dd8</guid>
       <pubDate>Fri, 06 Nov 2026 14:17:35 GMT</pubDate>
       <category>Disasters and accidents</category>
+    </item>
+    <item>
+      <title>Politician Julio Portillo and three police officers are killed in an assassination shooting in Río Hondo, Zacapa Department, Guatemala, by unknown gunmen.</title>
+      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_6</link>
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Politics_of_Guatemala"&gt;Politician&lt;/a&gt; Julio Portillo and three &lt;a href="https://en.wikipedia.org/wiki/Law_enforcement_in_Guatemala"&gt;police officers&lt;/a&gt; are killed in an &lt;a href="https://en.wikipedia.org/wiki/Assassination"&gt;assassination&lt;/a&gt; shooting in &lt;a href="https://en.wikipedia.org/wiki/R%C3%ADo_Hondo,_Zacapa"&gt;Río Hondo&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Zacapa_Department"&gt;Zacapa Department&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Guatemala"&gt;Guatemala&lt;/a&gt;, by unknown gunmen.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/11/7/guatemalan-lawmaker-and-three-police-officers-killed-in-armed-attack"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_6"&gt;Portal:Current events/2026 November 6&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_6&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-06:719d351a1bf2</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Armed conflicts and attacks</category>
+    </item>
+    <item>
+      <title>Between 100 and 200 people are arrested by Dutch police after protesters break into and temporarily occupy a construction site for a Microsoft data center in Sloterdijk, Amsterdam, during an…</title>
+      <link>https://en.wikipedia.org/wiki/2026_European_unrest</link>
+      <description>&lt;p&gt;Between 100 and 200 people are arrested by &lt;a href="https://en.wikipedia.org/wiki/Netherlands"&gt;Dutch&lt;/a&gt; police after protesters break into and temporarily &lt;a href="https://en.wikipedia.org/wiki/Occupation_(protest)"&gt;occupy&lt;/a&gt; a construction site for a &lt;a href="https://en.wikipedia.org/wiki/Microsoft"&gt;Microsoft&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Data_center"&gt;data center&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Sloterdijk,_Amsterdam"&gt;Sloterdijk&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Amsterdam"&gt;Amsterdam&lt;/a&gt;, during an &lt;a href="https://en.wikipedia.org/wiki/Opposition_to_AI_data_centers"&gt;anti-data-center&lt;/a&gt; rally.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/11/6/protesters-break-into-microsoft-data-centre-site-in-amsterdam"&gt;Al Jazeera&lt;/a&gt;, &lt;a href="https://www.reuters.com/world/europe/activists-breach-microsoft-data-centre-construction-site-protests-spread-europe-2026-11-06/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_European_unrest"&gt;2026 European unrest&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_6"&gt;Portal:Current events/2026 November 6&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_6&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-06:1b43415a4e0b</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Law and crime</category>
+      <category>2026 European unrest</category>
     </item>
     <item>
       <title>The death toll from an armed attack yesterday by suspected Allied Democratic Forces militants on several villages in North Kivu, eastern Democratic Republic of Congo, has risen to 33.</title>
@@ -46,9 +170,9 @@
       <category>Allied Democratic Forces insurgency</category>
     </item>
     <item>
-      <title>Saudi Arabia launches an airstrike against a market in Taiz, Yemen, killing 30 people and wounding eight more.</title>
+      <title>Saudi Arabia launches an airstrike against a market in Taiz Governorate, Yemen, killing 30 people and wounding eight more.</title>
       <link>https://en.wikipedia.org/wiki/Houthi%E2%80%93Saudi_conflict</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Saudi_Arabia"&gt;Saudi Arabia&lt;/a&gt; launches an &lt;a href="https://en.wikipedia.org/wiki/Airstrike"&gt;airstrike&lt;/a&gt; against a market in &lt;a href="https://en.wikipedia.org/wiki/Taiz"&gt;Taiz&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Yemen"&gt;Yemen&lt;/a&gt;, killing 30 people and wounding eight more.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Saudi_Arabia"&gt;Saudi Arabia&lt;/a&gt; launches an &lt;a href="https://en.wikipedia.org/wiki/Airstrike"&gt;airstrike&lt;/a&gt; against a market in &lt;a href="https://en.wikipedia.org/wiki/Taiz_Governorate"&gt;Taiz Governorate&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Yemen"&gt;Yemen&lt;/a&gt;, killing 30 people and wounding eight more.&lt;/p&gt;
 &lt;p&gt;Sources: &lt;a href="https://apnews.com/article/yemen-airstrikes-market-houthis-bcc2409ada0398125173d84261bd1fff"&gt;AP&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Houthi%E2%80%93Saudi_conflict"&gt;Houthi–Saudi conflict&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_6"&gt;Portal:Current events/2026 November 6&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_6&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
@@ -126,9 +250,9 @@
       <category>Shakahola Forest incident</category>
     </item>
     <item>
-      <title>American cinematographer Thomas Markle, the father of Meghan, Duchess of Sussex, is arrested in Tampa, Florida, over allegations of possessing child sexual abuse material.</title>
+      <title>American cinematographer Thomas Markle is arrested in Tampa, Florida, over allegations of possessing child sexual abuse material.</title>
       <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_6</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/United_States"&gt;American&lt;/a&gt; cinematographer &lt;a href="https://en.wikipedia.org/wiki/Thomas_Markle"&gt;Thomas Markle&lt;/a&gt;, the father of &lt;a href="https://en.wikipedia.org/wiki/Meghan,_Duchess_of_Sussex"&gt;Meghan, Duchess of Sussex&lt;/a&gt;, is arrested in &lt;a href="https://en.wikipedia.org/wiki/Tampa"&gt;Tampa&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Florida"&gt;Florida&lt;/a&gt;, over allegations of possessing &lt;a href="https://en.wikipedia.org/wiki/Child_sexual_abuse_laws_in_the_United_States"&gt;child sexual abuse&lt;/a&gt; material.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/United_States"&gt;American&lt;/a&gt; cinematographer &lt;a href="https://en.wikipedia.org/wiki/Thomas_Markle"&gt;Thomas Markle&lt;/a&gt; is arrested in &lt;a href="https://en.wikipedia.org/wiki/Tampa"&gt;Tampa&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Florida"&gt;Florida&lt;/a&gt;, over allegations of possessing &lt;a href="https://en.wikipedia.org/wiki/Child_sexual_abuse_laws_in_the_United_States"&gt;child sexual abuse&lt;/a&gt; material.&lt;/p&gt;
 &lt;p&gt;Sources: &lt;a href="https://www.bbc.co.uk/news/live/cwnv03203yvmt"&gt;BBC News&lt;/a&gt;, &lt;a href="https://www.cbsnews.com/news/thomas-markle-sr-meghan-father-arrested-florida/"&gt;CBS News&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_6"&gt;Portal:Current events/2026 November 6&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_6&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:en:2026-11-06:3e2e5ab863b0</guid>
@@ -269,13 +393,15 @@
     </item>
     <item>
       <title>Eight people are killed and another is injured in a shooting spree at three separated locations in Afyonkarahisar Province, Turkey.</title>
-      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_5</link>
+      <link>https://en.wikipedia.org/wiki/2026_Afyonkarahisar_shootings</link>
       <description>&lt;p&gt;Eight people are killed and another is injured in a &lt;a href="https://en.wikipedia.org/wiki/Spree_killer"&gt;shooting spree&lt;/a&gt; at three separated locations in &lt;a href="https://en.wikipedia.org/wiki/Afyonkarahisar_Province"&gt;Afyonkarahisar Province&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Turkey"&gt;Turkey&lt;/a&gt;. The perpetrator is arrested.&lt;/p&gt;
 &lt;p&gt;Sources: &lt;a href="https://apnews.com/article/turkey-attacker-shooting-spree-8-dead-17a03eb1f79183017eb35016f60c8a98"&gt;AP&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Afyonkarahisar_shootings"&gt;2026 Afyonkarahisar shootings&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_5"&gt;Portal:Current events/2026 November 5&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_5&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:en:2026-11-05:b5e97274264d</guid>
       <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
       <category>Law and crime</category>
+      <category>2026 Afyonkarahisar shootings</category>
     </item>
     <item>
       <title>Mexico approves the Digital Economy Act for Digital and Electronic Payments, which allows it to designate sectors in which digital payments are the only accepted means of payment.</title>
@@ -422,6 +548,16 @@
       <category>Sports</category>
     </item>
     <item>
+      <title>Former American internet personality and YouTuber Bryant Moreland (known online as EDP445) is arrested in Las Vegas, Nevada, U.S., on multiple felony sex crime charges following self-incriminating…</title>
+      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4</link>
+      <description>&lt;p&gt;Former American internet personality and &lt;a href="https://en.wikipedia.org/wiki/YouTube"&gt;YouTuber&lt;/a&gt; Bryant Moreland (known online as &lt;a href="https://en.wikipedia.org/wiki/EDP445"&gt;EDP445&lt;/a&gt;) is arrested in &lt;a href="https://en.wikipedia.org/wiki/Las_Vegas"&gt;Las Vegas&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Nevada"&gt;Nevada&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/United_States"&gt;U.S.&lt;/a&gt;, on multiple felony &lt;a href="https://en.wikipedia.org/wiki/Sex_crime"&gt;sex crime&lt;/a&gt; charges following self-incriminating statements made in a recent documentary by American director &lt;a href="https://en.wikipedia.org/wiki/Mike_Clum"&gt;Mike Clum&lt;/a&gt; including a 2021 incident in &lt;a href="https://en.wikipedia.org/wiki/Bakersfield,_California"&gt;Bakersfield&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/California"&gt;California&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.nytimes.com/2026/11/06/us/edp445-youtuber-arrested-sex-crimes.html"&gt;The New York Times&lt;/a&gt;, &lt;a href="https://www.hindustantimes.com/world-news/us-news/youtuber-edp445-bryant-moreland-arrested-in-las-vegas-over-alleged-sex-crimes-involving-a-minor-101793832237507.html"&gt;The Hindustan Times&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4"&gt;Portal:Current events/2026 November 4&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_4&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-04:e42ef0927743</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Law and crime</category>
+    </item>
+    <item>
       <title>President of the Bolivian Supreme Court Romer Saucedo announces that he is leaving the country following an investigation into drug trafficking in which senior judicial officials, such as former…</title>
       <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4</link>
       <description>&lt;p&gt;President of the &lt;a href="https://en.wikipedia.org/wiki/Supreme_Tribunal_of_Justice_of_Bolivia"&gt;Bolivian Supreme Court&lt;/a&gt; Romer Saucedo announces that he is leaving the country following an investigation into &lt;a href="https://en.wikipedia.org/wiki/Drug_trafficking"&gt;drug trafficking&lt;/a&gt; in which senior judicial officials, such as former Attorney General Roger Mariaca, have been arrested.&lt;/p&gt;
@@ -430,142 +566,6 @@
       <guid isPermaLink="false">wikipedia:en:2026-11-04:bd9309206b0b</guid>
       <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
       <category>Law and crime</category>
-    </item>
-    <item>
-      <title>Two women are killed in a airstrike by Sudan's army on a water source in Umm Badr, North Kordofan.</title>
-      <link>https://en.wikipedia.org/wiki/War_crimes_in_the_Sudanese_civil_war_(2023%E2%80%93present)</link>
-      <description>&lt;p&gt;Two women are killed in a airstrike by &lt;a href="https://en.wikipedia.org/wiki/Sudan"&gt;Sudan&lt;/a&gt;'s &lt;a href="https://en.wikipedia.org/wiki/Sudanese_Army"&gt;army&lt;/a&gt; on a water source in &lt;a href="https://en.wikipedia.org/wiki/Umm_Badr"&gt;Umm Badr&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/North_Kordofan"&gt;North Kordofan&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://sudantribune.com/article/320888"&gt;Sudan Tribune&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Sudanese_civil_war_(2023%E2%80%93present)"&gt;Sudanese civil war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/War_crimes_in_the_Sudanese_civil_war_(2023%E2%80%93present)"&gt;War crimes in the Sudanese civil war, Kordofan campaign&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4"&gt;Portal:Current events/2026 November 4&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_4&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-04:c72de79a76c6</guid>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Armed conflicts and attacks</category>
-      <category>War crimes in the Sudanese civil war, Kordofan campaign</category>
-    </item>
-    <item>
-      <title>Five people are killed while two others are injured in an explosion at a suspected illegal fireworks factory in Malasiqui, Pangasinan, Philippines.</title>
-      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4</link>
-      <description>&lt;p&gt;Five people are killed while two others are injured in an explosion at a suspected illegal &lt;a href="https://en.wikipedia.org/wiki/Firework"&gt;fireworks&lt;/a&gt; factory in &lt;a href="https://en.wikipedia.org/wiki/Malasiqui,_Pangasinan"&gt;Malasiqui, Pangasinan&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Philippines"&gt;Philippines&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.philstar.com/nation/2026/11/06/2568219/5-killed-pangasinan-firecracker-factory-explosion/"&gt;The Philippine Star&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4"&gt;Portal:Current events/2026 November 4&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_4&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-04:b9e352c665cc</guid>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Disasters and accidents</category>
-    </item>
-    <item>
-      <title>A fire and explosion at a Panasonic subsidiary's factory in Hsinchu County, Taiwan, kills two employees and injures five others.</title>
-      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4</link>
-      <description>&lt;p&gt;A fire and explosion at a &lt;a href="https://en.wikipedia.org/wiki/Panasonic"&gt;Panasonic&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Subsidiary"&gt;subsidiary&lt;/a&gt;'s factory in &lt;a href="https://en.wikipedia.org/wiki/Hsinchu_County"&gt;Hsinchu County&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Taiwan"&gt;Taiwan&lt;/a&gt;, kills two employees and injures five others.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.reuters.com/world/asia-pacific/two-confirmed-dead-after-taiwan-panasonic-factory-fire-2026-11-05/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4"&gt;Portal:Current events/2026 November 4&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_4&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-04:f2a698680a07</guid>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Disasters and accidents</category>
-    </item>
-    <item>
-      <title>Hackers steal approximately €100 million (US$112 million) from French bank Crédit Mutuel through unauthorized transactions using the bank's account.</title>
-      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4</link>
-      <description>&lt;p&gt;Hackers steal approximately &lt;a href="https://en.wikipedia.org/wiki/Euro"&gt;€&lt;/a&gt;100 million (US$112 million) from &lt;a href="https://en.wikipedia.org/wiki/France"&gt;French&lt;/a&gt; bank &lt;a href="https://en.wikipedia.org/wiki/Cr%C3%A9dit_Mutuel"&gt;Crédit Mutuel&lt;/a&gt; through unauthorized transactions using the bank's account.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.firstpost.com/business/french-bank-hit-by-cyberattack-hackers-siphon-off-nearly-112-million-14058157.html"&gt;Firstpost&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4"&gt;Portal:Current events/2026 November 4&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_4&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-04:d0c61ff55a45</guid>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Law and crime</category>
-    </item>
-    <item>
-      <title>The Bangladeshi garment industry wage board agrees to increase minimum wages following five days of worker protests and clashes with police.</title>
-      <link>https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests</link>
-      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Bangladesh"&gt;Bangladeshi&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Textile_industry_in_Bangladesh"&gt;garment industry&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Worker_standards_board"&gt;wage board&lt;/a&gt; agrees to increase &lt;a href="https://en.wikipedia.org/wiki/Minimum_wage"&gt;minimum wages&lt;/a&gt; following five days of &lt;a href="https://en.wikipedia.org/wiki/Strike_action"&gt;worker protests&lt;/a&gt; and clashes with &lt;a href="https://en.wikipedia.org/wiki/Bangladesh_Police"&gt;police&lt;/a&gt;. Workers demand &lt;a href="https://en.wikipedia.org/wiki/Bangladeshi_taka"&gt;৳&lt;/a&gt;30,000 (&lt;a href="https://en.wikipedia.org/wiki/US$"&gt;US$&lt;/a&gt;240) monthly, up from ৳12,500 (US$100), while the board has not specified the increase.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.afp.com/en/bangladesh-increase-garment-sector-pay-after-protests"&gt;AFP&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"&gt;2026 Bangladesh garment workers protests&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4"&gt;Portal:Current events/2026 November 4&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_4&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-04:25178dc82521</guid>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Business and economy</category>
-      <category>2026 Bangladesh garment workers protests</category>
-    </item>
-    <item>
-      <title>The Singaporean parliament amends the Transboundary Haze Pollution Act of 2014, introducing arrest powers, permitting trials in absentia, and increasing maximum fines tenfold to S$20 million (US$15…</title>
-      <link>https://en.wikipedia.org/wiki/2026_Southeast_Asian_haze</link>
-      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Singapore"&gt;Singaporean&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Parliament_of_Singapore"&gt;parliament&lt;/a&gt; amends the &lt;a href="https://en.wikipedia.org/wiki/Transboundary_Haze_Pollution_Act_of_2014"&gt;Transboundary Haze Pollution Act of 2014&lt;/a&gt;, introducing &lt;a href="https://en.wikipedia.org/wiki/Law_enforcement_in_Singapore"&gt;arrest powers&lt;/a&gt;, permitting &lt;a href="https://en.wikipedia.org/wiki/Trial_in_absentia"&gt;trials &lt;i&gt;in absentia&lt;/i&gt;&lt;/a&gt;, and increasing maximum fines tenfold to &lt;a href="https://en.wikipedia.org/wiki/S$"&gt;S$&lt;/a&gt;20 million (US$15 million) following widespread &lt;a href="https://en.wikipedia.org/wiki/Environmental_issues_in_Singapore"&gt;air pollution&lt;/a&gt; from &lt;a href="https://en.wikipedia.org/wiki/Indonesia"&gt;Indonesian&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/2026_Indonesia_wildfires"&gt;wildfires&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.afp.com/en/singapore-toughens-haze-law-arrest-powers-bigger-fines"&gt;AFP&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Southeast_Asian_haze"&gt;2026 Southeast Asian haze&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4"&gt;Portal:Current events/2026 November 4&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_4&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-04:703b7cc7a415</guid>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Health and environment</category>
-      <category>2026 Southeast Asian haze</category>
-    </item>
-    <item>
-      <title>The United Kingdom's Office for National Statistics reports that deaths linked to cocaine use have overtaken deaths from heroin in England and Wales for the first time on record.</title>
-      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4</link>
-      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/United_Kingdom"&gt;United Kingdom&lt;/a&gt;'s &lt;a href="https://en.wikipedia.org/wiki/Office_for_National_Statistics"&gt;Office for National Statistics&lt;/a&gt; reports that deaths linked to &lt;a href="https://en.wikipedia.org/wiki/Cocaine"&gt;cocaine&lt;/a&gt; use have overtaken deaths from &lt;a href="https://en.wikipedia.org/wiki/Heroin"&gt;heroin&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/England_and_Wales"&gt;England and Wales&lt;/a&gt; for the first time on record. The increase in deaths from cocaine use is blamed on increased purity of the drug and its widespread availability across the UK in recent years.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.bbc.co.uk/news/articles/cmdxw051np9jo"&gt;BBC News&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4"&gt;Portal:Current events/2026 November 4&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_4&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-04:5115750f2dda</guid>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Health and environment</category>
-    </item>
-    <item>
-      <title>Philippine authorities seize a 200-kilogram (440 lb) shipment of methamphetamine, whose origin is traced to Laos, at the Manila International Container Port.</title>
-      <link>https://en.wikipedia.org/wiki/Illegal_drug_trade_in_the_Philippines</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Philippines"&gt;Philippine&lt;/a&gt; authorities seize a 200-kilogram (440 lb) shipment of &lt;a href="https://en.wikipedia.org/wiki/Methamphetamine"&gt;methamphetamine&lt;/a&gt;, whose origin is traced to &lt;a href="https://en.wikipedia.org/wiki/Laos"&gt;Laos&lt;/a&gt;, at the &lt;a href="https://en.wikipedia.org/wiki/Port_of_Manila"&gt;Manila International Container Port&lt;/a&gt;. The shipment had arrived six days after Laotian police &lt;a href="https://en.wikipedia.org/wiki/2026_Laos_private_jet_drug_smuggling_case"&gt;found&lt;/a&gt; similar contraband destined for the Philippines.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.arabnews.com/world/philippines-seizes-200-kg-of-methamphetamine-at-manila-port-3009754"&gt;Arab News&lt;/a&gt;, &lt;a href="https://globalnation.inquirer.net/345789/this-time-shabu-cargo-from-laos-reaches-ph-before-seizure"&gt;Philippine Daily Inquirer&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Illegal_drug_trade_in_the_Philippines"&gt;Illegal drug trade in the Philippines&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4"&gt;Portal:Current events/2026 November 4&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_4&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-04:b4a273d6e5da</guid>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Law and crime</category>
-      <category>Illegal drug trade in the Philippines</category>
-    </item>
-    <item>
-      <title>Hungary makes Communist-era secret police records publicly accessible through a database containing approximately 60,000 names linked to former state security services.</title>
-      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Hungary"&gt;Hungary&lt;/a&gt; makes &lt;a href="https://en.wikipedia.org/wiki/Hungarian_People%27s_Republic"&gt;Communist-era&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Secret_police"&gt;secret police&lt;/a&gt; records publicly accessible through a &lt;a href="https://en.wikipedia.org/wiki/Database"&gt;database&lt;/a&gt; containing approximately 60,000 names linked to former &lt;a href="https://en.wikipedia.org/wiki/Ministry_of_Internal_Affairs_III"&gt;state security services&lt;/a&gt;. &lt;a href="https://en.wikipedia.org/wiki/Prime_Minister_of_Hungary"&gt;Prime Minister&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/P%C3%A9ter_Magyar"&gt;Péter Magyar&lt;/a&gt; announces that additional documents will become available in February 2027.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.reuters.com/world/hungary-opens-communist-era-informer-files-belated-reckoning-with-cold-war-past-2026-11-04/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4"&gt;Portal:Current events/2026 November 4&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_4&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-04:10031745aaa7</guid>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Politics and elections</category>
-    </item>
-    <item>
-      <title>The Neil Gehrels Swift Observatory, a space telescope for studying gamma-ray bursts, re-enters Earth's atmosphere over Sumatra, ending its mission of nearly 22 years.</title>
-      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4</link>
-      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Neil_Gehrels_Swift_Observatory"&gt;Neil Gehrels Swift Observatory&lt;/a&gt;, a &lt;a href="https://en.wikipedia.org/wiki/Space_telescope"&gt;space telescope&lt;/a&gt; for studying &lt;a href="https://en.wikipedia.org/wiki/Gamma-ray_burst"&gt;gamma-ray bursts&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Atmospheric_entry#Uncontrolled_and_unprotected_entries"&gt;re-enters&lt;/a&gt; Earth's atmosphere over &lt;a href="https://en.wikipedia.org/wiki/Sumatra"&gt;Sumatra&lt;/a&gt;, ending its mission of nearly 22 years.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://science.nasa.gov/blogs/swift/2026/11/02/nasas-swift-observatory-to-re-enter-atmosphere/"&gt;NASA&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4"&gt;Portal:Current events/2026 November 4&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_4&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-04:36adc5894020</guid>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Science and technology</category>
-    </item>
-    <item>
-      <title>The Reserve Bank of Australia raises its benchmark interest rate by 0.25 percentage points to 4.85%, its highest level since 2008, citing persistent inflation and rising energy costs associated with…</title>
-      <link>https://en.wikipedia.org/wiki/2026_Iran_war_fuel_crisis</link>
-      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Reserve_Bank_of_Australia"&gt;Reserve Bank&lt;/a&gt; of &lt;a href="https://en.wikipedia.org/wiki/Australia"&gt;Australia&lt;/a&gt; raises its benchmark &lt;a href="https://en.wikipedia.org/wiki/Interest_rate"&gt;interest rate&lt;/a&gt; by 0.25 percentage points to 4.85%, its highest level since 2008, citing persistent &lt;a href="https://en.wikipedia.org/wiki/Inflation"&gt;inflation&lt;/a&gt; and rising &lt;a href="https://en.wikipedia.org/wiki/Energy_in_Australia"&gt;energy&lt;/a&gt; costs associated with the &lt;a href="https://en.wikipedia.org/wiki/2026_Iran_war"&gt;Iran war&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.france24.com/en/live-news/20261103-australian-central-bank-lifts-key-interest-rate-to-18-year-high"&gt;AFP via France 24&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Iran_war_fuel_crisis"&gt;2026 Iran war fuel crisis&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_3"&gt;Portal:Current events/2026 November 3&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_3&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-03:e45574177dfb</guid>
-      <pubDate>Tue, 03 Nov 2026 14:17:16 GMT</pubDate>
-      <category>Business and economy</category>
-      <category>2026 Iran war fuel crisis</category>
-    </item>
-    <item>
-      <title>Several states elect their first Democratic representatives in decades, including: Adam Hamilton, the first Democrat to win a Kansas Senate seat since 1932; James Talarico, the first Democrat to win… / U.S. news organizations project that the Democratic Party will control the House of Representatives and the Senate in the upcoming 120th Congress, ending the Republican Party's majority in both… / The United States holds midterm elections for 435 members and five non-voting delegates of the House of Representatives, 35 members of the Senate (including special elections in Florida and Ohio), 39…</title>
-      <link>https://en.wikipedia.org/wiki/2026_United_States_elections</link>
-      <description>&lt;p&gt;Several &lt;a href="https://en.wikipedia.org/wiki/U.S._state"&gt;states&lt;/a&gt; elect their first Democratic representatives in decades, including: &lt;a href="https://en.wikipedia.org/wiki/Adam_Hamilton_(American_politician)"&gt;Adam Hamilton&lt;/a&gt;, the first Democrat to win a &lt;a href="https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Kansas"&gt;Kansas&lt;/a&gt; Senate seat since &lt;a href="https://en.wikipedia.org/wiki/1932_United_States_Senate_election_in_Kansas"&gt;1932&lt;/a&gt;; &lt;a href="https://en.wikipedia.org/wiki/James_Talarico"&gt;James Talarico&lt;/a&gt;, the first Democrat to win a &lt;a href="https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"&gt;Texas&lt;/a&gt; Senate seat since &lt;a href="https://en.wikipedia.org/wiki/1988_United_States_Senate_election_in_Texas"&gt;1988&lt;/a&gt;; and &lt;a href="https://en.wikipedia.org/wiki/Gina_Hinojosa"&gt;Gina Hinojosa&lt;/a&gt;, the first Democrat to become &lt;a href="https://en.wikipedia.org/wiki/Governor_of_Texas"&gt;governor&lt;/a&gt; of &lt;a href="https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"&gt;Texas&lt;/a&gt; since &lt;a href="https://en.wikipedia.org/wiki/1990_Texas_gubernatorial_election"&gt;1990&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.nbcnews.com/politics/2026-election/adam-hamilton-kansas-senate-democrat-winner-upset-roger-marshall-rcna603310"&gt;NBC News&lt;/a&gt;, &lt;a href="https://www.axios.com/local/san-antonio/2026/11/04/texas-governor-race-results-hinojosa-abbott"&gt;Axios&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/News_media_in_the_United_States"&gt;U.S. news&lt;/a&gt; organizations project that the &lt;a href="https://en.wikipedia.org/wiki/Democratic_Party_(United_States)"&gt;Democratic Party&lt;/a&gt; will control the House of Representatives and the Senate in the upcoming &lt;a href="https://en.wikipedia.org/wiki/120th_United_States_Congress"&gt;120th Congress&lt;/a&gt;, ending the &lt;a href="https://en.wikipedia.org/wiki/Republican_Party_(United_States)"&gt;Republican Party&lt;/a&gt;'s majority in &lt;a href="https://en.wikipedia.org/wiki/United_States_Congress"&gt;both chambers&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.reuters.com/world/us/democrats-projected-win-majority-control-us-house-us-media-project-2026-11-04/"&gt;Reuters&lt;/a&gt;, &lt;a href="https://www.theguardian.com/us-news/2026/nov/03/democrats-senate-republicans-midterms-trump"&gt;The Guardian&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/United_States"&gt;United States&lt;/a&gt; holds &lt;a href="https://en.wikipedia.org/wiki/United_States_midterm_election"&gt;midterm elections&lt;/a&gt; for 435 &lt;a href="https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections"&gt;members&lt;/a&gt; and five &lt;a href="https://en.wikipedia.org/wiki/Non-voting_members_of_the_United_States_House_of_Representatives"&gt;non-voting delegates&lt;/a&gt; of the &lt;a href="https://en.wikipedia.org/wiki/United_States_House_of_Representatives"&gt;House of Representatives&lt;/a&gt;, 35 &lt;a href="https://en.wikipedia.org/wiki/2026_United_States_Senate_elections"&gt;members&lt;/a&gt; of the &lt;a href="https://en.wikipedia.org/wiki/United_States_Senate"&gt;Senate&lt;/a&gt; (including &lt;a href="https://en.wikipedia.org/wiki/List_of_special_elections_to_the_United_States_Senate"&gt;special elections&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/2026_United_States_Senate_special_election_in_Florida"&gt;Florida&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/2026_United_States_Senate_special_election_in_Ohio"&gt;Ohio&lt;/a&gt;), 39 &lt;a href="https://en.wikipedia.org/wiki/U.S._state"&gt;state&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Territories_of_the_United_States"&gt;territorial&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections"&gt;governors&lt;/a&gt;, and numerous other &lt;a href="https://en.wikipedia.org/wiki/2026_United_States_state_legislative_elections"&gt;state&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/2026_United_States_state_legislative_elections#Territorial_and_federal_district_summaries"&gt;territorial&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/2026_Navajo_Nation_presidential_election"&gt;tribal&lt;/a&gt;, and &lt;a href="https://en.wikipedia.org/wiki/2026_United_States_local_elections"&gt;local&lt;/a&gt; officials.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.theguardian.com/us-news/2026/nov/02/what-are-midterm-elections"&gt;The Guardian&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_United_States_elections"&gt;2026 United States elections&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_3"&gt;Portal:Current events/2026 November 3&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_3&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-03:64d9af59c719</guid>
-      <pubDate>Tue, 03 Nov 2026 14:17:16 GMT</pubDate>
-      <category>Politics and elections</category>
-      <category>2026 United States elections</category>
     </item>
   </channel>
 </rss>
