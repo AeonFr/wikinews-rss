@@ -277,7 +277,7 @@
    "category": null,
    "date": null,
    "date_source": "first_seen",
-   "extract": "El Gran Premio de São Paulo de 2026 es la vigésima ronda de la temporada 2026 de Fórmula 1.",
+   "extract": "El Gran Premio de São Paulo de 2026 fue la vigésima ronda de la temporada 2026 de Fórmula 1.",
    "first_seen": "2026-11-05T14:40:45Z",
    "group_key": "pageid:11378416",
    "guid": "wikipedia:es:11378416",
@@ -494,7 +494,7 @@
    "category": null,
    "date": "2026-11-08",
    "date_source": "text_date",
-   "extract": "El viaje apostólico de León XIV a Argentina, previsto entre el 8 y el 11 de noviembre de 2026, será el primer viaje del papa a dicho país, como parte del 7.° viaje apostólico fuera de Italia, que incluye Uruguay y Perú. Visitará tres ciudades y permanecerá en el país durante cuatro días, antes de…",
+   "extract": "El viaje apostólico de León XIV a Argentina, que se lleva a cabo entre el 8 y el 11 de noviembre de 2026, es el primer viaje del papa a dicho país, como parte del 7.° viaje apostólico fuera de Italia, que incluye Uruguay y Perú. Visitará tres ciudades y permanecerá en el país durante cuatro días…",
    "first_seen": "2026-11-08T13:26:12Z",
    "group_key": "pageid:11567787",
    "guid": "wikipedia:es:11567787",
@@ -546,7 +546,7 @@
    "category": null,
    "date": null,
    "date_source": "first_seen",
-   "extract": "El papa León XIV está realizando su primera visita a Uruguay, entre el 6 y el 8 de noviembre de 2026, en el marco de su séptimo viaje apostólico internacional y el primero al continente americano. El país será la primera escala de una gira que también incluirá visitas a Argentina y Perú.",
+   "extract": "El papa León XIV realizó su primera visita a Uruguay, entre el 6 y el 8 de noviembre de 2026, en el marco de su séptimo viaje apostólico internacional y el primero al continente americano. El país fue la primera escala de una gira que también incluyó visitas a Argentina y Perú.",
    "first_seen": "2026-11-05T14:40:45Z",
    "group_key": "pageid:11589301",
    "guid": "wikipedia:es:11589301",
@@ -848,12 +848,12 @@
    "category": null,
    "date": null,
    "date_source": "first_seen",
-   "extract": "La Intervención militar salvadoreña en Haití hace referencia al despliegue de tropas militares de El Salvador en el territorio de Haití. El despliegue comenzó oficialmente a partir del 21 de octubre de 2026, luego de una emboscada y posterior ataque de las bandas criminales haitianas contra cuatro…",
+   "extract": "La Intervención salvadoreña en Haití hace referencia al despliegue de la Fuerza Armada de El Salvador en el oeste de La Española, bajo el beneplácito del gobierno haitiano para apoyar a las fuerzas de seguridad nacionales a repeler a grupos y organizaciones «pandilleras» de carácter paramilitar.…",
    "first_seen": "2026-11-03T14:17:16Z",
    "group_key": "pageid:11627965",
    "guid": "wikipedia:es:11627965",
    "html": "<a href=\"https://es.wikipedia.org/wiki/Intervenci%C3%B3n_militar_salvadore%C3%B1a_en_Hait%C3%AD\">Intervención militar salvadoreña en Haití</a>",
-   "link": "https://es.wikipedia.org/wiki/Intervenci%C3%B3n_militar_salvadore%C3%B1a_en_Hait%C3%AD",
+   "link": "https://es.wikipedia.org/wiki/Intervenci%C3%B3n_salvadore%C3%B1a_en_Hait%C3%AD",
    "main_title": "Intervención militar salvadoreña en Haití",
    "order": 1,
    "page": "Plantilla:Portada:Actualidad",
@@ -901,7 +901,7 @@
    "category": null,
    "date": null,
    "date_source": "first_seen",
-   "extract": "El Rolex Paris Masters 2026 será un torneo de tenis masculino que se jugará desde el 2 hasta el 8 de noviembre de 2026 sobre pista dura. Corresponde a la edición número 55.ª del llamado Masters de París, patrocinado por Rolex.",
+   "extract": "El Rolex Paris Masters 2026 fue un torneo de tenis masculino que se jugó desde el 2 hasta el 8 de noviembre de 2026 sobre pista dura. Correspondió a la edición número 55.ª del llamado Masters de París, patrocinado por Rolex.",
    "first_seen": "2026-11-01T13:26:18Z",
    "group_key": "pageid:11631014",
    "guid": "wikipedia:es:11631014",
@@ -1054,5 +1054,5 @@
    "topics": []
   }
  },
- "updated": "2026-11-08T13:26:12Z"
+ "updated": "2026-11-09T16:21:43Z"
 }
