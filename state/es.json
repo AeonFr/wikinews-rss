@@ -118,6 +118,7 @@
    "date_source": "first_seen",
    "extract": "Las elecciones generales de Nueva Zelanda de 2026 se realizarán el 7 de noviembre para determinar la composición del 55.º Parlamento de Nueva Zelanda en 2026, después de que el 54.º Parlamento actualmente en funciones se disuelva o expire.",
    "first_seen": "2026-11-06T14:17:35Z",
+   "gone_since": "2026-11-10T14:54:10Z",
    "group_key": "pageid:11254366",
    "guid": "wikipedia:es:11254366",
    "html": "<a href=\"https://es.wikipedia.org/wiki/Elecciones_generales_de_Nueva_Zelanda_de_2026\">Elecciones generales de Nueva Zelanda</a>",
@@ -144,6 +145,7 @@
    "date_source": "text_date",
    "extract": "La Copa Mundial Femenina de Fútbol Sub-17 de 2026 (En árabe:كأس العالم للسيدات تحت 17 سنة المغرب) fue la décima edición del torneo organizada por la FIFA. El torneo se disputo por segunda vez en Marruecos, participaron 24 equipos nacionales. Esta es la tercera Copa Mundial Femenina Sub-17 de la…",
    "first_seen": "2026-10-24T09:15:58Z",
+   "gone_since": "2026-11-10T14:54:10Z",
    "group_key": "pageid:11343618",
    "guid": "wikipedia:es:11343618",
    "html": "<a href=\"https://es.wikipedia.org/wiki/Copa_Mundial_Femenina_de_F%C3%BAtbol_Sub-17_de_2026\">Copa Mundial Femenina de Fútbol Sub-17</a>",
@@ -433,6 +435,32 @@
    "title": "Final de Campeonato de Galicia de Rally",
    "topics": []
   },
+  "wikipedia:es:11531007": {
+   "articles": [
+    "Viaje apostólico de León XIV a Perú"
+   ],
+   "category": null,
+   "date": null,
+   "date_source": "first_seen",
+   "extract": "El viaje apostólico de León XIV a Perú es un viaje apostólico del papa León XIV a Perú, anunciado por las autoridades civiles y eclesiásticas peruanas y previsto para la primera quincena de noviembre de 2026. Suponiendo así el regreso del pontífice al país donde ejerció como misionero durante…",
+   "first_seen": "2026-11-10T14:54:10Z",
+   "group_key": "pageid:11531007",
+   "guid": "wikipedia:es:11531007",
+   "html": "<a href=\"https://es.wikipedia.org/wiki/Viaje_apost%C3%B3lico_de_Le%C3%B3n_XIV_a_Per%C3%BA\">Viaje apostólico de León XIV a Perú</a>",
+   "link": "https://es.wikipedia.org/wiki/Viaje_apost%C3%B3lico_de_Le%C3%B3n_XIV_a_Per%C3%BA",
+   "main_title": "Viaje apostólico de León XIV a Perú",
+   "order": 2,
+   "page": "Plantilla:Portada:Actualidad",
+   "page_date": null,
+   "pageid": 11531007,
+   "pos": 2,
+   "pub_date": "2026-11-10T14:54:10Z",
+   "qid": "Q140288635",
+   "sources": [],
+   "text": "Viaje apostólico de León XIV a Perú",
+   "title": "Viaje apostólico de León XIV a Perú",
+   "topics": []
+  },
   "wikipedia:es:11561507": {
    "articles": [
     "Elecciones presidenciales de Bulgaria de 2026"
@@ -501,11 +529,11 @@
    "html": "<a href=\"https://es.wikipedia.org/wiki/Viaje_apost%C3%B3lico_de_Le%C3%B3n_XIV_a_Argentina\">Viaje apostólico de León XIV a Argentina</a>",
    "link": "https://es.wikipedia.org/wiki/Viaje_apost%C3%B3lico_de_Le%C3%B3n_XIV_a_Argentina",
    "main_title": "Viaje apostólico de León XIV a Argentina",
-   "order": 3,
+   "order": 4,
    "page": "Plantilla:Portada:Actualidad",
    "page_date": null,
    "pageid": 11567787,
-   "pos": 3,
+   "pos": 4,
    "pub_date": "2026-11-08T13:26:12Z",
    "qid": "Q140892463",
    "sources": [],
@@ -522,6 +550,7 @@
    "date_source": "text_date",
    "extract": "La Teletón 2026 fue la trigésima séptima versión de la campaña solidaria que se realizó en Chile, la cual buscó recaudar fondos para la rehabilitación médica de personas con discapacidad física y el mantenimiento operativo de los Institutos de Rehabilitación que la Fundación Teletón opera en el…",
    "first_seen": "2026-11-08T13:26:12Z",
+   "gone_since": "2026-11-10T14:54:10Z",
    "group_key": "pageid:11568759",
    "guid": "wikipedia:es:11568759",
    "html": "<a href=\"https://es.wikipedia.org/wiki/Telet%C3%B3n_2026_(Chile)\">Teletón de Chile</a>",
@@ -548,6 +577,7 @@
    "date_source": "first_seen",
    "extract": "El papa León XIV realizó su primera visita a Uruguay, entre el 6 y el 8 de noviembre de 2026, en el marco de su séptimo viaje apostólico internacional y el primero al continente americano. El país fue la primera escala de una gira que también incluyó visitas a Argentina y Perú.",
    "first_seen": "2026-11-05T14:40:45Z",
+   "gone_since": "2026-11-10T14:54:10Z",
    "group_key": "pageid:11589301",
    "guid": "wikipedia:es:11589301",
    "html": "<a href=\"https://es.wikipedia.org/wiki/Viaje_apost%C3%B3lico_de_Le%C3%B3n_XIV_a_Uruguay\">Viaje apostólico de León XIV a Uruguay</a>",
@@ -843,18 +873,18 @@
   },
   "wikipedia:es:11627965": {
    "articles": [
-    "Intervención militar salvadoreña en Haití"
+    "Intervención salvadoreña en Haití"
    ],
    "category": null,
    "date": null,
    "date_source": "first_seen",
-   "extract": "La Intervención salvadoreña en Haití hace referencia al despliegue de la Fuerza Armada de El Salvador en el oeste de La Española, bajo el beneplácito del gobierno haitiano para apoyar a las fuerzas de seguridad nacionales a repeler a grupos y organizaciones «pandilleras» de carácter paramilitar.…",
+   "extract": "La Intervención militar salvadoreña en Haití hace referencia al despliegue de la Fuerza Armada de El Salvador en el oeste de La Española, bajo el beneplácito del gobierno haitiano para apoyar a las fuerzas de seguridad nacionales a repeler a grupos y organizaciones «pandilleras» de carácter…",
    "first_seen": "2026-11-03T14:17:16Z",
    "group_key": "pageid:11627965",
    "guid": "wikipedia:es:11627965",
-   "html": "<a href=\"https://es.wikipedia.org/wiki/Intervenci%C3%B3n_militar_salvadore%C3%B1a_en_Hait%C3%AD\">Intervención militar salvadoreña en Haití</a>",
+   "html": "<a href=\"https://es.wikipedia.org/wiki/Intervenci%C3%B3n_salvadore%C3%B1a_en_Hait%C3%AD\">Intervención salvadoreña en Haití</a>",
    "link": "https://es.wikipedia.org/wiki/Intervenci%C3%B3n_salvadore%C3%B1a_en_Hait%C3%AD",
-   "main_title": "Intervención militar salvadoreña en Haití",
+   "main_title": "Intervención salvadoreña en Haití",
    "order": 1,
    "page": "Plantilla:Portada:Actualidad",
    "page_date": null,
@@ -863,8 +893,8 @@
    "pub_date": "2026-11-03T14:17:16Z",
    "qid": "Q141921562",
    "sources": [],
-   "text": "Intervención militar salvadoreña en Haití",
-   "title": "Intervención militar salvadoreña en Haití",
+   "text": "Intervención salvadoreña en Haití",
+   "title": "Intervención salvadoreña en Haití",
    "topics": []
   },
   "wikipedia:es:11629211": {
@@ -908,11 +938,11 @@
    "html": "<a href=\"https://es.wikipedia.org/wiki/Masters_de_Par%C3%ADs_2026\">Masters de París</a> de tenis",
    "link": "https://es.wikipedia.org/wiki/Masters_de_Par%C3%ADs_2026",
    "main_title": "Masters de París 2026",
-   "order": 8,
+   "order": 7,
    "page": "Plantilla:Portada:Actualidad",
    "page_date": null,
    "pageid": 11631014,
-   "pos": 8,
+   "pos": 7,
    "pub_date": "2026-11-01T13:26:18Z",
    "qid": "Q141732157",
    "sources": [],
@@ -988,11 +1018,11 @@
    "html": "<a href=\"https://es.wikipedia.org/wiki/Torneo_de_Estocolmo_2026\">Torneo de Estocolmo</a> de tenis",
    "link": "https://es.wikipedia.org/wiki/Torneo_de_Estocolmo_2026",
    "main_title": "Torneo de Estocolmo 2026",
-   "order": 2,
+   "order": 3,
    "page": "Plantilla:Portada:Actualidad",
    "page_date": null,
    "pageid": 11635789,
-   "pos": 2,
+   "pos": 3,
    "pub_date": "2026-11-08T13:26:12Z",
    "qid": "Q132131803",
    "sources": [],
@@ -1026,6 +1056,32 @@
    "title": "Crisis política en Paraguay",
    "topics": []
   },
+  "wikipedia:es:11639797": {
+   "articles": [
+    "Tiroteo de Cracovia de 2026"
+   ],
+   "category": null,
+   "date": "2026-11-07",
+   "date_source": "text_date",
+   "extract": "El tiroteo de Cracovia de 2026 fue un tiroteo masivo ocurrido el 7 de noviembre de 2026 en la plaza del Mercado Principal y sus alrededores, en Cracovia (Polonia). Un hombre armado abrió fuego de manera indiscriminada contra los transeúntes desde un automóvil que circulaba por el centro histórico…",
+   "first_seen": "2026-11-10T14:54:10Z",
+   "group_key": "pageid:11639797",
+   "guid": "wikipedia:es:11639797",
+   "html": "<a href=\"https://es.wikipedia.org/wiki/Tiroteo_de_Cracovia_de_2026\">Tiroteo de Cracovia</a>",
+   "link": "https://es.wikipedia.org/wiki/Tiroteo_de_Cracovia_de_2026",
+   "main_title": "Tiroteo de Cracovia de 2026",
+   "order": 5,
+   "page": "Plantilla:Portada:Actualidad",
+   "page_date": null,
+   "pageid": 11639797,
+   "pos": 5,
+   "pub_date": "2026-11-07T00:00:00Z",
+   "qid": "Q142077465",
+   "sources": [],
+   "text": "Tiroteo de Cracovia",
+   "title": "Tiroteo de Cracovia",
+   "topics": []
+  },
   "wikipedia:es:19350": {
    "articles": [
     "Premios Princesa de Asturias"
@@ -1054,5 +1110,5 @@
    "topics": []
   }
  },
- "updated": "2026-11-09T16:21:43Z"
+ "updated": "2026-11-10T14:54:10Z"
 }
