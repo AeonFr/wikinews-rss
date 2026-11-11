@@ -281,6 +281,7 @@
    "date_source": "first_seen",
    "extract": "El Gran Premio de São Paulo de 2026 fue la vigésima ronda de la temporada 2026 de Fórmula 1.",
    "first_seen": "2026-11-05T14:40:45Z",
+   "gone_since": "2026-11-11T14:24:36Z",
    "group_key": "pageid:11378416",
    "guid": "wikipedia:es:11378416",
    "html": "<a href=\"https://es.wikipedia.org/wiki/Anexo:Gran_Premio_de_S%C3%A3o_Paulo_de_2026\">Gran Premio de São Paulo</a>",
@@ -522,7 +523,7 @@
    "category": null,
    "date": "2026-11-08",
    "date_source": "text_date",
-   "extract": "El viaje apostólico de León XIV a Argentina, que se lleva a cabo entre el 8 y el 11 de noviembre de 2026, es el primer viaje del papa a dicho país, como parte del 7.° viaje apostólico fuera de Italia, que incluye Uruguay y Perú. Visitará tres ciudades y permanecerá en el país durante cuatro días…",
+   "extract": "El viaje apostólico de León XIV a Argentina, que se lleva a cabo entre el 8 y el 11 de noviembre de 2026, es el primer viaje del papa actual a dicho país, como parte del 7.° viaje apostólico fuera de Italia, que incluye Uruguay y Perú. Visitará tres ciudades durante cuatro días, antes de continuar…",
    "first_seen": "2026-11-08T13:26:12Z",
    "group_key": "pageid:11567787",
    "guid": "wikipedia:es:11567787",
@@ -933,6 +934,7 @@
    "date_source": "first_seen",
    "extract": "El Rolex Paris Masters 2026 fue un torneo de tenis masculino que se jugó desde el 2 hasta el 8 de noviembre de 2026 sobre pista dura. Correspondió a la edición número 55.ª del llamado Masters de París, patrocinado por Rolex.",
    "first_seen": "2026-11-01T13:26:18Z",
+   "gone_since": "2026-11-11T14:24:36Z",
    "group_key": "pageid:11631014",
    "guid": "wikipedia:es:11631014",
    "html": "<a href=\"https://es.wikipedia.org/wiki/Masters_de_Par%C3%ADs_2026\">Masters de París</a> de tenis",
@@ -1065,6 +1067,7 @@
    "date_source": "text_date",
    "extract": "El tiroteo de Cracovia de 2026 fue un tiroteo masivo ocurrido el 7 de noviembre de 2026 en la plaza del Mercado Principal y sus alrededores, en Cracovia (Polonia). Un hombre armado abrió fuego de manera indiscriminada contra los transeúntes desde un automóvil que circulaba por el centro histórico…",
    "first_seen": "2026-11-10T14:54:10Z",
+   "gone_since": "2026-11-11T14:24:36Z",
    "group_key": "pageid:11639797",
    "guid": "wikipedia:es:11639797",
    "html": "<a href=\"https://es.wikipedia.org/wiki/Tiroteo_de_Cracovia_de_2026\">Tiroteo de Cracovia</a>",
@@ -1110,5 +1113,5 @@
    "topics": []
   }
  },
- "updated": "2026-11-10T14:54:10Z"
+ "updated": "2026-11-11T14:24:36Z"
 }
