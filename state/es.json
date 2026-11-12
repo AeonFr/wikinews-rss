@@ -443,7 +443,7 @@
    "category": null,
    "date": null,
    "date_source": "first_seen",
-   "extract": "El viaje apostólico de León XIV a Perú es un viaje apostólico del papa León XIV a Perú, anunciado por las autoridades civiles y eclesiásticas peruanas y previsto para la primera quincena de noviembre de 2026. Suponiendo así el regreso del pontífice al país donde ejerció como misionero durante…",
+   "extract": "El viaje apostólico de León XIV a Perú es un viaje apostólico del papa León XIV a Perú, que se está desarrollando actualmente.",
    "first_seen": "2026-11-10T14:54:10Z",
    "group_key": "pageid:11531007",
    "guid": "wikipedia:es:11531007",
@@ -523,7 +523,7 @@
    "category": null,
    "date": "2026-11-08",
    "date_source": "text_date",
-   "extract": "El viaje apostólico de León XIV a Argentina, que se lleva a cabo entre el 8 y el 11 de noviembre de 2026, es el primer viaje del papa actual a dicho país, como parte del 7.° viaje apostólico fuera de Italia, que incluye Uruguay y Perú. Visitará tres ciudades durante cuatro días, antes de continuar…",
+   "extract": "El viaje apostólico de León XIV a Argentina, realizado entre el 8 y el 11 de noviembre de 2026, fue el único viaje del papa actual a dicho país, como parte del 7.° viaje apostólico fuera de Italia, que incluyó Uruguay y Perú. Visitó tres ciudades durante cuatro días, antes de continuar a Perú…",
    "first_seen": "2026-11-08T13:26:12Z",
    "group_key": "pageid:11567787",
    "guid": "wikipedia:es:11567787",
@@ -879,7 +879,7 @@
    "category": null,
    "date": null,
    "date_source": "first_seen",
-   "extract": "La Intervención militar salvadoreña en Haití hace referencia al despliegue de la Fuerza Armada de El Salvador en el oeste de La Española, bajo el beneplácito del gobierno haitiano para apoyar a las fuerzas de seguridad nacionales a repeler a grupos y organizaciones «pandilleras» de carácter…",
+   "extract": "La Intervención militar salvadoreña en Haití es el despliegue de la Fuerza Armada de El Salvador en el oeste de La Española, bajo el beneplácito del gobierno haitiano para apoyar a las fuerzas de seguridad nacionales a repeler a grupos y organizaciones «pandilleras» de carácter paramilitar. Esta…",
    "first_seen": "2026-11-03T14:17:16Z",
    "group_key": "pageid:11627965",
    "guid": "wikipedia:es:11627965",
@@ -1113,5 +1113,5 @@
    "topics": []
   }
  },
- "updated": "2026-11-11T14:24:36Z"
+ "updated": "2026-11-12T15:17:14Z"
 }
