@@ -6,11 +6,20 @@
     <description>Temas de actualidad de la portada de Wikipedia en español (Plantilla:Portada:Actualidad). Texto de colaboradores de Wikipedia, bajo licencia CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). (historial: https://es.wikipedia.org/w/index.php?title=Plantilla:Portada:Actualidad&amp;action=history)</description>
     <language>es</language>
     <copyright>Texto de colaboradores de Wikipedia, bajo licencia CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).</copyright>
-    <lastBuildDate>Thu, 12 Nov 2026 15:17:14 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 14:36:31 GMT</lastBuildDate>
     <generator>wikipedia-noticias-rss</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
     <atom:link href="https://aeonfr.github.io/wikinews-rss/feeds/es.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Full Gear</title>
+      <link>https://es.wikipedia.org/wiki/Full_Gear_(2026)</link>
+      <description>&lt;p&gt;&lt;a href="https://es.wikipedia.org/wiki/Full_Gear_(2026)"&gt;Full Gear&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Full Gear 2026 será la octava edición del Full Gear, un evento pago por visión de lucha libre profesional producido por la empresa estadounidense All Elite Wrestling. Tendrá lugar el 14 de noviembre de 2026 en el Mortgage Matchup Center de Phoenix, Arizona.&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;De &lt;a href="https://es.wikipedia.org/wiki/Plantilla:Portada:Actualidad"&gt;Plantilla:Portada:Actualidad&lt;/a&gt; de Wikipedia (&lt;a href="https://es.wikipedia.org/w/index.php?title=Plantilla:Portada:Actualidad&amp;amp;action=history"&gt;historial&lt;/a&gt;). Texto bajo licencia &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:es:11622097</guid>
+      <pubDate>Fri, 13 Nov 2026 14:36:31 GMT</pubDate>
+    </item>
     <item>
       <title>Viaje apostólico de León XIV a Perú</title>
       <link>https://es.wikipedia.org/wiki/Viaje_apost%C3%B3lico_de_Le%C3%B3n_XIV_a_Per%C3%BA</link>
@@ -21,21 +30,21 @@
       <pubDate>Tue, 10 Nov 2026 14:54:10 GMT</pubDate>
     </item>
     <item>
-      <title>Torneo de Estocolmo de tenis</title>
-      <link>https://es.wikipedia.org/wiki/Torneo_de_Estocolmo_2026</link>
-      <description>&lt;p&gt;&lt;a href="https://es.wikipedia.org/wiki/Torneo_de_Estocolmo_2026"&gt;Torneo de Estocolmo&lt;/a&gt; de tenis&lt;/p&gt;
-&lt;p&gt;El Bybit Stockholm Open 2026 será un torneo de tenis perteneciente al ATP Tour 2026 en la categoría ATP Tour 250.&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;De &lt;a href="https://es.wikipedia.org/wiki/Plantilla:Portada:Actualidad"&gt;Plantilla:Portada:Actualidad&lt;/a&gt; de Wikipedia (&lt;a href="https://es.wikipedia.org/w/index.php?title=Plantilla:Portada:Actualidad&amp;amp;action=history"&gt;historial&lt;/a&gt;). Texto bajo licencia &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:es:11635789</guid>
-      <pubDate>Sun, 08 Nov 2026 13:26:12 GMT</pubDate>
-    </item>
-    <item>
       <title>Viaje apostólico de León XIV a Argentina</title>
       <link>https://es.wikipedia.org/wiki/Viaje_apost%C3%B3lico_de_Le%C3%B3n_XIV_a_Argentina</link>
       <description>&lt;p&gt;&lt;a href="https://es.wikipedia.org/wiki/Viaje_apost%C3%B3lico_de_Le%C3%B3n_XIV_a_Argentina"&gt;Viaje apostólico de León XIV a Argentina&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;El viaje apostólico de León XIV a Argentina, realizado entre el 8 y el 11 de noviembre de 2026, fue el único viaje del papa actual a dicho país, como parte del 7.° viaje apostólico fuera de Italia, que incluyó Uruguay y Perú. Visitó tres ciudades durante cuatro días, antes de continuar a Perú…&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;De &lt;a href="https://es.wikipedia.org/wiki/Plantilla:Portada:Actualidad"&gt;Plantilla:Portada:Actualidad&lt;/a&gt; de Wikipedia (&lt;a href="https://es.wikipedia.org/w/index.php?title=Plantilla:Portada:Actualidad&amp;amp;action=history"&gt;historial&lt;/a&gt;). Texto bajo licencia &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:es:11567787</guid>
+      <pubDate>Sun, 08 Nov 2026 13:26:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>Torneo de Estocolmo de tenis</title>
+      <link>https://es.wikipedia.org/wiki/Torneo_de_Estocolmo_2026</link>
+      <description>&lt;p&gt;&lt;a href="https://es.wikipedia.org/wiki/Torneo_de_Estocolmo_2026"&gt;Torneo de Estocolmo&lt;/a&gt; de tenis&lt;/p&gt;
+&lt;p&gt;El Bybit Stockholm Open 2026 será un torneo de tenis perteneciente al ATP Tour 2026 en la categoría ATP Tour 250.&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;De &lt;a href="https://es.wikipedia.org/wiki/Plantilla:Portada:Actualidad"&gt;Plantilla:Portada:Actualidad&lt;/a&gt; de Wikipedia (&lt;a href="https://es.wikipedia.org/w/index.php?title=Plantilla:Portada:Actualidad&amp;amp;action=history"&gt;historial&lt;/a&gt;). Texto bajo licencia &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:es:11635789</guid>
       <pubDate>Sun, 08 Nov 2026 13:26:12 GMT</pubDate>
     </item>
     <item>

@@ -450,11 +450,11 @@
    "html": "<a href=\"https://es.wikipedia.org/wiki/Viaje_apost%C3%B3lico_de_Le%C3%B3n_XIV_a_Per%C3%BA\">Viaje apostólico de León XIV a Perú</a>",
    "link": "https://es.wikipedia.org/wiki/Viaje_apost%C3%B3lico_de_Le%C3%B3n_XIV_a_Per%C3%BA",
    "main_title": "Viaje apostólico de León XIV a Perú",
-   "order": 2,
+   "order": 3,
    "page": "Plantilla:Portada:Actualidad",
    "page_date": null,
    "pageid": 11531007,
-   "pos": 2,
+   "pos": 3,
    "pub_date": "2026-11-10T14:54:10Z",
    "qid": "Q140288635",
    "sources": [],
@@ -525,6 +525,7 @@
    "date_source": "text_date",
    "extract": "El viaje apostólico de León XIV a Argentina, realizado entre el 8 y el 11 de noviembre de 2026, fue el único viaje del papa actual a dicho país, como parte del 7.° viaje apostólico fuera de Italia, que incluyó Uruguay y Perú. Visitó tres ciudades durante cuatro días, antes de continuar a Perú…",
    "first_seen": "2026-11-08T13:26:12Z",
+   "gone_since": "2026-11-13T14:36:31Z",
    "group_key": "pageid:11567787",
    "guid": "wikipedia:es:11567787",
    "html": "<a href=\"https://es.wikipedia.org/wiki/Viaje_apost%C3%B3lico_de_Le%C3%B3n_XIV_a_Argentina\">Viaje apostólico de León XIV a Argentina</a>",
@@ -759,6 +760,32 @@
    "sources": [],
    "text": "Torneos de Almatý, Bruselas y Lyon de tenis",
    "title": "Torneos de Almatý, Bruselas y Lyon de tenis",
+   "topics": []
+  },
+  "wikipedia:es:11622097": {
+   "articles": [
+    "Full Gear (2026)"
+   ],
+   "category": null,
+   "date": null,
+   "date_source": "first_seen",
+   "extract": "Full Gear 2026 será la octava edición del Full Gear, un evento pago por visión de lucha libre profesional producido por la empresa estadounidense All Elite Wrestling. Tendrá lugar el 14 de noviembre de 2026 en el Mortgage Matchup Center de Phoenix, Arizona.",
+   "first_seen": "2026-11-13T14:36:31Z",
+   "group_key": "pageid:11622097",
+   "guid": "wikipedia:es:11622097",
+   "html": "<a href=\"https://es.wikipedia.org/wiki/Full_Gear_(2026)\">Full Gear</a>",
+   "link": "https://es.wikipedia.org/wiki/Full_Gear_(2026)",
+   "main_title": "Full Gear (2026)",
+   "order": 2,
+   "page": "Plantilla:Portada:Actualidad",
+   "page_date": null,
+   "pageid": 11622097,
+   "pos": 2,
+   "pub_date": "2026-11-13T14:36:31Z",
+   "qid": "Q140753370",
+   "sources": [],
+   "text": "Full Gear",
+   "title": "Full Gear",
    "topics": []
   },
   "wikipedia:es:11623894": {
@@ -1020,11 +1047,11 @@
    "html": "<a href=\"https://es.wikipedia.org/wiki/Torneo_de_Estocolmo_2026\">Torneo de Estocolmo</a> de tenis",
    "link": "https://es.wikipedia.org/wiki/Torneo_de_Estocolmo_2026",
    "main_title": "Torneo de Estocolmo 2026",
-   "order": 3,
+   "order": 4,
    "page": "Plantilla:Portada:Actualidad",
    "page_date": null,
    "pageid": 11635789,
-   "pos": 3,
+   "pos": 4,
    "pub_date": "2026-11-08T13:26:12Z",
    "qid": "Q132131803",
    "sources": [],
@@ -1113,5 +1140,5 @@
    "topics": []
   }
  },
- "updated": "2026-11-12T15:17:14Z"
+ "updated": "2026-11-13T14:36:31Z"
 }

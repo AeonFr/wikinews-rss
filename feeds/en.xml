@@ -6,15 +6,27 @@
     <description>News items from Wikipedia's Portal:Current events, one item per entry of the daily pages. Text from Wikipedia contributors, licensed under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). (history: https://en.wikipedia.org/w/index.php?title=Portal:Current_events&amp;action=history)</description>
     <language>en</language>
     <copyright>Text from Wikipedia contributors, licensed under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).</copyright>
-    <lastBuildDate>Thu, 12 Nov 2026 15:17:14 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 14:36:31 GMT</lastBuildDate>
     <generator>wikipedia-noticias-rss</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
     <atom:link href="https://aeonfr.github.io/wikinews-rss/feeds/en.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>At least 10 people, including five with gunshot wounds, are injured in Munshiganj Sadar, Bangladesh during a clash involving gunfire and crude bomb explosions between two factions of the ruling…</title>
+      <title>Iran claims it has destroyed an early-warning radar in Bahrain as a retaliation for a US strike on telecommunication infrastructure on Sirik Island.</title>
+      <link>https://en.wikipedia.org/wiki/Bahrain_in_the_2026_Iran_war</link>
+      <description>&lt;p&gt;Iran claims it has destroyed an &lt;a href="https://en.wikipedia.org/wiki/Early-warning_radar"&gt;early-warning radar&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Bahrain"&gt;Bahrain&lt;/a&gt; as a retaliation for a US strike on telecommunication infrastructure on &lt;a href="https://en.wikipedia.org/w/index.php?title=Sirik_Island&amp;amp;action=edit&amp;amp;redlink=1"&gt;Sirik Island&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.turkiyetoday.com/region/irgc-claims-strike-on-us-early-warning-radar-in-bahrain-after-sirik-attack-3232293?s=1"&gt;Türkiye Today&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"&gt;Middle Eastern crisis&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_Iran_war"&gt;2026 Iran war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_Bahrain"&gt;2026 Iranian strikes on Bahrain&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_13"&gt;Portal:Current events/2026 November 13&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_13&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-13:422dd8b33170</guid>
+      <pubDate>Fri, 13 Nov 2026 14:36:31 GMT</pubDate>
+      <category>Armed conflicts and attacks</category>
+      <category>2026 Iranian strikes on Bahrain</category>
+    </item>
+    <item>
+      <title>At least 10 people, including five with gunshot wounds, are injured in Munshiganj Sadar, Bangladesh, during a clash involving gunfire and crude bomb explosions between two factions of the ruling…</title>
       <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12</link>
-      <description>&lt;p&gt;At least 10 people, including five with gunshot wounds, are injured in &lt;a href="https://en.wikipedia.org/wiki/Munshiganj_Sadar_Upazila"&gt;Munshiganj Sadar&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Bangladesh"&gt;Bangladesh&lt;/a&gt; during a clash involving gunfire and crude bomb explosions between two factions of the ruling &lt;a href="https://en.wikipedia.org/wiki/Bangladesh_Nationalist_Party"&gt;Bangladesh Nationalist Party&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;At least 10 people, including five with gunshot wounds, are injured in &lt;a href="https://en.wikipedia.org/wiki/Munshiganj_Sadar_Upazila"&gt;Munshiganj Sadar&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Bangladesh"&gt;Bangladesh&lt;/a&gt;, during a clash involving gunfire and crude bomb explosions between two factions of the ruling &lt;a href="https://en.wikipedia.org/wiki/Bangladesh_Nationalist_Party"&gt;Bangladesh Nationalist Party&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Sources: &lt;a href="https://www.tbsnews.net/bangladesh/10-injured-five-shot-rival-bnp-factions-clash-munshiganj-1600101"&gt;The Business Standard&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12"&gt;Portal:Current events/2026 November 12&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_12&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:en:2026-11-12:d7760854644d</guid>
@@ -22,9 +34,9 @@
       <category>Armed conflicts and attacks</category>
     </item>
     <item>
-      <title>Four more children in Bangladesh are reported to be killed from measles, bringing the death toll past 1,299.</title>
+      <title>Four more children in Bangladesh are reported to have died from measles, bringing the death toll past 1,299.</title>
       <link>https://en.wikipedia.org/wiki/2026_Bangladesh_measles_outbreak</link>
-      <description>&lt;p&gt;Four more children in &lt;a href="https://en.wikipedia.org/wiki/Bangladesh"&gt;Bangladesh&lt;/a&gt; are reported to be killed from &lt;a href="https://en.wikipedia.org/wiki/Measles"&gt;measles&lt;/a&gt;, bringing the death toll past 1,299.&lt;/p&gt;
+      <description>&lt;p&gt;Four more children in &lt;a href="https://en.wikipedia.org/wiki/Bangladesh"&gt;Bangladesh&lt;/a&gt; are reported to have died from &lt;a href="https://en.wikipedia.org/wiki/Measles"&gt;measles&lt;/a&gt;, bringing the death toll past 1,299.&lt;/p&gt;
 &lt;p&gt;Sources: &lt;a href="https://www.bssnews.net/news/445020"&gt;BSS&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Bangladesh_measles_outbreak"&gt;2026 Bangladesh measles outbreak&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12"&gt;Portal:Current events/2026 November 12&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_12&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
@@ -32,6 +44,138 @@
       <pubDate>Thu, 12 Nov 2026 15:17:14 GMT</pubDate>
       <category>Health and environment</category>
       <category>2026 Bangladesh measles outbreak</category>
+    </item>
+    <item>
+      <title>Haitian and Salvadoran soldiers take control of the Stade Sylvio Cator in Port-au-Prince after two years of gang control.</title>
+      <link>https://en.wikipedia.org/wiki/Salvadoran_military_intervention_in_Haiti</link>
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Haiti"&gt;Haitian&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/El_Salvador"&gt;Salvadoran&lt;/a&gt; soldiers take control of the &lt;a href="https://en.wikipedia.org/wiki/Stade_Sylvio_Cator"&gt;Stade Sylvio Cator&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Port-au-Prince"&gt;Port-au-Prince&lt;/a&gt; after two years of gang control.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.france24.com/en/americas/20261113-haitian-police-retake-national-stadium-from-gangs-after-two-years"&gt;France 24&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Haitian_conflict"&gt;Haitian conflict&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Salvadoran_military_intervention_in_Haiti"&gt;Salvadoran military intervention in Haiti&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12"&gt;Portal:Current events/2026 November 12&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_12&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-12:d2d004210043</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Armed conflicts and attacks</category>
+      <category>Salvadoran military intervention in Haiti</category>
+    </item>
+    <item>
+      <title>Ukrainian president Volodymyr Zelenskyy and United States special envoy Jared Kushner announce that European representatives will join future peace negotiations with Russia, which Russian president…</title>
+      <link>https://en.wikipedia.org/wiki/Peace_negotiations_in_the_Russo-Ukrainian_war_(2022%E2%80%93present)</link>
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Ukraine"&gt;Ukrainian&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/President_of_Ukraine"&gt;president&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Volodymyr_Zelenskyy"&gt;Volodymyr Zelenskyy&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/United_States"&gt;United States&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/United_States_special_envoy"&gt;special envoy&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Jared_Kushner"&gt;Jared Kushner&lt;/a&gt; announce that &lt;a href="https://en.wikipedia.org/wiki/Europe"&gt;European&lt;/a&gt; representatives will join future &lt;a href="https://en.wikipedia.org/wiki/Peace_negotiations"&gt;peace negotiations&lt;/a&gt; with &lt;a href="https://en.wikipedia.org/wiki/Russia"&gt;Russia&lt;/a&gt;, which &lt;a href="https://en.wikipedia.org/wiki/President_of_Russia"&gt;Russian president&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Vladimir_Putin"&gt;Vladimir Putin&lt;/a&gt; agrees to while maintaining his &lt;a href="https://en.wikipedia.org/wiki/Russian_occupation_of_Ukraine"&gt;territorial demands&lt;/a&gt; and rejecting &lt;a href="https://en.wikipedia.org/wiki/Proposed_multinational_force_in_Ukraine"&gt;foreign peacekeeping troops&lt;/a&gt; in Ukraine.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.nst.com.my/amp/world/world/2026/11/1576502/us-ukraine-say-europe-join-russia-talks-putin-sticks-hardline-stance"&gt;AFP via New Straits Times&lt;/a&gt;, &lt;a href="https://www.reuters.com/world/europe/us-envoys-arrive-moscow-latest-round-ukrainian-peace-talks-with-putin-2026-11-12/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Russo-Ukrainian_war_(2022%E2%80%93present)"&gt;Russo-Ukrainian war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Peace_negotiations_in_the_Russo-Ukrainian_war_(2022%E2%80%93present)"&gt;Peace negotiations in the Russo-Ukrainian war, United States and the Russo-Ukrainian war&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12"&gt;Portal:Current events/2026 November 12&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_12&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-12:a3b3d04cbaa1</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Armed conflicts and attacks</category>
+      <category>Peace negotiations in the Russo-Ukrainian war, United States and the Russo-Ukrainian war</category>
+    </item>
+    <item>
+      <title>Guatemala receives the remains of 1967 Nobel Prize in Literature recipient Miguel Ángel Asturias from France, 52 years after his death.</title>
+      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12</link>
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Guatemala"&gt;Guatemala&lt;/a&gt; receives the remains of &lt;a href="https://en.wikipedia.org/wiki/1967_Nobel_Prize_in_Literature"&gt;1967 Nobel Prize in Literature&lt;/a&gt; recipient &lt;a href="https://en.wikipedia.org/wiki/Miguel_%C3%81ngel_Asturias"&gt;Miguel Ángel Asturias&lt;/a&gt; from &lt;a href="https://en.wikipedia.org/wiki/France"&gt;France&lt;/a&gt;, 52 years after his death. &lt;a href="https://en.wikipedia.org/wiki/President_of_Guatemala"&gt;President&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Bernardo_Ar%C3%A9valo"&gt;Bernardo Arévalo&lt;/a&gt; attends a ceremony ahead of the writer's burial in &lt;a href="https://en.wikipedia.org/wiki/Guatemala_City"&gt;Guatemala City&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.afp.com/en/remains-guatemalan-nobel-laureate-asturias-return-home-france"&gt;AFP&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12"&gt;Portal:Current events/2026 November 12&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_12&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-12:ab91bc39eb87</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Arts and culture</category>
+    </item>
+    <item>
+      <title>Jensen Huang resigns as chief executive officer (CEO) and president of Nvidia and leaves the company's board following reports of two extramarital affairs, including one involving a suspected Chinese…</title>
+      <link>https://en.wikipedia.org/wiki/Jensen_Huang_spying_scandal</link>
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Jensen_Huang"&gt;Jensen Huang&lt;/a&gt; resigns as &lt;a href="https://en.wikipedia.org/wiki/Chief_executive_officer"&gt;chief executive officer&lt;/a&gt; (CEO) and president of &lt;a href="https://en.wikipedia.org/wiki/Nvidia"&gt;Nvidia&lt;/a&gt; and leaves the company's &lt;a href="https://en.wikipedia.org/wiki/Board_of_directors"&gt;board&lt;/a&gt; following reports of two &lt;a href="https://en.wikipedia.org/wiki/Extramarital_affair"&gt;extramarital affairs&lt;/a&gt;, including one involving a suspected &lt;a href="https://en.wikipedia.org/wiki/China"&gt;Chinese&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Chinese_intelligence_activity_abroad"&gt;intelligence agent&lt;/a&gt;. &lt;a href="https://en.wikipedia.org/wiki/Chief_financial_officer"&gt;Chief financial officer&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Colette_Kress"&gt;Colette Kress&lt;/a&gt; becomes interim CEO.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.afp.com/en/nvidia-ceo-jensen-huang-resigns"&gt;AFP&lt;/a&gt;, &lt;a href="https://www.reuters.com/live/nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Jensen_Huang_spying_scandal"&gt;Jensen Huang spying scandal&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12"&gt;Portal:Current events/2026 November 12&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_12&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-12:9172e19cdc33</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Business and economy</category>
+      <category>Jensen Huang spying scandal</category>
+    </item>
+    <item>
+      <title>Fourteen people are killed and 30 more injured in a multiple-vehicle collision involving 18 cars and five trucks in the Emirate of Fujairah, United Arab Emirates.</title>
+      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12</link>
+      <description>&lt;p&gt;Fourteen people are killed and 30 more injured in a &lt;a href="https://en.wikipedia.org/wiki/Multiple-vehicle_collision"&gt;multiple-vehicle collision&lt;/a&gt; involving 18 cars and five trucks in the &lt;a href="https://en.wikipedia.org/wiki/Emirate_of_Fujairah"&gt;Emirate of Fujairah&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/United_Arab_Emirates"&gt;United Arab Emirates&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.thedailystar.net/news/world/news/truck-crash-uae-kills-14-injures-30-4322351"&gt;AFP via The Daily Star&lt;/a&gt;, &lt;a href="https://www.aljazeera.com/news/2026/11/12/uae-says-14-killed-30-injured-in-fujairah-traffic-accident"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12"&gt;Portal:Current events/2026 November 12&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_12&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-12:3d427f95a719</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Disasters and accidents</category>
+    </item>
+    <item>
+      <title>A bus veers off a mountain road in Bhimphedi, Nepal, killing ten people and wounding five more.</title>
+      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12</link>
+      <description>&lt;p&gt;A bus veers off a &lt;a href="https://en.wikipedia.org/wiki/Mountain"&gt;mountain&lt;/a&gt; road in &lt;a href="https://en.wikipedia.org/wiki/Bhimphedi"&gt;Bhimphedi&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Nepal"&gt;Nepal&lt;/a&gt;, killing ten people and wounding five more.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://apnews.com/article/nepal-van-accident-tihar-mountain-road-5a40f5b0091d0189f9185fbb833eb652"&gt;AP&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12"&gt;Portal:Current events/2026 November 12&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_12&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-12:b950e73bd0e4</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Disasters and accidents</category>
+    </item>
+    <item>
+      <title>A military helicopter crashes in Malatya, Turkey, killing four soldiers.</title>
+      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12</link>
+      <description>&lt;p&gt;A &lt;a href="https://en.wikipedia.org/wiki/Turkish_Armed_Forces"&gt;military&lt;/a&gt; helicopter crashes in &lt;a href="https://en.wikipedia.org/wiki/Malatya"&gt;Malatya&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Turkey"&gt;Turkey&lt;/a&gt;, killing four soldiers.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://apnews.com/article/helicopter-crash-s70-malatya-3f86266878442b826fc592e49fe2caee"&gt;AP&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12"&gt;Portal:Current events/2026 November 12&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_12&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-12:2743f3e7edf3</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Disasters and accidents</category>
+    </item>
+    <item>
+      <title>A British court convicts two Iranian men of spying on journalists from London-based broadcaster Iran International.</title>
+      <link>https://en.wikipedia.org/wiki/Iranian_external_operations</link>
+      <description>&lt;p&gt;A &lt;a href="https://en.wikipedia.org/wiki/United_Kingdom"&gt;British&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Judiciaries_of_the_United_Kingdom"&gt;court&lt;/a&gt; convicts two &lt;a href="https://en.wikipedia.org/wiki/Iran"&gt;Iranian&lt;/a&gt; men of &lt;a href="https://en.wikipedia.org/wiki/Espionage"&gt;spying&lt;/a&gt; on &lt;a href="https://en.wikipedia.org/wiki/Mass_media_in_the_United_Kingdom"&gt;journalists&lt;/a&gt; from &lt;a href="https://en.wikipedia.org/wiki/London"&gt;London&lt;/a&gt;-based broadcaster &lt;a href="https://en.wikipedia.org/wiki/Iran_International"&gt;Iran International&lt;/a&gt;. One of them is also convicted of preparing a &lt;a href="https://en.wikipedia.org/wiki/Terrorism_in_the_United_Kingdom"&gt;violent attack&lt;/a&gt;, while a third defendant is acquitted.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.rfi.fr/en/middle-east/20261112-iran-pair-guilty-of-spying-on-london-based-journalists-for-tehran"&gt;AFP via RFI&lt;/a&gt;, &lt;a href="https://apnews.com/article/britain-iran-spying-tehran-sepahvand-manesh-journalists-273c38362d3c0a0e8ece8a2075442dd0"&gt;AP&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Iranian_external_operations"&gt;Iranian external operations&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12"&gt;Portal:Current events/2026 November 12&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_12&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-12:2f0784dab485</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Law and crime</category>
+      <category>Iranian external operations</category>
+    </item>
+    <item>
+      <title>One person is killed and four more are injured in a shooting spree in Logan Circle, Washington D.C., United States.</title>
+      <link>https://en.wikipedia.org/wiki/Mass_shootings_in_the_United_States</link>
+      <description>&lt;p&gt;One person is killed and four more are injured in a &lt;a href="https://en.wikipedia.org/wiki/Spree_killer"&gt;shooting spree&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Logan_Circle_(Washington,_D.C.)"&gt;Logan Circle&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Washington_D.C."&gt;Washington D.C.&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/United_States"&gt;United States&lt;/a&gt;. The suspected gunman later kills himself after barricading himself from &lt;a href="https://en.wikipedia.org/wiki/Metropolitan_Police_Department_of_the_District_of_Columbia"&gt;police&lt;/a&gt; inside a nearby apartment.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/11/12/police-say-at-least-five-people-shot-at-busy-thoroughfare-in-washington-dc"&gt;Al Jazeera&lt;/a&gt;, &lt;a href="https://apnews.com/article/dc-shooting-logan-circle-3cee6a4ada875fcc18e932e536c63dcd"&gt;AP&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Mass_shootings_in_the_United_States"&gt;Mass shootings in the United States&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12"&gt;Portal:Current events/2026 November 12&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_12&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-12:5910bbd9f375</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Law and crime</category>
+      <category>Mass shootings in the United States</category>
+    </item>
+    <item>
+      <title>Europol announces that Operation TorNado, an international investigation into illegal dark web marketplaces, resulted in 354 arrests across 14 countries and the seizure of approximately 5.7 tonnes of…</title>
+      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12</link>
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Europol"&gt;Europol&lt;/a&gt; announces that Operation TorNado, an international investigation into illegal &lt;a href="https://en.wikipedia.org/wiki/Dark_web"&gt;dark web&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Darknet_market"&gt;marketplaces&lt;/a&gt;, resulted in 354 arrests across 14 countries and the seizure of approximately 5.7 tonnes of drugs, 209 firearms, and &lt;a href="https://en.wikipedia.org/wiki/Euro"&gt;€&lt;/a&gt;211 million (&lt;a href="https://en.wikipedia.org/wiki/US$"&gt;US$&lt;/a&gt;234 million) in assets.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.afp.com/en/global-police-crackdown-dark-web-nets-350-arrests"&gt;AFP&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12"&gt;Portal:Current events/2026 November 12&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_12&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-12:ca0414622caa</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Law and crime</category>
+    </item>
+    <item>
+      <title>A major outage impacts multiple Microsoft services, including Microsoft 365, Copilot and Teams, worldwide.</title>
+      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12</link>
+      <description>&lt;p&gt;A &lt;a href="https://en.wikipedia.org/wiki/2026_Microsoft_outage"&gt;major outage impacts multiple Microsoft&lt;/a&gt; services, including &lt;a href="https://en.wikipedia.org/wiki/Microsoft_365"&gt;Microsoft 365&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Microsoft_Copilot"&gt;Copilot&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Microsoft_Teams"&gt;Teams&lt;/a&gt;, worldwide.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.bbc.com/news/articles/c5gm3g9ldz8xo"&gt;BBC News&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12"&gt;Portal:Current events/2026 November 12&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_12&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-12:8370d35025f8</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Science and technology</category>
+    </item>
+    <item>
+      <title>Finland announces visa restrictions preventing Russian athletes, including neutral competitors, from entering for sporting events beginning November 16.</title>
+      <link>https://en.wikipedia.org/wiki/International_sporting_sanctions_during_the_Russian_invasion_of_Ukraine</link>
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Finland"&gt;Finland&lt;/a&gt; announces &lt;a href="https://en.wikipedia.org/wiki/Visa_policy_of_Finland"&gt;visa restrictions&lt;/a&gt; preventing &lt;a href="https://en.wikipedia.org/wiki/Russia"&gt;Russian&lt;/a&gt; athletes, including &lt;a href="https://en.wikipedia.org/wiki/Authorised_Neutral_Athletes"&gt;neutral competitors&lt;/a&gt;, from entering for sporting events beginning November 16. &lt;a href="https://en.wikipedia.org/wiki/Norway"&gt;Norway&lt;/a&gt; also announces similar restrictions on Russian and &lt;a href="https://en.wikipedia.org/wiki/Belarus"&gt;Belarusian&lt;/a&gt; athletes and their support staff.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.rfi.fr/en/international-news/20261112-finland-norway-block-visas-for-russian-athletes"&gt;AFP via RFI&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/International_sporting_sanctions_during_the_Russian_invasion_of_Ukraine"&gt;International sporting sanctions during the Russian invasion of Ukraine, Finland–Russia relations, Norway–Russia relations&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12"&gt;Portal:Current events/2026 November 12&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_12&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-12:729674e6271d</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Sports</category>
+      <category>International sporting sanctions during the Russian invasion of Ukraine, Finland–Russia relations, Norway–Russia relations</category>
     </item>
     <item>
       <title>Pakistani Taliban carries out an ambush against police personnel in Kohat District, Khyber Pakhtunkhwa, Pakistan, killing ten officers.</title>
@@ -82,11 +226,23 @@
       <category>European bomb threat wave</category>
     </item>
     <item>
-      <title>Iran attacked ship navigation systems on Didamar Island, Oman.</title>
+      <title>The Central Bank of Paraguay reports providing partial refunds to 1,812,348 eligible Ueno Bank depositors following the bank's collapse.</title>
+      <link>https://en.wikipedia.org/wiki/2026_Paraguay_banking_crisis</link>
+      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Central_Bank_of_Paraguay"&gt;Central Bank&lt;/a&gt; of &lt;a href="https://en.wikipedia.org/wiki/Paraguay"&gt;Paraguay&lt;/a&gt; reports providing partial refunds to 1,812,348 eligible &lt;a href="https://en.wikipedia.org/wiki/Ueno_Bank"&gt;Ueno Bank&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Depositor"&gt;depositors&lt;/a&gt; following the bank's collapse.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.france24.com/en/americas/20261112-paraguay-partially-refunds-ueno-bank-depositors-after-collapse"&gt;France 24&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Paraguay_banking_crisis"&gt;2026 Paraguay banking crisis&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_11"&gt;Portal:Current events/2026 November 11&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_11&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-11:211d344edd76</guid>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Business and economy</category>
+      <category>2026 Paraguay banking crisis</category>
+    </item>
+    <item>
+      <title>Iran attacks ship navigation systems on Didamar Island, Oman.</title>
       <link>https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_Oman</link>
-      <description>&lt;p&gt;Iran attacked ship navigation systems on &lt;a href="https://en.wikipedia.org/w/index.php?title=Didamar_Island&amp;amp;action=edit&amp;amp;redlink=1"&gt;Didamar Island&lt;/a&gt;, Oman. Unknown damage was caused.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Iran"&gt;Iran&lt;/a&gt; attacks &lt;a href="https://en.wikipedia.org/wiki/Ship_navigation"&gt;ship navigation&lt;/a&gt; systems on &lt;a href="https://en.wikipedia.org/wiki/As_Salamah_Archipelago"&gt;Didamar Island&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Oman"&gt;Oman&lt;/a&gt;. Unknown damage is caused.&lt;/p&gt;
 &lt;p&gt;Sources: &lt;a href="https://www.reuters.com/world/middle-east/iran-attacks-shipping-navigation-systems-omans-didamar-island-sources-say-2026-11-11/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Iran_war"&gt;2026 Iran war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_Oman"&gt;2026 Iranian strikes on Oman&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"&gt;Middle Eastern crisis&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_Iran_war"&gt;2026 Iran war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_Oman"&gt;2026 Iranian strikes on Oman&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_11"&gt;Portal:Current events/2026 November 11&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_11&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:en:2026-11-11:8df4a334d650</guid>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
@@ -98,7 +254,7 @@
       <link>https://en.wikipedia.org/wiki/Attacks_on_health_facilities_during_the_Gaza_war</link>
       <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Israel"&gt;Israel&lt;/a&gt; launches an &lt;a href="https://en.wikipedia.org/wiki/Airstrike"&gt;airstrike&lt;/a&gt; against the &lt;a href="https://en.wikipedia.org/wiki/Nasser_Medical_Complex"&gt;Nasser Medical Complex&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Khan_Younis"&gt;Khan Younis&lt;/a&gt;, killing six &lt;a href="https://en.wikipedia.org/wiki/Palestinians"&gt;Palestinians&lt;/a&gt;, including a surgeon, and wounding over 20 more. Four more people are also killed in other airstrikes in the &lt;a href="https://en.wikipedia.org/wiki/Gaza_Strip"&gt;Gaza Strip&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/11/11/israeli-strikes-hit-tent-camp-as-five-killed-in-gaza"&gt;Al Jazeera&lt;/a&gt;, &lt;a href="https://www.reuters.com/world/middle-east/israeli-strike-southern-gaza-hospital-kills-four-gaza-civil-defence-says-2026-11-11/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Gaza_war"&gt;Gaza war, Gaza genocide&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Attacks_on_health_facilities_during_the_Gaza_war"&gt;Attacks on health facilities during the Gaza war&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"&gt;Middle Eastern crisis&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Gaza_war"&gt;Gaza war, Gaza genocide&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Attacks_on_health_facilities_during_the_Gaza_war"&gt;Attacks on health facilities during the Gaza war&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_11"&gt;Portal:Current events/2026 November 11&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_11&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:en:2026-11-11:373468902b86</guid>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
@@ -143,18 +299,20 @@
     </item>
     <item>
       <title>A 3-story apartment building collapses near a construction site in Brooklyn, New York City, United States, killing eight people and wounding 19 more.</title>
-      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_11</link>
+      <link>https://en.wikipedia.org/wiki/2026_New_York_City_building_collapse</link>
       <description>&lt;p&gt;A 3-story apartment building &lt;a href="https://en.wikipedia.org/wiki/2026_New_York_City_building_collapse"&gt;collapses&lt;/a&gt; near a construction site in &lt;a href="https://en.wikipedia.org/wiki/Brooklyn"&gt;Brooklyn&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/New_York_City"&gt;New York City&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/United_States"&gt;United States&lt;/a&gt;, killing eight people and wounding 19 more.&lt;/p&gt;
 &lt;p&gt;Sources: &lt;a href="https://www.afp.com/en/eight-dead-new-york-building-collapse"&gt;AFP&lt;/a&gt;, &lt;a href="https://www.reuters.com/world/building-collapse-brooklyn-kills-least-one-injures-10-2026-11-12/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_New_York_City_building_collapse"&gt;2026 New York City building collapse&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_11"&gt;Portal:Current events/2026 November 11&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_11&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:en:2026-11-11:cf775077a222</guid>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
       <category>Disasters and accidents</category>
+      <category>2026 New York City building collapse</category>
     </item>
     <item>
       <title>The number of confirmed Ebola cases in the Democratic Republic of the Congo surpasses 11,000, with at least 5,387 deaths, affecting 8 of the country's 26 provinces. / The Kenyan health ministry reports that the country has discharged its last Ebola patient from a hospital in Nairobi after eleven contact cases were treated.</title>
       <link>https://en.wikipedia.org/wiki/2026_Ebola_epidemic</link>
-      <description>&lt;p&gt;The number of confirmed Ebola cases in the Democratic Republic of the Congo surpasses 11,000, with at least 5,387 deaths, affecting 8 of the country's 26 &lt;a href="https://en.wikipedia.org/wiki/Provinces_of_the_Democratic_Republic_of_the_Congo"&gt;provinces&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;The number of confirmed Ebola cases in the &lt;a href="https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo"&gt;Democratic Republic of the Congo&lt;/a&gt; surpasses 11,000, with at least 5,387 deaths, affecting 8 of the country's 26 &lt;a href="https://en.wikipedia.org/wiki/Provinces_of_the_Democratic_Republic_of_the_Congo"&gt;provinces&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/11/11/ebola-cases-in-dr-congo-pass-11000-with-5387-deaths"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Kenya"&gt;Kenyan&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Ministry_of_Health_(Kenya)"&gt;health ministry&lt;/a&gt; reports that the country has discharged its last &lt;a href="https://en.wikipedia.org/wiki/Ebola"&gt;Ebola&lt;/a&gt; patient from a hospital in &lt;a href="https://en.wikipedia.org/wiki/Nairobi"&gt;Nairobi&lt;/a&gt; after eleven contact cases were treated. Kenya will be declared Ebola-free on December 23 if no one else exhibits symptoms.&lt;/p&gt;
 &lt;p&gt;Sources: &lt;a href="https://www.dw.com/en/kenya-ebola-free-patient-leaves-hospital/a-79921240"&gt;DW&lt;/a&gt;&lt;/p&gt;
@@ -430,156 +588,6 @@
       <guid isPermaLink="false">wikipedia:en:2026-11-10:6db2fdf0f518</guid>
       <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
       <category>Business and economy</category>
-    </item>
-    <item>
-      <title>Twelve people are killed and at least 46 others are seriously injured in a multiple-vehicle collision involving over 50 trucks and cars on the Trakia A1 motorway near Yambol, Bulgaria.</title>
-      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_10</link>
-      <description>&lt;p&gt;Twelve people are killed and at least 46 others are seriously injured in a &lt;a href="https://en.wikipedia.org/wiki/Multiple-vehicle_collision"&gt;multiple-vehicle collision&lt;/a&gt; involving over 50 trucks and cars on the &lt;a href="https://en.wikipedia.org/wiki/Trakia_motorway"&gt;Trakia A1 motorway&lt;/a&gt; near &lt;a href="https://en.wikipedia.org/wiki/Yambol"&gt;Yambol&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Bulgaria"&gt;Bulgaria&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/11/10/at-least-12-people-killed-in-motorway-crash-in-southeastern-bulgaria"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_10"&gt;Portal:Current events/2026 November 10&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_10&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-10:63cf85846932</guid>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Disasters and accidents</category>
-    </item>
-    <item>
-      <title>Five schoolgirls are killed and 21 others are injured when a school bus plunges into a pond in Kandal province, Cambodia.</title>
-      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_10</link>
-      <description>&lt;p&gt;Five schoolgirls are killed and 21 others are injured when a school bus plunges into a &lt;a href="https://en.wikipedia.org/wiki/Pond"&gt;pond&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Kandal_province"&gt;Kandal province&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Cambodia"&gt;Cambodia&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://apnews.com/article/cambodia-traffic-accidents-school-bus-e0c3e6316356dcbe3c4ff9fbed68a62b"&gt;AP&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_10"&gt;Portal:Current events/2026 November 10&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_10&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-10:8072ebda6e2b</guid>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Disasters and accidents</category>
-    </item>
-    <item>
-      <title>The British Columbia Conservation Officer Service kills a female grizzly bear and her three cubs after DNA evidence confirmed that the bears killed two people near Bella Coola, B.C., Canada.</title>
-      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_10</link>
-      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/British_Columbia_Conservation_Officer_Service"&gt;British Columbia Conservation Officer Service&lt;/a&gt; kills a female &lt;a href="https://en.wikipedia.org/wiki/Grizzly_bear"&gt;grizzly bear&lt;/a&gt; and her three cubs after &lt;a href="https://en.wikipedia.org/wiki/DNA_evidence"&gt;DNA evidence&lt;/a&gt; confirmed that the bears &lt;a href="https://en.wikipedia.org/wiki/List_of_fatal_bear_attacks_in_North_America"&gt;killed&lt;/a&gt; two people near &lt;a href="https://en.wikipedia.org/wiki/Bella_Coola,_British_Columbia"&gt;Bella Coola&lt;/a&gt;, B.C., &lt;a href="https://en.wikipedia.org/wiki/Canada"&gt;Canada&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.abs-cbn.com/news/world/2026/11/11/four-bears-blamed-and-put-down-after-fatal-mauling-in-canada-0852"&gt;AFP via ABS-CBN News&lt;/a&gt;, &lt;a href="https://www.bbc.com/news/articles/cwg5r8zrm11mo"&gt;BBC News&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_10"&gt;Portal:Current events/2026 November 10&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_10&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-10:435d4b167292</guid>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Disasters and accidents</category>
-    </item>
-    <item>
-      <title>The Thai cabinet approves new environmental regulations for data centers, including limits on noise and temperature increases, requirements for cooling-water recycling and testing, and industrial…</title>
-      <link>https://en.wikipedia.org/wiki/AI_boom</link>
-      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Thailand"&gt;Thai&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Cabinet_of_Thailand"&gt;cabinet&lt;/a&gt; approves new &lt;a href="https://en.wikipedia.org/wiki/Environmental_issues_in_Thailand"&gt;environmental regulations&lt;/a&gt; for &lt;a href="https://en.wikipedia.org/wiki/Data_center"&gt;data centers&lt;/a&gt;, including limits on noise and temperature increases, &lt;a href="https://en.wikipedia.org/wiki/Waste_management_in_Thailand"&gt;requirements&lt;/a&gt; for &lt;a href="https://en.wikipedia.org/wiki/Water_cooling"&gt;cooling-water&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Reclaimed_water"&gt;recycling&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Water_testing"&gt;testing&lt;/a&gt;, and &lt;a href="https://en.wikipedia.org/wiki/Industrial_zoning"&gt;industrial zoning&lt;/a&gt; for facilities consuming more than 20 megawatts.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.straitstimes.com/asia/se-asia/thailand-sets-noise-water-use-limits-for-data-centres"&gt;AFP via The Straits Times&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/AI_boom"&gt;AI boom&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_10"&gt;Portal:Current events/2026 November 10&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_10&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-10:c24e173a1af9</guid>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Health and environment</category>
-      <category>AI boom</category>
-    </item>
-    <item>
-      <title>The United States Food and Drug Administration orders manufacturers of GLP-1 medicines such as semaglutide and tirzepatide, originally intended for the treatment of type 2 diabetes but also commonly…</title>
-      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_10</link>
-      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/United_States"&gt;United States&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Food_and_Drug_Administration"&gt;Food and Drug Administration&lt;/a&gt; orders manufacturers of &lt;a href="https://en.wikipedia.org/wiki/GLP-1_receptor_agonist"&gt;GLP-1 medicines&lt;/a&gt; such as &lt;a href="https://en.wikipedia.org/wiki/Semaglutide"&gt;semaglutide&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Tirzepatide"&gt;tirzepatide&lt;/a&gt;, originally intended for the treatment of &lt;a href="https://en.wikipedia.org/wiki/Type_2_diabetes"&gt;type 2 diabetes&lt;/a&gt; but also &lt;a href="https://en.wikipedia.org/wiki/Anti-obesity_medication"&gt;commonly used&lt;/a&gt; for &lt;a href="https://en.wikipedia.org/wiki/Weight_loss"&gt;weight loss&lt;/a&gt;, to add warnings that use of such drugs may increase the risk of developing &lt;a href="https://en.wikipedia.org/wiki/Non-arteritic_anterior_ischemic_optic_neuropathy"&gt;non-arteritic anterior ischemic optic neuropathy&lt;/a&gt;, an &lt;a href="https://en.wikipedia.org/wiki/Optic_nerve"&gt;optic nerve&lt;/a&gt; disorder that can cause permanent &lt;a href="https://en.wikipedia.org/wiki/Visual_impairment"&gt;blindness&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.bbc.com/news/articles/crwydyde0lp3o"&gt;BBC News&lt;/a&gt;, &lt;a href="https://www.reuters.com/business/healthcare-pharmaceuticals/us-fda-orders-new-eye-risk-warnings-ozempic-zepbound-2026-11-09/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_10"&gt;Portal:Current events/2026 November 10&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_10&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-10:d4f91f61562d</guid>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Health and environment</category>
-    </item>
-    <item>
-      <title>The Judicial Committee of the Privy Council overturns colonial-era provisions criminalizing consensual same-sex sexual activity between adults in Trinidad and Tobago, ruling them unconstitutional…</title>
-      <link>https://en.wikipedia.org/wiki/LGBTQ_rights_in_Trinidad_and_Tobago</link>
-      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Judicial_Committee_of_the_Privy_Council"&gt;Judicial Committee of the Privy Council&lt;/a&gt; overturns colonial-era provisions &lt;a href="https://en.wikipedia.org/wiki/Criminalization_of_homosexuality"&gt;criminalizing&lt;/a&gt; consensual &lt;a href="https://en.wikipedia.org/wiki/Same-sex_sexual_practices"&gt;same-sex sexual activity&lt;/a&gt; between adults in &lt;a href="https://en.wikipedia.org/wiki/Trinidad_and_Tobago"&gt;Trinidad and Tobago&lt;/a&gt;, ruling them unconstitutional following a legal challenge by activist &lt;a href="https://en.wikipedia.org/wiki/Jason_Jones_(activist)"&gt;Jason Jones&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://edition.cnn.com/2026/11/10/americas/trinidad-tobago-gay-sex-law-latam-intl"&gt;CNN&lt;/a&gt;, &lt;a href="https://www.reuters.com/world/uk/uk-court-overturns-trinidad-tobago-law-criminalising-homosexual-sex-2026-11-10/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/LGBTQ_rights_in_Trinidad_and_Tobago"&gt;LGBTQ rights in Trinidad and Tobago&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_10"&gt;Portal:Current events/2026 November 10&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_10&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-10:9b88cae1a5dd</guid>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Law and crime</category>
-      <category>LGBTQ rights in Trinidad and Tobago</category>
-    </item>
-    <item>
-      <title>Police arrest an American soldier near Gloucester, England, on suspicions of espionage activity in connection with Russia.</title>
-      <link>https://en.wikipedia.org/wiki/United_Kingdom%E2%80%93United_States_relations</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Metropolitan_Police"&gt;Police&lt;/a&gt; arrest an &lt;a href="https://en.wikipedia.org/wiki/United_States_Army"&gt;American soldier&lt;/a&gt; near &lt;a href="https://en.wikipedia.org/wiki/Gloucester"&gt;Gloucester&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/England"&gt;England&lt;/a&gt;, on suspicions of &lt;a href="https://en.wikipedia.org/wiki/Espionage"&gt;espionage activity&lt;/a&gt; in connection with &lt;a href="https://en.wikipedia.org/wiki/Russia"&gt;Russia&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.dw.com/en/us-american-soldier-arrested-uk-spying-russia/a-79913240"&gt;DW&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/United_Kingdom%E2%80%93United_States_relations"&gt;United Kingdom–United States relations, Russia–United Kingdom relations&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_10"&gt;Portal:Current events/2026 November 10&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_10&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-10:6bce3c2c28f7</guid>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Law and crime</category>
-      <category>United Kingdom–United States relations, Russia–United Kingdom relations</category>
-    </item>
-    <item>
-      <title>An explosive device kills a police officer and his K9 dog and injures another while they were responding to a shooting in Oviedo, Asturias, Spain.</title>
-      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_10</link>
-      <description>&lt;p&gt;An &lt;a href="https://en.wikipedia.org/wiki/Explosive_device"&gt;explosive device&lt;/a&gt; kills a &lt;a href="https://en.wikipedia.org/wiki/National_Police_Corps_(Spain)"&gt;police officer&lt;/a&gt; and his &lt;a href="https://en.wikipedia.org/wiki/Police_dog"&gt;K9 dog&lt;/a&gt; and injures another while they were responding to a shooting in &lt;a href="https://en.wikipedia.org/wiki/Oviedo"&gt;Oviedo&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Asturias"&gt;Asturias&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Spain"&gt;Spain&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://apnews.com/article/spain-police-killed-explosive-e16086184fbee0e74f9e4b8e9992e075"&gt;AP&lt;/a&gt;, &lt;a href="https://www.bbc.com/news/articles/cwm262pzezy0o"&gt;BBC News&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_10"&gt;Portal:Current events/2026 November 10&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_10&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-10:8748b567fd42</guid>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Law and crime</category>
-    </item>
-    <item>
-      <title>British news outlets The Guardian and ITV News identify comedian and author David Walliams as the subject of sexual misconduct allegations after the High Court of Justice rejects his attempt to…</title>
-      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_10</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Mass_media_in_the_United_Kingdom"&gt;British news&lt;/a&gt; outlets &lt;i&gt;&lt;a href="https://en.wikipedia.org/wiki/The_Guardian"&gt;The Guardian&lt;/a&gt;&lt;/i&gt; and &lt;a href="https://en.wikipedia.org/wiki/ITV_News"&gt;ITV News&lt;/a&gt; identify comedian and author &lt;a href="https://en.wikipedia.org/wiki/David_Walliams"&gt;David Walliams&lt;/a&gt; as the subject of &lt;a href="https://en.wikipedia.org/wiki/Sexual_offences_in_the_United_Kingdom"&gt;sexual misconduct&lt;/a&gt; allegations after the &lt;a href="https://en.wikipedia.org/wiki/High_Court_of_Justice"&gt;High Court of Justice&lt;/a&gt; rejects his attempt to prevent their publication. Walliams denies the allegations.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://edition.cnn.com/2026/11/10/entertainment/david-walliams-celebrity-injunction-sexual-misconduct-intl"&gt;CNN&lt;/a&gt;, &lt;a href="https://www.rte.ie/news/2026/1110/1598675-walliams-named-in-failed-injunction/"&gt;RTÉ News&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_10"&gt;Portal:Current events/2026 November 10&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_10&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-10:7d07af0c3a03</guid>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Law and crime</category>
-    </item>
-    <item>
-      <title>Indonesian vice president Gibran Rakabuming Raka announces his intention to resign following controversies about the authenticity of his high-school diploma.</title>
-      <link>https://en.wikipedia.org/wiki/Gibran_Rakabuming_Raka_diploma_controversy</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Indonesian_people"&gt;Indonesian&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Vice_President_of_Indonesia"&gt;vice president&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Gibran_Rakabuming_Raka"&gt;Gibran Rakabuming Raka&lt;/a&gt; announces his intention to resign following controversies about the authenticity of his high-school diploma.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.reuters.com/world/asia-pacific/indonesia-vice-president-expresses-intention-resign-presidential-official-says-2026-11-10/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Gibran_Rakabuming_Raka_diploma_controversy"&gt;Gibran Rakabuming Raka diploma controversy&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_10"&gt;Portal:Current events/2026 November 10&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_10&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-10:edd2af6f0722</guid>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Politics and elections</category>
-      <category>Gibran Rakabuming Raka diploma controversy</category>
-    </item>
-    <item>
-      <title>Russell Brand is sentenced to 10 years and 6 months imprisonment for one rape and three sexual assaults.</title>
-      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_9</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Russell_Brand"&gt;Russell Brand&lt;/a&gt; is sentenced to 10 years and 6 months imprisonment for one rape and three sexual assaults.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.rte.ie/news/uk/2026/1109/1598469-russell-brand-court/"&gt;RTÉ News&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_9"&gt;Portal:Current events/2026 November 9&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_9&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-09:904dd9092968</guid>
-      <pubDate>Mon, 09 Nov 2026 16:21:43 GMT</pubDate>
-      <category>Law and crime</category>
-    </item>
-    <item>
-      <title>The 24-year-old man responsible for the drive-by mass shooting at the Main Square in Kraków, Poland, two days ago, which killed six people and injured 16 others, dies at a hospital after being…</title>
-      <link>https://en.wikipedia.org/wiki/2026_Krak%C3%B3w_shooting</link>
-      <description>&lt;p&gt;The 24-year-old man responsible for the &lt;a href="https://en.wikipedia.org/wiki/Drive-by_shooting"&gt;drive-by&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Mass_shooting"&gt;mass shooting&lt;/a&gt; at the &lt;a href="https://en.wikipedia.org/wiki/Main_Square,_Krak%C3%B3w"&gt;Main Square&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Krak%C3%B3w"&gt;Kraków&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Poland"&gt;Poland&lt;/a&gt;, two days ago, which killed six people and injured 16 others, dies at a hospital after being seriously wounded in a &lt;a href="https://en.wikipedia.org/wiki/Shootout"&gt;shootout&lt;/a&gt; with &lt;a href="https://en.wikipedia.org/wiki/Police_of_Poland"&gt;police&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/11/9/poland-mass-shooting-assailant-dies-in-hospital-police-say"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Krak%C3%B3w_shooting"&gt;2026 Kraków shooting&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_9"&gt;Portal:Current events/2026 November 9&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_9&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-09:c91dada84785</guid>
-      <pubDate>Mon, 09 Nov 2026 16:21:43 GMT</pubDate>
-      <category>Armed conflicts and attacks</category>
-      <category>2026 Kraków shooting</category>
-    </item>
-    <item>
-      <title>D.R. Congolese president Félix Tshisekedi signs a law allowing constitutional changes through referendums.</title>
-      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_9</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo"&gt;D.R. Congolese&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/President_of_the_Democratic_Republic_of_the_Congo"&gt;president&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/F%C3%A9lix_Tshisekedi"&gt;Félix Tshisekedi&lt;/a&gt; signs a law allowing &lt;a href="https://en.wikipedia.org/wiki/Constitution_of_the_Democratic_Republic_of_the_Congo"&gt;constitutional&lt;/a&gt; changes through &lt;a href="https://en.wikipedia.org/wiki/Referendum"&gt;referendums&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.reuters.com/world/africa/congolese-president-signs-contested-referendum-law-amid-fears-over-third-term-2026-11-11/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_9"&gt;Portal:Current events/2026 November 9&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_9&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-09:02ad9fc83a48</guid>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Politics and elections</category>
-    </item>
-    <item>
-      <title>At least five people are reported missing after two boats collide off the coast of Trinidad.</title>
-      <link>https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_9</link>
-      <description>&lt;p&gt;At least five people are reported missing after two boats collide off the coast of &lt;a href="https://en.wikipedia.org/wiki/Trinidad"&gt;Trinidad&lt;/a&gt;. &lt;a href="https://en.wikipedia.org/wiki/Search_and_rescue"&gt;Search and rescue&lt;/a&gt; operations are underway by the &lt;a href="https://en.wikipedia.org/wiki/Trinidad_and_Tobago"&gt;Trinbagonian&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Trinidad_and_Tobago_Defence_Force"&gt;Coast Guard&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://apnews.com/article/trinidad-tobago-boat-accident-63915335673045954c5580f00cb8d617"&gt;AP&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_9"&gt;Portal:Current events/2026 November 9&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_9&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-09:8eb7e532ed1b</guid>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Disasters and accidents</category>
     </item>
   </channel>
 </rss>
