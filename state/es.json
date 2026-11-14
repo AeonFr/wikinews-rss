@@ -450,11 +450,11 @@
    "html": "<a href=\"https://es.wikipedia.org/wiki/Viaje_apost%C3%B3lico_de_Le%C3%B3n_XIV_a_Per%C3%BA\">Viaje apostólico de León XIV a Perú</a>",
    "link": "https://es.wikipedia.org/wiki/Viaje_apost%C3%B3lico_de_Le%C3%B3n_XIV_a_Per%C3%BA",
    "main_title": "Viaje apostólico de León XIV a Perú",
-   "order": 3,
+   "order": 2,
    "page": "Plantilla:Portada:Actualidad",
    "page_date": null,
    "pageid": 11531007,
-   "pos": 3,
+   "pos": 2,
    "pub_date": "2026-11-10T14:54:10Z",
    "qid": "Q140288635",
    "sources": [],
@@ -776,11 +776,11 @@
    "html": "<a href=\"https://es.wikipedia.org/wiki/Full_Gear_(2026)\">Full Gear</a>",
    "link": "https://es.wikipedia.org/wiki/Full_Gear_(2026)",
    "main_title": "Full Gear (2026)",
-   "order": 2,
+   "order": 1,
    "page": "Plantilla:Portada:Actualidad",
    "page_date": null,
    "pageid": 11622097,
-   "pos": 2,
+   "pos": 1,
    "pub_date": "2026-11-13T14:36:31Z",
    "qid": "Q140753370",
    "sources": [],
@@ -908,6 +908,7 @@
    "date_source": "first_seen",
    "extract": "La Intervención militar salvadoreña en Haití es el despliegue de la Fuerza Armada de El Salvador en el oeste de La Española, bajo el beneplácito del gobierno haitiano para apoyar a las fuerzas de seguridad nacionales a repeler a grupos y organizaciones «pandilleras» de carácter paramilitar. Esta…",
    "first_seen": "2026-11-03T14:17:16Z",
+   "gone_since": "2026-11-14T13:32:54Z",
    "group_key": "pageid:11627965",
    "guid": "wikipedia:es:11627965",
    "html": "<a href=\"https://es.wikipedia.org/wiki/Intervenci%C3%B3n_salvadore%C3%B1a_en_Hait%C3%AD\">Intervención salvadoreña en Haití</a>",
@@ -1047,11 +1048,11 @@
    "html": "<a href=\"https://es.wikipedia.org/wiki/Torneo_de_Estocolmo_2026\">Torneo de Estocolmo</a> de tenis",
    "link": "https://es.wikipedia.org/wiki/Torneo_de_Estocolmo_2026",
    "main_title": "Torneo de Estocolmo 2026",
-   "order": 4,
+   "order": 3,
    "page": "Plantilla:Portada:Actualidad",
    "page_date": null,
    "pageid": 11635789,
-   "pos": 4,
+   "pos": 3,
    "pub_date": "2026-11-08T13:26:12Z",
    "qid": "Q132131803",
    "sources": [],
@@ -1068,6 +1069,7 @@
    "date_source": "first_seen",
    "extract": "La crisis político-financiera en Paraguay de 2026, también conocida como la crisis de Ueno Bank o el escándalo de Ueno Bank, se refiere a un acontecimiento que tuvo como resultado la destitución del presidente de Paraguay, Santiago Peña, tras los señalamientos del Congreso Nacional de provocar la…",
    "first_seen": "2026-11-06T14:17:35Z",
+   "gone_since": "2026-11-14T13:32:54Z",
    "group_key": "pageid:11638337",
    "guid": "wikipedia:es:11638337",
    "html": "<a href=\"https://es.wikipedia.org/wiki/Crisis_pol%C3%ADtica_en_Paraguay_de_2026\">Crisis política en Paraguay</a>",
@@ -1112,6 +1114,32 @@
    "title": "Tiroteo de Cracovia",
    "topics": []
   },
+  "wikipedia:es:11641408": {
+   "articles": [
+    "ATP Finals 2026"
+   ],
+   "category": null,
+   "date": null,
+   "date_source": "first_seen",
+   "extract": "Las Finales de la ATP o Nitto ATP Finals 2026 será un torneo de tenis masculino que se jugó en el Inalpi Arena en Turín, Italia, del 15 al 22 de noviembre de 2026. Fue el evento de final de temporada para los jugadores de individuales y dobles mejor clasificados en el ATP Tour 2026. Esta fue la…",
+   "first_seen": "2026-11-14T13:32:54Z",
+   "group_key": "pageid:11641408",
+   "guid": "wikipedia:es:11641408",
+   "html": "<a href=\"https://es.wikipedia.org/wiki/ATP_Finals_2026\">ATP Finals</a>",
+   "link": "https://es.wikipedia.org/wiki/ATP_Finals_2026",
+   "main_title": "ATP Finals 2026",
+   "order": 0,
+   "page": "Plantilla:Portada:Actualidad",
+   "page_date": null,
+   "pageid": 11641408,
+   "pos": 0,
+   "pub_date": "2026-11-14T13:32:54Z",
+   "qid": "Q137187241",
+   "sources": [],
+   "text": "ATP Finals",
+   "title": "ATP Finals",
+   "topics": []
+  },
   "wikipedia:es:19350": {
    "articles": [
     "Premios Princesa de Asturias"
@@ -1140,5 +1168,5 @@
    "topics": []
   }
  },
- "updated": "2026-11-13T14:36:31Z"
+ "updated": "2026-11-14T13:32:54Z"
 }
