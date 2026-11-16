@@ -6,11 +6,20 @@
     <description>Temas de actualidad de la portada de Wikipedia en español (Plantilla:Portada:Actualidad). Texto de colaboradores de Wikipedia, bajo licencia CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). (historial: https://es.wikipedia.org/w/index.php?title=Plantilla:Portada:Actualidad&amp;action=history)</description>
     <language>es</language>
     <copyright>Texto de colaboradores de Wikipedia, bajo licencia CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).</copyright>
-    <lastBuildDate>Sun, 15 Nov 2026 13:56:51 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 15:48:48 GMT</lastBuildDate>
     <generator>wikipedia-noticias-rss</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
     <atom:link href="https://aeonfr.github.io/wikinews-rss/feeds/es.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Final de la Copa Mundial Femenina de Rugby League</title>
+      <link>https://es.wikipedia.org/wiki/Copa_Mundial_Femenina_de_Rugby_League_de_2026</link>
+      <description>&lt;p&gt;Final de la &lt;a href="https://es.wikipedia.org/wiki/Copa_Mundial_Femenina_de_Rugby_League_de_2026"&gt;Copa Mundial Femenina de Rugby League&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;La Copa Mundial Femenina de Rugby League de 2026 fue la séptima edición de la Copa Mundial Femenina de Rugby League.&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;De &lt;a href="https://es.wikipedia.org/wiki/Plantilla:Portada:Actualidad"&gt;Plantilla:Portada:Actualidad&lt;/a&gt; de Wikipedia (&lt;a href="https://es.wikipedia.org/w/index.php?title=Plantilla:Portada:Actualidad&amp;amp;action=history"&gt;historial&lt;/a&gt;). Texto bajo licencia &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:es:10717768</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>ATP Finals de tenis</title>
       <link>https://es.wikipedia.org/wiki/ATP_Finals_2026</link>
