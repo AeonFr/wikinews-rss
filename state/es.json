@@ -64,6 +64,7 @@
    "date_source": "text_date",
    "extract": "La Copa Mundial Femenina de Rugby League de 2026 fue la séptima edición de la Copa Mundial Femenina de Rugby League.",
    "first_seen": "2026-11-16T15:48:48Z",
+   "gone_since": "2026-11-17T16:01:34Z",
    "group_key": "pageid:10717768",
    "guid": "wikipedia:es:10717768",
    "html": "Final de la <a href=\"https://es.wikipedia.org/wiki/Copa_Mundial_Femenina_de_Rugby_League_de_2026\">Copa Mundial Femenina de Rugby League</a>",
@@ -469,7 +470,7 @@
    "category": null,
    "date": null,
    "date_source": "first_seen",
-   "extract": "El viaje apostólico de León XIV a Perú es un viaje apostólico del papa León XIV a Perú, que se está desarrollando actualmente.",
+   "extract": "El viaje apostólico de León XIV a Perú fue un viaje apostólico del papa León XIV a Perú, que se desarrolló entre el 11 a 16 de noviembre de 2026.",
    "first_seen": "2026-11-10T14:54:10Z",
    "group_key": "pageid:11531007",
    "guid": "wikipedia:es:11531007",
@@ -621,6 +622,32 @@
    "sources": [],
    "text": "Festival de la Canción de Eurovisión Asia",
    "title": "Festival de la Canción de Eurovisión Asia",
+   "topics": []
+  },
+  "wikipedia:es:11573771": {
+   "articles": [
+    "APEC China 2026"
+   ],
+   "category": null,
+   "date": null,
+   "date_source": "first_seen",
+   "extract": "La cumbre APEC China 2026 será un evento que albergará durante todo el año las reuniones del Foro de Cooperación Económica Asia-Pacífico (APEC), y que concluirá con la Reunión de Líderes Económicos de APEC en noviembre de 2026. Será la tercera vez que China sea sede de la cumbre, tras haberla…",
+   "first_seen": "2026-11-17T16:01:34Z",
+   "group_key": "pageid:11573771",
+   "guid": "wikipedia:es:11573771",
+   "html": "<a href=\"https://es.wikipedia.org/wiki/APEC_China_2026\">Foro de Cooperación Económica Asia-Pacífico</a>",
+   "link": "https://es.wikipedia.org/wiki/APEC_China_2026",
+   "main_title": "APEC China 2026",
+   "order": 0,
+   "page": "Plantilla:Portada:Actualidad",
+   "page_date": null,
+   "pageid": 11573771,
+   "pos": 0,
+   "pub_date": "2026-11-17T16:01:34Z",
+   "qid": "Q136689033",
+   "sources": [],
+   "text": "Foro de Cooperación Económica Asia-Pacífico",
+   "title": "Foro de Cooperación Económica Asia-Pacífico",
    "topics": []
   },
   "wikipedia:es:11589301": {
@@ -1183,11 +1210,11 @@
    "html": "<a href=\"https://es.wikipedia.org/wiki/ATP_Finals_2026\">ATP Finals</a> de tenis",
    "link": "https://es.wikipedia.org/wiki/ATP_Finals_2026",
    "main_title": "ATP Finals 2026",
-   "order": 0,
+   "order": 1,
    "page": "Plantilla:Portada:Actualidad",
    "page_date": null,
    "pageid": 11641408,
-   "pos": 0,
+   "pos": 1,
    "pub_date": "2026-11-14T13:32:54Z",
    "qid": "Q137187241",
    "sources": [],
@@ -1223,5 +1250,5 @@
    "topics": []
   }
  },
- "updated": "2026-11-16T15:48:48Z"
+ "updated": "2026-11-17T16:01:34Z"
 }
