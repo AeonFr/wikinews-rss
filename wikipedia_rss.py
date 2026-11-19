@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Entry point: python3 wikipedia_rss.py [--lang es en] ..."""
+"""Entry point: python3 wikipedia_rss.py ..."""
 import os
 import sys
 

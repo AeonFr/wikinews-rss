@@ -14,7 +14,7 @@
      Para quitarlo:       launchctl bootout gui/$(id -u)/org.example.wikipedia-noticias
 
   Con el Mac dormido no se ejecuta; launchd lanza una ejecución al despertar.
-  Para publicar los feeds tendrías que añadir un git commit/push o copiarlos a un servidor.
+  Para publicar el feed y la web (feeds/, data/, state/) tendrías que añadir un git commit/push o copiarlos a un servidor.
 -->
 <plist version="1.0">
 <dict>
@@ -29,7 +29,7 @@
     <string>.cache</string>
   </array>
 
-  <!-- Directorio de trabajo: feeds/, state/ y .cache/ se resuelven respecto a él. -->
+  <!-- Directorio de trabajo: feeds/, data/, state/ y .cache/ se resuelven respecto a él. -->
   <key>WorkingDirectory</key>
   <string>/RUTA/AL/REPO</string>
 

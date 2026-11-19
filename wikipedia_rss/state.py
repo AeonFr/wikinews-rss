@@ -11,13 +11,17 @@ The state only changes when the scraped content changes, so a run that finds
 nothing new leaves the file byte-for-byte identical (no per-run timestamps):
 
 - "updated" is the time of the last real change (it is also the feed's lastBuildDate).
-- "gone_since" is set on an item only while it is missing from the portal; it
-  drives retention and is removed if the item comes back.
+
+Retention: headlines (and groups) whose pub_date is older than `retention_days` are
+deleted, whether or not they are still on the portal, so the state, the feed and the
+website do not grow indefinitely. Old headlines that are still scraped are ignored.
 """
 import datetime
 import json
 import os
 import tempfile
+
+from .config import RETENTION_DAYS
 
 
 def utc_iso(dt):
@@ -78,14 +82,15 @@ def pub_date_for(item, first_seen):
     return utc_iso(first_seen)
 
 
-def merge(state, items, now, retention_days=90, max_group=3):
+def merge(state, items, now, retention_days=RETENTION_DAYS, max_group=3):
     """Merge freshly scraped headlines (each with a 'guid') into state, then group them.
 
     Returns the guids of the new feed items (new headlines not absorbed by a group).
 
     Known headlines keep first_seen, pub_date and date_source; their content is refreshed.
-    Headlines no longer on the portal get "gone_since" and stay until it is older than
-    retention_days. state["updated"] only moves to now if the state actually changed.
+    Headlines (and groups) with a pub_date older than retention_days are deleted, and new
+    headlines that old are ignored. Headlines that are no longer on the portal are kept
+    until then. state["updated"] only moves to now if the state actually changed.
     """
     known = state.setdefault("items", {})
     # State written before grouping existed: regroup everything currently scraped.
@@ -93,6 +98,7 @@ def merge(state, items, now, retention_days=90, max_group=3):
     groups = state.setdefault("groups", {})
     before = json.dumps([known, groups], sort_keys=True)
     now_iso = utc_iso(now)
+    cutoff = utc_iso(now - datetime.timedelta(days=retention_days))
     scraped = {it["guid"] for it in items}
     # An edited daily item gets a new text hash; recognise it by date + first source URL.
     by_source = {}
@@ -100,7 +106,7 @@ def merge(state, items, now, retention_days=90, max_group=3):
         if old.get("sources") and guid not in scraped:
             by_source.setdefault((old.get("date"), old["sources"][0]["url"]), guid)
 
-    new = []
+    new, current = [], set()
     for item in items:
         guid = item["guid"]
         if guid not in known and item.get("sources"):
@@ -114,25 +120,40 @@ def merge(state, items, now, retention_days=90, max_group=3):
         else:
             item["first_seen"] = now_iso
             item["pub_date"] = pub_date_for(item, now)
+            if item["pub_date"] < cutoff:
+                continue
             new.append(guid)
         known[guid] = item
+        current.add(guid)
 
-    current = {it["guid"] for it in items}
-    cutoff = now - datetime.timedelta(days=retention_days)
-    for guid in list(known):
-        it = known[guid]
-        # "last_seen" came from older versions that stamped every item on every run.
-        last_seen = it.pop("last_seen", None)
-        if guid in current:
-            continue
-        it.setdefault("gone_since", last_seen or now_iso)
-        if parse_iso(it["gone_since"]) < cutoff:
-            del known[guid]
+    expire(state, cutoff)
 
-    owner = regroup(state, [it["guid"] for it in items], list(current) if migrating else new, max_group)
+    current &= set(known)
+    owner = regroup(state, [it["guid"] for it in items if it["guid"] in known],
+                    list(current) if migrating else new, max_group)
     if "updated" not in state or json.dumps([known, groups], sort_keys=True) != before:
         state["updated"] = now_iso
     return [g for g in new if owner.get(g, g) == g]
+
+
+def expire(state, cutoff):
+    """Delete groups and ungrouped headlines whose pub_date is older than `cutoff` (ISO string).
+
+    A group goes as a whole when its pub_date (its founder's) is old: its headlines are all
+    from the same day. Also drops keys written by older versions ("last_seen", "gone_since").
+    """
+    known, groups = state["items"], state["groups"]
+    for g, rec in list(groups.items()):
+        if rec["pub_date"] < cutoff:
+            for m in rec["members"]:
+                known.pop(m, None)
+            del groups[g]
+    grouped = {m for rec in groups.values() for m in rec["members"]}
+    for guid, it in list(known.items()):
+        it.pop("last_seen", None)
+        it.pop("gone_since", None)
+        if guid not in grouped and it["pub_date"] < cutoff:
+            del known[guid]
 
 
 def _first_key(it):

@@ -5,8 +5,8 @@ import os
 import sys
 
 from .client import WikiClient
-from .config import DEFAULT_USER_AGENT, LANGUAGES, USER_AGENT_ENV
-from .feed import run_language
+from .config import DEFAULT_USER_AGENT, RETENTION_DAYS, USER_AGENT_ENV, WIKI
+from .feed import run
 
 log = logging.getLogger("wikipedia_rss")
 
@@ -14,21 +14,21 @@ log = logging.getLogger("wikipedia_rss")
 def main(argv=None, now=None):
     """`now` (datetime con zona) permite fijar el reloj, p. ej. en tests; por defecto, la hora actual UTC."""
     ap = argparse.ArgumentParser(prog="wikipedia_rss",
-                                 description="Genera feeds RSS a partir de los portales de actualidad de Wikipedia.")
-    ap.add_argument("--lang", nargs="+", choices=sorted(LANGUAGES), default=sorted(LANGUAGES))
-    ap.add_argument("--days", type=int, default=7, help="días de páginas diarias a leer (modo daily_pages)")
-    ap.add_argument("--out", default="feeds", help="directorio de salida de los XML")
+                                 description="Genera el feed RSS y los datos de la web a partir de "
+                                             "Portal:Current events de la Wikipedia en inglés.")
+    ap.add_argument("--days", type=int, default=7, help="días de páginas diarias a leer")
+    ap.add_argument("--out", default="feeds", help="directorio de salida del feed XML")
+    ap.add_argument("--data", default="data", help="directorio de salida de los datos de la web (news.json)")
     ap.add_argument("--state", default="state", help="directorio del estado JSON")
-    ap.add_argument("--max-items", type=int, default=50)
-    ap.add_argument("--base-url", help="URL pública donde se sirven los feeds (para atom:link rel=self)")
+    ap.add_argument("--max-items", type=int, default=50, help="máximo de items en el feed RSS (la web los muestra todos)")
+    ap.add_argument("--site-url", help="URL pública de la web (raíz): los items del feed enlazan a sus páginas "
+                                       "y se añade atom:link rel=self; sin ella enlazan al artículo de Wikipedia")
     ap.add_argument("--cache", metavar="DIR", help="caché HTTP en disco (30 min)")
-    ap.add_argument("--retention-days", type=int, default=90,
-                    help="días que se conserva en el estado un item que ya no aparece")
+    ap.add_argument("--retention-days", type=int, default=RETENTION_DAYS,
+                    help="las noticias con más de N días se borran del estado, el feed y la web")
     ap.add_argument("--max-group", type=int, default=3,
                     help="máximo de titulares sobre el mismo artículo agrupados en un item (1 desactiva la agrupación)")
-    ap.add_argument("--article-dates", action="store_true",
-                    help="fechar items sin fecha con la creación del artículo si es reciente (1 petición por item nuevo)")
-    ap.add_argument("--dry-run", action="store_true", help="no escribe feeds ni estado; muestra un resumen")
+    ap.add_argument("--dry-run", action="store_true", help="no escribe feed, datos ni estado; muestra un resumen")
     ap.add_argument("-v", "--verbose", action="store_true")
     args = ap.parse_args(argv)
 
@@ -38,25 +38,20 @@ def main(argv=None, now=None):
     if now is None:
         now = datetime.datetime.now(datetime.timezone.utc).replace(microsecond=0)
 
-    failed = []
-    for code in args.lang:
-        cfg = LANGUAGES[code]
-        client = WikiClient(cfg.host, user_agent, cache_dir=args.cache)
-        try:
-            res = run_language(cfg, client, now, days=args.days, max_items=args.max_items,
-                               state_dir=args.state, out_dir=args.out, base_url=args.base_url,
-                               dry_run=args.dry_run, article_dates=args.article_dates,
-                               retention_days=args.retention_days, max_group=args.max_group)
-        except Exception as e:
-            log.error("%s: failed: %s", code, e, exc_info=args.verbose)
-            failed.append(code)
-            continue
-        log.info("%s: %d items parsed, %d new, %d in feed, %d HTTP requests",
-                 code, res["scraped"], res["new"], res["in_feed"], res["requests"])
-        if args.dry_run:
-            for it in res["items"][:10]:
-                print("%s  %-13s %s" % (it["pub_date"], it["date_source"], it["title"]))
-    return 1 if failed else 0
+    client = WikiClient(WIKI.host, user_agent, cache_dir=args.cache)
+    try:
+        res = run(WIKI, client, now, days=args.days, max_items=args.max_items,
+                  state_dir=args.state, out_dir=args.out, data_dir=args.data, site_url=args.site_url,
+                  dry_run=args.dry_run, retention_days=args.retention_days, max_group=args.max_group)
+    except Exception as e:
+        log.error("%s: failed: %s", WIKI.code, e, exc_info=args.verbose)
+        return 1
+    log.info("%s: %d items parsed, %d new, %d in feed, %d HTTP requests",
+             WIKI.code, res["scraped"], res["new"], res["in_feed"], res["requests"])
+    if args.dry_run:
+        for it in res["items"][:10]:
+            print("%s  %s" % (it["pub_date"], it["title"]))
+    return 0
 
 
 if __name__ == "__main__":

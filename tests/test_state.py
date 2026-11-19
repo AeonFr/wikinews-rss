@@ -24,46 +24,60 @@ class MergeTest(unittest.TestCase):
         self.assertEqual((a["first_seen"], a["pub_date"], a["title"]), ("2026-10-24T09:00:00Z",) * 2 + ("edited",))
         self.assertIn("b", state["items"])  # gone from the portal, kept in state
 
-    def test_retention(self):
+    def test_retention_deletes_news_older_than_the_limit(self):
         state = {"items": {}}
-        st.merge(state, [item("old")], T0)
-        day1 = T0 + datetime.timedelta(days=1)
-        st.merge(state, [item("new")], day1, retention_days=90)
-        self.assertEqual(state["items"]["old"]["gone_since"], st.utc_iso(day1))
-        st.merge(state, [item("new")], day1 + datetime.timedelta(days=90), retention_days=90)
+        st.merge(state, [item("old", "2026-10-01"), item("new", "2026-10-20")], T0, retention_days=30)
+        # Gone from the portal but still recent: kept.
+        st.merge(state, [], T0 + datetime.timedelta(days=5), retention_days=30)
+        self.assertEqual(sorted(state["items"]), ["new", "old"])
+        # 31 Oct 00:00 is exactly 30 days after "old" (1 Oct): not older than the limit yet.
+        st.merge(state, [], datetime.datetime(2026, 10, 31, 0, 0, tzinfo=datetime.timezone.utc), retention_days=30)
         self.assertIn("old", state["items"])
-        st.merge(state, [item("new")], day1 + datetime.timedelta(days=91), retention_days=90)
+        st.merge(state, [], datetime.datetime(2026, 10, 31, 0, 1, tzinfo=datetime.timezone.utc), retention_days=30)
         self.assertEqual(list(state["items"]), ["new"])
 
-    def test_returning_item_loses_gone_since(self):
+    def test_retention_applies_even_if_still_on_the_portal(self):
+        state = {"items": {}}
+        st.merge(state, [item("a", "2026-10-01")], T0, retention_days=30)
+        later = T0 + datetime.timedelta(days=10)
+        self.assertEqual(st.merge(state, [item("a", "2026-10-01")], later, retention_days=30), [])
+        self.assertEqual(state["items"], {})
+        # It stays out: scraping it again does not bring it back as a new item.
+        self.assertEqual(st.merge(state, [item("a", "2026-10-01")], later + datetime.timedelta(hours=12),
+                                  retention_days=30), [])
+        self.assertEqual(state["items"], {})
+
+    def test_new_items_older_than_the_limit_are_ignored(self):
+        state = {"items": {}}
+        self.assertEqual(st.merge(state, [item("ancient", "2026-08-01"), item("fresh", "2026-10-23")], T0), ["fresh"])
+        self.assertEqual(list(state["items"]), ["fresh"])
+
+    def test_returning_item_is_not_marked_gone(self):
         state = {"items": {}}
         st.merge(state, [item("a")], T0)
         st.merge(state, [], T0 + datetime.timedelta(days=1))
-        self.assertIn("gone_since", state["items"]["a"])
         st.merge(state, [item("a")], T0 + datetime.timedelta(days=2))
         self.assertNotIn("gone_since", state["items"]["a"])
 
     def test_unchanged_merge_leaves_state_identical(self):
         state = {"items": {}}
         st.merge(state, [item("a"), item("b", "2026-10-22")], T0)
-        st.merge(state, [item("a")], T0 + datetime.timedelta(days=1))  # b disappears
         dumped = st.dump_state(state)
-        for days in (2, 3):
+        for days in (1, 2, 3):  # b disappears from the portal: not a change, it is kept
             st.merge(state, [item("a")], T0 + datetime.timedelta(days=days))
             self.assertEqual(st.dump_state(state), dumped)
-        self.assertEqual(state["updated"], st.utc_iso(T0 + datetime.timedelta(days=1)))
+        self.assertEqual(state["updated"], st.utc_iso(T0))
         st.merge(state, [dict(item("a"), title="edited")], T0 + datetime.timedelta(days=4))
         self.assertEqual(state["updated"], st.utc_iso(T0 + datetime.timedelta(days=4)))
 
-    def test_migrates_last_seen(self):
+    def test_drops_keys_written_by_older_versions(self):
         state = {"updated": "2026-10-24T09:00:00Z", "items": {}}
         st.merge(state, [item("a"), item("b")], T0)
-        for it in state["items"].values():
-            it["last_seen"] = "2026-10-24T09:00:00Z"  # format written by older versions
+        state["items"]["a"]["last_seen"] = "2026-10-24T09:00:00Z"  # per-run stamp of the first versions
+        state["items"]["b"]["gone_since"] = "2026-10-24T09:00:00Z"  # retention used to depend on it
         st.merge(state, [item("a")], T0 + datetime.timedelta(hours=1))
-        self.assertNotIn("last_seen", state["items"]["a"])
-        self.assertEqual(state["items"]["b"], dict(state["items"]["b"], gone_since="2026-10-24T09:00:00Z"))
-        self.assertNotIn("last_seen", state["items"]["b"])
+        for it in state["items"].values():
+            self.assertFalse({"last_seen", "gone_since"} & set(it))
 
     def test_write_atomic_skips_identical_content(self):
         import os
