@@ -132,3 +132,24 @@ class PipelineTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class BackfillTest(unittest.TestCase):
+    def test_old_headlines_get_the_extract_they_were_stored_without(self):
+        state = {"items": {
+            "old": {"pageid": 1, "main_title": "Gaza war protests"},                         # stored before extracts
+            "done": {"pageid": 2, "article_title": "Other", "article_extract": "Kept."},      # already looked up
+            "none": {"pageid": 3, "article_title": "No page", "article_extract": ""},         # looked up, empty
+            "portal": {"article_title": None},                                                # no article
+        }}
+        client = FakeClient()
+        feed.backfill_extracts(WIKI, client, state, pages={})
+        self.assertEqual(state["items"]["old"]["article_extract"], "Extract of Gaza war protests.")
+        self.assertEqual(state["items"]["old"]["article_title"], "Gaza war protests")
+        self.assertEqual(state["items"]["done"]["article_extract"], "Kept.")
+        self.assertEqual(state["items"]["none"]["article_extract"], "")
+        self.assertNotIn("article_extract", state["items"]["portal"])
+        self.assertEqual(client.requests, 1)
+        # Looked up once: nothing more is asked for.
+        feed.backfill_extracts(WIKI, client, state, pages={})
+        self.assertEqual(client.requests, 1)

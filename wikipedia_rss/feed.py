@@ -66,6 +66,30 @@ def topic_titles(it):
     return [link["title"] for t in it.get("topics", []) for link in t.get("links", [])]
 
 
+def backfill_extracts(cfg, client, state, pages):
+    """Give the stored headlines that were never looked up their article's extract.
+
+    Only the last `days` daily pages are scraped, so a headline older than that keeps what it
+    had when it left the scrape: nothing, if it was stored before extracts were fetched.
+    Looked up once: an article without an extract is stored as "" and not asked for again.
+    """
+    if not cfg.use_extracts:
+        return
+    missing = {}
+    for it in state.get("items", {}).values():
+        title = it.get("article_title") or it.get("main_title")  # older headlines only have main_title
+        if it.get("pageid") and title and "article_extract" not in it:
+            missing.setdefault(title, []).append(it)
+    need = [t for t in missing if t not in pages]
+    found = lookup_pages(client, need, extracts=True) if need else {}
+    for title, items in missing.items():
+        page = pages.get(title) or found.get(title)
+        for it in items:
+            it["article_extract"] = page["extract"] if page else ""
+            if page and not it.get("article_title"):
+                it["article_title"] = page["title"]
+
+
 def finalize(cfg, raw_items, pages):
     """Assign guid, link and enrichment; drop duplicates within one scrape.
 
@@ -91,8 +115,8 @@ def finalize(cfg, raw_items, pages):
             it["pageid"], it["qid"] = page["pageid"], page["qid"]
             it["group_key"] = "pageid:%s" % page["pageid"]
             it["article_title"] = page["title"]
-            if cfg.use_extracts and page["extract"]:
-                it["article_extract"] = page["extract"]
+            if cfg.use_extracts:
+                it["article_extract"] = page["extract"]  # "" if the article has none: looked up
         topic_articles = []
         for title in topic_titles(it):
             other = pages.get(title)
@@ -126,6 +150,7 @@ def run(cfg, client, now, days=7, max_items=50, state_dir="state", out_dir="feed
     items = finalize(cfg, raw_items, pages)
 
     new = st.merge(state, items, now, retention_days, max_group)
+    backfill_extracts(cfg, client, state, pages)
     last_build = st.parse_iso(state["updated"])
     feed_items = st.latest(state, max_items)
     xml = rss.build_rss(cfg, feed_items, last_build, site_url)
