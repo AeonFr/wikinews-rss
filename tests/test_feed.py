@@ -63,7 +63,7 @@ class RunTest(unittest.TestCase):
     def test_website_data(self):
         feed.run(WIKI, en_client(), NOW, **self.dirs)
         data = self.read_data()
-        self.assertEqual(data["retention_days"], 30)
+        self.assertEqual(data["retention_days"], 183)
         self.assertEqual(data["portal"]["url"], "https://en.wikipedia.org/wiki/Portal:Current_events")
         self.assertEqual(len(data["stories"]), 11)
         story = data["stories"][0]
@@ -96,7 +96,8 @@ class RunTest(unittest.TestCase):
     def test_rerun_without_changes_is_byte_identical(self):
         self.run_en(NOW)
         first = self.snapshot()
-        self.assertEqual(len(first), 3)
+        # feed, news.json and state, plus the (empty) source previews data and cache
+        self.assertEqual(len(first), 5)
         for hours in (1, 12, 24):
             self.run_en(NOW + datetime.timedelta(hours=hours))
             self.assertEqual(self.snapshot(), first)
@@ -115,11 +116,11 @@ class RunTest(unittest.TestCase):
         self.assertIn(b"prepare for a full", second[("data_dir", "news.json")])
         self.assertIn(b"<lastBuildDate>Sun, 25 Oct 2026 09:00:00 GMT</lastBuildDate>", second[("out_dir", "en.xml")])
 
-    def test_news_older_than_a_month_is_deleted_everywhere(self):
+    def test_news_older_than_the_limit_is_deleted_everywhere(self):
         self.run_en(NOW)
-        # 23 Oct is 31 days old on 24 Nov; the page is still served by the (fake) portal.
+        # With a 30-day limit, 23 Oct is 31 days old on 24 Nov; the page is still served by the (fake) portal.
         later = NOW + datetime.timedelta(days=31)
-        res = feed.run(WIKI, en_client(), later, days=40, site_url=SITE, **self.dirs)
+        res = feed.run(WIKI, en_client(), later, days=40, site_url=SITE, retention_days=30, **self.dirs)
         self.assertEqual(res["new"], 0)
         self.assertEqual(self.read_feed().findall("channel/item"), [])
         self.assertEqual(self.read_data()["stories"], [])
@@ -136,7 +137,7 @@ class CliTest(unittest.TestCase):
     def test_writes_feed_and_data(self):
         with tempfile.TemporaryDirectory() as tmp, mock.patch.object(cli, "WikiClient", lambda *a, **k: en_client()):
             args = ["--out", tmp + "/f", "--data", tmp + "/d", "--state", tmp + "/s", "--days", "2",
-                    "--site-url", SITE]
+                    "--site-url", SITE, "--no-source-previews"]
             self.assertEqual(cli.main(args, now=NOW), 0)
             self.assertTrue(os.path.exists(os.path.join(tmp, "f", "en.xml")))
             self.assertTrue(os.path.exists(os.path.join(tmp, "d", "news.json")))

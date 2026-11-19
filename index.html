@@ -4,35 +4,24 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Wikipedia News</title>
-  <meta name="description" content="Browse the latest news from Wikipedia’s Current events portal, day by day, or follow it with an RSS feed.">
+  <meta name="description" content="The latest news from Wikipedia’s Current events portal, day by day, or follow it with an RSS feed.">
   <link rel="alternate" type="application/rss+xml" title="Wikipedia News" href="feeds/en.xml">
   <link rel="stylesheet" href="assets/site.css">
 </head>
 <body data-page="home">
-  <header class="site-header">
+  <header class="masthead">
     <div class="wrap">
-      <a class="brand" href="index.html" data-i18n="brand">Wikipedia News</a>
-      <nav class="site-nav" aria-label="Site">
-        <a href="feeds/en.xml" data-i18n="rss">RSS feed</a>
-        <span class="lang-switch" aria-label="Language / Idioma" hidden>
-          <button type="button" data-lang="es" lang="es">ES</button> |
-          <button type="button" data-lang="en" lang="en">EN</button>
-        </span>
-      </nav>
+      <div class="dateline">
+        <time id="today"></time>
+        <a href="feeds/en.xml">RSS feed</a>
+      </div>
+      <a class="brand" href="index.html">Wikipedia News</a>
+      <p class="tagline">The world’s events, as recorded by Wikipedia’s editors</p>
     </div>
   </header>
 
   <main class="wrap">
-    <h1 data-i18n="h1">Wikipedia news</h1>
-    <p class="lead" data-i18n="intro">Browse the news from Wikipedia’s <a href="https://en.wikipedia.org/wiki/Portal:Current_events">Current events</a> portal, day by day. Prefer a reader? Subscribe to the <a href="feeds/en.xml">RSS feed</a>.</p>
-
     <noscript><p class="status">This site needs JavaScript to list the news. The <a href="feeds/en.xml">RSS feed</a> works without it.</p></noscript>
-
-    <div class="controls" id="controls" hidden>
-      <input type="search" id="q" autocomplete="off" aria-label="Search news" placeholder="Search news">
-      <select id="category" aria-label="Category"></select>
-    </div>
-    <p class="result-count" id="count" role="status"></p>
     <p class="status" id="status" role="status"></p>
     <div id="days"></div>
   </main>
@@ -40,7 +29,8 @@
   <footer>
     <div class="wrap">
       <p id="retention"></p>
-      <p data-i18n="license">Unofficial project, not affiliated with the Wikimedia Foundation.
+      <p>Unofficial project, not affiliated with the Wikimedia Foundation.
+        News comes from <a href="https://en.wikipedia.org/wiki/Portal:Current_events">Wikipedia’s Current events portal</a>.
         The text comes from Wikipedia contributors and is available under the
         <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> license;
         every entry links to the source article and its page history.</p>

@@ -7,15 +7,15 @@ Las noticias salen de [Portal:Current events](https://en.wikipedia.org/wiki/Port
 | Archivo | Qué es |
 | --- | --- |
 | `feeds/en.xml` | El feed RSS 2.0 (los 50 items más recientes). |
-| `data/news.json` | Todas las noticias de los últimos 30 días, para la web. |
+| `data/news.json` | Todas las noticias de los últimos 6 meses (183 días), para la web. |
 | `state/en.json` | El estado (qué se vio y cuándo); evita duplicados entre ejecuciones. |
 
 La web es estática (HTML + JS sin dependencias) y la sirve GitHub Pages:
 
-- [`index.html`](index.html): **explorar** las noticias día a día, con búsqueda y filtro por categoría.
+- [`index.html`](index.html): la portada, con aspecto de periódico: las noticias día a día en una cuadrícula cuyo tamaño depende de la longitud del texto, solo de los últimos 30 días (`HOME_DAYS` en `assets/site.js`); el historial completo de `data/news.json` se usa en los enlaces "More on…" de cada noticia.
 - [`story.html`](story.html)`?id=...`: la **página de una noticia**: todos sus titulares completos, con sus fuentes, y una tarjeta que enlaza al artículo de Wikipedia. Es a donde llevan los enlaces del feed RSS (ver *La página de cada noticia*).
 
-La interfaz de la web está en español e inglés (selector ES/EN, según el navegador); las noticias son siempre en inglés.
+La interfaz de la web está solo en inglés, igual que las noticias.
 
 ## Uso local
 
@@ -28,7 +28,7 @@ python3 -m unittest discover -s tests       # tests (sin red)
 python3 -m http.server 8000                 # la web local, en http://localhost:8000
 ```
 
-Otras opciones (`python3 wikipedia_rss.py --help`): `--days N` (páginas diarias a leer, 7 por defecto), `--out DIR` (feed), `--data DIR` (datos de la web), `--state DIR`, `--max-items N` (items del feed RSS, 50), `--site-url URL` (URL pública de la web, ver abajo), `--retention-days N` (30, ver *Retención*), `--max-group N` (3, ver *Agrupación*). También funciona `python3 -m wikipedia_rss`.
+Otras opciones (`python3 wikipedia_rss.py --help`): `--days N` (páginas diarias a leer, 7 por defecto), `--out DIR` (feed), `--data DIR` (datos de la web), `--state DIR`, `--max-items N` (items del feed RSS, 50), `--site-url URL` (URL pública de la web, ver abajo), `--retention-days N` (183, ver *Retención*), `--max-group N` (3, ver *Agrupación*). También funciona `python3 -m wikipedia_rss`.
 
 `--site-url` es la raíz de la web (la que sirve `index.html`, sin barra final). Con ella, cada item del feed enlaza a su página en la web y el feed lleva `atom:link rel="self"`; sin ella, los items enlazan directamente al artículo de Wikipedia. El workflow la calcula solo.
 
@@ -42,6 +42,15 @@ Por eso el enlace de cada item del feed lleva a `story.html?id=<id>` en la web, 
 
 La descripción de cada item del feed sigue llevando el texto completo, las fuentes y los enlaces, para quien lo lea sin salir del lector.
 
+### Tarjetas de las fuentes
+
+Debajo de la tarjeta del artículo, la página de cada noticia muestra una tarjeta por cada fuente citada con su **título, descripción e imagen** (la etiqueta `og:*`/`twitter:*` de la página, o `<title>` y `meta description` si faltan), **solo si se pudieron obtener**: las webs de noticias no se pueden rastrear de forma uniforme y muchas bloquean a los bots, así que una fuente sin vista previa simplemente no tiene tarjeta.
+
+- Las obtiene el generador ([`wikipedia_rss/sources.py`](wikipedia_rss/sources.py)), no el navegador, y **una sola vez por URL**: un fallo se reintenta como mucho 3 veces en total, con un día de separación. Máximo 150 descargas por ejecución (las más recientes primero), 8 sitios en paralelo pero una petición por sitio cada segundo, 10 s de espera y solo se lee el principio de la página. Se respeta `robots.txt`. Un fallo nunca hace fallar la ejecución.
+- `state/sources.json` guarda todo lo sabido por URL (incluidos los fallos y su motivo); `data/sources.json` es lo que lee la web: solo las vistas previas encontradas de las URL que siguen en `data/news.json`.
+- Las imágenes **no se descargan**: la web enlaza la imagen de la fuente (`loading="lazy"`, sin enviar el referrer) y la oculta si no carga.
+- Se identifica con un User-Agent genérico **sin datos de contacto** (los datos de contacto son solo para Wikipedia); se cambia con `WIKIPEDIA_RSS_SOURCES_USER_AGENT`. `--no-source-previews` lo desactiva.
+
 ## Fechas de los items
 
 No se usa la fecha del infobox del artículo ni la de Wikidata: las fechas de infobox son texto libre, a menudo faltan o se refieren a otra cosa (inicio de un conflicto, fecha de nacimiento...). En su lugar, la fecha de un item es la de la página diaria en la que aparece la entrada (`page_date`), a las 00:00 UTC; si el item se ve por primera vez ese mismo día, su `pub_date` es el momento en que el generador lo vio.
@@ -52,14 +61,14 @@ Cada titular (una entrada del portal) tiene un `guid` estable: `wikipedia:en:<fe
 
 `state/en.json` guarda en `items` cada titular con `first_seen` y `pub_date`. Un titular ya conocido conserva su `pub_date` aunque se actualice su contenido, así los lectores no lo marcan como nuevo. El feed muestra los `--max-items` items más recientes y la web, todos los que hay en el estado. `state/`, `feeds/` y `data/` se versionan en git: el estado es lo que evita duplicados entre ejecuciones.
 
-### Retención: las noticias de más de un mes se borran
+### Retención: las noticias de más de 6 meses se borran
 
-Para que el repositorio y la web no crezcan indefinidamente, **las noticias con más de 30 días se borran**: del estado (`state/en.json`), del feed RSS y de la web (`data/news.json`). El valor está en `RETENTION_DAYS` de [`wikipedia_rss/config.py`](wikipedia_rss/config.py) y se cambia con `--retention-days`.
+Para que el repositorio y la web no crezcan indefinidamente, **las noticias con más de 183 días (unos 6 meses) se borran**: del estado (`state/en.json`), del feed RSS y de la web (`data/news.json`). El valor está en `RETENTION_DAYS` de [`wikipedia_rss/config.py`](wikipedia_rss/config.py) y se cambia con `--retention-days`.
 
-- La antigüedad es la `pub_date` del titular (la fecha de su página diaria), no cuándo dejó de aparecer en el portal. Una noticia de más de 30 días se borra aunque siga en el portal, y si el portal la volviera a mostrar se ignora (como el generador solo lee 7 días, en la práctica no ocurre).
+- La antigüedad es la `pub_date` del titular (la fecha de su página diaria), no cuándo dejó de aparecer en el portal. Una noticia de más de 183 días se borra aunque siga en el portal, y si el portal la volviera a mostrar se ignora (como el generador solo lee 7 días, en la práctica no ocurre).
 - Un grupo (ver *Agrupación*) se borra entero cuando lo hace su fundador: todos sus titulares son del mismo día.
-- Lo que se borra del estado no vuelve. Tras borrarla, la página de una noticia (`story.html?id=...`) muestra un aviso con un enlace al portal de Wikipedia; un enlace del feed a una noticia de más de un mes ya no abre contenido.
-- La web lo indica al pie de cada página ("Las noticias con más de 30 días se eliminan de este sitio").
+- Lo que se borra del estado no vuelve. Tras borrarla, la página de una noticia (`story.html?id=...`) muestra un aviso con un enlace al portal de Wikipedia; un enlace del feed a una noticia de más de 6 meses ya no abre contenido.
+- La web lo indica al pie de cada página ("News older than 6 months is removed from this site").
 
 ### Agrupación por artículo
 

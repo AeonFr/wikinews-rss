@@ -3,7 +3,7 @@ import datetime
 import logging
 import os
 
-from . import parsers, rss, site, state as st
+from . import parsers, rss, site, sources, state as st
 from .client import ApiError
 from .config import RETENTION_DAYS
 
@@ -94,8 +94,12 @@ def finalize(cfg, raw_items, pages):
 
 
 def run(cfg, client, now, days=7, max_items=50, state_dir="state", out_dir="feeds", data_dir="data",
-        site_url=None, dry_run=False, retention_days=RETENTION_DAYS, max_group=3):
-    """Scrape, update the state and write the RSS feed (out_dir) and the website data (data_dir)."""
+        site_url=None, dry_run=False, retention_days=RETENTION_DAYS, max_group=3, fetch_source=None):
+    """Scrape, update the state and write the RSS feed (out_dir) and the website data (data_dir).
+
+    `fetch_source(url) -> (preview, reason)` (see sources.Fetcher) turns on the link previews
+    of the cited sources; without it nothing is fetched (previews already cached are kept).
+    """
     today = now.date()
     raw_items = collect(cfg, client, today, days)
     if not raw_items:
@@ -109,10 +113,23 @@ def run(cfg, client, now, days=7, max_items=50, state_dir="state", out_dir="feed
     last_build = st.parse_iso(state["updated"])
     feed_items = st.latest(state, max_items)
     xml = rss.build_rss(cfg, feed_items, last_build, site_url)
-    data = site.dump_data(site.build_data(cfg, st.latest(state, None), state["updated"], retention_days))
+    stories = st.latest(state, None)
+    data = site.dump_data(site.build_data(cfg, stories, state["updated"], retention_days))
+    source_urls = [s["url"] for it in stories for m in (it.get("members") or [it]) for s in m.get("sources", [])]
+    sources_path = os.path.join(state_dir, "sources.json")
+    sources_cache = sources.load_cache(sources_path)
+    if fetch_source and not dry_run:
+        try:
+            stats = sources.update_cache(sources_cache, source_urls, now, fetch_source)
+            log.info("%s: source previews: %d fetched, %d found, %d failed",
+                     cfg.code, stats["fetched"], stats["found"], stats["failed"])
+        except Exception as e:  # previews are optional: never fail the run because of them
+            log.warning("%s: source previews skipped: %s", cfg.code, e)
     if not dry_run:
         st.write_atomic(os.path.join(out_dir, "%s.xml" % cfg.code), xml)
         st.write_atomic(os.path.join(data_dir, "news.json"), data)
+        st.write_atomic(os.path.join(data_dir, "sources.json"), sources.dump_data(sources_cache, source_urls))
+        st.write_atomic(sources_path, sources.dump_cache(sources_cache))
         st.save_state(state_path, state)
     return {"scraped": len(items), "new": len(new), "in_feed": len(feed_items),
             "requests": client.requests, "items": feed_items, "xml": xml, "data": data}

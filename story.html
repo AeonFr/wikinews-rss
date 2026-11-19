@@ -9,21 +9,17 @@
   <link rel="stylesheet" href="assets/site.css">
 </head>
 <body data-page="story">
-  <header class="site-header">
+  <header class="masthead compact">
     <div class="wrap">
-      <a class="brand" href="index.html" data-i18n="brand">Wikipedia News</a>
-      <nav class="site-nav" aria-label="Site">
-        <a href="feeds/en.xml" data-i18n="rss">RSS feed</a>
-        <span class="lang-switch" aria-label="Language / Idioma" hidden>
-          <button type="button" data-lang="es" lang="es">ES</button> |
-          <button type="button" data-lang="en" lang="en">EN</button>
-        </span>
-      </nav>
+      <a class="brand" href="index.html">Wikipedia News</a>
+      <div class="dateline">
+        <a href="index.html">← All news</a>
+        <a href="feeds/en.xml">RSS feed</a>
+      </div>
     </div>
   </header>
 
   <main class="wrap">
-    <p class="crumbs"><a href="index.html" data-i18n="back">← All news</a></p>
     <noscript><p class="status">This page needs JavaScript. The <a href="feeds/en.xml">RSS feed</a> has the full text of every item.</p></noscript>
     <p class="status" id="status" role="status"></p>
     <article id="story" hidden>
@@ -32,13 +28,15 @@
       <p class="note" id="story-note"></p>
       <ol class="headlines" id="headlines"></ol>
       <div id="card"></div>
+      <section class="source-cards" id="source-cards"></section>
+      <section class="related" id="related"></section>
     </article>
   </main>
 
   <footer>
     <div class="wrap">
       <p id="retention"></p>
-      <p data-i18n="license">Unofficial project, not affiliated with the Wikimedia Foundation.
+      <p>Unofficial project, not affiliated with the Wikimedia Foundation.
         The text comes from Wikipedia contributors and is available under the
         <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> license;
         every entry links to the source article and its page history.</p>

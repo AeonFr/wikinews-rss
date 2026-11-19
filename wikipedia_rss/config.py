@@ -6,11 +6,16 @@ from urllib.parse import quote
 DEFAULT_USER_AGENT = "wikipedia-noticias-rss/0.1 (francanobr@gmail.com)"
 USER_AGENT_ENV = "WIKIPEDIA_RSS_USER_AGENT"
 
+# Used to fetch the news sites' pages (link previews). Deliberately generic, with no
+# contact details: those belong to the Wikipedia user agent above, not to third parties.
+SOURCES_USER_AGENT = "Mozilla/5.0 (compatible; wikipedia-noticias-link-preview/0.1)"
+SOURCES_USER_AGENT_ENV = "WIKIPEDIA_RSS_SOURCES_USER_AGENT"
+
 LICENSE_NAME = "CC BY-SA 4.0"
 LICENSE_URL = "https://creativecommons.org/licenses/by-sa/4.0/"
 
 # News older than this many days is deleted from the state, the feed and the website.
-RETENTION_DAYS = 30
+RETENTION_DAYS = 183  # about 6 months
 
 
 @dataclass

@@ -5,8 +5,10 @@ import os
 import sys
 
 from .client import WikiClient
-from .config import DEFAULT_USER_AGENT, RETENTION_DAYS, USER_AGENT_ENV, WIKI
+from .config import (DEFAULT_USER_AGENT, RETENTION_DAYS, SOURCES_USER_AGENT, SOURCES_USER_AGENT_ENV,
+                     USER_AGENT_ENV, WIKI)
 from .feed import run
+from .sources import Fetcher
 
 log = logging.getLogger("wikipedia_rss")
 
@@ -28,6 +30,8 @@ def main(argv=None, now=None):
                     help="las noticias con más de N días se borran del estado, el feed y la web")
     ap.add_argument("--max-group", type=int, default=3,
                     help="máximo de titulares sobre el mismo artículo agrupados en un item (1 desactiva la agrupación)")
+    ap.add_argument("--no-source-previews", action="store_true",
+                    help="no descarga título, descripción e imagen de las fuentes citadas (data/sources.json)")
     ap.add_argument("--dry-run", action="store_true", help="no escribe feed, datos ni estado; muestra un resumen")
     ap.add_argument("-v", "--verbose", action="store_true")
     args = ap.parse_args(argv)
@@ -39,10 +43,14 @@ def main(argv=None, now=None):
         now = datetime.datetime.now(datetime.timezone.utc).replace(microsecond=0)
 
     client = WikiClient(WIKI.host, user_agent, cache_dir=args.cache)
+    fetch_source = None
+    if not args.no_source_previews:
+        fetch_source = Fetcher(os.environ.get(SOURCES_USER_AGENT_ENV) or SOURCES_USER_AGENT)
     try:
         res = run(WIKI, client, now, days=args.days, max_items=args.max_items,
                   state_dir=args.state, out_dir=args.out, data_dir=args.data, site_url=args.site_url,
-                  dry_run=args.dry_run, retention_days=args.retention_days, max_group=args.max_group)
+                  dry_run=args.dry_run, retention_days=args.retention_days, max_group=args.max_group,
+                  fetch_source=fetch_source)
     except Exception as e:
         log.error("%s: failed: %s", WIKI.code, e, exc_info=args.verbose)
         return 1

@@ -49,7 +49,8 @@ class MergeTest(unittest.TestCase):
 
     def test_new_items_older_than_the_limit_are_ignored(self):
         state = {"items": {}}
-        self.assertEqual(st.merge(state, [item("ancient", "2026-08-01"), item("fresh", "2026-10-23")], T0), ["fresh"])
+        self.assertEqual(st.merge(state, [item("ancient", "2026-08-01"), item("fresh", "2026-10-23")], T0, retention_days=30),
+                         ["fresh"])
         self.assertEqual(list(state["items"]), ["fresh"])
 
     def test_returning_item_is_not_marked_gone(self):

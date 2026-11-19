@@ -1,0 +1,509 @@
+{
+ "sources": {
+  "https://aristeguinoticias.com/1411/mexico/abaten-a-seis-presuntos-integrantes-del-cjng-durante-enfrentamiento-en-silao-guanajuato/": {
+   "site": "Aristegui Noticias",
+   "title": "| Aristegui Noticias"
+  },
+  "https://edition.cnn.com/2026/11/13/us/new-orleans-river-cruise-collision": {
+   "description": "A tanker collided with a river cruise that was docked at the Port of New Orleans on the Mississippi River, with more than 130 people onboard, according to Port of New Orleans officials. Follow for the latest updates.",
+   "image": "https://media.cnn.com/api/v1/images/stellar/prod/still-23160835-182692-81100000002-still.jpg?c=16x9&q=w_800,c_fill",
+   "title": "Tanker “lost control” before colliding with river cruise ship near Port of New Orleans, mayor says | CNN"
+  },
+  "https://edition.cnn.com/2026/11/15/europe/estonia-close-russian-border-attack-intl": {
+   "description": "Estonia is to close its border with Russia after blaming Moscow for a suspected attack on a defense technology company, Estonia’s prime minister said Sunday.",
+   "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2238610992.jpg?c=16x9&q=w_800,c_fill",
+   "title": "Estonia to shut its border with Russia, blaming Moscow for foiled arson plot | CNN"
+  },
+  "https://edition.cnn.com/2026/11/17/sport/melbourne-cup-horse-so-you-are-dead-waste-facility": {
+   "description": "The dead body of Melbourne Cup horse So You Are was found in a waste facility in Sydney less than two weeks after competing in the most prestigious event in Australian horse racing.",
+   "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2305019439.jpg?c=16x9&q=w_800,c_fill",
+   "title": "Melbourne Cup horse So You Are found dead in a waste facility, sparking an inquiry | CNN"
+  },
+  "https://edition.cnn.com/2026/11/18/science/voyager-1-light-day": {
+   "description": "NASA’s deep-space probe that lifted off in 1977 has reached a historic milestone that no other human-made object has achieved.",
+   "image": "https://media.cnn.com/api/v1/images/stellar/prod/voyager-1-advisory-image-2-nov-10.jpg?c=16x9&q=w_800,c_fill",
+   "title": "Voyager 1 is now one light-day from Earth | CNN"
+  },
+  "https://edmontonjournal.com/sports/football/cfl/edmonton-elks/edmonton-elks-grey-cup-montreal-alouettes": {
+   "description": "The Edmonton Elks pulled themselves up from the very bottom to win the team's 15th Grey Cup on Sunday against the Montreal Alouettes",
+   "image": "https://smartcdn.gprod.postmedia.digital/edmontonjournal/wp-content/uploads/2026/11/grey_cup_celebration039.ca_306340259.jpg",
+   "site": "edmontonjournal",
+   "title": "Edmonton Elks win 15th Grey Cup in club history to cap comeback season"
+  },
+  "https://english.news.cn/20261114/c10c0ba76eb244eaa8c1548b6ad6e206/c.html": {
+   "description": "At least 26 killed in minibus-truck collision in NE India-",
+   "title": "At least 26 killed in minibus-truck collision in NE India"
+  },
+  "https://english.news.cn/africa/20261113/75a689cf03b845409fd909fec59f84ba/c.html": {
+   "description": "At least 6 killed as building under construction collapses in Nairobi-",
+   "title": "At least 6 killed as building under construction collapses in Nairobi"
+  },
+  "https://inforpress.cv/pt/presidenciais2026-joana-rosa-reconhece-derrota-eleitoral-e-reafirma-compromisso-com-a-democracia-e-politica": {
+   "description": "Presidenciais2026: Joana Rosa reconhece derrota eleitoral e reafirma compromisso com a democracia e política",
+   "image": "https://painel.inforpress.cv/uploads/Resultados_Joana_Rosa_768cdec3a4.jpg",
+   "title": "Inforpress - Política"
+  },
+  "https://macaubusiness.com/us-imposes-terrorist-designations-on-three-guatemala-groups/": {
+   "description": "International, MNA | The United States on Friday imposed terrorist designations on three Guatemala-based organizations, citing their relationships with Mexican cartels and alleged efforts to aid in the transportation of illicit drugs.",
+   "image": "https://hogo.sgp1.digitaloceanspaces.com/macaubusiness/wp-content/uploads/2025/12/opengraph-image.webp",
+   "site": "Macau Business",
+   "title": "US imposes 'terrorist' designations on three Guatemala groups | Macau Business"
+  },
+  "https://meduza.io/news/2026/11/16/v-kamyshevahe-zavershili-poisk-zhertv-rossiyskogo-udara-po-punktu-vydachi-gumanitarnoy-pomoschi-chislo-pogibshih-dostiglo-72-chelovek": {
+   "description": "В поселке Камышеваха Запорожской области завершилась поисково-спасательная операция после российского удара по пункту выдачи гуманитарной помощи, нанесенного 2 ноября. В результате удара погибли 72 человека, сообщил министр внутренних дел Украины Иван Выговский.",
+   "image": "https://meduza.io/imgly/share/1794895292/news/2026/11/16/v-kamyshevahe-zavershili-poisk-zhertv-rossiyskogo-udara-po-punktu-vydachi-gumanitarnoy-pomoschi-chislo-pogibshih-dostiglo-72-chelovek",
+   "site": "Meduza",
+   "title": "В Камышевахе завершили поиск жертв российского удара по пункту выдачи гуманитарной помощи. Погибли 72 человека — Meduza"
+  },
+  "https://nos.nl/artikel/2639583-zwaargewonden-bij-explosie-en-brand-op-belgische-kerstmarkt": {
+   "description": "De brandweer zegt tegen Belgische media dat het mogelijk om een gasexplosie gaat.",
+   "image": "https://images.cdn.nos.nl/5/G/t/c/x/q/iXjNRr9273owBXgu5p8S21irDq3EEtrJaKw4EY7/1x1x1504x846-1280x720.webp",
+   "title": "Zwaargewonden bij explosie en brand op Belgische kerstmarkt"
+  },
+  "https://punchng.com/bandits-kill-three-abduct-residents-in-sokoto/": {
+   "description": "No fewer than three people have been killed by bandits, who also abducted an unspecified number of residents and rustled livestock during an attack on the Yartsakuwa community in the Rabah Local Government Area of Sokoto State.",
+   "image": "https://cdn.punchng.com/wp-content/uploads/2026/08/21184132/Sokoto-map_1787334092.webp",
+   "site": "Punch Newspapers",
+   "title": "Bandits kill three, abduct residents in Sokoto"
+  },
+  "https://radiomoldova.md/p/89743/gagauzia-voters-to-elect-governor-and-regional-assembly": {
+   "description": "More than 129,000 voters in Gagauzia will go to the polls on Sunday, November 15, to elect the region’s governor and members of its 35-seat People’s Assembly.",
+   "image": "https://storage.radiomoldova.md/images/15fd6ba7-a5c0-4bd5-bd84-4e46fd8aede7.jpg",
+   "title": "Gagauzia voters to elect governor and regional assembly"
+  },
+  "https://thefinancialexpress.com.bd/national/ex-al-mps-house-looted-set-on-fire-in-feni": {
+   "description": "Unidentified miscreants looted and set fire to the ancestral residence of former Feni-3 Member of Parliament Haji Rahim Ullah at Sonapur village in Sonagazi upazila of Feni early Thursday. Rahim Ullah’s brother-in-law Rafiqul Islam, who was alone in the house, said 15 to 20 armed miscreants",
+   "image": "https://thefe-bd.sgp1.cdn.digitaloceanspaces.com/posts/182266/mp-rahim-ullahhome.jpg",
+   "title": "Ex-MP Rahim Ullah's ancestral home looted, set fire in Feni"
+  },
+  "https://time.com/article/2026/11/17/apple-outage-down-update-issue/": {
+   "description": "Thousands of users reported experiencing issues on Tuesday with Apple services including Apple Pay, iCloud, and Apple Support.",
+   "image": "https://static.time.com/v3/assets/bltea6093859af6183b/blt01955dda34b05f06/6afcbb73be3c8b63a822dfc5/GettyImages-2305585682.jpg?branch=production&width=1024&quality=75&auto=webp&crop=16:9",
+   "site": "TIME",
+   "title": "What to Know About the Apple Outage"
+  },
+  "https://variety.com/2026/film/global/robert-pattinson-new-james-bond-007-1236946655/": {
+   "description": "Robert Pattinson is James Bond, ending the search for the new 007 actor.",
+   "title": "Robert Pattinson Is James Bond: Meet New 007 Actor"
+  },
+  "https://viewsbangladesh.com/pedestrian-hacked-to-death-while-filming-video-of-clash-between-two-bnp-factions/": {
+   "description": "Factory worker Abu Yusuf saw the attack and vandalism at a house in Fatullah of Narayanganj stemming from a dispute between two factions of the BNP. W",
+   "image": "https://imagedelivery.net/HRs_9pnDDn9uipVGixpHsg/79cb56e8-4297-4c06-4f8d-60bbf7fa2200/public",
+   "site": "Views Bangladesh",
+   "title": "Pedestrian hacked to death while filming video of clash between tw"
+  },
+  "https://viewsbangladesh.com/shamim-osmans-house-set-on-fire-in-narayanganj/": {
+   "description": "The house of AKM Shamim Osman, a former member of parliament for Narayanganj-4 and an Awami League leader, was set on fire on Wednesday night (18 Nove",
+   "image": "https://imagedelivery.net/HRs_9pnDDn9uipVGixpHsg/8da1e11d-0ba7-48c1-d967-28694c134d00/public",
+   "site": "Views Bangladesh",
+   "title": "Shamim Osman’s house set on fire in Narayanganj"
+  },
+  "https://www.aljazeera.com/amp/news/2026/11/17/bahrain-thwarts-drone-attack-iran-claims-targeting-us-military-radar": {
+   "description": "The IRGC says the attack is part of efforts to counter 'hostile activities of US forces in the region'.",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/GettyImages-2303891286-1-1794902140.jpg?resize=1920%2C1440",
+   "site": "Al Jazeera",
+   "title": "Bahrain thwarts drone attack; Iran claims targeting US radar"
+  },
+  "https://www.aljazeera.com/news/2026/11/13/truck-and-bus-crash-in-indias-assam-state-kills-at-least-24-people": {
+   "description": "Several children and the bus driver were among those killed, officials said, with the death toll expected to rise.",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6af7237d46344-1794581373.jpg?resize=1920%2C1440",
+   "site": "Al Jazeera",
+   "title": "Truck and bus crash in India’s Assam state kills at least 24 people"
+  },
+  "https://www.aljazeera.com/news/2026/11/16/saudi-arabia-dismisses-commander-of-coalition-forces-fighting-houthis": {
+   "description": "Move comes as government forces withdraw from Red Sea coast to halt Houthi approach to interim capital Aden.",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/2026-09-27T051408Z_91414459_RC28RNAB5C5M_RTRMADP_3_IRAN-CRISIS-SAUDI-YEMEN-1790501339.jpg?resize=1920%2C1440",
+   "site": "Al Jazeera",
+   "title": "Saudi Arabia dismisses commander of coalition forces fighting Houthis"
+  },
+  "https://www.aljazeera.com/news/2026/11/16/shophouse-fire-on-thai-resort-island-kills-11": {
+   "description": "Authorities are investigating the cause of the fire, which also injured 16, but have ruled out arson.",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6afab06cf0afc-1794814060.jpg?resize=1200%2C630",
+   "site": "Al Jazeera",
+   "title": "At least 11 killed in blaze on Thailand’s Phuket island"
+  },
+  "https://www.aljazeera.com/news/2026/11/17/haitians-protest-in-support-of-el-salvadors-anti-gang-troop-deployment": {
+   "description": "El Salvador's security minister has confirmed the troops will leave once kidnapped technicians are rescued.",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6afc71bd7d1d-1794929085.jpg?resize=1920%2C1440",
+   "site": "Al Jazeera",
+   "title": "Haitians protest in support of El Salvador’s anti-gang troop deployment"
+  },
+  "https://www.aljazeera.com/news/2026/11/17/israeli-settler-pogrom-kills-palestinian-woman-wounds-10-people": {
+   "description": "The Palestinian Health Ministry says Fadda Mohammed Fheidat, 72, was shot dead by Israeli settlers.",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-17T145028Z_604251274_RC2PPOAJT3NI_RTRMADP_3_ISRAEL-PALESTINIANS-SETTLERS-JERICHO-VIOLENCE-1794939255.jpg?resize=1920%2C1440",
+   "site": "Al Jazeera",
+   "title": "Israeli settler pogrom kills Palestinian woman, wounds 10 people"
+  },
+  "https://www.aljazeera.com/news/2026/11/17/us-officially-loses-measles-free-status-after-26-years-amid-outbreak": {
+   "description": "A major health organisation declared measles endemic in US for first time since 2000, reversing decades of progress.",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-02-23T215553Z_1335545703_RC2HGJACU11W_RTRMADP_3_HEALTH-USA-MEASLES-SOUTH-CAROLINA-1794935844.jpg?resize=1920%2C1440",
+   "site": "Al Jazeera",
+   "title": "US officially loses measles-free status after 26 years in historic setback"
+  },
+  "https://www.aljazeera.com/news/2026/11/18/migrant-boat-capsizes-off-senegal-leaving-at-least-one-dead": {
+   "description": "Incident comes days after another boat capsized in Senegalese waters, and Spain declared a migration emergency.",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/AFP__20261118__D7WJ6DK__v1__HighRes__SenegalMigrationAccident-1795038583.jpg?resize=1920%2C1440",
+   "site": "Al Jazeera",
+   "title": "Migrant boat capsizes off Senegal, leaving at least one dead"
+  },
+  "https://www.arabnews.com/middle-east/iran-says-supertanker-with-2-million-barrels-of-oil-sank-in-gulf-3012053": {
+   "description": "Two tankers caught fire in the Strait of Hormuz after apparently hitting naval mines, according to Iran’s Revolutionary Guards Navy. The report has not been independently verified by Reuters.",
+   "image": "https://assets.maestronewsroom.com/media/shared/wires/ap/20261114/2065e72e9f81-Iran_Strait_of_Hormuz_92767--191de.jpg",
+   "title": "Iran says supertanker with 2 million barrels of oil sank in Gulf"
+  },
+  "https://www.bbc.com/news/articles/c58j484089ewo": {
+   "description": "At least four bodies have been recovered from the boat which was reportedly carrying between 50 and 100 people.",
+   "image": "https://ichef.bbci.co.uk/news/1024/branded_news/9aab/live/c39b82a0-e419-11f1-b37c-b3a71d7200af.jpg",
+   "title": "Senegal boat disaster: Dozens missing as migrant boat sinks"
+  },
+  "https://www.bbc.com/news/articles/c623j4ln97x7o": {
+   "description": "While the presidents have previously met for one-on-one meetings, this is their first trilateral discussion.",
+   "image": "https://ichef.bbci.co.uk/news/1024/branded_news/56c4/live/c36d8970-e448-11f1-a094-5fdc692f3e33.jpg",
+   "title": "Trump, Putin and Xi release 'peace declaration' after historic meeting"
+  },
+  "https://www.bbc.com/news/articles/c6reg7r589nro": {
+   "description": "The low speed collision outside the Czech capital's main station triggered a massive emergency response.",
+   "image": "https://ichef.bbci.co.uk/news/1024/branded_news/7e5b/live/253833c0-e274-11f1-b639-73d1df360b76.jpg",
+   "title": "Dozens injured after trains collide head-on in Prague"
+  },
+  "https://www.bbc.com/news/articles/ckx27v6dpjz0o": {
+   "description": "Russia said Ukraine had launched over 2,000 drones over the course of a day, while Kyiv came under a record 17 air raid alerts.",
+   "image": "https://ichef.bbci.co.uk/news/1024/branded_news/f174/live/bc6fa8f0-e1c4-11f1-a094-5fdc692f3e33.jpg",
+   "title": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war"
+  },
+  "https://www.bbc.com/news/articles/cmx20pyew3zxo": {
+   "description": "Most of those jailed on Iran-linked terrorism charges are clerics, a UK-based human rights group, claiming confessions were forced. Bahraini authorities accused the 69 unnamed defendants of establishing a terrorist group linked to Iran's Revolutionary Guards.",
+   "image": "https://ichef.bbci.co.uk/news/1024/branded_news/84f2/live/aa54a570-e1cf-11f1-99a1-253766e7ad8b.jpg",
+   "title": "Bahrain court sentences dozens of Shia Muslims to life in prison, activists say"
+  },
+  "https://www.bbc.com/news/articles/cw20xmy0m5yyo": {
+   "description": "The collision leaves 32 people in hospital with non-critical injuries, but no-one unaccounted for.",
+   "image": "https://ichef.bbci.co.uk/news/1024/branded_news/0a5e/live/65a2f270-dfad-11f1-be1f-9dae57fabf82.jpg",
+   "title": "New Orleans cruise ship collision: All passengers rescued in 'miracle on the Mississippi'"
+  },
+  "https://www.bbc.com/news/articles/cw8r7510degno": {
+   "description": "Hamas condemned the incursion, which the Israeli military said was to dismantle a \"terror tunnel\", as a \"flagrant\" ceasefire violation.",
+   "image": "https://ichef.bbci.co.uk/news/1024/branded_news/ee79/live/56061990-e382-11f1-a094-5fdc692f3e33.jpg",
+   "title": "Israeli military completes ground operation in Gaza beyond Yellow Line"
+  },
+  "https://www.bbc.com/news/articles/cwn83gxemk35o": {
+   "description": "The social media giant is accused of not informing 20 million users it had access to their photos.",
+   "image": "https://ichef.bbci.co.uk/news/1024/branded_news/d6be/live/f51842e0-e041-11f1-88e1-eb4e155225b3.jpg",
+   "title": "Italy fines Meta €805m over accessing users' photos"
+  },
+  "https://www.bbc.com/news/articles/cwx2emg4xe72o": {
+   "description": "The Met Police said the allegations are separate from those reported by ITV and the Guardian earlier this week.",
+   "image": "https://ichef.bbci.co.uk/news/1024/branded_news/2d86/live/54377b90-df86-11f1-b441-2b33b063138f.jpg",
+   "title": "Police investigating David Walliams over reports alleging serious sexual offences"
+  },
+  "https://www.bloomberg.com/news/articles/2026-11-14/faa-lifts-ground-stop-allowing-flights-to-resume-after-outage": {
+   "description": "US air travel struggled to recover over the weekend from the longest nationwide flight suspension since the September 2001 terrorist attacks, with thousands of cancellations following an outage that laid bare the fragility of America’s aviation infrastructure.",
+   "image": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i.F9tR8WlAn4/v0/1200x800.jpg",
+   "site": "Bloomberg.com",
+   "title": "US Flight Chaos Lingers Over Weekend After Lengthy Stoppage"
+  },
+  "https://www.democrata.es/en/international/they-warn-of-45-social-leaders-murdered-in-the-first-100-days-of-de-la-espriella-s-government/amp/": {
+   "description": "A report by Indepaz denounces 45 social leaders murdered, 26 massacres, and thousands of displaced people in the first 100 days of the Government of De la Espriella.",
+   "image": "https://www.democrata.es/uploads/s1/35/40/76/6/fotonoticia-20261115235626-1920.jpeg",
+   "site": "Demócrata",
+   "title": "Indepaz alerts of 45 social leaders assassinated in Colombia"
+  },
+  "https://www.dw.com/en/guinea-jails-200-in-wildcat-gold-mining-crackdown/a-79968808": {
+   "description": "A Conakry court has jailed 22 former local officials from the gold-rich northeastern Siguiri region, as well as 200 people accused of illegal mining. It's part of a wider crackdown that sent thousands fleeing into Mali.",
+   "image": "https://static.dw.com/image/79969525_6.jpg",
+   "site": "dw.com",
+   "title": "Guinea jails 200 in wildcat gold mining crackdown"
+  },
+  "https://www.elfinanciero.com.mx/nacional/2026/11/14/publican-la-ley-antimemes-en-el-dof-estas-son-las-multas-y-penas-de-carcel/": {
+   "description": "La ‘Ley Antimemes’ contempla penas de hasta cinco años de cárcel y multas superiores al millón de pesos por delitos relacionados con el uso de identidad gráfica institucional.",
+   "image": "https://www.elfinanciero.com.mx/resizer/v2/SK6DR6S6OBGG7FND4BSRJ6MCLQ.jpg?smart=true&auth=88919bce723a587916cf98d7a27cc0cfcbe7ad3843dd1a79f55c07218832a0fb&width=1200&height=630",
+   "site": "El Financiero",
+   "title": "Publican la ‘Ley Antimemes’ en el DOF: Estas son las multas y penas de cárcel"
+  },
+  "https://www.euronews.com/2026/11/14/hungary-seizes-millions-in-cash-found-buried-in-forests-amid-corruption-investigation": {
+   "description": "Investigators uncovered large amounts of cash hidden in a variety of spots: buried in forests, concealed in agricultural buildings and warehouses, stashed inside residential properties and stored in a high-value safe in a remote location. #EuropeNews",
+   "image": "https://images.euronews.com/articles/stories/09/99/22/89/1200x675_cmsv2_f3b92423-c0db-53b4-a35c-2f167ebd8df2-9992289.jpg",
+   "site": "euronews",
+   "title": "Hungary seizes millions in cash amid corruption investigation"
+  },
+  "https://www.foxweather.com/weather-news/3-dead-missing-plane-crash-grand-canyon-national-park": {
+   "description": "A missing airplane with three people onboard has been found after a search at Grand Canyon National Park early Monday morning.",
+   "image": "https://images.foxweather.com/static.foxweather.com/www.foxweather.com/content/uploads/2026/09/1024/512/grand-canyon-mon-pm.png?ve=1&tl=1",
+   "site": "FOX Weather",
+   "title": "3 dead after missing plane's wreckage is discovered deep inside Grand Canyon National Park"
+  },
+  "https://www.france24.com/en/france/20261114-live-france-mobilises-in-fifth-wave-of-student-protests": {
+   "description": "Around 146,000 people took to the streets across France on Saturday, including 24,000 in Paris, according to the interior ministry. Some 70,000 police officers and gendarmes were deployed nationwide…",
+   "image": "https://s.france24.com/media/display/26731cb6-e051-11f1-9abc-29048b396e03/w:1280/p:16x9/000-D7GH788.jpg",
+   "site": "France 24",
+   "title": "Fresh French protests draw 146,000, says interior ministry, 500,000 say unions"
+  },
+  "https://www.france24.com/en/live-news/20261113-turkey-qatar-sign-mutual-defence-agreement": {
+   "description": "Turkey and Qatar announced on Friday that they signed a mutual defence agreement, which they said was aimed at adopting a \"unified position\" in the face of an external attack.",
+   "image": "https://s.france24.com/media/display/2fa9e0a4-dfa1-11f1-b47f-3f371022a770/w:1280/p:16x9/b52224374a82d1dc20d9a0217ddaebdfa4bf1dda.jpg",
+   "site": "France 24",
+   "title": "Turkey, Qatar sign mutual defence agreement"
+  },
+  "https://www.france24.com/en/live-news/20261115-andreeva-defeats-svitolina-to-win-wta-finals": {
+   "description": "Russian teenager Mirra Andreeva battled past Elina Svitolina in straight sets to win the season-ending WTA Finals crown on Sunday.",
+   "image": "https://s.france24.com/media/display/68a720c4-e145-11f1-add6-695cb59fade5/w:1280/p:16x9/Part-GTY-2305274360-1-1-0.jpg",
+   "site": "France 24",
+   "title": "Andreeva defeats Svitolina to win WTA Finals"
+  },
+  "https://www.france24.com/en/live-news/20261115-cape-verde-s-president-jose-maria-neves-re-elected-provisional-election-results": {
+   "description": "Cape Verde's President Jose Maria Neves easily won re-election Sunday, according to provisional results from the country's electoral commission.",
+   "image": "https://s.france24.com/media/display/5c6cfaa2-e147-11f1-a9ab-3f371022a770/w:1280/p:16x9/e16396bca02586b6fceebd845ca318f095a8afae.jpg",
+   "site": "France 24",
+   "title": "Cape Verde's President Jose Maria Neves re-elected: provisional election results"
+  },
+  "https://www.france24.com/en/live-news/20261115-mcilroy-wins-record-equalling-eighth-race-to-dubai-title": {
+   "description": "An emotional Rory McIlroy sealed a record-equalling eighth Race to Dubai title on Sunday after a second-placed finish behind Tyrrell Hatton at the DP World Tour Championship edged out Eugenio Chacarra.",
+   "image": "https://s.france24.com/media/display/b3ccc03a-e105-11f1-bd4a-695cb59fade5/w:1280/p:16x9/5c6eeb6b389cd1ad0220fcd47485aa62bd3ee957.jpg",
+   "site": "France 24",
+   "title": "McIlroy dedicates record-equalling eighth Race to Dubai title to father"
+  },
+  "https://www.france24.com/en/live-news/20261115-three-men-sentenced-to-death-over-jordan-church-attack": {
+   "description": "A Jordanian court on Sunday sentenced three men to death by hanging over a deadly church shooting, as the kingdom's Christmas celebrations were cancelled in solidarity with the victims' families.",
+   "image": "https://s.france24.com/media/display/e10c1084-e0ea-11f1-90f8-3f371022a770/w:1280/p:16x9/a9ee5aa3f8890bde4d7d7f2e8a4f733e0dbd17dc.jpg",
+   "site": "France 24",
+   "title": "Three men sentenced to death over Jordan church attack"
+  },
+  "https://www.france24.com/en/live-news/20261117-us-loses-measles-free-status-as-cases-deaths-mount": {
+   "description": "The United States has lost its long-held status of having eradicated measles, as declining vaccination rates have seen cases of the dangerous and highly contagious virus soar around the country, the…",
+   "image": "https://s.france24.com/media/display/b00f62a4-e2b3-11f1-9949-1ba7ddfab527/w:1280/p:16x9/c89ced2680a79004e7d22261ff1eb160cfe10c46.jpg",
+   "site": "France 24",
+   "title": "US loses measles-free status as cases, deaths mount"
+  },
+  "https://www.france24.com/en/live-news/20261118-das-breaks-record-but-south-africa-take-command": {
+   "description": "Bangladesh wicketkeeper Litton Das broke the world Test record for most dismissals in an innings but could not prevent South Africa from taking command on the fourth day of the first Test at the Wanderers…",
+   "image": "https://s.france24.com/media/display/c89c0650-e340-11f1-a822-c5c0357b2a0c/w:1280/p:16x9/5c7473ea6f4fe459459778d3dff78335b46ee2ff.jpg",
+   "site": "France 24",
+   "title": "Das breaks record but South Africa take command"
+  },
+  "https://www.gmanetwork.com/news/topstories/metro/1009656/pnp-defends-response-to-asean-summit-protests/story/": {
+   "description": "The Philippine National Police (PNP) on Monday defended its response to protest-related incidents during the 49th ASEAN Summit and Related Summits, even as it described the overall security situation as \"generally peaceful\" despite some disruptions.",
+   "image": "https://images.gmanews.tv/webpics/2026/11/903953472_1690795466168273_2704272668629012318_n_2026_11_16_13_13_22.jpg",
+   "site": "GMA News Online",
+   "title": "PNP defends response to ASEAN Summit protests"
+  },
+  "https://www.hiiraan.com/security4/2026/Nov/206784/somali_army_takes_control_of_five_aussom_bases_in_barawe_as_security_transition_advances.aspx": {
+   "description": "Mogadishu (HOL) — The African Union Support and Stabilization Mission in Somalia (AUSSOM) has handed over five forward operating bases in Barawe, Lower Shabelle region, to the Somali National Armed Forces, marking another step in the transfer of security responsibilities from African Union peacekeepers to Somali troops.",
+   "image": "https://www.hiiraan.com/uploads/2026/11/1794834168910463366_1621043870063422_1557981617861448101_n.jpg",
+   "site": "Hiiraan Online",
+   "title": "Somali army takes control of five AUSSOM bases in Barawe as security transition advances - Hiiraan Online"
+  },
+  "https://www.independent.co.uk/news/world/europe/russia-plane-crash-siberia-kemerovo-b3086529.html": {
+   "description": "All 19 people on board died after the aircraft crashed in the Russian region of Kemerovo",
+   "image": "https://static.independent.co.uk/2026/11/12/11/1659540081..?trim=0,0,0,0&width=1200&height=800&crop=1200:800",
+   "site": "The Independent",
+   "title": "19 dead as Russian military aircraft crashes in Siberia"
+  },
+  "https://www.lemonde.fr/en/international/article/2026/11/17/iran-claims-attack-on-us-base-in-bahrain_6782812_4.html": {
+   "description": "Iran's Islamic Revolutionary Guard Corps said they targeted a US-operated radar system",
+   "image": "https://img.lemde.fr/2026/09/02/0/0/3600/2400/1440/960/60/0/49f9bb0_ftp-1-i4wfzik1htfa-5976048-01-06.jpg",
+   "site": "Le Monde.fr",
+   "title": "Iran claims attack on US base in Bahrain"
+  },
+  "https://www.middleeasteye.net/live-blog/live-blog-update/hamas-commander-samir-abu-younis-killed-israeli-strike-khan-younis": {
+   "image": "https://www.middleeasteye.net/sites/default/files/2026-11/xi%20in%20the%20middle%20reuters.jpg",
+   "site": "Middle East Eye",
+   "title": "Hamas commander Samir Abu Younis killed in Israeli strike on Khan Younis"
+  },
+  "https://www.nbcnews.com/world/africa/least-17-people-killed-2-mass-shootings-day-south-africa-rcna609688": {
+   "description": "Gauteng Police Commissioner Tommy Mthombeni said the killings could be related to a previous shooting at a nearby informal settlement in Saulsville last year where 12 people were killed and 13 injured.",
+   "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261116-south-africa-shooting-sjr-1515-9bf5ff.jpg",
+   "site": "NBC News",
+   "title": "At least 17 people killed in 2 mass shootings on the same day in South Africa"
+  },
+  "https://www.nmas.com.mx/jalisco/seguridad/foro-tv-video-operativo-en-zapopan-deja-3-presuntos-delincuentes-muertos-y-3-detenidos-entre-ellos-el-topo/": {
+   "description": "En la zona se registró un enfrentamiento armado. Las autoridades realizaron peritajes en tres inmuebles asegurados y mantienen las investigaciones",
+   "image": "https://static.nmas.com.mx/Nmas/cms/1795013549517-snapshot-1376x774.jpg",
+   "site": "N+",
+   "title": "Enfrentamiento en Zapopan: Tres Delincuentes Muertos y 'El Topo' Detenido | N+"
+  },
+  "https://www.ntvbd.com/bangladesh/news-1839345": {
+   "description": "ময়মনসিংহে সাবেক সংসদ সদস্য মাহমুদ হাসান সুমনের বাড়িতে হামলা চালিয়েছে দুর্বৃত্তরা। আজ বৃহস্পতিবার (১৯ নভেম্বর) ভোররাতে ভালুকা উপজেলায় এ ঘটনা ঘটে। পুলিশ ও স্থানীয় সূত্রে জানা গেছে, গতকাল মধ্যরাতে ঈশ্বরগঞ্জ উপজেলায় আওয়ামী লীগের সাবেক সংসদ সদস্য মাহমুদ হাসান সুমনের বাসভবনে হামলা চালিয়ে ব্যাপক ভাঙচুর ও অগ্নিসংযোগ করে দুর্বৃত্তরা। ইশ্বরগঞ্জ থানার ভারপ্রাপ্ত কর্মকর্তা (ওসি) সাজ্জাদ রোমন এনটিভিকে…",
+   "image": "https://ncdn.ntvbd.com/sites/default/files/styles/social_gpi_ntv_game_fb_share_17nov2024/public/images/2026/11/19/ynm.jpg",
+   "title": "সাবেক সংসদ সদস্য মাহমুদ হাসান সুমনের বাড়িতে হামলা-অগ্নিসংযোগ"
+  },
+  "https://www.omropfryslan.nl/nl/nieuws/18947046/historische-slagdijkstermolen-bij-stiens-volledig-verwoest-door-felle-brand": {
+   "description": "Bij een grote uitslaande brand in Stiens is in de nacht van vrijdag op zaterdag de Slagdykster Mole volledig verwoest. De molen is gebouwd in het jaar 1864.",
+   "image": "https://i.regiogroei.cloud/ac1908d1-2b4c-3177-9f11-b8ec0ef15e6f.jpg?crop=2500,1406,0,95&width=1200&height=630",
+   "title": "Historische Slagdijkstermolen bij Stiens volledig verwoest door felle brand"
+  },
+  "https://www.prensalibre.com/guatemala/justicia/ejercito-moviliza-hasta-600-soldados-tras-siete-asesinatos-en-zacapa-e-izabal-que-revelan-las-investigaciones-breaking/": {
+   "description": "El Ejército intensifica operativos en Zacapa, Chiquimula e Izabal, mientras la PNC investiga siete asesinatos y una posible venganza detrás del ataque en Puerto Barrios.",
+   "image": "https://www.prensalibre.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-14-at-15.45.00.jpeg",
+   "site": "Prensa Libre",
+   "title": "Ejército moviliza hasta 600 soldados tras siete asesinatos en Zacapa e Izabal: qué revelan las investigaciones"
+  },
+  "https://www.rappler.com/philippines/muntinlupa-city-protest-arrest-asean-2026/": {
+   "description": "The protesters, members of Lakbayan Timog Katagalugan, were heading to Liwasang Bonifacio to join other groups opposing Pax Silica and the expected arrival of US President Donald Trump.",
+   "image": "https://www.rappler.com/tachyon/2026/11/PNP-Southern-Police-District-arrest-.jpg",
+   "site": "RAPPLER",
+   "title": "Nearly 300 protesters arrested in Muntinlupa as ASEAN Summit opens"
+  },
+  "https://www.rfi.fr/en/international-news/20261114-south-sudan-postpones-first-national-elections-until-february": {
+   "description": "South Sudan on Saturday postponed its first national elections from December to February amid growing violence, political battles between its president and deposed vice president and slow voter registration.",
+   "image": "https://s.rfi.fr/media/display/8c1308b2-e01d-11f1-8660-5f54d898a954/w:1280/p:16x9/3a04c3a5561fc9f6aab7c51e295a08c3d9add70f.jpg",
+   "site": "RFI",
+   "title": "South Sudan postpones first national elections until February"
+  },
+  "https://www.rfi.fr/en/sports/20261115-australia-crush-new-zealand-34-10-to-win-women-s-rugby-league-world-cup": {
+   "description": "Winger Jaime Chapman collected a hat-trick as Australia crushed New Zealand 34-10 on Sunday with an emphatic first-half performance to clinch their fourth consecutive women's Rugby League World Cup.",
+   "image": "https://s.rfi.fr/media/display/df0d3da4-e0c6-11f1-8a66-695cb59fade5/w:1280/p:16x9/83cdb6dec7518d18f93ef05713cfda460feb48d3.jpg",
+   "site": "RFI",
+   "title": "Australia crush New Zealand 34-10 to win Women's Rugby League World Cup"
+  },
+  "https://www.straitstimes.com/asia/bangladesh-garment-makers-threaten-to-quit-wage-talks": {
+   "description": "Bangladesh garment makers threaten to quit wage talks as protests over higher pay disrupt factories and exports. Read more at straitstimes.com.",
+   "image": "https://cassette.sphdigital.com.sg/image/straitstimes/443fdff21fd482a623b93c9240a39eafa9207f7940693785553664d60fa0bb11?t=og",
+   "site": "The Straits Times",
+   "title": "Bangladesh garment-makers threaten to quit wage talks"
+  },
+  "https://www.tbsnews.net/bangla/bangladesh/news-details-567881": {
+   "description": "প্রত্যক্ষদর্শীরা জানান, মোটরসাইকেলে চড়ে ৫-৬ জনের একটি দল বাড়ির প্রাচীর টপকে ভেতরে প্রবেশ করে পেট্রল ঢেলে আগুন দেয়।",
+   "image": "https://www.tbsnews.net/bangla/sites/default/files/styles/social_share/public/images/2026/11/19/screenshot_47.png",
+   "site": "The Business Standard",
+   "title": "রাজশাহীতে সাবেক পররাষ্ট্র প্রতিমন্ত্রী শাহরিয়ার আলমের বাড়িতে আগুন"
+  },
+  "https://www.tbsnews.net/bangladesh/awami-league-office-former-mp-bahars-house-set-fire-cumilla-1606191": {
+   "description": "Kotwali Model Police Station OC Touhidul Anwar said a few young men briefly set fire to the buildings from outside using paper without entering the office.",
+   "image": "https://www.tbsnews.net/sites/default/files/styles/social_share/public/images/2026/11/18/915326644_1508839427828048_2809501306865396470_n_0.jpg",
+   "site": "The Business Standard",
+   "title": "Awami League office, former MP Bahar’s house set on fire in Cumilla"
+  },
+  "https://www.tbsnews.net/bangladesh/bnp-mp-zilanys-house-set-fire-gopalganj-1605941": {
+   "description": "The attack reportedly took place hours after Awami League and Chhatra League activists stormed Tungipara Police Station, freed detainees and looted firearms.",
+   "image": "https://www.tbsnews.net/sites/default/files/styles/social_share/public/images/2026/11/17/gopalganj_mp_fire.jpg",
+   "site": "The Business Standard",
+   "title": "BNP MP Zilany's house set on fire in Gopalganj"
+  },
+  "https://www.tbsnews.net/bangladesh/police-garment-workers-clash-kafrul-over-alleged-harassment-female-workers-1606131": {
+   "description": "Police personnel from Kafrul Police Station rushed to the scene and attempted to bring the situation under control. At one point, police fired around 10 sound grenades.",
+   "image": "https://www.tbsnews.net/sites/default/files/styles/social_share/public/images/2026/11/18/screenshot_2026-11-18_105553_0.png",
+   "site": "The Business Standard",
+   "title": "Police, garment workers clash in Kafrul over alleged harassment of female workers"
+  },
+  "https://www.tbsnews.net/economy/rmg/13-factories-shut-indefinitely-gazipur-amid-labour-unrest-holiday-declared-five-1602791": {
+   "description": "A total of 48 platoons of law enforcement personnel have been deployed across industrial areas in Dhaka, Gazipur and Narayanganj to maintain law and order and protect factories.",
+   "image": "https://www.tbsnews.net/sites/default/files/styles/social_share/public/images/2026/11/15/gazipur_rmg_15112026_1.jpg",
+   "site": "The Business Standard",
+   "title": "RMG unrest: 50 factories remain closed in Savar-Ashulia, 13 shut indefinitely in Gazipur"
+  },
+  "https://www.tbsnews.net/economy/rmg/owners-submit-minimum-wage-proposal-boards-third-meeting-today-amid-ongoing-unrest": {
+   "description": "The owners' side on the board was supposed to submit a proposal on minimum wage rates for garment workers at the panel's third meeting today.",
+   "image": "https://www.tbsnews.net/sites/default/files/styles/social_gpi_bKash_cash_apr26/public/images/2026/11/16/uncdf_garment_workers_labourers.jpg",
+   "site": "The Business Standard",
+   "title": "Wage Board postpones today's meeting on garment workers' minimum wages"
+  },
+  "https://www.tbsnews.net/economy/rmg/rmg-factory-owners-threaten-closures-under-no-work-no-pay-provision-amid-labour-unrest": {
+   "description": "BGMEA says 55 factories shut on Saturday under section 13(1) of labour act; 147 units halt production.",
+   "image": "https://www.tbsnews.net/sites/default/files/styles/social_share/public/images/2026/11/08/rmg.png",
+   "site": "The Business Standard",
+   "title": "'No work, no pay': RMG factory owners threaten closures from Sunday if unrest continues"
+  },
+  "https://www.thedailystar.net/news/bangladesh/news/eight-more-die-measles-symptoms-4324846": {
+   "description": "Eight more patients died with measles-like symptoms in the 24 hours till 8:00am yesterday, bringing the country’s combined tally of confirmed and suspected measles-related deaths to 1,314 this year.",
+   "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/measles-final.jpg",
+   "site": "The Daily Star",
+   "title": "Eight more die with measles-like symptoms"
+  },
+  "https://www.thedailystar.net/news/crime-justice/news/dipu-monis-flat-sujit-roy-nandis-village-home-set-fire-chandpur-4327896": {
+   "description": "Locals say unidentified arsonists torched both properties last night; no casualties reported",
+   "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/dipu_moni.jpg",
+   "site": "The Daily Star",
+   "title": "Dipu Moni’s flat, Sujit Roy Nandi’s village home set on fire in Chandpur"
+  },
+  "https://www.thedailystar.net/news/crime-justice/news/gopalganjs-tungipara-police-station-set-fire-following-arrests-awami-league-activists-4326406": {
+   "description": "Party activists allegedly storm station, free detainees; BNP MP’s house set on fire, says UNO",
+   "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/WhatsApp%20Image%202026-11-17%20at%2011.31.16%20PM.jpeg",
+   "site": "The Daily Star",
+   "title": "Gopalganj's Tungipara Police Station set on fire following arrests of Awami League activists"
+  },
+  "https://www.thedailystar.net/news/crime-justice/news/muhammad-yunuss-ancestral-home-set-fire-chattogram-4327776": {
+   "description": "Police extinguished the blaze in a ground-floor room and are investigating who was behind the incident",
+   "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/1920_1080%20%287%29.jpg",
+   "site": "The Daily Star",
+   "title": "Muhammad Yunus’s ancestral home set on fire in Chattogram"
+  },
+  "https://www.thedailystar.net/news/crime-justice/news/two-houses-former-al-minister-rezaul-karim-set-fire-pirojpur-4327421": {
+   "description": "Ancestral home and three-storey building targeted in Nazirpur; houses of former AL MP and BCL leader vandalised in Sirajganj",
+   "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/IMG-20261118-WA0030.jpg",
+   "site": "The Daily Star",
+   "title": "Two houses of former AL minister Rezaul Karim set on fire in Pirojpur"
+  },
+  "https://www.thedailystar.net/news/news/gazipur-garment-workers-block-road-police-fire-tear-gas-4325191": {
+   "description": "Traffic on highways normal",
+   "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/Labour%20Unrest.jpg",
+   "site": "The Daily Star",
+   "title": "Gazipur garment workers block road, police fire tear gas"
+  },
+  "https://www.thedailystar.net/news/news/police-vehicle-torched-garment-workers-block-dhaka-mymensingh-highway-4326951": {
+   "description": "At least 30 factories declare general holiday as protests over wage hike disrupt traffic",
+   "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/Gazipur%20police%20vehicle%20fire.jpg",
+   "site": "The Daily Star",
+   "title": "Police vehicle torched as garment workers block Dhaka-Mymensingh highway"
+  },
+  "https://www.theguardian.com/australia-news/2026/nov/17/disgusted-by-it-body-of-melbourne-cup-horse-found-dumped-in-sydney-skip-bin-ntwnfb": {
+   "description": "So You Are placed eighth in race just two weeks ago and was put down after a severe bout of colic",
+   "image": "https://i.guim.co.uk/img/media/dd139e0696a494665b7aa4358ff2cd286e480999/407_0_4073_3258/master/4073.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=2718db805236c4dcb9fb7a9a2c029e9e",
+   "site": "the Guardian",
+   "title": "‘Disgusted by it’: body of Melbourne Cup race horse found dumped in Sydney skip bin"
+  },
+  "https://www.theguardian.com/world/2026/nov/16/ukraine-drone-kerch-bridge-russia-occupied-crimea": {
+   "description": "Traffic temporarily restricted on key connection after bridge targeted during overnight drone barrage by Ukraine",
+   "image": "https://i.guim.co.uk/img/media/5d9bc8ebc5b7c43c5302bea08323e6024d72f453/860_0_4299_3439/master/4299.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=839f493fbfe576d55eedac5cd8743f30",
+   "site": "the Guardian",
+   "title": "Ukraine hits Kerch bridge between Russia and occupied Crimea"
+  },
+  "https://www.theguardian.com/world/2026/nov/19/kerch-bridge-crimea-russia-attacked-again-ukraine": {
+   "description": "Assessment of damage under way, days after two attacks that destroyed road section of key bridge across Kerch strait linking annexed peninsula to Russia",
+   "image": "https://i.guim.co.uk/img/media/7bf9a341fba5dbbab43e28b309e86834e12fbee2/684_319_2063_1650/master/2063.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=b33440ba198f48682546026cae6b8d74",
+   "site": "the Guardian",
+   "title": "Crimea bridge has been attacked again, says Russian-installed governor"
+  },
+  "https://www.thehindu.com/news/international/fresh-unrest-in-bangladesh-as-garment-workers-protest-block-highways-for-higher-wages/article71711657.ece": {
+   "description": "Bangladesh garment workers protest for higher wages, blocking highways as authorities deploy security forces amid escalating industrial unrest.",
+   "image": "https://th-i.thgim.com/public/incoming/6apgn8/article71711712.ece/alternates/LANDSCAPE_1200/20261117186L.jpg",
+   "site": "The Hindu",
+   "title": "Fresh unrest in Bangladesh as garment workers protest, block highways for higher wages"
+  },
+  "https://www.thenationalnews.com/news/gulf/2026/11/15/bahrain-issues-first-nationwide-alert-in-months-as-iran-claims-attack-on-base-hosting-us-helicopters/": {
+   "description": "Kingdom's military says air defences destroyed several incoming projectiles, as residents were twice told to seek shelter",
+   "image": "https://www.thenationalnews.com/resizer/v2/5IS3HYLXF5AWRAIY7T35R4BQVM.JPG?auth=1942d2bfcde7cc63279149ff2cd2d36befa120cc7b34b3555dbef6dd1483e0f4&smart=true&width=1200&height=630",
+   "site": "The National",
+   "title": "Bahrain intercepts Iranian attacks after first nationwide alert in months | The National"
+  },
+  "https://www.turkiyetoday.com/region/irgc-claims-strike-on-us-early-warning-radar-in-bahrain-after-sirik-attack-3232293?s=1": {
+   "description": "Iran’s Revolutionary Guards say they destroyed US early-warning radar in Bahrain after Sirik attack",
+   "image": "https://img.turkiyetoday.com/images/2026/11/13/irgc-claims-strike-on-us-early-warning-radar-in-bahrain-after-sirik-attack-3232293_20261113091705.jpg",
+   "site": "Türkiye Today",
+   "title": "IRGC claims strike on US early-warning radar in Bahrain after Sirik attack - Türkiye Today"
+  },
+  "https://www.turkiyetoday.com/world/frances-weekend-rallies-draw-106000-by-official-count-while-unions-claim-200000-3232407": {
+   "description": "Tens of thousands of protesters march across France for a fifth straight Saturday over living costs and a proposed police protection bill",
+   "image": "https://img.turkiyetoday.com/images/2026/11/14/frances-weekend-rallies-draw-106000-by-official-count-while-unions-claim-200000-3232407_20261114204651.jpg",
+   "site": "Türkiye Today",
+   "title": "France’s weekend rallies draw 106,000 by official count, while unions claim 200,000 - Türkiye Today"
+  },
+  "https://www.turkiyetoday.com/world/kerch-bridge-road-arch-reportedly-falls-into-sea-after-ukrainian-strikes-3232578": {
+   "description": "Road arch of Kerch Bridge reportedly falls into sea after overnight Ukrainian strikes; Crimea’s Russian-installed head halts traffic",
+   "image": "https://img.turkiyetoday.com/images/2026/11/17/kerch-bridge-road-span-destroyed-after-ukrainian-strikes-imagery-shows-3232578_20261117091014_20261117091014.jpeg",
+   "site": "Türkiye Today",
+   "title": "Kerch Bridge road span destroyed after Ukrainian strikes, imagery shows - Türkiye Today"
+  },
+  "https://www.univision.com/shows/primer-impacto/asesinan-al-periodista-camilo-rodriguez-en-costa-rica-habria-recibido-amenazas-por-denunciar-al-narcotrafico-y-la-corrupcion-video": {
+   "description": "El asesinato del periodista Camilo Rodríguez ha causado conmoción en Costa Rica. El comunicador fue baleado en plena calle cuando se dirigía a su casa y según los primeros reportes, habría recibido amenazas de muerte por sus denuncias sobre presuntos vínculos con el narcotráfico y casos de corrupción que involucrarían a jueces, diputados, ministros y otros funcionarios del gobierno.Más Videos…",
+   "image": "https://www.univision.com/api/image/og/us/shows/primer-impacto/asesinan-al-periodista-camilo-rodriguez-en-costa-rica-habria-recibido-amenazas-por-denunciar-al-narcotrafico-y-la-corrupcion-video",
+   "site": "Univision",
+   "title": "Asesinan al periodista Camilo Rodríguez en Costa Rica: Habría recibido amenazas por denunciar al narcotráfico y la corrupción"
+  },
+  "https://www.vanguardngr.com/2026/11/military-rescues-125-kidnap-victims-neutralises-eight-terrorists/": {
+   "description": "By: Kingsley Omonobi The Defence Headquarters says troops have rescued 125 kidnapped victims, neutralised eight terrorists and arrested 10 suspected collaborators and logistics suppliers in military operations across the country in the last one week. The operations, conducted between November 6 and 12, 2026, also led to the surrender of 12 terrorist fighters and their […]",
+   "image": "https://cdn.vanguardngr.com/wp-content/uploads/2026/11/Oluyede-1.png",
+   "site": "Vanguard News",
+   "title": "Military rescues 125 kidnap victims, neutralises eight terrorists"
+  }
+ }
+}
