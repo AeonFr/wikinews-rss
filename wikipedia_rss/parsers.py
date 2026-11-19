@@ -2,8 +2,11 @@
 
 It returns plain dicts ("raw items") with these keys:
   text, html (inline HTML for the description), title, date (datetime.date),
-  date_source, category, topics (list of {title, label}), main_title (article or None),
-  articles (list of article titles), sources (list of {name, url}), page (wiki page it came from).
+  date_source, category, topics (the nested topic lines above the entry, outermost first:
+  {label, title (first link), links: [{title, text}] (every link of the line)}),
+  main_title (the outermost topic's first article, or None: the article the entry is grouped
+  under), articles (list of article titles), sources (list of {name, url}), page (wiki page
+  it came from).
 """
 import datetime
 import hashlib
@@ -212,11 +215,14 @@ def _walk_list(ul, topics, category, date, cfg, page_title, items):
         sublists = li.child_elements("ul")
         sources = [{"name": clean_space(a.text()).strip("()"), "url": a.attrs.get("href", "")}
                    for a in links if _is_external(a)]
-        wiki = [t for t in (_wiki_title(a) for a in links if not _is_external(a)) if t]
-        wiki = [t for t in wiki if t.split(":")[0] not in cfg.ignore_namespaces]
+        wikilinks = [(title, clean_space(a.text())) for a in links if not _is_external(a)
+                     for title in [_wiki_title(a)]
+                     if title and title.split(":")[0] not in cfg.ignore_namespaces]
+        wiki = [title for title, _ in wikilinks]
         text = clean_space(li.text(_skip_lists_and_sources))
         if sublists:
-            topic = {"label": clean_space(li.text(_skip_lists)), "titles": wiki}
+            topic = {"label": clean_space(li.text(_skip_lists)), "titles": wiki,
+                     "links": [{"title": title, "text": label} for title, label in wikilinks]}
             if sources:  # a topic line that is itself a news item
                 items.append(_daily_item(li, text, wiki, sources, topics, category, date, cfg, page_title))
             for sub in sublists:
@@ -234,9 +240,11 @@ def _daily_item(li, text, wiki, sources, topics, category, date, cfg, page_title
         "date": date,
         "date_source": "page_date",
         "category": category,
-        "topics": [{"label": t["label"], "title": t["titles"][0] if t["titles"] else None} for t in topics],
-        # The innermost topic is the story this item belongs to.
-        "main_title": topics[-1]["titles"][0] if topics and topics[-1]["titles"] else None,
+        "topics": [{"label": t["label"], "title": t["titles"][0] if t["titles"] else None, "links": t["links"]}
+                   for t in topics],
+        # The outermost topic with an article is what the entry is grouped under: entries
+        # nested several levels deep are all part of that top-level story.
+        "main_title": next((t["titles"][0] for t in topics if t["titles"]), None),
         "articles": topic_titles + wiki,
         "sources": sources,
         "page": page_title,

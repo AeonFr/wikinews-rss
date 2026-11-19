@@ -20,10 +20,17 @@ def _sources(item, s):
         _link(src["url"], src["name"] or src["url"]) for src in item["sources"]))
 
 
+def _topic_links(t, cfg):
+    """A topic line: a link per article it mentions (older state: its label and first article)."""
+    if t.get("links"):
+        return ", ".join(_link(cfg.url(link["title"]), link["text"] or link["title"]) for link in t["links"])
+    return _link(cfg.url(t["title"]), t["label"])
+
+
 def _topics(item, cfg):
     topics = [t for t in item.get("topics", []) if t.get("title")]
     return "<p>%s: %s</p>" % (cfg.strings["topics"], " › ".join(
-        _link(cfg.url(t["title"]), t["label"]) for t in topics)) if topics else None
+        _topic_links(t, cfg) for t in topics)) if topics else None
 
 
 def _attribution(page, cfg):
@@ -54,7 +61,9 @@ def item_description(item, cfg):
         parts.append("<p>%s</p>" % it["html"])
         if it.get("sources"):
             parts.append(_sources(it, s))
-    parts.append(next((t for t in (_topics(it, cfg) for it in members) if t), None))
+    # The topics of each headline, once each: they differ when the group's headlines are
+    # nested under different sub-topics of the same article.
+    parts += list(dict.fromkeys(t for t in (_topics(it, cfg) for it in members) if t))
     parts += [_attribution(page, cfg) for page in dict.fromkeys(it["page"] for it in members)]
     return "\n".join(p for p in parts if p)
 

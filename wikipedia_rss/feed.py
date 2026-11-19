@@ -61,6 +61,11 @@ def lookup_pages(client, titles, extracts=False):
     return result
 
 
+def topic_titles(it):
+    """Titles of every article linked on the topic lines above an entry, outermost first."""
+    return [link["title"] for t in it.get("topics", []) for link in t.get("links", [])]
+
+
 def finalize(cfg, raw_items, pages):
     """Assign guid, link and enrichment; drop duplicates within one scrape.
 
@@ -68,7 +73,8 @@ def finalize(cfg, raw_items, pages):
     exist) used to group headlines about the same article (and day), plus "page_date" and
     "pos" (position within its portal page) that order the headlines of a group.
     Items whose main article exists also get "article_title" and, if configured,
-    "article_extract" (shown in the card of the story page).
+    "article_extract" (shown in the card of the story page), and "topic_articles": the
+    other articles linked on the topic lines above the entry (at any level) that exist.
     """
     items, seen, pos = [], set(), {}
     for order, it in enumerate(raw_items):
@@ -87,14 +93,23 @@ def finalize(cfg, raw_items, pages):
             it["article_title"] = page["title"]
             if cfg.use_extracts and page["extract"]:
                 it["article_extract"] = page["extract"]
-        elif it["main_title"]:
+        topic_articles = []
+        for title in topic_titles(it):
+            other = pages.get(title)
+            if other and (not page or other["pageid"] != page["pageid"]) \
+                    and other["url"] not in [a["url"] for a in topic_articles]:
+                topic_articles.append({"title": other["title"], "url": other["url"],
+                                       "extract": other["extract"] if cfg.use_extracts else ""})
+        if topic_articles:
+            it["topic_articles"] = topic_articles
+        if not page and it["main_title"]:
             it["group_key"] = "title:%s" % it["main_title"]
         items.append(it)
     return items
 
 
 def run(cfg, client, now, days=7, max_items=50, state_dir="state", out_dir="feeds", data_dir="data",
-        site_url=None, dry_run=False, retention_days=RETENTION_DAYS, max_group=3, fetch_source=None):
+        site_url=None, dry_run=False, retention_days=RETENTION_DAYS, max_group=6, fetch_source=None):
     """Scrape, update the state and write the RSS feed (out_dir) and the website data (data_dir).
 
     `fetch_source(url) -> (preview, reason)` (see sources.Fetcher) turns on the link previews
@@ -104,7 +119,8 @@ def run(cfg, client, now, days=7, max_items=50, state_dir="state", out_dir="feed
     raw_items = collect(cfg, client, today, days)
     if not raw_items:
         raise RuntimeError("no items parsed; the page layout may have changed")
-    pages = lookup_pages(client, [it["main_title"] for it in raw_items], extracts=cfg.use_extracts)
+    titles = [t for it in raw_items for t in [it["main_title"]] + topic_titles(it)]
+    pages = lookup_pages(client, titles, extracts=cfg.use_extracts)
     state_path = os.path.join(state_dir, "%s.json" % cfg.code)
     state = st.load_state(state_path)
     items = finalize(cfg, raw_items, pages)

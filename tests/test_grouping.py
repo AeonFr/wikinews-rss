@@ -91,21 +91,23 @@ class GroupingTest(unittest.TestCase):
 
     def test_en_later_day_is_a_new_item(self):
         res = self.run_en(oct24=[RAIDS])
-        self.assertEqual((res["scraped"], res["new"], res["in_feed"]), (12, 12, 12))
+        self.assertEqual((res["scraped"], res["new"], res["in_feed"]), (12, 11, 11))
         items = self.by_title("West Bank")
         self.assertEqual(set(items), {LOCKDOWN, RAIDS})
         self.assertTrue(items[LOCKDOWN].findtext("guid").startswith("wikipedia:en:2026-10-23:"))
         self.assertEqual(items[LOCKDOWN].findtext("pubDate"), "Fri, 23 Oct 2026 00:00:00 GMT")
         self.assertTrue(items[RAIDS].findtext("guid").startswith("wikipedia:en:2026-10-24:"))
         self.assertEqual(items[RAIDS].findtext("pubDate"), "Sat, 24 Oct 2026 09:00:00 GMT")
-        self.assertEqual(self.state()["groups"], {})
+        # The only group is the fixture's two entries under "Russo-Ukrainian war".
+        [group] = self.state()["groups"].values()
+        self.assertEqual(len(group["members"]), 2)
 
     def test_en_same_day_grouped_oldest_first(self):
         # The portal lists the follow-up (HEADS[0]) below the headline that was first in the
         # document (HEADS[1]): the title is the reverse of the document order, and the
         # description follows the title.
         res = self.run_en(oct24=[HEADS[1], HEADS[0]])
-        self.assertEqual((res["scraped"], res["new"], res["in_feed"]), (13, 12, 12))
+        self.assertEqual((res["scraped"], res["new"], res["in_feed"]), (13, 11, 11))
         [item] = self.matching("Headline number")
         self.assertEqual(item.findtext("title"), HEADS[0] + " / " + HEADS[1])
         # Founder (guid, pubDate): the first headline in the document, as before.
@@ -136,7 +138,7 @@ class GroupingTest(unittest.TestCase):
         self.assertEqual(after.findtext("title"), HEADS[0] + " / " + HEADS[1])
         self.assertEqual(after.findtext("guid"), before.findtext("guid"))
         self.assertEqual(after.findtext("pubDate"), before.findtext("pubDate"))
-        self.assertEqual(len(self.items()), 12)
+        self.assertEqual(len(self.items()), 11)
         self.assert_stable(lambda now: self.run_en(now, oct24=[HEADS[1], HEADS[0]]),
                            NOW + datetime.timedelta(hours=4), NOW + datetime.timedelta(hours=30))
 
@@ -157,7 +159,7 @@ class GroupingTest(unittest.TestCase):
         # The first three in the document (oldest first) fill the first item, shown in
         # reverse document order; the fourth starts a new one.
         self.assertEqual(titles, {HEADS[2] + " / " + HEADS[1] + " / " + HEADS[0], HEADS[3]})
-        self.assertEqual(len(self.items()), 11 + 4 - 2)
+        self.assertEqual(len(self.items()), 10 + 4 - 2)
         self.assert_stable(lambda now: self.run_en(now, oct24=HEADS[:4], max_group=3),
                            NOW + datetime.timedelta(hours=2))
 
@@ -212,7 +214,7 @@ class GroupingTest(unittest.TestCase):
 
         res = self.run_en(NOW + datetime.timedelta(hours=2), oct24=[RAIDS, HEADS[0]])
         self.assertEqual(res["new"], 0)
-        self.assertEqual(len(self.items()), 12)
+        self.assertEqual(len(self.items()), 11)
         items = self.by_title("West Bank")
         # Same article, different days: still separate, with their guids and pubDates.
         self.assertEqual(items[LOCKDOWN].findtext("guid"), old[LOCKDOWN][0])

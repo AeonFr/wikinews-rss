@@ -37,10 +37,10 @@ class RunTest(unittest.TestCase):
 
     def test_en_feed(self):
         res = feed.run(WIKI, en_client(), NOW, site_url=SITE, **self.dirs)
-        self.assertEqual((res["scraped"], res["new"]), (11, 11))
+        self.assertEqual((res["scraped"], res["new"]), (11, 10))
         root = self.read_feed()
         items = root.findall("channel/item")
-        self.assertEqual(len(items), 11)
+        self.assertEqual(len(items), 10)
         first = items[0]
         guid = first.findtext("guid")
         self.assertTrue(guid.startswith("wikipedia:en:2026-10-23:"))
@@ -57,7 +57,7 @@ class RunTest(unittest.TestCase):
     def test_without_site_url_items_link_to_the_article(self):
         feed.run(WIKI, en_client(), NOW, **self.dirs)
         first = self.read_feed().find("channel/item")
-        self.assertEqual(first.findtext("link"), "https://example.org/wiki/2026_West_Bank_lockdown")
+        self.assertEqual(first.findtext("link"), "https://example.org/wiki/Gaza_war")
         self.assertIsNone(self.read_feed().find("channel/{http://www.w3.org/2005/Atom}link"))
 
     def test_website_data(self):
@@ -65,13 +65,18 @@ class RunTest(unittest.TestCase):
         data = self.read_data()
         self.assertEqual(data["retention_days"], 183)
         self.assertEqual(data["portal"]["url"], "https://en.wikipedia.org/wiki/Portal:Current_events")
-        self.assertEqual(len(data["stories"]), 11)
+        self.assertEqual(len(data["stories"]), 10)
         story = data["stories"][0]
-        self.assertEqual(story["article"]["title"], "2026 West Bank lockdown")
-        self.assertEqual(story["article"]["url"], "https://example.org/wiki/2026_West_Bank_lockdown")
-        self.assertEqual(story["article"]["extract"], "Extract of 2026 West Bank lockdown.")
+        # The story is about the outermost topic's article; the nested topic's article is a
+        # further card, and every topic line keeps all its links.
+        self.assertEqual(story["article"]["title"], "Gaza war")
+        self.assertEqual(story["article"]["url"], "https://example.org/wiki/Gaza_war")
+        self.assertEqual(story["article"]["extract"], "Extract of Gaza war.")
+        self.assertEqual([a["title"] for a in story["more_articles"]], ["2026 West Bank lockdown"])
         [headline] = story["headlines"]
         self.assertIn("West Bank", headline["html"])
+        self.assertEqual([[l["label"] for l in t["links"]] for t in headline["topics"]],
+                         [["Gaza war"], ["2026 West Bank lockdown"]])
         self.assertEqual(headline["sources"][0]["name"], "Al Jazeera")
         self.assertEqual(headline["page"]["url"], "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_23")
         # Items without a main article have no article card.
@@ -80,7 +85,7 @@ class RunTest(unittest.TestCase):
     def test_data_has_every_story_but_the_feed_is_limited(self):
         feed.run(WIKI, en_client(), NOW, max_items=3, **self.dirs)
         self.assertEqual(len(self.read_feed().findall("channel/item")), 3)
-        self.assertEqual(len(self.read_data()["stories"]), 11)
+        self.assertEqual(len(self.read_data()["stories"]), 10)
 
     def snapshot(self):
         files = {}

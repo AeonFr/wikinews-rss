@@ -23,6 +23,11 @@ import tempfile
 
 from .config import RETENTION_DAYS
 
+# Bumped when the rule that decides which headlines are grouped changes: the headlines
+# still on the portal are then regrouped once (see merge). 1: innermost topic's article;
+# 2: the outermost topic's article.
+GROUPING_VERSION = 2
+
 
 def utc_iso(dt):
     return dt.astimezone(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -93,8 +98,9 @@ def merge(state, items, now, retention_days=RETENTION_DAYS, max_group=3):
     until then. state["updated"] only moves to now if the state actually changed.
     """
     known = state.setdefault("items", {})
-    # State written before grouping existed: regroup everything currently scraped.
-    migrating = "groups" not in state
+    # State written before grouping existed, or under another grouping rule: regroup
+    # everything currently scraped.
+    migrating = "groups" not in state or state.get("grouping") != GROUPING_VERSION
     groups = state.setdefault("groups", {})
     before = json.dumps([known, groups], sort_keys=True)
     now_iso = utc_iso(now)
@@ -129,8 +135,18 @@ def merge(state, items, now, retention_days=RETENTION_DAYS, max_group=3):
     expire(state, cutoff)
 
     current &= set(known)
-    owner = regroup(state, [it["guid"] for it in items if it["guid"] in known],
-                    list(current) if migrating else new, max_group)
+    pending = set(new)
+    if migrating:
+        # Groups with a headline still on the portal are dissolved and formed again under the
+        # current rule. Older groups (nothing of them on the portal any more) are kept as they
+        # are: their headlines no longer have the data to be regrouped.
+        pending = set(current)
+        for g, rec in list(groups.items()):
+            if any(m in current for m in rec["members"]):
+                pending.update(m for m in rec["members"] if m in known)
+                del groups[g]
+        state["grouping"] = GROUPING_VERSION
+    owner = regroup(state, [it["guid"] for it in items if it["guid"] in known], list(pending), max_group)
     if "updated" not in state or json.dumps([known, groups], sort_keys=True) != before:
         state["updated"] = now_iso
     return [g for g in new if owner.get(g, g) == g]

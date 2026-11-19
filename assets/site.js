@@ -13,7 +13,8 @@
     error: "Couldn’t load the news. Try again later.",
     empty: "There are no news yet.",
     aboutLabel: "About the article",
-    portalLabel: "From the Current events portal →",
+    prevDay: "Prev",
+    nextDay: "Next",
     sourcesHeading: "From the sources",
     retention: "News older than {period} is removed from this site. Last updated {date}.",
     storyTitle: "Story",
@@ -27,6 +28,8 @@
     fromPage: "From {page} ({history})",
     history: "history",
     cardLabel: "On Wikipedia",
+    moreLabel: "Related article",
+    moreCta: "Read on Wikipedia →",
     cardCta: "Read the article on Wikipedia →",
     cardPortalLabel: "On Wikipedia",
     cardPortalText: "This story is not about a particular article. See everything that happened that day.",
@@ -158,18 +161,25 @@
   // fills a gap that would otherwise stay empty. A story with several entries on the
   // same day is a feature and takes the full width.
   var SHORT_MAX = 149, LONG_MIN = 225;
+  // The entries of a feature are set larger, and its columns are narrower, so its
+  // thresholds are higher.
+  var FEATURE_SHORT_MAX = 280, FEATURE_LONG_MIN = 500;
 
   // The front page lists only the most recent days; the full history in data/news.json
   // is kept for the "More on …" lists on story pages.
   var HOME_DAYS = 30;
 
-  function sizeOf(n) {
-    return n <= SHORT_MAX ? "short" : n >= LONG_MIN ? "long" : "flex";
+  function sizeOf(n, shortMax, longMin) {
+    shortMax = shortMax || SHORT_MAX;
+    longMin = longMin || LONG_MIN;
+    return n <= shortMax ? "short" : n >= longMin ? "long" : "flex";
   }
 
   function slug(s) {
     var box = el("div", "slug");
-    if (s.article) box.appendChild(el("p", "subhead", s.article.title));
+    // Without an article (a first-level entry of the portal), the section it appears under.
+    var head = s.article ? s.article.title : (s.categories && s.categories[0]);
+    if (head) box.appendChild(el("p", "subhead", head));
     var by = byline(s);
     if (by) box.appendChild(el("p", "byline", by));
     return box;
@@ -202,16 +212,24 @@
       }
       var by = byline(s);
       if (by) li.appendChild(el("p", "byline", by));
-      var box = el("div", "excerpts");
-      texts.forEach(function (text) { box.appendChild(textLink(s, text)); });
-      // Two entries fill two of the three columns; the article's own summary takes the third.
-      if (texts.length === 2 && s.article && s.article.extract) {
-        var about = el("p", "about");
-        about.appendChild(el("span", "about-label", t("aboutLabel")));
-        about.appendChild(document.createTextNode(s.article.extract));
-        box.appendChild(about);
-      }
+      // The box is a grid: the article's own summary is the first column, over the full
+      // height of the box, and the entries are laid out in the columns next to it (see
+      // layoutFeature).
+      var box = el("div", "feature-body");
+      var about = el("div", "about");
+      about.appendChild(el("p", "about-label", t("aboutLabel")));
+      if (s.article.extract) about.appendChild(el("p", "about-text", s.article.extract));
+      var read = link(s.article.url, t("moreCta"));
+      read.className = "about-link";
+      about.appendChild(read);
+      box.appendChild(about);
+      var entries = texts.map(function (text) {
+        var p = textLink(s, text);
+        box.appendChild(p);
+        return { li: p, kind: sizeOf(text.length, FEATURE_SHORT_MAX, FEATURE_LONG_MIN), length: text.length };
+      });
       li.appendChild(box);
+      return { li: li, kind: kind, portal: false, length: texts.join(" ").length, body: box, about: about, entries: entries };
     } else {
       kind = sizeOf(texts[0].length);
       li.appendChild(slug(s));
@@ -227,7 +245,11 @@
   //  - a row is never left with empty columns: the leftover goes to the row's tile with
   //    the longest text, up to the full width;
   //  - in a row with tiles of different widths, the wider one comes first.
-  function layoutTiles(tiles, cols) {
+  // With `offset`, the columns start that many columns in (the first ones belong to
+  // something else). Returns the number of rows.
+  function layoutTiles(tiles, cols, offset) {
+    offset = offset || 0;
+    var explicit = cols > 1 || offset > 0;
     var rows = [];
     tiles.forEach(function (tile) {
       var need = tile.kind === "feature" ? cols : tile.kind === "long" ? Math.min(2, cols) : 1;
@@ -256,14 +278,29 @@
 
     var list = tiles[0] && tiles[0].li.parentNode;
     rows.forEach(function (row, rowIndex) {
-      var col = 1;
+      var col = 1 + offset;
       row.tiles.forEach(function (tile) {
         if (list) list.appendChild(tile.li);  // reading order follows the visual order
-        tile.li.style.gridRow = cols > 1 ? String(rowIndex + 1) : "";
-        tile.li.style.gridColumn = cols > 1 ? col + " / span " + tile.span : "";
+        tile.li.style.gridRow = explicit ? String(rowIndex + 1) : "";
+        tile.li.style.gridColumn = explicit ? col + " / span " + tile.span : "";
         col += tile.span;
       });
     });
+    return rows.length;
+  }
+
+  // Inside a feature (a grid of `cols` columns like the page's): the article's summary is
+  // the first column over the whole height, and the entries use the columns next to it
+  // by the same rules as the page's tiles, with the feature's thresholds.
+  function layoutFeature(tile, cols) {
+    if (cols === 1) {  // one column: the summary, then the entries
+      tile.about.style.gridRow = tile.about.style.gridColumn = "";
+      layoutTiles(tile.entries, 1);
+      return;
+    }
+    var rows = layoutTiles(tile.entries, cols - 1, 1);
+    tile.about.style.gridColumn = "1";
+    tile.about.style.gridRow = "1 / span " + rows;
   }
 
   var grids = [];  // one { tiles: [...], portal: [...] } per day on the page
@@ -277,6 +314,8 @@
     grids.forEach(function (g) {
       layoutTiles(g.tiles, cols);
       layoutTiles(g.portal, cols);
+      layoutTiles(g.features, cols);
+      g.features.forEach(function (tile) { layoutFeature(tile, cols); });
     });
   }
 
@@ -303,30 +342,37 @@
       if (d !== day) {
         day = d;
         var section = el("section", "day");
+        section.id = "day-" + d;
         var h2 = el("h2");
         var time = el("time", null, formatDay(d));
         time.setAttribute("datetime", d);
         h2.appendChild(time);
         section.appendChild(h2);
-        g = { tiles: [], portal: [], section: section, list: el("ol", "stories"), portalList: el("div", "portal-list") };
+        g = { tiles: [], features: [], portal: [], section: section, h2: h2, list: el("ol", "stories"),
+              featureList: el("ol", "stories"), portalList: el("div", "portal-list") };
         grids.push(g);
         days.appendChild(section);
       }
       var tile = storyTile(s);
-      var portal = tile.portal;
-      (portal ? g.portal : g.tiles).push(tile);
-      (portal ? g.portalList : g.list).appendChild(tile.li);
-      if (portal && g.portal.length === 1) g.firstPortal = s;
+      // A day reads: the portal entries, then the featured (grouped) ones, then the single articles.
+      var kind = tile.portal ? "portal" : tile.kind === "feature" ? "features" : "tiles";
+      var parent = { portal: g.portalList, features: g.featureList, tiles: g.list }[kind];
+      g[kind].push(tile);
+      parent.appendChild(tile.li);
     });
-    grids.forEach(function (day) {
+    grids.forEach(function (day, i) {
+      // Links to the days before and after this one on the page (none past either end).
+      var nav = el("span", "day-nav");
+      if (i > 0) nav.appendChild(link("#" + grids[i - 1].section.id, t("prevDay")));
+      if (i > 0 && i < grids.length - 1) nav.appendChild(el("span", "day-nav-sep", "/"));
+      if (i < grids.length - 1) nav.appendChild(link("#" + grids[i + 1].section.id, t("nextDay")));
+      if (nav.firstChild) day.h2.appendChild(nav);
       if (day.portal.length) {
         var box = el("div", "portal");
-        var label = el("p", "portal-label");
-        label.appendChild(link(day.firstPortal.headlines[0].page.url, t("portalLabel")));
-        box.appendChild(label);
         box.appendChild(day.portalList);
         day.section.appendChild(box);
       }
+      if (day.features.length) day.section.appendChild(day.featureList);
       if (day.tiles.length) day.section.appendChild(day.list);
     });
     layoutAll();
@@ -351,7 +397,14 @@
     p.appendChild(document.createTextNode(t("topicsLabel") + ": "));
     h.topics.forEach(function (topic, i) {
       if (i) p.appendChild(document.createTextNode(" › "));
-      p.appendChild(topic.url ? link(topic.url, topic.label) : document.createTextNode(topic.label));
+      if (topic.links && topic.links.length) {
+        topic.links.forEach(function (l, j) {
+          if (j) p.appendChild(document.createTextNode(", "));
+          p.appendChild(link(l.url, l.label));
+        });
+      } else {
+        p.appendChild(topic.url ? link(topic.url, topic.label) : document.createTextNode(topic.label));
+      }
     });
     return p;
   }
@@ -364,6 +417,17 @@
       else if (part) p.appendChild(document.createTextNode(part));
     });
     return p;
+  }
+
+  // A card for a Wikipedia article: title and the start of its text, linking to it.
+  function articleCard(a, size) {
+    var node = el("a", "card" + (size ? " " + size : ""));
+    node.setAttribute("href", a.url);
+    node.appendChild(el("p", "card-label", t(size ? "moreLabel" : "cardLabel")));
+    node.appendChild(el("p", "card-title", a.title));
+    if (a.extract) node.appendChild(el("p", "card-text", a.extract));
+    node.appendChild(el("p", "card-cta", t(size ? "moreCta" : "cardCta")));
+    return node;
   }
 
   function card(story) {
@@ -477,10 +541,11 @@
     var time = el("time", null, formatDay(story.pub_date));
     time.setAttribute("datetime", story.pub_date.slice(0, 10));
     kicker.appendChild(time);
-    story.categories.forEach(function (c) { kicker.appendChild(el("span", "chip", c)); });
+    // Without an article, the category is the title (below), so it is not repeated here.
+    if (story.article) story.categories.forEach(function (c) { kicker.appendChild(el("span", "chip", c)); });
 
     var h1 = $("story-title");
-    h1.textContent = story.article ? story.article.title : formatDay(story.pub_date, "long");
+    h1.textContent = story.article ? story.article.title : (story.categories[0] || formatDay(story.pub_date, "long"));
 
     $("story-note").textContent = story.headlines.length > 1 ? t("noteMany", { n: story.headlines.length }) : "";
     $("story-note").hidden = story.headlines.length < 2;
@@ -501,6 +566,11 @@
     var cardBox = $("card");
     clear(cardBox);
     cardBox.appendChild(card(story));
+    if (story.more_articles && story.more_articles.length) {
+      var more = el("div", "card-grid");
+      story.more_articles.forEach(function (a) { more.appendChild(articleCard(a, "small")); });
+      cardBox.appendChild(more);
+    }
     renderSourceCards(story);
     renderRelated(story);
     setRetention();

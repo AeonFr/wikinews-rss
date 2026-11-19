@@ -23,7 +23,7 @@ class DailyPagesTest(unittest.TestCase):
         it = self.items[0]
         self.assertEqual(it["category"], "Armed conflicts and attacks")
         self.assertEqual([t["title"] for t in it["topics"]], ["Gaza war", "2026 West Bank lockdown"])
-        self.assertEqual(it["main_title"], "2026 West Bank lockdown")
+        self.assertEqual(it["main_title"], "Gaza war")
         self.assertEqual(it["sources"][0]["name"], "Al Jazeera")
         self.assertTrue(it["title"].startswith("The Israeli government orders"))
         self.assertTrue(it["title"].endswith("West Bank."))

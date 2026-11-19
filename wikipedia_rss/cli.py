@@ -28,7 +28,7 @@ def main(argv=None, now=None):
     ap.add_argument("--cache", metavar="DIR", help="caché HTTP en disco (30 min)")
     ap.add_argument("--retention-days", type=int, default=RETENTION_DAYS,
                     help="las noticias con más de N días se borran del estado, el feed y la web")
-    ap.add_argument("--max-group", type=int, default=3,
+    ap.add_argument("--max-group", type=int, default=6,
                     help="máximo de titulares sobre el mismo artículo agrupados en un item (1 desactiva la agrupación)")
     ap.add_argument("--no-source-previews", action="store_true",
                     help="no descarga título, descripción e imagen de las fuentes citadas (data/sources.json)")

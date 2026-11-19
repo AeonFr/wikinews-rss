@@ -7,7 +7,6 @@
   --rule: #1b1b1b;
   --accent: #8a1c1c;
   --card: #f3efe5;
-  --portal-bg: #f4e8e1;
   --chip: #8a1c1c;
   --focus: #8a1c1c;
   --serif: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif;
@@ -22,7 +21,6 @@
     --rule: #ece8dc;
     --accent: #e08a7a;
     --card: #1e1c15;
-    --portal-bg: #271d19;
     --chip: #e08a7a;
     --focus: #e08a7a;
   }
@@ -64,16 +62,21 @@ main.wrap { padding-top: 1.5rem; padding-bottom: 3rem; }
 .status { color: var(--muted); font: .9375rem var(--sans); margin: 1rem 0; }
 
 /* Front page */
-.day { margin: 0 0 2.25rem; }
+.day { margin: 0 0 3.5rem; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+.day { scroll-margin-top: 1rem; }
 .day h2 {
-  margin: 0 0 1.25rem; padding: .3rem 0;
-  border-top: 1px solid var(--rule); border-bottom: 1px solid var(--line);
-  font: 700 .8125rem/1.4 var(--sans); letter-spacing: .12em; text-transform: uppercase;
+  display: flex; justify-content: space-between; align-items: baseline; gap: 1rem;
+  margin: 0 0 1.75rem; padding: .7rem 0 .6rem;
+  border-top: 2px solid var(--rule); border-bottom: 1px solid var(--line);
+  font: 700 1rem/1.4 var(--sans); letter-spacing: .12em; text-transform: uppercase;
 }
 
 /* Tiles: a grid. Column spans are set by site.js from the length of the text. */
 .stories { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr; gap: 1.75rem 2.5rem; grid-auto-flow: row dense; }
 .stories li { min-width: 0; }
+.stories + .stories { margin-top: 1.75rem; }
 @media (min-width: 40rem) { .stories { grid-template-columns: repeat(2, 1fr); } }
 @media (min-width: 62rem) { .stories { grid-template-columns: repeat(3, 1fr); } }
 
@@ -87,13 +90,18 @@ main.wrap { padding-top: 1.5rem; padding-bottom: 3rem; }
 
 /* Feature: several entries about one article on the same day; the full width */
 .stories .feature { grid-column: 1 / -1; background: var(--card); padding: 1.5rem 1.5rem 1.75rem; }
-.feature h3 { margin: 0 0 .2rem; font: 700 clamp(1.75rem, 4vw, 2.5rem)/1.1 var(--serif); overflow-wrap: anywhere; }
+.feature h3 { margin: 0 0 .2rem; font: 700 clamp(1.375rem, 2.6vw, 1.75rem)/1.15 var(--serif); overflow-wrap: anywhere; }
 .feature h3 a { text-decoration: none; }
 .feature .byline { margin-bottom: 1rem; }
-.feature .excerpts { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 1rem 2.5rem; }
-@media (min-width: 62rem) { .feature .excerpts { grid-template-columns: repeat(3, 1fr); } }
-.about { margin: 0; font-size: .9375rem; line-height: 1.5; color: var(--muted); }
-.about-label { display: block; margin-bottom: .25rem; font: 700 .75rem/1.4 var(--sans); letter-spacing: .1em; text-transform: uppercase; }
+.feature-body { display: grid; grid-template-columns: 1fr; gap: 1rem 2.5rem; }
+.feature-body > * { min-width: 0; }
+@media (min-width: 40rem) { .feature-body { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 62rem) { .feature-body { grid-template-columns: repeat(3, 1fr); } }
+.about { font-size: .9375rem; line-height: 1.5; color: var(--muted); }
+.about p { margin: 0 0 .5rem; }
+.about-label { font: 700 .75rem/1.4 var(--sans); letter-spacing: .1em; text-transform: uppercase; }
+.about-link { color: var(--accent); font: .875rem var(--sans); text-decoration: none; }
+.about-link:hover { text-decoration: underline; }
 
 /* Story page */
 .kicker { display: flex; flex-wrap: wrap; gap: .25rem .75rem; align-items: center; margin: 0 0 .5rem; font: .75rem/1.5 var(--sans); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
@@ -117,6 +125,10 @@ h1 { font: 700 clamp(1.75rem, 5vw, 2.75rem)/1.15 var(--serif); margin: 0 0 .75re
 .card-label { color: var(--muted); font: .75rem var(--sans); text-transform: uppercase; letter-spacing: .1em; margin: 0 0 .25rem; }
 .card-title { font-size: 1.375rem; font-weight: 700; margin: 0 0 .35rem; overflow-wrap: anywhere; }
 .card-text { margin: 0 0 .6rem; color: var(--muted); }
+.card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: 1rem; margin-top: 1rem; }
+.card.small { padding: .8rem 1rem; }
+.card.small .card-title { font-size: 1.125rem; }
+.card.small .card-text { font-size: .9375rem; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
 .card-cta { color: var(--accent); font: .875rem var(--sans); margin: 0; }
 
 .related { margin: 2.5rem 0 0; }
@@ -131,12 +143,13 @@ h1 { font: 700 clamp(1.75rem, 5vw, 2.75rem)/1.15 var(--serif); margin: 0 0 .75re
 footer { border-top: 3px double var(--rule); color: var(--muted); font: .8125rem/1.5 var(--sans); padding: 1rem 0 2.5rem; }
 footer p { margin: .25rem 0; max-width: 46rem; }
 
-/* Portal section: the day's entries taken straight from the Current events portal.
- * A tinted band (like the multi-entry features, in another tint) around the same grid. */
-.portal { margin: 0 0 2.25rem; padding: 1.1rem 1.5rem 1.6rem; background: var(--portal-bg); }
-.portal-label { margin: 0 0 1rem; font: 700 .75rem/1.4 var(--sans); letter-spacing: .1em; text-transform: uppercase; }
-.portal-label a { color: var(--accent); text-decoration: none; }
-.portal-label a:hover { text-decoration: underline; }
+/* Portal section: the day's entries taken straight from the Current events portal. They
+ * come first and are set larger, but are not boxed: they are not related to each other. */
+.day-nav { display: flex; gap: .5rem; font: 700 .75rem/1.4 var(--sans); letter-spacing: .1em; }
+.day-nav a { color: var(--accent); text-decoration: none; }
+.day-nav-sep { color: var(--muted); }
+.day-nav a:hover { text-decoration: underline; }
+.portal { margin: 0 0 2.25rem; }
 .portal-list { display: grid; grid-template-columns: 1fr; gap: 1.75rem 2.5rem; }
 .portal-list > div { min-width: 0; }
 @media (min-width: 40rem) { .portal-list { grid-template-columns: repeat(2, 1fr); } }
