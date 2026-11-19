@@ -7,7 +7,7 @@ import unittest
 import xml.etree.ElementTree as ET
 
 from wikipedia_rss import feed, parsers, state as st
-from wikipedia_rss.config import LANGUAGES
+from wikipedia_rss.config import WIKI
 
 from helpers import FakeClient, fixture
 
@@ -15,7 +15,6 @@ NOW = datetime.datetime(2026, 10, 24, 9, 0, tzinfo=datetime.timezone.utc)
 OCT23 = "Portal:Current events/2026 October 23"
 OCT24 = "Portal:Current events/2026 October 24"
 OCT25 = "Portal:Current events/2026 October 25"
-ES_PAGE = "Plantilla:Portada:Actualidad"
 
 LOCKDOWN = "The Israeli government orders the military to prepare for a complete lockdown of the West Bank."
 RAIDS = ("The Israeli military raids 15 cities in the occupied West Bank, arresting several "
@@ -42,48 +41,31 @@ def en_client(oct24=None, oct25=None):
     return FakeClient(day_pages=pages)
 
 
-def es_client(wiki=None):
-    return FakeClient(raw_pages={ES_PAGE: wiki or fixture("es_tpl_portada.wiki")})
-
-
-ES_EXTRA = "Publicado el parche para PHP2Shell"
-ES_ORIGINAL = "Vulnerabilidad crítica en el lenguaje PHP denominada PHP2Shell"
-
-
-def es_wiki_with_extra(before=True):
-    wiki = fixture("es_tpl_portada.wiki")
-    line = "* [[PHP2Shell|%s]]\n" % ES_ORIGINAL
-    extra = "* [[PHP2Shell|%s]]\n" % ES_EXTRA
-    return wiki.replace(line, extra + line if before else line + extra, 1)
-
-
 class GroupingTest(unittest.TestCase):
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory()
-        self.dirs = dict(state_dir=os.path.join(self.tmp.name, "state"), out_dir=os.path.join(self.tmp.name, "feeds"))
+        self.dirs = dict(state_dir=os.path.join(self.tmp.name, "state"), out_dir=os.path.join(self.tmp.name, "feeds"),
+                         data_dir=os.path.join(self.tmp.name, "data"))
 
     def tearDown(self):
         self.tmp.cleanup()
 
     def run_en(self, now=NOW, oct24=None, oct25=None, **kw):
-        return feed.run_language(LANGUAGES["en"], en_client(oct24, oct25), now, **dict(self.dirs, **kw))
+        return feed.run(WIKI, en_client(oct24, oct25), now, **dict(self.dirs, **kw))
 
-    def run_es(self, now=NOW, wiki=None, **kw):
-        return feed.run_language(LANGUAGES["es"], es_client(wiki), now, **dict(self.dirs, **kw))
-
-    def items(self, lang):
-        root = ET.parse(os.path.join(self.dirs["out_dir"], lang + ".xml")).getroot()
+    def items(self):
+        root = ET.parse(os.path.join(self.dirs["out_dir"], "en.xml")).getroot()
         return root.findall("channel/item")
 
-    def matching(self, lang, text):
-        return [i for i in self.items(lang) if text in i.findtext("title")]
+    def matching(self, text):
+        return [i for i in self.items() if text in i.findtext("title")]
 
-    def by_title(self, lang, text):
-        return {i.findtext("title"): i for i in self.matching(lang, text)}
+    def by_title(self, text):
+        return {i.findtext("title"): i for i in self.matching(text)}
 
     def snapshot(self):
         files = {}
-        for sub in ("state_dir", "out_dir"):
+        for sub in ("state_dir", "out_dir", "data_dir"):
             for name in sorted(os.listdir(self.dirs[sub])):
                 with open(os.path.join(self.dirs[sub], name), "rb") as f:
                     files[(sub, name)] = f.read()
@@ -96,25 +78,27 @@ class GroupingTest(unittest.TestCase):
             run(now)
             self.assertEqual(self.snapshot(), snap)
 
-    def state(self, lang):
-        with open(os.path.join(self.dirs["state_dir"], lang + ".json"), encoding="utf-8") as f:
+    def state(self):
+        with open(os.path.join(self.dirs["state_dir"], "en.json"), encoding="utf-8") as f:
             return json.load(f)
 
-    def save_state(self, lang, state):
-        st.save_state(os.path.join(self.dirs["state_dir"], lang + ".json"), state)
+    def save_state(self, state):
+        st.save_state(os.path.join(self.dirs["state_dir"], "en.json"), state)
 
-    # --- en -------------------------------------------------------------------
+    def stories(self):
+        with open(os.path.join(self.dirs["data_dir"], "news.json"), encoding="utf-8") as f:
+            return {s["title"]: s for s in json.load(f)["stories"]}
 
     def test_en_later_day_is_a_new_item(self):
         res = self.run_en(oct24=[RAIDS])
         self.assertEqual((res["scraped"], res["new"], res["in_feed"]), (12, 12, 12))
-        items = self.by_title("en", "West Bank")
+        items = self.by_title("West Bank")
         self.assertEqual(set(items), {LOCKDOWN, RAIDS})
         self.assertTrue(items[LOCKDOWN].findtext("guid").startswith("wikipedia:en:2026-10-23:"))
         self.assertEqual(items[LOCKDOWN].findtext("pubDate"), "Fri, 23 Oct 2026 00:00:00 GMT")
         self.assertTrue(items[RAIDS].findtext("guid").startswith("wikipedia:en:2026-10-24:"))
         self.assertEqual(items[RAIDS].findtext("pubDate"), "Sat, 24 Oct 2026 09:00:00 GMT")
-        self.assertEqual(self.state("en")["groups"], {})
+        self.assertEqual(self.state()["groups"], {})
 
     def test_en_same_day_grouped_oldest_first(self):
         # The portal lists the follow-up (HEADS[0]) below the headline that was first in the
@@ -122,7 +106,7 @@ class GroupingTest(unittest.TestCase):
         # description follows the title.
         res = self.run_en(oct24=[HEADS[1], HEADS[0]])
         self.assertEqual((res["scraped"], res["new"], res["in_feed"]), (13, 12, 12))
-        [item] = self.matching("en", "Headline number")
+        [item] = self.matching("Headline number")
         self.assertEqual(item.findtext("title"), HEADS[0] + " / " + HEADS[1])
         # Founder (guid, pubDate): the first headline in the document, as before.
         founder = "wikipedia:en:2026-10-24:" + parsers.text_hash(HEADS[1])
@@ -139,27 +123,27 @@ class GroupingTest(unittest.TestCase):
         self.assertEqual([c.text for c in item.findall("category")],
                          ["Armed conflicts and attacks", "2026 West Bank lockdown"])
         # The 23 Oct headline on the same article stays on its own.
-        [lockdown] = self.matching("en", "complete lockdown")
+        [lockdown] = self.matching("complete lockdown")
         self.assertEqual(lockdown.findtext("title"), LOCKDOWN)
 
     def test_en_guid_and_pubdate_stable_when_member_added(self):
         self.run_en(oct24=[HEADS[0]])
-        [before] = self.matching("en", "Headline number")
+        [before] = self.matching("Headline number")
         # Three hours later a follow-up appears above it on the same day page.
         res = self.run_en(NOW + datetime.timedelta(hours=3), oct24=[HEADS[1], HEADS[0]])
         self.assertEqual(res["new"], 0)  # absorbed into the existing item
-        [after] = self.matching("en", "Headline number")
+        [after] = self.matching("Headline number")
         self.assertEqual(after.findtext("title"), HEADS[0] + " / " + HEADS[1])
         self.assertEqual(after.findtext("guid"), before.findtext("guid"))
         self.assertEqual(after.findtext("pubDate"), before.findtext("pubDate"))
-        self.assertEqual(len(self.items("en")), 12)
+        self.assertEqual(len(self.items()), 12)
         self.assert_stable(lambda now: self.run_en(now, oct24=[HEADS[1], HEADS[0]]),
                            NOW + datetime.timedelta(hours=4), NOW + datetime.timedelta(hours=30))
 
         # The next day the story develops: a new item, the 24 Oct one is untouched.
         res = self.run_en(NOW + datetime.timedelta(days=1), oct24=[HEADS[1], HEADS[0]], oct25=[HEADS[2]])
         self.assertEqual(res["new"], 1)
-        items = self.by_title("en", "Headline number")
+        items = self.by_title("Headline number")
         self.assertEqual(set(items), {HEADS[0] + " / " + HEADS[1], HEADS[2]})
         self.assertEqual(items[HEADS[0] + " / " + HEADS[1]].findtext("guid"), before.findtext("guid"))
         self.assertTrue(items[HEADS[2]].findtext("guid").startswith("wikipedia:en:2026-10-25:"))
@@ -169,98 +153,74 @@ class GroupingTest(unittest.TestCase):
 
     def test_en_cap_splits_long_stories(self):
         self.run_en(oct24=HEADS[:4], max_group=3)
-        titles = set(self.by_title("en", "Headline number"))
+        titles = set(self.by_title("Headline number"))
         # The first three in the document (oldest first) fill the first item, shown in
         # reverse document order; the fourth starts a new one.
         self.assertEqual(titles, {HEADS[2] + " / " + HEADS[1] + " / " + HEADS[0], HEADS[3]})
-        self.assertEqual(len(self.items("en")), 11 + 4 - 2)
+        self.assertEqual(len(self.items()), 11 + 4 - 2)
         self.assert_stable(lambda now: self.run_en(now, oct24=HEADS[:4], max_group=3),
                            NOW + datetime.timedelta(hours=2))
 
     def test_en_max_group_1_disables_grouping(self):
         self.run_en(oct24=HEADS[:2], max_group=1)
-        self.assertEqual(len(self.items("en")), 13)
-        self.assertEqual(self.state("en")["groups"], {})
+        self.assertEqual(len(self.items()), 13)
+        self.assertEqual(self.state()["groups"], {})
 
     def test_en_new_headline_joins_open_group_not_full_one(self):
         self.run_en(oct24=HEADS[:3], max_group=3)  # full
         self.run_en(NOW + datetime.timedelta(hours=1), oct24=HEADS[:4], max_group=3)
-        titles = set(self.by_title("en", "Headline number"))
+        titles = set(self.by_title("Headline number"))
         self.assertEqual(titles, {HEADS[2] + " / " + HEADS[1] + " / " + HEADS[0], HEADS[3]})
 
-    # --- es -------------------------------------------------------------------
-
-    def test_es_same_day_bullets_grouped_oldest_first(self):
-        res = self.run_es(wiki=es_wiki_with_extra(before=True))
-        self.assertEqual((res["scraped"], res["new"], res["in_feed"]), (18, 17, 17))
-        [item] = self.matching("es", "PHP2Shell")
-        # Reverse of the list order: the bullet listed last goes first.
-        self.assertEqual(item.findtext("title"), ES_ORIGINAL + " / " + ES_EXTRA)
-        self.assertRegex(item.findtext("guid"), r"^wikipedia:es:\d+$")
-        desc = item.findtext("description")
-        self.assertLess(desc.index("Vulnerabilidad"), desc.index("Publicado"))
-        self.assertEqual(desc.count("Extract of PHP2Shell."), 1)
-
-    def test_es_guid_stable_when_member_added_same_day(self):
-        self.run_es()
-        [before] = self.matching("es", "PHP2Shell")
-        # The new bullet appears above the old one: the old one keeps the article guid.
-        res = self.run_es(NOW + datetime.timedelta(hours=5), wiki=es_wiki_with_extra(before=True))
-        self.assertEqual(res["new"], 0)
-        [after] = self.matching("es", "PHP2Shell")
-        self.assertEqual(after.findtext("guid"), before.findtext("guid"))
-        self.assertEqual(after.findtext("pubDate"), before.findtext("pubDate"))
-        self.assertEqual(after.findtext("title"), ES_ORIGINAL + " / " + ES_EXTRA)
-        self.assertEqual(self.state("es")["items"][before.findtext("guid")]["text"], ES_ORIGINAL)
-        self.assert_stable(lambda now: self.run_es(now, wiki=es_wiki_with_extra(before=True)),
-                           NOW + datetime.timedelta(days=2))
-
-    def test_es_later_day_is_a_new_item(self):
-        self.run_es()
-        [before] = self.matching("es", "PHP2Shell")
-        res = self.run_es(NOW + datetime.timedelta(days=1), wiki=es_wiki_with_extra(before=True))
-        self.assertEqual(res["new"], 1)
-        items = self.by_title("es", "PHP2Shell")
-        self.assertEqual(set(items), {ES_ORIGINAL, ES_EXTRA})
-        self.assertEqual(items[ES_ORIGINAL].findtext("guid"), before.findtext("guid"))
-        self.assertEqual(items[ES_ORIGINAL].findtext("pubDate"), before.findtext("pubDate"))
-        self.assertRegex(items[ES_EXTRA].findtext("guid"), r"^wikipedia:es:\d+:[0-9a-f]{12}$")
-        self.assertEqual(items[ES_EXTRA].findtext("pubDate"), "Sun, 25 Oct 2026 09:00:00 GMT")
-        self.assertEqual(self.state("es")["groups"], {})
-        self.assert_stable(lambda now: self.run_es(now, wiki=es_wiki_with_extra(before=True)),
-                           NOW + datetime.timedelta(days=2))
+    def test_story_lists_every_headline_of_the_group(self):
+        # The feed title of an item can go stale in readers when a headline is added to its
+        # group (same guid); the story page, reached through the item's link, has them all.
+        self.run_en(oct24=[HEADS[0]], site_url="https://x.org")
+        [before] = self.matching("Headline number")
+        self.run_en(NOW + datetime.timedelta(hours=3), oct24=[HEADS[1], HEADS[0]], site_url="https://x.org")
+        [after] = self.matching("Headline number")
+        self.assertEqual(after.findtext("link"), before.findtext("link"))  # same story page
+        story_id = after.findtext("link").split("id=")[1]
+        stories = self.stories()
+        story = stories[HEADS[0] + " / " + HEADS[1]]
+        self.assertEqual(story["id"], story_id)
+        self.assertEqual(len(story["headlines"]), 2)
+        self.assertIn("number 0", story["headlines"][0]["html"])  # same order as the item's title
+        self.assertIn("number 1", story["headlines"][1]["html"])
+        self.assertEqual(story["article"]["title"], "2026 West Bank lockdown")
+        self.assertEqual(story["pub_date"], "2026-10-24T09:00:00Z")
 
     # --- migration --------------------------------------------------------------
 
-    def write_old_state(self, lang):
+    def write_old_state(self):
         """Turn the current state into the format written before grouping existed."""
-        state = self.state(lang)
+        state = self.state()
         del state["groups"]
         for it in state["items"].values():
             for key in ("pos", "page_date", "group_key"):
                 it.pop(key, None)
-        self.save_state(lang, state)
+        self.save_state(state)
 
     def test_migration_from_ungrouped_state(self):
         # Old version: lockdown seen on the 23rd; raids and two headlines seen on the 24th,
         # all as separate items.
         self.run_en(NOW - datetime.timedelta(hours=8), max_group=1)
         self.run_en(NOW, oct24=[RAIDS, HEADS[0]], max_group=1)
-        self.write_old_state("en")
-        old_items = {i.findtext("title"): i for i in self.items("en")}
+        self.write_old_state()
+        old_items = {i.findtext("title"): i for i in self.items()}
         old = {t: (old_items[t].findtext("guid"), old_items[t].findtext("pubDate")) for t in (LOCKDOWN, RAIDS, HEADS[0])}
 
         res = self.run_en(NOW + datetime.timedelta(hours=2), oct24=[RAIDS, HEADS[0]])
         self.assertEqual(res["new"], 0)
-        self.assertEqual(len(self.items("en")), 12)
-        items = self.by_title("en", "West Bank")
+        self.assertEqual(len(self.items()), 12)
+        items = self.by_title("West Bank")
         # Same article, different days: still separate, with their guids and pubDates.
         self.assertEqual(items[LOCKDOWN].findtext("guid"), old[LOCKDOWN][0])
         self.assertEqual(items[LOCKDOWN].findtext("pubDate"), old[LOCKDOWN][1])
         # Same article, same day: grouped under the oldest (first in the document).
         item = items[HEADS[0] + " / " + RAIDS]
         self.assertEqual((item.findtext("guid"), item.findtext("pubDate")), old[RAIDS])
-        state = self.state("en")
+        state = self.state()
         self.assertEqual(state["groups"][old[RAIDS][0]]["members"], [old[RAIDS][0], old[HEADS[0]][0]])
         self.assertIn(old[HEADS[0]][0], state["items"])  # kept so it never comes back on its own
         self.assert_stable(lambda now: self.run_en(now, oct24=[RAIDS, HEADS[0]]), NOW + datetime.timedelta(days=1))
@@ -271,26 +231,26 @@ class GroupingTest(unittest.TestCase):
         # group was full. Only the group guid (lockdown's) and HEADS[1] were published.
         self.run_en(NOW, oct24=[RAIDS, HEADS[0]], max_group=1)
         self.run_en(NOW + datetime.timedelta(hours=1), oct24=[RAIDS, HEADS[0], HEADS[1]], max_group=1)
-        state = self.state("en")
+        state = self.state()
         guid = {it["title"]: g for g, it in state["items"].items()}
         g_lock, g_raids, g_h0, g_h1 = (guid[t] for t in (LOCKDOWN, RAIDS, HEADS[0], HEADS[1]))
         lock = state["items"][g_lock]
         state["groups"] = {g_lock: {"members": [g_lock, g_raids, g_h0],
                                     "first_seen": lock["first_seen"], "pub_date": lock["pub_date"]}}
-        self.save_state("en", state)
+        self.save_state(state)
         headlines = dict(state["items"])
 
         later = NOW + datetime.timedelta(hours=2)
         res = self.run_en(later, oct24=[RAIDS, HEADS[0], HEADS[1]])
         self.assertEqual(res["new"], 0)
-        state = self.state("en")
+        state = self.state()
         self.assertEqual(state["groups"], {})  # only the founder was left
         # No headline lost or renamed, and none changed its dates.
         self.assertEqual(set(state["items"]), set(headlines))
         for g, it in headlines.items():
             self.assertEqual((state["items"][g]["first_seen"], state["items"][g]["pub_date"]),
                              (it["first_seen"], it["pub_date"]))
-        feed_items = {i.findtext("guid"): i for i in self.items("en")}
+        feed_items = {i.findtext("guid"): i for i in self.items()}
         self.assertEqual(len(feed_items), 14)
         self.assertEqual(feed_items[g_lock].findtext("title"), LOCKDOWN)  # group guid keeps founder
         self.assertEqual(feed_items[g_lock].findtext("pubDate"), "Fri, 23 Oct 2026 00:00:00 GMT")
@@ -309,21 +269,17 @@ class RegroupStateTest(unittest.TestCase):
         return {"guid": guid, "date": None, "date_source": "first_seen", "title": guid, "sources": [],
                 "group_key": key, "order": order, "pos": order, "link": "https://x/%s" % key}
 
-    def test_group_survives_founder_expiry(self):
+    def test_group_expires_as_a_whole(self):
         state = {"items": {}}
         st.merge(state, [self.item("a")], self.T0)
         st.merge(state, [self.item("a"), self.item("b", order=1)], self.T0 + datetime.timedelta(hours=1))
         self.assertEqual(state["groups"]["a"]["members"], ["a", "b"])
-        pub = state["groups"]["a"]["pub_date"]
-        # "a" leaves the portal and expires; "b" stays: the item keeps guid "a".
-        for days in (1, 100):
-            st.merge(state, [self.item("b", order=1)], self.T0 + datetime.timedelta(days=days), retention_days=90)
-        self.assertNotIn("a", state["items"])
+        # "a" leaves the portal; the group stays while it is recent.
+        st.merge(state, [self.item("b", order=1)], self.T0 + datetime.timedelta(days=29), retention_days=30)
         [unit] = st.latest(state, 10)
-        self.assertEqual((unit["guid"], unit["pub_date"], unit["title"]), ("a", pub, "b"))
-        # Once every member expired the group goes too.
-        st.merge(state, [], self.T0 + datetime.timedelta(days=101), retention_days=90)
-        st.merge(state, [], self.T0 + datetime.timedelta(days=300), retention_days=90)
+        self.assertEqual((unit["guid"], unit["title"]), ("a", "b / a"))  # reverse of the portal order
+        # Once it is older than the limit every headline of the group goes with it.
+        st.merge(state, [self.item("b", order=1)], self.T0 + datetime.timedelta(days=31), retention_days=30)
         self.assertEqual((state["items"], state["groups"]), ({}, {}))
 
     def test_gone_unit_is_not_reopened(self):

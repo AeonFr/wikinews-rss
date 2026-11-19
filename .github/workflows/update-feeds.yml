@@ -2,9 +2,10 @@ name: Actualizar feeds
 
 on:
   schedule:
-    # Una vez al día a las 06:17 UTC (los minutos redondos están más saturados en GitHub).
-    # Si nada cambió en Wikipedia, los archivos quedan idénticos y no hay commit.
-    - cron: "17 6 * * *"
+    # Dos veces al día, a las 06:17 y a las 18:17 UTC (los minutos redondos están más
+    # saturados en GitHub). Si nada cambió en Wikipedia, los archivos quedan idénticos y
+    # no hay commit.
+    - cron: "17 6,18 * * *"
   workflow_dispatch:
 
 permissions:
@@ -38,27 +39,27 @@ jobs:
         env:
           OWNER: ${{ github.repository_owner }}
           REPO: ${{ github.event.repository.name }}
-          # Opcional: variable de repositorio FEEDS_BASE_URL para un dominio propio
-          # (debe apuntar al directorio que contiene es.xml y en.xml).
-          FEEDS_BASE_URL: ${{ vars.FEEDS_BASE_URL }}
+          # Opcional: variable de repositorio SITE_URL para un dominio propio
+          # (la raíz de la web, sin barra final: la que sirve index.html).
+          SITE_URL: ${{ vars.SITE_URL }}
         run: |
           owner="${OWNER,,}"   # los hostnames de Pages van en minúsculas
-          if [ -n "$FEEDS_BASE_URL" ]; then
-            base="$FEEDS_BASE_URL"
+          if [ -n "$SITE_URL" ]; then
+            site="${SITE_URL%/}"
           elif [ "${REPO,,}" = "${owner}.github.io" ]; then
-            base="https://${owner}.github.io/feeds"
+            site="https://${owner}.github.io"
           else
-            base="https://${owner}.github.io/${REPO}/feeds"
+            site="https://${owner}.github.io/${REPO}"
           fi
-          echo "Base URL: $base"
-          # Si un idioma falla, el script escribe los demás y sale con código 1.
-          # No cortamos aquí: primero se hace commit de lo generado y el job
-          # se marca en rojo en el último paso.
+          echo "Site URL: $site"
+          # Si la generación falla, el script sale con código 1. No cortamos aquí:
+          # primero se hace commit de lo que se haya escrito y el job se marca en
+          # rojo en el último paso.
           set +e
           log="$RUNNER_TEMP/generate.log"
-          python3 wikipedia_rss.py --base-url "$base" 2>&1 | tee "$log"
+          python3 wikipedia_rss.py --site-url "$site" 2>&1 | tee "$log"
           echo "exit_code=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
-          # Líneas "ERROR wikipedia_rss: <idioma>: failed: <motivo>" para el paso final.
+          # Línea "ERROR wikipedia_rss: en: failed: <motivo>" para el paso final.
           grep -E '^ERROR wikipedia_rss: [a-z-]+: failed: ' "$log" | sed -E 's/^ERROR wikipedia_rss: //' > "$RUNNER_TEMP/failed.txt" || true
 
       - name: Keepalive
@@ -77,7 +78,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add state feeds
+          git add state feeds data
           if git diff --cached --quiet; then
             echo "Sin cambios"
             exit 0
@@ -97,7 +98,7 @@ jobs:
           echo "::error::No se pudo hacer push tras 5 intentos"
           exit 1
 
-      - name: Fallar si algún idioma falló
+      - name: Fallar si la generación falló
         if: steps.generate.outputs.exit_code != '0'
         env:
           EXIT_CODE: ${{ steps.generate.outputs.exit_code }}
@@ -105,13 +106,8 @@ jobs:
           failed="$RUNNER_TEMP/failed.txt"
           if [ -s "$failed" ]; then
             while IFS= read -r line; do
-              lang="${line%%: failed: *}"
-              reason="${line#*: failed: }"
-              echo "::error title=Falló el idioma ${lang}::${lang}: ${reason}"
+              echo "::error title=Falló la generación::${line#*: failed: }"
             done < "$failed"
-            langs=$(cut -d: -f1 "$failed" | paste -sd ' ' -)
-            echo "::error::wikipedia_rss.py terminó con código ${EXIT_CODE}; idiomas fallidos: ${langs}"
-          else
-            echo "::error::wikipedia_rss.py terminó con código ${EXIT_CODE} sin indicar idioma (revisa el paso 'Generar feeds')"
           fi
+          echo "::error::wikipedia_rss.py terminó con código ${EXIT_CODE} (revisa el paso 'Generar feeds')"
           exit 1

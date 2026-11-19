@@ -1,7 +1,7 @@
-"""Parsers for the two portal layouts.
+"""Parser for the daily pages of the portal.
 
-Both return plain dicts ("raw items") with these keys:
-  text, html (inline HTML for the description), title, date (datetime.date or None),
+It returns plain dicts ("raw items") with these keys:
+  text, html (inline HTML for the description), title, date (datetime.date),
   date_source, category, topics (list of {title, label}), main_title (article or None),
   articles (list of article titles), sources (list of {name, url}), page (wiki page it came from).
 """
@@ -117,28 +117,11 @@ def truncate(text, limit):
 
 # --- dates ----------------------------------------------------------------------
 
-def infer_date(day, month, today):
-    """Date for a 'day month' without year, relative to today.
-
-    Picks the year that puts the date within ~6 months of today (handles the
-    December/January rollover). Returns None for dates in the future.
-    """
-    try:
-        d = datetime.date(today.year, month, day)
-    except ValueError:
-        return None
-    if d > today + datetime.timedelta(days=183):
-        d = d.replace(year=d.year - 1)
-    elif d < today - datetime.timedelta(days=183):
-        d = d.replace(year=d.year + 1)
-    return d if d <= today else None
-
-
 def daily_page_title(cfg, date):
     return cfg.daily_title.format(year=date.year, month=cfg.month_names[date.month - 1], day=date.day)
 
 
-# --- daily_pages (en: Portal:Current events/YYYY Month D, rendered HTML) ---------
+# --- daily pages (Portal:Current events/YYYY Month D, rendered HTML) -------------
 
 def _is_external(a):
     return "external" in a.classes
@@ -258,95 +241,3 @@ def _daily_item(li, text, wiki, sources, topics, category, date, cfg, page_title
         "sources": sources,
         "page": page_title,
     }
-
-
-# --- single_list (es: Plantilla:Portada:Actualidad, wikitext) ---------------------
-
-_LINK = re.compile(r"\[\[([^\[\]|]+)(?:\|([^\[\]]*))?\]\]")
-_TEMPLATE = re.compile(r"\{\{[^{}]*\}\}")
-
-
-def _strip_markup(wikitext):
-    s = re.sub(r"<!--.*?(?:-->|$)", "", wikitext, flags=re.S)
-    s = re.sub(r"<noinclude>.*?</noinclude>", "", s, flags=re.S)
-    s = re.sub(r"</?(?:includeonly|onlyinclude)>", "", s)
-    return s
-
-
-def _render(wikitext, cfg, as_html):
-    """Wikitext fragment to plain text or inline HTML; returns (rendered, link titles)."""
-    titles = []
-    while _TEMPLATE.search(wikitext):
-        wikitext = _TEMPLATE.sub("", wikitext)
-
-    def link(m):
-        target = m.group(1).strip().lstrip(":")
-        label = m.group(2) if m.group(2) is not None else target
-        if target.split(":")[0].strip() in cfg.ignore_namespaces:
-            return ""
-        target = target.split("#")[0].strip()
-        if target:
-            titles.append(target[0].upper() + target[1:])
-        if not as_html:
-            return label
-        return "\0a%s\0%s\0/a\0" % (cfg.url(titles[-1]) if target else "", label)
-
-    out = _LINK.sub(link, wikitext)
-    out = re.sub(r"'{2,}", "", out)
-    out = re.sub(r"<[^>]+>", "", out)
-    out = clean_space(out)
-    if as_html:
-        out = htmllib.escape(out, quote=False)
-        out = re.sub(r"\0a([^\0]*)\0([^\0]*)\0/a\0",
-                     lambda m: '<a href="%s">%s</a>' % (htmllib.escape(m.group(1)), m.group(2)), out)
-    return out, titles
-
-
-def parse_single_list(wikitext, cfg, today):
-    """Items from a bullet list with ';Section' headings and optional 'D de mes:' prefixes."""
-    months = "|".join(cfg.month_names)
-    date_prefix = re.compile(
-        r"^(\d{1,2})(?:\s+de\s+(%s))?\s*(?:[-–]\s*\d{1,2}(?:\s+de\s+(%s))?)?\s*:\s*" % (months, months),
-        re.I)
-    items = []
-    section = None
-    for line in _strip_markup(wikitext).splitlines():
-        line = line.strip()
-        if line.startswith(";"):
-            section, _ = _render(line[1:], cfg, as_html=False)
-            continue
-        if not line.startswith("*") or line.startswith("**") or _skipped(section, cfg.skip_sections):
-            continue
-        body = line.lstrip("*").strip()
-        date = None
-        m = date_prefix.match(body)
-        if m:
-            month = m.group(2) or m.group(3)
-            if month:
-                date = infer_date(int(m.group(1)), cfg.month_names.index(month.lower()) + 1, today)
-            body = body[m.end():]
-        group = None
-        # "Group: A — B — C" bullets list several topics: one item per segment.
-        for seg in re.split(r"\s+—\s+", body):
-            g = re.match(r"^(\[\[[^\]]*\]\]|[^\[\]:]+):\s+", seg)
-            if g:
-                group, _ = _render(g.group(1), cfg, as_html=False)
-                seg = seg[g.end():]
-            text, titles = _render(seg, cfg, as_html=False)
-            if not text:
-                continue
-            html, _ = _render(seg, cfg, as_html=True)
-            items.append({
-                "text": text,
-                "html": html,
-                "title": "%s: %s" % (group, text) if group else text,
-                "date": date,
-                "date_source": "text_date" if date else "first_seen",
-                "category": group,
-                "topics": [],
-                "main_title": titles[0] if titles else None,
-                "articles": titles,
-                "sources": [],
-                "page": cfg.list_page,
-            })
-    return items

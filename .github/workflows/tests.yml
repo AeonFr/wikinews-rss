@@ -5,9 +5,9 @@ name: Tests
 # (Los commits del bot con GITHUB_TOKEN no disparan este workflow.)
 on:
   push:
-    paths-ignore: ["feeds/**", "state/**"]
+    paths-ignore: ["feeds/**", "state/**", "data/**"]
   pull_request:
-    paths-ignore: ["feeds/**", "state/**"]
+    paths-ignore: ["feeds/**", "state/**", "data/**"]
   workflow_dispatch:
 
 permissions:

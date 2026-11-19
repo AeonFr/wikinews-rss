@@ -4,6 +4,7 @@ import xml.etree.ElementTree as ET
 from email.utils import format_datetime
 
 from .config import LICENSE_NAME, LICENSE_URL
+from .site import story_url
 from .state import parse_iso
 
 ATOM = "http://www.w3.org/2005/Atom"
@@ -33,18 +34,16 @@ def _attribution(page, cfg):
 
 
 def item_description(item, cfg):
-    """One headline: text, extract, sources, topics, attribution.
+    """One headline: text, sources, topics, attribution.
 
-    A group lists each headline with its sources (in title order), then the article
-    extract and topics once, and an attribution line per portal page used.
+    A group lists each headline with its sources (in title order), then the topics once,
+    and an attribution line per portal page used.
     """
     s = cfg.strings
     members = item.get("members") or [item]
     if len(members) == 1:
         it = members[0]
         parts = ["<p>%s</p>" % it["html"]]
-        if it.get("extract"):
-            parts.append("<p>%s</p>" % html.escape(it["extract"], quote=False))
         if it.get("sources"):
             parts.append(_sources(it, s))
         parts.append(_topics(it, cfg))
@@ -55,9 +54,6 @@ def item_description(item, cfg):
         parts.append("<p>%s</p>" % it["html"])
         if it.get("sources"):
             parts.append(_sources(it, s))
-    extract = next((it["extract"] for it in members if it.get("extract")), None)
-    if extract:
-        parts.append("<p>%s</p>" % html.escape(extract, quote=False))
     parts.append(next((t for t in (_topics(it, cfg) for it in members) if t), None))
     parts += [_attribution(page, cfg) for page in dict.fromkeys(it["page"] for it in members)]
     return "\n".join(p for p in parts if p)
@@ -72,10 +68,14 @@ def _categories(item):
     return [c for i, c in enumerate(cats) if c and c not in cats[:i]]
 
 
-def build_rss(cfg, items, last_build, base_url=None):
+def build_rss(cfg, items, last_build, site_url=None):
     """last_build: time of the last real change (not the run time), so that an
-    unchanged feed is byte-for-byte identical between runs."""
-    portal_url = cfg.url(cfg.portal)
+    unchanged feed is byte-for-byte identical between runs.
+
+    With site_url (the website's root URL) each item links to its story page there, which
+    lists every headline of the item in full; without it, to the Wikipedia article.
+    """
+    portal_url = site_url or cfg.url(cfg.portal)
     rss = ET.Element("rss", {"version": "2.0"})
     ch = ET.SubElement(rss, "channel")
 
@@ -89,21 +89,21 @@ def build_rss(cfg, items, last_build, base_url=None):
     sub(ch, "link", portal_url)
     sub(ch, "description", "%s %s (%s: %s)" % (
         cfg.strings["description"], cfg.strings["copyright"], cfg.strings["history"],
-        cfg.history_url(cfg.list_page or cfg.portal)))
+        cfg.history_url(cfg.portal)))
     sub(ch, "language", cfg.code)
     sub(ch, "copyright", cfg.strings["copyright"])
     sub(ch, "lastBuildDate", format_datetime(last_build, usegmt=True))
     sub(ch, "generator", "wikipedia-noticias-rss")
     sub(ch, "docs", "https://www.rssboard.org/rss-specification")
     sub(ch, "ttl", "60")
-    if base_url:
-        sub(ch, "{%s}link" % ATOM, href="%s/%s.xml" % (base_url.rstrip("/"), cfg.code),
+    if site_url:
+        sub(ch, "{%s}link" % ATOM, href="%s/feeds/%s.xml" % (site_url.rstrip("/"), cfg.code),
             rel="self", type="application/rss+xml")
 
     for it in items:
         el = sub(ch, "item")
         sub(el, "title", it["title"])
-        sub(el, "link", it["link"])
+        sub(el, "link", story_url(site_url, it["guid"]) if site_url else it["link"])
         sub(el, "description", item_description(it, cfg))
         sub(el, "guid", it["guid"], isPermaLink="false")
         sub(el, "pubDate", format_datetime(parse_iso(it["pub_date"]), usegmt=True))

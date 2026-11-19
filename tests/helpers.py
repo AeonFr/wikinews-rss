@@ -14,14 +14,9 @@ def fixture(name):
 class FakeClient:
     """Offline stand-in for WikiClient serving the fixtures."""
 
-    def __init__(self, day_pages=None, raw_pages=None):
+    def __init__(self, day_pages=None):
         self.day_pages = day_pages or {}
-        self.raw_pages = raw_pages or {}
         self.requests = 0
-
-    def raw(self, title):
-        self.requests += 1
-        return self.raw_pages[title]
 
     def api(self, **params):
         self.requests += 1
