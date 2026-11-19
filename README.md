@@ -2,7 +2,7 @@
 
 Un portal para **explorar las noticias de Wikipedia**, con un feed RSS como alternativa para quien prefiera un lector.
 
-Las noticias salen de [Portal:Current events](https://en.wikipedia.org/wiki/Portal:Current_events) de la Wikipedia en inglés (solo en inglés): un item por cada entrada de las páginas diarias de los últimos 7 días. Un generador en Python (3.9+, solo biblioteca estándar) las recoge dos veces al día y escribe:
+Las noticias salen de [Portal:Current events](https://en.wikipedia.org/wiki/Portal:Current_events) de la Wikipedia en inglés (solo en inglés): un item por cada entrada de las páginas diarias de los últimos 7 días. Un generador en Python (3.12, la versión de los workflows; solo biblioteca estándar) las recoge dos veces al día y escribe:
 
 | Archivo | Qué es |
 | --- | --- |
