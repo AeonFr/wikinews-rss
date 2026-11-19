@@ -1,4 +1,5 @@
 {
+ "grouping": 2,
  "groups": {
   "wikipedia:en:2026-10-21:08547ca9719d": {
    "first_seen": "2026-10-24T09:15:58Z",
@@ -166,19 +167,36 @@
    ],
    "pub_date": "2026-11-11T00:00:00Z"
   },
-  "wikipedia:en:2026-11-15:0f1273cf546a": {
-   "first_seen": "2026-11-15T13:56:51Z",
-   "members": [
-    "wikipedia:en:2026-11-15:0f1273cf546a",
-    "wikipedia:en:2026-11-15:b55605252955"
-   ],
-   "pub_date": "2026-11-15T13:56:51Z"
-  },
-  "wikipedia:en:2026-11-15:1386af59d0bc": {
+  "wikipedia:en:2026-11-15:2e8e81b7b934": {
    "first_seen": "2026-11-16T15:48:48Z",
    "members": [
+    "wikipedia:en:2026-11-15:2e8e81b7b934",
+    "wikipedia:en:2026-11-15:7d6c208d0c5a"
+   ],
+   "pub_date": "2026-11-15T00:00:00Z"
+  },
+  "wikipedia:en:2026-11-15:4a0c16a106e7": {
+   "first_seen": "2026-11-16T15:48:48Z",
+   "members": [
+    "wikipedia:en:2026-11-15:4a0c16a106e7",
     "wikipedia:en:2026-11-15:1386af59d0bc",
     "wikipedia:en:2026-11-15:24d28d5ed92f"
+   ],
+   "pub_date": "2026-11-15T00:00:00Z"
+  },
+  "wikipedia:en:2026-11-15:b55605252955": {
+   "first_seen": "2026-11-16T15:48:48Z",
+   "members": [
+    "wikipedia:en:2026-11-15:b55605252955",
+    "wikipedia:en:2026-11-15:0f1273cf546a"
+   ],
+   "pub_date": "2026-11-15T00:00:00Z"
+  },
+  "wikipedia:en:2026-11-15:e40f2a83a41b": {
+   "first_seen": "2026-11-16T15:48:48Z",
+   "members": [
+    "wikipedia:en:2026-11-15:e40f2a83a41b",
+    "wikipedia:en:2026-11-15:8931448e816f"
    ],
    "pub_date": "2026-11-15T00:00:00Z"
   },
@@ -190,6 +208,14 @@
    ],
    "pub_date": "2026-11-16T00:00:00Z"
   },
+  "wikipedia:en:2026-11-16:6f160c7686c2": {
+   "first_seen": "2026-11-17T16:01:34Z",
+   "members": [
+    "wikipedia:en:2026-11-16:6f160c7686c2",
+    "wikipedia:en:2026-11-16:34b480a874b7"
+   ],
+   "pub_date": "2026-11-16T00:00:00Z"
+  },
   "wikipedia:en:2026-11-16:ecd57fcf05b4": {
    "first_seen": "2026-11-17T16:01:34Z",
    "members": [
@@ -197,6 +223,24 @@
     "wikipedia:en:2026-11-16:b6a24cbad054"
    ],
    "pub_date": "2026-11-16T00:00:00Z"
+  },
+  "wikipedia:en:2026-11-17:8b192a294ace": {
+   "first_seen": "2026-11-18T15:40:56Z",
+   "members": [
+    "wikipedia:en:2026-11-17:8b192a294ace",
+    "wikipedia:en:2026-11-17:73144c734e2d",
+    "wikipedia:en:2026-11-17:c574bda6bb6f",
+    "wikipedia:en:2026-11-17:dc705f30de3b"
+   ],
+   "pub_date": "2026-11-17T00:00:00Z"
+  },
+  "wikipedia:en:2026-11-17:b7ae2088f2ac": {
+   "first_seen": "2026-11-18T15:40:56Z",
+   "members": [
+    "wikipedia:en:2026-11-17:b7ae2088f2ac",
+    "wikipedia:en:2026-11-17:efb4ab697def"
+   ],
+   "pub_date": "2026-11-17T00:00:00Z"
   },
   "wikipedia:en:2026-11-18:0a1c2db4061b": {
    "first_seen": "2026-11-18T15:40:56Z",
@@ -214,6 +258,22 @@
     "wikipedia:en:2026-11-18:92f02d3d70cb"
    ],
    "pub_date": "2026-11-18T00:00:00Z"
+  },
+  "wikipedia:en:2026-11-18:d43e398b7b07": {
+   "first_seen": "2026-11-19T18:58:22Z",
+   "members": [
+    "wikipedia:en:2026-11-18:d43e398b7b07",
+    "wikipedia:en:2026-11-18:646c956335de"
+   ],
+   "pub_date": "2026-11-18T00:00:00Z"
+  },
+  "wikipedia:en:2026-11-19:63cc3f4b4a90": {
+   "first_seen": "2026-11-19T15:46:16Z",
+   "members": [
+    "wikipedia:en:2026-11-19:63cc3f4b4a90",
+    "wikipedia:en:2026-11-19:3e31c0d56cad"
+   ],
+   "pub_date": "2026-11-19T15:46:16Z"
   }
  },
  "items": {
@@ -17770,6 +17830,12 @@
    "topics": [
     {
      "label": "Mexican drug war",
+     "links": [
+      {
+       "text": "Mexican drug war",
+       "title": "Mexican drug war"
+      }
+     ],
      "title": "Mexican drug war"
     }
    ]
@@ -17810,9 +17876,26 @@
    ],
    "text": "The United States Department of State designates three Guatemalan criminal groups as foreign terrorist organizations for providing material support to Mexican cartels.",
    "title": "The United States Department of State designates three Guatemalan criminal groups as foreign terrorist organizations for providing material support to Mexican cartels.",
+   "topic_articles": [
+    {
+     "extract": "The Mexican drug war (Spanish: Guerra contra el narcotráfico en México) is an ongoing asymmetric armed conflict between the Mexican government and various drug trafficking syndicates. When the Mexican military intervened in 2006, the government's main objective was to reduce drug-related violence.",
+     "title": "Mexican drug war",
+     "url": "https://en.wikipedia.org/wiki/Mexican_drug_war"
+    }
+   ],
    "topics": [
     {
      "label": "Guatemala–United States relations, Mexican drug war",
+     "links": [
+      {
+       "text": "Guatemala–United States relations",
+       "title": "Guatemala–United States relations"
+      },
+      {
+       "text": "Mexican drug war",
+       "title": "Mexican drug war"
+      }
+     ],
      "title": "Guatemala–United States relations"
     }
    ]
@@ -17882,6 +17965,12 @@
    "topics": [
     {
      "label": "Qatar–Turkey relations",
+     "links": [
+      {
+       "text": "Qatar–Turkey relations",
+       "title": "Qatar–Turkey relations"
+      }
+     ],
      "title": "Qatar–Turkey relations"
     }
    ]
@@ -17920,8 +18009,8 @@
    "topics": []
   },
   "wikipedia:en:2026-11-13:422dd8b33170": {
-   "article_extract": "After United States and Israel launched the 2026 Iran war, Iran conducted retaliatory missile and drone strikes on Bahrain. These began on 28 February 2026 with strikes on buildings in the capital of Manama, including the district of Juffair, where the US Navy's 5th Fleet is headquartered at Naval…",
-   "article_title": "Bahrain in the 2026 Iran war",
+   "article_extract": "The Middle East is currently experiencing an ongoing series of interrelated wars, conflicts, and heightened instability, triggered by the ongoing Gaza war and the genocide in Gaza. These have primarily consisted of conflicts between Israel and the United States on one side, and Iran and militias…",
+   "article_title": "Middle Eastern crisis (2023–present)",
    "articles": [
     "Middle Eastern crisis (2023–present)",
     "2026 Iran war",
@@ -17938,18 +18027,18 @@
    "date": "2026-11-13",
    "date_source": "page_date",
    "first_seen": "2026-11-13T14:36:31Z",
-   "group_key": "pageid:82555742",
+   "group_key": "pageid:75895273",
    "guid": "wikipedia:en:2026-11-13:422dd8b33170",
    "html": "<a href=\"https://en.wikipedia.org/wiki/Iran\">Iran</a> says it has destroyed an <a href=\"https://en.wikipedia.org/wiki/Early-warning_radar\">early-warning radar</a> in <a href=\"https://en.wikipedia.org/wiki/Bahrain\">Bahrain</a> as a retaliation for a <a href=\"https://en.wikipedia.org/wiki/United_States\">United States</a> strike on <a href=\"https://en.wikipedia.org/wiki/Communications_in_Iran\">telecommunication</a> infrastructure on <a href=\"https://en.wikipedia.org/wiki/Bandar_Sirik\">Bandar Sirik</a> in <a href=\"https://en.wikipedia.org/wiki/Hormozgan_province\">Hormozgan province</a>.",
-   "link": "https://en.wikipedia.org/wiki/Bahrain_in_the_2026_Iran_war",
-   "main_title": "Bahrain in the 2026 Iran war",
+   "link": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)",
+   "main_title": "Middle Eastern crisis (2023–present)",
    "order": 106,
    "page": "Portal:Current events/2026 November 13",
    "page_date": "2026-11-13",
-   "pageid": 82555742,
+   "pageid": 75895273,
    "pos": 0,
    "pub_date": "2026-11-13T14:36:31Z",
-   "qid": "Q138531790",
+   "qid": "Q124373310",
    "sources": [
     {
      "name": "Türkiye Today",
@@ -17958,17 +18047,47 @@
    ],
    "text": "Iran says it has destroyed an early-warning radar in Bahrain as a retaliation for a United States strike on telecommunication infrastructure on Bandar Sirik in Hormozgan province.",
    "title": "Iran says it has destroyed an early-warning radar in Bahrain as a retaliation for a United States strike on telecommunication infrastructure on Bandar Sirik in Hormozgan province.",
+   "topic_articles": [
+    {
+     "extract": "Since 28 February 2026, the United States and Israel have been at war with Iran and its regional allies, following the Twelve-Day War in June 2025 and sporadic fighting during the Middle Eastern crisis sparked by the Gaza war, which began in 2023. Amid ongoing US–Iran negotiations regarding Iran's…",
+     "title": "2026 Iran war",
+     "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
+    },
+    {
+     "extract": "After United States and Israel launched the 2026 Iran war, Iran conducted retaliatory missile and drone strikes on Bahrain. These began on 28 February 2026 with strikes on buildings in the capital of Manama, including the district of Juffair, where the US Navy's 5th Fleet is headquartered at Naval…",
+     "title": "Bahrain in the 2026 Iran war",
+     "url": "https://en.wikipedia.org/wiki/Bahrain_in_the_2026_Iran_war"
+    }
+   ],
    "topics": [
     {
      "label": "Middle Eastern crisis",
+     "links": [
+      {
+       "text": "Middle Eastern crisis",
+       "title": "Middle Eastern crisis (2023–present)"
+      }
+     ],
      "title": "Middle Eastern crisis (2023–present)"
     },
     {
      "label": "2026 Iran war",
+     "links": [
+      {
+       "text": "2026 Iran war",
+       "title": "2026 Iran war"
+      }
+     ],
      "title": "2026 Iran war"
     },
     {
      "label": "2026 Iranian strikes on Bahrain",
+     "links": [
+      {
+       "text": "2026 Iranian strikes on Bahrain",
+       "title": "Bahrain in the 2026 Iran war"
+      }
+     ],
      "title": "Bahrain in the 2026 Iran war"
     }
    ]
@@ -18054,6 +18173,12 @@
    "topics": [
     {
      "label": "2026 FAA nationwide ground stop",
+     "links": [
+      {
+       "text": "2026 FAA nationwide ground stop",
+       "title": "2026 FAA nationwide ground stop"
+      }
+     ],
      "title": "2026 FAA nationwide ground stop"
     }
    ]
@@ -18105,6 +18230,12 @@
    "topics": [
     {
      "label": "Corruption in Hungary",
+     "links": [
+      {
+       "text": "Corruption in Hungary",
+       "title": "Corruption in Hungary"
+      }
+     ],
      "title": "Corruption in Hungary"
     }
    ]
@@ -18149,6 +18280,12 @@
    "topics": [
     {
      "label": "2026 New Orleans ship collision",
+     "links": [
+      {
+       "text": "2026 New Orleans ship collision",
+       "title": "2026 New Orleans ship collision"
+      }
+     ],
      "title": "2026 New Orleans ship collision"
     }
    ]
@@ -18192,6 +18329,12 @@
    "topics": [
     {
      "label": "2026–27 Segunda División",
+     "links": [
+      {
+       "text": "2026–27 Segunda División",
+       "title": "2026–27 Segunda División"
+      }
+     ],
      "title": "2026–27 Segunda División"
     }
    ]
@@ -18237,6 +18380,12 @@
    "topics": [
     {
      "label": "2026 Bangladesh garment workers protests",
+     "links": [
+      {
+       "text": "2026 Bangladesh garment workers protests",
+       "title": "2026 Bangladesh garment workers protests"
+      }
+     ],
      "title": "2026 Bangladesh garment workers protests"
     }
    ]
@@ -18276,6 +18425,12 @@
    "topics": [
     {
      "label": "Crime in Panama",
+     "links": [
+      {
+       "text": "Crime in Panama",
+       "title": "Crime in Panama"
+      }
+     ],
      "title": "Crime in Panama"
     }
    ]
@@ -18407,9 +18562,26 @@
    ],
    "text": "The Mexican government introduces penalties and fines for the fraudulent commercial use of government logos, official documents, and institutional identities to deceive the public. Although the government stated that the reform targeted fraud and impersonation rather than satire, critics warned that its broad wording could threaten freedom of expression, being dubbed the \"Anti-Meme Law\".",
    "title": "The Mexican government introduces penalties and fines for the fraudulent commercial use of government logos, official documents, and institutional identities to deceive the public.",
+   "topic_articles": [
+    {
+     "extract": "As of 2023 Mexico has approximately 97 million Internet users representing 70.1% of the population. The country ranks 8 in number of Internet users in the world.",
+     "title": "Internet in Mexico",
+     "url": "https://en.wikipedia.org/wiki/Internet_in_Mexico"
+    }
+   ],
    "topics": [
     {
      "label": "Censorship in Mexico, Internet censorship in Mexico",
+     "links": [
+      {
+       "text": "Censorship in Mexico",
+       "title": "Censorship in Mexico"
+      },
+      {
+       "text": "Internet censorship in Mexico",
+       "title": "Internet in Mexico"
+      }
+     ],
      "title": "Censorship in Mexico"
     }
    ]
@@ -18454,6 +18626,12 @@
    "topics": [
     {
      "label": "Crime in Bangladesh",
+     "links": [
+      {
+       "text": "Crime in Bangladesh",
+       "title": "Crime in Bangladesh"
+      }
+     ],
      "title": "Crime in Bangladesh"
     }
    ]
@@ -18524,9 +18702,26 @@
    ],
    "text": "Canadian prime minister Mark Carney announces that negotiations for a free-trade agreement with the Philippines to eliminate more than 90% of tariff lines have concluded, with signing expected in 2027.",
    "title": "Canadian prime minister Mark Carney announces that negotiations for a free-trade agreement with the Philippines to eliminate more than 90% of tariff lines have concluded, with signing expected in…",
+   "topic_articles": [
+    {
+     "extract": "The free trade agreements of Canada represents Canada's cooperation in multinational trade pacts and plays a large role in the Canadian economy. Canada is regularly described as a trading nation, considering its total trade is worth more than two-thirds of its GDP (the second highest level in the…",
+     "title": "Free trade agreements of Canada",
+     "url": "https://en.wikipedia.org/wiki/Free_trade_agreements_of_Canada"
+    }
+   ],
    "topics": [
     {
      "label": "Canada–Philippines relations, Free trade agreements of Canada",
+     "links": [
+      {
+       "text": "Canada–Philippines relations",
+       "title": "Canada–Philippines relations"
+      },
+      {
+       "text": "Free trade agreements of Canada",
+       "title": "Free trade agreements of Canada"
+      }
+     ],
      "title": "Canada–Philippines relations"
     }
    ]
@@ -18571,6 +18766,12 @@
    "topics": [
     {
      "label": "Crime in Guatemala",
+     "links": [
+      {
+       "text": "Crime in Guatemala",
+       "title": "Crime in Guatemala"
+      }
+     ],
      "title": "Crime in Guatemala"
     }
    ]
@@ -18615,8 +18816,8 @@
    "topics": []
   },
   "wikipedia:en:2026-11-14:a86812f36dae": {
-   "article_extract": "Demonstrations and protests against poor economic and school conditions by workers and lycée (high school) students have taken place in France since September 2026. In early October, the protests developed into a nationwide mobilization involving students, teachers, parents, political…",
-   "article_title": "2026 French civil unrest",
+   "article_extract": "Since July 2026, mass protest movements arose across Europe. Major demonstrations were held across Albania, Belgium, Czechia, France, Germany, Georgia, Greece, Ireland, Italy, Poland, Portugal, Serbia, Spain and Ukraine, with minor demonstrations and strikes occuring in other countries.",
+   "article_title": "2026 European unrest",
    "articles": [
     "2026 European unrest",
     "2026 French civil unrest",
@@ -18628,18 +18829,18 @@
    "date": "2026-11-14",
    "date_source": "page_date",
    "first_seen": "2026-11-15T13:56:51Z",
-   "group_key": "pageid:84387916",
+   "group_key": "pageid:84556593",
    "guid": "wikipedia:en:2026-11-14:a86812f36dae",
    "html": "<a href=\"https://en.wikipedia.org/wiki/Education_in_France\">Student</a> protesters, unions, and the <a href=\"https://en.wikipedia.org/wiki/Yellow_vests_movement\">yellow vests</a> hold another nationwide protest in <a href=\"https://en.wikipedia.org/wiki/France\">France</a>, with over 100,000 participants.",
-   "link": "https://en.wikipedia.org/wiki/2026_French_civil_unrest",
-   "main_title": "2026 French civil unrest",
+   "link": "https://en.wikipedia.org/wiki/2026_European_unrest",
+   "main_title": "2026 European unrest",
    "order": 103,
    "page": "Portal:Current events/2026 November 14",
    "page_date": "2026-11-14",
-   "pageid": 84387916,
+   "pageid": 84556593,
    "pos": 13,
    "pub_date": "2026-11-14T00:00:00Z",
-   "qid": "Q141615137",
+   "qid": "Q141774890",
    "sources": [
     {
      "name": "France 24",
@@ -18652,20 +18853,39 @@
    ],
    "text": "Student protesters, unions, and the yellow vests hold another nationwide protest in France, with over 100,000 participants.",
    "title": "Student protesters, unions, and the yellow vests hold another nationwide protest in France, with over 100,000 participants.",
+   "topic_articles": [
+    {
+     "extract": "Demonstrations and protests against poor economic and school conditions by workers and lycée (high school) students have taken place in France since September 2026. In early October, the protests developed into a nationwide mobilization involving students, teachers, parents, political…",
+     "title": "2026 French civil unrest",
+     "url": "https://en.wikipedia.org/wiki/2026_French_civil_unrest"
+    }
+   ],
    "topics": [
     {
      "label": "2026 European unrest",
+     "links": [
+      {
+       "text": "2026 European unrest",
+       "title": "2026 European unrest"
+      }
+     ],
      "title": "2026 European unrest"
     },
     {
      "label": "2026 French civil unrest",
+     "links": [
+      {
+       "text": "2026 French civil unrest",
+       "title": "2026 French civil unrest"
+      }
+     ],
      "title": "2026 French civil unrest"
     }
    ]
   },
   "wikipedia:en:2026-11-14:ab66df18f4b8": {
-   "article_extract": "The Darfur campaign, also known as the Darfur offensive, is a theatre of operation in the war in Sudan that affects five states in Darfur: South Darfur, East Darfur, North Darfur, Central Darfur and West Darfur. The offensive mainly started on 15 April 2023 in West Darfur where the Rapid Support…",
-   "article_title": "Darfur campaign (2023–present)",
+   "article_extract": "Since April 2023, there has been a civil war in Sudan between the two main factions of the country's military government. The conflict involves the internationally recognized government of Sudan led by the Sudanese Armed Forces (SAF), under General Abdel Fattah al-Burhan; against the rival…",
+   "article_title": "Sudanese civil war (2023–present)",
    "articles": [
     "Sudanese civil war (2023–present)",
     "Darfur campaign (2023–present)",
@@ -18679,18 +18899,18 @@
    "date": "2026-11-14",
    "date_source": "page_date",
    "first_seen": "2026-11-15T13:56:51Z",
-   "group_key": "pageid:73710427",
+   "group_key": "pageid:73556699",
    "guid": "wikipedia:en:2026-11-14:ab66df18f4b8",
    "html": "Ahmed Abdallah Bishr, the general chief of staff for the Gathering of Sudan Liberation Forces (GSLF), dies from wounds suffered a month ago during an <a href=\"https://en.wikipedia.org/wiki/Assassination\">assassination</a> attack by <a href=\"https://en.wikipedia.org/wiki/Drone_warfare\">drone strike</a> against his home in <a href=\"https://en.wikipedia.org/wiki/Nyala,_Sudan\">Nyala</a>, <a href=\"https://en.wikipedia.org/wiki/South_Darfur\">South Darfur</a>, <a href=\"https://en.wikipedia.org/wiki/Sudan\">Sudan</a>.",
-   "link": "https://en.wikipedia.org/wiki/Darfur_campaign_(2023%E2%80%93present)",
-   "main_title": "Darfur campaign (2023–present)",
+   "link": "https://en.wikipedia.org/wiki/Sudanese_civil_war_(2023%E2%80%93present)",
+   "main_title": "Sudanese civil war (2023–present)",
    "order": 91,
    "page": "Portal:Current events/2026 November 14",
    "page_date": "2026-11-14",
-   "pageid": 73710427,
+   "pageid": 73556699,
    "pos": 1,
    "pub_date": "2026-11-14T00:00:00Z",
-   "qid": "Q118136370",
+   "qid": "Q117716414",
    "sources": [
     {
      "name": "Sudan Tribune",
@@ -18699,13 +18919,32 @@
    ],
    "text": "Ahmed Abdallah Bishr, the general chief of staff for the Gathering of Sudan Liberation Forces (GSLF), dies from wounds suffered a month ago during an assassination attack by drone strike against his home in Nyala, South Darfur, Sudan.",
    "title": "Ahmed Abdallah Bishr, the general chief of staff for the Gathering of Sudan Liberation Forces (GSLF), dies from wounds suffered a month ago during an assassination attack by drone strike against his…",
+   "topic_articles": [
+    {
+     "extract": "The Darfur campaign, also known as the Darfur offensive, is a theatre of operation in the war in Sudan that affects five states in Darfur: South Darfur, East Darfur, North Darfur, Central Darfur and West Darfur. The offensive mainly started on 15 April 2023 in West Darfur where the Rapid Support…",
+     "title": "Darfur campaign (2023–present)",
+     "url": "https://en.wikipedia.org/wiki/Darfur_campaign_(2023%E2%80%93present)"
+    }
+   ],
    "topics": [
     {
      "label": "Sudanese civil war",
+     "links": [
+      {
+       "text": "Sudanese civil war",
+       "title": "Sudanese civil war (2023–present)"
+      }
+     ],
      "title": "Sudanese civil war (2023–present)"
     },
     {
      "label": "Darfur campaign",
+     "links": [
+      {
+       "text": "Darfur campaign",
+       "title": "Darfur campaign (2023–present)"
+      }
+     ],
      "title": "Darfur campaign (2023–present)"
     }
    ]
@@ -18751,6 +18990,12 @@
    "topics": [
     {
      "label": "2027 South Sudanese general election",
+     "links": [
+      {
+       "text": "2027 South Sudanese general election",
+       "title": "2027 South Sudanese general election"
+      }
+     ],
      "title": "2027 South Sudanese general election"
     }
    ]
@@ -18798,13 +19043,19 @@
    "topics": [
     {
      "label": "Eurovision Song Contest Asia",
+     "links": [
+      {
+       "text": "Eurovision Song Contest Asia",
+       "title": "Eurovision Song Contest Asia"
+      }
+     ],
      "title": "Eurovision Song Contest Asia"
     }
    ]
   },
   "wikipedia:en:2026-11-14:ddfff1a0195c": {
-   "article_extract": "After United States and Israel launched the 2026 Iran war, Iran conducted retaliatory missile and drone strikes on Bahrain. These began on 28 February 2026 with strikes on buildings in the capital of Manama, including the district of Juffair, where the US Navy's 5th Fleet is headquartered at Naval…",
-   "article_title": "Bahrain in the 2026 Iran war",
+   "article_extract": "Since 28 February 2026, the United States and Israel have been at war with Iran and its regional allies, following the Twelve-Day War in June 2025 and sporadic fighting during the Middle Eastern crisis sparked by the Gaza war, which began in 2023. Amid ongoing US–Iran negotiations regarding Iran's…",
+   "article_title": "2026 Iran war",
    "articles": [
     "2026 Iran war",
     "Bahrain in the 2026 Iran war",
@@ -18817,18 +19068,18 @@
    "date": "2026-11-14",
    "date_source": "page_date",
    "first_seen": "2026-11-15T13:56:51Z",
-   "group_key": "pageid:82555742",
+   "group_key": "pageid:82533582",
    "guid": "wikipedia:en:2026-11-14:ddfff1a0195c",
    "html": "The <a href=\"https://en.wikipedia.org/wiki/Iran\">Iranian</a> <a href=\"https://en.wikipedia.org/wiki/Islamic_Revolutionary_Guard_Corps\">military</a> attacks an <a href=\"https://en.wikipedia.org/wiki/United_States_Armed_Forces\">American</a> military facility in <a href=\"https://en.wikipedia.org/wiki/Bahrain\">Bahrain</a> with drones and missiles in one of the largest attacks on the country in months.",
-   "link": "https://en.wikipedia.org/wiki/Bahrain_in_the_2026_Iran_war",
-   "main_title": "Bahrain in the 2026 Iran war",
+   "link": "https://en.wikipedia.org/wiki/2026_Iran_war",
+   "main_title": "2026 Iran war",
    "order": 90,
    "page": "Portal:Current events/2026 November 14",
    "page_date": "2026-11-14",
-   "pageid": 82555742,
+   "pageid": 82533582,
    "pos": 0,
    "pub_date": "2026-11-14T00:00:00Z",
-   "qid": "Q138531790",
+   "qid": "Q138503695",
    "sources": [
     {
      "name": "The National News",
@@ -18837,13 +19088,32 @@
    ],
    "text": "The Iranian military attacks an American military facility in Bahrain with drones and missiles in one of the largest attacks on the country in months.",
    "title": "The Iranian military attacks an American military facility in Bahrain with drones and missiles in one of the largest attacks on the country in months.",
+   "topic_articles": [
+    {
+     "extract": "After United States and Israel launched the 2026 Iran war, Iran conducted retaliatory missile and drone strikes on Bahrain. These began on 28 February 2026 with strikes on buildings in the capital of Manama, including the district of Juffair, where the US Navy's 5th Fleet is headquartered at Naval…",
+     "title": "Bahrain in the 2026 Iran war",
+     "url": "https://en.wikipedia.org/wiki/Bahrain_in_the_2026_Iran_war"
+    }
+   ],
    "topics": [
     {
      "label": "2026 Iran war",
+     "links": [
+      {
+       "text": "2026 Iran war",
+       "title": "2026 Iran war"
+      }
+     ],
      "title": "2026 Iran war"
     },
     {
      "label": "Bahrain in the 2026 Iran war",
+     "links": [
+      {
+       "text": "Bahrain in the 2026 Iran war",
+       "title": "Bahrain in the 2026 Iran war"
+      }
+     ],
      "title": "Bahrain in the 2026 Iran war"
     }
    ]
@@ -18887,13 +19157,19 @@
    "topics": [
     {
      "label": "2026 Cape Verdean presidential election",
+     "links": [
+      {
+       "text": "2026 Cape Verdean presidential election",
+       "title": "2026 Cape Verdean presidential election"
+      }
+     ],
      "title": "2026 Cape Verdean presidential election"
     }
    ]
   },
   "wikipedia:en:2026-11-15:1386af59d0bc": {
-   "article_extract": "The Gaza war is an armed conflict in the Gaza Strip and Israel, fought as part of the unresolved Israeli–Palestinian and Gaza–Israel conflicts. The war began on 7 October 2023, when Palestinian militant group Hamas led an attack on Israel, in which 1,195 Israelis and foreign nationals were killed…",
-   "article_title": "Gaza war",
+   "article_extract": "The Middle East is currently experiencing an ongoing series of interrelated wars, conflicts, and heightened instability, triggered by the ongoing Gaza war and the genocide in Gaza. These have primarily consisted of conflicts between Israel and the United States on one side, and Iran and militias…",
+   "article_title": "Middle Eastern crisis (2023–present)",
    "articles": [
     "Middle Eastern crisis (2023–present)",
     "Gaza war",
@@ -18908,18 +19184,18 @@
    "date": "2026-11-15",
    "date_source": "page_date",
    "first_seen": "2026-11-16T15:48:48Z",
-   "group_key": "pageid:74998519",
+   "group_key": "pageid:75895273",
    "guid": "wikipedia:en:2026-11-15:1386af59d0bc",
    "html": "Three <a href=\"https://en.wikipedia.org/wiki/Palestinians\">Palestinians</a> are killed and others are injured in <a href=\"https://en.wikipedia.org/wiki/Shell_(projectile)\">shelling</a> and shooting attacks by <a href=\"https://en.wikipedia.org/wiki/Israel\">Israeli</a> <a href=\"https://en.wikipedia.org/wiki/Israel_Defense_Forces\">troops</a> in various areas of the <a href=\"https://en.wikipedia.org/wiki/Gaza_Strip\">Gaza Strip</a>, in a continuation of the violation of <a href=\"https://en.wikipedia.org/wiki/Gaza_peace_plan\">the ceasefire agreement</a> signed in October 2025.",
-   "link": "https://en.wikipedia.org/wiki/Gaza_war",
-   "main_title": "Gaza war",
+   "link": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)",
+   "main_title": "Middle Eastern crisis (2023–present)",
    "order": 66,
    "page": "Portal:Current events/2026 November 15",
    "page_date": "2026-11-15",
-   "pageid": 74998519,
+   "pageid": 75895273,
    "pos": 2,
    "pub_date": "2026-11-15T00:00:00Z",
-   "qid": "Q122962941",
+   "qid": "Q124373310",
    "sources": [
     {
      "name": "AA",
@@ -18928,20 +19204,39 @@
    ],
    "text": "Three Palestinians are killed and others are injured in shelling and shooting attacks by Israeli troops in various areas of the Gaza Strip, in a continuation of the violation of the ceasefire agreement signed in October 2025.",
    "title": "Three Palestinians are killed and others are injured in shelling and shooting attacks by Israeli troops in various areas of the Gaza Strip, in a continuation of the violation of the ceasefire…",
+   "topic_articles": [
+    {
+     "extract": "The Gaza war is an armed conflict in the Gaza Strip and Israel, fought as part of the unresolved Israeli–Palestinian and Gaza–Israel conflicts. The war began on 7 October 2023, when Palestinian militant group Hamas led an attack on Israel, in which 1,195 Israelis and foreign nationals were killed…",
+     "title": "Gaza war",
+     "url": "https://en.wikipedia.org/wiki/Gaza_war"
+    }
+   ],
    "topics": [
     {
      "label": "Middle Eastern crisis",
+     "links": [
+      {
+       "text": "Middle Eastern crisis",
+       "title": "Middle Eastern crisis (2023–present)"
+      }
+     ],
      "title": "Middle Eastern crisis (2023–present)"
     },
     {
      "label": "Gaza war",
+     "links": [
+      {
+       "text": "Gaza war",
+       "title": "Gaza war"
+      }
+     ],
      "title": "Gaza war"
     }
    ]
   },
   "wikipedia:en:2026-11-15:24d28d5ed92f": {
-   "article_extract": "The Gaza war is an armed conflict in the Gaza Strip and Israel, fought as part of the unresolved Israeli–Palestinian and Gaza–Israel conflicts. The war began on 7 October 2023, when Palestinian militant group Hamas led an attack on Israel, in which 1,195 Israelis and foreign nationals were killed…",
-   "article_title": "Gaza war",
+   "article_extract": "The Middle East is currently experiencing an ongoing series of interrelated wars, conflicts, and heightened instability, triggered by the ongoing Gaza war and the genocide in Gaza. These have primarily consisted of conflicts between Israel and the United States on one side, and Iran and militias…",
+   "article_title": "Middle Eastern crisis (2023–present)",
    "articles": [
     "Middle Eastern crisis (2023–present)",
     "Gaza war",
@@ -18956,18 +19251,18 @@
    "date": "2026-11-15",
    "date_source": "page_date",
    "first_seen": "2026-11-17T16:01:34Z",
-   "group_key": "pageid:74998519",
+   "group_key": "pageid:75895273",
    "guid": "wikipedia:en:2026-11-15:24d28d5ed92f",
    "html": "<a href=\"https://en.wikipedia.org/wiki/Israel_Defense_Forces\">Israeli military</a> says that <a href=\"https://en.wikipedia.org/wiki/Al-Qassam_Brigades\">Al-Qassam Brigades</a> commander Samir Abu Younis of the Rafah brigade, who helped plan and oversaw the <a href=\"https://en.wikipedia.org/wiki/October_7_attacks\">October 7 attacks</a> on <a href=\"https://en.wikipedia.org/wiki/Israel\">Israel</a>, was killed in a airstrike in the southern area of <a href=\"https://en.wikipedia.org/wiki/Gaza_Strip\">Gaza Strip</a>, with <a href=\"https://en.wikipedia.org/wiki/Hamas\">Hamas</a> confirming his death and plans for a funeral.",
-   "link": "https://en.wikipedia.org/wiki/Gaza_war",
-   "main_title": "Gaza war",
+   "link": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)",
+   "main_title": "Middle Eastern crisis (2023–present)",
    "order": 65,
    "page": "Portal:Current events/2026 November 15",
    "page_date": "2026-11-15",
-   "pageid": 74998519,
+   "pageid": 75895273,
    "pos": 1,
    "pub_date": "2026-11-15T00:00:00Z",
-   "qid": "Q122962941",
+   "qid": "Q124373310",
    "sources": [
     {
      "name": "Middle East Eye",
@@ -18976,20 +19271,39 @@
    ],
    "text": "Israeli military says that Al-Qassam Brigades commander Samir Abu Younis of the Rafah brigade, who helped plan and oversaw the October 7 attacks on Israel, was killed in a airstrike in the southern area of Gaza Strip, with Hamas confirming his death and plans for a funeral.",
    "title": "Israeli military says that Al-Qassam Brigades commander Samir Abu Younis of the Rafah brigade, who helped plan and oversaw the October 7 attacks on Israel, was killed in a airstrike in the southern…",
+   "topic_articles": [
+    {
+     "extract": "The Gaza war is an armed conflict in the Gaza Strip and Israel, fought as part of the unresolved Israeli–Palestinian and Gaza–Israel conflicts. The war began on 7 October 2023, when Palestinian militant group Hamas led an attack on Israel, in which 1,195 Israelis and foreign nationals were killed…",
+     "title": "Gaza war",
+     "url": "https://en.wikipedia.org/wiki/Gaza_war"
+    }
+   ],
    "topics": [
     {
      "label": "Middle Eastern crisis",
+     "links": [
+      {
+       "text": "Middle Eastern crisis",
+       "title": "Middle Eastern crisis (2023–present)"
+      }
+     ],
      "title": "Middle Eastern crisis (2023–present)"
     },
     {
      "label": "Gaza war",
+     "links": [
+      {
+       "text": "Gaza war",
+       "title": "Gaza war"
+      }
+     ],
      "title": "Gaza war"
     }
    ]
   },
   "wikipedia:en:2026-11-15:2e8e81b7b934": {
-   "article_extract": "Kateřina Siniaková and Taylor Townsend defeated Sara Errani and Jasmine Paolini in the final, 6–4, 6–3 to win the doubles tennis title at the 2026 WTA Finals. It was the second WTA Finals title for Siniaková (after previously winning in 2021 with Barbora Krejčíková), and the first for Townsend.",
-   "article_title": "2026 WTA Finals – Doubles",
+   "article_extract": "The 2026 WTA Finals (officially the Fage WTA Finals Indian Wells for sponsorship purposes) was a professional women's year-end championship tennis tournament that was run from November 8 – 15, 2026 by the Women's Tennis Association (WTA). It was played in Indian Wells, United States and was the…",
+   "article_title": "2026 WTA Finals",
    "articles": [
     "2026 WTA Finals",
     "2026 WTA Finals – Doubles",
@@ -19005,18 +19319,18 @@
    "date": "2026-11-15",
    "date_source": "page_date",
    "first_seen": "2026-11-16T15:48:48Z",
-   "group_key": "pageid:84669035",
+   "group_key": "pageid:82165064",
    "guid": "wikipedia:en:2026-11-15:2e8e81b7b934",
    "html": "In <a href=\"https://en.wikipedia.org/wiki/Tennis\">tennis</a>, <a href=\"https://en.wikipedia.org/wiki/Kate%C5%99ina_Siniakov%C3%A1\">Kateřina Siniaková</a> and <a href=\"https://en.wikipedia.org/wiki/Taylor_Townsend\">Taylor Townsend</a> win their second and first <a href=\"https://en.wikipedia.org/wiki/WTA_Finals\">WTA Finals</a> <a href=\"https://en.wikipedia.org/wiki/Doubles_(tennis)\">doubles</a> titles, respectively, after defeating <a href=\"https://en.wikipedia.org/wiki/Sara_Errani\">Sara Errani</a> and <a href=\"https://en.wikipedia.org/wiki/Jasmine_Paolini\">Jasmine Paolini</a> in the final, 6–4, 6–3.",
-   "link": "https://en.wikipedia.org/wiki/2026_WTA_Finals_%E2%80%93_Doubles",
-   "main_title": "2026 WTA Finals – Doubles",
+   "link": "https://en.wikipedia.org/wiki/2026_WTA_Finals",
+   "main_title": "2026 WTA Finals",
    "order": 84,
    "page": "Portal:Current events/2026 November 15",
    "page_date": "2026-11-15",
-   "pageid": 84669035,
+   "pageid": 82165064,
    "pos": 20,
    "pub_date": "2026-11-15T00:00:00Z",
-   "qid": "Q141973445",
+   "qid": "Q137595526",
    "sources": [
     {
      "name": "The Desert Sun",
@@ -19025,13 +19339,32 @@
    ],
    "text": "In tennis, Kateřina Siniaková and Taylor Townsend win their second and first WTA Finals doubles titles, respectively, after defeating Sara Errani and Jasmine Paolini in the final, 6–4, 6–3.",
    "title": "In tennis, Kateřina Siniaková and Taylor Townsend win their second and first WTA Finals doubles titles, respectively, after defeating Sara Errani and Jasmine Paolini in the final, 6–4, 6–3.",
+   "topic_articles": [
+    {
+     "extract": "Kateřina Siniaková and Taylor Townsend defeated Sara Errani and Jasmine Paolini in the final, 6–4, 6–3 to win the doubles tennis title at the 2026 WTA Finals. It was the second WTA Finals title for Siniaková (after previously winning in 2021 with Barbora Krejčíková), and the first for Townsend.",
+     "title": "2026 WTA Finals – Doubles",
+     "url": "https://en.wikipedia.org/wiki/2026_WTA_Finals_%E2%80%93_Doubles"
+    }
+   ],
    "topics": [
     {
      "label": "2026 WTA Finals",
+     "links": [
+      {
+       "text": "2026 WTA Finals",
+       "title": "2026 WTA Finals"
+      }
+     ],
      "title": "2026 WTA Finals"
     },
     {
      "label": "2026 WTA Finals – Doubles",
+     "links": [
+      {
+       "text": "2026 WTA Finals – Doubles",
+       "title": "2026 WTA Finals – Doubles"
+      }
+     ],
      "title": "2026 WTA Finals – Doubles"
     }
    ]
@@ -19081,6 +19414,12 @@
    "topics": [
     {
      "label": "2026 Bangladesh garment workers protests",
+     "links": [
+      {
+       "text": "2026 Bangladesh garment workers protests",
+       "title": "2026 Bangladesh garment workers protests"
+      }
+     ],
      "title": "2026 Bangladesh garment workers protests"
     }
    ]
@@ -19129,6 +19468,12 @@
    "topics": [
     {
      "label": "2026 Gagauz general election",
+     "links": [
+      {
+       "text": "2026 Gagauz general election",
+       "title": "2026 Gagauz general election"
+      }
+     ],
      "title": "2026 Gagauz general election"
     }
    ]
@@ -19170,13 +19515,19 @@
    "topics": [
     {
      "label": "Somali Civil War",
+     "links": [
+      {
+       "text": "Somali Civil War",
+       "title": "Somali Civil War (2009–present)"
+      }
+     ],
      "title": "Somali Civil War (2009–present)"
     }
    ]
   },
   "wikipedia:en:2026-11-15:4a0c16a106e7": {
-   "article_extract": "Shipping traffic through the Strait of Hormuz, a major maritime choke point for world energy trade, has been largely blocked by Iran since 28 February 2026, when the United States and Israel launched an air war against Iran. In retaliation, the Iranian Revolutionary Guard Corps (IRGC) issued…",
-   "article_title": "2026 Strait of Hormuz crisis",
+   "article_extract": "The Middle East is currently experiencing an ongoing series of interrelated wars, conflicts, and heightened instability, triggered by the ongoing Gaza war and the genocide in Gaza. These have primarily consisted of conflicts between Israel and the United States on one side, and Iran and militias…",
+   "article_title": "Middle Eastern crisis (2023–present)",
    "articles": [
     "Middle Eastern crisis (2023–present)",
     "2026 Iran war",
@@ -19193,18 +19544,18 @@
    "date": "2026-11-15",
    "date_source": "page_date",
    "first_seen": "2026-11-16T15:48:48Z",
-   "group_key": "pageid:82550763",
+   "group_key": "pageid:75895273",
    "guid": "wikipedia:en:2026-11-15:4a0c16a106e7",
    "html": "<a href=\"https://en.wikipedia.org/wiki/Iran\">Iran</a>'s <a href=\"https://en.wikipedia.org/wiki/Islamic_Revolutionary_Guard_Corps\">Islamic Revolutionary Guard Corps</a> says that a <a href=\"https://en.wikipedia.org/wiki/Oil_tanker#The_supertanker_era\">supertanker</a> carrying two million <a href=\"https://en.wikipedia.org/wiki/Barrel_(unit)#Oil_barrel\">barrels of oil</a> has sunk in the <a href=\"https://en.wikipedia.org/wiki/Strait_of_Hormuz\">Strait of Hormuz</a> after striking a <a href=\"https://en.wikipedia.org/wiki/Naval_mine\">naval mine</a>.",
-   "link": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis",
-   "main_title": "2026 Strait of Hormuz crisis",
+   "link": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)",
+   "main_title": "Middle Eastern crisis (2023–present)",
    "order": 64,
    "page": "Portal:Current events/2026 November 15",
    "page_date": "2026-11-15",
-   "pageid": 82550763,
+   "pageid": 75895273,
    "pos": 0,
    "pub_date": "2026-11-15T00:00:00Z",
-   "qid": "Q138521100",
+   "qid": "Q124373310",
    "sources": [
     {
      "name": "AFP via Arab News",
@@ -19213,17 +19564,56 @@
    ],
    "text": "Iran's Islamic Revolutionary Guard Corps says that a supertanker carrying two million barrels of oil has sunk in the Strait of Hormuz after striking a naval mine.",
    "title": "Iran's Islamic Revolutionary Guard Corps says that a supertanker carrying two million barrels of oil has sunk in the Strait of Hormuz after striking a naval mine.",
+   "topic_articles": [
+    {
+     "extract": "Since 28 February 2026, the United States and Israel have been at war with Iran and its regional allies, following the Twelve-Day War in June 2025 and sporadic fighting during the Middle Eastern crisis sparked by the Gaza war, which began in 2023. Amid ongoing US–Iran negotiations regarding Iran's…",
+     "title": "2026 Iran war",
+     "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
+    },
+    {
+     "extract": "Shipping traffic through the Strait of Hormuz, a major maritime choke point for world energy trade, has been largely blocked by Iran since 28 February 2026, when the United States and Israel launched an air war against Iran. In retaliation, the Iranian Revolutionary Guard Corps (IRGC) issued…",
+     "title": "2026 Strait of Hormuz crisis",
+     "url": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
+    },
+    {
+     "extract": "This article chronicles a list of ships attacked, damaged or sunk during the 2026 Iran war.",
+     "title": "List of ships attacked during the 2026 Iran war",
+     "url": "https://en.wikipedia.org/wiki/List_of_ships_attacked_during_the_2026_Iran_war"
+    }
+   ],
    "topics": [
     {
      "label": "Middle Eastern crisis",
+     "links": [
+      {
+       "text": "Middle Eastern crisis",
+       "title": "Middle Eastern crisis (2023–present)"
+      }
+     ],
      "title": "Middle Eastern crisis (2023–present)"
     },
     {
      "label": "2026 Iran war",
+     "links": [
+      {
+       "text": "2026 Iran war",
+       "title": "2026 Iran war"
+      }
+     ],
      "title": "2026 Iran war"
     },
     {
      "label": "2026 Strait of Hormuz crisis, Ships attacked during the 2026 Iran war",
+     "links": [
+      {
+       "text": "2026 Strait of Hormuz crisis",
+       "title": "2026 Strait of Hormuz crisis"
+      },
+      {
+       "text": "Ships attacked during the 2026 Iran war",
+       "title": "List of ships attacked during the 2026 Iran war"
+      }
+     ],
      "title": "2026 Strait of Hormuz crisis"
     }
    ]
@@ -19269,9 +19659,26 @@
    ],
    "text": "Philippine police arrest at least 287 people during nationwide protests against the potential signing of a Pax Silica deal with the United States coinciding with the 49th ASEAN Summit in Metro Manila. Police also report that 15 officers sustained injuries during demonstrations.",
    "title": "Philippine police arrest at least 287 people during nationwide protests against the potential signing of a Pax Silica deal with the United States coinciding with the 49th ASEAN Summit in Metro Manila.",
+   "topic_articles": [
+    {
+     "extract": "Protests against Donald Trump have occurred in the United States and internationally, mostly after his entry into the 2016 presidential campaign. Protests have expressed opposition to Trump's campaign rhetoric, his ideology, his electoral win, his first inauguration, his alleged history of sexual…",
+     "title": "Protests against Donald Trump",
+     "url": "https://en.wikipedia.org/wiki/Protests_against_Donald_Trump"
+    }
+   ],
    "topics": [
     {
      "label": "2026 ASEAN Summits, Protests against Donald Trump",
+     "links": [
+      {
+       "text": "2026 ASEAN Summits",
+       "title": "2026 ASEAN Summits"
+      },
+      {
+       "text": "Protests against Donald Trump",
+       "title": "Protests against Donald Trump"
+      }
+     ],
      "title": "2026 ASEAN Summits"
     }
    ]
@@ -19315,6 +19722,12 @@
    "topics": [
     {
      "label": "2026 European Tour",
+     "links": [
+      {
+       "text": "2026 European Tour",
+       "title": "2026 European Tour"
+      }
+     ],
      "title": "2026 European Tour"
     }
    ]
@@ -19352,8 +19765,8 @@
    "topics": []
   },
   "wikipedia:en:2026-11-15:7d6c208d0c5a": {
-   "article_extract": "At the 2026 WTA Finals, Mirra Andreeva defeated Elina Svitolina in the final, 7–5, 6–3 to win the women's singles tennis title. The tournament was played on outdoor hard courts at Indian Wells, California, US. Andreeva was the youngest player to win the WTA Finals since Maria Sharapova in 2004, the…",
-   "article_title": "2026 WTA Finals – Singles",
+   "article_extract": "The 2026 WTA Finals (officially the Fage WTA Finals Indian Wells for sponsorship purposes) was a professional women's year-end championship tennis tournament that was run from November 8 – 15, 2026 by the Women's Tennis Association (WTA). It was played in Indian Wells, United States and was the…",
+   "article_title": "2026 WTA Finals",
    "articles": [
     "2026 WTA Finals",
     "2026 WTA Finals – Singles",
@@ -19365,18 +19778,18 @@
    "date": "2026-11-15",
    "date_source": "page_date",
    "first_seen": "2026-11-16T15:48:48Z",
-   "group_key": "pageid:84585265",
+   "group_key": "pageid:82165064",
    "guid": "wikipedia:en:2026-11-15:7d6c208d0c5a",
    "html": "In tennis, <a href=\"https://en.wikipedia.org/wiki/Mirra_Andreeva\">Mirra Andreeva</a> wins her first WTA Finals <a href=\"https://en.wikipedia.org/wiki/Singles_(tennis)\">singles</a> title after defeating <a href=\"https://en.wikipedia.org/wiki/Elina_Svitolina\">Elina Svitolina</a> in the final, 7–5, 6–3.",
-   "link": "https://en.wikipedia.org/wiki/2026_WTA_Finals_%E2%80%93_Singles",
-   "main_title": "2026 WTA Finals – Singles",
+   "link": "https://en.wikipedia.org/wiki/2026_WTA_Finals",
+   "main_title": "2026 WTA Finals",
    "order": 85,
    "page": "Portal:Current events/2026 November 15",
    "page_date": "2026-11-15",
-   "pageid": 84585265,
+   "pageid": 82165064,
    "pos": 21,
    "pub_date": "2026-11-15T00:00:00Z",
-   "qid": "Q141973432",
+   "qid": "Q137595526",
    "sources": [
     {
      "name": "AFP via France 24",
@@ -19385,13 +19798,32 @@
    ],
    "text": "In tennis, Mirra Andreeva wins her first WTA Finals singles title after defeating Elina Svitolina in the final, 7–5, 6–3.",
    "title": "In tennis, Mirra Andreeva wins her first WTA Finals singles title after defeating Elina Svitolina in the final, 7–5, 6–3.",
+   "topic_articles": [
+    {
+     "extract": "At the 2026 WTA Finals, Mirra Andreeva defeated Elina Svitolina in the final, 7–5, 6–3 to win the women's singles tennis title. The tournament was played on outdoor hard courts at Indian Wells, California, US. Andreeva was the youngest player to win the WTA Finals since Maria Sharapova in 2004, the…",
+     "title": "2026 WTA Finals – Singles",
+     "url": "https://en.wikipedia.org/wiki/2026_WTA_Finals_%E2%80%93_Singles"
+    }
+   ],
    "topics": [
     {
      "label": "2026 WTA Finals",
+     "links": [
+      {
+       "text": "2026 WTA Finals",
+       "title": "2026 WTA Finals"
+      }
+     ],
      "title": "2026 WTA Finals"
     },
     {
      "label": "2026 WTA Finals – Singles",
+     "links": [
+      {
+       "text": "2026 WTA Finals – Singles",
+       "title": "2026 WTA Finals – Singles"
+      }
+     ],
      "title": "2026 WTA Finals – Singles"
     }
    ]
@@ -19435,13 +19867,19 @@
    "topics": [
     {
      "label": "2026 Grey Cup",
+     "links": [
+      {
+       "text": "2026 Grey Cup",
+       "title": "2026 Grey Cup"
+      }
+     ],
      "title": "2026 Grey Cup"
     }
    ]
   },
   "wikipedia:en:2026-11-15:8931448e816f": {
-   "article_extract": "Religious violence in Nigeria refers to Christian–Muslim strife in Nigeria tracing back to 1953. The present religious violence in Nigeria is dominated by the Boko Haram insurgency, which aims to establish an Islamic state in northern Nigeria.",
-   "article_title": "Religious violence in Nigeria",
+   "article_extract": "Communal conflicts in Nigeria can be divided into two broad categories: Ethno-religious conflicts, attributed to actors primarily divided by cultural, ethnic, or religious communities and identities, such as instances of religious violence between Christian and Muslim communities. Herder–farmer…",
+   "article_title": "Communal conflicts in Nigeria",
    "articles": [
     "Communal conflicts in Nigeria",
     "Religious violence in Nigeria",
@@ -19457,18 +19895,18 @@
    "date": "2026-11-15",
    "date_source": "page_date",
    "first_seen": "2026-11-16T15:48:48Z",
-   "group_key": "pageid:43330495",
+   "group_key": "pageid:47769620",
    "guid": "wikipedia:en:2026-11-15:8931448e816f",
    "html": "The <a href=\"https://en.wikipedia.org/wiki/Nigerian_Defence_Headquarters\">Nigerian Defence Headquarters</a> announces that the <a href=\"https://en.wikipedia.org/wiki/Nigerian_Army\">Nigerian Army</a> killed eight terrorists, arrested 22 additional terrorists, logistical personnel, and their families, and rescued 125 kidnapping victims in various raids in the <a href=\"https://en.wikipedia.org/wiki/States_of_Nigeria\">states</a> of <a href=\"https://en.wikipedia.org/wiki/Adamawa_State\">Adamawa</a>, <a href=\"https://en.wikipedia.org/wiki/Bauchi_State\">Bauchi</a>, <a href=\"https://en.wikipedia.org/wiki/Yobe_State\">Yobe</a>, and <a href=\"https://en.wikipedia.org/wiki/Borno_State\">Borno</a> between November 6 and 12.",
-   "link": "https://en.wikipedia.org/wiki/Religious_violence_in_Nigeria",
-   "main_title": "Religious violence in Nigeria",
+   "link": "https://en.wikipedia.org/wiki/Communal_conflicts_in_Nigeria",
+   "main_title": "Communal conflicts in Nigeria",
    "order": 68,
    "page": "Portal:Current events/2026 November 15",
    "page_date": "2026-11-15",
-   "pageid": 43330495,
+   "pageid": 47769620,
    "pos": 4,
    "pub_date": "2026-11-15T00:00:00Z",
-   "qid": "Q18393989",
+   "qid": "Q21039541",
    "sources": [
     {
      "name": "The Vanguard",
@@ -19477,13 +19915,32 @@
    ],
    "text": "The Nigerian Defence Headquarters announces that the Nigerian Army killed eight terrorists, arrested 22 additional terrorists, logistical personnel, and their families, and rescued 125 kidnapping victims in various raids in the states of Adamawa, Bauchi, Yobe, and Borno between November 6 and 12.",
    "title": "The Nigerian Defence Headquarters announces that the Nigerian Army killed eight terrorists, arrested 22 additional terrorists, logistical personnel, and their families, and rescued 125 kidnapping…",
+   "topic_articles": [
+    {
+     "extract": "Religious violence in Nigeria refers to Christian–Muslim strife in Nigeria tracing back to 1953. The present religious violence in Nigeria is dominated by the Boko Haram insurgency, which aims to establish an Islamic state in northern Nigeria.",
+     "title": "Religious violence in Nigeria",
+     "url": "https://en.wikipedia.org/wiki/Religious_violence_in_Nigeria"
+    }
+   ],
    "topics": [
     {
      "label": "Communal conflicts in Nigeria",
+     "links": [
+      {
+       "text": "Communal conflicts in Nigeria",
+       "title": "Communal conflicts in Nigeria"
+      }
+     ],
      "title": "Communal conflicts in Nigeria"
     },
     {
      "label": "Religious violence in Nigeria",
+     "links": [
+      {
+       "text": "Religious violence in Nigeria",
+       "title": "Religious violence in Nigeria"
+      }
+     ],
      "title": "Religious violence in Nigeria"
     }
    ]
@@ -19529,6 +19986,12 @@
    "topics": [
     {
      "label": "2026–27 UEFA Nations League",
+     "links": [
+      {
+       "text": "2026–27 UEFA Nations League",
+       "title": "2026–27 UEFA Nations League"
+      }
+     ],
      "title": "2026–27 UEFA Nations League"
     }
    ]
@@ -19572,6 +20035,12 @@
    "topics": [
     {
      "label": "Colombian conflict",
+     "links": [
+      {
+       "text": "Colombian conflict",
+       "title": "Colombian conflict"
+      }
+     ],
      "title": "Colombian conflict"
     }
    ]
@@ -19614,9 +20083,26 @@
    ],
    "text": "Estonia announces the closure of its three border crossings with Russia starting December 1 after eight suspects were detained over an attempted arson attack on drone manufacturer Threod Systems, which Estonian intelligence attributes to Russia's GRU.",
    "title": "Estonia announces the closure of its three border crossings with Russia starting December 1 after eight suspects were detained over an attempted arson attack on drone manufacturer Threod Systems…",
+   "topic_articles": [
+    {
+     "extract": "Western governments and intelligence agencies allege that Russian military or intelligence services organised acts of sabotage in Europe – including arson, assassination plans, railway damage, vandalism and electronic interference such as GPS jamming – as part of a hybrid war aimed at destabilizing…",
+     "title": "Russian sabotage operations in Europe",
+     "url": "https://en.wikipedia.org/wiki/Russian_sabotage_operations_in_Europe"
+    }
+   ],
    "topics": [
     {
      "label": "Estonia–Russia relations, Russian sabotage operations in Europe",
+     "links": [
+      {
+       "text": "Estonia–Russia relations",
+       "title": "Estonia–Russia relations"
+      },
+      {
+       "text": "Russian sabotage operations in Europe",
+       "title": "Russian sabotage operations in Europe"
+      }
+     ],
      "title": "Estonia–Russia relations"
     }
    ]
@@ -19657,6 +20143,12 @@
    "topics": [
     {
      "label": "2026 Bangladesh measles outbreak",
+     "links": [
+      {
+       "text": "2026 Bangladesh measles outbreak",
+       "title": "2026 Bangladesh measles outbreak"
+      }
+     ],
      "title": "2026 Bangladesh measles outbreak"
     }
    ]
@@ -19701,6 +20193,12 @@
    "topics": [
     {
      "label": "Australia–Philippines relations",
+     "links": [
+      {
+       "text": "Australia–Philippines relations",
+       "title": "Australia–Philippines relations"
+      }
+     ],
      "title": "Australia–Philippines relations"
     }
    ]
@@ -19744,6 +20242,12 @@
    "topics": [
     {
      "label": "2026 Cape Verdean presidential election",
+     "links": [
+      {
+       "text": "2026 Cape Verdean presidential election",
+       "title": "2026 Cape Verdean presidential election"
+      }
+     ],
      "title": "2026 Cape Verdean presidential election"
     }
    ]
@@ -19840,9 +20344,26 @@
    ],
    "text": "In women's rugby league, Australia wins its fourth consecutive World Cup title after defeating New Zealand 34–10 in the final in Brisbane.",
    "title": "In women's rugby league, Australia wins its fourth consecutive World Cup title after defeating New Zealand 34–10 in the final in Brisbane.",
+   "topic_articles": [
+    {
+     "extract": "Cricket, rugby union, rugby league and netball are the prominent sporting rivalries between Australia and New Zealand. In addition, respective national teams have competed in other sports such as indoor bowls, basketball, association football, field hockey and touch football.",
+     "title": "Australia–New Zealand sports rivalries",
+     "url": "https://en.wikipedia.org/wiki/Australia%E2%80%93New_Zealand_sports_rivalries"
+    }
+   ],
    "topics": [
     {
      "label": "2026 Women's Rugby League World Cup, Australia–New Zealand sports rivalries",
+     "links": [
+      {
+       "text": "2026 Women's Rugby League World Cup",
+       "title": "2026 Women's Rugby League World Cup"
+      },
+      {
+       "text": "Australia–New Zealand sports rivalries",
+       "title": "Australia–New Zealand sports rivalries"
+      }
+     ],
      "title": "2026 Women's Rugby League World Cup"
     }
    ]
@@ -19884,16 +20405,33 @@
    ],
    "text": "The Jordanian State Security Court sentences three men to death for a shooting at a Greek Orthodox church in Karak Governorate that killed nine people and injured 25 others on October 23. Two accomplices also receive six-year prison sentences.",
    "title": "The Jordanian State Security Court sentences three men to death for a shooting at a Greek Orthodox church in Karak Governorate that killed nine people and injured 25 others on October 23.",
+   "topic_articles": [
+    {
+     "extract": "Capital punishment is a legal penalty in Jordan. The country had a moratorium on capital punishment between 2006 and 2014.",
+     "title": "Capital punishment in Jordan",
+     "url": "https://en.wikipedia.org/wiki/Capital_punishment_in_Jordan"
+    }
+   ],
    "topics": [
     {
      "label": "2026 Karak church shooting, Capital punishment in Jordan",
+     "links": [
+      {
+       "text": "2026 Karak church shooting",
+       "title": "2026 Karak church shooting"
+      },
+      {
+       "text": "Capital punishment in Jordan",
+       "title": "Capital punishment in Jordan"
+      }
+     ],
      "title": "2026 Karak church shooting"
     }
    ]
   },
   "wikipedia:en:2026-11-15:e40f2a83a41b": {
-   "article_extract": "Across Nigeria, there are a series of disputes over arable land between Fulani herders and non-Fulani farmers. The conflicts have been especially prominent in the Middle Belt (North Central) since the return of democracy in 1999.",
-   "article_title": "Herder–farmer conflicts in Nigeria",
+   "article_extract": "Communal conflicts in Nigeria can be divided into two broad categories: Ethno-religious conflicts, attributed to actors primarily divided by cultural, ethnic, or religious communities and identities, such as instances of religious violence between Christian and Muslim communities. Herder–farmer…",
+   "article_title": "Communal conflicts in Nigeria",
    "articles": [
     "Communal conflicts in Nigeria",
     "Herder–farmer conflicts in Nigeria",
@@ -19905,18 +20443,18 @@
    "date": "2026-11-15",
    "date_source": "page_date",
    "first_seen": "2026-11-16T15:48:48Z",
-   "group_key": "pageid:54964174",
+   "group_key": "pageid:47769620",
    "guid": "wikipedia:en:2026-11-15:e40f2a83a41b",
    "html": "Three people are killed and several others are abducted in a <a href=\"https://en.wikipedia.org/wiki/Cattle_raiding\">cattle raid</a> in <a href=\"https://en.wikipedia.org/wiki/Rabah\">Rabah</a>, <a href=\"https://en.wikipedia.org/wiki/Sokoto_State\">Sokoto State</a>, Nigeria.",
-   "link": "https://en.wikipedia.org/wiki/Herder%E2%80%93farmer_conflicts_in_Nigeria",
-   "main_title": "Herder–farmer conflicts in Nigeria",
+   "link": "https://en.wikipedia.org/wiki/Communal_conflicts_in_Nigeria",
+   "main_title": "Communal conflicts in Nigeria",
    "order": 67,
    "page": "Portal:Current events/2026 November 15",
    "page_date": "2026-11-15",
-   "pageid": 54964174,
+   "pageid": 47769620,
    "pos": 3,
    "pub_date": "2026-11-15T00:00:00Z",
-   "qid": "Q42377873",
+   "qid": "Q21039541",
    "sources": [
     {
      "name": "The Punch",
@@ -19925,13 +20463,32 @@
    ],
    "text": "Three people are killed and several others are abducted in a cattle raid in Rabah, Sokoto State, Nigeria.",
    "title": "Three people are killed and several others are abducted in a cattle raid in Rabah, Sokoto State, Nigeria.",
+   "topic_articles": [
+    {
+     "extract": "Across Nigeria, there are a series of disputes over arable land between Fulani herders and non-Fulani farmers. The conflicts have been especially prominent in the Middle Belt (North Central) since the return of democracy in 1999.",
+     "title": "Herder–farmer conflicts in Nigeria",
+     "url": "https://en.wikipedia.org/wiki/Herder%E2%80%93farmer_conflicts_in_Nigeria"
+    }
+   ],
    "topics": [
     {
      "label": "Communal conflicts in Nigeria",
+     "links": [
+      {
+       "text": "Communal conflicts in Nigeria",
+       "title": "Communal conflicts in Nigeria"
+      }
+     ],
      "title": "Communal conflicts in Nigeria"
     },
     {
      "label": "Herder–farmer conflicts in Nigeria",
+     "links": [
+      {
+       "text": "Herder–farmer conflicts in Nigeria",
+       "title": "Herder–farmer conflicts in Nigeria"
+      }
+     ],
      "title": "Herder–farmer conflicts in Nigeria"
     }
    ]
@@ -20037,6 +20594,12 @@
    "topics": [
     {
      "label": "2026 Paraguay banking crisis",
+     "links": [
+      {
+       "text": "2026 Paraguay banking crisis",
+       "title": "2026 Paraguay banking crisis"
+      }
+     ],
      "title": "2026 Paraguay banking crisis"
     }
    ]
@@ -20186,6 +20749,12 @@
    "topics": [
     {
      "label": "Insurgency in Bahrain",
+     "links": [
+      {
+       "text": "Insurgency in Bahrain",
+       "title": "Insurgency in Bahrain"
+      }
+     ],
      "title": "Insurgency in Bahrain"
     }
    ]
@@ -20226,6 +20795,12 @@
    "topics": [
     {
      "label": "2026 Patong fire",
+     "links": [
+      {
+       "text": "2026 Patong fire",
+       "title": "2026 Patong fire"
+      }
+     ],
      "title": "2026 Patong fire"
     }
    ]
@@ -20265,13 +20840,19 @@
    "topics": [
     {
      "label": "Mexican drug war",
+     "links": [
+      {
+       "text": "Mexican drug war",
+       "title": "Mexican drug war"
+      }
+     ],
      "title": "Mexican drug war"
     }
    ]
   },
   "wikipedia:en:2026-11-16:34b480a874b7": {
-   "article_extract": "On 2 November 2026, a Russian airstrike hit a school in a double tap strike that was being used as a shelter and humanitarian aid distribution point in the rural settlement of Komyshuvakha during the Russian invasion of Ukraine. The strike has killed at least 72 so far, with 4 still missing.",
-   "article_title": "2026 Komyshuvakha strike",
+   "article_extract": "On 24 February 2022, Russia invaded Ukraine, starting the largest and deadliest war in Europe since World War II, in a major escalation of the existing war between the two countries that began when Russia attacked Ukraine in 2014. The fighting has caused hundreds of thousands of military casualties…",
+   "article_title": "Russo-Ukrainian war (2022–present)",
    "articles": [
     "Russo-Ukrainian war (2022–present)",
     "Russian attacks on civilians in the Russo-Ukrainian war (2022–present)",
@@ -20285,18 +20866,18 @@
    "date": "2026-11-16",
    "date_source": "page_date",
    "first_seen": "2026-11-18T15:40:56Z",
-   "group_key": "pageid:84719777",
+   "group_key": "pageid:70149799",
    "guid": "wikipedia:en:2026-11-16:34b480a874b7",
    "html": "Ukraine finishes <a href=\"https://en.wikipedia.org/wiki/Search_and_rescue\">search and rescue</a> operations at a humanitarian aid distribution center in <a href=\"https://en.wikipedia.org/wiki/Komyshuvakha\">Komyshuvakha</a>, <a href=\"https://en.wikipedia.org/wiki/Zaporizhzhia_Oblast\">Zaporizhzhia Oblast</a>, that was destroyed by a Russian airstrike on 2 November. A total of 72 people were killed, and four more people are <a href=\"https://en.wikipedia.org/wiki/Missing_person\">missing</a>.",
-   "link": "https://en.wikipedia.org/wiki/2026_Komyshuvakha_strike",
-   "main_title": "2026 Komyshuvakha strike",
+   "link": "https://en.wikipedia.org/wiki/Russo-Ukrainian_war_(2022%E2%80%93present)",
+   "main_title": "Russo-Ukrainian war (2022–present)",
    "order": 47,
    "page": "Portal:Current events/2026 November 16",
    "page_date": "2026-11-16",
-   "pageid": 84719777,
+   "pageid": 70149799,
    "pos": 1,
    "pub_date": "2026-11-16T00:00:00Z",
-   "qid": "Q142027729",
+   "qid": "Q110999040",
    "sources": [
     {
      "name": "Meduza in Russian",
@@ -20305,17 +20886,47 @@
    ],
    "text": "Ukraine finishes search and rescue operations at a humanitarian aid distribution center in Komyshuvakha, Zaporizhzhia Oblast, that was destroyed by a Russian airstrike on 2 November. A total of 72 people were killed, and four more people are missing.",
    "title": "Ukraine finishes search and rescue operations at a humanitarian aid distribution center in Komyshuvakha, Zaporizhzhia Oblast, that was destroyed by a Russian airstrike on 2 November.",
+   "topic_articles": [
+    {
+     "extract": "During the Russo-Ukrainian War (2022–present), the Russian military has continuously carried out deliberate attacks against civilian targets and indiscriminate attacks in densely populated areas. The United Nations Human Rights Monitoring Mission in Ukraine says the Russian military exposed the…",
+     "title": "Russian attacks on civilians in the Russo-Ukrainian war (2022–present)",
+     "url": "https://en.wikipedia.org/wiki/Russian_attacks_on_civilians_in_the_Russo-Ukrainian_war_(2022%E2%80%93present)"
+    },
+    {
+     "extract": "On 2 November 2026, a Russian airstrike hit a school in a double tap strike that was being used as a shelter and humanitarian aid distribution point in the rural settlement of Komyshuvakha during the Russian invasion of Ukraine. The strike has killed at least 72 so far, with 4 still missing.",
+     "title": "2026 Komyshuvakha strike",
+     "url": "https://en.wikipedia.org/wiki/2026_Komyshuvakha_strike"
+    }
+   ],
    "topics": [
     {
      "label": "Russo-Ukrainian war",
+     "links": [
+      {
+       "text": "Russo-Ukrainian war",
+       "title": "Russo-Ukrainian war (2022–present)"
+      }
+     ],
      "title": "Russo-Ukrainian war (2022–present)"
     },
     {
      "label": "Russian attacks on civilians in the Russo-Ukrainian war",
+     "links": [
+      {
+       "text": "Russian attacks on civilians in the Russo-Ukrainian war",
+       "title": "Russian attacks on civilians in the Russo-Ukrainian war (2022–present)"
+      }
+     ],
      "title": "Russian attacks on civilians in the Russo-Ukrainian war (2022–present)"
     },
     {
      "label": "2026 Komyshuvakha strike",
+     "links": [
+      {
+       "text": "2026 Komyshuvakha strike",
+       "title": "2026 Komyshuvakha strike"
+      }
+     ],
      "title": "2026 Komyshuvakha strike"
     }
    ]
@@ -20358,6 +20969,12 @@
    "topics": [
     {
      "label": "Mexican drug war",
+     "links": [
+      {
+       "text": "Mexican drug war",
+       "title": "Mexican drug war"
+      }
+     ],
      "title": "Mexican drug war"
     }
    ]
@@ -20400,16 +21017,42 @@
    ],
    "text": "The United States Department of State reverses its decision to withdraw funding from the United Nations Support Office for Somalia and supports extending its mandate and that of the African Union's military mission combating Al-Shabaab for another year.",
    "title": "The United States Department of State reverses its decision to withdraw funding from the United Nations Support Office for Somalia and supports extending its mandate and that of the African Union's…",
+   "topic_articles": [
+    {
+     "extract": "During the second presidency of Donald Trump, the United States Agency for International Development (USAID), the principal U.S. government agency for administering civilian foreign aid and development programs, underwent sweeping staff and program reductions. Its remaining programs were…",
+     "title": "USAID in the second Trump administration",
+     "url": "https://en.wikipedia.org/wiki/USAID_in_the_second_Trump_administration"
+    },
+    {
+     "extract": "Since the mid-2000s, the United States has provided military support to the Ethiopian National Defence Force, African Union troops, the Somali Transitional Federal Government (TFG) and its successor, the Federal Government of Somalia (FGS), in their conflicts with Somali Islamist non-state actors.…",
+     "title": "United States intervention in Somalia",
+     "url": "https://en.wikipedia.org/wiki/United_States_intervention_in_Somalia"
+    }
+   ],
    "topics": [
     {
      "label": "Somalia–United States relations, USAID in the second Trump administration, United States intervention in Somalia",
+     "links": [
+      {
+       "text": "Somalia–United States relations",
+       "title": "Somalia–United States relations"
+      },
+      {
+       "text": "USAID in the second Trump administration",
+       "title": "USAID in the second Trump administration"
+      },
+      {
+       "text": "United States intervention in Somalia",
+       "title": "United States intervention in Somalia"
+      }
+     ],
      "title": "Somalia–United States relations"
     }
    ]
   },
   "wikipedia:en:2026-11-16:59f14ac06689": {
-   "article_extract": "On 3 September 2026, the Iran-backed Houthis launched an offensive against the Saudi-backed Presidential Leadership Council (PLC), the internationally recognized government of Yemen, amid the ongoing Yemeni civil war. Clashes began in Taiz Governorate, prompting a PLC counter-offensive against the…",
-   "article_title": "2026 Yemen offensives",
+   "article_extract": "The Middle East is currently experiencing an ongoing series of interrelated wars, conflicts, and heightened instability, triggered by the ongoing Gaza war and the genocide in Gaza. These have primarily consisted of conflicts between Israel and the United States on one side, and Iran and militias…",
+   "article_title": "Middle Eastern crisis (2023–present)",
    "articles": [
     "Middle Eastern crisis (2023–present)",
     "Yemeni civil war (2014–present)",
@@ -20430,18 +21073,18 @@
    "date": "2026-11-16",
    "date_source": "page_date",
    "first_seen": "2026-11-17T16:01:34Z",
-   "group_key": "pageid:84167596",
+   "group_key": "pageid:75895273",
    "guid": "wikipedia:en:2026-11-16:59f14ac06689",
    "html": "<a href=\"https://en.wikipedia.org/wiki/Saudi_Arabia\">Saudi Arabia</a>'s <a href=\"https://en.wikipedia.org/wiki/King_of_Saudi_Arabia\">King</a> <a href=\"https://en.wikipedia.org/wiki/Salman_of_Saudi_Arabia\">Salman</a> appoints <a href=\"https://en.wikipedia.org/wiki/Chairman_of_the_General_Staff\">Chairman of the General Staff</a> <a href=\"https://en.wikipedia.org/wiki/Fayyadh_Al_Ruwaili\">Fayyadh Al Ruwaili</a> as commander of the <a href=\"https://en.wikipedia.org/wiki/Saudi-led_intervention_in_the_Yemeni_civil_war\">Saudi-led coalition</a> in <a href=\"https://en.wikipedia.org/wiki/Yemen\">Yemen</a>, following the retreat of <a href=\"https://en.wikipedia.org/wiki/Presidential_Leadership_Council\">Yemeni government</a> <a href=\"https://en.wikipedia.org/wiki/Yemeni_Armed_Forces\">forces</a> from areas near the <a href=\"https://en.wikipedia.org/wiki/Bab_al-Mandeb\">Bab al-Mandeb</a> to <a href=\"https://en.wikipedia.org/wiki/Aden\">Aden</a>.",
-   "link": "https://en.wikipedia.org/wiki/2026_Yemen_offensives",
-   "main_title": "2026 Yemen offensives",
+   "link": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)",
+   "main_title": "Middle Eastern crisis (2023–present)",
    "order": 46,
    "page": "Portal:Current events/2026 November 16",
    "page_date": "2026-11-16",
-   "pageid": 84167596,
+   "pageid": 75895273,
    "pos": 0,
    "pub_date": "2026-11-16T00:00:00Z",
-   "qid": "Q141349562",
+   "qid": "Q124373310",
    "sources": [
     {
      "name": "Al Jazeera",
@@ -20450,24 +21093,54 @@
    ],
    "text": "Saudi Arabia's King Salman appoints Chairman of the General Staff Fayyadh Al Ruwaili as commander of the Saudi-led coalition in Yemen, following the retreat of Yemeni government forces from areas near the Bab al-Mandeb to Aden.",
    "title": "Saudi Arabia's King Salman appoints Chairman of the General Staff Fayyadh Al Ruwaili as commander of the Saudi-led coalition in Yemen, following the retreat of Yemeni government forces from areas…",
+   "topic_articles": [
+    {
+     "extract": "The Yemeni civil war (Arabic: الحرب الأهلية اليمنية, romanized: al-ḥarb al-ʾahlīyah al-yamanīyah) is an ongoing multilateral civil war that began in late 2014 mainly between the Rashad al-Alimi-led Presidential Leadership Council and the Mahdi al-Mashat-led Houthi Supreme Political Council, along…",
+     "title": "Yemeni civil war (2014–present)",
+     "url": "https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)"
+    },
+    {
+     "extract": "On 3 September 2026, the Iran-backed Houthis launched an offensive against the Saudi-backed Presidential Leadership Council (PLC), the internationally recognized government of Yemen, amid the ongoing Yemeni civil war. Clashes began in Taiz Governorate, prompting a PLC counter-offensive against the…",
+     "title": "2026 Yemen offensives",
+     "url": "https://en.wikipedia.org/wiki/2026_Yemen_offensives"
+    }
+   ],
    "topics": [
     {
      "label": "Middle Eastern crisis",
+     "links": [
+      {
+       "text": "Middle Eastern crisis",
+       "title": "Middle Eastern crisis (2023–present)"
+      }
+     ],
      "title": "Middle Eastern crisis (2023–present)"
     },
     {
      "label": "Yemeni civil war",
+     "links": [
+      {
+       "text": "Yemeni civil war",
+       "title": "Yemeni civil war (2014–present)"
+      }
+     ],
      "title": "Yemeni civil war (2014–present)"
     },
     {
      "label": "2026 Yemen offensives",
+     "links": [
+      {
+       "text": "2026 Yemen offensives",
+       "title": "2026 Yemen offensives"
+      }
+     ],
      "title": "2026 Yemen offensives"
     }
    ]
   },
   "wikipedia:en:2026-11-16:6f160c7686c2": {
-   "article_extract": "Russia has occupied the Crimean Peninsula of Ukraine since 2014, which started the Russo-Ukrainian war. Russia used Crimea as a base from which to launch its 2022 invasion of Ukraine, specifically its offensive on Southern Ukraine and the occupation of Kherson province and Zaporizhzhia province.",
-   "article_title": "Crimea attacks (2022–present)",
+   "article_extract": "On 24 February 2022, Russia invaded Ukraine, starting the largest and deadliest war in Europe since World War II, in a major escalation of the existing war between the two countries that began when Russia attacked Ukraine in 2014. The fighting has caused hundreds of thousands of military casualties…",
+   "article_title": "Russo-Ukrainian war (2022–present)",
    "articles": [
     "Russo-Ukrainian war (2022–present)",
     "Crimea attacks (2022–present)",
@@ -20480,18 +21153,18 @@
    "date": "2026-11-16",
    "date_source": "page_date",
    "first_seen": "2026-11-17T16:01:34Z",
-   "group_key": "pageid:71954377",
+   "group_key": "pageid:70149799",
    "guid": "wikipedia:en:2026-11-16:6f160c7686c2",
    "html": "The <a href=\"https://en.wikipedia.org/wiki/Crimean_Bridge\">Crimean Bridge</a> is struck by a <a href=\"https://en.wikipedia.org/wiki/Ukraine\">Ukrainian</a> <a href=\"https://en.wikipedia.org/wiki/One-way_attack_drone\">kamikaze drone</a>, damaging the structure and prompting <a href=\"https://en.wikipedia.org/wiki/Russia\">Russian</a> authorities to close the bridge to vehicle traffic. The bridge is partially reopened later in the day.",
-   "link": "https://en.wikipedia.org/wiki/Crimea_attacks_(2022%E2%80%93present)",
-   "main_title": "Crimea attacks (2022–present)",
+   "link": "https://en.wikipedia.org/wiki/Russo-Ukrainian_war_(2022%E2%80%93present)",
+   "main_title": "Russo-Ukrainian war (2022–present)",
    "order": 48,
    "page": "Portal:Current events/2026 November 16",
    "page_date": "2026-11-16",
-   "pageid": 71954377,
+   "pageid": 70149799,
    "pos": 2,
    "pub_date": "2026-11-16T00:00:00Z",
-   "qid": "Q114550059",
+   "qid": "Q110999040",
    "sources": [
     {
      "name": "BBC News",
@@ -20504,13 +21177,32 @@
    ],
    "text": "The Crimean Bridge is struck by a Ukrainian kamikaze drone, damaging the structure and prompting Russian authorities to close the bridge to vehicle traffic. The bridge is partially reopened later in the day.",
    "title": "The Crimean Bridge is struck by a Ukrainian kamikaze drone, damaging the structure and prompting Russian authorities to close the bridge to vehicle traffic.",
+   "topic_articles": [
+    {
+     "extract": "Russia has occupied the Crimean Peninsula of Ukraine since 2014, which started the Russo-Ukrainian war. Russia used Crimea as a base from which to launch its 2022 invasion of Ukraine, specifically its offensive on Southern Ukraine and the occupation of Kherson province and Zaporizhzhia province.",
+     "title": "Crimea attacks (2022–present)",
+     "url": "https://en.wikipedia.org/wiki/Crimea_attacks_(2022%E2%80%93present)"
+    }
+   ],
    "topics": [
     {
      "label": "Russo-Ukrainian war",
+     "links": [
+      {
+       "text": "Russo-Ukrainian war",
+       "title": "Russo-Ukrainian war (2022–present)"
+      }
+     ],
      "title": "Russo-Ukrainian war (2022–present)"
     },
     {
      "label": "Crimea attacks",
+     "links": [
+      {
+       "text": "Crimea attacks",
+       "title": "Crimea attacks (2022–present)"
+      }
+     ],
      "title": "Crimea attacks (2022–present)"
     }
    ]
@@ -20581,6 +21273,12 @@
    "topics": [
     {
      "label": "Crime in South Africa",
+     "links": [
+      {
+       "text": "Crime in South Africa",
+       "title": "Crime in South Africa"
+      }
+     ],
      "title": "Crime in South Africa"
     }
    ]
@@ -20625,6 +21323,12 @@
    "topics": [
     {
      "label": "2026 Gambian presidential election",
+     "links": [
+      {
+       "text": "2026 Gambian presidential election",
+       "title": "2026 Gambian presidential election"
+      }
+     ],
      "title": "2026 Gambian presidential election"
     }
    ]
@@ -20703,6 +21407,12 @@
    "topics": [
     {
      "label": "2026 Bangladesh garment workers protests",
+     "links": [
+      {
+       "text": "2026 Bangladesh garment workers protests",
+       "title": "2026 Bangladesh garment workers protests"
+      }
+     ],
      "title": "2026 Bangladesh garment workers protests"
     }
    ]
@@ -20744,6 +21454,12 @@
    "topics": [
     {
      "label": "Crime in South Africa",
+     "links": [
+      {
+       "text": "Crime in South Africa",
+       "title": "Crime in South Africa"
+      }
+     ],
      "title": "Crime in South Africa"
     }
    ]
@@ -20929,6 +21645,12 @@
    "topics": [
     {
      "label": "2026 Russian Air Force Antonov An-12 crash",
+     "links": [
+      {
+       "text": "2026 Russian Air Force Antonov An-12 crash",
+       "title": "2026 Russian Air Force Antonov An-12 crash"
+      }
+     ],
      "title": "2026 Russian Air Force Antonov An-12 crash"
     }
    ]
@@ -20974,6 +21696,12 @@
    "topics": [
     {
      "label": "France–Malaysia relations",
+     "links": [
+      {
+       "text": "France–Malaysia relations",
+       "title": "France–Malaysia relations"
+      }
+     ],
      "title": "France–Malaysia relations"
     }
    ]
@@ -21053,13 +21781,19 @@
    "topics": [
     {
      "label": "2026 Melbourne Cup",
+     "links": [
+      {
+       "text": "2026 Melbourne Cup",
+       "title": "2026 Melbourne Cup"
+      }
+     ],
      "title": "2026 Melbourne Cup"
     }
    ]
   },
   "wikipedia:en:2026-11-17:73144c734e2d": {
-   "article_extract": "During the Gaza war, Israeli forces have carried out multiple ground incursions, occasionally accompanied by airstrikes, into several Palestinian cities and refugee camps in the Israeli-occupied West Bank, including Jenin and Tulkarm. The Israeli incursions have led to clashes with Palestinian…",
-   "article_title": "Israeli incursions in the West Bank during the Gaza war",
+   "article_extract": "The Middle East is currently experiencing an ongoing series of interrelated wars, conflicts, and heightened instability, triggered by the ongoing Gaza war and the genocide in Gaza. These have primarily consisted of conflicts between Israel and the United States on one side, and Iran and militias…",
+   "article_title": "Middle Eastern crisis (2023–present)",
    "articles": [
     "Middle Eastern crisis (2023–present)",
     "Gaza war",
@@ -21075,18 +21809,18 @@
    "date": "2026-11-17",
    "date_source": "page_date",
    "first_seen": "2026-11-18T15:40:56Z",
-   "group_key": "pageid:75337172",
+   "group_key": "pageid:75895273",
    "guid": "wikipedia:en:2026-11-17:73144c734e2d",
    "html": "A 72-year-old <a href=\"https://en.wikipedia.org/wiki/Palestinian\">Palestinian</a> woman is killed and ten others are injured in an attack by <a href=\"https://en.wikipedia.org/wiki/Israeli_settlers\">Israeli settlers</a> on Palestinian homes in the village of <a href=\"https://en.wikipedia.org/wiki/Ein_ad-Duyuk_at-Tahta\">Ein ad-Duyuk at-Tahta</a> west of <a href=\"https://en.wikipedia.org/wiki/Jericho\">Jericho</a> in the occupied <a href=\"https://en.wikipedia.org/wiki/West_Bank\">West Bank</a>.",
-   "link": "https://en.wikipedia.org/wiki/Israeli_incursions_in_the_West_Bank_during_the_Gaza_war",
-   "main_title": "Israeli incursions in the West Bank during the Gaza war",
+   "link": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)",
+   "main_title": "Middle Eastern crisis (2023–present)",
    "order": 24,
    "page": "Portal:Current events/2026 November 17",
    "page_date": "2026-11-17",
-   "pageid": 75337172,
+   "pageid": 75895273,
    "pos": 1,
    "pub_date": "2026-11-17T00:00:00Z",
-   "qid": "Q123472715",
+   "qid": "Q124373310",
    "sources": [
     {
      "name": "Al Jazeera",
@@ -21095,17 +21829,56 @@
    ],
    "text": "A 72-year-old Palestinian woman is killed and ten others are injured in an attack by Israeli settlers on Palestinian homes in the village of Ein ad-Duyuk at-Tahta west of Jericho in the occupied West Bank.",
    "title": "A 72-year-old Palestinian woman is killed and ten others are injured in an attack by Israeli settlers on Palestinian homes in the village of Ein ad-Duyuk at-Tahta west of Jericho in the occupied West…",
+   "topic_articles": [
+    {
+     "extract": "The Gaza war is an armed conflict in the Gaza Strip and Israel, fought as part of the unresolved Israeli–Palestinian and Gaza–Israel conflicts. The war began on 7 October 2023, when Palestinian militant group Hamas led an attack on Israel, in which 1,195 Israelis and foreign nationals were killed…",
+     "title": "Gaza war",
+     "url": "https://en.wikipedia.org/wiki/Gaza_war"
+    },
+    {
+     "extract": "During the Gaza war, Israeli forces have carried out multiple ground incursions, occasionally accompanied by airstrikes, into several Palestinian cities and refugee camps in the Israeli-occupied West Bank, including Jenin and Tulkarm. The Israeli incursions have led to clashes with Palestinian…",
+     "title": "Israeli incursions in the West Bank during the Gaza war",
+     "url": "https://en.wikipedia.org/wiki/Israeli_incursions_in_the_West_Bank_during_the_Gaza_war"
+    },
+    {
+     "extract": "Israeli settlers have carried out acts of violence, intimidation, property damage, and other reported attacks mainly in the West Bank against Palestinians. Israeli settler violence has been documented since at least the late 20th century and includes incidents such as physical assaults, arson…",
+     "title": "Israeli settler violence",
+     "url": "https://en.wikipedia.org/wiki/Israeli_settler_violence"
+    }
+   ],
    "topics": [
     {
      "label": "Middle Eastern crisis",
+     "links": [
+      {
+       "text": "Middle Eastern crisis",
+       "title": "Middle Eastern crisis (2023–present)"
+      }
+     ],
      "title": "Middle Eastern crisis (2023–present)"
     },
     {
      "label": "Gaza war",
+     "links": [
+      {
+       "text": "Gaza war",
+       "title": "Gaza war"
+      }
+     ],
      "title": "Gaza war"
     },
     {
      "label": "Israeli incursions in the West Bank during the Gaza war, Israeli settler violence",
+     "links": [
+      {
+       "text": "Israeli incursions in the West Bank during the Gaza war",
+       "title": "Israeli incursions in the West Bank during the Gaza war"
+      },
+      {
+       "text": "Israeli settler violence",
+       "title": "Israeli settler violence"
+      }
+     ],
      "title": "Israeli incursions in the West Bank during the Gaza war"
     }
    ]
@@ -21146,9 +21919,26 @@
    ],
    "text": "Hundreds of Haitians march in cities across Haiti to show support for the deployment of Salvadoran troops to combat gang violence.",
    "title": "Hundreds of Haitians march in cities across Haiti to show support for the deployment of Salvadoran troops to combat gang violence.",
+   "topic_articles": [
+    {
+     "extract": "Since 21 October 2026, El Salvador has been conducting a military intervention in Haiti following a gang ambush on 18 October that resulted in four Salvadoran aviation technicians of the Gang Suppression Force (GSF) being kidnapped. According to Salvadoran president Nayib Bukele, the intervention's…",
+     "title": "Salvadoran military intervention in Haiti",
+     "url": "https://en.wikipedia.org/wiki/Salvadoran_military_intervention_in_Haiti"
+    }
+   ],
    "topics": [
     {
      "label": "Haitian crisis, Salvadoran military intervention in Haiti",
+     "links": [
+      {
+       "text": "Haitian crisis",
+       "title": "Haitian crisis"
+      },
+      {
+       "text": "Salvadoran military intervention in Haiti",
+       "title": "Salvadoran military intervention in Haiti"
+      }
+     ],
      "title": "Haitian crisis"
     }
    ]
@@ -21212,6 +22002,12 @@
    "topics": [
     {
      "label": "2026 Bangladesh garment workers protests",
+     "links": [
+      {
+       "text": "2026 Bangladesh garment workers protests",
+       "title": "2026 Bangladesh garment workers protests"
+      }
+     ],
      "title": "2026 Bangladesh garment workers protests"
     }
    ]
@@ -21259,8 +22055,8 @@
    ]
   },
   "wikipedia:en:2026-11-17:8b192a294ace": {
-   "article_extract": "The Israeli Air Force has conducted numerous concerted aerial bombardment campaigns on the Gaza Strip during the Gaza war. Since the de jure enactment of a ceasefire in October 2025, strikes have continued but have become less frequent.",
-   "article_title": "Israeli bombing of the Gaza Strip",
+   "article_extract": "The Middle East is currently experiencing an ongoing series of interrelated wars, conflicts, and heightened instability, triggered by the ongoing Gaza war and the genocide in Gaza. These have primarily consisted of conflicts between Israel and the United States on one side, and Iran and militias…",
+   "article_title": "Middle Eastern crisis (2023–present)",
    "articles": [
     "Middle Eastern crisis (2023–present)",
     "Gaza war",
@@ -21275,18 +22071,18 @@
    "date": "2026-11-17",
    "date_source": "page_date",
    "first_seen": "2026-11-18T15:40:56Z",
-   "group_key": "pageid:76139149",
+   "group_key": "pageid:75895273",
    "guid": "wikipedia:en:2026-11-17:8b192a294ace",
    "html": "Five <a href=\"https://en.wikipedia.org/wiki/Palestinians\">Palestinians</a> are killed, including a child, and others are injured in a series of <a href=\"https://en.wikipedia.org/wiki/Israel_Defense_Forces\">Israeli</a> <a href=\"https://en.wikipedia.org/wiki/Airstrike\">airstrikes</a> on various areas of the <a href=\"https://en.wikipedia.org/wiki/Gaza_Strip\">Gaza Strip</a>, <a href=\"https://en.wikipedia.org/wiki/Palestine\">Palestine</a>.",
-   "link": "https://en.wikipedia.org/wiki/Israeli_bombing_of_the_Gaza_Strip",
-   "main_title": "Israeli bombing of the Gaza Strip",
+   "link": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)",
+   "main_title": "Middle Eastern crisis (2023–present)",
    "order": 23,
    "page": "Portal:Current events/2026 November 17",
    "page_date": "2026-11-17",
-   "pageid": 76139149,
+   "pageid": 75895273,
    "pos": 0,
    "pub_date": "2026-11-17T00:00:00Z",
-   "qid": "Q124618378",
+   "qid": "Q124373310",
    "sources": [
     {
      "name": "AA",
@@ -21295,24 +22091,54 @@
    ],
    "text": "Five Palestinians are killed, including a child, and others are injured in a series of Israeli airstrikes on various areas of the Gaza Strip, Palestine.",
    "title": "Five Palestinians are killed, including a child, and others are injured in a series of Israeli airstrikes on various areas of the Gaza Strip, Palestine.",
+   "topic_articles": [
+    {
+     "extract": "The Gaza war is an armed conflict in the Gaza Strip and Israel, fought as part of the unresolved Israeli–Palestinian and Gaza–Israel conflicts. The war began on 7 October 2023, when Palestinian militant group Hamas led an attack on Israel, in which 1,195 Israelis and foreign nationals were killed…",
+     "title": "Gaza war",
+     "url": "https://en.wikipedia.org/wiki/Gaza_war"
+    },
+    {
+     "extract": "The Israeli Air Force has conducted numerous concerted aerial bombardment campaigns on the Gaza Strip during the Gaza war. Since the de jure enactment of a ceasefire in October 2025, strikes have continued but have become less frequent.",
+     "title": "Israeli bombing of the Gaza Strip",
+     "url": "https://en.wikipedia.org/wiki/Israeli_bombing_of_the_Gaza_Strip"
+    }
+   ],
    "topics": [
     {
      "label": "Middle Eastern crisis",
+     "links": [
+      {
+       "text": "Middle Eastern crisis",
+       "title": "Middle Eastern crisis (2023–present)"
+      }
+     ],
      "title": "Middle Eastern crisis (2023–present)"
     },
     {
      "label": "Gaza war",
+     "links": [
+      {
+       "text": "Gaza war",
+       "title": "Gaza war"
+      }
+     ],
      "title": "Gaza war"
     },
     {
      "label": "Israeli bombing of the Gaza Strip",
+     "links": [
+      {
+       "text": "Israeli bombing of the Gaza Strip",
+       "title": "Israeli bombing of the Gaza Strip"
+      }
+     ],
      "title": "Israeli bombing of the Gaza Strip"
     }
    ]
   },
   "wikipedia:en:2026-11-17:a63ca0ac6571": {
-   "article_extract": "Russia has occupied the Crimean Peninsula of Ukraine since 2014, which started the Russo-Ukrainian war. Russia used Crimea as a base from which to launch its 2022 invasion of Ukraine, specifically its offensive on Southern Ukraine and the occupation of Kherson province and Zaporizhzhia province.",
-   "article_title": "Crimea attacks (2022–present)",
+   "article_extract": "On 24 February 2022, Russia invaded Ukraine, starting the largest and deadliest war in Europe since World War II, in a major escalation of the existing war between the two countries that began when Russia attacked Ukraine in 2014. The fighting has caused hundreds of thousands of military casualties…",
+   "article_title": "Russo-Ukrainian war (2022–present)",
    "articles": [
     "Russo-Ukrainian war (2022–present)",
     "Crimea attacks (2022–present)",
@@ -21328,18 +22154,18 @@
    "date": "2026-11-17",
    "date_source": "page_date",
    "first_seen": "2026-11-17T16:01:34Z",
-   "group_key": "pageid:71954377",
+   "group_key": "pageid:70149799",
    "guid": "wikipedia:en:2026-11-17:a63ca0ac6571",
    "html": "The <a href=\"https://en.wikipedia.org/wiki/Crimean_Bridge\">Crimean Bridge</a> is struck by <a href=\"https://en.wikipedia.org/wiki/Unmanned_Systems_Forces_of_Ukraine\">Ukrainian</a> <a href=\"https://en.wikipedia.org/wiki/Unmanned_aerial_vehicles\">drones</a> for the second day in a row, killing two people and prompting <a href=\"https://en.wikipedia.org/wiki/Russia\">Russian</a> <a href=\"https://en.wikipedia.org/wiki/Government_of_Russia\">authorities</a> to close vehicle traffic again. <a href=\"https://en.wikipedia.org/wiki/Open-source_intelligence\">Open-source intelligence</a> report that a section of the road bridge damaged yesterday has collapsed into the <a href=\"https://en.wikipedia.org/wiki/Kerch_Strait\">Kerch Strait</a>.",
-   "link": "https://en.wikipedia.org/wiki/Crimea_attacks_(2022%E2%80%93present)",
-   "main_title": "Crimea attacks (2022–present)",
+   "link": "https://en.wikipedia.org/wiki/Russo-Ukrainian_war_(2022%E2%80%93present)",
+   "main_title": "Russo-Ukrainian war (2022–present)",
    "order": 27,
    "page": "Portal:Current events/2026 November 17",
    "page_date": "2026-11-17",
-   "pageid": 71954377,
+   "pageid": 70149799,
    "pos": 4,
    "pub_date": "2026-11-17T16:01:34Z",
-   "qid": "Q114550059",
+   "qid": "Q110999040",
    "sources": [
     {
      "name": "Reuters",
@@ -21352,13 +22178,32 @@
    ],
    "text": "The Crimean Bridge is struck by Ukrainian drones for the second day in a row, killing two people and prompting Russian authorities to close vehicle traffic again. Open-source intelligence report that a section of the road bridge damaged yesterday has collapsed into the Kerch Strait.",
    "title": "The Crimean Bridge is struck by Ukrainian drones for the second day in a row, killing two people and prompting Russian authorities to close vehicle traffic again.",
+   "topic_articles": [
+    {
+     "extract": "Russia has occupied the Crimean Peninsula of Ukraine since 2014, which started the Russo-Ukrainian war. Russia used Crimea as a base from which to launch its 2022 invasion of Ukraine, specifically its offensive on Southern Ukraine and the occupation of Kherson province and Zaporizhzhia province.",
+     "title": "Crimea attacks (2022–present)",
+     "url": "https://en.wikipedia.org/wiki/Crimea_attacks_(2022%E2%80%93present)"
+    }
+   ],
    "topics": [
     {
      "label": "Russo-Ukrainian war",
+     "links": [
+      {
+       "text": "Russo-Ukrainian war",
+       "title": "Russo-Ukrainian war (2022–present)"
+      }
+     ],
      "title": "Russo-Ukrainian war (2022–present)"
     },
     {
      "label": "Crimea attacks",
+     "links": [
+      {
+       "text": "Crimea attacks",
+       "title": "Crimea attacks (2022–present)"
+      }
+     ],
      "title": "Crimea attacks (2022–present)"
     }
    ]
@@ -21487,6 +22332,12 @@
    "topics": [
     {
      "label": "Aftermath of the July Uprising",
+     "links": [
+      {
+       "text": "Aftermath of the July Uprising",
+       "title": "Aftermath of the July Uprising"
+      }
+     ],
      "title": "Aftermath of the July Uprising"
     }
    ]
@@ -21541,8 +22392,8 @@
    ]
   },
   "wikipedia:en:2026-11-17:c574bda6bb6f": {
-   "article_extract": "Since 28 February 2026, the United States and Israel have been at war with Iran and its regional allies, following the Twelve-Day War in June 2025 and sporadic fighting during the Middle Eastern crisis sparked by the Gaza war, which began in 2023. Amid ongoing US–Iran negotiations regarding Iran's…",
-   "article_title": "2026 Iran war",
+   "article_extract": "The Middle East is currently experiencing an ongoing series of interrelated wars, conflicts, and heightened instability, triggered by the ongoing Gaza war and the genocide in Gaza. These have primarily consisted of conflicts between Israel and the United States on one side, and Iran and militias…",
+   "article_title": "Middle Eastern crisis (2023–present)",
    "articles": [
     "Middle Eastern crisis (2023–present)",
     "2026 Iran war",
@@ -21555,18 +22406,18 @@
    "date": "2026-11-17",
    "date_source": "page_date",
    "first_seen": "2026-11-18T15:40:56Z",
-   "group_key": "pageid:82533582",
+   "group_key": "pageid:75895273",
    "guid": "wikipedia:en:2026-11-17:c574bda6bb6f",
    "html": "The <a href=\"https://en.wikipedia.org/wiki/United_States\">United States</a> <a href=\"https://en.wikipedia.org/wiki/United_States_Air_Force\">Air Force</a> conducts a series of at least six strikes on <a href=\"https://en.wikipedia.org/wiki/Qeshm_Island\">Qeshm Island</a>. The IRGC says it shot down a <a href=\"https://en.wikipedia.org/wiki/General_Atomics_MQ-9_Reaper\">General Atomics MQ-9 Reaper</a> drone south of the island.",
-   "link": "https://en.wikipedia.org/wiki/2026_Iran_war",
-   "main_title": "2026 Iran war",
+   "link": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)",
+   "main_title": "Middle Eastern crisis (2023–present)",
    "order": 26,
    "page": "Portal:Current events/2026 November 17",
    "page_date": "2026-11-17",
-   "pageid": 82533582,
+   "pageid": 75895273,
    "pos": 3,
    "pub_date": "2026-11-17T00:00:00Z",
-   "qid": "Q138503695",
+   "qid": "Q124373310",
    "sources": [
     {
      "name": "Reuters",
@@ -21579,13 +22430,32 @@
    ],
    "text": "The United States Air Force conducts a series of at least six strikes on Qeshm Island. The IRGC says it shot down a General Atomics MQ-9 Reaper drone south of the island.",
    "title": "The United States Air Force conducts a series of at least six strikes on Qeshm Island.",
+   "topic_articles": [
+    {
+     "extract": "Since 28 February 2026, the United States and Israel have been at war with Iran and its regional allies, following the Twelve-Day War in June 2025 and sporadic fighting during the Middle Eastern crisis sparked by the Gaza war, which began in 2023. Amid ongoing US–Iran negotiations regarding Iran's…",
+     "title": "2026 Iran war",
+     "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
+    }
+   ],
    "topics": [
     {
      "label": "Middle Eastern crisis",
+     "links": [
+      {
+       "text": "Middle Eastern crisis",
+       "title": "Middle Eastern crisis (2023–present)"
+      }
+     ],
      "title": "Middle Eastern crisis (2023–present)"
     },
     {
      "label": "2026 Iran war",
+     "links": [
+      {
+       "text": "2026 Iran war",
+       "title": "2026 Iran war"
+      }
+     ],
      "title": "2026 Iran war"
     }
    ]
@@ -21632,6 +22502,12 @@
    "topics": [
     {
      "label": "Measles resurgence in the Americas",
+     "links": [
+      {
+       "text": "Measles resurgence in the Americas",
+       "title": "Measles resurgence in the Americas"
+      }
+     ],
      "title": "Measles resurgence in the Americas"
     }
    ]
@@ -21680,13 +22556,19 @@
    "topics": [
     {
      "label": "Corruption in Mongolia",
+     "links": [
+      {
+       "text": "Corruption in Mongolia",
+       "title": "Corruption in Mongolia"
+      }
+     ],
      "title": "Corruption in Mongolia"
     }
    ]
   },
   "wikipedia:en:2026-11-17:dc705f30de3b": {
-   "article_extract": "After United States and Israel launched the 2026 Iran war, Iran conducted retaliatory missile and drone strikes on Bahrain. These began on 28 February 2026 with strikes on buildings in the capital of Manama, including the district of Juffair, where the US Navy's 5th Fleet is headquartered at Naval…",
-   "article_title": "Bahrain in the 2026 Iran war",
+   "article_extract": "The Middle East is currently experiencing an ongoing series of interrelated wars, conflicts, and heightened instability, triggered by the ongoing Gaza war and the genocide in Gaza. These have primarily consisted of conflicts between Israel and the United States on one side, and Iran and militias…",
+   "article_title": "Middle Eastern crisis (2023–present)",
    "articles": [
     "Middle Eastern crisis (2023–present)",
     "2026 Iran war",
@@ -21703,18 +22585,18 @@
    "date": "2026-11-17",
    "date_source": "page_date",
    "first_seen": "2026-11-17T16:01:34Z",
-   "group_key": "pageid:82555742",
+   "group_key": "pageid:75895273",
    "guid": "wikipedia:en:2026-11-17:dc705f30de3b",
    "html": "<a href=\"https://en.wikipedia.org/wiki/Bahrain\">Bahrain</a>'s <a href=\"https://en.wikipedia.org/wiki/Bahrain_Defence_Force\">military</a> intercepts a number of <a href=\"https://en.wikipedia.org/wiki/Unmanned_aerial_vehicles_in_the_Iranian_military\">drones</a> fired by <a href=\"https://en.wikipedia.org/wiki/Iran\">Iran</a>'s <a href=\"https://en.wikipedia.org/wiki/Islamic_Revolutionary_Guard_Corps\">Islamic Revolutionary Guard Corps</a> (IRGC) at <a href=\"https://en.wikipedia.org/wiki/Sheikh_Isa_Air_Base\">Sheikh Isa Air Base</a>.",
-   "link": "https://en.wikipedia.org/wiki/Bahrain_in_the_2026_Iran_war",
-   "main_title": "Bahrain in the 2026 Iran war",
+   "link": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)",
+   "main_title": "Middle Eastern crisis (2023–present)",
    "order": 25,
    "page": "Portal:Current events/2026 November 17",
    "page_date": "2026-11-17",
-   "pageid": 82555742,
+   "pageid": 75895273,
    "pos": 2,
    "pub_date": "2026-11-17T16:01:34Z",
-   "qid": "Q138531790",
+   "qid": "Q124373310",
    "sources": [
     {
      "name": "Al Jazeera",
@@ -21723,21 +22605,62 @@
    ],
    "text": "Bahrain's military intercepts a number of drones fired by Iran's Islamic Revolutionary Guard Corps (IRGC) at Sheikh Isa Air Base.",
    "title": "Bahrain's military intercepts a number of drones fired by Iran's Islamic Revolutionary Guard Corps (IRGC) at Sheikh Isa Air Base.",
+   "topic_articles": [
+    {
+     "extract": "Since 28 February 2026, the United States and Israel have been at war with Iran and its regional allies, following the Twelve-Day War in June 2025 and sporadic fighting during the Middle Eastern crisis sparked by the Gaza war, which began in 2023. Amid ongoing US–Iran negotiations regarding Iran's…",
+     "title": "2026 Iran war",
+     "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
+    },
+    {
+     "extract": "During the 2026 Iran war, Iran carried out a series of missile strikes and drone attacks against several Arab countries in the Middle East. They also involved security threats against territorial waters and maritime routes in the Strait of Hormuz.",
+     "title": "2026 Iranian strikes on Arab countries",
+     "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_Arab_countries"
+    },
+    {
+     "extract": "After United States and Israel launched the 2026 Iran war, Iran conducted retaliatory missile and drone strikes on Bahrain. These began on 28 February 2026 with strikes on buildings in the capital of Manama, including the district of Juffair, where the US Navy's 5th Fleet is headquartered at Naval…",
+     "title": "Bahrain in the 2026 Iran war",
+     "url": "https://en.wikipedia.org/wiki/Bahrain_in_the_2026_Iran_war"
+    }
+   ],
    "topics": [
     {
      "label": "Middle Eastern crisis",
+     "links": [
+      {
+       "text": "Middle Eastern crisis",
+       "title": "Middle Eastern crisis (2023–present)"
+      }
+     ],
      "title": "Middle Eastern crisis (2023–present)"
     },
     {
      "label": "2026 Iran war",
+     "links": [
+      {
+       "text": "2026 Iran war",
+       "title": "2026 Iran war"
+      }
+     ],
      "title": "2026 Iran war"
     },
     {
      "label": "2026 Iranian strikes on Arab countries",
+     "links": [
+      {
+       "text": "2026 Iranian strikes on Arab countries",
+       "title": "2026 Iranian strikes on Arab countries"
+      }
+     ],
      "title": "2026 Iranian strikes on Arab countries"
     },
     {
      "label": "2026 Iranian strikes on Bahrain",
+     "links": [
+      {
+       "text": "2026 Iranian strikes on Bahrain",
+       "title": "Bahrain in the 2026 Iran war"
+      }
+     ],
      "title": "Bahrain in the 2026 Iran war"
     }
    ]
@@ -21778,6 +22701,12 @@
    "topics": [
     {
      "label": "Crime in Costa Rica",
+     "links": [
+      {
+       "text": "Crime in Costa Rica",
+       "title": "Crime in Costa Rica"
+      }
+     ],
      "title": "Crime in Costa Rica"
     }
    ]
@@ -21828,6 +22757,12 @@
    "topics": [
     {
      "label": "Canada–China relations",
+     "links": [
+      {
+       "text": "Canada–China relations",
+       "title": "Canada–China relations"
+      }
+     ],
      "title": "Canada–China relations"
     }
    ]
@@ -21873,9 +22808,26 @@
    ],
    "text": "British foreign secretary Ed Miliband announces that the United Kingdom will sanction eight companies involved in the construction of settlements in the occupied West Bank, as well as Tzav 9 for its role in blocking humanitarian aid to the Gaza Strip.",
    "title": "British foreign secretary Ed Miliband announces that the United Kingdom will sanction eight companies involved in the construction of settlements in the occupied West Bank, as well as Tzav 9 for its…",
+   "topic_articles": [
+    {
+     "extract": "During the Gaza war, the United Kingdom government has supported Israel diplomatically, has shared Gaza surveillance information with Israel and has allowed arms sales to Israel's military. It has also condemned some of Israel's actions, including its killing of Palestinian civilians and blockade…",
+     "title": "United Kingdom and the Gaza war",
+     "url": "https://en.wikipedia.org/wiki/United_Kingdom_and_the_Gaza_war"
+    }
+   ],
    "topics": [
     {
      "label": "Israel–United Kingdom relations, United Kingdom and the Gaza war",
+     "links": [
+      {
+       "text": "Israel–United Kingdom relations",
+       "title": "Israel–United Kingdom relations"
+      },
+      {
+       "text": "United Kingdom and the Gaza war",
+       "title": "United Kingdom and the Gaza war"
+      }
+     ],
      "title": "Israel–United Kingdom relations"
     }
    ]
@@ -21921,6 +22873,12 @@
    "topics": [
     {
      "label": "Aftermath of the July Uprising",
+     "links": [
+      {
+       "text": "Aftermath of the July Uprising",
+       "title": "Aftermath of the July Uprising"
+      }
+     ],
      "title": "Aftermath of the July Uprising"
     }
    ]
@@ -22009,6 +22967,12 @@
    "topics": [
     {
      "label": "2026 Bangladesh garment workers protests",
+     "links": [
+      {
+       "text": "2026 Bangladesh garment workers protests",
+       "title": "2026 Bangladesh garment workers protests"
+      }
+     ],
      "title": "2026 Bangladesh garment workers protests"
     }
    ]
@@ -22050,6 +23014,12 @@
    "topics": [
     {
      "label": "Gaza war",
+     "links": [
+      {
+       "text": "Gaza war",
+       "title": "Gaza war"
+      }
+     ],
      "title": "Gaza war"
     }
    ]
@@ -22093,6 +23063,12 @@
    "topics": [
     {
      "label": "2026 Bangladesh garment workers protests",
+     "links": [
+      {
+       "text": "2026 Bangladesh garment workers protests",
+       "title": "2026 Bangladesh garment workers protests"
+      }
+     ],
      "title": "2026 Bangladesh garment workers protests"
     }
    ]
@@ -22133,13 +23109,19 @@
    "topics": [
     {
      "label": "Mexican drug war",
+     "links": [
+      {
+       "text": "Mexican drug war",
+       "title": "Mexican drug war"
+      }
+     ],
      "title": "Mexican drug war"
     }
    ]
   },
   "wikipedia:en:2026-11-18:646c956335de": {
-   "article_extract": "The diplomatic relationship between the United States of America and the Bolivarian Republic of Venezuela were strained during parts of the 21st century. Relations were strong during the second half of the 20th century.",
-   "article_title": "United States–Venezuela relations",
+   "article_extract": "Operation Southern Spear is a United States military and surveillance campaign launched in 2025 by the administration of US president Donald Trump with the declared aims of \"detecting, disrupting, and degrading transnational criminal and illicit maritime networks\". Some analysts say the operation…",
+   "article_title": "Operation Southern Spear",
    "articles": [
     "Operation Southern Spear",
     "United States–Venezuela relations",
@@ -22153,18 +23135,18 @@
    "date": "2026-11-18",
    "date_source": "page_date",
    "first_seen": "2026-11-19T18:58:22Z",
-   "group_key": "pageid:2071275",
+   "group_key": "pageid:81593523",
    "guid": "wikipedia:en:2026-11-18:646c956335de",
    "html": "United States secretary of defense Pete Hegseth and <a href=\"https://en.wikipedia.org/wiki/Acting_(law)\">acting</a> <a href=\"https://en.wikipedia.org/wiki/President_of_Venezuela\">Venezuelan president</a> <a href=\"https://en.wikipedia.org/wiki/Delcy_Rodr%C3%ADguez\">Delcy Rodríguez</a> sign a military cooperation agreement that includes joint training and intelligence sharing between the <a href=\"https://en.wikipedia.org/wiki/United_States_Armed_Forces\">United States</a> and <a href=\"https://en.wikipedia.org/wiki/Venezuelan_Armed_Forces\">Venezuelan armed forces</a>.",
-   "link": "https://en.wikipedia.org/wiki/United_States%E2%80%93Venezuela_relations",
-   "main_title": "United States–Venezuela relations",
+   "link": "https://en.wikipedia.org/wiki/Operation_Southern_Spear",
+   "main_title": "Operation Southern Spear",
    "order": 18,
    "page": "Portal:Current events/2026 November 18",
    "page_date": "2026-11-18",
-   "pageid": 2071275,
+   "pageid": 81593523,
    "pos": 12,
    "pub_date": "2026-11-18T00:00:00Z",
-   "qid": "Q6350649",
+   "qid": "Q136889101",
    "sources": [
     {
      "name": "Reuters",
@@ -22173,13 +23155,32 @@
    ],
    "text": "United States secretary of defense Pete Hegseth and acting Venezuelan president Delcy Rodríguez sign a military cooperation agreement that includes joint training and intelligence sharing between the United States and Venezuelan armed forces.",
    "title": "United States secretary of defense Pete Hegseth and acting Venezuelan president Delcy Rodríguez sign a military cooperation agreement that includes joint training and intelligence sharing between the…",
+   "topic_articles": [
+    {
+     "extract": "The diplomatic relationship between the United States of America and the Bolivarian Republic of Venezuela were strained during parts of the 21st century. Relations were strong during the second half of the 20th century.",
+     "title": "United States–Venezuela relations",
+     "url": "https://en.wikipedia.org/wiki/United_States%E2%80%93Venezuela_relations"
+    }
+   ],
    "topics": [
     {
      "label": "Operation Southern Spear",
+     "links": [
+      {
+       "text": "Operation Southern Spear",
+       "title": "Operation Southern Spear"
+      }
+     ],
      "title": "Operation Southern Spear"
     },
     {
      "label": "United States–Venezuela relations",
+     "links": [
+      {
+       "text": "United States–Venezuela relations",
+       "title": "United States–Venezuela relations"
+      }
+     ],
      "title": "United States–Venezuela relations"
     }
    ]
@@ -22255,13 +23256,19 @@
    "topics": [
     {
      "label": "Insurgency in Jammu and Kashmir",
+     "links": [
+      {
+       "text": "Insurgency in Jammu and Kashmir",
+       "title": "Insurgency in Jammu and Kashmir"
+      }
+     ],
      "title": "Insurgency in Jammu and Kashmir"
     }
    ]
   },
   "wikipedia:en:2026-11-18:7d73608ff67d": {
-   "article_extract": "Beginning on 16 November 2026, as part of the Russo-Ukrainian war, Ukrainian forces have repeatedly targeted the Crimean Bridge with missiles and drones, causing severe damage to the bridge and the destruction of the main span of its road bridge, as well as repeatedly stopping traffic across the…",
-   "article_title": "2026 Crimean Bridge explosions",
+   "article_extract": "The Russo-Ukrainian war began in February 2014 and is ongoing. Following Ukraine's Revolution of Dignity, Russia occupied Crimea and annexed it from Ukraine.",
+   "article_title": "Russo-Ukrainian war",
    "articles": [
     "Russo-Ukrainian War",
     "Crimea attacks (2022–present)",
@@ -22281,18 +23288,18 @@
    "date": "2026-11-18",
    "date_source": "page_date",
    "first_seen": "2026-11-19T15:46:16Z",
-   "group_key": "pageid:84832914",
+   "group_key": "pageid:42085878",
    "guid": "wikipedia:en:2026-11-18:7d73608ff67d",
    "html": "The <a href=\"https://en.wikipedia.org/wiki/Crimean_Bridge\">Crimean Bridge</a> connecting <a href=\"https://en.wikipedia.org/wiki/Taman,_Russia\">Taman</a>, <a href=\"https://en.wikipedia.org/wiki/Russia\">Russia</a>, and <a href=\"https://en.wikipedia.org/wiki/Kerch\">Kerch</a>, <a href=\"https://en.wikipedia.org/wiki/Russian_occupation_of_Crimea\">Russian-occupied</a> <a href=\"https://en.wikipedia.org/wiki/Crimea\">Crimea</a>, is struck by <a href=\"https://en.wikipedia.org/wiki/Ukraine\">Ukrainian</a> <a href=\"https://en.wikipedia.org/wiki/Armed_Forces_of_Ukraine\">forces</a> for the third time in four days, prompting <a href=\"https://en.wikipedia.org/wiki/Russia\">Russian</a> <a href=\"https://en.wikipedia.org/wiki/Government_of_Russia\">authorities</a> to close the bridge to all traffic.",
-   "link": "https://en.wikipedia.org/wiki/2026_Crimean_Bridge_explosions",
-   "main_title": "2026 Crimean Bridge explosions",
+   "link": "https://en.wikipedia.org/wiki/Russo-Ukrainian_war",
+   "main_title": "Russo-Ukrainian War",
    "order": 6,
    "page": "Portal:Current events/2026 November 18",
    "page_date": "2026-11-18",
-   "pageid": 84832914,
+   "pageid": 42085878,
    "pos": 0,
    "pub_date": "2026-11-18T00:00:00Z",
-   "qid": "Q142193498",
+   "qid": "Q15860072",
    "sources": [
     {
      "name": "AP",
@@ -22305,24 +23312,54 @@
    ],
    "text": "The Crimean Bridge connecting Taman, Russia, and Kerch, Russian-occupied Crimea, is struck by Ukrainian forces for the third time in four days, prompting Russian authorities to close the bridge to all traffic.",
    "title": "The Crimean Bridge connecting Taman, Russia, and Kerch, Russian-occupied Crimea, is struck by Ukrainian forces for the third time in four days, prompting Russian authorities to close the bridge to…",
+   "topic_articles": [
+    {
+     "extract": "Russia has occupied the Crimean Peninsula of Ukraine since 2014, which started the Russo-Ukrainian war. Russia used Crimea as a base from which to launch its 2022 invasion of Ukraine, specifically its offensive on Southern Ukraine and the occupation of Kherson province and Zaporizhzhia province.",
+     "title": "Crimea attacks (2022–present)",
+     "url": "https://en.wikipedia.org/wiki/Crimea_attacks_(2022%E2%80%93present)"
+    },
+    {
+     "extract": "Beginning on 16 November 2026, as part of the Russo-Ukrainian war, Ukrainian forces have repeatedly targeted the Crimean Bridge with missiles and drones, causing severe damage to the bridge and the destruction of the main span of its road bridge, as well as repeatedly stopping traffic across the…",
+     "title": "2026 Crimean Bridge explosions",
+     "url": "https://en.wikipedia.org/wiki/2026_Crimean_Bridge_explosions"
+    }
+   ],
    "topics": [
     {
      "label": "Russo-Ukrainian War",
+     "links": [
+      {
+       "text": "Russo-Ukrainian War",
+       "title": "Russo-Ukrainian War"
+      }
+     ],
      "title": "Russo-Ukrainian War"
     },
     {
      "label": "Crimea attacks",
+     "links": [
+      {
+       "text": "Crimea attacks",
+       "title": "Crimea attacks (2022–present)"
+      }
+     ],
      "title": "Crimea attacks (2022–present)"
     },
     {
      "label": "2026 Crimean Bridge explosions",
+     "links": [
+      {
+       "text": "2026 Crimean Bridge explosions",
+       "title": "2026 Crimean Bridge explosions"
+      }
+     ],
      "title": "2026 Crimean Bridge explosions"
     }
    ]
   },
   "wikipedia:en:2026-11-18:8788427b9400": {
-   "article_extract": "Since 21 October 2026, El Salvador has been conducting a military intervention in Haiti following a gang ambush on 18 October that resulted in four Salvadoran aviation technicians of the Gang Suppression Force (GSF) being kidnapped. According to Salvadoran president Nayib Bukele, the intervention's…",
-   "article_title": "Salvadoran military intervention in Haiti",
+   "article_extract": "Since 2020, Haiti's capital Port-au-Prince has been the site of an ongoing armed conflict between rival gangs and the state. The government of Haiti and national security forces have struggled to maintain their control of Port-au-Prince amid this conflict, with gangs speculated to control up to 90%…",
+   "article_title": "Haitian conflict",
    "articles": [
     "Haitian conflict",
     "Salvadoran military intervention in Haiti",
@@ -22336,18 +23373,18 @@
    "date": "2026-11-18",
    "date_source": "page_date",
    "first_seen": "2026-11-19T15:46:16Z",
-   "group_key": "pageid:84650932",
+   "group_key": "pageid:72691539",
    "guid": "wikipedia:en:2026-11-18:8788427b9400",
    "html": "<a href=\"https://en.wikipedia.org/wiki/El_Salvador\">Salvadoran</a> <a href=\"https://en.wikipedia.org/wiki/Armed_Forces_of_El_Salvador\">forces</a> destroy a house belonging to Jeff Larose, the leader of the Taliban gang that operates in <a href=\"https://en.wikipedia.org/wiki/Canaan,_Haiti\">Canaan</a>, <a href=\"https://en.wikipedia.org/wiki/Haiti\">Haiti</a>. The <a href=\"https://en.wikipedia.org/wiki/Gang_Suppression_Force\">Gang Suppression Force</a> says it was not involved.",
-   "link": "https://en.wikipedia.org/wiki/Salvadoran_military_intervention_in_Haiti",
-   "main_title": "Salvadoran military intervention in Haiti",
+   "link": "https://en.wikipedia.org/wiki/Haitian_conflict",
+   "main_title": "Haitian conflict",
    "order": 7,
    "page": "Portal:Current events/2026 November 18",
    "page_date": "2026-11-18",
-   "pageid": 84650932,
+   "pageid": 72691539,
    "pos": 1,
    "pub_date": "2026-11-18T00:00:00Z",
-   "qid": "Q141921562",
+   "qid": "Q116291120",
    "sources": [
     {
      "name": "AP",
@@ -22356,13 +23393,32 @@
    ],
    "text": "Salvadoran forces destroy a house belonging to Jeff Larose, the leader of the Taliban gang that operates in Canaan, Haiti. The Gang Suppression Force says it was not involved.",
    "title": "Salvadoran forces destroy a house belonging to Jeff Larose, the leader of the Taliban gang that operates in Canaan, Haiti.",
+   "topic_articles": [
+    {
+     "extract": "Since 21 October 2026, El Salvador has been conducting a military intervention in Haiti following a gang ambush on 18 October that resulted in four Salvadoran aviation technicians of the Gang Suppression Force (GSF) being kidnapped. According to Salvadoran president Nayib Bukele, the intervention's…",
+     "title": "Salvadoran military intervention in Haiti",
+     "url": "https://en.wikipedia.org/wiki/Salvadoran_military_intervention_in_Haiti"
+    }
+   ],
    "topics": [
     {
      "label": "Haitian conflict",
+     "links": [
+      {
+       "text": "Haitian conflict",
+       "title": "Haitian conflict"
+      }
+     ],
      "title": "Haitian conflict"
     },
     {
      "label": "Salvadoran military intervention in Haiti",
+     "links": [
+      {
+       "text": "Salvadoran military intervention in Haiti",
+       "title": "Salvadoran military intervention in Haiti"
+      }
+     ],
      "title": "Salvadoran military intervention in Haiti"
     }
    ]
@@ -22414,6 +23470,12 @@
    "topics": [
     {
      "label": "Aftermath of the July Uprising",
+     "links": [
+      {
+       "text": "Aftermath of the July Uprising",
+       "title": "Aftermath of the July Uprising"
+      }
+     ],
      "title": "Aftermath of the July Uprising"
     }
    ]
@@ -22489,6 +23551,12 @@
    "topics": [
     {
      "label": "Aftermath of the July Uprising",
+     "links": [
+      {
+       "text": "Aftermath of the July Uprising",
+       "title": "Aftermath of the July Uprising"
+      }
+     ],
      "title": "Aftermath of the July Uprising"
     }
    ]
@@ -22578,13 +23646,19 @@
    "topics": [
     {
      "label": "Aftermath of the July Uprising",
+     "links": [
+      {
+       "text": "Aftermath of the July Uprising",
+       "title": "Aftermath of the July Uprising"
+      }
+     ],
      "title": "Aftermath of the July Uprising"
     }
    ]
   },
   "wikipedia:en:2026-11-18:d43e398b7b07": {
-   "article_extract": "The relationship between Colombia and the United States evolved from a mutual cordiality during the 19th and early 20th centuries to an early-2000s partnership that linked the governments of both nations around several key issues; this includes fighting communism, the war on drugs, and the threat…",
-   "article_title": "Colombia–United States relations",
+   "article_extract": "Operation Southern Spear is a United States military and surveillance campaign launched in 2025 by the administration of US president Donald Trump with the declared aims of \"detecting, disrupting, and degrading transnational criminal and illicit maritime networks\". Some analysts say the operation…",
+   "article_title": "Operation Southern Spear",
    "articles": [
     "Operation Southern Spear",
     "Colombia–United States relations",
@@ -22598,18 +23672,18 @@
    "date": "2026-11-18",
    "date_source": "page_date",
    "first_seen": "2026-11-19T18:58:22Z",
-   "group_key": "pageid:4340865",
+   "group_key": "pageid:81593523",
    "guid": "wikipedia:en:2026-11-18:d43e398b7b07",
    "html": "<a href=\"https://en.wikipedia.org/wiki/United_States_secretary_of_defense\">United States secretary of defense</a> <a href=\"https://en.wikipedia.org/wiki/Pete_Hegseth\">Pete Hegseth</a> formally delivers a <a href=\"https://en.wikipedia.org/wiki/Lockheed_C-130_Hercules\">Lockheed C-130 Hercules</a> to <a href=\"https://en.wikipedia.org/wiki/Colombia\">Colombia</a> during a visit to the country to discuss military cooperation, including against <a href=\"https://en.wikipedia.org/wiki/Drug_cartel\">drug cartels</a>.",
-   "link": "https://en.wikipedia.org/wiki/Colombia%E2%80%93United_States_relations",
-   "main_title": "Colombia–United States relations",
+   "link": "https://en.wikipedia.org/wiki/Operation_Southern_Spear",
+   "main_title": "Operation Southern Spear",
    "order": 17,
    "page": "Portal:Current events/2026 November 18",
    "page_date": "2026-11-18",
-   "pageid": 4340865,
+   "pageid": 81593523,
    "pos": 11,
    "pub_date": "2026-11-18T00:00:00Z",
-   "qid": "Q651000",
+   "qid": "Q136889101",
    "sources": [
     {
      "name": "The Hill",
@@ -22618,13 +23692,32 @@
    ],
    "text": "United States secretary of defense Pete Hegseth formally delivers a Lockheed C-130 Hercules to Colombia during a visit to the country to discuss military cooperation, including against drug cartels.",
    "title": "United States secretary of defense Pete Hegseth formally delivers a Lockheed C-130 Hercules to Colombia during a visit to the country to discuss military cooperation, including against drug cartels.",
+   "topic_articles": [
+    {
+     "extract": "The relationship between Colombia and the United States evolved from a mutual cordiality during the 19th and early 20th centuries to an early-2000s partnership that linked the governments of both nations around several key issues; this includes fighting communism, the war on drugs, and the threat…",
+     "title": "Colombia–United States relations",
+     "url": "https://en.wikipedia.org/wiki/Colombia%E2%80%93United_States_relations"
+    }
+   ],
    "topics": [
     {
      "label": "Operation Southern Spear",
+     "links": [
+      {
+       "text": "Operation Southern Spear",
+       "title": "Operation Southern Spear"
+      }
+     ],
      "title": "Operation Southern Spear"
     },
     {
      "label": "Colombia–United States relations",
+     "links": [
+      {
+       "text": "Colombia–United States relations",
+       "title": "Colombia–United States relations"
+      }
+     ],
      "title": "Colombia–United States relations"
     }
    ]
@@ -22672,6 +23765,12 @@
    "topics": [
     {
      "label": "Bangladeshi cricket team in South Africa in 2026–27",
+     "links": [
+      {
+       "text": "Bangladeshi cricket team in South Africa in 2026–27",
+       "title": "Bangladeshi cricket team in South Africa in 2026–27"
+      }
+     ],
      "title": "Bangladeshi cricket team in South Africa in 2026–27"
     }
    ]
@@ -22706,8 +23805,8 @@
    "topics": []
   },
   "wikipedia:en:2026-11-19:3e31c0d56cad": {
-   "article_extract": "China and Russia share one of the world's most important foreign relationships. The two nations share interest in energy cooperation, military ties, and geopolitical alignment in challenging the collective West at large, including the United States.",
-   "article_title": "China–Russia relations",
+   "article_extract": "The APEC China 2026 was a year-long hosting of the Asia-Pacific Economic Cooperation (APEC) meetings, which concluded with the APEC Economic Leaders' Meeting in November 2026. It will be the third time China hosted the summit, having previously hosted in 2001 and 2014.",
+   "article_title": "APEC China 2026",
    "articles": [
     "APEC China 2026",
     "China–Russia relations",
@@ -22729,18 +23828,18 @@
    "date": "2026-11-19",
    "date_source": "page_date",
    "first_seen": "2026-11-19T15:46:16Z",
-   "group_key": "pageid:30964882",
+   "group_key": "pageid:81488503",
    "guid": "wikipedia:en:2026-11-19:3e31c0d56cad",
    "html": "<a href=\"https://en.wikipedia.org/wiki/Paramount_leader\">Chinese leader</a> <a href=\"https://en.wikipedia.org/wiki/Xi_Jinping\">Xi Jinping</a>, <a href=\"https://en.wikipedia.org/wiki/Russia\">Russian</a> <a href=\"https://en.wikipedia.org/wiki/President_of_Russia\">president</a> <a href=\"https://en.wikipedia.org/wiki/Vladimir_Putin\">Vladimir Putin</a>, and <a href=\"https://en.wikipedia.org/wiki/United_States\">United States</a> <a href=\"https://en.wikipedia.org/wiki/President_of_the_United_States\">president</a> <a href=\"https://en.wikipedia.org/wiki/Donald_Trump\">Donald Trump</a> hold their first trilateral meeting in Shenzhen during the APEC summit and issue a joint declaration addressing <a href=\"https://en.wikipedia.org/wiki/Nuclear_warfare\">nuclear war</a>, <a href=\"https://en.wikipedia.org/wiki/Petroleum_production\">petroleum production</a>, and <a href=\"https://en.wikipedia.org/wiki/United_Nations_reform\">United Nations reform</a>.",
-   "link": "https://en.wikipedia.org/wiki/China%E2%80%93Russia_relations",
-   "main_title": "China–Russia relations",
+   "link": "https://en.wikipedia.org/wiki/APEC_China_2026",
+   "main_title": "APEC China 2026",
    "order": 2,
    "page": "Portal:Current events/2026 November 19",
    "page_date": "2026-11-19",
-   "pageid": 30964882,
+   "pageid": 81488503,
    "pos": 2,
    "pub_date": "2026-11-19T15:46:16Z",
-   "qid": "Q130570",
+   "qid": "Q136689033",
    "sources": [
     {
      "name": "AFP",
@@ -22753,20 +23852,57 @@
    ],
    "text": "Chinese leader Xi Jinping, Russian president Vladimir Putin, and United States president Donald Trump hold their first trilateral meeting in Shenzhen during the APEC summit and issue a joint declaration addressing nuclear war, petroleum production, and United Nations reform.",
    "title": "Chinese leader Xi Jinping, Russian president Vladimir Putin, and United States president Donald Trump hold their first trilateral meeting in Shenzhen during the APEC summit and issue a joint…",
+   "topic_articles": [
+    {
+     "extract": "China and Russia share one of the world's most important foreign relationships. The two nations share interest in energy cooperation, military ties, and geopolitical alignment in challenging the collective West at large, including the United States.",
+     "title": "China–Russia relations",
+     "url": "https://en.wikipedia.org/wiki/China%E2%80%93Russia_relations"
+    },
+    {
+     "extract": "The relationship between the People's Republic of China (PRC) and the United States (US) has been complex and at times tense since the establishment of the PRC on 1 October 1949 and the subsequent retreat of the government of the Republic of China to Taiwan. After the normalization of relations in…",
+     "title": "China–United States relations",
+     "url": "https://en.wikipedia.org/wiki/China%E2%80%93United_States_relations"
+    },
+    {
+     "extract": "The United States and Russia maintain strategic foreign relations since the establishment in 1991, a continuation of the relationship the United States has had with various Russian governments since 1803. While both nations have shared interests in nuclear safety and security, non-proliferation…",
+     "title": "Russia–United States relations",
+     "url": "https://en.wikipedia.org/wiki/Russia%E2%80%93United_States_relations"
+    }
+   ],
    "topics": [
     {
      "label": "APEC China 2026",
+     "links": [
+      {
+       "text": "APEC China 2026",
+       "title": "APEC China 2026"
+      }
+     ],
      "title": "APEC China 2026"
     },
     {
      "label": "China–Russia relations, China–United States relations, Russia–United States relations",
+     "links": [
+      {
+       "text": "China–Russia relations",
+       "title": "China–Russia relations"
+      },
+      {
+       "text": "China–United States relations",
+       "title": "China–United States relations"
+      },
+      {
+       "text": "Russia–United States relations",
+       "title": "Russia–United States relations"
+      }
+     ],
      "title": "China–Russia relations"
     }
    ]
   },
   "wikipedia:en:2026-11-19:63cc3f4b4a90": {
-   "article_extract": "Chile–Philippines relations are the interstate and bilateral relations between Chile and the Philippines. Both nations were both parts of the Spanish Empire and during colonial times they freely traveled to each other's geographic location.",
-   "article_title": "Chile–Philippines relations",
+   "article_extract": "The APEC China 2026 was a year-long hosting of the Asia-Pacific Economic Cooperation (APEC) meetings, which concluded with the APEC Economic Leaders' Meeting in November 2026. It will be the third time China hosted the summit, having previously hosted in 2001 and 2014.",
+   "article_title": "APEC China 2026",
    "articles": [
     "APEC China 2026",
     "Chile–Philippines relations",
@@ -22782,18 +23918,18 @@
    "date": "2026-11-19",
    "date_source": "page_date",
    "first_seen": "2026-11-19T15:46:16Z",
-   "group_key": "pageid:38705589",
+   "group_key": "pageid:81488503",
    "guid": "wikipedia:en:2026-11-19:63cc3f4b4a90",
    "html": "The <a href=\"https://en.wikipedia.org/wiki/Philippines\">Philippines</a> and <a href=\"https://en.wikipedia.org/wiki/Chile\">Chile</a> sign a <a href=\"https://en.wikipedia.org/wiki/Free_trade_agreement\">free trade agreement</a> as part of the 33rd <a href=\"https://en.wikipedia.org/wiki/Asia-Pacific_Economic_Cooperation\">Asia-Pacific Economic Cooperation</a> Economic Leaders' Meeting in <a href=\"https://en.wikipedia.org/wiki/Shenzhen\">Shenzhen</a>, <a href=\"https://en.wikipedia.org/wiki/China\">China</a>, marking the former's first such agreement with a <a href=\"https://en.wikipedia.org/wiki/Latin_America\">Latin American</a> country.",
-   "link": "https://en.wikipedia.org/wiki/Chile%E2%80%93Philippines_relations",
-   "main_title": "Chile–Philippines relations",
+   "link": "https://en.wikipedia.org/wiki/APEC_China_2026",
+   "main_title": "APEC China 2026",
    "order": 1,
    "page": "Portal:Current events/2026 November 19",
    "page_date": "2026-11-19",
-   "pageid": 38705589,
+   "pageid": 81488503,
    "pos": 1,
    "pub_date": "2026-11-19T15:46:16Z",
-   "qid": "Q15948907",
+   "qid": "Q136689033",
    "sources": [
     {
      "name": "Philippine Daily Inquirer",
@@ -22802,13 +23938,32 @@
    ],
    "text": "The Philippines and Chile sign a free trade agreement as part of the 33rd Asia-Pacific Economic Cooperation Economic Leaders' Meeting in Shenzhen, China, marking the former's first such agreement with a Latin American country.",
    "title": "The Philippines and Chile sign a free trade agreement as part of the 33rd Asia-Pacific Economic Cooperation Economic Leaders' Meeting in Shenzhen, China, marking the former's first such agreement…",
+   "topic_articles": [
+    {
+     "extract": "Chile–Philippines relations are the interstate and bilateral relations between Chile and the Philippines. Both nations were both parts of the Spanish Empire and during colonial times they freely traveled to each other's geographic location.",
+     "title": "Chile–Philippines relations",
+     "url": "https://en.wikipedia.org/wiki/Chile%E2%80%93Philippines_relations"
+    }
+   ],
    "topics": [
     {
      "label": "APEC China 2026",
+     "links": [
+      {
+       "text": "APEC China 2026",
+       "title": "APEC China 2026"
+      }
+     ],
      "title": "APEC China 2026"
     },
     {
      "label": "Chile–Philippines relations",
+     "links": [
+      {
+       "text": "Chile–Philippines relations",
+       "title": "Chile–Philippines relations"
+      }
+     ],
      "title": "Chile–Philippines relations"
     }
    ]
@@ -22848,6 +24003,12 @@
    "topics": [
     {
      "label": "Somalia–United Arab Emirates relations",
+     "links": [
+      {
+       "text": "Somalia–United Arab Emirates relations",
+       "title": "Somalia–United Arab Emirates relations"
+      }
+     ],
      "title": "Somalia–United Arab Emirates relations"
     }
    ]
@@ -22894,6 +24055,12 @@
    "topics": [
     {
      "label": "Corruption in Mongolia",
+     "links": [
+      {
+       "text": "Corruption in Mongolia",
+       "title": "Corruption in Mongolia"
+      }
+     ],
      "title": "Corruption in Mongolia"
     }
    ]
@@ -22935,6 +24102,12 @@
    "topics": [
     {
      "label": "Rohingya genocide case",
+     "links": [
+      {
+       "text": "Rohingya genocide case",
+       "title": "Rohingya genocide case"
+      }
+     ],
      "title": "Rohingya genocide case"
     }
    ]
@@ -22996,5 +24169,5 @@
    "topics": []
   }
  },
- "updated": "2026-11-19T18:58:22Z"
+ "updated": "2026-11-19T20:16:29Z"
 }
