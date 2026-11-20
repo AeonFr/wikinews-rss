@@ -4,6 +4,7 @@ import json
 import os
 import tempfile
 import unittest
+import xml.etree.ElementTree as ET
 import urllib.error
 
 from wikipedia_rss import feed, sources
@@ -160,3 +161,59 @@ class PipelineTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class ImageTest(unittest.TestCase):
+    MEMBERS = [{"sources": [{"name": "A", "url": "https://a.org/1"}, {"name": "B", "url": "https://b.org/2"}]},
+               {"sources": [{"name": "C", "url": "https://c.org/3"}]}]
+
+    def test_story_image_is_the_first_one_found_in_order(self):
+        cache = {"https://a.org/1": {"preview": {"title": "No image"}, "checked": "x"},
+                 "https://b.org/2": {"fails": 1, "checked": "x", "error": "HTTP 403"},
+                 "https://c.org/3": {"preview": {"title": "T", "image": "https://c.org/i.jpg"}, "checked": "x"}}
+        self.assertEqual(sources.story_image(self.MEMBERS, cache),
+                         {"url": "https://c.org/i.jpg", "source": "C", "link": "https://c.org/3"})
+        self.assertIsNone(sources.story_image(self.MEMBERS, {}))
+        self.assertIsNone(sources.story_image(self.MEMBERS, None))
+
+    def test_only_featured_stories_get_an_image(self):
+        cache = {"https://a.org/1": {"preview": {"title": "T", "image": "https://a.org/i.jpg"}, "checked": "x"}}
+        src = [{"name": "A", "url": "https://a.org/1"}]
+        single = [{"pageid": 1, "sources": src}]              # one headline, with an article
+        grouped = [{"pageid": 1, "sources": src}, {"pageid": 1, "sources": []}]
+        portal = [{"sources": src}]                           # straight from the portal: no article
+        self.assertIsNone(sources.featured_image(single, cache))
+        self.assertEqual(sources.featured_image(grouped, cache)["url"], "https://a.org/i.jpg")
+        self.assertEqual(sources.featured_image(portal, cache)["url"], "https://a.org/i.jpg")
+
+    def test_image_reaches_the_feed_and_the_website_data_in_the_same_run(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            dirs = dict(state_dir=tmp + "/s", out_dir=tmp + "/f", data_dir=tmp + "/d")
+            feed.run(WIKI, en_client(), NOW,
+                     fetch_source=lambda u: ({"title": "T", "image": "https://img.example/a.jpg?x=1&y=2"}, ""), **dirs)
+            with open(tmp + "/d/news.json", encoding="utf-8") as f:
+                stories = json.load(f)["stories"]
+            featured = [s for s in stories if len(s["headlines"]) > 1 or not s["article"]]
+            self.assertTrue(featured)
+            for s in stories:
+                self.assertEqual("image" in s, s in featured, s["title"])
+            self.assertEqual(featured[0]["image"]["url"], "https://img.example/a.jpg?x=1&y=2")
+            root = ET.parse(tmp + "/f/en.xml").getroot()
+            items = root.findall("channel/item")
+            with_media = [i for i in items if i.find("{http://search.yahoo.com/mrss/}content") is not None]
+            self.assertEqual(len(with_media), len(featured))
+            item = with_media[0]
+            media = item.find("{http://search.yahoo.com/mrss/}content")
+            self.assertEqual((media.get("url"), media.get("medium")), ("https://img.example/a.jpg?x=1&y=2", "image"))
+            self.assertIn('<img src="https://img.example/a.jpg?x=1&amp;y=2"', item.findtext("description"))
+            self.assertIn("Image: ", item.findtext("description"))
+            for i in items:
+                if i not in with_media:
+                    self.assertNotIn("<img", i.findtext("description"))
+
+    def test_no_previews_no_image(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            feed.run(WIKI, en_client(), NOW, state_dir=tmp + "/s", out_dir=tmp + "/f", data_dir=tmp + "/d")
+            with open(tmp + "/d/news.json", encoding="utf-8") as f:
+                self.assertFalse(any("image" in s for s in json.load(f)["stories"]))
+            self.assertNotIn("<img", open(tmp + "/f/en.xml", encoding="utf-8").read())

@@ -13,6 +13,7 @@
     error: "Couldn’t load the news. Try again later.",
     empty: "There are no news yet.",
     aboutLabel: "About the article",
+    imageFrom: "Image: {source}",
     prevDay: "Prev",
     nextDay: "Next",
     sourcesHeading: "From the sources",
@@ -164,10 +165,23 @@
   // The entries of a feature are set larger, and its columns are narrower, so its
   // thresholds are higher.
   var FEATURE_SHORT_MAX = 280, FEATURE_LONG_MIN = 500;
+  // A text next to the image in a feature may be at most this long (for a typical 16:9 image): more wraps to more lines
+  // than the one-column image is tall, which stretches the row and leaves a gap under it.
+  var IMAGE_BESIDE_MAX = 170;
 
   // The front page lists only the most recent days; the full history in data/news.json
   // is kept for the "More on …" lists on story pages.
   var HOME_DAYS = 30;
+
+  // "About the article": the start of the Wikipedia article's text and a link to it.
+  function aboutBlock(node, article) {
+    node.appendChild(el("p", "about-label", t("aboutLabel")));
+    if (article.extract) node.appendChild(el("p", "about-text", article.extract));
+    var read = link(article.url, t("moreCta"));
+    read.className = "about-link";
+    node.appendChild(read);
+    return node;
+  }
 
   function sizeOf(n, shortMax, longMin) {
     shortMax = shortMax || SHORT_MAX;
@@ -191,6 +205,26 @@
     return p;
   }
 
+  // The image of one of the story's sources (data/news.json "image"), linking to the story;
+  // dropped if it does not load. null when the story has none.
+  function tileImage(s) {
+    var image = s.image;
+    if (!image || !/^https?:\/\//i.test(image.url)) return null;
+    var a = link(storyHref(s), "");
+    a.className = "tile-image";
+    a.setAttribute("tabindex", "-1");       // the headline is the link for keyboards and readers
+    a.setAttribute("aria-hidden", "true");
+    var img = document.createElement("img");
+    img.setAttribute("src", image.url);
+    img.setAttribute("alt", "");
+    if (image.source) img.setAttribute("title", fill(T.imageFrom, { source: image.source }));
+    img.setAttribute("loading", "lazy");
+    img.setAttribute("referrerpolicy", "no-referrer");
+    img.addEventListener("error", function () { a.remove(); });
+    a.appendChild(img);
+    return a;
+  }
+
   function storyTile(s) {
     var texts = s.headlines.map(function (h) { return plainText(h.html).trim(); });
     var li = el(s.article ? "li" : "div");  // portal tiles are not list items
@@ -200,8 +234,18 @@
       // portal section of the day, sized by text length like the other tiles.
       kind = sizeOf(texts.join(" ").length);
       portal = true;
-      li.appendChild(slug(s));
-      texts.forEach(function (text) { li.appendChild(textLink(s, text)); });
+      // With an image the tile is a small grid of its own: the image takes one column and
+      // the text the rest (see layoutTiles).
+      var pic = tileImage(s);
+      var body = pic ? el("div", "tile-text") : li;
+      body.appendChild(slug(s));
+      texts.forEach(function (text) { body.appendChild(textLink(s, text)); });
+      if (pic) {
+        li.className = "has-image";
+        li.appendChild(pic);
+        li.appendChild(body);
+        return { li: li, kind: kind, portal: true, hasImage: true, length: texts.join(" ").length, pic: pic, body: body };
+      }
     } else if (texts.length > 1) {
       kind = "feature";
       li.className = "feature";
@@ -216,20 +260,25 @@
       // height of the box, and the entries are laid out in the columns next to it (see
       // layoutFeature).
       var box = el("div", "feature-body");
-      var about = el("div", "about");
-      about.appendChild(el("p", "about-label", t("aboutLabel")));
-      if (s.article.extract) about.appendChild(el("p", "about-text", s.article.extract));
-      var read = link(s.article.url, t("moreCta"));
-      read.className = "about-link";
-      about.appendChild(read);
+      var about = aboutBlock(el("div", "about"), s.article);
       box.appendChild(about);
-      var entries = texts.map(function (text) {
+      // The image is one more item of the grid, one column wide, before the entries.
+      var featurePic = tileImage(s);
+      var entries = [];
+      if (featurePic) {
+        box.appendChild(featurePic);
+        entries.push({ li: featurePic, kind: "short", length: 0, fixed: true });
+      }
+      // Shortest first: the first text is the one that ends up next to the image, and a short
+      // one is the least likely to make the image grow (see layoutFeature).
+      texts.slice().sort(function (x, y) { return x.length - y.length; }).forEach(function (text) {
         var p = textLink(s, text);
         box.appendChild(p);
-        return { li: p, kind: sizeOf(text.length, FEATURE_SHORT_MAX, FEATURE_LONG_MIN), length: text.length };
+        entries.push({ li: p, kind: sizeOf(text.length, FEATURE_SHORT_MAX, FEATURE_LONG_MIN), length: text.length });
       });
       li.appendChild(box);
-      return { li: li, kind: kind, portal: false, length: texts.join(" ").length, body: box, about: about, entries: entries };
+      return { li: li, kind: kind, portal: false, hasImage: !!featurePic, length: texts.join(" ").length,
+               body: box, about: about, entries: entries };
     } else {
       kind = sizeOf(texts[0].length);
       li.appendChild(slug(s));
@@ -253,6 +302,7 @@
     var rows = [];
     tiles.forEach(function (tile) {
       var need = tile.kind === "feature" ? cols : tile.kind === "long" ? Math.min(2, cols) : 1;
+      if (tile.pic) need = cols;  // image: always one column, the text takes the rest
       var row = null;
       for (var i = 0; i < rows.length && !row; i++) {
         if (cols - rows[i].used >= need) row = rows[i];
@@ -264,11 +314,13 @@
     });
     rows.forEach(function (row) {
       for (var i = 0; i < row.tiles.length && row.used < cols; i++) {
-        if (row.tiles[i].kind === "flex") { row.tiles[i].span = 2; row.used++; break; }
+        if (row.tiles[i].kind === "flex") { row.tiles[i].span++; row.used++; break; }
       }
       if (row.used < cols) {
-        var longest = row.tiles[0];
-        row.tiles.forEach(function (tile) { if (tile.length > longest.length) longest = tile; });
+        var growing = row.tiles.filter(function (tile) { return !tile.fixed; });  // not the image
+        if (!growing.length) growing = row.tiles;
+        var longest = growing[0];
+        growing.forEach(function (tile) { if (tile.length > longest.length) longest = tile; });
         longest.span += cols - row.used;
         row.used = cols;
       }
@@ -283,6 +335,12 @@
         if (list) list.appendChild(tile.li);  // reading order follows the visual order
         tile.li.style.gridRow = explicit ? String(rowIndex + 1) : "";
         tile.li.style.gridColumn = explicit ? col + " / span " + tile.span : "";
+        if (tile.pic) {
+          // The tile's own columns are the page's: the image is the first, the text the rest.
+          var n = cols > 1 ? tile.span : 1;
+          tile.li.style.setProperty("--n", String(n));
+          tile.body.style.gridColumn = n > 1 ? "2 / -1" : "";
+        }
         col += tile.span;
       });
     });
@@ -298,7 +356,21 @@
       layoutTiles(tile.entries, 1);
       return;
     }
+    var image = tile.entries.filter(function (e) { return e.fixed; })[0];
+    if (image) image.kind = "short";   // one column, next to the entries...
     var rows = layoutTiles(tile.entries, cols - 1, 1);
+    if (image && cols - 1 > 1) {
+      // ...unless a long text ended up in its row: then the image takes the whole width of
+      // the entries, on a row of its own, and the texts go below it.
+      var row = image.li.style.gridRow;
+      var crowded = tile.entries.some(function (e) {
+        return e !== image && e.li.style.gridRow === row && e.length > IMAGE_BESIDE_MAX;
+      });
+      if (crowded) {
+        image.kind = "feature";
+        rows = layoutTiles(tile.entries, cols - 1, 1);
+      }
+    }
     tile.about.style.gridColumn = "1";
     tile.about.style.gridRow = "1 / span " + rows;
   }
@@ -375,6 +447,12 @@
       if (day.features.length) day.section.appendChild(day.featureList);
       if (day.tiles.length) day.section.appendChild(day.list);
     });
+    // Within the portal entries and within the grouped boxes, those with an image come first.
+    grids.forEach(function (day) {
+      [day.portal, day.features].forEach(function (list) {
+        list.sort(function (a, b) { return (b.hasImage ? 1 : 0) - (a.hasImage ? 1 : 0); });
+      });
+    });
     layoutAll();
   }
 
@@ -382,12 +460,46 @@
 
   var storyId = params.get("id");
 
-  function sourcesLine(h) {
+  // Headlines of a story that cite the same outlets, under the same topics and from the same
+  // portal page are shown together, once, with their sources and topics (in order of first
+  // appearance, whether or not they are next to each other in the story).
+  function groupHeadlines(headlines) {
+    var groups = [], index = {};
+    headlines.forEach(function (h) {
+      var key = JSON.stringify([h.sources.map(function (s) { return s.name || s.url; }).sort(),
+                                h.topics.map(function (topic) { return topic.label; }), h.page.url]);
+      if (index[key] == null) { index[key] = groups.length; groups.push([]); }
+      groups[index[key]].push(h);
+    });
+    return groups;
+  }
+
+  // The sources of a group of headlines: each outlet once, with a numbered link per page
+  // when the headlines cite several pages of it ("Al Jazeera (1, 2, 3)").
+  function sourcesLine(group) {
     var p = el("p", "headline-meta");
     p.appendChild(document.createTextNode(t("sourcesLabel") + ": "));
-    h.sources.forEach(function (s, i) {
+    var names = [], urls = {};
+    group.forEach(function (h) {
+      h.sources.forEach(function (s) {
+        var name = s.name || s.url;
+        if (!urls[name]) { urls[name] = []; names.push(name); }
+        if (urls[name].indexOf(s.url) < 0) urls[name].push(s.url);
+      });
+    });
+    names.forEach(function (name, i) {
       if (i) p.appendChild(document.createTextNode(", "));
-      p.appendChild(/^https?:\/\//i.test(s.url) ? link(s.url, s.name || s.url) : document.createTextNode(s.name || s.url));
+      var list = urls[name].filter(function (u) { return /^https?:\/\//i.test(u); });
+      if (urls[name].length === 1) {
+        p.appendChild(list.length ? link(list[0], name) : document.createTextNode(name));
+        return;
+      }
+      p.appendChild(document.createTextNode(name + " ("));
+      list.forEach(function (u, j) {
+        if (j) p.appendChild(document.createTextNode(", "));
+        p.appendChild(link(u, String(j + 1)));
+      });
+      p.appendChild(document.createTextNode(")"));
     });
     return p;
   }
@@ -474,13 +586,17 @@
   function renderSourceCards(story) {
     var box = $("source-cards");
     clear(box);
+    // Different links can lead to the same page (a live blog's ?update=… links, say): one
+    // card per distinct preview.
     var seen = {}, cards = [];
     story.headlines.forEach(function (h) {
       h.sources.forEach(function (src) {
-        if (seen[src.url]) return;
-        seen[src.url] = true;
         var preview = previews[src.url];
-        if (preview && preview.title && /^https?:\/\//i.test(src.url)) cards.push(sourceCard(src, preview));
+        if (!preview || !preview.title || !/^https?:\/\//i.test(src.url)) return;
+        var key = (preview.site || "") + "\n" + preview.title + "\n" + (preview.image || "");
+        if (seen[src.url] || seen[key]) return;
+        seen[src.url] = seen[key] = true;
+        cards.push(sourceCard(src, preview));
       });
     });
     if (!cards.length) return;
@@ -552,14 +668,17 @@
 
     var list = $("headlines");
     clear(list);
-    story.headlines.forEach(function (h) {
+    groupHeadlines(story.headlines).forEach(function (group) {
       var li = el("li");
-      var text = el("p", "headline-text");
-      appendInline(text, h.html);
-      li.appendChild(text);
-      if (h.sources.length) li.appendChild(sourcesLine(h));
-      if (h.topics.length) li.appendChild(topicsLine(h));
-      li.appendChild(pageLine(h));
+      group.forEach(function (h) {
+        var text = el("p", "headline-text");
+        appendInline(text, h.html);
+        li.appendChild(text);
+      });
+      var first = group[0];
+      if (group.some(function (h) { return h.sources.length; })) li.appendChild(sourcesLine(group));
+      if (first.topics.length) li.appendChild(topicsLine(first));
+      li.appendChild(pageLine(first));
       list.appendChild(li);
     });
 

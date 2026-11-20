@@ -5,10 +5,13 @@ from email.utils import format_datetime
 
 from .config import LICENSE_NAME, LICENSE_URL
 from .site import story_url
+from .sources import featured_image
 from .state import parse_iso
 
 ATOM = "http://www.w3.org/2005/Atom"
+MEDIA = "http://search.yahoo.com/mrss/"
 ET.register_namespace("atom", ATOM)
+ET.register_namespace("media", MEDIA)
 
 
 def _link(url, label):
@@ -40,7 +43,14 @@ def _attribution(page, cfg):
         license=_link(LICENSE_URL, LICENSE_NAME))
 
 
-def item_description(item, cfg):
+def _image(image):
+    """The image of a story's source, with where it comes from."""
+    return '<p><a href="%s"><img src="%s" alt=""></a><br><small>%s</small></p>' % (
+        html.escape(image["link"]), html.escape(image["url"]),
+        html.escape("Image: %s" % image["source"] if image["source"] else "Image", quote=False))
+
+
+def item_description(item, cfg, image=None):
     """One headline: text, sources, topics, attribution.
 
     A group lists each headline with its sources (in title order), then the topics once,
@@ -48,15 +58,16 @@ def item_description(item, cfg):
     """
     s = cfg.strings
     members = item.get("members") or [item]
+    lead = [_image(image)] if image else []
     if len(members) == 1:
         it = members[0]
-        parts = ["<p>%s</p>" % it["html"]]
+        parts = lead + ["<p>%s</p>" % it["html"]]
         if it.get("sources"):
             parts.append(_sources(it, s))
         parts.append(_topics(it, cfg))
         parts.append(_attribution(it["page"], cfg))
         return "\n".join(p for p in parts if p)
-    parts = []
+    parts = list(lead)
     for it in members:
         parts.append("<p>%s</p>" % it["html"])
         if it.get("sources"):
@@ -77,12 +88,14 @@ def _categories(item):
     return [c for i, c in enumerate(cats) if c and c not in cats[:i]]
 
 
-def build_rss(cfg, items, last_build, site_url=None):
+def build_rss(cfg, items, last_build, site_url=None, previews=None):
     """last_build: time of the last real change (not the run time), so that an
     unchanged feed is byte-for-byte identical between runs.
 
     With site_url (the website's root URL) each item links to its story page there, which
     lists every headline of the item in full; without it, to the Wikipedia article.
+    previews (the source cache, see sources.load_cache) adds the image of the first source that
+    has one to the grouped items and to those straight from the portal (not to the others).
     """
     portal_url = site_url or cfg.url(cfg.portal)
     rss = ET.Element("rss", {"version": "2.0"})
@@ -113,10 +126,13 @@ def build_rss(cfg, items, last_build, site_url=None):
         el = sub(ch, "item")
         sub(el, "title", it["title"])
         sub(el, "link", story_url(site_url, it["guid"]) if site_url else it["link"])
-        sub(el, "description", item_description(it, cfg))
+        image = featured_image(it.get("members") or [it], previews)
+        sub(el, "description", item_description(it, cfg, image))
         sub(el, "guid", it["guid"], isPermaLink="false")
         sub(el, "pubDate", format_datetime(parse_iso(it["pub_date"]), usegmt=True))
         for cat in _categories(it):
             sub(el, "category", cat)
+        if image:
+            sub(el, "{%s}content" % MEDIA, url=image["url"], medium="image")
     ET.indent(rss)
     return '<?xml version="1.0" encoding="UTF-8"?>\n' + ET.tostring(rss, encoding="unicode") + "\n"

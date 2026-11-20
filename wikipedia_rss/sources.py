@@ -211,6 +211,31 @@ def dump_data(cache, urls):
     return json.dumps({"sources": found}, ensure_ascii=False, indent=1, sort_keys=True) + "\n"
 
 
+def story_image(members, cache):
+    """The first image found among the sources of a story's headlines (in their order), or None.
+
+    members: the story's headlines; cache: URL -> cache entry, as in load_cache. Returns
+    {"url", "source" (the outlet's name), "link" (the source page the image comes from)}.
+    """
+    for m in members:
+        for src in m.get("sources", []):
+            preview = (cache or {}).get(src["url"], {}).get("preview") or {}
+            if preview.get("image"):
+                return {"url": preview["image"], "source": src.get("name") or preview.get("site") or "",
+                        "link": src["url"]}
+    return None
+
+
+def featured_image(members, cache):
+    """story_image, but only for the stories that are featured: those with several headlines
+    (grouped) and those straight from the portal (no Wikipedia article). A story with a
+    single headline and an article gets none.
+    """
+    if len(members) == 1 and any(m.get("pageid") for m in members):
+        return None
+    return story_image(members, cache)
+
+
 def _iso(now):
     return now.astimezone(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 

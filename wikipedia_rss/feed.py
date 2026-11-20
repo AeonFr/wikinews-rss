@@ -153,9 +153,7 @@ def run(cfg, client, now, days=7, max_items=50, state_dir="state", out_dir="feed
     backfill_extracts(cfg, client, state, pages)
     last_build = st.parse_iso(state["updated"])
     feed_items = st.latest(state, max_items)
-    xml = rss.build_rss(cfg, feed_items, last_build, site_url)
     stories = st.latest(state, None)
-    data = site.dump_data(site.build_data(cfg, stories, state["updated"], retention_days))
     source_urls = [s["url"] for it in stories for m in (it.get("members") or [it]) for s in m.get("sources", [])]
     sources_path = os.path.join(state_dir, "sources.json")
     sources_cache = sources.load_cache(sources_path)
@@ -166,6 +164,9 @@ def run(cfg, client, now, days=7, max_items=50, state_dir="state", out_dir="feed
                      cfg.code, stats["fetched"], stats["found"], stats["failed"])
         except Exception as e:  # previews are optional: never fail the run because of them
             log.warning("%s: source previews skipped: %s", cfg.code, e)
+    # Built after the previews so a story gets its image as soon as one is found.
+    xml = rss.build_rss(cfg, feed_items, last_build, site_url, sources_cache)
+    data = site.dump_data(site.build_data(cfg, stories, state["updated"], retention_days, sources_cache))
     if not dry_run:
         st.write_atomic(os.path.join(out_dir, "%s.xml" % cfg.code), xml)
         st.write_atomic(os.path.join(data_dir, "news.json"), data)

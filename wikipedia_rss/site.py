@@ -6,6 +6,8 @@ which the feed item's title (and the readers that never refresh it) may not.
 """
 import json
 
+from . import sources
+
 
 def story_id(guid):
     """Short id for URLs: "wikipedia:en:2026-10-18:1c69c8c8eee6" -> "2026-10-18-1c69c8c8eee6"."""
@@ -60,12 +62,17 @@ def _more_articles(members, article):
     return out
 
 
-def build_story(it, cfg):
-    """One feed item (a headline or a group, see state.feed_items) as a story record."""
+def build_story(it, cfg, previews=None):
+    """One feed item (a headline or a group, see state.feed_items) as a story record.
+
+    previews: the source cache (sources.load_cache); a grouped story, or one straight from the
+    portal, whose sources have an image gets "image": {url, source, link}.
+    """
     members = it.get("members") or [it]
     categories = list(dict.fromkeys(m["category"] for m in members if m.get("category")))
     article = _article(members)
-    return {
+    image = sources.featured_image(members, previews)
+    story = {
         "id": story_id(it["guid"]),
         "title": it["title"],
         "pub_date": it["pub_date"],
@@ -74,15 +81,18 @@ def build_story(it, cfg):
         "more_articles": _more_articles(members, article),
         "headlines": [_headline(m, cfg) for m in members],
     }
+    if image:
+        story["image"] = image
+    return story
 
 
-def build_data(cfg, items, updated, retention_days):
+def build_data(cfg, items, updated, retention_days, previews=None):
     """Contents of data/news.json; `items` newest first, `updated` the state's last real change."""
     return {
         "updated": updated,
         "retention_days": retention_days,
         "portal": {"title": cfg.portal, "url": cfg.url(cfg.portal)},
-        "stories": [build_story(it, cfg) for it in items],
+        "stories": [build_story(it, cfg, previews) for it in items],
     }
 
 
