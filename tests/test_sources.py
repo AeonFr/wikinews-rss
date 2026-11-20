@@ -189,27 +189,34 @@ class ImageTest(unittest.TestCase):
     def test_image_reaches_the_feed_and_the_website_data_in_the_same_run(self):
         with tempfile.TemporaryDirectory() as tmp:
             dirs = dict(state_dir=tmp + "/s", out_dir=tmp + "/f", data_dir=tmp + "/d")
-            feed.run(WIKI, en_client(), NOW,
-                     fetch_source=lambda u: ({"title": "T", "image": "https://img.example/a.jpg?x=1&y=2"}, ""), **dirs)
+            res = feed.run(WIKI, en_client(), NOW,
+                           fetch_source=lambda u: ({"title": "T", "image": "https://img.example/a.jpg?x=1&y=2"}, ""), **dirs)
             with open(tmp + "/d/news.json", encoding="utf-8") as f:
                 stories = json.load(f)["stories"]
-            featured = [s for s in stories if len(s["headlines"]) > 1 or not s["article"]]
+            # A group of the front page (stories with the same top-level article) with several
+            # entries, or an entry straight from the portal, has the image on each of its stories.
+            size = {}
+            for s in stories:
+                size[s["group"]] = size.get(s["group"], 0) + len(s["headlines"])
+            featured = [s for s in stories if size[s["group"]] > 1 or not s["article"]]
             self.assertTrue(featured)
             for s in stories:
                 self.assertEqual("image" in s, s in featured, s["title"])
             self.assertEqual(featured[0]["image"]["url"], "https://img.example/a.jpg?x=1&y=2")
+            # In the feed an item has an image when it groups headlines or has no article.
             root = ET.parse(tmp + "/f/en.xml").getroot()
-            items = root.findall("channel/item")
-            with_media = [i for i in items if i.find("{http://search.yahoo.com/mrss/}content") is not None]
-            self.assertEqual(len(with_media), len(featured))
-            item = with_media[0]
+            by_guid = {i.findtext("guid"): i for i in root.findall("channel/item")}
+            expected = {it["guid"] for it in res["items"] if len(it.get("members") or [it]) > 1 or not it.get("pageid")}
+            self.assertTrue(expected)
+            for guid, item in by_guid.items():
+                media = item.find("{http://search.yahoo.com/mrss/}content")
+                self.assertEqual(media is not None, guid in expected, item.findtext("title"))
+                self.assertEqual("<img" in item.findtext("description"), guid in expected)
+            item = by_guid[sorted(expected)[0]]
             media = item.find("{http://search.yahoo.com/mrss/}content")
             self.assertEqual((media.get("url"), media.get("medium")), ("https://img.example/a.jpg?x=1&y=2", "image"))
             self.assertIn('<img src="https://img.example/a.jpg?x=1&amp;y=2"', item.findtext("description"))
             self.assertIn("Image: ", item.findtext("description"))
-            for i in items:
-                if i not in with_media:
-                    self.assertNotIn("<img", i.findtext("description"))
 
     def test_no_previews_no_image(self):
         with tempfile.TemporaryDirectory() as tmp:

@@ -133,7 +133,7 @@ def finalize(cfg, raw_items, pages):
 
 
 def run(cfg, client, now, days=7, max_items=50, state_dir="state", out_dir="feeds", data_dir="data",
-        site_url=None, dry_run=False, retention_days=RETENTION_DAYS, max_group=6, fetch_source=None):
+        site_url=None, dry_run=False, retention_days=RETENTION_DAYS, max_group=st.MAX_GROUP, fetch_source=None):
     """Scrape, update the state and write the RSS feed (out_dir) and the website data (data_dir).
 
     `fetch_source(url) -> (preview, reason)` (see sources.Fetcher) turns on the link previews
@@ -152,8 +152,8 @@ def run(cfg, client, now, days=7, max_items=50, state_dir="state", out_dir="feed
     new = st.merge(state, items, now, retention_days, max_group)
     backfill_extracts(cfg, client, state, pages)
     last_build = st.parse_iso(state["updated"])
-    feed_items = st.latest(state, max_items)
-    stories = st.latest(state, None)
+    stories = st.rss_latest(state, None)
+    feed_items = stories[:max_items]
     source_urls = [s["url"] for it in stories for m in (it.get("members") or [it]) for s in m.get("sources", [])]
     sources_path = os.path.join(state_dir, "sources.json")
     sources_cache = sources.load_cache(sources_path)

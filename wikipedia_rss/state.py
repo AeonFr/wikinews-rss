@@ -25,8 +25,16 @@ from .config import RETENTION_DAYS
 
 # Bumped when the rule that decides which headlines are grouped changes: the headlines
 # still on the portal are then regrouped once (see merge). 1: innermost topic's article;
-# 2: the outermost topic's article.
-GROUPING_VERSION = 2
+# 2: the outermost topic's article; 3: same, but a day's entries under one top-level
+# article stay together however many they are (the cap was 6 in version 2).
+GROUPING_VERSION = 3
+
+# Most headlines of one article and day in a group. High, so that in practice all of them
+# stay together: a story is split into several items only beyond this.
+MAX_GROUP = 100
+
+# A group's feed title joins this many of its headlines; the rest are only counted.
+TITLE_PARTS = 3
 
 
 def utc_iso(dt):
@@ -87,7 +95,7 @@ def pub_date_for(item, first_seen):
     return utc_iso(first_seen)
 
 
-def merge(state, items, now, retention_days=RETENTION_DAYS, max_group=3):
+def merge(state, items, now, retention_days=RETENTION_DAYS, max_group=MAX_GROUP):
     """Merge freshly scraped headlines (each with a 'guid') into state, then group them.
 
     Returns the guids of the new feed items (new headlines not absorbed by a group).
@@ -268,6 +276,14 @@ def _display_order(members):
     return sorted(members, key=lambda m: m.get("page_date") or "")
 
 
+def group_title(members):
+    """The headlines of a group joined with " / ", the first TITLE_PARTS of them if there are more."""
+    titles = [m["title"] for m in members]
+    if len(titles) <= TITLE_PARTS:
+        return " / ".join(titles)
+    return " / ".join(titles[:TITLE_PARTS]) + " / … (+%d more)" % (len(titles) - TITLE_PARTS)
+
+
 def feed_items(state):
     """Feed items: ungrouped headlines as they are, plus one combined item per group."""
     known, groups = state.get("items", {}), state.get("groups", {})
@@ -280,7 +296,7 @@ def feed_items(state):
         head = known.get(g, members[0])
         out.append({
             "guid": g,
-            "title": " / ".join(m["title"] for m in members),
+            "title": group_title(members),
             "link": members[0]["link"],
             "pub_date": rec["pub_date"],
             "first_seen": rec["first_seen"],
@@ -291,8 +307,60 @@ def feed_items(state):
     return out
 
 
+def _newest_first(items):
+    return sorted(items, key=lambda it: (it["pub_date"], it["first_seen"], -it.get("order", 0)), reverse=True)
+
+
 def latest(state, limit):
-    items = sorted(feed_items(state),
-                   key=lambda it: (it["pub_date"], it["first_seen"], -it.get("order", 0)),
-                   reverse=True)
-    return items[:limit]
+    """The website's stories, newest first: an article of the day and everything nested under it."""
+    return _newest_first(feed_items(state))[:limit]
+
+
+def nearest_topic(headline):
+    """The topic line closest to an entry that links an article, or None (a first-level entry)."""
+    for topic in reversed(headline.get("topics") or []):
+        if topic.get("title"):
+            return topic
+    return None
+
+
+def rss_title(members, topic):
+    """"Nearest article: first headline / second headline", or just the headlines without a topic."""
+    title = group_title(members)
+    return "%s: %s" % (topic["label"], title) if topic else title
+
+
+def rss_items(state):
+    """The RSS feed's items: each story split by the article nearest to its entries.
+
+    The website shows a story as one nested whole (an article of the day and everything under
+    it), but a feed item is about one thing: the entries of a story under the same nearest
+    article (the innermost topic line that links one) are one item, titled with that article
+    as a prefix ("Houthi–Saudi conflict: ..."); an entry under no topic is an item of its own.
+    The wider chain of articles is on the story's page, which each item links to. "story_guid"
+    is the guid of the whole story (the top-level article of the day) the item is nested under.
+
+    An item's guid, pub_date and first_seen are its oldest headline's, so they do not change when
+    a headline is added later.
+    """
+    out = []
+    for story in feed_items(state):
+        members = story.get("members") or [story]
+        parts = {}
+        for i, m in enumerate(members):
+            topic = nearest_topic(m)
+            parts.setdefault(topic["title"] if topic else "\0%d" % i, []).append(m)
+        for part in parts.values():
+            founder = min(part, key=_first_key)
+            topic = nearest_topic(founder)
+            item = dict(founder, title=rss_title(part, topic), story_guid=story["guid"])
+            if len(part) > 1:
+                item.update(link=part[0]["link"], order=min(m.get("order", 0) for m in part), members=part)
+            else:
+                item.pop("members", None)
+            out.append(item)
+    return out
+
+
+def rss_latest(state, limit):
+    return _newest_first(rss_items(state))[:limit]

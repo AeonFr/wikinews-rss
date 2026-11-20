@@ -12,7 +12,6 @@
     loading: "Loading…",
     error: "Couldn’t load the news. Try again later.",
     empty: "There are no news yet.",
-    aboutLabel: "About the article",
     imageFrom: "Image: {source}",
     prevDay: "Prev",
     nextDay: "Next",
@@ -21,6 +20,9 @@
     storyTitle: "Story",
     brand: "Wikipedia News",
     relatedTitle: "More on {title} in the last {period}",
+    moreOn: "More on",
+    onDay: "on {day}",
+    alsoOn: "Also on {day}",
     notFound: "This story is not on the site (anymore). News older than {period} is removed;" +
       "you can still find it in the <a href=\"{portal}\">Current events portal</a> on Wikipedia.",
     noteMany: "{n} headlines were added to this story, oldest first.",
@@ -87,6 +89,16 @@
     }
   }
 
+  // "Thursday, November 19" (with the weekday) or "November 19", always as a UTC calendar day.
+  function formatMonthDay(day, weekday) {
+    try {
+      return new Intl.DateTimeFormat("en", { weekday: weekday ? "long" : undefined, month: "long", day: "numeric", timeZone: "UTC" })
+        .format(new Date(day.slice(0, 10) + "T00:00:00Z"));
+    } catch (e) {
+      return day.slice(0, 10);
+    }
+  }
+
   // Headline HTML comes from our own generator (links and emphasis only), but is still
   // rebuilt node by node: other tags are flattened and only http(s) links are kept.
   var INLINE = { A: 1, I: 1, B: 1, EM: 1, STRONG: 1 };
@@ -139,6 +151,7 @@
 
   // --- Front page ------------------------------------------------------------------
 
+  // The article page of a story: the entries about one article (see the generator's rss_items).
   function storyHref(s) {
     return "story.html?id=" + encodeURIComponent(s.id);
   }
@@ -173,9 +186,86 @@
   // is kept for the "More on …" lists on story pages.
   var HOME_DAYS = 30;
 
-  // "About the article": the start of the Wikipedia article's text and a link to it.
+  // --- Nesting of a grouped story -------------------------------------------------------
+  // The portal nests entries under topic lines (topic > sub-topic > sub-sub-topic > entry).
+  // A grouped story is one article of the day (the outermost topic with an article: the
+  // root); each headline's `topics` lists the lines above it, outermost first. Below the root
+  // at most MAX_LEVELS more levels are kept (deeper ones count as the last one).
+  var MAX_LEVELS = 2;
+  // A group inside a box shows its article's summary (as its first column) only when it has at
+  // least this many entries: with fewer, the summary would outweigh what it introduces.
+  var ABOUT_MIN_ENTRIES = 3;
+
+  function hasTopicLink(topic) {
+    return !!((topic.links && topic.links.length) || topic.url);
+  }
+  function topicLabel(topics) {
+    return topics.map(function (x) { return x.label; }).join(" › ");
+  }
+
+  // The tree of the headlines of a group of the front page (see mergeStories). A node is
+  // {topics (its title: one topic, or a chain when a topic holds nothing but another one),
+  // entries, children, parent}; an entry is {h (the headline), index, path (its sub-topics),
+  // context, node}. A sub-topic with a single entry is not a group: the entry joins the parent
+  // group and keeps that sub-topic as its `context`.
+  function buildTree(story) {
+    var root = { topics: [], entries: [], children: [], parent: null };
+    story.headlines.forEach(function (h, index) {
+      var first = 0;
+      while (first < h.topics.length && !hasTopicLink(h.topics[first])) first++;
+      var below = h.topics.slice(first + 1, first + 1 + MAX_LEVELS);
+      var node = root;
+      below.forEach(function (topic) {
+        var child = node.children.filter(function (c) { return c.topics[0].label === topic.label; })[0];
+        if (!child) {
+          child = { topics: [topic], entries: [], children: [], parent: node };
+          node.children.push(child);
+        }
+        node = child;
+      });
+      node.entries.push({ h: h, index: index, path: below, context: null, node: null });
+    });
+    var tree = simplify(root);
+    (function link(node) {
+      node.children.forEach(function (child) { child.parent = node; link(child); });
+      node.entries.forEach(function (e) { e.node = node; });
+    })(tree);
+    return tree;
+  }
+
+  function entriesIn(node) {  // the entries of a group and of the groups in it, in story order
+    var all = node.entries.slice();
+    node.children.forEach(function (child) { all = all.concat(entriesIn(child)); });
+    return all.sort(function (a, b) { return a.index - b.index; });
+  }
+
+  function simplify(node) {
+    var kept = [];
+    node.children.forEach(function (child) {
+      child = simplify(child);
+      var inside = entriesIn(child);
+      if (inside.length < 2) {
+        inside.forEach(function (e) {
+          e.context = e.path[e.path.length - 1];
+          node.entries.push(e);
+        });
+      } else {
+        kept.push(child);
+      }
+    });
+    node.children = kept;
+    if (node.parent !== null && !node.entries.length && node.children.length === 1) {
+      var only = node.children[0];   // a topic with nothing but another topic: one title
+      only.topics = node.topics.concat(only.topics);
+      only.parent = node.parent;
+      return only;
+    }
+    return node;
+  }
+
+  // The start of the Wikipedia article's text and a link to it. It has no title of its own: the
+  // article's title is right above it, as the box's or the group's.
   function aboutBlock(node, article) {
-    node.appendChild(el("p", "about-label", t("aboutLabel")));
     if (article.extract) node.appendChild(el("p", "about-text", article.extract));
     var read = link(article.url, t("moreCta"));
     read.className = "about-link";
@@ -205,12 +295,12 @@
     return p;
   }
 
-  // The image of one of the story's sources (data/news.json "image"), linking to the story;
-  // dropped if it does not load. null when the story has none.
-  function tileImage(s) {
+  // The image of one of the story's sources (data/news.json "image"), linking to `href` (the
+  // story's page by default); dropped if it does not load. null when the story has none.
+  function tileImage(s, href) {
     var image = s.image;
     if (!image || !/^https?:\/\//i.test(image.url)) return null;
-    var a = link(storyHref(s), "");
+    var a = link(href || storyHref(s), "");
     a.className = "tile-image";
     a.setAttribute("tabindex", "-1");       // the headline is the link for keyboards and readers
     a.setAttribute("aria-hidden", "true");
@@ -223,6 +313,122 @@
     img.addEventListener("error", function () { a.remove(); });
     a.appendChild(img);
     return a;
+  }
+
+  // A text of a group of the front page: the entry's text, linking to the article page it is
+  // part of (with its sub-topic above it if it was not worth a group of its own).
+  function entryTile(s, entry, depth) {
+    var text = plainText(entry.h.html).trim();
+    var wrap = el("div", "entry depth-" + depth);
+    // An article with a single entry is titled like a group of entries (see groupTile).
+    if (entry.context) wrap.appendChild(el("p", "group-title", entry.context.label));
+    var p = el("p", "excerpt");
+    p.appendChild(link(storyHref(entry.h._story), text));
+    wrap.appendChild(p);
+    return { li: wrap, kind: sizeOf(text.length, FEATURE_SHORT_MAX, FEATURE_LONG_MIN), length: text.length };
+  }
+
+  // The tiles of a group, appended to `container`: its own entries, shortest first (the first
+  // one ends up next to the image, and a short one is the least likely to make it grow; see
+  // layoutFeature), then its sub-groups.
+  function groupItems(s, node, container, depth) {
+    var items = node.entries.map(function (e) { return entryTile(s, e, depth + 1); })
+      .sort(function (x, y) { return x.length - y.length; });
+    node.children.forEach(function (child) { items.push(groupTile(s, child, depth + 1)); });
+    items.forEach(function (item) { container.appendChild(item.li); });
+    return items;
+  }
+
+  // The article a group is titled with, from the story's articles (null if its page has none).
+  function groupArticle(s, node) {
+    var topic = node.topics[node.topics.length - 1];
+    var wanted = {};
+    (topic.links || []).forEach(function (l) { wanted[titleKey(l.url)] = true; });
+    var articles = [s.article].concat(s.more_articles || []).filter(Boolean);
+    return articles.filter(function (a) { return wanted[titleKey(a.url)]; })[0] || null;
+  }
+
+  // A group inside the box: no box of its own, only its title (once) and its own grid (see
+  // layoutGroups), where its article's summary may be the first column. Whitespace and the
+  // tighter gaps inside it set it apart. It has no page: its entries link to their articles.
+  function groupTile(s, node, depth) {
+    var box = el("div", "group depth-" + depth);
+    box.appendChild(el("p", "group-title", topicLabel(node.topics)));
+    var body = el("div", "group-body");
+    box.appendChild(body);
+    // The start of the group's article is the first column of its grid, as in the box around it.
+    var article = groupArticle(s, node);
+    var about = null;
+    if (article && entriesIn(node).length >= ABOUT_MIN_ENTRIES) {
+      about = aboutBlock(el("div", "about"), article);
+      body.appendChild(about);
+    }
+    var items = groupItems(s, node, body, depth);
+    return { li: box, kind: "feature", group: true, body: body, about: about, entries: items,
+             length: items.reduce(function (n, x) { return n + x.length; }, 0) };
+  }
+
+  // The stories of a group of the front page (the entries nested under one article of the day)
+  // as one: all their headlines, each remembering its story, whose page it links to.
+  function mergeStories(stories) {
+    var first = stories[0];
+    var headlines = [], more = [], seen = {};
+    stories.forEach(function (s) {
+      s.headlines.forEach(function (h) { h._story = s; headlines.push(h); });
+      (s.more_articles || []).forEach(function (a) {
+        if (!seen[a.url]) { seen[a.url] = true; more.push(a); }
+      });
+    });
+    var image = stories.map(function (s) { return s.image; }).filter(Boolean)[0];
+    return { id: first.id, article: first.article, more_articles: more, headlines: headlines, image: image,
+             categories: first.categories, pub_date: first.pub_date, stories: stories };
+  }
+
+  // A group with several entries: a box with the article's title and the entries in the
+  // columns next to its summary; sub-topics with several entries are groups inside it.
+  function groupedTile(s, texts) {
+    var li = el("li", "feature");
+    var h3 = el("h3");
+    // The title is a link only if there is a page about this very article: the box's single
+    // story, when its entries are directly under the article. Otherwise the pages are the
+    // stories inside (and one would be about a different article).
+    var only = s.stories.length === 1 ? s.stories[0] : null;
+    if (only && nearestKey(only) === titleKey(s.article.url)) h3.appendChild(link(storyHref(only), s.article.title));
+    else h3.textContent = s.article.title;
+    li.appendChild(h3);
+    var by = byline(s);
+    if (by) li.appendChild(el("p", "byline", by));
+    // The box is a grid: the article's own summary is the first column, over the full
+    // height of the box, and the entries are laid out in the columns next to it (see
+    // layoutFeature).
+    var box = el("div", "feature-body");
+    var tree = buildTree(s);
+    // The summary of the story's article is the first column of the box when the box is just
+    // its entries; when it holds groups, they carry their own summaries and a tall column
+    // would leave white space.
+    var about = null;
+    if (!tree.children.length) {
+      about = aboutBlock(el("div", "about"), s.article);
+      box.appendChild(about);
+    }
+    // The image is one more item of the grid, one column wide, before the entries.
+    var pic = tileImage(s, s.stories.length > 1 && s.image ? s.image.link : null);
+    var entries = [];
+    if (pic) {
+      box.appendChild(pic);
+      entries.push({ li: pic, kind: "short", length: 0, fixed: true });
+    }
+    entries = entries.concat(groupItems(s, tree, box, 1));
+    li.appendChild(box);
+    return { li: li, kind: "feature", portal: false, hasImage: !!pic, length: texts.join(" ").length,
+             body: box, about: about, entries: entries };
+  }
+
+  // The tile of a group of the front page: a single entry as such, or a box.
+  function unitTile(stories) {
+    if (stories.length === 1 && (stories[0].headlines.length === 1 || !stories[0].article)) return storyTile(stories[0]);
+    var merged = mergeStories(stories);
+    return groupedTile(merged, merged.headlines.map(function (h) { return plainText(h.html).trim(); }));
   }
 
   function storyTile(s) {
@@ -247,38 +453,7 @@
         return { li: li, kind: kind, portal: true, hasImage: true, length: texts.join(" ").length, pic: pic, body: body };
       }
     } else if (texts.length > 1) {
-      kind = "feature";
-      li.className = "feature";
-      if (s.article) {
-        var h3 = el("h3");
-        h3.appendChild(link(storyHref(s), s.article.title));
-        li.appendChild(h3);
-      }
-      var by = byline(s);
-      if (by) li.appendChild(el("p", "byline", by));
-      // The box is a grid: the article's own summary is the first column, over the full
-      // height of the box, and the entries are laid out in the columns next to it (see
-      // layoutFeature).
-      var box = el("div", "feature-body");
-      var about = aboutBlock(el("div", "about"), s.article);
-      box.appendChild(about);
-      // The image is one more item of the grid, one column wide, before the entries.
-      var featurePic = tileImage(s);
-      var entries = [];
-      if (featurePic) {
-        box.appendChild(featurePic);
-        entries.push({ li: featurePic, kind: "short", length: 0, fixed: true });
-      }
-      // Shortest first: the first text is the one that ends up next to the image, and a short
-      // one is the least likely to make the image grow (see layoutFeature).
-      texts.slice().sort(function (x, y) { return x.length - y.length; }).forEach(function (text) {
-        var p = textLink(s, text);
-        box.appendChild(p);
-        entries.push({ li: p, kind: sizeOf(text.length, FEATURE_SHORT_MAX, FEATURE_LONG_MIN), length: text.length });
-      });
-      li.appendChild(box);
-      return { li: li, kind: kind, portal: false, hasImage: !!featurePic, length: texts.join(" ").length,
-               body: box, about: about, entries: entries };
+      return groupedTile(s, texts);
     } else {
       kind = sizeOf(texts[0].length);
       li.appendChild(slug(s));
@@ -293,7 +468,8 @@
   //  - a flexible tile widens to two columns when its row would otherwise have a gap;
   //  - a row is never left with empty columns: the leftover goes to the row's tile with
   //    the longest text, up to the full width;
-  //  - in a row with tiles of different widths, the wider one comes first.
+  //  - in a row with tiles of different widths, the wider one comes first (but an image is
+  //    always first).
   // With `offset`, the columns start that many columns in (the first ones belong to
   // something else). Returns the number of rows.
   function layoutTiles(tiles, cols, offset) {
@@ -324,8 +500,9 @@
         longest.span += cols - row.used;
         row.used = cols;
       }
-      // Array.prototype.sort is stable: tiles of equal width keep their order.
-      row.tiles.sort(function (x, y) { return y.span - x.span; });
+      // The image comes first in its row; of the others the wider ones. (Array.prototype.sort is
+      // stable: tiles of equal width keep their order.)
+      row.tiles.sort(function (x, y) { return (y.fixed ? 1 : 0) - (x.fixed ? 1 : 0) || y.span - x.span; });
     });
 
     var list = tiles[0] && tiles[0].li.parentNode;
@@ -347,19 +524,39 @@
     return rows.length;
   }
 
+  // The grids of the groups inside a box: as many columns as the box has for its entries; a
+  // group with a summary gives it the first one, over the whole height, like a box does.
+  function layoutGroups(tiles, cols) {
+    tiles.forEach(function (tile) {
+      if (!tile.group) return;
+      tile.body.style.gridTemplateColumns = "repeat(" + cols + ", minmax(0, 1fr))";
+      var offset = tile.about && cols > 1 ? 1 : 0;
+      var inner = cols - offset;
+      var rows = layoutTiles(tile.entries, inner, offset);
+      if (tile.about) {
+        tile.about.style.gridColumn = offset ? "1" : "";
+        tile.about.style.gridRow = offset ? "1 / span " + rows : "";
+      }
+      layoutGroups(tile.entries, inner);
+    });
+  }
+
   // Inside a feature (a grid of `cols` columns like the page's): the article's summary is
   // the first column over the whole height, and the entries use the columns next to it
   // by the same rules as the page's tiles, with the feature's thresholds.
   function layoutFeature(tile, cols) {
-    if (cols === 1) {  // one column: the summary, then the entries
-      tile.about.style.gridRow = tile.about.style.gridColumn = "";
+    if (cols === 1) {  // one column: the summary (if any), then the entries
+      if (tile.about) tile.about.style.gridRow = tile.about.style.gridColumn = "";
       layoutTiles(tile.entries, 1);
+      layoutGroups(tile.entries, 1);
       return;
     }
+    var offset = tile.about ? 1 : 0;      // the summary is the first column, if there is one
+    var entryCols = cols - offset;
     var image = tile.entries.filter(function (e) { return e.fixed; })[0];
     if (image) image.kind = "short";   // one column, next to the entries...
-    var rows = layoutTiles(tile.entries, cols - 1, 1);
-    if (image && cols - 1 > 1) {
+    var rows = layoutTiles(tile.entries, entryCols, offset);
+    if (image && entryCols > 1) {
       // ...unless a long text ended up in its row: then the image takes the whole width of
       // the entries, on a row of its own, and the texts go below it.
       var row = image.li.style.gridRow;
@@ -368,11 +565,14 @@
       });
       if (crowded) {
         image.kind = "feature";
-        rows = layoutTiles(tile.entries, cols - 1, 1);
+        rows = layoutTiles(tile.entries, entryCols, offset);
       }
     }
-    tile.about.style.gridColumn = "1";
-    tile.about.style.gridRow = "1 / span " + rows;
+    layoutGroups(tile.entries, entryCols);
+    if (tile.about) {
+      tile.about.style.gridColumn = "1";
+      tile.about.style.gridRow = "1 / span " + rows;
+    }
   }
 
   var grids = [];  // one { tiles: [...], portal: [...] } per day on the page
@@ -408,9 +608,17 @@
     today.textContent = formatDay(data.updated);
     today.setAttribute("datetime", data.updated.slice(0, 10));
 
-    var day = null, g = null;
+    // The stories with the same group are one tile of the front page.
+    var units = [], unitIndex = {};
     recent.forEach(function (s) {
-      var d = s.pub_date.slice(0, 10);
+      var key = s.group || s.id;
+      if (unitIndex[key] == null) { unitIndex[key] = units.length; units.push([]); }
+      units[unitIndex[key]].push(s);
+    });
+
+    var day = null, g = null;
+    units.forEach(function (stories) {
+      var d = stories[0].pub_date.slice(0, 10);
       if (d !== day) {
         day = d;
         var section = el("section", "day");
@@ -425,7 +633,7 @@
         grids.push(g);
         days.appendChild(section);
       }
-      var tile = storyTile(s);
+      var tile = unitTile(stories);
       // A day reads: the portal entries, then the featured (grouped) ones, then the single articles.
       var kind = tile.portal ? "portal" : tile.kind === "feature" ? "features" : "tiles";
       var parent = { portal: g.portalList, features: g.featureList, tiles: g.list }[kind];
@@ -456,23 +664,13 @@
     layoutAll();
   }
 
-  // --- Story page ------------------------------------------------------------------
+  // --- Article page -----------------------------------------------------------------------
+  // The page of one article of a day: the entries about it (one, or several, or none about an
+  // article: an entry straight from the portal), where it sits among the other articles of the
+  // day, and what Wikipedia and the sources say. There is no page for a bigger group: the
+  // front page is where the groups are browsed.
 
   var storyId = params.get("id");
-
-  // Headlines of a story that cite the same outlets, under the same topics and from the same
-  // portal page are shown together, once, with their sources and topics (in order of first
-  // appearance, whether or not they are next to each other in the story).
-  function groupHeadlines(headlines) {
-    var groups = [], index = {};
-    headlines.forEach(function (h) {
-      var key = JSON.stringify([h.sources.map(function (s) { return s.name || s.url; }).sort(),
-                                h.topics.map(function (topic) { return topic.label; }), h.page.url]);
-      if (index[key] == null) { index[key] = groups.length; groups.push([]); }
-      groups[index[key]].push(h);
-    });
-    return groups;
-  }
 
   // The sources of a group of headlines: each outlet once, with a numbered link per page
   // when the headlines cite several pages of it ("Al Jazeera (1, 2, 3)").
@@ -504,21 +702,28 @@
     return p;
   }
 
-  function topicsLine(h) {
-    var p = el("p", "headline-meta");
-    p.appendChild(document.createTextNode(t("topicsLabel") + ": "));
-    h.topics.forEach(function (topic, i) {
-      if (i) p.appendChild(document.createTextNode(" › "));
-      if (topic.links && topic.links.length) {
-        topic.links.forEach(function (l, j) {
-          if (j) p.appendChild(document.createTextNode(", "));
-          p.appendChild(link(l.url, l.label));
-        });
-      } else {
-        p.appendChild(topic.url ? link(topic.url, topic.label) : document.createTextNode(topic.label));
-      }
+  function topicUrl(topic) {
+    return (topic.links && topic.links[0] && topic.links[0].url) || topic.url || null;
+  }
+
+  // The topic line closest to a headline that links an article (what its entry is about), with
+  // its index among the headline's topic lines; null for an entry under no topic.
+  function nearestTopic(h) {
+    for (var i = h.topics.length - 1; i >= 0; i--) {
+      if (hasTopicLink(h.topics[i])) return { topic: h.topics[i], index: i };
+    }
+    return null;
+  }
+
+  // Entries that cite the same outlets are shown together, once, with their sources.
+  function groupHeadlines(headlines) {
+    var groups = [], index = {};
+    headlines.forEach(function (h) {
+      var key = JSON.stringify(h.sources.map(function (x) { return x.name || x.url; }).sort());
+      if (index[key] == null) { index[key] = groups.length; groups.push([]); }
+      groups[index[key]].push(h);
     });
-    return p;
+    return groups;
   }
 
   function pageLine(h) {
@@ -529,6 +734,19 @@
       else if (part) p.appendChild(document.createTextNode(part));
     });
     return p;
+  }
+
+  // Where the headlines come from: once per portal page, not once per headline.
+  // Where the headlines come from: once per portal page, not once per headline.
+  function renderPages(headlines) {
+    var box = $("from-pages");
+    clear(box);
+    var seen = {};
+    headlines.forEach(function (h) {
+      if (seen[h.page.url]) return;
+      seen[h.page.url] = true;
+      box.appendChild(pageLine(h));
+    });
   }
 
   // A card for a Wikipedia article: title and the start of its text, linking to it.
@@ -583,13 +801,13 @@
     return a;
   }
 
-  function renderSourceCards(story) {
+  function renderSourceCards(headlines) {
     var box = $("source-cards");
     clear(box);
     // Different links can lead to the same page (a live blog's ?update=… links, say): one
     // card per distinct preview.
     var seen = {}, cards = [];
-    story.headlines.forEach(function (h) {
+    headlines.forEach(function (h) {
       h.sources.forEach(function (src) {
         var preview = previews[src.url];
         if (!preview || !preview.title || !/^https?:\/\//i.test(src.url)) return;
@@ -606,16 +824,68 @@
     box.appendChild(grid);
   }
 
-  // Other stories about the same Wikipedia article, from other days.
-  function renderRelated(story) {
+  function titleKey(url) {  // compare Wikipedia links whatever their encoding
+    var title = String(url).split("/wiki/")[1] || url;
+    try { title = decodeURIComponent(title); } catch (e) {}
+    return title.replace(/_/g, " ").toLowerCase();
+  }
+
+  // The Wikipedia cards: the article the entries are about first, then the other articles of
+  // their topic lines (the bigger ones it is nested under).
+  function renderCards(story, near) {
+    var cardBox = $("card");
+    clear(cardBox);
+    var articles = [story.article].concat(story.more_articles || []).filter(Boolean);
+    if (!articles.length) { cardBox.appendChild(card(story)); return; }  // straight from the portal
+    var wanted = near ? titleKey(topicUrl(near.topic)) : null;
+    var main = articles.filter(function (a) { return titleKey(a.url) === wanted; })[0] || articles[0];
+    cardBox.appendChild(articleCard(main));
+    var rest = articles.filter(function (a) { return a !== main; });
+    if (rest.length) {
+      var more = el("div", "card-grid");
+      rest.forEach(function (a) { more.appendChild(articleCard(a, "small")); });
+      cardBox.appendChild(more);
+    }
+  }
+
+  // The other articles of the same day nested under the same top-level article, in blocks that
+  // say so: "More on <the article> on <day>" for the entries directly under it, "Also on <day>
+  // › <where>" for the others. Their entries link to their article pages.
+  function renderRelatedEntries(story, siblings) {
+    var box = $("related-entries");
+    clear(box);
+    siblings.forEach(function (sib) {
+      var h0 = sib.headlines[0];
+      var first = 0;
+      while (first < h0.topics.length && !hasTopicLink(h0.topics[first])) first++;
+      var path = h0.topics.slice(first + 1).map(function (x) { return x.label; }).join(" › ");
+      var block = el("section", "related-block");
+      block.appendChild(el("h2", null, path
+        ? fill(T.alsoOn, { day: formatMonthDay(story.pub_date, true) }) + " › " + path
+        : t("moreOn") + " " + story.article.title + " " + fill(T.onDay, { day: formatMonthDay(story.pub_date) })));
+      sib.headlines.forEach(function (h) {
+        var p = el("p", "related-entry");
+        p.appendChild(link(storyHref(sib), plainText(h.html).trim()));
+        block.appendChild(p);
+      });
+      box.appendChild(block);
+    });
+  }
+
+  function nearestKey(s) {  // which article a story is about, to find it on other days
+    var near = nearestTopic(s.headlines[0]);
+    return near ? titleKey(topicUrl(near.topic)) : null;
+  }
+
+  // The same article on other days.
+  function renderRelated(story, near) {
     var box = $("related");
     clear(box);
-    if (!story.article) return;
-    var others = data.stories.filter(function (s) {
-      return s.id !== story.id && s.article && s.article.url === story.article.url;
-    });
+    var key = nearestKey(story);
+    if (!key) return;
+    var others = data.stories.filter(function (s) { return s.id !== story.id && nearestKey(s) === key; });
     if (!others.length) return;
-    box.appendChild(el("h2", null, fill(T.relatedTitle, { title: story.article.title, period: retentionPeriod() })));
+    box.appendChild(el("h2", null, fill(T.relatedTitle, { title: near.topic.label, period: retentionPeriod() })));
     var list = el("ul", "related-list");
     others.forEach(function (s) {
       var li = el("li");
@@ -649,7 +919,11 @@
     status.textContent = "";
     article.hidden = false;
 
-    var short = story.title.length > 80 ? story.title.slice(0, 80).replace(/\s+\S*$/, "") + "…" : story.title;
+    var h0 = story.headlines[0];
+    var near = nearestTopic(h0);
+    var siblings = story.group ? data.stories.filter(function (s) { return s.group === story.group && s.id !== story.id; }) : [];
+    var title = near ? near.topic.label : story.article ? story.article.title : (story.categories[0] || formatDay(story.pub_date, "long"));
+    var short = title.length > 80 ? title.slice(0, 80).replace(/\s+\S*$/, "") + "…" : title;
     document.title = short + " · " + t("brand");
 
     var kicker = $("kicker");
@@ -657,12 +931,24 @@
     var time = el("time", null, formatDay(story.pub_date));
     time.setAttribute("datetime", story.pub_date.slice(0, 10));
     kicker.appendChild(time);
-    // Without an article, the category is the title (below), so it is not repeated here.
-    if (story.article) story.categories.forEach(function (c) { kicker.appendChild(el("span", "chip", c)); });
+    // Where it sits: the bigger articles it is nested under (a link where one of them has a page
+    // of its own that day). Without any, its categories.
+    var above = near ? h0.topics.slice(0, near.index).filter(hasTopicLink) : [];
+    if (above.length) {
+      var crumbs = el("span", "crumbs");
+      above.forEach(function (topic, i) {
+        if (i) crumbs.appendChild(document.createTextNode(" › "));
+        var page = siblings.filter(function (s) { return nearestKey(s) === titleKey(topicUrl(topic)); })[0];
+        if (page) crumbs.appendChild(link(storyHref(page), topic.label));
+        else crumbs.appendChild(document.createTextNode(topic.label));
+      });
+      kicker.appendChild(crumbs);
+    } else if (story.article) {
+      // Without an article, the category is the title (below), so it is not repeated here.
+      story.categories.forEach(function (c) { kicker.appendChild(el("span", "chip", c)); });
+    }
 
-    var h1 = $("story-title");
-    h1.textContent = story.article ? story.article.title : (story.categories[0] || formatDay(story.pub_date, "long"));
-
+    $("story-title").textContent = title;
     $("story-note").textContent = story.headlines.length > 1 ? t("noteMany", { n: story.headlines.length }) : "";
     $("story-note").hidden = story.headlines.length < 2;
 
@@ -675,23 +961,15 @@
         appendInline(text, h.html);
         li.appendChild(text);
       });
-      var first = group[0];
       if (group.some(function (h) { return h.sources.length; })) li.appendChild(sourcesLine(group));
-      if (first.topics.length) li.appendChild(topicsLine(first));
-      li.appendChild(pageLine(first));
       list.appendChild(li);
     });
+    renderPages(story.headlines);
 
-    var cardBox = $("card");
-    clear(cardBox);
-    cardBox.appendChild(card(story));
-    if (story.more_articles && story.more_articles.length) {
-      var more = el("div", "card-grid");
-      story.more_articles.forEach(function (a) { more.appendChild(articleCard(a, "small")); });
-      cardBox.appendChild(more);
-    }
-    renderSourceCards(story);
-    renderRelated(story);
+    renderCards(story, near);
+    renderSourceCards(story.headlines);
+    renderRelatedEntries(story, siblings);
+    renderRelated(story, near);
     setRetention();
   }
 

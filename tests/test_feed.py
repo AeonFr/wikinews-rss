@@ -40,7 +40,7 @@ class RunTest(unittest.TestCase):
         self.assertEqual((res["scraped"], res["new"]), (11, 10))
         root = self.read_feed()
         items = root.findall("channel/item")
-        self.assertEqual(len(items), 10)
+        self.assertEqual(len(items), 11)  # one per nearest article
         first = items[0]
         guid = first.findtext("guid")
         self.assertTrue(guid.startswith("wikipedia:en:2026-10-23:"))
@@ -65,7 +65,7 @@ class RunTest(unittest.TestCase):
         data = self.read_data()
         self.assertEqual(data["retention_days"], 183)
         self.assertEqual(data["portal"]["url"], "https://en.wikipedia.org/wiki/Portal:Current_events")
-        self.assertEqual(len(data["stories"]), 10)
+        self.assertEqual(len(data["stories"]), 11)  # one per nearest article, like the feed items
         story = data["stories"][0]
         # The story is about the outermost topic's article; the nested topic's article is a
         # further card, and every topic line keeps all its links.
@@ -85,7 +85,7 @@ class RunTest(unittest.TestCase):
     def test_data_has_every_story_but_the_feed_is_limited(self):
         feed.run(WIKI, en_client(), NOW, max_items=3, **self.dirs)
         self.assertEqual(len(self.read_feed().findall("channel/item")), 3)
-        self.assertEqual(len(self.read_data()["stories"]), 10)
+        self.assertEqual(len(self.read_data()["stories"]), 11)
 
     def snapshot(self):
         files = {}

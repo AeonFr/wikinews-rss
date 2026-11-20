@@ -29,6 +29,7 @@ def _topic(t, cfg):
 
 def _headline(it, cfg):
     return {
+        "id": story_id(it["guid"]),
         "html": it["html"],
         "sources": [{"name": s["name"], "url": s["url"]} for s in it.get("sources", [])],
         "category": it.get("category"),
@@ -62,18 +63,19 @@ def _more_articles(members, article):
     return out
 
 
-def build_story(it, cfg, previews=None):
-    """One feed item (a headline or a group, see state.feed_items) as a story record.
+def build_story(it, cfg, image=None):
+    """One story: the entries about the same nearest article on a day (see state.rss_items).
 
-    previews: the source cache (sources.load_cache); a grouped story, or one straight from the
-    portal, whose sources have an image gets "image": {url, source, link}.
+    It is what the website's article page shows (and what a feed item is). "group" is the id
+    of the top-level article of the day it is nested under: the stories with the same group
+    make up one box on the front page. `image`, if any, is {url, source, link}.
     """
     members = it.get("members") or [it]
     categories = list(dict.fromkeys(m["category"] for m in members if m.get("category")))
     article = _article(members)
-    image = sources.featured_image(members, previews)
     story = {
         "id": story_id(it["guid"]),
+        "group": story_id(it.get("story_guid") or it["guid"]),
         "title": it["title"],
         "pub_date": it["pub_date"],
         "categories": categories,
@@ -87,12 +89,22 @@ def build_story(it, cfg, previews=None):
 
 
 def build_data(cfg, items, updated, retention_days, previews=None):
-    """Contents of data/news.json; `items` newest first, `updated` the state's last real change."""
+    """Contents of data/news.json; `items` (state.rss_items) newest first, `updated` the state's
+    last real change.
+
+    previews: the source cache (sources.load_cache). A group of the front page (the stories with
+    the same top-level article) that has several entries, or one straight from the portal, gets
+    the image of the first of its sources that has one, on each of its stories.
+    """
+    members = {}
+    for it in items:
+        members.setdefault(it.get("story_guid") or it["guid"], []).extend(it.get("members") or [it])
+    images = {key: sources.featured_image(ms, previews) for key, ms in members.items()}
     return {
         "updated": updated,
         "retention_days": retention_days,
         "portal": {"title": cfg.portal, "url": cfg.url(cfg.portal)},
-        "stories": [build_story(it, cfg, previews) for it in items],
+        "stories": [build_story(it, cfg, images[it.get("story_guid") or it["guid"]]) for it in items],
     }
 
 
