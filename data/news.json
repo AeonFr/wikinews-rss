@@ -7,6 +7,124 @@
  "stories": [
   {
    "article": {
+    "extract": "On 24 February 2022, Russia invaded Ukraine, starting the largest and deadliest war in Europe since World War II, in a major escalation of the existing war between the two countries that began when Russia attacked Ukraine in 2014. The fighting has caused hundreds of thousands of military casualties…",
+    "title": "Russo-Ukrainian war (2022–present)",
+    "url": "https://en.wikipedia.org/wiki/Russo-Ukrainian_war_(2022%E2%80%93present)"
+   },
+   "categories": [
+    "Armed conflicts and attacks"
+   ],
+   "headlines": [
+    {
+     "category": "Armed conflicts and attacks",
+     "html": "A <a href=\"https://en.wikipedia.org/wiki/Russian_Armed_Forces\">Russian</a> <a href=\"https://en.wikipedia.org/wiki/Kh-101\">Kh-101</a> <a href=\"https://en.wikipedia.org/wiki/Cruise_missile\">cruise missile</a> strikes a field near the village of <a href=\"https://en.wikipedia.org/wiki/Nowy_Lipowiec\">Nowy Lipowiec</a> in <a href=\"https://en.wikipedia.org/wiki/Lublin_Voivodeship\">Lublin Voivodeship</a>, <a href=\"https://en.wikipedia.org/wiki/Poland\">Poland</a>, around 60 miles from a <a href=\"https://en.wikipedia.org/wiki/Coalition_of_the_willing_(Russo-Ukrainian_war)\">Coalition of the Willing</a> training excercise. Air raid alerts are issued in Lublin and <a href=\"https://en.wikipedia.org/wiki/Podkarpackie_Voivodeship\">Podkarpackie Voivodeship</a>.",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_20&action=history",
+      "title": "Portal:Current events/2026 November 20",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_20"
+     },
+     "sources": [
+      {
+       "name": "AOL",
+       "url": "https://www.aol.co.uk/articles/suspected-russian-projectile-lands-poland-095529000.html"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Russo-Ukrainian war",
+       "links": [
+        {
+         "label": "Russo-Ukrainian war",
+         "url": "https://en.wikipedia.org/wiki/Russo-Ukrainian_war_(2022%E2%80%93present)"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Russo-Ukrainian_war_(2022%E2%80%93present)"
+      },
+      {
+       "label": "Violations of non-combatant airspace during the Russo-Ukrainian war",
+       "links": [
+        {
+         "label": "Violations of non-combatant airspace during the Russo-Ukrainian war",
+         "url": "https://en.wikipedia.org/wiki/Violations_of_non-combatant_airspace_during_the_Russo-Ukrainian_war_(2022%E2%80%93present)"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Violations_of_non-combatant_airspace_during_the_Russo-Ukrainian_war_(2022%E2%80%93present)"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-20-01af408454c0",
+   "more_articles": [
+    {
+     "extract": "Following the escalation of the Russo-Ukrainian war, with Russia's full-scale invasion of Ukraine on February 24, 2022, states in the vicinity of the conflict reported numerous violations of their airspace, particularly NATO member states that Russia had designated as \"unfriendly states\" because of…",
+     "title": "Violations of non-combatant airspace during the Russo-Ukrainian war (2022–present)",
+     "url": "https://en.wikipedia.org/wiki/Violations_of_non-combatant_airspace_during_the_Russo-Ukrainian_war_(2022%E2%80%93present)"
+    }
+   ],
+   "pub_date": "2026-11-20T15:34:54Z",
+   "title": "A Russian Kh-101 cruise missile strikes a field near the village of Nowy Lipowiec in Lublin Voivodeship, Poland, around 60 miles from a Coalition of the Willing training excercise."
+  },
+  {
+   "article": {
+    "extract": "Since July 2026, mass protest movements arose across Europe. Major demonstrations were held across Albania, Belgium, Czechia, France, Germany, Georgia, Greece, Ireland, Italy, Poland, Portugal, Serbia, Spain and Ukraine, with minor demonstrations and strikes occuring in other countries.",
+    "title": "2026 European unrest",
+    "url": "https://en.wikipedia.org/wiki/2026_European_unrest"
+   },
+   "categories": [
+    "Politics and elections"
+   ],
+   "headlines": [
+    {
+     "category": "Politics and elections",
+     "html": "A general strike is held in Italy, with protests in multiple cities across the country.",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_20&action=history",
+      "title": "Portal:Current events/2026 November 20",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_20"
+     },
+     "sources": [
+      {
+       "name": "Rai News",
+       "url": "https://www.rainews.it/maratona/2026/11/sciopero-generale-sara-un-venerdi-difficile-stop-a-trasporti-scuola-e-sanita-9326c802-86d1-4e5e-9b05-46d7e34466f4.html"
+      }
+     ],
+     "topics": [
+      {
+       "label": "2026 European unrest",
+       "links": [
+        {
+         "label": "2026 European unrest",
+         "url": "https://en.wikipedia.org/wiki/2026_European_unrest"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/2026_European_unrest"
+      },
+      {
+       "label": "2026 Italian unrest",
+       "links": [
+        {
+         "label": "2026 Italian unrest",
+         "url": "https://en.wikipedia.org/wiki/2026_Italian_unrest"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/2026_Italian_unrest"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-20-4577543f0390",
+   "more_articles": [
+    {
+     "extract": "The 2026 Italian unrest is an ongoing series of protests, demonstrations, strikes, and clashes in Italy that began on 16 October 2026. The unrest has involved student movements, labor unions and other protesters expressing discontent over the rising costs of living and fuel prices, education…",
+     "title": "2026 Italian unrest",
+     "url": "https://en.wikipedia.org/wiki/2026_Italian_unrest"
+    }
+   ],
+   "pub_date": "2026-11-20T15:34:54Z",
+   "title": "A general strike is held in Italy, with protests in multiple cities across the country."
+  },
+  {
+   "article": {
     "extract": "Somalia–United Arab Emirates relations are bilateral relations between Somalia and the United Arab Emirates (UAE). Both nations are Arab League members and used to engage in close development cooperation.",
     "title": "Somalia–United Arab Emirates relations",
     "url": "https://en.wikipedia.org/wiki/Somalia%E2%80%93United_Arab_Emirates_relations"
@@ -17,7 +135,7 @@
    "headlines": [
     {
      "category": "International relations",
-     "html": "<a href=\"https://en.wikipedia.org/wiki/Somalia\">Somalia</a> orders the <a href=\"https://en.wikipedia.org/wiki/United_Arab_Emirates\">UAE</a> ambassador to leave in 72 hours, accusing the country of underminding Somalia's sovereignty.",
+     "html": "<a href=\"https://en.wikipedia.org/wiki/Somalia\">Somalia</a> expels the ambassador of the <a href=\"https://en.wikipedia.org/wiki/United_Arab_Emirates\">United Arab Emirates</a>, saying the country undermined Somalia's sovereignty.",
      "page": {
       "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_19&action=history",
       "title": "Portal:Current events/2026 November 19",
@@ -46,14 +164,49 @@
    "id": "2026-11-19-8c00bcfa98c9",
    "more_articles": [],
    "pub_date": "2026-11-19T18:58:22Z",
-   "title": "Somalia orders the UAE ambassador to leave in 72 hours, accusing the country of underminding Somalia's sovereignty."
+   "title": "Somalia expels the ambassador of the United Arab Emirates, saying the country undermined Somalia's sovereignty."
   },
   {
-   "article": null,
+   "article": {
+    "extract": "Significant political, constitutional, and social changes in Bangladesh followed the July Uprising of 2024 and the resignation of Prime Minister Sheikh Hasina. The uprising was initially sparked by widespread public protests and calls for reform, led to major changes in Bangladesh's political…",
+    "title": "Aftermath of the July Uprising",
+    "url": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"
+   },
    "categories": [
     "Armed conflicts and attacks"
    ],
    "headlines": [
+    {
+     "category": "Armed conflicts and attacks",
+     "html": "<a href=\"https://en.wikipedia.org/wiki/Border_Guard_Bangladesh\">Border Guard Bangladesh</a> deploys 97 <a href=\"https://en.wikipedia.org/wiki/Platoon\">platoons</a> across seven <a href=\"https://en.wikipedia.org/wiki/Districts_of_Bangladesh\">districts</a>, with five more on standby, amid ongoing <a href=\"https://en.wikipedia.org/wiki/Political_violence\">political violence</a> and <a href=\"https://en.wikipedia.org/wiki/Strike_action\">labour unrest</a>.",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_19&action=history",
+      "title": "Portal:Current events/2026 November 19",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_19"
+     },
+     "sources": [
+      {
+       "name": "The Guardian",
+       "url": "https://www.theguardian.com/world/2026/nov/19/bangladesh-violent-protest-sheikh-hasina-planned-return"
+      },
+      {
+       "name": "The Daily Star",
+       "url": "https://www.thedailystar.net/news/news/bgb-deploys-96-platoons-seven-districts-4327946"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Aftermath of the July Uprising",
+       "links": [
+        {
+         "label": "Aftermath of the July Uprising",
+         "url": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"
+      }
+     ]
+    },
     {
      "category": "Armed conflicts and attacks",
      "html": "In <a href=\"https://en.wikipedia.org/wiki/Bangladesh\">Bangladesh</a>, banned <a href=\"https://en.wikipedia.org/wiki/Awami_League\">Awami League</a> members <a href=\"https://en.wikipedia.org/wiki/Looting\">loot</a> and <a href=\"https://en.wikipedia.org/wiki/Arson\">burn</a> properties in <a href=\"https://en.wikipedia.org/wiki/Gopalganj_District,_Bangladesh\">Gopalganj District</a>, including <a href=\"https://en.wikipedia.org/wiki/Bangladesh_Nationalist_Party\">BNP</a> <a href=\"https://en.wikipedia.org/wiki/Jatiya_Sangsad\">MP</a> <a href=\"https://en.wikipedia.org/wiki/Md._Selimuzzaman_Mollah\">Md. Selimuzzaman Mollah</a>'s ancestral home, a <a href=\"https://en.wikipedia.org/wiki/Bangladesh_Police\">police</a> station, and a <a href=\"https://en.wikipedia.org/wiki/Grameen_Bank\">Grameen Bank</a> branch, and <a href=\"https://en.wikipedia.org/wiki/Vandalism\">vandalise</a> BNP and <a href=\"https://en.wikipedia.org/wiki/Bangladesh_Jamaat-e-Islami\">Jamaat-e-Islami</a> properties. Separately, attackers burn the homes of former politicians <a href=\"https://en.wikipedia.org/wiki/Rahim_Ullah\">Rahim Ullah</a> in <a href=\"https://en.wikipedia.org/wiki/Feni_District\">Feni District</a>, <a href=\"https://en.wikipedia.org/wiki/Shahriar_Alam\">Shahriar Alam</a> in <a href=\"https://en.wikipedia.org/wiki/Rajshahi_District\">Rajshahi District</a> and <a href=\"https://en.wikipedia.org/wiki/Mahmud_Hasan_Sumon\">Mahmud Hasan Sumon</a> in <a href=\"https://en.wikipedia.org/wiki/Mymensingh_District\">Mymensingh District</a>.",
@@ -70,23 +223,26 @@
       {
        "name": "The Financial Express",
        "url": "https://thefinancialexpress.com.bd/national/ex-al-mps-house-looted-set-on-fire-in-feni"
-      },
-      {
-       "name": "The Business Standard in Bengali",
-       "url": "https://www.tbsnews.net/bangla/bangladesh/news-details-567881"
-      },
-      {
-       "name": "NTV in Bengali",
-       "url": "https://www.ntvbd.com/bangladesh/news-1839345"
       }
      ],
-     "topics": []
+     "topics": [
+      {
+       "label": "Aftermath of the July Uprising",
+       "links": [
+        {
+         "label": "Aftermath of the July Uprising",
+         "url": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"
+      }
+     ]
     }
    ],
    "id": "2026-11-19-b3fd4c7d6711",
    "more_articles": [],
    "pub_date": "2026-11-19T15:46:16Z",
-   "title": "In Bangladesh, banned Awami League members loot and burn properties in Gopalganj District, including BNP MP Md."
+   "title": "Border Guard Bangladesh deploys 97 platoons across seven districts, with five more on standby, amid ongoing political violence and labour unrest. / In Bangladesh, banned Awami League members loot and burn properties in Gopalganj District, including BNP MP Md."
   },
   {
    "article": {
@@ -157,7 +313,7 @@
      },
      "sources": [
       {
-       "name": "Philippine Daily Inquirer",
+       "name": "AFP via Philippine Daily Inquirer",
        "url": "https://business.inquirer.net/621752/ph-inks-first-latin-american-free-trade-deal-with-chile/"
       }
      ],
@@ -213,7 +369,7 @@
   },
   {
    "article": {
-    "extract": "The Application of the Convention on the Prevention and Punishment of the Crime of Genocide (The Gambia v. Myanmar), commonly referred to as the Rohingya genocide case, is a case which is currently being heard by the International Court of Justice (ICJ).",
+    "extract": "The Application of the Convention on the Prevention and Punishment of the Crime of Genocide (The Gambia v. Myanmar), commonly referred to as the Rohingya genocide case, was a case heard by the International Court of Justice (ICJ).",
     "title": "Rohingya genocide case",
     "url": "https://en.wikipedia.org/wiki/Rohingya_genocide_case"
    },
@@ -299,6 +455,692 @@
   },
   {
    "article": {
+    "extract": "The Middle East is currently experiencing an ongoing series of interrelated wars, conflicts, and heightened instability, triggered by the ongoing Gaza war and the genocide in Gaza. These have primarily consisted of conflicts between Israel and the United States on one side, and Iran and militias…",
+    "title": "Middle Eastern crisis (2023–present)",
+    "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
+   },
+   "categories": [
+    "Armed conflicts and attacks"
+   ],
+   "headlines": [
+    {
+     "category": "Armed conflicts and attacks",
+     "html": "The Houthis say that <a href=\"https://en.wikipedia.org/wiki/Saudi-led_intervention_in_the_Yemeni_civil_war\">Saudi-led coalition</a> <a href=\"https://en.wikipedia.org/wiki/Airstrike\">airstrikes</a> have killed 10 people in <a href=\"https://en.wikipedia.org/wiki/Sanaa\">Sanaa</a>, Yemen, over the past two days.",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_19&action=history",
+      "title": "Portal:Current events/2026 November 19",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_19"
+     },
+     "sources": [
+      {
+       "name": "Al Jazeera",
+       "url": "https://aje.news/r003u9?update=5168933"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Middle Eastern crisis",
+       "links": [
+        {
+         "label": "Middle Eastern crisis",
+         "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
+      },
+      {
+       "label": "Yemeni civil war",
+       "links": [
+        {
+         "label": "Yemeni civil war",
+         "url": "https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)"
+      },
+      {
+       "label": "2026 Yemen offensives",
+       "links": [
+        {
+         "label": "2026 Yemen offensives",
+         "url": "https://en.wikipedia.org/wiki/2026_Yemen_offensives"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/2026_Yemen_offensives"
+      }
+     ]
+    },
+    {
+     "category": "Armed conflicts and attacks",
+     "html": "The <a href=\"https://en.wikipedia.org/wiki/Presidential_Leadership_Council\">Yemeni government</a>'s <a href=\"https://en.wikipedia.org/wiki/Yemeni_Armed_Forces\">military</a> says it has killed or injured 144 Houthi fighters during recent operations in the <a href=\"https://en.wikipedia.org/wiki/Taiz_Governorate\">Taiz</a>, <a href=\"https://en.wikipedia.org/wiki/Marib_Governorate\">Marib</a>, and <a href=\"https://en.wikipedia.org/wiki/Al-Jawf_Governorate\">Al-Jawf</a> <a href=\"https://en.wikipedia.org/wiki/Governorates_of_Yemen\">governorates</a>, and to have repelled an attack in the <a href=\"https://en.wikipedia.org/wiki/Tur_Al_Bahah_district\">Tur Al Bahah</a> area.",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_19&action=history",
+      "title": "Portal:Current events/2026 November 19",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_19"
+     },
+     "sources": [
+      {
+       "name": "Al Jazeera",
+       "url": "https://aje.news/r003u9?update=5168467"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Middle Eastern crisis",
+       "links": [
+        {
+         "label": "Middle Eastern crisis",
+         "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
+      },
+      {
+       "label": "Yemeni civil war",
+       "links": [
+        {
+         "label": "Yemeni civil war",
+         "url": "https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)"
+      },
+      {
+       "label": "2026 Yemen offensives",
+       "links": [
+        {
+         "label": "2026 Yemen offensives",
+         "url": "https://en.wikipedia.org/wiki/2026_Yemen_offensives"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/2026_Yemen_offensives"
+      }
+     ]
+    },
+    {
+     "category": "Armed conflicts and attacks",
+     "html": "The <a href=\"https://en.wikipedia.org/wiki/Houthis\">Houthis</a> fire <a href=\"https://en.wikipedia.org/wiki/Missile\">missiles</a> at <a href=\"https://en.wikipedia.org/wiki/King_Abdullah_Financial_District\">King Abdullah Financial District</a> in <a href=\"https://en.wikipedia.org/wiki/Riyadh\">Riyadh</a>, <a href=\"https://en.wikipedia.org/wiki/Saudi_Arabia\">Saudi Arabia</a>, which damage the <a href=\"https://en.wikipedia.org/wiki/Public_Investment_Fund_Tower\">Public Investment Fund Tower</a> and other buildings but cause no injuries.",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_19&action=history",
+      "title": "Portal:Current events/2026 November 19",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_19"
+     },
+     "sources": [
+      {
+       "name": "Middle East Monitor",
+       "url": "https://www.middleeastmonitor.com/20261119-houthi-attack-damages-tower-in-riyadhs-financial-district-saudi-civil-defense/"
+      },
+      {
+       "name": "Al-Monitor",
+       "url": "https://www.al-monitor.com/originals/2026/11/pif-aramco-strikes-hit-heart-saudi-arabias-economic-overhaul"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Middle Eastern crisis",
+       "links": [
+        {
+         "label": "Middle Eastern crisis",
+         "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
+      },
+      {
+       "label": "Yemeni civil war",
+       "links": [
+        {
+         "label": "Yemeni civil war",
+         "url": "https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)"
+      },
+      {
+       "label": "Houthi–Saudi conflict",
+       "links": [
+        {
+         "label": "Houthi–Saudi conflict",
+         "url": "https://en.wikipedia.org/wiki/Houthi%E2%80%93Saudi_conflict"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Houthi%E2%80%93Saudi_conflict"
+      }
+     ]
+    },
+    {
+     "category": "Armed conflicts and attacks",
+     "html": "Two <a href=\"https://en.wikipedia.org/wiki/Israel\">Israeli</a> drones explode in <a href=\"https://en.wikipedia.org/wiki/Nabatieh\">Nabatieh</a>, Lebanon, without causing any injuries.",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_19&action=history",
+      "title": "Portal:Current events/2026 November 19",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_19"
+     },
+     "sources": [
+      {
+       "name": "Al Jazeera",
+       "url": "https://aje.news/r003u9?update=5168425"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Middle Eastern crisis",
+       "links": [
+        {
+         "label": "Middle Eastern crisis",
+         "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
+      },
+      {
+       "label": "2026 Iran war",
+       "links": [
+        {
+         "label": "2026 Iran war",
+         "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
+      },
+      {
+       "label": "2026 Lebanon war",
+       "links": [
+        {
+         "label": "2026 Lebanon war",
+         "url": "https://en.wikipedia.org/wiki/2026_Lebanon_war"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/2026_Lebanon_war"
+      }
+     ]
+    },
+    {
+     "category": "Armed conflicts and attacks",
+     "html": "The <a href=\"https://en.wikipedia.org/wiki/Israeli_Air_Force\">Israeli Air Force</a> strikes a <a href=\"https://en.wikipedia.org/wiki/Hezbollah\">Hezbollah</a> underground facility in <a href=\"https://en.wikipedia.org/wiki/Lebanon\">Lebanon</a>'s <a href=\"https://en.wikipedia.org/wiki/Bekaa_valley\">Bekaa valley</a>.",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_19&action=history",
+      "title": "Portal:Current events/2026 November 19",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_19"
+     },
+     "sources": [
+      {
+       "name": "The Times of Israel",
+       "url": "https://www.timesofisrael.com/air-force-bombs-entrances-to-underground-hezbollah-missile-site-in-east-lebanon-idf/"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Middle Eastern crisis",
+       "links": [
+        {
+         "label": "Middle Eastern crisis",
+         "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
+      },
+      {
+       "label": "2026 Iran war",
+       "links": [
+        {
+         "label": "2026 Iran war",
+         "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
+      },
+      {
+       "label": "2026 Lebanon war",
+       "links": [
+        {
+         "label": "2026 Lebanon war",
+         "url": "https://en.wikipedia.org/wiki/2026_Lebanon_war"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/2026_Lebanon_war"
+      }
+     ]
+    },
+    {
+     "category": "Armed conflicts and attacks",
+     "html": "<a href=\"https://en.wikipedia.org/wiki/Iran\">Iran</a>'s <a href=\"https://en.wikipedia.org/wiki/Iranian_Navy\">navy</a> says that an <a href=\"https://en.wikipedia.org/wiki/Oil_tanker\">oil tanker</a> caught on fire after hitting a <a href=\"https://en.wikipedia.org/wiki/Naval_mine\">naval mine</a> east of the <a href=\"https://en.wikipedia.org/wiki/Strait_of_Hormuz\">Strait of Hormuz</a>.",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_19&action=history",
+      "title": "Portal:Current events/2026 November 19",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_19"
+     },
+     "sources": [
+      {
+       "name": "Al Jazeera",
+       "url": "https://aje.news/r003u9?update=5169046"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Middle Eastern crisis",
+       "links": [
+        {
+         "label": "Middle Eastern crisis",
+         "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
+      },
+      {
+       "label": "2026 Iran war",
+       "links": [
+        {
+         "label": "2026 Iran war",
+         "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
+      },
+      {
+       "label": "2026 Strait of Hormuz crisis",
+       "links": [
+        {
+         "label": "2026 Strait of Hormuz crisis",
+         "url": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-19-1ff281bbb4a0",
+   "more_articles": [
+    {
+     "extract": "Since 28 February 2026, the United States and Israel have been at war with Iran and its regional allies, following the Twelve-Day War in June 2025 and sporadic fighting during the Middle Eastern crisis sparked by the Gaza war, which began in 2023. Amid ongoing US–Iran negotiations regarding Iran's…",
+     "title": "2026 Iran war",
+     "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
+    },
+    {
+     "extract": "Shipping traffic through the Strait of Hormuz, a major maritime choke point for world energy trade, has been largely blocked by Iran since 28 February 2026, when the United States and Israel launched an air war against Iran. In retaliation, the Iranian Revolutionary Guard Corps (IRGC) issued…",
+     "title": "2026 Strait of Hormuz crisis",
+     "url": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
+    },
+    {
+     "extract": "Since 2 March 2026, there has been an ongoing war in Lebanon between Israel and the militant group Hezbollah, with Israel invading parts of Lebanon. It is a resumption of major fighting in the Hezbollah–Israel conflict, and part of the wider conflict in the Middle East.",
+     "title": "2026 Lebanon war",
+     "url": "https://en.wikipedia.org/wiki/2026_Lebanon_war"
+    },
+    {
+     "extract": "The Yemeni civil war (Arabic: الحرب الأهلية اليمنية, romanized: al-ḥarb al-ʾahlīyah al-yamanīyah) is an ongoing multilateral civil war that began in late 2014 mainly between the Rashad al-Alimi-led Presidential Leadership Council and the Mahdi al-Mashat-led Houthi Supreme Political Council, along…",
+     "title": "Yemeni civil war (2014–present)",
+     "url": "https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)"
+    },
+    {
+     "extract": "The Houthi–Saudi conflict is an ongoing armed conflict involving the Armed Forces of Saudi Arabia and Houthi forces in Yemen and along the Saudi–Yemeni border, including parts of Asir, Jazan, and Najran in Saudi Arabia and Saada, Al-Jawf, and Hajjah in Yemen. The conflict began following the…",
+     "title": "Houthi–Saudi conflict",
+     "url": "https://en.wikipedia.org/wiki/Houthi%E2%80%93Saudi_conflict"
+    },
+    {
+     "extract": "On 3 September 2026, the Iran-backed Houthis launched an offensive against the Saudi-backed Presidential Leadership Council (PLC), the internationally recognized government of Yemen, amid the ongoing Yemeni civil war. Clashes began in Taiz Governorate, prompting a PLC counter-offensive against the…",
+     "title": "2026 Yemen offensives",
+     "url": "https://en.wikipedia.org/wiki/2026_Yemen_offensives"
+    }
+   ],
+   "pub_date": "2026-11-19T00:00:00Z",
+   "title": "The Houthis say that Saudi-led coalition airstrikes have killed 10 people in Sanaa, Yemen, over the past two days. / The Yemeni government's military says it has killed or injured 144 Houthi fighters during recent operations in the Taiz, Marib, and Al-Jawf governorates, and to have repelled an attack in the Tur Al… / The Houthis fire missiles at King Abdullah Financial District in Riyadh, Saudi Arabia, which damage the Public Investment Fund Tower and other buildings but cause no injuries. / Two Israeli drones explode in Nabatieh, Lebanon, without causing any injuries. / The Israeli Air Force strikes a Hezbollah underground facility in Lebanon's Bekaa valley. / Iran's navy says that an oil tanker caught on fire after hitting a naval mine east of the Strait of Hormuz."
+  },
+  {
+   "article": {
+    "extract": "The Middle East is currently experiencing an ongoing series of interrelated wars, conflicts, and heightened instability, triggered by the ongoing Gaza war and the genocide in Gaza. These have primarily consisted of conflicts between Israel and the United States on one side, and Iran and militias…",
+    "title": "Middle Eastern crisis (2023–present)",
+    "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
+   },
+   "categories": [
+    "Armed conflicts and attacks"
+   ],
+   "headlines": [
+    {
+     "category": "Armed conflicts and attacks",
+     "html": "<a href=\"https://en.wikipedia.org/wiki/Gaza_Strip\">Gaza</a>'s <a href=\"https://en.wikipedia.org/wiki/Ministry_of_Health_(Gaza)\">health ministry</a> reports that two people have been killed by recent Israeli attacks and two others died from their wounds over the past day.",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_19&action=history",
+      "title": "Portal:Current events/2026 November 19",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_19"
+     },
+     "sources": [
+      {
+       "name": "Al Jazeera",
+       "url": "https://aje.news/r003u9?update=5168071"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Middle Eastern crisis",
+       "links": [
+        {
+         "label": "Middle Eastern crisis",
+         "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
+      },
+      {
+       "label": "Gaza war",
+       "links": [
+        {
+         "label": "Gaza war",
+         "url": "https://en.wikipedia.org/wiki/Gaza_war"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Gaza_war"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-19-2ecb4f24776a",
+   "more_articles": [
+    {
+     "extract": "The Gaza war is an armed conflict in the Gaza Strip and Israel, fought as part of the unresolved Israeli–Palestinian and Gaza–Israel conflicts. The war began on 7 October 2023, when Palestinian militant group Hamas led an attack on Israel, in which 1,195 Israelis and foreign nationals were killed…",
+     "title": "Gaza war",
+     "url": "https://en.wikipedia.org/wiki/Gaza_war"
+    }
+   ],
+   "pub_date": "2026-11-19T00:00:00Z",
+   "title": "Gaza's health ministry reports that two people have been killed by recent Israeli attacks and two others died from their wounds over the past day."
+  },
+  {
+   "article": {
+    "extract": "The 2026 Iran war, including the closure of the Strait of Hormuz, has led to what the International Energy Agency has characterized as the \"largest supply disruption in the history of the global oil market\". The conflict has echoed the 1970s energy crisis through acute supply shortages, currency…",
+    "title": "Economic impact of the 2026 Iran war",
+    "url": "https://en.wikipedia.org/wiki/Economic_impact_of_the_2026_Iran_war"
+   },
+   "categories": [
+    "Business and economy"
+   ],
+   "headlines": [
+    {
+     "category": "Business and economy",
+     "html": "The <a href=\"https://en.wikipedia.org/wiki/Joint_Organisations_Data_Initiative\">Joint Organisations Data Initiative</a> reports that <a href=\"https://en.wikipedia.org/wiki/Petroleum_industry_in_Saudi_Arabia\">Saudi Arabia's oil exports</a> rose in September to their highest level since the outbreak of the war in February, despite the <a href=\"https://en.wikipedia.org/wiki/Houthi_blockade_of_Saudi_Arabia\">Houthi attacks on Red Sea ports and infrastructure</a>.",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_19&action=history",
+      "title": "Portal:Current events/2026 November 19",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_19"
+     },
+     "sources": [
+      {
+       "name": "Al Jazeera",
+       "url": "https://aje.news/r003u9?update=5168385"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Economic impact of the 2026 Iran war",
+       "links": [
+        {
+         "label": "Economic impact of the 2026 Iran war",
+         "url": "https://en.wikipedia.org/wiki/Economic_impact_of_the_2026_Iran_war"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Economic_impact_of_the_2026_Iran_war"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-19-b0e586875c70",
+   "more_articles": [],
+   "pub_date": "2026-11-19T00:00:00Z",
+   "title": "The Joint Organisations Data Initiative reports that Saudi Arabia's oil exports rose in September to their highest level since the outbreak of the war in February, despite the Houthi attacks on Red…"
+  },
+  {
+   "article": {
+    "extract": "A series of labour demonstrations organized by workers in the ready-made garment industry have taken place in Bangladesh, demanding an increase in the sector's minimum monthly wage from ৳12,500 (US$100) to ৳30,000 (US$240). Began in August 2026, the protests escalated in late-October and…",
+    "title": "2026 Bangladesh garment workers protests",
+    "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"
+   },
+   "categories": [
+    "Business and economy"
+   ],
+   "headlines": [
+    {
+     "category": "Business and economy",
+     "html": "Across <a href=\"https://en.wikipedia.org/wiki/Bangladesh\">Bangladesh</a>, 341 <a href=\"https://en.wikipedia.org/wiki/Textile_industry_in_Bangladesh\">garment factories</a> remain closed amid ongoing <a href=\"https://en.wikipedia.org/wiki/Minimum_wage\">minimum wage</a> protests, as <a href=\"https://en.wikipedia.org/wiki/Bangladesh_Police\">police</a> fire <a href=\"https://en.wikipedia.org/wiki/Tear_gas\">tear gas</a> and <a href=\"https://en.wikipedia.org/wiki/Stun_grenade\">stun grenades</a> to disperse demonstrators in <a href=\"https://en.wikipedia.org/wiki/Ashulia\">Ashulia</a> and clear blockades on the <a href=\"https://en.wikipedia.org/wiki/N3_(Bangladesh)\">Dhaka–Mymensingh Highway</a> in <a href=\"https://en.wikipedia.org/wiki/Gazipur\">Gazipur</a>, while <a href=\"https://en.wikipedia.org/wiki/Bangladesh_Nationalist_Party\">Bangladesh Nationalist Party</a> members take up positions along highway areas in <a href=\"https://en.wikipedia.org/wiki/Sreepur_Upazila,_Gazipur\">Sreepur</a> and authorities tighten security at <a href=\"https://en.wikipedia.org/wiki/Kashimpur_Central_Jail\">Kashimpur Central Jail</a>.",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_19&action=history",
+      "title": "Portal:Current events/2026 November 19",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_19"
+     },
+     "sources": [
+      {
+       "name": "New Age",
+       "url": "https://www.newagebd.net/post/country/323243/341-factories-shut-amid-rmg-wage-protests"
+      },
+      {
+       "name": "The Business Standard",
+       "url": "https://www.tbsnews.net/bangladesh/workers-continue-work-stoppage-savar-ashulia-50-gazipur-factories-shut-1607406"
+      },
+      {
+       "name": "Prothom Alo",
+       "url": "https://en.prothomalo.com/bangladesh/yzmt739avb"
+      }
+     ],
+     "topics": [
+      {
+       "label": "2026 Bangladesh garment workers protests",
+       "links": [
+        {
+         "label": "2026 Bangladesh garment workers protests",
+         "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-19-0d875e49f6b9",
+   "more_articles": [],
+   "pub_date": "2026-11-19T00:00:00Z",
+   "title": "Across Bangladesh, 341 garment factories remain closed amid ongoing minimum wage protests, as police fire tear gas and stun grenades to disperse demonstrators in Ashulia and clear blockades on the…"
+  },
+  {
+   "article": {
+    "extract": "Senegal has a developing economy driven by mining, construction, tourism, fishing and agriculture, which are the main sources of employment in rural areas. Natural resources include iron, zircon, gold, phosphates, and now oil and gas.",
+    "title": "Economy of Senegal",
+    "url": "https://en.wikipedia.org/wiki/Economy_of_Senegal"
+   },
+   "categories": [
+    "Business and economy"
+   ],
+   "headlines": [
+    {
+     "category": "Business and economy",
+     "html": "<a href=\"https://en.wikipedia.org/wiki/Senegal\">Senegalese</a> <a href=\"https://en.wikipedia.org/wiki/President_of_Senegal\">president</a> <a href=\"https://en.wikipedia.org/wiki/Bassirou_Diomaye_Faye\">Bassirou Diomaye Faye</a> enacts the revised 2026 <a href=\"https://en.wikipedia.org/wiki/Government_budget\">budget</a> by decree after <a href=\"https://en.wikipedia.org/wiki/National_Assembly_(Senegal)\">parliament</a> rejected it, seeking to advance a proposed <a href=\"https://en.wikipedia.org/wiki/US$\">US$</a>2.2 billion <a href=\"https://en.wikipedia.org/wiki/International_Monetary_Fund\">International Monetary Fund</a> loan programme aimed at addressing the <a href=\"https://en.wikipedia.org/wiki/Government_debt\">country's debt</a>.",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_19&action=history",
+      "title": "Portal:Current events/2026 November 19",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_19"
+     },
+     "sources": [
+      {
+       "name": "AFP via France 24",
+       "url": "https://www.france24.com/en/live-news/20261119-senegal-president-imposes-key-budget-crucial-for-imf-loan"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Economy of Senegal",
+       "links": [
+        {
+         "label": "Economy of Senegal",
+         "url": "https://en.wikipedia.org/wiki/Economy_of_Senegal"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Economy_of_Senegal"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-19-a6ee58afa332",
+   "more_articles": [],
+   "pub_date": "2026-11-19T00:00:00Z",
+   "title": "Senegalese president Bassirou Diomaye Faye enacts the revised 2026 budget by decree after parliament rejected it, seeking to advance a proposed US$2.2 billion International Monetary Fund loan…"
+  },
+  {
+   "article": null,
+   "categories": [
+    "Business and economy"
+   ],
+   "headlines": [
+    {
+     "category": "Business and economy",
+     "html": "<a href=\"https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI\"><i>Grand Theft Auto VI</i></a> by <a href=\"https://en.wikipedia.org/wiki/Rockstar_Games\">Rockstar Games</a> becomes the biggest <a href=\"https://en.wikipedia.org/wiki/Video_game_industry\">video game</a> launch in history with more than <a href=\"https://en.wikipedia.org/wiki/United_States_dollar\">$</a>2.3 billion in sales, surpassing the previous record holder, <i><a href=\"https://en.wikipedia.org/wiki/Call_of_Duty:_Modern_Warfare_II_(2022_video_game)\">Call of Duty: Modern Warfare II</a></i>, by more than $600 million.",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_19&action=history",
+      "title": "Portal:Current events/2026 November 19",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_19"
+     },
+     "sources": [
+      {
+       "name": "LBC",
+       "url": "https://www.lbc.co.uk/article/gta-6-breaks-records-as-estimated-sales-top-23bn-5HjdnKw_2/"
+      }
+     ],
+     "topics": []
+    }
+   ],
+   "id": "2026-11-19-926be1a09232",
+   "more_articles": [],
+   "pub_date": "2026-11-19T00:00:00Z",
+   "title": "Grand Theft Auto VI by Rockstar Games becomes the biggest video game launch in history with more than $2.3 billion in sales, surpassing the previous record holder, Call of Duty: Modern Warfare II, by…"
+  },
+  {
+   "article": {
+    "extract": "Pakistan–Qatar relations refer to the bilateral links between the Islamic Republic of Pakistan and the State of Qatar. Pakistan has an embassy in Doha; Qatar maintains an embassy in Islamabad and a consulate-general in Karachi.",
+    "title": "Pakistan–Qatar relations",
+    "url": "https://en.wikipedia.org/wiki/Pakistan%E2%80%93Qatar_relations"
+   },
+   "categories": [
+    "International relations"
+   ],
+   "headlines": [
+    {
+     "category": "International relations",
+     "html": "<a href=\"https://en.wikipedia.org/wiki/Pakistan\">Pakistan</a> and <a href=\"https://en.wikipedia.org/wiki/Qatar\">Qatar</a> sign a <a href=\"https://en.wikipedia.org/wiki/Memorandum_of_understanding\">memorandum of understanding</a> on cooperation between their <a href=\"https://en.wikipedia.org/wiki/Federal_Constabulary\">Federal Constabulary</a> and <a href=\"https://en.wikipedia.org/wiki/Lekhwiya\">Internal Security Force</a>, respectively.",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_19&action=history",
+      "title": "Portal:Current events/2026 November 19",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_19"
+     },
+     "sources": [
+      {
+       "name": "Al Jazeera",
+       "url": "https://aje.news/r003u9?update=5168504"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Pakistan–Qatar relations",
+       "links": [
+        {
+         "label": "Pakistan–Qatar relations",
+         "url": "https://en.wikipedia.org/wiki/Pakistan%E2%80%93Qatar_relations"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Pakistan%E2%80%93Qatar_relations"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-19-15ea36825b92",
+   "more_articles": [],
+   "pub_date": "2026-11-19T00:00:00Z",
+   "title": "Pakistan and Qatar sign a memorandum of understanding on cooperation between their Federal Constabulary and Internal Security Force, respectively."
+  },
+  {
+   "article": {
+    "extract": "The future of Palestinians detained by Israel in the context of the Israeli–Palestinian conflict is considered central to progress in the Israeli–Palestinian peace process. Cases of prison sentences include the charges of \"terrorism\" or being a member of an \"illegal terrorist organization\", such as…",
+    "title": "Palestinians in Israeli custody",
+    "url": "https://en.wikipedia.org/wiki/Palestinians_in_Israeli_custody"
+   },
+   "categories": [
+    "Law and crime"
+   ],
+   "headlines": [
+    {
+     "category": "Law and crime",
+     "html": "An <a href=\"https://en.wikipedia.org/wiki/Judiciary_of_Israel\">Israeli court</a> extends the detention of Gaza's <a href=\"https://en.wikipedia.org/wiki/Kamal_Edwan_hospital\">Kamal Edwan hospital</a> director <a href=\"https://en.wikipedia.org/wiki/Hussam_Abu_Safiya\">Hussam Abu Safiya</a> by six months.",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_19&action=history",
+      "title": "Portal:Current events/2026 November 19",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_19"
+     },
+     "sources": [
+      {
+       "name": "Al Jazeera",
+       "url": "https://aje.news/r003u9?update=5168110"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Palestinians in Israeli custody",
+       "links": [
+        {
+         "label": "Palestinians in Israeli custody",
+         "url": "https://en.wikipedia.org/wiki/Palestinians_in_Israeli_custody"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Palestinians_in_Israeli_custody"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-19-f27c3505e52a",
+   "more_articles": [],
+   "pub_date": "2026-11-19T00:00:00Z",
+   "title": "An Israeli court extends the detention of Gaza's Kamal Edwan hospital director Hussam Abu Safiya by six months."
+  },
+  {
+   "article": {
+    "extract": "Presidential elections are scheduled to be held in El Salvador on 28 February 2027, three years after the 2024 presidential election. They will occur with concurrent legislative and municipal elections.",
+    "title": "2027 Salvadoran presidential election",
+    "url": "https://en.wikipedia.org/wiki/2027_Salvadoran_presidential_election"
+   },
+   "categories": [
+    "Politics and elections"
+   ],
+   "headlines": [
+    {
+     "category": "Politics and elections",
+     "html": "Incumbent <a href=\"https://en.wikipedia.org/wiki/President_of_El_Salvador\">president of El Salvador</a> <a href=\"https://en.wikipedia.org/wiki/Nayib_Bukele\">Nayib Bukele</a> presents his presidential candidacy to the <a href=\"https://en.wikipedia.org/wiki/Supreme_Electoral_Court_(El_Salvador)\">Supreme Electoral Court</a> seeking registration ahead of the 2027 elections. He is running for a third presidential term that will last six years.",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_19&action=history",
+      "title": "Portal:Current events/2026 November 19",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_19"
+     },
+     "sources": [
+      {
+       "name": "AP",
+       "url": "https://apnews.com/article/el-salvador-president-nayib-bukele-reelection-gangs-fbbf0ec3bba7966fa1a5d71d04e04e29"
+      }
+     ],
+     "topics": [
+      {
+       "label": "2027 Salvadoran presidential election",
+       "links": [
+        {
+         "label": "2027 Salvadoran presidential election",
+         "url": "https://en.wikipedia.org/wiki/2027_Salvadoran_presidential_election"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/2027_Salvadoran_presidential_election"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-19-8616203b3c5c",
+   "more_articles": [],
+   "pub_date": "2026-11-19T00:00:00Z",
+   "title": "Incumbent president of El Salvador Nayib Bukele presents his presidential candidacy to the Supreme Electoral Court seeking registration ahead of the 2027 elections."
+  },
+  {
+   "article": {
     "extract": "The insurgency in Jammu and Kashmir, also known as the Kashmir insurgency, is an ongoing Islamist separatist militant insurgency against the Indian administration in Jammu and Kashmir, a territory constituting the southwestern portion of the larger geographical region of Kashmir, which has been the…",
     "title": "Insurgency in Jammu and Kashmir",
     "url": "https://en.wikipedia.org/wiki/Insurgency_in_Jammu_and_Kashmir"
@@ -342,7 +1184,7 @@
   },
   {
    "article": {
-    "extract": "A series of labour demonstrations organized by workers in the ready-made garment industry have taken place in Bangladesh, demanding an increase in the sector's minimum monthly wage from ৳12,500 to ৳30,000. Began in August 2026, the protests escalated in late-October and early-November 2026 in the…",
+    "extract": "A series of labour demonstrations organized by workers in the ready-made garment industry have taken place in Bangladesh, demanding an increase in the sector's minimum monthly wage from ৳12,500 (US$100) to ৳30,000 (US$240). Began in August 2026, the protests escalated in late-October and…",
     "title": "2026 Bangladesh garment workers protests",
     "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"
    },
@@ -418,7 +1260,7 @@
    "headlines": [
     {
      "category": "Science and technology",
-     "html": "<a href=\"https://en.wikipedia.org/wiki/NASA\">NASA</a>'s <a href=\"https://en.wikipedia.org/wiki/Space_probe\">space probe</a> <i><a href=\"https://en.wikipedia.org/wiki/Voyager_1\">Voyager 1</a></i> reaches the distance of one <a href=\"https://en.wikipedia.org/wiki/Light-year\">light-day</a> from Earth, being the first man-made object to reach that distance, after it launched in 1977.",
+     "html": "<a href=\"https://en.wikipedia.org/wiki/NASA\">NASA</a>'s <a href=\"https://en.wikipedia.org/wiki/Space_probe\">space probe</a> <i><a href=\"https://en.wikipedia.org/wiki/Voyager_1\">Voyager 1</a></i> reaches the distance of one <a href=\"https://en.wikipedia.org/wiki/Light-second#Use_in_astronomy\">light-day</a> from Earth, being the first man-made object to reach that distance, after it launched in 1977.",
      "page": {
       "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_18&action=history",
       "title": "Portal:Current events/2026 November 18",
@@ -1828,7 +2670,7 @@
   },
   {
    "article": {
-    "extract": "A series of labour demonstrations organized by workers in the ready-made garment industry have taken place in Bangladesh, demanding an increase in the sector's minimum monthly wage from ৳12,500 to ৳30,000. Began in August 2026, the protests escalated in late-October and early-November 2026 in the…",
+    "extract": "A series of labour demonstrations organized by workers in the ready-made garment industry have taken place in Bangladesh, demanding an increase in the sector's minimum monthly wage from ৳12,500 (US$100) to ৳30,000 (US$240). Began in August 2026, the protests escalated in late-October and…",
     "title": "2026 Bangladesh garment workers protests",
     "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"
    },
@@ -2707,7 +3549,7 @@
   },
   {
    "article": {
-    "extract": "A series of labour demonstrations organized by workers in the ready-made garment industry have taken place in Bangladesh, demanding an increase in the sector's minimum monthly wage from ৳12,500 to ৳30,000. Began in August 2026, the protests escalated in late-October and early-November 2026 in the…",
+    "extract": "A series of labour demonstrations organized by workers in the ready-made garment industry have taken place in Bangladesh, demanding an increase in the sector's minimum monthly wage from ৳12,500 (US$100) to ৳30,000 (US$240). Began in August 2026, the protests escalated in late-October and…",
     "title": "2026 Bangladesh garment workers protests",
     "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"
    },
@@ -2938,7 +3780,7 @@
   },
   {
    "article": {
-    "extract": "A series of labour demonstrations organized by workers in the ready-made garment industry have taken place in Bangladesh, demanding an increase in the sector's minimum monthly wage from ৳12,500 to ৳30,000. Began in August 2026, the protests escalated in late-October and early-November 2026 in the…",
+    "extract": "A series of labour demonstrations organized by workers in the ready-made garment industry have taken place in Bangladesh, demanding an increase in the sector's minimum monthly wage from ৳12,500 (US$100) to ৳30,000 (US$240). Began in August 2026, the protests escalated in late-October and…",
     "title": "2026 Bangladesh garment workers protests",
     "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"
    },
@@ -3935,7 +4777,7 @@
      "url": "https://en.wikipedia.org/wiki/2026_WTA_Finals_%E2%80%93_Doubles"
     },
     {
-     "extract": "At the 2026 WTA Finals, Mirra Andreeva defeated Elina Svitolina in the final, 7–5, 6–3 to win the women's singles tennis title. The tournament was played on outdoor hard courts at Indian Wells, California, US. Andreeva was the youngest player to win the WTA Finals since Maria Sharapova in 2004, the…",
+     "extract": "At the 2026 WTA Finals, Mirra Andreeva defeated Elina Svitolina in the final, 7–5, 6–3 to win the singles tennis title. The tournament was played on outdoor hard courts at Indian Wells, California, US. Andreeva was the youngest player to win the WTA Finals since Maria Sharapova in 2004, the first…",
      "title": "2026 WTA Finals – Singles",
      "url": "https://en.wikipedia.org/wiki/2026_WTA_Finals_%E2%80%93_Singles"
     }
@@ -4416,7 +5258,7 @@
   },
   {
    "article": {
-    "extract": "A series of labour demonstrations organized by workers in the ready-made garment industry have taken place in Bangladesh, demanding an increase in the sector's minimum monthly wage from ৳12,500 to ৳30,000. Began in August 2026, the protests escalated in late-October and early-November 2026 in the…",
+    "extract": "A series of labour demonstrations organized by workers in the ready-made garment industry have taken place in Bangladesh, demanding an increase in the sector's minimum monthly wage from ৳12,500 (US$100) to ৳30,000 (US$240). Began in August 2026, the protests escalated in late-October and…",
     "title": "2026 Bangladesh garment workers protests",
     "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"
    },
@@ -20810,5 +21652,5 @@
    "title": "In association football, St. Louis City SC defeats Columbus Crew in a penalty shoot-out to win the U.S. Open Cup, earning the club its first trophy since beginning play in 2023."
   }
  ],
- "updated": "2026-11-19T20:16:29Z"
+ "updated": "2026-11-20T15:34:54Z"
 }
