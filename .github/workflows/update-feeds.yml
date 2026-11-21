@@ -74,11 +74,17 @@ jobs:
             date -u +%Y-%m-%dT%H:%M:%SZ > state/.keepalive
           fi
 
+      - name: Sellar los assets
+        # Cada referencia a assets/site.css y assets/site.js en el HTML lleva ?v=<hash del
+        # archivo>, para que el navegador no use una copia en caché cuando cambian. Los tests
+        # comprueban que estén al día; esto lo arregla si alguien cambió un asset sin sellar.
+        run: python3 -m wikipedia_rss.stamp
+
       - name: Commit y push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add state feeds data
+          git add state feeds data index.html story.html
           if git diff --cached --quiet; then
             echo "Sin cambios"
             exit 0

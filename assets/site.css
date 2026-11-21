@@ -7,6 +7,7 @@
   --rule: #1b1b1b;
   --accent: #8a1c1c;
   --card: #f3efe5;
+  --divider: #b7af9a;  /* a line on the card tint: visibly darker than it, still quiet */
   --chip: #8a1c1c;
   --focus: #8a1c1c;
   --serif: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif;
@@ -21,6 +22,7 @@
     --rule: #ece8dc;
     --accent: #e08a7a;
     --card: #1e1c15;
+    --divider: #5b5541;
     --chip: #e08a7a;
     --focus: #e08a7a;
   }
@@ -94,6 +96,10 @@ html { scroll-behavior: smooth; }
 /* A group inside a grouped box has no box of its own: its title once, the start of its
  * article's text, and its entries closer together than the groups are from each other. */
 .group { margin-top: .5rem; }
+.feature-body > .group:not(.divided) { margin-top: 0; }
+/* In a box with several sub-topics, a subtle line sets each of them apart from what comes before:
+ * first the main stories (the entries directly under the article), then each sub-topic. */
+.feature-body > .group.divided { margin-top: .5rem; padding-top: 1rem; border-top: 1px solid var(--divider); }
 .group-title { margin: 0 0 .5rem; font: 700 .75rem/1.4 var(--sans); letter-spacing: .1em; text-transform: uppercase; color: var(--accent); overflow-wrap: anywhere; }
 .group.depth-3 > .group-title, .entry.depth-3 > .group-title { color: var(--muted); }  /* a level further down, a step quieter */
 .group-body { display: grid; grid-template-columns: 1fr; gap: .75rem 2.5rem; }

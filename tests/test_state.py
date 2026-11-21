@@ -104,3 +104,55 @@ class MergeTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+PAGE = "Portal:Current events/2026 October 24"
+OTHER = "Portal:Current events/2026 October 23"
+
+
+def on_page(guid, page=PAGE, **extra):
+    return dict(item(guid, "2026-10-24"), page=page, **extra)
+
+
+class RemovedFromPageTest(unittest.TestCase):
+    LATER = T0 + datetime.timedelta(hours=3)
+
+    def test_headlines_gone_from_a_page_read_in_this_run_are_deleted(self):
+        state = {"items": {}}
+        st.merge(state, [on_page("a"), on_page("b"), on_page("c"), on_page("x", OTHER)], T0)
+        # "c" was removed from the page; the other page was not read this run, so "x" stays.
+        st.merge(state, [on_page("a"), on_page("b")], self.LATER)
+        self.assertEqual(set(state["items"]), {"a", "b", "x"})
+
+    def test_an_edit_that_changes_the_text_and_the_source_replaces_the_old_headline(self):
+        state = {"items": {}}
+        old = dict(on_page("old-text"), sources=[{"name": "AP", "url": "https://ap.example/1"}])
+        st.merge(state, [old, on_page("b")], T0)
+        new = dict(on_page("new-text"), sources=[{"name": "La Prensa", "url": "https://prensa.example/2"}])
+        # Not recognised as the same headline (the date and first source differ), so it is a new
+        # one, and the old one is no longer on the page.
+        self.assertEqual(st.merge(state, [new, on_page("b")], self.LATER), ["new-text"])
+        self.assertEqual(set(state["items"]), {"new-text", "b"})
+
+    def test_a_page_that_lost_most_of_its_headlines_is_left_alone(self):
+        state = {"items": {}}
+        st.merge(state, [on_page(g) for g in "abcdef"], T0)
+        with self.assertLogs("wikipedia_rss.state", "WARNING"):
+            st.merge(state, [on_page("a")], self.LATER)  # a blanked or misread page
+        self.assertEqual(set(state["items"]), set("abcdef"))
+
+    def test_a_group_survives_losing_a_member_even_its_first(self):
+        state = {"items": {}}
+
+        def grouped(guid, order):
+            return on_page(guid, group_key="pageid:1", order=order, pos=order, link="https://x/1")
+        st.merge(state, [grouped(g, i) for i, g in enumerate("abc")], T0)
+        self.assertEqual(state["groups"]["a"]["members"], ["a", "b", "c"])
+        st.merge(state, [grouped("b", 1), grouped("c", 2)], self.LATER)
+        self.assertEqual(set(state["items"]), {"b", "c"})
+        [unit] = st.latest(state, 10)
+        self.assertEqual([m["guid"] for m in unit["members"]], ["c", "b"])
+        # And the state is stable from then on.
+        before = st.dump_state(state)
+        st.merge(state, [grouped("b", 1), grouped("c", 2)], self.LATER + datetime.timedelta(hours=1))
+        self.assertEqual(st.dump_state(state), before)

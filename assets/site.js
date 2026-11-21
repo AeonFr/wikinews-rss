@@ -192,9 +192,9 @@
   // root); each headline's `topics` lists the lines above it, outermost first. Below the root
   // at most MAX_LEVELS more levels are kept (deeper ones count as the last one).
   var MAX_LEVELS = 2;
-  // A group inside a box shows its article's summary (as its first column) only when it has at
-  // least this many entries: with fewer, the summary would outweigh what it introduces.
-  var ABOUT_MIN_ENTRIES = 3;
+  // A group inside a box shows its article's summary (as its first column) when it has at least
+  // this many entries: an article with a single entry has none, a summary would outweigh it.
+  var ABOUT_MIN_ENTRIES = 2;
 
   function hasTopicLink(topic) {
     return !!((topic.links && topic.links.length) || topic.url);
@@ -359,7 +359,7 @@
     // The start of the group's article is the first column of its grid, as in the box around it.
     var article = groupArticle(s, node);
     var about = null;
-    if (article && entriesIn(node).length >= ABOUT_MIN_ENTRIES) {
+    if (s.complex && article && entriesIn(node).length >= ABOUT_MIN_ENTRIES) {
       about = aboutBlock(el("div", "about"), article);
       body.appendChild(about);
     }
@@ -388,13 +388,23 @@
   // columns next to its summary; sub-topics with several entries are groups inside it.
   function groupedTile(s, texts) {
     var li = el("li", "feature");
+    var tree = buildTree(s);
+    // A box whose only content is a single sub-topic is that sub-topic: it is the box's title
+    // and article, with no group inside, and the broader article above it is not shown (it
+    // would only be a category for what the sub-topic says more clearly).
+    var title = s.article.title, article = s.article;
+    while (tree.children.length === 1 && !tree.entries.length) {
+      tree = tree.children[0];
+      title = tree.topics[tree.topics.length - 1].label;  // its own title, not the chain above it
+      article = groupArticle(s, tree);
+    }
     var h3 = el("h3");
     // The title is a link only if there is a page about this very article: the box's single
     // story, when its entries are directly under the article. Otherwise the pages are the
     // stories inside (and one would be about a different article).
     var only = s.stories.length === 1 ? s.stories[0] : null;
-    if (only && nearestKey(only) === titleKey(s.article.url)) h3.appendChild(link(storyHref(only), s.article.title));
-    else h3.textContent = s.article.title;
+    if (only && article && nearestKey(only) === titleKey(article.url)) h3.appendChild(link(storyHref(only), title));
+    else h3.textContent = title;
     li.appendChild(h3);
     var by = byline(s);
     if (by) li.appendChild(el("p", "byline", by));
@@ -402,13 +412,14 @@
     // height of the box, and the entries are laid out in the columns next to it (see
     // layoutFeature).
     var box = el("div", "feature-body");
-    var tree = buildTree(s);
-    // The summary of the story's article is the first column of the box when the box is just
-    // its entries; when it holds groups, they carry their own summaries and a tall column
-    // would leave white space.
+    // The summary of the box's article is the first column of the box, unless the box has
+    // sub-topics: then the article is a broad category, and each sub-topic with several entries
+    // carries the summary of its own article (and a tall column beside all of them would leave
+    // white space).
+    s.complex = tree.children.length >= 1;
     var about = null;
-    if (!tree.children.length) {
-      about = aboutBlock(el("div", "about"), s.article);
+    if (!s.complex && article) {
+      about = aboutBlock(el("div", "about"), article);
       box.appendChild(about);
     }
     // The image is one more item of the grid, one column wide, before the entries.
@@ -419,6 +430,9 @@
       entries.push({ li: pic, kind: "short", length: 0, fixed: true });
     }
     entries = entries.concat(groupItems(s, tree, box, 1));
+    // A line sets a group apart from what comes before it; as the first thing in the box it
+    // would only divide the box's title from its content.
+    entries.forEach(function (e, i) { if (e.group && i > 0) e.li.classList.add("divided"); });
     li.appendChild(box);
     return { li: li, kind: "feature", portal: false, hasImage: !!pic, length: texts.join(" ").length,
              body: box, about: about, entries: entries };
@@ -545,6 +559,8 @@
   // the first column over the whole height, and the entries use the columns next to it
   // by the same rules as the page's tiles, with the feature's thresholds.
   function layoutFeature(tile, cols) {
+    var image = tile.entries.filter(function (e) { return e.fixed; })[0];
+    if (image) { image.kind = "short"; image.li.style.display = ""; }
     if (cols === 1) {  // one column: the summary (if any), then the entries
       if (tile.about) tile.about.style.gridRow = tile.about.style.gridColumn = "";
       layoutTiles(tile.entries, 1);
@@ -553,20 +569,28 @@
     }
     var offset = tile.about ? 1 : 0;      // the summary is the first column, if there is one
     var entryCols = cols - offset;
-    var image = tile.entries.filter(function (e) { return e.fixed; })[0];
-    if (image) image.kind = "short";   // one column, next to the entries...
-    var rows = layoutTiles(tile.entries, entryCols, offset);
+    var items = tile.entries;             // the image is one column, next to the entries...
+    var rows = layoutTiles(items, entryCols, offset);
     if (image && entryCols > 1) {
       // ...unless a long text ended up in its row: then the image takes the whole width of
       // the entries, on a row of its own, and the texts go below it.
       var row = image.li.style.gridRow;
-      var crowded = tile.entries.some(function (e) {
+      var crowded = items.some(function (e) {
         return e !== image && e.li.style.gridRow === row && e.length > IMAGE_BESIDE_MAX;
       });
       if (crowded) {
         image.kind = "feature";
-        rows = layoutTiles(tile.entries, entryCols, offset);
+        rows = layoutTiles(items, entryCols, offset);
       }
+    }
+    // An image never takes the whole width of the box (three columns of three): wider than two
+    // columns it would be a banner. If there is no room for it otherwise, it is left out.
+    if (image && image.span > Math.min(2, cols - 1)) {
+      image.kind = "short";
+      image.li.style.display = "none";
+      image.li.style.gridRow = image.li.style.gridColumn = "";
+      items = tile.entries.filter(function (e) { return e !== image; });
+      rows = layoutTiles(items, entryCols, offset);
     }
     layoutGroups(tile.entries, entryCols);
     if (tile.about) {

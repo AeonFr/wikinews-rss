@@ -18,10 +18,13 @@ website do not grow indefinitely. Old headlines that are still scraped are ignor
 """
 import datetime
 import json
+import logging
 import os
 import tempfile
 
 from .config import RETENTION_DAYS
+
+log = logging.getLogger(__name__)
 
 # Bumped when the rule that decides which headlines are grouped changes: the headlines
 # still on the portal are then regrouped once (see merge). 1: innermost topic's article;
@@ -102,8 +105,10 @@ def merge(state, items, now, retention_days=RETENTION_DAYS, max_group=MAX_GROUP)
 
     Known headlines keep first_seen, pub_date and date_source; their content is refreshed.
     Headlines (and groups) with a pub_date older than retention_days are deleted, and new
-    headlines that old are ignored. Headlines that are no longer on the portal are kept
-    until then. state["updated"] only moves to now if the state actually changed.
+    headlines that old are ignored. A headline that is no longer on a daily page read in this
+    run was removed by the editors (or edited into another text: that is a new headline, see
+    below) and is deleted too; the ones of pages not read in this run are kept until the
+    retention deletes them. state["updated"] only moves to now if the state actually changed.
     """
     known = state.setdefault("items", {})
     # State written before grouping existed, or under another grouping rule: regroup
@@ -140,6 +145,8 @@ def merge(state, items, now, retention_days=RETENTION_DAYS, max_group=MAX_GROUP)
         known[guid] = item
         current.add(guid)
 
+    for guid in removed_from_pages(known, items, current):
+        del known[guid]
     expire(state, cutoff)
 
     current &= set(known)
@@ -158,6 +165,26 @@ def merge(state, items, now, retention_days=RETENTION_DAYS, max_group=MAX_GROUP)
     if "updated" not in state or json.dumps([known, groups], sort_keys=True) != before:
         state["updated"] = now_iso
     return [g for g in new if owner.get(g, g) == g]
+
+
+def removed_from_pages(known, items, current):
+    """Guids of the stored headlines that are no longer on the daily pages read in this run.
+
+    `items` are the headlines scraped (their "page" says which pages were read), `current` the
+    guids of those that were merged. A headline edited so that it no longer matches its old
+    self (its text and its source both changed) is a new headline: the old one is what goes
+    here. A page that lost most of its headlines at once is more likely to be blanked or
+    misread than edited, so none of its headlines are removed (they would come back as new).
+    """
+    removed = []
+    for page in {it["page"] for it in items if it.get("page")}:
+        stored = [g for g, old in known.items() if old.get("page") == page]
+        gone = [g for g in stored if g not in current]
+        if len(gone) > 2 and 2 * len(gone) > len(stored):
+            log.warning("%s: %d of %d headlines are gone; keeping them", page, len(gone), len(stored))
+            continue
+        removed += gone
+    return removed
 
 
 def expire(state, cutoff):

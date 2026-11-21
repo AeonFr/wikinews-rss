@@ -65,7 +65,7 @@ Cada titular (una entrada del portal) tiene un `guid` estable: `wikipedia:en:<fe
 
 Para que el repositorio y la web no crezcan indefinidamente, **las noticias con más de 183 días (unos 6 meses) se borran**: del estado (`state/en.json`), del feed RSS y de la web (`data/news.json`). El valor está en `RETENTION_DAYS` de [`wikipedia_rss/config.py`](wikipedia_rss/config.py) y se cambia con `--retention-days`.
 
-- La antigüedad es la `pub_date` del titular (la fecha de su página diaria), no cuándo dejó de aparecer en el portal. Una noticia de más de 183 días se borra aunque siga en el portal, y si el portal la volviera a mostrar se ignora (como el generador solo lee 7 días, en la práctica no ocurre).
+- La antigüedad es la `pub_date` del titular (la fecha de su página diaria), no cuándo dejó de aparecer en el portal (los que dejan de aparecer en una página que se sigue leyendo se borran antes: ver *Titulares que ya no están en la página*). Una noticia de más de 183 días se borra aunque siga en el portal, y si el portal la volviera a mostrar se ignora (como el generador solo lee 7 días, en la práctica no ocurre).
 - Un grupo (ver *Agrupación*) se borra entero cuando lo hace su fundador: todos sus titulares son del mismo día.
 - Lo que se borra del estado no vuelve. Tras borrarla, la página de una noticia (`story.html?id=...`) muestra un aviso con un enlace al portal de Wikipedia; un enlace del feed a una noticia de más de 6 meses ya no abre contenido.
 - La web lo indica al pie de cada página ("News older than 6 months is removed from this site").
@@ -93,13 +93,32 @@ Varios titulares **del mismo día** sobre el mismo artículo principal (mismo `p
 - Los grupos creados por la versión que agrupaba entre días se deshacen en cada ejecución (es idempotente): los miembros cuyo día no es el del grupo vuelven a ser items propios con su guid de titular (`wikipedia:en:<fecha>:<hash>`), con su `pub_date` y `first_seen` de siempre; no se reagrupan entre sí. El grupo conserva su guid, su pubDate y los miembros de su día; si solo le queda el fundador, desaparece el registro del grupo y el fundador sigue publicándose con el mismo guid. Ningún titular se pierde ni cambia de guid.
 - Las marcas `gone_since` y `last_seen` de versiones anteriores se eliminan del estado (la retención ya no depende de ellas).
 
+### Titulares que ya no están en la página
+
+Un titular que **desaparece de una página diaria que se ha leído en esta ejecución** se borra del estado, del feed y de la web: los editores lo quitaron, o lo reescribieron. Una entrada editada solo se reconoce como la misma si conserva la fecha y la primera fuente (así conserva su guid); si cambian el texto **y** la fuente (p. ej. *Two Salvadoran soldiers are killed…* pasó a *Three Salvadoran soldiers are killed…* con otra fuente), es un titular nuevo y el viejo es el que ya no está en la página.
+
+- Solo cuentan las páginas leídas en esta ejecución (las de los últimos `--days`, 7): si una página no se pudo leer, no se borra nada de ella, y los titulares de páginas más antiguas se quedan hasta que los borra la retención.
+- **Salvaguarda**: si una página pierde de golpe más de la mitad de sus titulares (y más de 2), probablemente está vacía o mal leída, no editada; no se borra ninguno de ella y se avisa en el log (`state.removed_from_pages`). Si no, volverían como titulares nuevos.
+- Un grupo sigue existiendo mientras le quede algún titular, aunque se borre el que lo fundó (el grupo conserva su guid); si se borran todos, desaparece.
+
 ### Salida estable
 
-Una ejecución sin cambios reales deja `feeds/`, `data/` y `state/` idénticos byte a byte (y no reescribe los archivos). Cambio real es un item nuevo, uno que se borra por retención, un titular que se une a un grupo (o sale de él por la migración), o un cambio en el contenido de un item (título, descripción, enlaces, categoría, fecha, extracto del artículo). Que un titular desaparezca del portal no es un cambio: se queda hasta que lo borra la retención. Para ello no se guardan marcas de tiempo por ejecución:
+Una ejecución sin cambios reales deja `feeds/`, `data/` y `state/` idénticos byte a byte (y no reescribe los archivos). Cambio real es un item nuevo, uno que se borra por retención, un titular que se une a un grupo (o sale de él por la migración), o un cambio en el contenido de un item (título, descripción, enlaces, categoría, fecha, extracto del artículo). Que un titular desaparezca de una página diaria **sí** es un cambio (se borra, ver *Titulares que ya no están en la página*); los de páginas que no se leyeron en la ejecución se quedan hasta que los borra la retención. No se guardan marcas de tiempo por ejecución:
 
 - `updated` en el estado es el momento del último cambio real, y es también el `lastBuildDate` del feed y el "última actualización" de la web.
 
 Las claves de los JSON van ordenadas y los items en orden estable (`pub_date`, `first_seen`, posición en el portal).
+
+## Caché de los assets
+
+El navegador guarda `assets/site.css` y `assets/site.js` en caché, así que sin más un cambio en ellos no se vería hasta que caducase. Por eso cada referencia a un asset en `index.html` y `story.html` lleva `?v=<hash del contenido del archivo>` (`assets/site.css?v=a1dcb48e37`): la URL cambia exactamente cuando cambia el archivo.
+
+```sh
+python3 -m wikipedia_rss.stamp          # sella las referencias desactualizadas
+python3 -m wikipedia_rss.stamp --check  # solo avisa (código de salida 1 si alguna lo está)
+```
+
+**Tras cambiar `assets/site.css` o `assets/site.js`, ejecuta el comando antes de hacer commit.** Hay un test que falla si se olvida (`tests/test_stamp.py`), y el workflow programado sella antes de hacer commit por si acaso. Los datos (`data/*.json`) no llevan sello.
 
 ## Despliegue con GitHub Actions + Pages
 

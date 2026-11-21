@@ -121,6 +121,25 @@ class RunTest(unittest.TestCase):
         self.assertIn(b"prepare for a full", second[("data_dir", "news.json")])
         self.assertIn(b"<lastBuildDate>Sun, 25 Oct 2026 09:00:00 GMT</lastBuildDate>", second[("out_dir", "en.xml")])
 
+    def test_an_entry_edited_into_a_new_text_and_source_replaces_the_old_one(self):
+        self.run_en(NOW)
+        source = "https://www.aljazeera.com/news/2026/10/23/israel-arrests-36-palestinians-in-the-west-bank-attacks-on-farmers-ramp-up"
+        # Edited on Wikipedia: another sentence cited to another source, so it is not recognised as
+        # the same entry (see state.merge). The old text is gone from the page, and from the site.
+        edited = fixture("en_day.html").replace("prepare for a complete", "prepare for a total", 1).replace(source, source + "-v2", 1)
+        later = NOW + datetime.timedelta(hours=2)
+        self.run_en(later, en_client(edited))
+        titles = [i.findtext("title") for i in self.read_feed().findall("channel/item")]
+        self.assertEqual(len([t for t in titles if "lockdown" in t]), 1)
+        self.assertEqual(len(titles), 11)
+        self.assertTrue(any("prepare for a total" in i.findtext("description") for i in self.read_feed().findall("channel/item")))
+        self.assertFalse(any("prepare for a complete" in i.findtext("description") for i in self.read_feed().findall("channel/item")))
+        self.assertEqual(len(self.read_data()["stories"]), 11)
+        # ...and nothing changes on a further run.
+        first = self.snapshot()
+        self.run_en(later + datetime.timedelta(hours=1), en_client(edited))
+        self.assertEqual(self.snapshot(), first)
+
     def test_news_older_than_the_limit_is_deleted_everywhere(self):
         self.run_en(NOW)
         # With a 30-day limit, 23 Oct is 31 days old on 24 Nov; the page is still served by the (fake) portal.
