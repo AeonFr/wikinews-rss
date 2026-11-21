@@ -3,6 +3,7 @@
   --bg: #fbf9f4;
   --fg: #1b1b1b;
   --muted: #5f5b53;
+  --soft: #3a3731;  /* body text that is not a headline: easier to read than --muted */
   --line: #d9d4c7;
   --rule: #1b1b1b;
   --accent: #8a1c1c;
@@ -18,6 +19,7 @@
     --bg: #15140f;
     --fg: #ece8dc;
     --muted: #a19b8c;
+    --soft: #cfcabb;
     --line: #36332a;
     --rule: #ece8dc;
     --accent: #e08a7a;
@@ -65,9 +67,6 @@ main.wrap { padding-top: 1.5rem; padding-bottom: 3rem; }
 
 /* Front page */
 .day { margin: 0 0 3.5rem; }
-html { scroll-behavior: smooth; }
-@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
-.day { scroll-margin-top: 1rem; }
 .day h2 {
   display: flex; justify-content: space-between; align-items: baseline; gap: 1rem;
   margin: 0 0 1.75rem; padding: .7rem 0 .6rem;
@@ -123,15 +122,14 @@ html { scroll-behavior: smooth; }
 .feature-body > * { min-width: 0; }
 @media (min-width: 40rem) { .feature-body { grid-template-columns: repeat(2, 1fr); } }
 @media (min-width: 62rem) { .feature-body { grid-template-columns: repeat(3, 1fr); } }
-.about { font-size: .9375rem; line-height: 1.5; color: var(--muted); }
+.about { font-size: .9375rem; line-height: 1.5; color: var(--soft); }
 .about p { margin: 0 0 .5rem; }
 .about-link { color: var(--accent); font: .875rem var(--sans); text-decoration: none; }
 .about-link:hover { text-decoration: underline; }
-#about { margin: 0 0 1.5rem; }
+#about { margin: 0 0 1.5rem; color: var(--fg); }
+#about .about-link { display: inline-block; margin-top: .25rem; font-size: .9375rem; }
+#about .about-text { font-size: 1.125rem; line-height: 1.6; }  /* the article page: larger and darker than in the boxes */
 .about-label { color: var(--fg); font: 700 .8125rem/1.4 var(--sans); letter-spacing: .1em; text-transform: uppercase; }
-.story-link { margin: 0 0 1.25rem; font: .9375rem var(--sans); }
-.story-link a { color: var(--accent); text-decoration: none; }
-.story-link a:hover { text-decoration: underline; }
 
 /* Story page */
 .kicker { display: flex; flex-wrap: wrap; gap: .25rem .75rem; align-items: center; margin: 0 0 .5rem; font: .75rem/1.5 var(--sans); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
@@ -142,7 +140,7 @@ article { max-width: 44rem; margin: 0 auto; }
  * the front page, and the rest the first two. */
 #story:not([hidden]) { display: flex; flex-direction: column; }
 .story-main, .story-side { display: contents; }
-#kicker { order: 1; } #story-title { order: 2; } #story-link { order: 3; } #headlines { order: 4; }
+#kicker { order: 1; } #story-title { order: 2; } #headlines { order: 4; }
 #from-pages { order: 5; } #about { order: 6; } #source-cards { order: 7; } #related-entries { order: 8; } #related { order: 9; }
 @media (min-width: 62rem) {
   article { max-width: none; }
@@ -189,13 +187,10 @@ h1 { font: 700 clamp(1.75rem, 5vw, 2.75rem)/1.15 var(--serif); margin: 0 0 .75re
 
 footer { border-top: 3px double var(--rule); color: var(--muted); font: .8125rem/1.5 var(--sans); padding: 1rem 0 2.5rem; }
 footer p { margin: .25rem 0; max-width: 46rem; }
+body:not(.ready) footer { display: none; }  /* shown once the page has its content (see render in site.js) */
 
 /* Portal section: the day's entries taken straight from the Current events portal. They
  * come first and are set larger, but are not boxed: they are not related to each other. */
-.day-nav { display: flex; gap: .5rem; font: 700 .75rem/1.4 var(--sans); letter-spacing: .1em; }
-.day-nav a { color: var(--accent); text-decoration: none; }
-.day-nav-sep { color: var(--muted); }
-.day-nav a:hover { text-decoration: underline; }
 .portal { margin: 0 0 2.25rem; }
 .portal-list { display: grid; grid-template-columns: 1fr; gap: 1.75rem 2.5rem; }
 .portal-list > div { min-width: 0; }

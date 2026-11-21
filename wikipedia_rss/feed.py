@@ -185,8 +185,11 @@ def run(cfg, client, now, days=7, max_items=50, state_dir="state", out_dir="feed
     data = site.dump_data(site.build_data(cfg, stories, state["updated"], retention_days, sources_cache))
     if not dry_run:
         st.write_atomic(os.path.join(out_dir, "%s.xml" % cfg.code), xml)
+        previews = sources.dump_data(sources_cache, source_urls)
         st.write_atomic(os.path.join(data_dir, "news.json"), data)
-        st.write_atomic(os.path.join(data_dir, "sources.json"), sources.dump_data(sources_cache, source_urls))
+        st.write_atomic(os.path.join(data_dir, "sources.json"), previews)
+        # Last, so a page never gets hashes of files that are not written yet.
+        st.write_atomic(os.path.join(data_dir, "version.json"), site.data_version(data, previews))
         st.write_atomic(sources_path, sources.dump_cache(sources_cache))
         st.save_state(state_path, state)
     return {"scraped": len(items), "new": len(new), "in_feed": len(feed_items),

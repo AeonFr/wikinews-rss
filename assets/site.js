@@ -5,6 +5,7 @@
 
   var DATA_URL = "data/news.json";
   var PREVIEWS_URL = "data/sources.json";
+  var VERSION_URL = "data/version.json";
   var page = document.body.getAttribute("data-page");
   var params = new URLSearchParams(location.search);
 
@@ -13,8 +14,6 @@
     error: "Couldn’t load the news. Try again later.",
     empty: "There are no news yet.",
     imageFrom: "Image: {source}",
-    prevDay: "Prev",
-    nextDay: "Next",
     sourcesHeading: "From the sources",
     retention: "News older than {period} is removed from this site. Last updated {date}.",
     storyTitle: "Story",
@@ -48,8 +47,25 @@
   var loadError = false;
   var previews = {};   // source URL -> {title, description, image, site}, from data/sources.json
 
+  // The data files are cached by the browser for as long as they do not change: they are asked
+  // for with ?v=<hash of the file>, from data/version.json, which is the one thing never cached.
+  // Without it (or if it fails) they are asked for as they are.
+  var versions = {};
+
+  function loadVersions() {
+    return fetch(VERSION_URL, { cache: "no-store" })
+      .then(function (r) { return r.ok ? r.json() : {}; })
+      .catch(function () { return {}; })
+      .then(function (v) { versions = v || {}; });
+  }
+  function versioned(url, key) {
+    return versions[key] ? url + "?v=" + encodeURIComponent(versions[key]) : url;
+  }
+
   function loadData() {
-    return fetch(DATA_URL).then(function (r) {
+    return loadVersions().then(function () {
+      return fetch(versioned(DATA_URL, "news"));
+    }).then(function (r) {
       if (!r.ok) throw new Error("HTTP " + r.status);
       return r.json();
     });
@@ -650,7 +666,6 @@
       if (d !== day) {
         day = d;
         var section = el("section", "day");
-        section.id = "day-" + d;
         var h2 = el("h2");
         var time = el("time", null, formatDay(d));
         time.setAttribute("datetime", d);
@@ -668,13 +683,7 @@
       g[kind].push(tile);
       parent.appendChild(tile.li);
     });
-    grids.forEach(function (day, i) {
-      // Links to the days before and after this one on the page (none past either end).
-      var nav = el("span", "day-nav");
-      if (i > 0) nav.appendChild(link("#" + grids[i - 1].section.id, t("prevDay")));
-      if (i > 0 && i < grids.length - 1) nav.appendChild(el("span", "day-nav-sep", "/"));
-      if (i < grids.length - 1) nav.appendChild(link("#" + grids[i + 1].section.id, t("nextDay")));
-      if (nav.firstChild) day.h2.appendChild(nav);
+    grids.forEach(function (day) {
       if (day.portal.length) {
         var box = el("div", "portal");
         box.appendChild(day.portalList);
@@ -839,23 +848,20 @@
     return articles.filter(function (a) { return titleKey(a.url) === wanted; })[0] || articles[0];
   }
 
-  // The start of that article's text, titled "About the article" (its own title is the page's).
+  // The start of that article's text, titled "About the article" (its own title is the page's),
+  // and below it the link to the article on Wikipedia (to the day's portal page for an entry
+  // without an article, which has no text).
   function renderAbout(story, near) {
     var box = $("about");
     clear(box);
     var article = mainArticle(story, near);
-    box.hidden = !(article && article.extract);
-    if (box.hidden) return;
-    box.appendChild(el("p", "about-label", t("aboutLabel")));
-    box.appendChild(el("p", "about-text", article.extract));
-  }
-
-  // The link to the article on Wikipedia (to the day's portal page for an entry without one).
-  function renderStoryLink(story, near) {
-    var box = $("story-link");
-    clear(box);
-    var article = mainArticle(story, near);
-    box.appendChild(article ? link(article.url, t("cardCta")) : link(story.headlines[0].page.url, t("cardPortalCta")));
+    if (article && article.extract) {
+      box.appendChild(el("p", "about-label", t("aboutLabel")));
+      box.appendChild(el("p", "about-text", article.extract));
+    }
+    var read = article ? link(article.url, t("cardCta")) : link(story.headlines[0].page.url, t("cardPortalCta"));
+    read.className = "about-link";
+    box.appendChild(read);
   }
 
   // "Related articles on <day>": first the articles that are not in any group (those directly
@@ -1005,7 +1011,6 @@
     }
 
     $("story-title").textContent = title;
-    renderStoryLink(story, near);
 
     var list = $("headlines");
     clear(list);
@@ -1035,6 +1040,9 @@
   function render() {
     if (page === "home") renderHome(); else renderStory();
     setRetention();
+    // The footer stays hidden until there is something above it (the news, or the error that
+    // replaces them), so it does not flash at the top of an empty page and jump down.
+    if (data || loadError) document.body.classList.add("ready");
   }
 
   mediaQueries.forEach(function (mq) {
@@ -1047,7 +1055,7 @@
     render();
     if (page === "story") {
       // Optional extra: without the file (or without a preview for a source) nothing is shown.
-      fetch(PREVIEWS_URL).then(function (r) { return r.ok ? r.json() : null; }).then(function (p) {
+      fetch(versioned(PREVIEWS_URL, "sources")).then(function (r) { return r.ok ? r.json() : null; }).then(function (p) {
         if (p && p.sources) { previews = p.sources; render(); }
       }).catch(function () {});
     }

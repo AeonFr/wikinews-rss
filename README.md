@@ -118,7 +118,11 @@ python3 -m wikipedia_rss.stamp          # sella las referencias desactualizadas
 python3 -m wikipedia_rss.stamp --check  # solo avisa (código de salida 1 si alguna lo está)
 ```
 
-**Tras cambiar `assets/site.css` o `assets/site.js`, ejecuta el comando antes de hacer commit.** Hay un test que falla si se olvida (`tests/test_stamp.py`), y el workflow programado sella antes de hacer commit por si acaso. Los datos (`data/*.json`) no llevan sello.
+**Tras cambiar `assets/site.css` o `assets/site.js`, ejecuta el comando antes de hacer commit.** Hay un test que falla si se olvida (`tests/test_stamp.py`), y el workflow programado sella antes de hacer commit por si acaso. Los datos se tratan aparte (ver abajo).
+
+### Caché de los datos
+
+`data/news.json` y `data/sources.json` cambian dos veces al día, y el navegador no debe servir una copia vieja ni volver a descargarlas si no han cambiado. El generador escribe al final `data/version.json` con un hash de cada uno (`{"news": "7354ab25f3", "sources": "f4d9aed1b1"}`). Las páginas piden ese archivo pequeño **sin caché** (`cache: "no-store"`) y después `data/news.json?v=<hash>` y `data/sources.json?v=<hash>`: mientras el archivo no cambia, la URL es la misma y el navegador la guarda; cuando cambia, la URL es otra. Si `version.json` no existe o falla, se piden los archivos sin `?v=` (`site.data_version`, `loadVersions` en `assets/site.js`). No hay que hacer nada a mano: lo escribe cada ejecución del generador.
 
 ## Despliegue con GitHub Actions + Pages
 

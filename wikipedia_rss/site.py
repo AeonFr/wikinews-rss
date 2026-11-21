@@ -4,6 +4,7 @@ Every feed item is a "story": one headline, or several headlines about the same 
 and day that were grouped. The story page (story.html?id=...) shows all of them in full,
 which the feed item's title (and the readers that never refresh it) may not.
 """
+import hashlib
 import json
 
 from . import sources
@@ -106,6 +107,18 @@ def build_data(cfg, items, updated, retention_days, previews=None):
         "portal": {"title": cfg.portal, "url": cfg.url(cfg.portal)},
         "stories": [build_story(it, cfg, images[it.get("story_guid") or it["guid"]]) for it in items],
     }
+
+
+def data_version(news, previews):
+    """data/version.json: a hash of the text of data/news.json and of data/sources.json.
+
+    The pages fetch this small file fresh every time and then ask for the data files with
+    `?v=<hash>`, so that a browser can keep them cached for as long as they do not change and
+    gets the new ones as soon as they do.
+    """
+    def short(text):
+        return hashlib.sha1(text.encode("utf-8")).hexdigest()[:10]
+    return json.dumps({"news": short(news), "sources": short(previews)}, indent=1, sort_keys=True) + "\n"
 
 
 def dump_data(data):

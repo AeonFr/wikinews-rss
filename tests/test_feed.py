@@ -101,8 +101,9 @@ class RunTest(unittest.TestCase):
     def test_rerun_without_changes_is_byte_identical(self):
         self.run_en(NOW)
         first = self.snapshot()
-        # feed, news.json and state, plus the (empty) source previews data and cache
-        self.assertEqual(len(first), 5)
+        # feed, news.json and state, plus the (empty) source previews data and cache, and the
+        # version file that points the pages at the data
+        self.assertEqual(len(first), 6)
         for hours in (1, 12, 24):
             self.run_en(NOW + datetime.timedelta(hours=hours))
             self.assertEqual(self.snapshot(), first)
@@ -139,6 +140,25 @@ class RunTest(unittest.TestCase):
         first = self.snapshot()
         self.run_en(later + datetime.timedelta(hours=1), en_client(edited))
         self.assertEqual(self.snapshot(), first)
+
+    def read_version(self):
+        with open(os.path.join(self.dirs["data_dir"], "version.json"), encoding="utf-8") as f:
+            return json.load(f)
+
+    def test_version_file_has_the_hashes_of_the_data_files(self):
+        import hashlib
+        self.run_en(NOW)
+        version = self.read_version()
+        for key, name in (("news", "news.json"), ("sources", "sources.json")):
+            with open(os.path.join(self.dirs["data_dir"], name), "rb") as f:
+                self.assertEqual(version[key], hashlib.sha1(f.read()).hexdigest()[:10], name)
+        # Unchanged data, unchanged version (the rerun test above checks the files byte by byte);
+        # changed news, another hash for news.json only.
+        edited = fixture("en_day.html").replace("prepare for a complete", "prepare for a full", 1)
+        self.run_en(NOW + datetime.timedelta(days=1), en_client(edited))
+        after = self.read_version()
+        self.assertNotEqual(after["news"], version["news"])
+        self.assertEqual(after["sources"], version["sources"])
 
     def test_news_older_than_the_limit_is_deleted_everywhere(self):
         self.run_en(NOW)
