@@ -109,6 +109,17 @@
     }
   }
 
+  // A moment as the visitor's own clock shows it ("Nov 21, 2026, 6:34 PM"): in the browser's time
+  // zone, not UTC, without naming the zone.
+  function formatMoment(iso) {
+    try {
+      return new Intl.DateTimeFormat("en", { year: "numeric", month: "short", day: "numeric", hour: "numeric",
+                                             minute: "2-digit" }).format(new Date(iso));
+    } catch (e) {
+      return iso;
+    }
+  }
+
   // Headline HTML comes from our own generator (links and emphasis only), but is still
   // rebuilt node by node: other tags are flattened and only http(s) links are kept.
   var INLINE = { A: 1, I: 1, B: 1, EM: 1, STRONG: 1 };
@@ -639,8 +650,16 @@
     var status = $("status"), days = $("days");
     clear(days);
     grids = [];
-    if (loadError) { status.textContent = t("error"); return; }
-    if (!data) { status.textContent = t("loading"); return; }
+    var updated = $("updated");   // the line under the disclaimer: "Loading…", then "Last updated …"
+    if (loadError) { updated.hidden = true; status.textContent = t("error"); return; }
+    if (!data) return;
+    // "Last updated <moment>", in the visitor's time zone, where "Loading…" was.
+    clear(updated);
+    updated.appendChild(document.createTextNode("Last updated "));
+    var moment = el("time", null, formatMoment(data.updated));
+    moment.setAttribute("datetime", data.updated);
+    updated.appendChild(moment);
+    updated.appendChild(document.createTextNode("."));
     var cutoff = new Date(data.updated.slice(0, 10) + "T00:00:00Z");
     cutoff.setUTCDate(cutoff.getUTCDate() - HOME_DAYS);
     var cutoffDay = cutoff.toISOString().slice(0, 10);
