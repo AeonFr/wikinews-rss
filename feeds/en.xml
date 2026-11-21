@@ -6,7 +6,7 @@
     <description>News items from Wikipedia's Portal:Current events, one item per entry of the daily pages. Text from Wikipedia contributors, licensed under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). (history: https://en.wikipedia.org/w/index.php?title=Portal:Current_events&amp;action=history)</description>
     <language>en</language>
     <copyright>Text from Wikipedia contributors, licensed under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).</copyright>
-    <lastBuildDate>Fri, 20 Nov 2026 19:07:32 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 00:02:07 GMT</lastBuildDate>
     <generator>wikipedia-noticias-rss</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -24,10 +24,11 @@
       <category>Houthi–Saudi conflict</category>
     </item>
     <item>
-      <title>30 people are dead and around 300 are missing after a ship carrying funeral goers capsized in Bayelsa State, Nigeria.</title>
+      <title>2026 Bayelsa boat disaster: 30 people are dead and around 300 are missing after a ship carrying funeral goers capsizes in Bayelsa State, Nigeria.</title>
       <link>https://aeonfr.github.io/wikinews-rss/story.html?id=2026-11-20-0f0638848c56</link>
-      <description>&lt;p&gt;30 people are dead and around 300 are missing after a ship carrying funeral goers capsized in &lt;a href="https://en.wikipedia.org/wiki/Bayelsa_State"&gt;Bayelsa State&lt;/a&gt;, Nigeria.&lt;/p&gt;
+      <description>&lt;p&gt;30 people are dead and around 300 are missing after a ship carrying funeral goers capsizes in &lt;a href="https://en.wikipedia.org/wiki/Bayelsa_State"&gt;Bayelsa State&lt;/a&gt;, Nigeria.&lt;/p&gt;
 &lt;p&gt;Sources: &lt;a href="https://dailytrust.com/30-feared-dead-as-mourners-boat-capsizes-in-bayelsa/#google_vignette"&gt;Daily Trust&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Bayelsa_boat_disaster"&gt;2026 Bayelsa boat disaster&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_20"&gt;Portal:Current events/2026 November 20&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_20&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:en:2026-11-20:0f0638848c56</guid>
       <pubDate>Fri, 20 Nov 2026 19:07:32 GMT</pubDate>
@@ -57,6 +58,56 @@
       <pubDate>Fri, 20 Nov 2026 15:34:54 GMT</pubDate>
       <category>Politics and elections</category>
       <category>2026 Italian unrest</category>
+    </item>
+    <item>
+      <title>2026 Strait of Hormuz crisis: The Islamic Revolutionary Guard Corps Navy and the United Kingdom Maritime Trade Operations report that an oil tanker has been damaged and caught fire off Khasab, Oman, while attempting to transit…</title>
+      <link>https://aeonfr.github.io/wikinews-rss/story.html?id=2026-11-20-03b7c5dc82eb</link>
+      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Islamic_Revolutionary_Guard_Corps_Navy"&gt;Islamic Revolutionary Guard Corps Navy&lt;/a&gt; and the &lt;a href="https://en.wikipedia.org/wiki/United_Kingdom_Maritime_Trade_Operations"&gt;United Kingdom Maritime Trade Operations&lt;/a&gt; report that an &lt;a href="https://en.wikipedia.org/wiki/Oil_tanker"&gt;oil tanker&lt;/a&gt; has been damaged and caught fire off &lt;a href="https://en.wikipedia.org/wiki/Khasab"&gt;Khasab&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Oman"&gt;Oman&lt;/a&gt;, while attempting to transit the &lt;a href="https://en.wikipedia.org/wiki/Strait_of_Hormuz"&gt;Strait of Hormuz&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://aje.news/yk6rbj?update=5171719"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"&gt;Middle Eastern crisis&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_Iran_war"&gt;2026 Iran war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"&gt;2026 Strait of Hormuz crisis&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_20"&gt;Portal:Current events/2026 November 20&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_20&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-20:03b7c5dc82eb</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Armed conflicts and attacks</category>
+      <category>2026 Strait of Hormuz crisis</category>
+    </item>
+    <item>
+      <title>2026 Yemen offensives: Yemeni government forces say they have conducted operations in the Al-Jawf, Marib, and Taiz governorates that have killed or injured 193 Houthi fighters.</title>
+      <link>https://aeonfr.github.io/wikinews-rss/story.html?id=2026-11-20-735e7655d71f</link>
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Presidential_Leadership_Council"&gt;Yemeni government&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Yemeni_Armed_Forces"&gt;forces&lt;/a&gt; say they have conducted operations in the &lt;a href="https://en.wikipedia.org/wiki/Al-Jawf_Governorate"&gt;Al-Jawf&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Marib_Governorate"&gt;Marib&lt;/a&gt;, and Taiz governorates that have killed or injured 193 Houthi fighters.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.arabnews.com/middle-east/yemeni-army-reports-854-operations-against-houthi-forces-claims-193-killed-or-wounded-3013178"&gt;Arab News&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"&gt;Middle Eastern crisis&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)"&gt;Yemeni civil war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_Yemen_offensives"&gt;2026 Yemen offensives&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_20"&gt;Portal:Current events/2026 November 20&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_20&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-20:735e7655d71f</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Armed conflicts and attacks</category>
+      <category>2026 Yemen offensives</category>
+    </item>
+    <item>
+      <title>Salvadoran military intervention in Haiti: The governments of Haiti and El Salvador agree to build three new prisons to incarcerate Haitian gang members. / Two Salvadoran soldiers are killed and two more are injured when explosive they are handling detonate.</title>
+      <link>https://aeonfr.github.io/wikinews-rss/story.html?id=2026-11-20-044adbb9c561</link>
+      <description>&lt;p&gt;The governments of &lt;a href="https://en.wikipedia.org/wiki/Haiti"&gt;Haiti&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/El_Salvador"&gt;El Salvador&lt;/a&gt; agree to build three new prisons to incarcerate Haitian gang members.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://apnews.com/article/el-salvador-haiti-troops-killed-injured-bukele-c3192c1276fd235b727666a05062db00"&gt;AP&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Two &lt;a href="https://en.wikipedia.org/wiki/El_Salvador"&gt;Salvadoran&lt;/a&gt; soldiers are killed and two more are injured when explosive they are handling detonate.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://apnews.com/article/el-salvador-haiti-troops-killed-injured-bukele-c3192c1276fd235b727666a05062db00"&gt;AP&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Haitian_conflict"&gt;Haitian conflict&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Salvadoran_military_intervention_in_Haiti"&gt;Salvadoran military intervention in Haiti&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_20"&gt;Portal:Current events/2026 November 20&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_20&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-20:044adbb9c561</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Armed conflicts and attacks</category>
+      <category>Salvadoran military intervention in Haiti</category>
+    </item>
+    <item>
+      <title>Politics of Iraq: Iraqi prime minister Ali al-Zaidi announces that an agreement has been reached with Kata'ib Hezbollah to establish a joint operations center and jointly station troops in Jurf al-Sakhar, south of…</title>
+      <link>https://aeonfr.github.io/wikinews-rss/story.html?id=2026-11-20-3de818d0f6d6</link>
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Prime_Minister_of_Iraq"&gt;Iraqi prime minister&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Ali_al-Zaidi"&gt;Ali al-Zaidi&lt;/a&gt; announces that an agreement has been reached with &lt;a href="https://en.wikipedia.org/wiki/Kata%27ib_Hezbollah"&gt;Kata'ib Hezbollah&lt;/a&gt; to establish a joint operations center and jointly station troops in &lt;a href="https://en.wikipedia.org/wiki/Jurf_al-Sakhar"&gt;Jurf al-Sakhar&lt;/a&gt;, south of &lt;a href="https://en.wikipedia.org/wiki/Baghdad"&gt;Baghdad&lt;/a&gt;, after having threatened to send &lt;a href="https://en.wikipedia.org/wiki/Iraqi_security_forces"&gt;Iraqi security forces&lt;/a&gt; into the group's stronghold.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/11/19/iraq-reaches-compromise-with-kataib-hezbollah-over-armed-group-stronghold"&gt;Al Jazeera&lt;/a&gt;, &lt;a href="https://aje.news/yk6rbj?update=5171924"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Politics_of_Iraq"&gt;Politics of Iraq&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_20"&gt;Portal:Current events/2026 November 20&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_20&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-20:3de818d0f6d6</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Politics and elections</category>
+      <category>Politics of Iraq</category>
     </item>
     <item>
       <title>Somalia–United Arab Emirates relations: Somalia expels the ambassador from the United Arab Emirates, saying the country undermined Somalia's sovereignty.</title>
@@ -117,6 +168,18 @@
       <pubDate>Thu, 19 Nov 2026 15:46:16 GMT</pubDate>
       <category>Politics and elections</category>
       <category>Corruption in Mongolia</category>
+    </item>
+    <item>
+      <title>Honduras–United States relations: Honduran president Nasry Asfura and United States secretary of defense Pete Hegseth sign two security cooperation agreements at Soto Cano Air Base, Honduras.</title>
+      <link>https://aeonfr.github.io/wikinews-rss/story.html?id=2026-11-19-09e87eb055f7</link>
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/President_of_Honduras"&gt;Honduran president&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Nasry_Asfura"&gt;Nasry Asfura&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/United_States_secretary_of_defense"&gt;United States secretary of defense&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Pete_Hegseth"&gt;Pete Hegseth&lt;/a&gt; sign two security cooperation agreements at &lt;a href="https://en.wikipedia.org/wiki/Soto_Cano_Air_Base"&gt;Soto Cano Air Base&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Honduras"&gt;Honduras&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.latintimes.com/hegseth-asfura-pactos-defensa-operaciones-contra-narcotrafico-honduras-601616"&gt;The Latin News&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Operation_Southern_Spear"&gt;Operation Southern Spear&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Honduras%E2%80%93United_States_relations"&gt;Honduras–United States relations&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_19"&gt;Portal:Current events/2026 November 19&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_19&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-19:09e87eb055f7</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <category>International relations</category>
+      <category>Honduras–United States relations</category>
     </item>
     <item>
       <title>Haitian conflict: The Haitian National Police say that 34 alleged gang members were killed during an operation in Port-au-Prince, in an area under the influence of the Viv Ansanm alliance, with the assistance of the…</title>
@@ -339,6 +402,18 @@
       <media:content url="https://media.cnn.com/api/v1/images/stellar/prod/voyager-1-advisory-image-2-nov-10.jpg?c=16x9&amp;q=w_800,c_fill" medium="image" />
     </item>
     <item>
+      <title>Crime in Honduras: At least 12 people are killed during separate attacks in the department of Yorito, Honduras, which the police attribute to organized crime groups.</title>
+      <link>https://aeonfr.github.io/wikinews-rss/story.html?id=2026-11-18-b2a03ca466c0</link>
+      <description>&lt;p&gt;At least 12 people are killed during separate attacks in the &lt;a href="https://en.wikipedia.org/wiki/Departments_of_Honduras"&gt;department&lt;/a&gt; of &lt;a href="https://en.wikipedia.org/wiki/Yorito"&gt;Yorito&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Honduras"&gt;Honduras&lt;/a&gt;, which the &lt;a href="https://en.wikipedia.org/wiki/National_Police_of_Honduras"&gt;police&lt;/a&gt; attribute to organized crime groups.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.reuters.com/world/americas/least-12-dead-organized-crime-attacks-honduras-police-spokesman-says-2026-11-18/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Crime_in_Honduras"&gt;Crime in Honduras&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_18"&gt;Portal:Current events/2026 November 18&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_18&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-18:b2a03ca466c0</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Armed conflicts and attacks</category>
+      <category>Crime in Honduras</category>
+    </item>
+    <item>
       <title>Mexican drug war: An operation against cartel de Jalisco Nueva Generacion cells in Zapopan, Jalisco left three gunmen killed and three arrested, including a ringleader.</title>
       <link>https://aeonfr.github.io/wikinews-rss/story.html?id=2026-11-18-13291a1a10af</link>
       <description>&lt;p&gt;An operation against &lt;a href="https://en.wikipedia.org/wiki/Cartel_de_Jalisco_Nueva_Generacion"&gt;cartel de Jalisco Nueva Generacion&lt;/a&gt; cells in &lt;a href="https://en.wikipedia.org/wiki/Zapopan"&gt;Zapopan&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Jalisco"&gt;Jalisco&lt;/a&gt; left three gunmen killed and three arrested, including a ringleader. Authorities concluded the operation after seven hours of gunfight.&lt;/p&gt;
@@ -555,78 +630,6 @@
       <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
       <category>Disasters and accidents</category>
       <category>2026 Russian Air Force Antonov An-12 crash</category>
-    </item>
-    <item>
-      <title>A small boat reportedly carrying about a hundred people, mostly migrants, capsizes off Yenne, Senegal.</title>
-      <link>https://aeonfr.github.io/wikinews-rss/story.html?id=2026-11-17-174e10d34b3c</link>
-      <description>&lt;p&gt;&lt;a href="https://www.aljazeera.com/news/2026/11/18/migrant-boat-capsizes-off-senegal-leaving-at-least-one-dead"&gt;&lt;img src="https://www.aljazeera.com/wp-content/uploads/2026/11/AFP__20261118__D7WJ6DK__v1__HighRes__SenegalMigrationAccident-1795038583.jpg?resize=1920%2C1440" alt=""&gt;&lt;/a&gt;&lt;br&gt;&lt;small&gt;Image: Al Jazeera&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;A &lt;a href="https://en.wikipedia.org/wiki/Pirogue"&gt;small boat&lt;/a&gt; reportedly carrying about a hundred people, mostly migrants, capsizes off Yenne, &lt;a href="https://en.wikipedia.org/wiki/Senegal"&gt;Senegal&lt;/a&gt;. Various sources report that either at least four or lesser bodies have been recovered, as several others are still missing. &lt;a href="https://en.wikipedia.org/wiki/Search_and_rescue"&gt;Search operations&lt;/a&gt; are launched by authorities.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/11/18/migrant-boat-capsizes-off-senegal-leaving-at-least-one-dead"&gt;Al Jazeera&lt;/a&gt;, &lt;a href="https://www.bbc.com/news/articles/c58j484089ewo"&gt;BBC News&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_17"&gt;Portal:Current events/2026 November 17&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_17&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-17:174e10d34b3c</guid>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Disasters and accidents</category>
-      <media:content url="https://www.aljazeera.com/wp-content/uploads/2026/11/AFP__20261118__D7WJ6DK__v1__HighRes__SenegalMigrationAccident-1795038583.jpg?resize=1920%2C1440" medium="image" />
-    </item>
-    <item>
-      <title>Crime in Costa Rica: Investigative journalist Camilo Rodríguez is shot dead in his vehicle in Santo Domingo, Heredia, Costa Rica, in the first journalist death in the country in at least 25 years.</title>
-      <link>https://aeonfr.github.io/wikinews-rss/story.html?id=2026-11-17-e41527a409de</link>
-      <description>&lt;p&gt;Investigative journalist Camilo Rodríguez is shot dead in his vehicle in &lt;a href="https://en.wikipedia.org/wiki/Santo_Domingo,_Costa_Rica"&gt;Santo Domingo&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Heredia_Province"&gt;Heredia&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Costa_Rica"&gt;Costa Rica&lt;/a&gt;, in the first journalist death in the country in at least 25 years.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.afp.com/en/costa-rican-journalist-gunned-down-near-capital"&gt;AFP&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Crime_in_Costa_Rica"&gt;Crime in Costa Rica&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_17"&gt;Portal:Current events/2026 November 17&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_17&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-17:e41527a409de</guid>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Law and crime</category>
-      <category>Crime in Costa Rica</category>
-    </item>
-    <item>
-      <title>A factory worker is hacked to death after filming clashes between two factions of the ruling Bangladesh Nationalist Party in Fatullah, Narayanganj District.</title>
-      <link>https://aeonfr.github.io/wikinews-rss/story.html?id=2026-11-17-005f44a0f39f</link>
-      <description>&lt;p&gt;&lt;a href="https://viewsbangladesh.com/pedestrian-hacked-to-death-while-filming-video-of-clash-between-two-bnp-factions/"&gt;&lt;img src="https://imagedelivery.net/HRs_9pnDDn9uipVGixpHsg/79cb56e8-4297-4c06-4f8d-60bbf7fa2200/public" alt=""&gt;&lt;/a&gt;&lt;br&gt;&lt;small&gt;Image: Views Bangladesh&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;A factory worker is &lt;a href="https://en.wikipedia.org/wiki/Murder"&gt;hacked to death&lt;/a&gt; after filming clashes between two factions of the ruling &lt;a href="https://en.wikipedia.org/wiki/Bangladesh_Nationalist_Party"&gt;Bangladesh Nationalist Party&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Fatullah"&gt;Fatullah&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Narayanganj_District"&gt;Narayanganj District&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://viewsbangladesh.com/pedestrian-hacked-to-death-while-filming-video-of-clash-between-two-bnp-factions/"&gt;Views Bangladesh&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_17"&gt;Portal:Current events/2026 November 17&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_17&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-17:005f44a0f39f</guid>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Law and crime</category>
-      <media:content url="https://imagedelivery.net/HRs_9pnDDn9uipVGixpHsg/79cb56e8-4297-4c06-4f8d-60bbf7fa2200/public" medium="image" />
-    </item>
-    <item>
-      <title>2026 Melbourne Cup: Racing NSW launches an investigation after the body of losing horse So You Are is found in a skip bin in Sydney, Australia.</title>
-      <link>https://aeonfr.github.io/wikinews-rss/story.html?id=2026-11-17-67f31184f8d9</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Racing_NSW"&gt;Racing NSW&lt;/a&gt; launches an investigation after the body of losing horse So You Are is found in a &lt;a href="https://en.wikipedia.org/wiki/Skip_bin"&gt;skip bin&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Sydney"&gt;Sydney&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Australia"&gt;Australia&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://edition.cnn.com/2026/11/17/sport/melbourne-cup-horse-so-you-are-dead-waste-facility"&gt;CNN&lt;/a&gt;, &lt;a href="https://www.theguardian.com/australia-news/2026/nov/17/disgusted-by-it-body-of-melbourne-cup-horse-found-dumped-in-sydney-skip-bin-ntwnfb"&gt;The Guardian Australia&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Melbourne_Cup"&gt;2026 Melbourne Cup&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_17"&gt;Portal:Current events/2026 November 17&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_17&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-17:67f31184f8d9</guid>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Sports</category>
-      <category>2026 Melbourne Cup</category>
-    </item>
-    <item>
-      <title>Crime in Costa Rica: The investigative journalist Camilo Rodríguez was shot dead in his vehicle in Santo Domingo, Heredia Province, Costa Ricas.</title>
-      <link>https://aeonfr.github.io/wikinews-rss/story.html?id=2026-11-17-fd2a921da5e8</link>
-      <description>&lt;p&gt;The investigative journalist Camilo Rodríguez was shot dead in his vehicle in &lt;a href="https://en.wikipedia.org/wiki/Santo_Domingo,_Costa_Rica"&gt;Santo Domingo&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Heredia_Province"&gt;Heredia Province&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/w/index.php?title=Costa_Ricas&amp;amp;action=edit&amp;amp;redlink=1"&gt;Costa Ricas&lt;/a&gt;. This is the first journalist killed in the country in at least 25 years.[&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.univision.com/shows/primer-impacto/asesinan-al-periodista-camilo-rodriguez-en-costa-rica-habria-recibido-amenazas-por-denunciar-al-narcotrafico-y-la-corrupcion-video"&gt;Univisión&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Crime_in_Costa_Rica"&gt;Crime in Costa Rica&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_17"&gt;Portal:Current events/2026 November 17&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_17&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-17:fd2a921da5e8</guid>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Law and crime</category>
-      <category>Crime in Costa Rica</category>
-    </item>
-    <item>
-      <title>2026 United States Senate election in Alaska: Two weeks after Election Day, Democratic candidate Mary Peltola defeats incumbent Republican senator Dan Sullivan to become the new Senator of Alaska, further extending the Democratic lead in the…</title>
-      <link>https://aeonfr.github.io/wikinews-rss/story.html?id=2026-11-17-c55739d0e59c</link>
-      <description>&lt;p&gt;Two weeks after &lt;a href="https://en.wikipedia.org/wiki/Election_Day_(United_States)"&gt;Election Day&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Democratic_Party_(United_States)"&gt;Democratic&lt;/a&gt; candidate &lt;a href="https://en.wikipedia.org/wiki/Mary_Peltola"&gt;Mary Peltola&lt;/a&gt; defeats &lt;a href="https://en.wikipedia.org/wiki/Incumbent"&gt;incumbent&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Republican_Party_(United_States)"&gt;Republican&lt;/a&gt; senator &lt;a href="https://en.wikipedia.org/wiki/Dan_Sullivan_(U.S._senator)"&gt;Dan Sullivan&lt;/a&gt; to become the new &lt;a href="https://en.wikipedia.org/wiki/Senate"&gt;Senator&lt;/a&gt; of &lt;a href="https://en.wikipedia.org/wiki/Alaska"&gt;Alaska&lt;/a&gt;, further extending the &lt;a href="https://en.wikipedia.org/wiki/Wave_elections_in_the_United_States"&gt;Democratic lead&lt;/a&gt; in the Senate.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://apnews.com/article/alaska-senate-peltola-sullivan-congress-f1fd4d243bf764ec46ff94db4c792953"&gt;AP&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_United_States_elections"&gt;2026 United States elections&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alaska"&gt;2026 United States Senate election in Alaska&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_17"&gt;Portal:Current events/2026 November 17&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_17&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-17:c55739d0e59c</guid>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Politics and elections</category>
-      <category>2026 United States Senate election in Alaska</category>
     </item>
   </channel>
 </rss>
