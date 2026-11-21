@@ -249,3 +249,51 @@ def _daily_item(li, text, wiki, sources, topics, category, date, cfg, page_title
         "sources": sources,
         "page": page_title,
     }
+
+
+# --- "Topics in the news" (the highlighted items of the portal's main page) -------------------
+
+TOPICS_CATEGORY = "Topics in the news"
+
+# "(pictured)", "(rendering shown)": remarks about the box's picture, meaningless without it.
+_PICTURE_NOTE = re.compile(r"\s*\([^()<]*\b(?:pictured|shown)\b[^()<]*\)", re.I)
+_PICTURE_NOTE_HTML = re.compile(r"\s*<i>\s*\([^()<]*\b(?:pictured|shown)\b[^()<]*\)\s*</i>", re.I)
+
+
+def parse_topics_html(markup, cfg, page_title):
+    """The items of the "Topics in the news" box of the portal's main page (not of a day).
+
+    They are not tied to a day: they highlight stories, and have no date of their own (the moment
+    they are first seen stands for it). Same keys as parse_daily_html's items, plus "kind": "topic".
+    The article of an item is the first one linked in bold. The box's footer ("Ongoing", "Recent
+    deaths") is not an item.
+    """
+    root = parse_html(markup)
+    block = root.find("div", "p-current-events-headlines")
+    lists = block.child_elements("ul") if block else []
+    items = []
+    for li in lists[0].child_elements("li") if lists else []:
+        def wiki_titles(nodes):
+            return [t for a in nodes if not _is_external(a) for t in [_wiki_title(a)]
+                    if t and t.split(":")[0] not in cfg.ignore_namespaces]
+        html = _PICTURE_NOTE_HTML.sub("", inline_html(li, cfg.host))
+        text = _PICTURE_NOTE.sub("", clean_space(li.text()))
+        if not text:
+            continue
+        bold = wiki_titles(a for b in li.find_all("b") for a in b.find_all("a"))
+        titles = wiki_titles(li.find_all("a"))
+        items.append({
+            "text": text,
+            "html": clean_space(_PICTURE_NOTE.sub("", html)),
+            "title": first_sentence(text),
+            "date": None,
+            "date_source": "first_seen",
+            "category": TOPICS_CATEGORY,
+            "topics": [],
+            "main_title": (bold or titles or [None])[0],
+            "articles": titles,
+            "sources": [],
+            "page": page_title,
+            "kind": "topic",
+        })
+    return items

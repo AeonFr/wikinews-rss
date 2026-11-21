@@ -51,6 +51,18 @@ Debajo de la tarjeta del artículo, la página de cada noticia muestra una tarje
 - Las imágenes **no se descargan**: la web enlaza la imagen de la fuente (`loading="lazy"`, sin enviar el referrer) y la oculta si no carga.
 - Se identifica con un User-Agent genérico **sin datos de contacto** (los datos de contacto son solo para Wikipedia); se cambia con `WIKIPEDIA_RSS_SOURCES_USER_AGENT`. `--no-source-previews` lo desactiva.
 
+## Topics in the news
+
+La página principal del portal (`Portal:Current events`) tiene una caja **Topics in the news** con unos pocos titulares destacados que no son de ningún día. El generador la lee en cada ejecución (`feed.collect_topics`, `parsers.parse_topics_html`): cada elemento de la lista de la caja es una noticia (no el pie de la caja, con *Ongoing* y *Recent deaths*), y su artículo es el primer enlace en negrita.
+
+- **Fecha**: no tienen día; se les da el **momento en que se vieron por primera vez** (`pub_date` = `first_seen`, que no cambia). El feed las fecha así y la página del artículo dice *Added on <fecha> to the Current events portal*. Su guid lleva `topic` donde las demás llevan la fecha (`wikipedia:en:topic:<hash>`).
+- **Nunca se agrupan**: no tienen `group_key`, así que no se unen a las entradas de un día sobre el mismo artículo, y su `group` en `news.json` es el suyo propio. Llevan `"kind": "topic"` y la categoría *Topics in the news*.
+- **En la portada** forman **una sola sección encima de todos los días** (no dentro de ninguno), bajo el título *Topics in the news* y una regla gruesa de color; cada una enlaza a la página de su artículo. Solo salen las que la caja del portal tiene ahora.
+- **Cuando el portal las quita** de la caja, **se retiran**: no se borran, se marcan `"retired": true` (`state.retire_topics`). Dejan de salir en la portada y en el feed, pero su **página sigue existiendo** (están en `news.json`) para no romper enlaces, hasta que las borra la retención de 6 meses. Si vuelven a la caja, dejan de estar retiradas y conservan su fecha. Una página sin la caja (su diseño cambió) no retira nada; una caja vacía las retira todas.
+- **No tienen historial**: en la página del artículo no hay lista *More on … in the last 6 months* (ni *Related articles on <día>*), igual que las entradas del portal sin artículo, y tampoco aparecen en la de otros artículos: suelen repetir una noticia que ya tiene su entrada del día.
+- La salvaguarda contra páginas vacías (ver *Titulares que ya no están en la página*) solo vale para páginas de 8 titulares o más, porque la caja puede cambiar casi todo de una vez, y no afecta a los topics.
+- Si la página principal no se puede leer, no hay topics en esa ejecución y no falla nada.
+
 ## Fechas de los items
 
 No se usa la fecha del infobox del artículo ni la de Wikidata: las fechas de infobox son texto libre, a menudo faltan o se refieren a otra cosa (inicio de un conflicto, fecha de nacimiento...). En su lugar, la fecha de un item es la de la página diaria en la que aparece la entrada (`page_date`), a las 00:00 UTC; si el item se ve por primera vez ese mismo día, su `pub_date` es el momento en que el generador lo vio.

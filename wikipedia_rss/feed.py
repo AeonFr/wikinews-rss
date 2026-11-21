@@ -28,6 +28,21 @@ def collect(cfg, client, today, days):
     return items
 
 
+def collect_topics(cfg, client):
+    """The "Topics in the news" of the portal's main page, and whether the box was read.
+
+    (items, read): `read` is False if the page cannot be read or has no such box (its layout may
+    have changed): then it says nothing about which topics are still in it. An empty box is read.
+    """
+    try:
+        data = client.api(action="parse", page=cfg.portal, prop="text", disablelimitreport="1")
+    except ApiError as e:
+        log.info("%s: skipping %s (%s)", cfg.code, cfg.portal, e.code)
+        return [], False
+    html = data["parse"]["text"]
+    return parsers.parse_topics_html(html, cfg, cfg.portal), "p-current-events-headlines" in html
+
+
 def lookup_pages(client, titles, extracts=False):
     """title -> {pageid, qid, url, title, extract} for existing pages (redirects followed)."""
     titles = list(dict.fromkeys(t for t in titles if t))
@@ -112,6 +127,8 @@ def finalize(cfg, raw_items, pages):
     Each item gets "group_key" (its main article: pageid, or title if the page does not
     exist) used to group headlines about the same article (and day), plus "page_date" and
     "pos" (position within its portal page) that order the headlines of a group.
+    "Topics in the news" (kind "topic") have no day: their guid has "topic" where the date is, they
+    are never grouped (no "group_key"), and the moment they were first seen is their date.
     Items whose main article exists also get "article_title" and, if configured,
     "article_extract" (shown in the card of the story page), and "topic_articles": the
     other articles linked on the topic lines above the entry (at any level) that exist.
@@ -119,8 +136,9 @@ def finalize(cfg, raw_items, pages):
     items, seen, pos = [], set(), {}
     for order, it in enumerate(raw_items):
         page = pages.get(it["main_title"]) if it["main_title"] else None
-        date = it["date"].isoformat()
-        guid = "wikipedia:%s:%s:%s" % (cfg.code, date, parsers.text_hash(it["text"]))
+        date = it["date"].isoformat() if it.get("date") else None
+        topic = it.get("kind") == "topic"
+        guid = "wikipedia:%s:%s:%s" % (cfg.code, date or "topic", parsers.text_hash(it["text"]))
         if guid in seen:
             continue
         seen.add(guid)
@@ -129,7 +147,8 @@ def finalize(cfg, raw_items, pages):
         it["link"] = page["url"] if page else (cfg.url(it["main_title"]) if it["main_title"] else cfg.url(it["page"]))
         if page:
             it["pageid"], it["qid"] = page["pageid"], page["qid"]
-            it["group_key"] = "pageid:%s" % page["pageid"]
+            if not topic:
+                it["group_key"] = "pageid:%s" % page["pageid"]
             it["article_title"] = page["title"]
             if cfg.use_extracts:
                 it["article_extract"] = page["extract"]  # "" if the article has none: looked up
@@ -142,7 +161,7 @@ def finalize(cfg, raw_items, pages):
                                        "extract": other["extract"] if cfg.use_extracts else ""})
         if topic_articles:
             it["topic_articles"] = topic_articles
-        if not page and it["main_title"]:
+        if not page and it["main_title"] and not topic:
             it["group_key"] = "title:%s" % it["main_title"]
         items.append(it)
     return items
@@ -159,17 +178,21 @@ def run(cfg, client, now, days=7, max_items=50, state_dir="state", out_dir="feed
     raw_items = collect(cfg, client, today, days)
     if not raw_items:
         raise RuntimeError("no items parsed; the page layout may have changed")
+    topics, topics_read = collect_topics(cfg, client)
+    raw_items += topics
     titles = [t for it in raw_items for t in [it["main_title"]] + topic_titles(it)]
     pages = lookup_pages(client, titles, extracts=cfg.use_extracts)
     state_path = os.path.join(state_dir, "%s.json" % cfg.code)
     state = st.load_state(state_path)
     items = finalize(cfg, raw_items, pages)
 
-    new = st.merge(state, items, now, retention_days, max_group)
+    new = st.merge(state, items, now, retention_days, max_group, also_read=[cfg.portal] if topics_read else [])
     backfill_extracts(cfg, client, state, pages)
     last_build = st.parse_iso(state["updated"])
-    stories = st.rss_latest(state, None)
-    feed_items = stories[:max_items]
+    # The website keeps the topics the portal no longer highlights (their pages stay reachable);
+    # the feed does not list them.
+    stories = st.rss_latest(state, None, with_retired=True)
+    feed_items = [s for s in stories if not s.get("retired")][:max_items]
     source_urls = [s["url"] for it in stories for m in (it.get("members") or [it]) for s in m.get("sources", [])]
     sources_path = os.path.join(state_dir, "sources.json")
     sources_cache = sources.load_cache(sources_path)

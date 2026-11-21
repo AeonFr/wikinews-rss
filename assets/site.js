@@ -26,6 +26,9 @@
     topicsLabel: "Topics",
     fromPage: "From {page} ({history})",
     history: "history",
+    topicsInNews: "Topics in the news",
+    addedTo: "Added on {date} to the {page} ({history}).",
+    portalName: "Current events portal",
     aboutLabel: "About the article",
     moreCta: "Read on Wikipedia →",
     cardCta: "Read the article on Wikipedia →",
@@ -470,6 +473,17 @@
   }
 
   // The tile of a group of the front page: a single entry as such, or a box.
+  // A "Topic in the news" (see the generator's parse_topics_html): a highlighted story of the
+  // portal's main page, not of a day. They are all in one section above every day (see renderHome),
+  // each with its article's title above its text, like a single article's tile.
+  function topicTile(s) {
+    var text = plainText(s.headlines[0].html).trim();
+    var item = el("div");
+    if (s.article) item.appendChild(el("p", "subhead", s.article.title));
+    item.appendChild(textLink(s, text));
+    return { li: item, kind: sizeOf(text.length), portal: false, topic: true, length: text.length };
+  }
+
   function unitTile(stories) {
     if (stories.length === 1 && (stories[0].headlines.length === 1 || !stories[0].article)) return storyTile(stories[0]);
     var merged = mergeStories(stories);
@@ -533,6 +547,17 @@
       row.tiles.push(tile);
       tile.span = need;
     });
+    // A last row with a single tile, after a row of three one-column tiles, would stretch that tile
+    // across the whole width. Instead the last tile of the row before goes down to keep it company:
+    // two rows of two, each with a wide tile and a narrow one (see the fill below).
+    var last = rows[rows.length - 1], before = rows[rows.length - 2];
+    var plain = function (tile) { return tile.span === 1 && tile.kind !== "feature" && !tile.pic && !tile.fixed; };
+    if (cols === 3 && before && last.tiles.length === 1 && last.used < cols && !last.tiles[0].pic &&
+        last.tiles[0].kind !== "feature" && before.tiles.length === 3 && before.tiles.every(plain)) {
+      last.tiles.unshift(before.tiles.pop());
+      before.used--;
+      last.used++;
+    }
     rows.forEach(function (row) {
       for (var i = 0; i < row.tiles.length && row.used < cols; i++) {
         if (row.tiles[i].kind === "flex") { row.tiles[i].span++; row.used++; break; }
@@ -633,6 +658,7 @@
   }
 
   var grids = [];  // one { tiles: [...], portal: [...] } per day on the page
+  var homeTopics = { tiles: [] };   // the "Topics in the news" section above the days
   var mediaQueries = [window.matchMedia("(min-width: 40rem)"), window.matchMedia("(min-width: 62rem)")];
 
   function columnCount() {
@@ -640,6 +666,7 @@
   }
   function layoutAll() {
     var cols = columnCount();
+    layoutTiles(homeTopics.tiles, cols);
     grids.forEach(function (g) {
       layoutTiles(g.tiles, cols);
       layoutTiles(g.portal, cols);
@@ -665,13 +692,29 @@
     var cutoff = new Date(data.updated.slice(0, 10) + "T00:00:00Z");
     cutoff.setUTCDate(cutoff.getUTCDate() - HOME_DAYS);
     var cutoffDay = cutoff.toISOString().slice(0, 10);
-    var recent = data.stories.filter(function (s) { return s.pub_date.slice(0, 10) > cutoffDay; });
-    if (!recent.length) { status.textContent = t("empty"); return; }
+    // The topics are not part of any day: the ones the portal still highlights go above all the days.
+    var topics = data.stories.filter(function (s) { return s.kind === "topic" && !s.retired; });
+    var recent = data.stories.filter(function (s) { return s.kind !== "topic" && s.pub_date.slice(0, 10) > cutoffDay; });
+    if (!recent.length && !topics.length) { status.textContent = t("empty"); return; }
     status.textContent = "";
 
     var today = $("today");
     today.textContent = formatDay(data.updated);
     today.setAttribute("datetime", data.updated.slice(0, 10));
+
+    homeTopics = { tiles: [] };
+    if (topics.length) {
+      var topicsBox = el("div", "topics");
+      var topicList = el("div", "topics-list");
+      topicsBox.appendChild(el("h2", "topics-label", t("topicsInNews")));
+      topicsBox.appendChild(topicList);
+      topics.forEach(function (s) {
+        var tile = topicTile(s);
+        homeTopics.tiles.push(tile);
+        topicList.appendChild(tile.li);
+      });
+      days.appendChild(topicsBox);
+    }
 
     // The stories with the same group are one tile of the front page.
     var units = [], unitIndex = {};
@@ -795,10 +838,22 @@
   }
 
   // Where the headlines come from: once per portal page, not once per headline.
+  // A "Topic in the news" says when it was added to the portal's main page, not what day it is from.
+  function topicLine(h, story) {
+    var p = el("p", "headline-meta");
+    var parts = t("addedTo", { date: formatMoment(story.pub_date), page: "\0p", history: "\0h" }).split(/\0([ph])/);
+    parts.forEach(function (part, i) {
+      if (i % 2) p.appendChild(part === "p" ? link(h.page.url, t("portalName")) : link(h.page.history_url, t("history")));
+      else if (part) p.appendChild(document.createTextNode(part));
+    });
+    return p;
+  }
+
   // Where the headlines come from: once per portal page, not once per headline.
-  function renderPages(headlines) {
+  function renderPages(headlines, story) {
     var box = $("from-pages");
     clear(box);
+    if (story && story.kind === "topic") { box.appendChild(topicLine(headlines[0], story)); return; }
     var seen = {};
     headlines.forEach(function (h) {
       if (seen[h.page.url]) return;
@@ -1045,7 +1100,7 @@
       if (group.some(function (h) { return h.sources.length; })) li.appendChild(sourcesLine(group));
       list.appendChild(li);
     });
-    renderPages(story.headlines);
+    renderPages(story.headlines, story);
 
     // The article's text, the sources, then every link to other articles: the articles this one
     // is nested under with the other news of the day under each, and the same article on other days.

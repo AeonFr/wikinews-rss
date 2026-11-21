@@ -136,10 +136,16 @@ class RemovedFromPageTest(unittest.TestCase):
 
     def test_a_page_that_lost_most_of_its_headlines_is_left_alone(self):
         state = {"items": {}}
-        st.merge(state, [on_page(g) for g in "abcdef"], T0)
+        st.merge(state, [on_page(g) for g in "abcdefgh"], T0)
         with self.assertLogs("wikipedia_rss.state", "WARNING"):
             st.merge(state, [on_page("a")], self.LATER)  # a blanked or misread page
-        self.assertEqual(set(state["items"]), set("abcdef"))
+        self.assertEqual(set(state["items"]), set("abcdefgh"))
+
+    def test_a_short_page_can_replace_most_of_its_items(self):
+        state = {"items": {}}
+        st.merge(state, [on_page(g) for g in "abcd"], T0)
+        st.merge(state, [on_page("a"), on_page("x"), on_page("y"), on_page("z")], self.LATER)
+        self.assertEqual(set(state["items"]), set("axyz"))
 
     def test_a_group_survives_losing_a_member_even_its_first(self):
         state = {"items": {}}

@@ -98,7 +98,7 @@ def pub_date_for(item, first_seen):
     return utc_iso(first_seen)
 
 
-def merge(state, items, now, retention_days=RETENTION_DAYS, max_group=MAX_GROUP):
+def merge(state, items, now, retention_days=RETENTION_DAYS, max_group=MAX_GROUP, also_read=()):
     """Merge freshly scraped headlines (each with a 'guid') into state, then group them.
 
     Returns the guids of the new feed items (new headlines not absorbed by a group).
@@ -109,6 +109,11 @@ def merge(state, items, now, retention_days=RETENTION_DAYS, max_group=MAX_GROUP)
     run was removed by the editors (or edited into another text: that is a new headline, see
     below) and is deleted too; the ones of pages not read in this run are kept until the
     retention deletes them. state["updated"] only moves to now if the state actually changed.
+
+    "Topics in the news" (kind "topic") are not deleted when the portal's main page drops them:
+    they are marked "retired" (and unmarked if they come back), so that the website can keep their
+    pages while the front page and the feed leave them out. `also_read` lists the pages that were
+    read in this run although no headline came from them (an empty "Topics in the news" box).
     """
     known = state.setdefault("items", {})
     # State written before grouping existed, or under another grouping rule: regroup
@@ -147,6 +152,7 @@ def merge(state, items, now, retention_days=RETENTION_DAYS, max_group=MAX_GROUP)
 
     for guid in removed_from_pages(known, items, current):
         del known[guid]
+    retire_topics(known, items, current, also_read)
     expire(state, cutoff)
 
     current &= set(known)
@@ -167,20 +173,33 @@ def merge(state, items, now, retention_days=RETENTION_DAYS, max_group=MAX_GROUP)
     return [g for g in new if owner.get(g, g) == g]
 
 
+def retire_topics(known, items, current, also_read=()):
+    """Mark the stored "Topics in the news" that the portal's main page no longer has as retired."""
+    pages = {it["page"] for it in items if it.get("page")} | set(also_read)
+    for guid, old in known.items():
+        if old.get("kind") != "topic" or old.get("page") not in pages:
+            continue
+        if guid in current:
+            old.pop("retired", None)
+        else:
+            old["retired"] = True
+
+
 def removed_from_pages(known, items, current):
     """Guids of the stored headlines that are no longer on the daily pages read in this run.
 
     `items` are the headlines scraped (their "page" says which pages were read), `current` the
     guids of those that were merged. A headline edited so that it no longer matches its old
     self (its text and its source both changed) is a new headline: the old one is what goes
-    here. A page that lost most of its headlines at once is more likely to be blanked or
-    misread than edited, so none of its headlines are removed (they would come back as new).
+    here. A page with many headlines that lost most of them at once is more likely to be blanked
+    or misread than edited, so none of its headlines are removed (they would come back as new).
+    (A short page, like the portal's "Topics in the news", can replace most of its items.)
     """
     removed = []
     for page in {it["page"] for it in items if it.get("page")}:
-        stored = [g for g, old in known.items() if old.get("page") == page]
+        stored = [g for g, old in known.items() if old.get("page") == page and old.get("kind") != "topic"]
         gone = [g for g in stored if g not in current]
-        if len(gone) > 2 and 2 * len(gone) > len(stored):
+        if len(stored) >= 8 and 2 * len(gone) > len(stored):
             log.warning("%s: %d of %d headlines are gone; keeping them", page, len(gone), len(stored))
             continue
         removed += gone
@@ -357,7 +376,7 @@ def rss_title(members, topic):
     return "%s: %s" % (topic["label"], title) if topic else title
 
 
-def rss_items(state):
+def rss_items(state, with_retired=False):
     """The RSS feed's items: each story split by the article nearest to its entries.
 
     The website shows a story as one nested whole (an article of the day and everything under
@@ -385,9 +404,11 @@ def rss_items(state):
                 item.update(link=part[0]["link"], order=min(m.get("order", 0) for m in part), members=part)
             else:
                 item.pop("members", None)
+            if item.get("retired") and not with_retired:
+                continue
             out.append(item)
     return out
 
 
-def rss_latest(state, limit):
-    return _newest_first(rss_items(state))[:limit]
+def rss_latest(state, limit, with_retired=False):
+    return _newest_first(rss_items(state, with_retired))[:limit]

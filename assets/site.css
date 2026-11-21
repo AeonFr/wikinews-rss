@@ -205,6 +205,17 @@ body:not(.ready) footer { display: none; }  /* shown once the page has its conte
 
 /* Portal section: the day's entries taken straight from the Current events portal. They
  * come first and are set larger, but are not boxed: they are not related to each other. */
+/* "Topics in the news", highlighted on the portal's main page: one section above every day, under
+ * a label and a heavy accent rule that say what they are. */
+.topics { margin: 0 0 2.25rem; padding-top: .7rem; border-top: 3px solid var(--accent); }
+/* The section's title is a heading, like a day's: larger and in the text colour, so that the small
+ * accent-coloured titles of the articles under it (see .subhead) are clearly below it. */
+.topics-label { margin: 0 0 1.25rem; font: 700 1rem/1.4 var(--sans); letter-spacing: .12em; text-transform: uppercase; color: var(--fg); }
+.topics-list { display: grid; grid-template-columns: 1fr; gap: 1.75rem 2.5rem; }
+.topics-list > div { min-width: 0; }
+@media (min-width: 40rem) { .topics-list { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 62rem) { .topics-list { grid-template-columns: repeat(3, 1fr); } }
+.topics-list .excerpt { font-size: 1.375rem; line-height: 1.4; }
 .portal { margin: 0 0 2.25rem; }
 .portal-list { display: grid; grid-template-columns: 1fr; gap: 1.75rem 2.5rem; }
 .portal-list > div { min-width: 0; }

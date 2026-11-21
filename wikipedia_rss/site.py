@@ -86,6 +86,10 @@ def build_story(it, cfg, image=None):
     }
     if image:
         story["image"] = image
+    if members[0].get("kind") == "topic":   # a "Topic in the news": dated by when it was added
+        story["kind"] = "topic"
+        if members[0].get("retired"):         # no longer in the box: only its page remains
+            story["retired"] = True
     return story
 
 
