@@ -114,10 +114,11 @@ main.wrap { padding-top: 1.5rem; padding-bottom: 3rem; }
 
 /* Feature: several entries about one article on the same day; the full width */
 .stories .feature { grid-column: 1 / -1; background: var(--card); padding: 1.5rem 1.5rem 1.75rem; }
-/* On a phone the box's tint runs to the edges of the screen and the text keeps the page's own
- * margin, so the box adds no padding to the narrow layout. */
+/* On a phone the box's tint, and the lines that separate the days, run to the edges of the screen
+ * and the text keeps the page's own margin, so they add no padding to the narrow layout. */
 @media (max-width: 39.999rem) {
   .stories .feature { margin-left: -1.25rem; margin-right: -1.25rem; padding: 1.25rem 1.25rem 1.5rem; }
+  .day h2 { margin-left: -1.25rem; margin-right: -1.25rem; padding-left: 1.25rem; padding-right: 1.25rem; }
 }
 .feature h3 { margin: 0 0 .2rem; font: 700 clamp(1.375rem, 2.6vw, 1.75rem)/1.15 var(--serif); overflow-wrap: anywhere; }
 .feature h3 a { text-decoration: none; }
