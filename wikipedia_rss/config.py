@@ -3,7 +3,7 @@ from dataclasses import dataclass, field
 from typing import Dict, List
 from urllib.parse import quote
 
-DEFAULT_USER_AGENT = "wikipedia-noticias-rss/0.1 (francanobr@gmail.com)"
+DEFAULT_USER_AGENT = "wikipedia-noticias-rss/0.1"
 USER_AGENT_ENV = "WIKIPEDIA_RSS_USER_AGENT"
 
 # Used to fetch the news sites' pages (link previews). Deliberately generic, with no
