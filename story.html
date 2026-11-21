@@ -6,7 +6,7 @@
   <title>Story · Wikipedia News</title>
   <meta name="description" content="A news story from Wikipedia’s Current events portal, with all its headlines and a link to the Wikipedia article.">
   <link rel="alternate" type="application/rss+xml" title="Wikipedia News" href="feeds/en.xml">
-  <link rel="stylesheet" href="assets/site.css?v=a1dcb48e37">
+  <link rel="stylesheet" href="assets/site.css?v=da7f29b721">
 </head>
 <body data-page="story">
   <header class="masthead compact">
@@ -23,15 +23,19 @@
     <noscript><p class="status">This page needs JavaScript. The <a href="feeds/en.xml">RSS feed</a> has the full text of every item.</p></noscript>
     <p class="status" id="status" role="status"></p>
     <article id="story" hidden>
-      <p class="kicker" id="kicker"></p>
-      <h1 id="story-title"></h1>
-      <p class="note" id="story-note"></p>
-      <ol class="headlines" id="headlines"></ol>
-      <div id="from-pages"></div>
-      <div id="card"></div>
-      <section class="source-cards" id="source-cards"></section>
-      <section class="related-entries" id="related-entries"></section>
-      <section class="related" id="related"></section>
+      <div class="story-main">
+        <p class="kicker" id="kicker"></p>
+        <h1 id="story-title"></h1>
+        <p class="story-link" id="story-link"></p>
+        <ol class="headlines" id="headlines"></ol>
+        <div id="from-pages"></div>
+        <section class="source-cards" id="source-cards"></section>
+        <section class="related-entries" id="related-entries"></section>
+        <section class="related" id="related"></section>
+      </div>
+      <aside class="story-side">
+        <div class="about" id="about"></div>
+      </aside>
     </article>
   </main>
 
@@ -44,6 +48,6 @@
         every entry links to the source article and its page history.</p>
     </div>
   </footer>
-  <script src="assets/site.js?v=6866ab1e45"></script>
+  <script src="assets/site.js?v=12c409a255"></script>
 </body>
 </html>

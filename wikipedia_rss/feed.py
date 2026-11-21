@@ -56,7 +56,8 @@ def lookup_pages(client, titles, extracts=False):
                     "qid": p.get("pageprops", {}).get("wikibase_item"),
                     "url": p.get("canonicalurl") or p.get("fullurl"),
                     "title": p["title"],
-                    "extract": parsers.truncate(parsers.clean_space(p.get("extract") or ""), 300),
+                    # The first two sentences, whole: the pages shorten them where they need to.
+                    "extract": parsers.clean_space(p.get("extract") or ""),
                 }
     return result
 
@@ -66,28 +67,43 @@ def topic_titles(it):
     return [link["title"] for t in it.get("topics", []) for link in t.get("links", [])]
 
 
+def cut_short(extract):
+    """An extract stored by an older version, which cut it at 300 characters with an ellipsis."""
+    return (extract or "").endswith("…")
+
+
 def backfill_extracts(cfg, client, state, pages):
-    """Give the stored headlines that were never looked up their article's extract.
+    """Give the stored headlines the extract of their article when they have none, or a cut one.
 
     Only the last `days` daily pages are scraped, so a headline older than that keeps what it
-    had when it left the scrape: nothing, if it was stored before extracts were fetched.
-    Looked up once: an article without an extract is stored as "" and not asked for again.
+    had when it left the scrape: nothing, if it was stored before extracts were fetched, or an
+    extract cut at 300 characters (see cut_short), as older versions stored them. The same for
+    the extracts of the other articles of its topic lines. Looked up once: an article without an
+    extract is stored as "" and not asked for again.
     """
     if not cfg.use_extracts:
         return
-    missing = {}
+    missing, others = {}, {}
     for it in state.get("items", {}).values():
         title = it.get("article_title") or it.get("main_title")  # older headlines only have main_title
-        if it.get("pageid") and title and "article_extract" not in it:
+        if it.get("pageid") and title and ("article_extract" not in it or cut_short(it["article_extract"])):
             missing.setdefault(title, []).append(it)
-    need = [t for t in missing if t not in pages]
-    found = lookup_pages(client, need, extracts=True) if need else {}
+        for article in it.get("topic_articles", []):
+            if cut_short(article.get("extract")):
+                others.setdefault(article["title"], []).append(article)
+    need = [t for t in list(missing) + list(others) if t not in pages]
+    found = lookup_pages(client, list(dict.fromkeys(need)), extracts=True) if need else {}
     for title, items in missing.items():
         page = pages.get(title) or found.get(title)
         for it in items:
             it["article_extract"] = page["extract"] if page else ""
             if page and not it.get("article_title"):
                 it["article_title"] = page["title"]
+    for title, articles in others.items():
+        page = pages.get(title) or found.get(title)
+        if page:
+            for article in articles:
+                article["extract"] = page["extract"]
 
 
 def finalize(cfg, raw_items, pages):

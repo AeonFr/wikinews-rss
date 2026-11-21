@@ -20,22 +20,16 @@
     storyTitle: "Story",
     brand: "Wikipedia News",
     relatedTitle: "More on {title} in the last {period}",
-    moreOn: "More on",
-    onDay: "on {day}",
-    alsoOn: "Also on {day}",
+    relatedOn: "Related articles on {day}",
     notFound: "This story is not on the site (anymore). News older than {period} is removed;" +
       "you can still find it in the <a href=\"{portal}\">Current events portal</a> on Wikipedia.",
-    noteMany: "{n} headlines were added to this story, oldest first.",
     sourcesLabel: "Sources",
     topicsLabel: "Topics",
     fromPage: "From {page} ({history})",
     history: "history",
-    cardLabel: "On Wikipedia",
-    moreLabel: "Related article",
+    aboutLabel: "About the article",
     moreCta: "Read on Wikipedia →",
     cardCta: "Read the article on Wikipedia →",
-    cardPortalLabel: "On Wikipedia",
-    cardPortalText: "This story is not about a particular article. See everything that happened that day.",
     cardPortalCta: "See the day on Wikipedia →"
   };
 
@@ -192,8 +186,9 @@
   // root); each headline's `topics` lists the lines above it, outermost first. Below the root
   // at most MAX_LEVELS more levels are kept (deeper ones count as the last one).
   var MAX_LEVELS = 2;
-  // A group inside a box shows its article's summary (as its first column) when it has at least
-  // this many entries: an article with a single entry has none, a summary would outweigh it.
+  // A group directly inside a box shows its article's summary (as its first column) when it has at
+  // least this many entries: an article with a single entry has none, a summary would outweigh
+  // it. A group inside another group never has one: it is a detail of the group around it.
   var ABOUT_MIN_ENTRIES = 2;
 
   function hasTopicLink(topic) {
@@ -263,10 +258,19 @@
     return node;
   }
 
+  // Characters of an article's text on the front page, where the boxes are tight (the article page
+  // shows all of it).
+  var ABOUT_CHARS = 300;
+
+  function shorten(text, limit) {
+    if (text.length <= limit) return text;
+    return text.slice(0, limit).replace(/\s+\S*$/, "").replace(/[,;:]+$/, "") + "…";
+  }
+
   // The start of the Wikipedia article's text and a link to it. It has no title of its own: the
   // article's title is right above it, as the box's or the group's.
   function aboutBlock(node, article) {
-    if (article.extract) node.appendChild(el("p", "about-text", article.extract));
+    if (article.extract) node.appendChild(el("p", "about-text", shorten(article.extract, ABOUT_CHARS)));
     var read = link(article.url, t("moreCta"));
     read.className = "about-link";
     node.appendChild(read);
@@ -359,7 +363,7 @@
     // The start of the group's article is the first column of its grid, as in the box around it.
     var article = groupArticle(s, node);
     var about = null;
-    if (s.complex && article && entriesIn(node).length >= ABOUT_MIN_ENTRIES) {
+    if (s.complex && depth === 2 && article && entriesIn(node).length >= ABOUT_MIN_ENTRIES) {
       about = aboutBlock(el("div", "about"), article);
       body.appendChild(about);
     }
@@ -773,34 +777,6 @@
     });
   }
 
-  // A card for a Wikipedia article: title and the start of its text, linking to it.
-  function articleCard(a, size) {
-    var node = el("a", "card" + (size ? " " + size : ""));
-    node.setAttribute("href", a.url);
-    node.appendChild(el("p", "card-label", t(size ? "moreLabel" : "cardLabel")));
-    node.appendChild(el("p", "card-title", a.title));
-    if (a.extract) node.appendChild(el("p", "card-text", a.extract));
-    node.appendChild(el("p", "card-cta", t(size ? "moreCta" : "cardCta")));
-    return node;
-  }
-
-  function card(story) {
-    var a = story.article;
-    var first = story.headlines[0];
-    var node = el("a", "card");
-    node.setAttribute("href", a ? a.url : first.page.url);
-    node.appendChild(el("p", "card-label", t(a ? "cardLabel" : "cardPortalLabel")));
-    var title = el("p", "card-title", a ? a.title : first.page.title);
-    node.appendChild(title);
-    var text = a ? a.extract : t("cardPortalText");
-    if (text) {
-      var p = el("p", "card-text", text);
-      node.appendChild(p);
-    }
-    node.appendChild(el("p", "card-cta", t(a ? "cardCta" : "cardPortalCta")));
-    return node;
-  }
-
   // A card per cited source whose page gave a preview (data/sources.json); sources
   // without one are left out.
   function sourceCard(src, preview) {
@@ -854,46 +830,102 @@
     return title.replace(/_/g, " ").toLowerCase();
   }
 
-  // The Wikipedia cards: the article the entries are about first, then the other articles of
-  // their topic lines (the bigger ones it is nested under).
-  function renderCards(story, near) {
-    var cardBox = $("card");
-    clear(cardBox);
+  // The Wikipedia article the entries are about: the one their nearest topic names, else the
+  // story's first. null for an entry straight from the portal.
+  function mainArticle(story, near) {
     var articles = [story.article].concat(story.more_articles || []).filter(Boolean);
-    if (!articles.length) { cardBox.appendChild(card(story)); return; }  // straight from the portal
+    if (!articles.length) return null;
     var wanted = near ? titleKey(topicUrl(near.topic)) : null;
-    var main = articles.filter(function (a) { return titleKey(a.url) === wanted; })[0] || articles[0];
-    cardBox.appendChild(articleCard(main));
-    var rest = articles.filter(function (a) { return a !== main; });
-    if (rest.length) {
-      var more = el("div", "card-grid");
-      rest.forEach(function (a) { more.appendChild(articleCard(a, "small")); });
-      cardBox.appendChild(more);
-    }
+    return articles.filter(function (a) { return titleKey(a.url) === wanted; })[0] || articles[0];
   }
 
-  // The other articles of the same day nested under the same top-level article, in blocks that
-  // say so: "More on <the article> on <day>" for the entries directly under it, "Also on <day>
-  // › <where>" for the others. Their entries link to their article pages.
-  function renderRelatedEntries(story, siblings) {
+  // The start of that article's text, titled "About the article" (its own title is the page's).
+  function renderAbout(story, near) {
+    var box = $("about");
+    clear(box);
+    var article = mainArticle(story, near);
+    box.hidden = !(article && article.extract);
+    if (box.hidden) return;
+    box.appendChild(el("p", "about-label", t("aboutLabel")));
+    box.appendChild(el("p", "about-text", article.extract));
+  }
+
+  // The link to the article on Wikipedia (to the day's portal page for an entry without one).
+  function renderStoryLink(story, near) {
+    var box = $("story-link");
+    clear(box);
+    var article = mainArticle(story, near);
+    box.appendChild(article ? link(article.url, t("cardCta")) : link(story.headlines[0].page.url, t("cardPortalCta")));
+  }
+
+  // "Related articles on <day>": first the articles that are not in any group (those directly
+  // under the broadest article, such as a story of its own), then the articles this one is nested
+  // under (deepest first), each followed by the other news of the day that is under it, so no
+  // title is shown twice. Each of those news goes under the deepest article it shares with this
+  // one; a label says where it is below that article (the day is in the section title).
+  // Entries link to their article pages.
+  function renderRelatedEntries(story, near, siblings) {
     var box = $("related-entries");
     clear(box);
+    var h0 = story.headlines[0];
+    var chain = function (h) { return h.topics.filter(hasTopicLink); };
+    var above = near ? h0.topics.slice(0, near.index).filter(hasTopicLink) : [];   // outermost first
+    var keys = above.map(function (topic) { return titleKey(topicUrl(topic)); });
+    var articles = [story.article].concat(story.more_articles || []).filter(Boolean);
+
+    // The deepest article above this one that a sibling is also under (-1: none).
+    var blocks = above.map(function () { return []; });
+    var loose = [];
     siblings.forEach(function (sib) {
-      var h0 = sib.headlines[0];
-      var first = 0;
-      while (first < h0.topics.length && !hasTopicLink(h0.topics[first])) first++;
-      var path = h0.topics.slice(first + 1).map(function (x) { return x.label; }).join(" › ");
-      var block = el("section", "related-block");
-      block.appendChild(el("h2", null, path
-        ? fill(T.alsoOn, { day: formatMonthDay(story.pub_date, true) }) + " › " + path
-        : t("moreOn") + " " + story.article.title + " " + fill(T.onDay, { day: formatMonthDay(story.pub_date) })));
-      sib.headlines.forEach(function (h) {
-        var p = el("p", "related-entry");
-        p.appendChild(link(storyHref(sib), plainText(h.html).trim()));
-        block.appendChild(p);
-      });
-      box.appendChild(block);
+      var theirs = chain(sib.headlines[0]);
+      var shared = 0;
+      while (shared < keys.length && shared < theirs.length && titleKey(topicUrl(theirs[shared])) === keys[shared]) shared++;
+      var below = theirs.slice(shared).map(function (x) { return x.label; }).join(" › ");
+      var item = { story: sib, below: below, depth: theirs.length - shared };
+      if (shared > 0) blocks[shared - 1].push(item); else loose.push(item);
     });
+    // An article directly under the broadest one, with nothing of its own around it, is not in
+    // any group: it goes first, so that what is listed under each group below really is in it.
+    var top = loose;
+    if (blocks.length) {
+      blocks[0] = blocks[0].filter(function (item) {
+        if (item.depth !== 1) return true;
+        top.push(item);
+        return false;
+      });
+    }
+
+    function entries(parent, items) {
+      items.forEach(function (item) {
+        if (item.below) parent.appendChild(el("p", "also-label", item.below));
+        item.story.headlines.forEach(function (h) {
+          var p = el("p", "related-entry");
+          p.appendChild(link(storyHref(item.story), plainText(h.html).trim()));
+          parent.appendChild(p);
+        });
+      });
+    }
+    if (above.length || top.length) {
+      box.appendChild(el("h2", null, fill(T.relatedOn, { day: formatMonthDay(story.pub_date, true) })));
+    }
+    if (top.length) {
+      var first = el("section", "related-block");
+      entries(first, top);
+      box.appendChild(first);
+    }
+    for (var i = above.length - 1; i >= 0; i--) {   // deepest first
+      var topic = above[i];
+      var info = articles.filter(function (a) { return titleKey(a.url) === keys[i]; })[0];
+      var block = el("section", "related-block");
+      var title = el("h3");
+      var url = (info && info.url) || topicUrl(topic);
+      if (url) title.appendChild(link(url, (info && info.title) || topic.label));
+      else title.textContent = topic.label;
+      block.appendChild(title);
+      if (info && info.extract) block.appendChild(el("p", "compact-desc", info.extract));
+      entries(block, blocks[i]);
+      box.appendChild(block);
+    }
   }
 
   function nearestKey(s) {  // which article a story is about, to find it on other days
@@ -973,8 +1005,7 @@
     }
 
     $("story-title").textContent = title;
-    $("story-note").textContent = story.headlines.length > 1 ? t("noteMany", { n: story.headlines.length }) : "";
-    $("story-note").hidden = story.headlines.length < 2;
+    renderStoryLink(story, near);
 
     var list = $("headlines");
     clear(list);
@@ -990,9 +1021,11 @@
     });
     renderPages(story.headlines);
 
-    renderCards(story, near);
+    // The article's text, the sources, then every link to other articles: the articles this one
+    // is nested under with the other news of the day under each, and the same article on other days.
     renderSourceCards(story.headlines);
-    renderRelatedEntries(story, siblings);
+    renderAbout(story, near);
+    renderRelatedEntries(story, near, siblings);
     renderRelated(story, near);
     setRetention();
   }

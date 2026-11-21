@@ -217,3 +217,29 @@ class LargeGroupTest(unittest.TestCase):
         self.assertEqual(st.group_title(members), "Entry 0. / Entry 1. / Entry 2. / … (+4 more)")
         self.assertEqual(st.rss_title(members[:2], {"label": "Some topic"}), "Some topic: Entry 0. / Entry 1.")
         self.assertEqual(st.rss_title(members[:1], None), "Entry 0.")
+
+
+class CutExtractTest(unittest.TestCase):
+    def test_extracts_cut_by_an_older_version_are_fetched_whole_once(self):
+        state = {"items": {
+            "cut": {"pageid": 1, "article_title": "Some article", "article_extract": "A sentence that was cut at the lim…",
+                    "topic_articles": [{"title": "Other article", "url": "https://x/o", "extract": "Also cut off ab…"},
+                                       {"title": "Whole one", "url": "https://x/w", "extract": "Complete."}]},
+            "whole": {"pageid": 2, "article_title": "Fine", "article_extract": "Already complete."},
+        }}
+        client = FakeClient()
+        feed.backfill_extracts(WIKI, client, state, pages={})
+        cut = state["items"]["cut"]
+        self.assertEqual(cut["article_extract"], "Extract of Some article.")
+        self.assertEqual([a["extract"] for a in cut["topic_articles"]], ["Extract of Other article.", "Complete."])
+        self.assertEqual(state["items"]["whole"]["article_extract"], "Already complete.")
+        self.assertEqual(client.requests, 1)
+        feed.backfill_extracts(WIKI, client, state, pages={})   # nothing is cut now: nothing more is asked
+        self.assertEqual(client.requests, 1)
+
+    def test_a_looked_up_extract_is_stored_whole(self):
+        long = "The first sentence is quite long and goes on for a while. " * 12 + "The end."
+        pages = feed.lookup_pages(type("C", (), {"api": lambda self, **p: {"query": {"pages": [
+            {"title": "T", "pageid": 1, "canonicalurl": "https://x/T", "extract": long}]}}})(), ["T"], extracts=True)
+        self.assertEqual(pages["T"]["extract"], long.strip())
+        self.assertGreater(len(pages["T"]["extract"]), 300)
