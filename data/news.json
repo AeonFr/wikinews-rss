@@ -7,6 +7,127 @@
  "stories": [
   {
    "article": {
+    "extract": "The Middle East is currently experiencing an ongoing series of interrelated wars, conflicts, and heightened instability, triggered by the ongoing Gaza war and the genocide in Gaza. These have primarily consisted of conflicts between Israel and the United States on one side, and Iran and militias…",
+    "title": "Middle Eastern crisis (2023–present)",
+    "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
+   },
+   "categories": [
+    "Armed conflicts and attacks"
+   ],
+   "group": "2026-11-21-334dbb8db8f2",
+   "headlines": [
+    {
+     "category": "Armed conflicts and attacks",
+     "html": "<a href=\"https://en.wikipedia.org/wiki/Saudi_Arabia\">Saudi Arabia</a> intercepts three missiles fired at <a href=\"https://en.wikipedia.org/wiki/Riyadh\">Riyadh</a> by the <a href=\"https://en.wikipedia.org/wiki/Houthis\">Houthis</a>.",
+     "id": "2026-11-21-334dbb8db8f2",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_21&action=history",
+      "title": "Portal:Current events/2026 November 21",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_21"
+     },
+     "sources": [
+      {
+       "name": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/21/saudi-led-coalition-intercepts-three-houthi-missiles-headed-for-riyadh"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Middle Eastern crisis",
+       "links": [
+        {
+         "label": "Middle Eastern crisis",
+         "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
+      },
+      {
+       "label": "Yemeni civil war",
+       "links": [
+        {
+         "label": "Yemeni civil war",
+         "url": "https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)"
+      },
+      {
+       "label": "Houthi–Saudi conflict",
+       "links": [
+        {
+         "label": "Houthi–Saudi conflict",
+         "url": "https://en.wikipedia.org/wiki/Houthi%E2%80%93Saudi_conflict"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Houthi%E2%80%93Saudi_conflict"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-21-334dbb8db8f2",
+   "more_articles": [
+    {
+     "extract": "The Yemeni civil war (Arabic: الحرب الأهلية اليمنية, romanized: al-ḥarb al-ʾahlīyah al-yamanīyah) is an ongoing multilateral civil war that began in late 2014 mainly between the Rashad al-Alimi-led Presidential Leadership Council and the Mahdi al-Mashat-led Houthi Supreme Political Council, along…",
+     "title": "Yemeni civil war (2014–present)",
+     "url": "https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)"
+    },
+    {
+     "extract": "The Houthi–Saudi conflict is an ongoing armed conflict involving the Armed Forces of Saudi Arabia and Houthi forces in Yemen and along the Saudi–Yemeni border, including parts of Asir, Jazan, and Najran in Saudi Arabia and Saada, Al-Jawf, and Hajjah in Yemen. The conflict began following the…",
+     "title": "Houthi–Saudi conflict",
+     "url": "https://en.wikipedia.org/wiki/Houthi%E2%80%93Saudi_conflict"
+    }
+   ],
+   "pub_date": "2026-11-21T16:51:27Z",
+   "title": "Houthi–Saudi conflict: Saudi Arabia intercepts three missiles fired at Riyadh by the Houthis."
+  },
+  {
+   "article": {
+    "extract": "Japan–Saudi Arabia relations (Arabic: العلاقات السعودية اليابانية, Japanese: 日本とサウジアラビアの関係) are the foreign relations between Saudi Arabia and Japan. Most new Official relations between the two nations were established in 1955.",
+    "title": "Japan–Saudi Arabia relations",
+    "url": "https://en.wikipedia.org/wiki/Japan%E2%80%93Saudi_Arabia_relations"
+   },
+   "categories": [
+    "Business and economy"
+   ],
+   "group": "2026-11-21-9a82d37cf9f4",
+   "headlines": [
+    {
+     "category": "Business and economy",
+     "html": "The <a href=\"https://en.wikipedia.org/wiki/Ministry_of_Economy,_Trade_and_Industry\">Japanese trade ministry</a> announces that Saudi Arabia agreed to triple the volume of <a href=\"https://en.wikipedia.org/wiki/Crude_oil\">crude oil</a> stored in <a href=\"https://en.wikipedia.org/wiki/Japan\">Japan</a> to 24 million <a href=\"https://en.wikipedia.org/wiki/Barrel_(unit)\">barrels</a>, under Japan's joint stockpiling system with Saudi Arabia, the <a href=\"https://en.wikipedia.org/wiki/United_Arab_Emirates\">United Arab Emirates</a>, and <a href=\"https://en.wikipedia.org/wiki/Kuwait\">Kuwait</a>.",
+     "id": "2026-11-21-9a82d37cf9f4",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_21&action=history",
+      "title": "Portal:Current events/2026 November 21",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_21"
+     },
+     "sources": [
+      {
+       "name": "Japan Today",
+       "url": "https://japantoday.com/category/business/saudi-arabia-agrees-to-triple-crude-stored-in-japan-amid-mideast-tensions"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Japan–Saudi Arabia relations",
+       "links": [
+        {
+         "label": "Japan–Saudi Arabia relations",
+         "url": "https://en.wikipedia.org/wiki/Japan%E2%80%93Saudi_Arabia_relations"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Japan%E2%80%93Saudi_Arabia_relations"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-21-9a82d37cf9f4",
+   "more_articles": [],
+   "pub_date": "2026-11-21T16:51:27Z",
+   "title": "Japan–Saudi Arabia relations: The Japanese trade ministry announces that Saudi Arabia agreed to triple the volume of crude oil stored in Japan to 24 million barrels, under Japan's joint stockpiling system with Saudi Arabia, the…"
+  },
+  {
+   "article": {
     "extract": "A series of labour demonstrations organized by workers in the ready-made garment industry have taken place in Bangladesh, demanding an increase in the sector's minimum monthly wage from ৳12,500 (US$100) to ৳30,000 (US$240). Began in August 2026, the protests escalated in late-October and…",
     "title": "2026 Bangladesh garment workers protests",
     "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"
@@ -485,143 +606,6 @@
   },
   {
    "article": {
-    "extract": "Since 2020, Haiti's capital Port-au-Prince has been the site of an ongoing armed conflict between rival gangs and the state. The government of Haiti and national security forces have struggled to maintain their control of Port-au-Prince amid this conflict, with gangs speculated to control up to 90%…",
-    "title": "Haitian conflict",
-    "url": "https://en.wikipedia.org/wiki/Haitian_conflict"
-   },
-   "categories": [
-    "Armed conflicts and attacks"
-   ],
-   "group": "2026-11-20-044adbb9c561",
-   "headlines": [
-    {
-     "category": "Armed conflicts and attacks",
-     "html": "The governments of <a href=\"https://en.wikipedia.org/wiki/Haiti\">Haiti</a> and <a href=\"https://en.wikipedia.org/wiki/El_Salvador\">El Salvador</a> agree to build three new prisons to incarcerate Haitian gang members.",
-     "id": "2026-11-20-8d9997cfee64",
-     "page": {
-      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_20&action=history",
-      "title": "Portal:Current events/2026 November 20",
-      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_20"
-     },
-     "sources": [
-      {
-       "name": "AP",
-       "url": "https://apnews.com/article/el-salvador-haiti-troops-killed-injured-bukele-c3192c1276fd235b727666a05062db00"
-      }
-     ],
-     "topics": [
-      {
-       "label": "Haitian conflict",
-       "links": [
-        {
-         "label": "Haitian conflict",
-         "url": "https://en.wikipedia.org/wiki/Haitian_conflict"
-        }
-       ],
-       "url": "https://en.wikipedia.org/wiki/Haitian_conflict"
-      },
-      {
-       "label": "Salvadoran military intervention in Haiti",
-       "links": [
-        {
-         "label": "Salvadoran military intervention in Haiti",
-         "url": "https://en.wikipedia.org/wiki/Salvadoran_military_intervention_in_Haiti"
-        }
-       ],
-       "url": "https://en.wikipedia.org/wiki/Salvadoran_military_intervention_in_Haiti"
-      }
-     ]
-    },
-    {
-     "category": "Armed conflicts and attacks",
-     "html": "Two <a href=\"https://en.wikipedia.org/wiki/El_Salvador\">Salvadoran</a> soldiers are killed and two more are injured when explosive they are handling detonate.",
-     "id": "2026-11-20-044adbb9c561",
-     "page": {
-      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_20&action=history",
-      "title": "Portal:Current events/2026 November 20",
-      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_20"
-     },
-     "sources": [
-      {
-       "name": "AP",
-       "url": "https://apnews.com/article/el-salvador-haiti-troops-killed-injured-bukele-c3192c1276fd235b727666a05062db00"
-      }
-     ],
-     "topics": [
-      {
-       "label": "Haitian conflict",
-       "links": [
-        {
-         "label": "Haitian conflict",
-         "url": "https://en.wikipedia.org/wiki/Haitian_conflict"
-        }
-       ],
-       "url": "https://en.wikipedia.org/wiki/Haitian_conflict"
-      },
-      {
-       "label": "Salvadoran military intervention in Haiti",
-       "links": [
-        {
-         "label": "Salvadoran military intervention in Haiti",
-         "url": "https://en.wikipedia.org/wiki/Salvadoran_military_intervention_in_Haiti"
-        }
-       ],
-       "url": "https://en.wikipedia.org/wiki/Salvadoran_military_intervention_in_Haiti"
-      }
-     ]
-    },
-    {
-     "category": "Armed conflicts and attacks",
-     "html": "Three <a href=\"https://en.wikipedia.org/wiki/El_Salvador\">Salvadoran</a> soldiers are killed and another is injured when explosives they are handling detonate.",
-     "id": "2026-11-20-547551ac738d",
-     "page": {
-      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_20&action=history",
-      "title": "Portal:Current events/2026 November 20",
-      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_20"
-     },
-     "sources": [
-      {
-       "name": "La Prensa Gráfica",
-       "url": "https://www.laprensagrafica.com/elsalvador/dos-soldados-salvadorenos-muertos-en-haiti-tras-explosion-en-campamento-20261120-0033.html"
-      }
-     ],
-     "topics": [
-      {
-       "label": "Haitian conflict",
-       "links": [
-        {
-         "label": "Haitian conflict",
-         "url": "https://en.wikipedia.org/wiki/Haitian_conflict"
-        }
-       ],
-       "url": "https://en.wikipedia.org/wiki/Haitian_conflict"
-      },
-      {
-       "label": "Salvadoran military intervention in Haiti",
-       "links": [
-        {
-         "label": "Salvadoran military intervention in Haiti",
-         "url": "https://en.wikipedia.org/wiki/Salvadoran_military_intervention_in_Haiti"
-        }
-       ],
-       "url": "https://en.wikipedia.org/wiki/Salvadoran_military_intervention_in_Haiti"
-      }
-     ]
-    }
-   ],
-   "id": "2026-11-20-044adbb9c561",
-   "more_articles": [
-    {
-     "extract": "Since 21 October 2026, El Salvador has been conducting a military intervention in Haiti following a gang ambush on 18 October that resulted in four Salvadoran aviation technicians of the Gang Suppression Force (GSF) being kidnapped. According to Salvadoran president Nayib Bukele, the intervention's…",
-     "title": "Salvadoran military intervention in Haiti",
-     "url": "https://en.wikipedia.org/wiki/Salvadoran_military_intervention_in_Haiti"
-    }
-   ],
-   "pub_date": "2026-11-20T00:00:00Z",
-   "title": "Salvadoran military intervention in Haiti: The governments of Haiti and El Salvador agree to build three new prisons to incarcerate Haitian gang members. / Two Salvadoran soldiers are killed and two more are injured when explosive they are handling detonate. / Three Salvadoran soldiers are killed and another is injured when explosives they are handling detonate."
-  },
-  {
-   "article": {
     "extract": "The Middle East is currently experiencing an ongoing series of interrelated wars, conflicts, and heightened instability, triggered by the ongoing Gaza war and the genocide in Gaza. These have primarily consisted of conflicts between Israel and the United States on one side, and Iran and militias…",
     "title": "Middle Eastern crisis (2023–present)",
     "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
@@ -700,6 +684,105 @@
    ],
    "pub_date": "2026-11-20T00:00:00Z",
    "title": "2026 Yemen offensives: Yemeni government forces say they have conducted operations in the Al-Jawf, Marib, and Taiz governorates that have killed or injured 193 Houthi fighters."
+  },
+  {
+   "article": {
+    "extract": "Since 2020, Haiti's capital Port-au-Prince has been the site of an ongoing armed conflict between rival gangs and the state. The government of Haiti and national security forces have struggled to maintain their control of Port-au-Prince amid this conflict, with gangs speculated to control up to 90%…",
+    "title": "Haitian conflict",
+    "url": "https://en.wikipedia.org/wiki/Haitian_conflict"
+   },
+   "categories": [
+    "Armed conflicts and attacks"
+   ],
+   "group": "2026-11-20-044adbb9c561",
+   "headlines": [
+    {
+     "category": "Armed conflicts and attacks",
+     "html": "The governments of <a href=\"https://en.wikipedia.org/wiki/Haiti\">Haiti</a> and <a href=\"https://en.wikipedia.org/wiki/El_Salvador\">El Salvador</a> agree to build three new prisons to incarcerate Haitian gang members.",
+     "id": "2026-11-20-8d9997cfee64",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_20&action=history",
+      "title": "Portal:Current events/2026 November 20",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_20"
+     },
+     "sources": [
+      {
+       "name": "AP",
+       "url": "https://apnews.com/article/el-salvador-haiti-troops-killed-injured-bukele-c3192c1276fd235b727666a05062db00"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Haitian conflict",
+       "links": [
+        {
+         "label": "Haitian conflict",
+         "url": "https://en.wikipedia.org/wiki/Haitian_conflict"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Haitian_conflict"
+      },
+      {
+       "label": "Salvadoran military intervention in Haiti",
+       "links": [
+        {
+         "label": "Salvadoran military intervention in Haiti",
+         "url": "https://en.wikipedia.org/wiki/Salvadoran_military_intervention_in_Haiti"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Salvadoran_military_intervention_in_Haiti"
+      }
+     ]
+    },
+    {
+     "category": "Armed conflicts and attacks",
+     "html": "Three <a href=\"https://en.wikipedia.org/wiki/El_Salvador\">Salvadoran</a> soldiers are killed and another is injured when explosives they are handling detonate.",
+     "id": "2026-11-20-547551ac738d",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_20&action=history",
+      "title": "Portal:Current events/2026 November 20",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_20"
+     },
+     "sources": [
+      {
+       "name": "La Prensa Gráfica",
+       "url": "https://www.laprensagrafica.com/elsalvador/dos-soldados-salvadorenos-muertos-en-haiti-tras-explosion-en-campamento-20261120-0033.html"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Haitian conflict",
+       "links": [
+        {
+         "label": "Haitian conflict",
+         "url": "https://en.wikipedia.org/wiki/Haitian_conflict"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Haitian_conflict"
+      },
+      {
+       "label": "Salvadoran military intervention in Haiti",
+       "links": [
+        {
+         "label": "Salvadoran military intervention in Haiti",
+         "url": "https://en.wikipedia.org/wiki/Salvadoran_military_intervention_in_Haiti"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Salvadoran_military_intervention_in_Haiti"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-20-8d9997cfee64",
+   "more_articles": [
+    {
+     "extract": "Since 21 October 2026, El Salvador has been conducting a military intervention in Haiti following a gang ambush on 18 October that resulted in four Salvadoran aviation technicians of the Gang Suppression Force (GSF) being kidnapped. According to Salvadoran president Nayib Bukele, the intervention's…",
+     "title": "Salvadoran military intervention in Haiti",
+     "url": "https://en.wikipedia.org/wiki/Salvadoran_military_intervention_in_Haiti"
+    }
+   ],
+   "pub_date": "2026-11-20T00:00:00Z",
+   "title": "Salvadoran military intervention in Haiti: The governments of Haiti and El Salvador agree to build three new prisons to incarcerate Haitian gang members. / Three Salvadoran soldiers are killed and another is injured when explosives they are handling detonate."
   },
   {
    "article": {
@@ -2856,96 +2939,6 @@
   },
   {
    "article": {
-    "extract": "Since 28 February 2026, the United States and Israel have been at war with Iran and its regional allies, following the Twelve-Day War in June 2025 and sporadic fighting during the Middle Eastern crisis sparked by the Gaza war, which began in 2023. Amid ongoing US–Iran negotiations regarding Iran's…",
-    "title": "2026 Iran war",
-    "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
-   },
-   "categories": [
-    "Armed conflicts and attacks"
-   ],
-   "group": "2026-11-17-364acb88d07e",
-   "headlines": [
-    {
-     "category": "Armed conflicts and attacks",
-     "html": "The <a href=\"https://en.wikipedia.org/wiki/United_States\">United States</a> <a href=\"https://en.wikipedia.org/wiki/United_States_Air_Force\">Air Force</a> conducts a series of at least six strikes on <a href=\"https://en.wikipedia.org/wiki/Qeshm_Island\">Qeshm Island</a>. The IRGC shoots down a <a href=\"https://en.wikipedia.org/wiki/General_Atomics_MQ-9_Reaper\">General Atomics MQ-9 Reaper</a> drone south of the island.",
-     "id": "2026-11-17-364acb88d07e",
-     "page": {
-      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_17&action=history",
-      "title": "Portal:Current events/2026 November 17",
-      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_17"
-     },
-     "sources": [
-      {
-       "name": "News.am",
-       "url": "https://news.am/en/news/1075422"
-      },
-      {
-       "name": "Le Monde",
-       "url": "https://www.lemonde.fr/en/international/article/2026/11/17/iran-claims-attack-on-us-base-in-bahrain_6782812_4.html"
-      }
-     ],
-     "topics": [
-      {
-       "label": "Middle Eastern crisis",
-       "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
-      },
-      {
-       "label": "2026 Iran war",
-       "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
-      }
-     ]
-    }
-   ],
-   "id": "2026-11-17-364acb88d07e",
-   "more_articles": [],
-   "pub_date": "2026-11-17T16:01:34Z",
-   "title": "2026 Iran war: The United States Air Force conducts a series of at least six strikes on Qeshm Island."
-  },
-  {
-   "article": {
-    "extract": "In November 2026, an Antonov An-12 from the Russian Air Force crashed near the village of Yagunovo in Kemerovo Oblast, Russia while attempting an emergency landing after a in-flight fire broke out. All 19 people on board died.",
-    "title": "2026 Russian Air Force Antonov An-12 crash",
-    "url": "https://en.wikipedia.org/wiki/2026_Russian_Air_Force_Antonov_An-12_crash"
-   },
-   "categories": [
-    "Disasters and accidents"
-   ],
-   "group": "2026-11-17-899e4cc82fd7",
-   "headlines": [
-    {
-     "category": "Disasters and accidents",
-     "html": "A <a href=\"https://en.wikipedia.org/wiki/Russian_Air_Force\">Russian Air Force</a> <a href=\"https://en.wikipedia.org/wiki/Antonov_An-12\">Antonov An-12</a> crashes near <a href=\"https://en.wikipedia.org/wiki/Kemerovo\">Kemerovo</a>, Russia, killing all 19 people on board.",
-     "id": "2026-11-17-899e4cc82fd7",
-     "page": {
-      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_17&action=history",
-      "title": "Portal:Current events/2026 November 17",
-      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_17"
-     },
-     "sources": [
-      {
-       "name": "The Independent",
-       "url": "https://www.independent.co.uk/news/world/europe/russia-plane-crash-siberia-kemerovo-b3086529.html"
-      },
-      {
-       "name": "AP",
-       "url": "https://apnews.com/article/russia-military-air-crash-siberia-an12-bb68e35e985a5e72786d813cf0ce598d"
-      }
-     ],
-     "topics": [
-      {
-       "label": "2026 Russian Air Force Antonov An-12 crash",
-       "url": "https://en.wikipedia.org/wiki/2026_Russian_Air_Force_Antonov_An-12_crash"
-      }
-     ]
-    }
-   ],
-   "id": "2026-11-17-899e4cc82fd7",
-   "more_articles": [],
-   "pub_date": "2026-11-17T16:01:34Z",
-   "title": "2026 Russian Air Force Antonov An-12 crash: A Russian Air Force Antonov An-12 crashes near Kemerovo, Russia, killing all 19 people on board."
-  },
-  {
-   "article": {
     "extract": "The Middle East is currently experiencing an ongoing series of interrelated wars, conflicts, and heightened instability, triggered by the ongoing Gaza war and the genocide in Gaza. These have primarily consisted of conflicts between Israel and the United States on one side, and Iran and militias…",
     "title": "Middle Eastern crisis (2023–present)",
     "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
@@ -3253,7 +3246,7 @@
    "headlines": [
     {
      "category": "Disasters and accidents",
-     "html": "A <a href=\"https://en.wikipedia.org/wiki/Pirogue\">small boat</a> reportedly carrying about a hundred people, mostly migrants, capsizes off Yenne, <a href=\"https://en.wikipedia.org/wiki/Senegal\">Senegal</a>. Various sources report that either at least four or lesser bodies have been recovered, as several others are still missing. <a href=\"https://en.wikipedia.org/wiki/Search_and_rescue\">Search operations</a> are launched by authorities.",
+     "html": "A <a href=\"https://en.wikipedia.org/wiki/Pirogue\">small boat</a> reportedly carrying about a hundred people, mostly migrants, capsizes off Yenne, <a href=\"https://en.wikipedia.org/wiki/Senegal\">Senegal</a>. Sources report that four bodies have been recovered, while several others are still missing. <a href=\"https://en.wikipedia.org/wiki/Search_and_rescue\">Search operations</a> are launched by authorities.",
      "id": "2026-11-17-174e10d34b3c",
      "page": {
       "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_17&action=history",
@@ -3411,88 +3404,6 @@
    "more_articles": [],
    "pub_date": "2026-11-17T00:00:00Z",
    "title": "2026 Melbourne Cup: Racing NSW launches an investigation after the body of losing horse So You Are is found in a skip bin in Sydney, Australia."
-  },
-  {
-   "article": {
-    "extract": "Costa Rica is a Central American nation that boasts of a noteworthy safety record on crime as compared to its neighbors in the region. It is one of few nations that have abolished their nation's armed forces.",
-    "title": "Crime in Costa Rica",
-    "url": "https://en.wikipedia.org/wiki/Crime_in_Costa_Rica"
-   },
-   "categories": [
-    "Law and crime"
-   ],
-   "group": "2026-11-17-fd2a921da5e8",
-   "headlines": [
-    {
-     "category": "Law and crime",
-     "html": "The investigative journalist Camilo Rodríguez was shot dead in his vehicle in <a href=\"https://en.wikipedia.org/wiki/Santo_Domingo,_Costa_Rica\">Santo Domingo</a>, <a href=\"https://en.wikipedia.org/wiki/Heredia_Province\">Heredia Province</a>, <a href=\"https://en.wikipedia.org/w/index.php?title=Costa_Ricas&amp;action=edit&amp;redlink=1\">Costa Ricas</a>. This is the first journalist killed in the country in at least 25 years.[",
-     "id": "2026-11-17-fd2a921da5e8",
-     "page": {
-      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_17&action=history",
-      "title": "Portal:Current events/2026 November 17",
-      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_17"
-     },
-     "sources": [
-      {
-       "name": "Univisión",
-       "url": "https://www.univision.com/shows/primer-impacto/asesinan-al-periodista-camilo-rodriguez-en-costa-rica-habria-recibido-amenazas-por-denunciar-al-narcotrafico-y-la-corrupcion-video"
-      }
-     ],
-     "topics": [
-      {
-       "label": "Crime in Costa Rica",
-       "url": "https://en.wikipedia.org/wiki/Crime_in_Costa_Rica"
-      }
-     ]
-    }
-   ],
-   "id": "2026-11-17-fd2a921da5e8",
-   "more_articles": [],
-   "pub_date": "2026-11-17T00:00:00Z",
-   "title": "Crime in Costa Rica: The investigative journalist Camilo Rodríguez was shot dead in his vehicle in Santo Domingo, Heredia Province, Costa Ricas."
-  },
-  {
-   "article": {
-    "extract": "The 2026 United States Senate election in Alaska was held on November 3, 2026, to elect a member of the United States Senate to represent the state of Alaska. Democratic former representative Mary Peltola defeated Republican incumbent Dan S. Sullivan.",
-    "title": "2026 United States Senate election in Alaska",
-    "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alaska"
-   },
-   "categories": [
-    "Politics and elections"
-   ],
-   "group": "2026-11-17-c55739d0e59c",
-   "headlines": [
-    {
-     "category": "Politics and elections",
-     "html": "Two weeks after <a href=\"https://en.wikipedia.org/wiki/Election_Day_(United_States)\">Election Day</a>, <a href=\"https://en.wikipedia.org/wiki/Democratic_Party_(United_States)\">Democratic</a> candidate <a href=\"https://en.wikipedia.org/wiki/Mary_Peltola\">Mary Peltola</a> defeats <a href=\"https://en.wikipedia.org/wiki/Incumbent\">incumbent</a> <a href=\"https://en.wikipedia.org/wiki/Republican_Party_(United_States)\">Republican</a> senator <a href=\"https://en.wikipedia.org/wiki/Dan_Sullivan_(U.S._senator)\">Dan Sullivan</a> to become the new <a href=\"https://en.wikipedia.org/wiki/Senate\">Senator</a> of <a href=\"https://en.wikipedia.org/wiki/Alaska\">Alaska</a>, further extending the <a href=\"https://en.wikipedia.org/wiki/Wave_elections_in_the_United_States\">Democratic lead</a> in the Senate.",
-     "id": "2026-11-17-c55739d0e59c",
-     "page": {
-      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_17&action=history",
-      "title": "Portal:Current events/2026 November 17",
-      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_17"
-     },
-     "sources": [
-      {
-       "name": "AP",
-       "url": "https://apnews.com/article/alaska-senate-peltola-sullivan-congress-f1fd4d243bf764ec46ff94db4c792953"
-      }
-     ],
-     "topics": [
-      {
-       "label": "2026 United States elections",
-       "url": "https://en.wikipedia.org/wiki/2026_United_States_elections"
-      },
-      {
-       "label": "2026 United States Senate election in Alaska",
-       "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alaska"
-      }
-     ]
-    }
-   ],
-   "id": "2026-11-17-c55739d0e59c",
-   "more_articles": [],
-   "pub_date": "2026-11-17T00:00:00Z",
-   "title": "2026 United States Senate election in Alaska: Two weeks after Election Day, Democratic candidate Mary Peltola defeats incumbent Republican senator Dan Sullivan to become the new Senator of Alaska, further extending the Democratic lead in the…"
   },
   {
    "article": {
@@ -5154,36 +5065,6 @@
    "more_articles": [],
    "pub_date": "2026-11-15T00:00:00Z",
    "title": "Thirteen people are killed and 16 others are injured when a bus carrying gas refinery workers overturns in Ilam province, Iran."
-  },
-  {
-   "article": null,
-   "categories": [
-    "Disasters and accidents"
-   ],
-   "group": "2026-11-15-c982058f2f4f",
-   "headlines": [
-    {
-     "category": "Disasters and accidents",
-     "html": "Twelve people are killed and 16 others are injured when a bus carrying gas refinery workers overturns in <a href=\"https://en.wikipedia.org/wiki/Ilam_province\">Ilam province</a>, Iran.",
-     "id": "2026-11-15-c982058f2f4f",
-     "page": {
-      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_15&action=history",
-      "title": "Portal:Current events/2026 November 15",
-      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_15"
-     },
-     "sources": [
-      {
-       "name": "IRNA English",
-       "url": "https://en.irna.ir/amp/86321950/"
-      }
-     ],
-     "topics": []
-    }
-   ],
-   "id": "2026-11-15-c982058f2f4f",
-   "more_articles": [],
-   "pub_date": "2026-11-15T00:00:00Z",
-   "title": "Twelve people are killed and 16 others are injured when a bus carrying gas refinery workers overturns in Ilam province, Iran."
   },
   {
    "article": {
@@ -24342,5 +24223,5 @@
    "title": "2026 U.S. Open Cup final: In association football, St. Louis City SC defeats Columbus Crew in a penalty shoot-out to win the U.S. Open Cup, earning the club its first trophy since beginning play in 2023."
   }
  ],
- "updated": "2026-11-21T14:45:33Z"
+ "updated": "2026-11-21T16:51:27Z"
 }
