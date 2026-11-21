@@ -76,6 +76,8 @@ main.wrap { padding-top: 1.5rem; padding-bottom: 3rem; }
   margin: 0 0 1.75rem; padding: .7rem 0 .6rem;
   border-top: 2px solid var(--rule); border-bottom: 1px solid var(--line);
   font: 700 1rem/1.4 var(--sans); letter-spacing: .12em; text-transform: uppercase;
+  /* It stays at the top of the screen while its day is on it, until the next day pushes it away. */
+  position: sticky; top: 0; z-index: 3; background: var(--bg);
 }
 
 /* Tiles: a grid. Column spans are set by site.js from the length of the text. */
@@ -114,11 +116,18 @@ main.wrap { padding-top: 1.5rem; padding-bottom: 3rem; }
 
 /* Feature: several entries about one article on the same day; the full width */
 .stories .feature { grid-column: 1 / -1; background: var(--card); padding: 1.5rem 1.5rem 1.75rem; }
-/* On a phone the box's tint, and the lines that separate the days, run to the edges of the screen
- * and the text keeps the page's own margin, so they add no padding to the narrow layout. */
+/* On a phone the box's tint, the lines that separate the days and the images run to the edges of
+ * the screen and the text keeps the page's own margin, so they add no padding to the narrow
+ * layout. Nothing separates a day's header from the boxes below it, nor one box from the next, so
+ * no stripe of the page shows between two tinted areas. */
 @media (max-width: 39.999rem) {
   .stories .feature { margin-left: -1.25rem; margin-right: -1.25rem; padding: 1.25rem 1.25rem 1.5rem; }
-  .day h2 { margin-left: -1.25rem; margin-right: -1.25rem; padding-left: 1.25rem; padding-right: 1.25rem; }
+  .day h2 { margin: 0 -1.25rem; padding-left: 1.25rem; padding-right: 1.25rem; }
+  .features { row-gap: 0; }
+  .features > li + li { border-top: 1px solid var(--divider); }  /* the one thing between two boxes */
+  /* What is not a box needs its space from the header. */
+  .day > .portal, .day > .stories:not(.features) { margin-top: 1.5rem; }
+  .tile-image, .feature-body .tile-image { margin-left: -1.25rem; margin-right: -1.25rem; }
 }
 .feature h3 { margin: 0 0 .2rem; font: 700 clamp(1.375rem, 2.6vw, 1.75rem)/1.15 var(--serif); overflow-wrap: anywhere; }
 .feature h3 a { text-decoration: none; }

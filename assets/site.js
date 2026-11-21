@@ -596,6 +596,8 @@
       if (tile.about) tile.about.style.gridRow = tile.about.style.gridColumn = "";
       layoutTiles(tile.entries, 1);
       layoutGroups(tile.entries, 1);
+      // Stacked, the image is the first thing under the title, above the article's summary.
+      if (image && tile.about) tile.body.insertBefore(image.li, tile.about);
       return;
     }
     var offset = tile.about ? 1 : 0;      // the summary is the first column, if there is one
@@ -691,7 +693,7 @@
         h2.appendChild(time);
         section.appendChild(h2);
         g = { tiles: [], features: [], portal: [], section: section, h2: h2, list: el("ol", "stories"),
-              featureList: el("ol", "stories"), portalList: el("div", "portal-list") };
+              featureList: el("ol", "stories features"), portalList: el("div", "portal-list") };
         grids.push(g);
         days.appendChild(section);
       }
