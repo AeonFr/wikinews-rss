@@ -2,22 +2,9 @@
 import { dayOf } from "../data/days";
 import type { ArticleRef, Headline, HeadlineTopic, NewsData, SourcePreviews, Story } from "../data/types";
 import { articleKey, nearestKey, nearestTopic, pageLabel, storyArticles, topicUrl } from "./articles";
-import { type ArticleMapView, type TextItem, type Summary, mapOf, storyHref, summaryOf, textItem } from "./entry";
+import { type ArticleMapView, type EntryBlock, type Summary, entryBlocks, mapOf, storyHref, summaryOf } from "./entry";
 import { indexOf } from "./news-index";
 import { type Related, buildRelated, groupSiblings } from "./related";
-
-/** One cited outlet. A single link is the outlet's name as a link; several are numbered ("Al Jazeera (1, 2)"). */
-export interface Outlet {
-  name: string;
-  /** http/https pages only; `number` is 1, 2, ... when the outlet has several links, else null. */
-  links: { url: string; number: number | null }[];
-}
-
-/** Entries that cite the same outlets, shown together with one "Sources" line (`outlets` is empty: no line). */
-export interface EntryBlock {
-  texts: TextItem[];
-  outlets: Outlet[];
-}
 
 export interface PortalPage {
   title: string;
@@ -79,43 +66,14 @@ export interface ArticlePage {
 
 // ---- Entries and sources --------------------------------------------------------------------
 
-const isHttp = (url: string) => /^https?:\/\//i.test(url);
-
-/** The outlets cited by some headlines: each name once, its pages in order of appearance. */
-export function outletsOf(headlines: Headline[]): Outlet[] {
-  const pages = new Map<string, string[]>();
-  for (const { sources } of headlines) {
-    for (const source of sources) {
-      const name = source.name || source.url;
-      const urls = pages.get(name) ?? [];
-      if (!urls.includes(source.url)) urls.push(source.url);
-      pages.set(name, urls);
-    }
-  }
-  return [...pages].map(([name, urls]) => {
-    const links = urls.filter(isHttp);
-    return { name, links: links.map((url, i) => ({ url, number: links.length > 1 ? i + 1 : null })) };
-  });
-}
-
-/** Headlines citing the same outlets are shown together (the first one's position decides the order). */
-export function entryBlocks(headlines: Headline[]): EntryBlock[] {
-  const blocks = new Map<string, Headline[]>();
-  for (const headline of headlines) {
-    const key = JSON.stringify(headline.sources.map((source) => source.name || source.url).sort());
-    const list = blocks.get(key) ?? [];
-    list.push(headline);
-    blocks.set(key, list);
-  }
-  return [...blocks.values()].map((group) => ({ texts: group.map(textItem), outlets: outletsOf(group) }));
-}
-
 function whereFrom(story: Story): WhereFrom {
   if (story.kind === "topic") return { kind: "topic", addedAt: story.pub_date, page: story.headlines[0].page };
   const pages = new Map<string, PortalPage>();
   for (const { page } of story.headlines) if (!pages.has(page.url)) pages.set(page.url, page);
   return { kind: "pages", pages: [...pages.values()] };
 }
+
+const isHttp = (url: string) => /^https?:\/\//i.test(url);
 
 const hostOf = (url: string) => url.replace(/^https?:\/\/(www\.)?/i, "").split("/")[0];
 

@@ -7,7 +7,7 @@ export interface NewsIndex {
   byId: Map<string, Story>;
   /** Stories of a group, in news order. */
   byGroup: Map<string, Story[]>;
-  /** Stories about the same nearest article (see `nearestKey`), in news order. */
+  /** Stories about the same nearest article (see `nearestKey`), in news order. Topics are not in it. */
   byNearest: Map<string, Story[]>;
   /**
    * The same lists as `byNearest`, newest first by `pub_date` (ties in news order): the lookups of "news about

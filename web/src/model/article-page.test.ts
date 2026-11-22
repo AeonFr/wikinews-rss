@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { buildArticlePage, entryBlocks, outletsOf, sourceCards } from "./article-page";
+import { buildArticlePage, sourceCards } from "./article-page";
+import { entryBlocks, outletsOf } from "./entry";
 import { article, headline, news, story, topic, wiki } from "./testing";
 
 const src = (name: string, url: string) => ({ name, url });

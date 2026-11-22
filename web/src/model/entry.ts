@@ -72,3 +72,50 @@ export function summaryOf(article: ArticleRef, limit?: number): Summary {
     extract: extract !== null && limit !== undefined ? shorten(extract, limit) : extract,
   };
 }
+
+// ---- Entries and sources --------------------------------------------------------------------
+
+/** One cited outlet. A single link is the outlet's name as a link; several are numbered ("Al Jazeera (1, 2)"). */
+export interface Outlet {
+  name: string;
+  /** http/https pages only; `number` is 1, 2, ... when the outlet has several links, else null. */
+  links: { url: string; number: number | null }[];
+}
+
+/** Entries that cite the same outlets, shown together with one "Sources" line (`outlets` is empty: no line). */
+export interface EntryBlock {
+  texts: TextItem[];
+  outlets: Outlet[];
+}
+
+const isHttp = (url: string) => /^https?:\/\//i.test(url);
+
+/** The outlets cited by some headlines: each name once, its pages in order of appearance. */
+export function outletsOf(headlines: Headline[]): Outlet[] {
+  const pages = new Map<string, string[]>();
+  for (const { sources } of headlines) {
+    for (const source of sources) {
+      const name = source.name || source.url;
+      const urls = pages.get(name) ?? [];
+      if (!urls.includes(source.url)) urls.push(source.url);
+      pages.set(name, urls);
+    }
+  }
+  return [...pages].map(([name, urls]) => {
+    const links = urls.filter(isHttp);
+    return { name, links: links.map((url, i) => ({ url, number: links.length > 1 ? i + 1 : null })) };
+  });
+}
+
+/** Headlines citing the same outlets are shown together (the first one's position decides the order). */
+export function entryBlocks(headlines: Headline[]): EntryBlock[] {
+  const blocks = new Map<string, Headline[]>();
+  for (const headline of headlines) {
+    const key = JSON.stringify(headline.sources.map((source) => source.name || source.url).sort());
+    const list = blocks.get(key) ?? [];
+    list.push(headline);
+    blocks.set(key, list);
+  }
+  return [...blocks.values()].map((group) => ({ texts: group.map(textItem), outlets: outletsOf(group) }));
+}
+

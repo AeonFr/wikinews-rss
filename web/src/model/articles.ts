@@ -47,10 +47,13 @@ export function nearestTopic(story: Story): { topic: HeadlineTopic; above: Headl
   return topic ? { topic, above: chain.slice(0, -1) } : null;
 }
 
-/** Key of the article a story is about (to find it on other days); null when it has none. */
+/**
+ * Key of the article a story is about (to find it on other days); null when it has none. An entry with neither an
+ * article nor a topic line is about the first link its editors highlighted (`more_articles[0]`, in text order).
+ */
 export function nearestKey(story: Story): string | null {
   const near = nearestTopic(story);
-  const url = near && topicUrl(near.topic);
+  const url = near ? topicUrl(near.topic) : story.article ? null : (story.more_articles[0]?.url ?? null);
   return url ? articleKey(url) : null;
 }
 

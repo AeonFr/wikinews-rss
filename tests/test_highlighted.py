@@ -30,9 +30,16 @@ class ParserTest(unittest.TestCase):
         html = "A <i>%s</i> and <b>%s</b>, again <i>%s</i>." % (link("Voyager 1"), link("Pale Blue Dot"), link("Voyager 1"))
         self.assertEqual(titles(html), ["Voyager 1", "Pale Blue Dot"])
 
-    def test_a_plain_link_or_a_link_around_emphasis_is_not_highlighted(self):
-        self.assertEqual(titles("In %s and <a href=\"%sTokyo\"><i>Tokyo</i></a>." % (link("Japan"), WP)), [])
+    def test_a_plain_link_is_not_highlighted(self):
+        self.assertEqual(titles("In %s and %s." % (link("Japan"), link("Tokyo"))), [])
         self.assertEqual(titles("<i>The Guardian</i> says so."), [])  # emphasis without a link
+        # emphasis around only a part of the link text is not the link's whole text
+        self.assertEqual(titles('<a href="%sTokyo">the <i>big</i> city</a>.' % WP), [])
+
+    def test_a_link_around_emphasis_is_highlighted_in_its_place(self):
+        # both orders are used by the editors; the first highlighted link is the entry's article
+        html = '<a href="%sGrand_Theft_Auto_VI"><i>Grand Theft Auto VI</i></a> beats <i>%s</i>.' % (WP, link("Call of Duty"))
+        self.assertEqual(titles(html), ["Grand Theft Auto VI", "Call of Duty"])
 
     def test_the_title_is_decoded_and_the_fragment_dropped(self):
         html = '<i><a href="%sCall_of_Duty:_Modern_Warfare_II_(2022_video_game)">CoD</a></i> <b><a href="%sZ%%C3%%BCrich#History">Z</a></b>' % (WP, WP)
@@ -206,6 +213,18 @@ class PipelineTest(unittest.TestCase):
         before = client.requests
         feed.backfill_highlighted(WIKI, client, state, pages)  # now it has the key: no request
         self.assertEqual(client.requests, before)
+
+    def test_lists_made_by_an_older_parser_are_made_again_once(self):
+        wrapped = '<a href="%sVoyager_1"><i>Voyager 1</i></a> flies far past the edge, with extra words so that the text is long.' % WP
+        self.run_feed(day_page((wrapped, "BBC")), article_maps=False)
+        path = os.path.join(self.dirs["state_dir"], "en.json")
+        state = st.load_state(path)
+        [it] = state["items"].values()
+        it["highlighted_articles"] = []  # what the old parser stored: it did not see the link
+        state.pop("highlight_version", None)
+        feed.backfill_highlighted(WIKI, self.client(day_page((wrapped, "BBC"))), state, {})
+        self.assertEqual([a["title"] for a in it["highlighted_articles"]], ["Voyager 1"])
+        self.assertEqual(state["highlight_version"], feed.HIGHLIGHT_VERSION)
 
     def test_the_highlighted_articles_join_the_map_candidates_after_the_others(self):
         html = day_page((VOYAGER, "BBC")).replace("</ul>", "<li>%s</li></ul>" % OTHER_TOPIC)

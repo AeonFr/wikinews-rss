@@ -63,16 +63,28 @@ describe("titleIsCategory", () => {
   });
 });
 
-describe("the implicit article is not a nearest article", () => {
-  it("adds nothing to byNearest, nor to the related news of the others", () => {
+describe("the highlighted article is the entry's nearest article", () => {
+  it("indexes the entry under it, so the news about that article include it", () => {
     const n = news([withLink(), other()]);
     const index = indexOf(n);
-    expect([...index.byNearest.keys()]).toEqual(["alpha"]);
-    expect([...index.byNearestNewestFirst.keys()]).toEqual(["alpha"]);
-    // another story about Voyager 1 does not list the entry as news about its article
+    expect([...index.byNearest.keys()].sort()).toEqual(["alpha", "voyager 1"]);
+    // another story about Voyager 1 lists the entry as news about its article
     const s = story("w", { pub_date: "2026-11-21T09:00:00Z", article: article("Voyager 1"), headlines: [headline("z", [topic("Voyager 1")])] });
-    const related = buildArticlePage(news([withLink(), s]), {}, "w")!.related;
-    expect(related).toBeNull();
+    expect(buildArticlePage(news([withLink(), s]), {}, "w")!.related?.main.map((item) => item.storyId)).toEqual(["v"]);
+    // and so does the topic of that article
+    const t = story("t", { kind: "topic", pub_date: "2026-11-21T09:00:00Z", article: article("Voyager 1"), headlines: [headline("t")] });
+    expect(buildArticlePage(news([withLink(), t]), {}, "t")!.related?.main.map((item) => item.storyId)).toEqual(["v"]);
+  });
+
+  it("is the first one of several, not the last", () => {
+    const s = withLink();
+    s.more_articles = [voyager, article("Pale Blue Dot", "Photo.")];
+    expect([...indexOf(news([s])).byNearest.keys()]).toEqual(["voyager 1"]);
+  });
+
+  it("is not used by an entry that has an article or a topic line", () => {
+    const s = story("a", { article: article("Alpha"), more_articles: [voyager], headlines: [headline("x")] });
+    expect([...indexOf(news([s])).byNearest.keys()]).toEqual([]);
   });
 
   it("leaves the home page as it was", () => {
