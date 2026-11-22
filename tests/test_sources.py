@@ -193,16 +193,11 @@ class ImageTest(unittest.TestCase):
                            fetch_source=lambda u: ({"title": "T", "image": "https://img.example/a.jpg?x=1&y=2"}, ""), **dirs)
             with open(tmp + "/d/news.json", encoding="utf-8") as f:
                 stories = json.load(f)["stories"]
-            # A group of the front page (stories with the same top-level article) with several
-            # entries, or an entry straight from the portal, has the image on each of its stories.
-            size = {}
+            # Every story of the website data has the image (an entry with one article too, as a tile).
+            self.assertTrue(stories)
             for s in stories:
-                size[s["group"]] = size.get(s["group"], 0) + len(s["headlines"])
-            featured = [s for s in stories if size[s["group"]] > 1 or not s["article"]]
-            self.assertTrue(featured)
-            for s in stories:
-                self.assertEqual("image" in s, s in featured, s["title"])
-            self.assertEqual(featured[0]["image"]["url"], "https://img.example/a.jpg?x=1&y=2")
+                self.assertEqual(s["image"]["url"], "https://img.example/a.jpg?x=1&y=2", s["title"])
+            self.assertTrue(any(s["article"] and len(s["headlines"]) == 1 for s in stories))
             # In the feed an item has an image when it groups headlines or has no article.
             root = ET.parse(tmp + "/f/en.xml").getroot()
             by_guid = {i.findtext("guid"): i for i in root.findall("channel/item")}

@@ -146,15 +146,15 @@ def build_data(cfg, items, updated, retention_days, previews=None, infobox=None)
     """Contents of data/news.json; `items` (state.rss_items) newest first, `updated` the state's
     last real change.
 
-    previews: the source cache (sources.load_cache). A group of the front page (the stories with
-    the same top-level article) that has several entries, or one straight from the portal, gets
-    the image of the first of its sources that has one, on each of its stories. infobox: the cache of
+    previews: the source cache (sources.load_cache). Every group of the front page (the stories with
+    the same top-level article) gets the image of the first of its sources that has one, on each of its
+    stories (the RSS feed only has them on groups of several entries and on entries from the portal). infobox: the cache of
     the articles' map and location (infobox.load_cache).
     """
     members = {}
     for it in items:
         members.setdefault(it.get("story_guid") or it["guid"], []).extend(it.get("members") or [it])
-    images = {key: sources.featured_image(ms, previews) for key, ms in members.items()}
+    images = {key: sources.story_image(ms, previews) for key, ms in members.items()}
     return {
         "updated": updated,
         "retention_days": retention_days,
