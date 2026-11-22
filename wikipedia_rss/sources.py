@@ -34,7 +34,7 @@ MAX_ATTEMPTS = 3           # a failing source is tried this many times in total.
 RETRY_AFTER = datetime.timedelta(days=1)   # ...at least this far apart
 HOST_DELAY = 1.0           # seconds between two requests to the same site
 MAX_FETCH = 150            # fetches per run; the rest waits for the next one
-DEADLINE = 600             # seconds; a run stops starting new fetches after this
+DEADLINE = 300             # seconds; a run stops starting new fetches after this
 WORKERS = 8
 
 # Titles that sites serve to bots instead of the real page.

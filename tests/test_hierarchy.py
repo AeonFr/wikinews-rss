@@ -120,7 +120,7 @@ class PipelineTest(unittest.TestCase):
         # Each item links to its story page on the site: the article page of that entry or group.
         ids = {s["headlines"][0]["id"]: s["id"] for s in self.stories()}
         links = sorted(i.findtext("link") for i in items.values())
-        self.assertEqual(links, sorted("https://x.org/story.html?id=" + sid for sid in ids.values()))
+        self.assertEqual(links, sorted("https://x.org/articles/" + sid + "/" for sid in ids.values()))
         self.assertTrue(all("&" not in link for link in links))
         # Every article of the topic line is linked in the description.
         desc = [i for t, i in items.items() if t.startswith("China")][0].findtext("description")

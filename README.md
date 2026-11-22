@@ -9,11 +9,13 @@ Las noticias salen de [Portal:Current events](https://en.wikipedia.org/wiki/Port
 | `feeds/en.xml` | El feed RSS 2.0 (los 50 items más recientes). |
 | `data/news.json` | Todas las noticias de los últimos 6 meses (183 días), para la web. |
 | `state/en.json` | El estado (qué se vio y cuándo); evita duplicados entre ejecuciones. |
+| `state/articles.json` | Mapa y ubicación del infobox de los artículos (ver *Mapa y ubicación del artículo*). |
 
-La web es estática (HTML + JS sin dependencias) y la sirve GitHub Pages:
+La web es un sitio estático hecho con [Astro](https://astro.build) (carpeta [`web/`](web/), TypeScript, CSS Modules, tests con vitest) que **no necesita JavaScript** para leerse (solo un script mínimo que muestra la hora de "última actualización" en la zona horaria del visitante). Lo construye y lo publica en GitHub Pages el workflow (ver *Despliegue con GitHub Actions + Pages*):
 
-- [`index.html`](index.html): la portada, con aspecto de periódico: las noticias día a día en una cuadrícula cuyo tamaño depende de la longitud del texto, solo de los últimos 30 días (`HOME_DAYS` en `assets/site.js`); el historial completo de `data/news.json` se usa en los enlaces "More on…" de cada noticia.
-- [`story.html`](story.html)`?id=...`: la **página de una noticia**: todos sus titulares completos, con sus fuentes, y una tarjeta que enlaza al artículo de Wikipedia. Es a donde llevan los enlaces del feed RSS (ver *La página de cada noticia*).
+- `/`: la portada, con aspecto de periódico: primero *Topics in the news* y debajo las noticias día a día, solo de los últimos 30 días; el historial completo de `data/news.json` se usa en la sección *Related articles* de cada noticia (las noticias del mismo artículo de la semana anterior y posterior, y la anterior y la posterior más cercanas si no hay ninguna en esa semana, para poder recorrer todo el historial con "anterior" y "siguiente").
+- `/articles/<id>/`: la **página de una noticia**: todos sus titulares completos, con sus fuentes, y una tarjeta que enlaza al artículo de Wikipedia. Es a donde llevan los enlaces del feed RSS (ver *La página de cada noticia*).
+- `/feeds/en.xml`: el feed RSS.
 
 La interfaz de la web está solo en inglés, igual que las noticias.
 
@@ -23,14 +25,29 @@ La interfaz de la web está solo en inglés, igual que las noticias.
 python3 wikipedia_rss.py                    # -> feeds/, data/ y state/
 python3 wikipedia_rss.py --dry-run -v       # no escribe nada, muestra los 10 primeros items
 python3 wikipedia_rss.py --cache .cache     # caché HTTP en disco (30 min), útil al desarrollar
-python3 wikipedia_rss.py --site-url http://localhost:8000   # los items del feed enlazan a la web local
-python3 -m unittest discover -s tests       # tests (sin red)
-python3 -m http.server 8000                 # la web local, en http://localhost:8000
+python3 wikipedia_rss.py --site-url http://localhost:4321   # los items del feed enlazan a la web local
+python3 -m unittest discover -s tests       # tests del generador (sin red)
 ```
+
+### La web (`web/`)
+
+Hace falta Node 22.23.4 o superior (la última 22.x, como en los workflows). Se construye a partir de lo que escribe el generador: lee `../data/news.json`, `../data/sources.json` y `../feeds/en.xml` (que copia a `public/feeds/`, ignorado por git), así que hay que haber generado los datos antes (o usar los que hay en el repositorio).
+
+```sh
+cd web
+npm ci                                  # instala las dependencias
+npm run dev                             # servidor de desarrollo en http://localhost:4321
+npm test                                # tests (vitest)
+npx astro check                         # tipos
+SITE_URL=https://usuario.github.io/repo npm run build   # sitio estático en web/dist/
+npm run preview                         # sirve web/dist/
+```
+
+`SITE_URL` es la URL pública completa, con su ruta si la tiene (sin ella, `http://localhost:4321`); todos los enlaces internos respetan esa ruta base. Más detalles en [`web/README.md`](web/README.md). Los datos que lee la web (`data/news.json`, `data/sources.json`) están descritos en la sección 2 de [`docs/site-spec.md`](docs/site-spec.md), que es el contrato entre el generador y la web: si cambia el formato, hay que cambiar los dos lados. La caché de los archivos generados la resuelve Astro con nombres con hash; no hay nada que sellar a mano.
 
 Otras opciones (`python3 wikipedia_rss.py --help`): `--days N` (páginas diarias a leer, 7 por defecto), `--out DIR` (feed), `--data DIR` (datos de la web), `--state DIR`, `--max-items N` (items del feed RSS, 50), `--site-url URL` (URL pública de la web, ver abajo), `--retention-days N` (183, ver *Retención*), `--max-group N` (6, ver *Agrupación*). También funciona `python3 -m wikipedia_rss`.
 
-`--site-url` es la raíz de la web (la que sirve `index.html`, sin barra final). Con ella, cada item del feed enlaza a su página en la web y el feed lleva `atom:link rel="self"`; sin ella, los items enlazan directamente al artículo de Wikipedia. El workflow la calcula solo.
+`--site-url` es la raíz de la web (URL completa, con su ruta si la tiene, sin barra final). Con ella, cada item del feed enlaza a su página en la web y el feed lleva `atom:link rel="self"`; sin ella, los items enlazan directamente al artículo de Wikipedia. El workflow la calcula solo.
 
 El código de salida es 1 si la generación falla; en ese caso no se escribe nada.
 
@@ -38,7 +55,7 @@ El código de salida es 1 si la generación falla; en ese caso no se escribe nad
 
 Un item del feed es una **noticia**: un titular, o varios sobre el mismo artículo (el más cercano) y el mismo día (ver *Agrupación*). Cuando se añade un titular a una noticia ya publicada, el item cambia de título pero conserva su `guid`, y muchos lectores de RSS no actualizan los títulos de items que ya tienen: ven el título "truncado", sin los últimos titulares.
 
-Por eso el enlace de cada item del feed lleva a `story.html?id=<id>` en la web, la **página del artículo**: **todos sus titulares, completos**, con sus fuentes y la página del portal de origen, una **tarjeta** que enlaza al artículo de Wikipedia (y una por cada artículo mayor bajo el que está anidado), las tarjetas de las fuentes y los otros artículos del día y del mismo artículo en otros días.
+Por eso el enlace de cada item del feed lleva a `/articles/<id>/` en la web, la **página del artículo**: **todos sus titulares, completos**, con sus fuentes y la página del portal de origen, una **tarjeta** que enlaza al artículo de Wikipedia (y una por cada artículo mayor bajo el que está anidado), las tarjetas de las fuentes y los otros artículos del día y del mismo artículo en otros días.
 
 La descripción de cada item del feed sigue llevando el texto completo, las fuentes y los enlaces, para quien lo lea sin salir del lector.
 
@@ -51,6 +68,16 @@ Debajo de la tarjeta del artículo, la página de cada noticia muestra una tarje
 - Las imágenes **no se descargan**: la web enlaza la imagen de la fuente (`loading="lazy"`, sin enviar el referrer) y la oculta si no carga.
 - Se identifica con un User-Agent genérico **sin datos de contacto** (los datos de contacto son solo para Wikipedia); se cambia con `WIKIPEDIA_RSS_SOURCES_USER_AGENT`. `--no-source-previews` lo desactiva.
 
+### Mapa y ubicación del artículo
+
+Si el infobox del artículo de una noticia tiene un **mapa de Kartographer** (`<a data-mw-kartographer="mapframe"><img src="https://maps.wikimedia.org/...">`) y/o una fila **Location**, la página de la noticia los muestra en la columna *About the article*, debajo del resumen. Otros mapas del infobox (imágenes normales, `{{location map}}`) se ignoran.
+
+- Los lee el generador ([`wikipedia_rss/infobox.py`](wikipedia_rss/infobox.py)): **una petición por artículo** (`action=parse&section=0`, solo la sección inicial), de los artículos de las noticias que se conservan (el de cada noticia y los de sus líneas de tema, porque la página describe el artículo más cercano, y los enlaces destacados de las entradas sin artículo, ver *Agrupación por artículo*; estos van al final de la lista, después de todos los demás, y comparten el mismo tope por ejecución). Se piden de uno en uno, 1 s entre peticiones (`ARTICLE_FETCH_DELAY` en [`wikipedia_rss/limits.py`](wikipedia_rss/limits.py)), **como máximo 25 por ejecución** (`MAX_ARTICLE_FETCHES`) y **como mucho 90 s en total** (`ARTICLE_FETCH_BUDGET`, tiempo real; al agotarse la fase termina sin más): lo que falta se completa en las ejecuciones siguientes (con dos ejecuciones al día, el atraso inicial de unos 270 artículos se cubre en una semana, y luego solo hacen falta unos pocos al día), las noticias más recientes primero y los artículos nunca consultados antes que los reconsultas. Estas peticiones **no se reintentan** (a diferencia del resto, que espera y reintenta) y llevan un **cortacircuitos**: a la primera respuesta HTTP 429 o 503 o error `maxlag` de Wikipedia la fase se detiene en el acto (un solo aviso en el log, con lo ya obtenido guardado y sin marcar ese artículo como "sin mapa"), y tras 3 fallos seguidos de otro tipo también. La fase va **después** de escribir el feed, `data/news.json` y el estado: si algo falla o tarda en ella, no se pierde nada de lo esencial (solo se vuelve a escribir `data/news.json` y `state/articles.json` si se obtuvo algo).
+- `state/articles.json` guarda por URL de artículo lo que se encontró (`map`, `location`) y cuándo se miró (`checked`). Un artículo se vuelve a mirar a los **14 días** si no tenía mapa (alguien puede añadirlo) y a los **60** si lo tenía (`ARTICLE_RECHECK_DAYS_*`). Un artículo que ya no está en ninguna noticia se borra de la caché. Un error al pedirlo **no** se guarda como "sin mapa": se avisa en el log y se reintenta en otra ejecución (tras 3 fallos seguidos la ejecución deja de pedir); nunca hace fallar la ejecución. Un artículo que no existe sí se guarda como "sin nada".
+- Solo se aceptan imágenes `https://maps.wikimedia.org/` (la URL se pasa a absoluta y se decodifican las entidades HTML); de la ubicación se guarda el texto plano (los elementos de lista se unen con "; ", sin referencias, como mucho ~200 caracteres).
+- Va a `data/news.json` como `article.map` (`{url, url2x?, width, height}`) y `article.location` (también en `more_articles`); el feed RSS no cambia. La **imagen no se descarga**: la web la enlaza directamente (con la política de referrer por defecto) y no hay JavaScript.
+- `--no-article-maps` lo desactiva (lo ya guardado se conserva).
+
 ## Topics in the news
 
 La página principal del portal (`Portal:Current events`) tiene una caja **Topics in the news** con unos pocos titulares destacados que no son de ningún día. El generador la lee en cada ejecución (`feed.collect_topics`, `parsers.parse_topics_html`): cada elemento de la lista de la caja es una noticia (no el pie de la caja, con *Ongoing* y *Recent deaths*), y su artículo es el primer enlace en negrita.
@@ -59,7 +86,7 @@ La página principal del portal (`Portal:Current events`) tiene una caja **Topic
 - **Nunca se agrupan**: no tienen `group_key`, así que no se unen a las entradas de un día sobre el mismo artículo, y su `group` en `news.json` es el suyo propio. Llevan `"kind": "topic"` y la categoría *Topics in the news*.
 - **En la portada** forman **una sola sección encima de todos los días** (no dentro de ninguno), bajo el título *Topics in the news* y una regla gruesa de color; cada una enlaza a la página de su artículo. Solo salen las que la caja del portal tiene ahora.
 - **Cuando el portal las quita** de la caja, **se retiran**: no se borran, se marcan `"retired": true` (`state.retire_topics`). Dejan de salir en la portada y en el feed, pero su **página sigue existiendo** (están en `news.json`) para no romper enlaces, hasta que las borra la retención de 6 meses. Si vuelven a la caja, dejan de estar retiradas y conservan su fecha. Una página sin la caja (su diseño cambió) no retira nada; una caja vacía las retira todas.
-- **No tienen historial**: en la página del artículo no hay lista *More on … in the last 6 months* (ni *Related articles on <día>*), igual que las entradas del portal sin artículo, y tampoco aparecen en la de otros artículos: suelen repetir una noticia que ya tiene su entrada del día.
+- **No tienen historial**: en la página del artículo no hay lista de noticias del mismo artículo en *Related articles* (solo sus artículos superiores y relacionados, si los hay), igual que las entradas del portal sin artículo, y tampoco aparecen en la de otros artículos: suelen repetir una noticia que ya tiene su entrada del día.
 - La salvaguarda contra páginas vacías (ver *Titulares que ya no están en la página*) solo vale para páginas de 8 titulares o más, porque la caja puede cambiar casi todo de una vez, y no afecta a los topics.
 - Si la página principal no se puede leer, no hay topics en esa ejecución y no falla nada.
 
@@ -79,7 +106,7 @@ Para que el repositorio y la web no crezcan indefinidamente, **las noticias con 
 
 - La antigüedad es la `pub_date` del titular (la fecha de su página diaria), no cuándo dejó de aparecer en el portal (los que dejan de aparecer en una página que se sigue leyendo se borran antes: ver *Titulares que ya no están en la página*). Una noticia de más de 183 días se borra aunque siga en el portal, y si el portal la volviera a mostrar se ignora (como el generador solo lee 7 días, en la práctica no ocurre).
 - Un grupo (ver *Agrupación*) se borra entero cuando lo hace su fundador: todos sus titulares son del mismo día.
-- Lo que se borra del estado no vuelve. Tras borrarla, la página de una noticia (`story.html?id=...`) muestra un aviso con un enlace al portal de Wikipedia; un enlace del feed a una noticia de más de 6 meses ya no abre contenido.
+- Lo que se borra del estado no vuelve. Tras borrarla, la página de una noticia (`/articles/<id>/`) muestra un aviso con un enlace al portal de Wikipedia; un enlace del feed a una noticia de más de 6 meses ya no abre contenido.
 - La web lo indica al pie de cada página ("News older than 6 months is removed from this site").
 
 ### Agrupación por artículo
@@ -88,7 +115,8 @@ Varios titulares **del mismo día** sobre el mismo artículo principal (mismo `p
 
 - **Artículo principal = el del tema de nivel superior**: el portal anida las entradas bajo líneas de tema (categoría > tema > subtema > entrada). El artículo principal es el primer enlace del tema **más externo** (p. ej. *APEC China 2026*), no el del más interno, así que las entradas de distintos subtemas (*Chile–Philippines relations*, *China–Russia relations, China–United States relations, Russia–United States relations*) forman una sola noticia. Una entrada de primer nivel (directamente bajo la categoría) no tiene tema ni artículo: sigue enlazando a la página diaria del portal y la web la titula con su categoría (p. ej. *Armed conflicts and attacks*).
 - **Todos los artículos del tema**: de cada línea de tema se guardan **todos** sus enlaces (`topics[].links`) y, de los que existen, el extracto (`topic_articles`). La página de la noticia muestra la tarjeta del artículo principal y una tarjeta por cada uno de los demás (`more_articles` en `data/news.json`, en el orden del portal); la descripción del item RSS enlaza todos los de cada línea y, en un grupo, lista la ruta de temas de cada titular.
-- **Dos vistas: la portada anida, la página de un artículo agrupa por el artículo más cercano**: una **noticia** (`stories` de `data/news.json`, y un item del feed) son las entradas de un día sobre el **artículo más cercano** a ellas (la línea de tema más interna que enlaza un artículo): *2026 Yemen offensives* con sus dos entradas, *Houthi–Saudi conflict* con una, o una entrada del portal sin artículo. El feed titula cada item con ese artículo como **prefijo** (`Houthi–Saudi conflict: <titular>`; varios titulares: `2026 Lebanon war: <titular> / <titular>`); una entrada de primer nivel (sin tema) no lleva prefijo. Las noticias de un mismo día anidadas bajo el mismo artículo de nivel superior comparten `group` (id del grupo): la **portada** las muestra juntas como una caja con la jerarquía del portal (los subtemas con varias entradas son grupos sin caja propia, con su título una vez y, si tienen 3 o más entradas, el comienzo de su artículo como primera columna), hasta 3 niveles (`MAX_LEVELS` en `assets/site.js`; lo más profundo cuenta como el último). Un subtema con una sola entrada no es un grupo: su entrada pasa al grupo superior con el subtema como contexto, y un subtema que solo contiene otro se muestra como uno, con los dos títulos. **No hay página para un grupo grande**: solo la portada y la página de cada artículo, a la que enlaza cada entrada de la portada y cada item del feed (`story.html?id=<noticia>`). Esa página muestra dónde está el artículo (migas con los artículos mayores bajo los que está anidado), las entradas, la tarjeta de su artículo y las de los demás de sus líneas de tema, y los **otros artículos del mismo día** bajo el mismo artículo de nivel superior (*Also on <día> › …*). El guid, la pubDate y el `first_seen` de una noticia son los de su titular más antiguo, así que no cambian al añadirse titulares. (`state.rss_items`.)
+- **Enlaces destacados de una entrada sin artículo**: si una entrada sin artículo propio (primer nivel, sin tema; no los *Topics in the news*) tiene en su texto un enlace a un artículo de Wikipedia que los editores han puesto en *cursiva* o **negrita** (un `<a>` directamente dentro de `<i>` o `<b>`, p. ej. `<i><a href=".../wiki/Voyager_1">Voyager 1</a></i>`), ese artículo pasa a `more_articles` de la noticia (en orden de aparición, sin repetir, solo los que existen, con su extracto y, cuando se conozcan, `location` y `map`), y la página de la noticia lo describe en la columna *About the article* (su nombre como enlace bajo la etiqueta, resumen, mapa, *Read on Wikipedia*); el título de la página sigue oculto (solo sería la categoría). No cuentan: otros espacios de nombres (`File:`, `Category:`, `Portal:`, `Wikipedia:`, `Help:`, `Special:`, `Template:`...), los enlaces solo a una sección, los enlaces rojos (`redlink=1`) y los enlaces cuyo texto es el nombre de una fuente citada por la entrada (p. ej. *The Guardian* en cursiva como medio). La noticia sigue sin `article` (`null`): su id, su `group`, la portada, el feed y el agrupamiento **no cambian**; el artículo implícito solo lo usa la página de la noticia (no es un "artículo más cercano", así que no aparece en *Related articles*). El generador guarda estos artículos en el estado como `highlighted_articles` (`{title, url, extract}`) de cada titular afectado: los obtiene con la misma consulta de títulos y extractos de la ejecución, y a los titulares ya guardados que no los tienen se los añade `feed.backfill_highlighted` una sola vez (una petición por cada 20 títulos). Los titulares sin enlaces destacados no cambian en el estado.
+- **Dos vistas: la portada anida, la página de un artículo agrupa por el artículo más cercano**: una **noticia** (`stories` de `data/news.json`, y un item del feed) son las entradas de un día sobre el **artículo más cercano** a ellas (la línea de tema más interna que enlaza un artículo): *2026 Yemen offensives* con sus dos entradas, *Houthi–Saudi conflict* con una, o una entrada del portal sin artículo. El feed titula cada item con ese artículo como **prefijo** (`Houthi–Saudi conflict: <titular>`; varios titulares: `2026 Lebanon war: <titular> / <titular>`); una entrada de primer nivel (sin tema) no lleva prefijo. Las noticias de un mismo día anidadas bajo el mismo artículo de nivel superior comparten `group` (id del grupo): la **portada** las muestra juntas como una caja con la jerarquía del portal (los subtemas con varias entradas son grupos sin caja propia, con su título una vez y, si tienen 3 o más entradas, el comienzo de su artículo como primera columna), hasta 3 niveles (la raíz y 2 niveles debajo: `MAX_LEVELS` en `web/src/model/box.ts`; lo más profundo cuenta como el último). Un subtema con una sola entrada no es un grupo: su entrada pasa al grupo superior con el subtema como contexto, y un subtema que solo contiene otro se muestra como uno, con los dos títulos. **No hay página para un grupo grande**: solo la portada y la página de cada artículo, a la que enlaza cada entrada de la portada y cada item del feed (`/articles/<noticia>/`). Esa página muestra dónde está el artículo (migas con los artículos mayores bajo los que está anidado), las entradas, la tarjeta de su artículo y las de los demás de sus líneas de tema, y los **otros artículos del mismo día** bajo el mismo artículo de nivel superior (*Also on <día> › …*). El guid, la pubDate y el `first_seen` de una noticia son los de su titular más antiguo, así que no cambian al añadirse titulares. (`state.rss_items`.)
 
 - **Día**: el día (UTC) de la `pub_date` del titular, es decir, la fecha de su página diaria. El día de un grupo es el de su fundador (el titular más antiguo, cuya `pub_date` guarda el grupo), y un titular nuevo se compara siempre con él.
 - **Desarrollos posteriores**: un titular de un día posterior al del grupo no se une a él, sino que abre un **item nuevo** (con su propio guid y pubDate), que a su vez agrupa a los titulares de ese día. Así una historia que se desarrolla vuelve a aparecer como nueva en el lector. P. ej. *2026 West Bank lockdown* el 23 y el 24 de octubre son dos items.
@@ -121,34 +149,24 @@ Una ejecución sin cambios reales deja `feeds/`, `data/` y `state/` idénticos b
 
 Las claves de los JSON van ordenadas y los items en orden estable (`pub_date`, `first_seen`, posición en el portal).
 
-## Caché de los assets
-
-El navegador guarda `assets/site.css` y `assets/site.js` en caché, así que sin más un cambio en ellos no se vería hasta que caducase. Por eso cada referencia a un asset en `index.html` y `story.html` lleva `?v=<hash del contenido del archivo>` (`assets/site.css?v=a1dcb48e37`): la URL cambia exactamente cuando cambia el archivo.
-
-```sh
-python3 -m wikipedia_rss.stamp          # sella las referencias desactualizadas
-python3 -m wikipedia_rss.stamp --check  # solo avisa (código de salida 1 si alguna lo está)
-```
-
-**Tras cambiar `assets/site.css` o `assets/site.js`, ejecuta el comando antes de hacer commit.** Hay un test que falla si se olvida (`tests/test_stamp.py`), y el workflow programado sella antes de hacer commit por si acaso. Los datos se tratan aparte (ver abajo).
-
-### Caché de los datos
-
-`data/news.json` y `data/sources.json` cambian dos veces al día, y el navegador no debe servir una copia vieja ni volver a descargarlas si no han cambiado. El generador escribe al final `data/version.json` con un hash de cada uno (`{"news": "7354ab25f3", "sources": "f4d9aed1b1"}`). Las páginas piden ese archivo pequeño **sin caché** (`cache: "no-store"`) y después `data/news.json?v=<hash>` y `data/sources.json?v=<hash>`: mientras el archivo no cambia, la URL es la misma y el navegador la guarda; cuando cambia, la URL es otra. Si `version.json` no existe o falla, se piden los archivos sin `?v=` (`site.data_version`, `loadVersions` en `assets/site.js`). No hay que hacer nada a mano: lo escribe cada ejecución del generador.
-
 ## Despliegue con GitHub Actions + Pages
 
-El workflow [`.github/workflows/update-feeds.yml`](.github/workflows/update-feeds.yml) se ejecuta **dos veces al día** (06:17 y 18:17 UTC) y a mano (`workflow_dispatch`): genera el feed y los datos de la web y hace commit de `state/`, `feeds/` y `data/` solo si hubo cambios reales (ver *Salida estable*); si Wikipedia no cambió, no hay commit. Se leen las páginas diarias de los últimos 7 días (`--days`), lo que cubre de sobra el medio día entre ejecuciones, las ediciones tardías de las páginas de días anteriores y alguna ejecución que GitHub se salte. Los tests corren aparte ([`tests.yml`](.github/workflows/tests.yml), en push y pull request) para que un test roto nunca impida actualizar. Pages sirve la rama `main` tal cual (`index.html` en la raíz, `.nojekyll` para saltarse Jekyll).
+El workflow [`.github/workflows/update-feeds.yml`](.github/workflows/update-feeds.yml) tiene dos jobs:
+
+- **`update`**: genera el feed y los datos de la web y hace commit de `state/`, `feeds/` y `data/` solo si hubo cambios reales (ver *Salida estable*); si Wikipedia no cambió, no hay commit. Se leen las páginas diarias de los últimos 7 días (`--days`), lo que cubre de sobra el medio día entre ejecuciones, las ediciones tardías de las páginas de días anteriores y alguna ejecución que GitHub se salte.
+- **`deploy`**: con los datos recién commiteados, construye la web con Astro (`npm ci && npm run build` en `web/`, Node 22) y la publica en GitHub Pages (`web/dist`). Se ejecuta siempre, haya habido commit o no.
+
+Se ejecuta **dos veces al día** (06:17 y 18:17 UTC), a mano (`workflow_dispatch`) y en cada push a `main` que toque `web/`, `wikipedia_rss/`, `wikipedia_rss.py` o el propio workflow (los commits del bot, que solo tocan `state/`, `feeds/` y `data/`, no lo disparan, y un push hecho con `GITHUB_TOKEN` tampoco dispara otros workflows: por eso la web se despliega en esta misma ejecución). Los tests corren aparte ([`tests.yml`](.github/workflows/tests.yml), en pull request y a mano: los de Python y los de la web con `npm test`, `astro check` y una construcción de prueba) para que un test roto nunca impida actualizar ni publicar.
 
 1. Crea un repositorio en GitHub y sube el código a la rama `main`.
 2. **Settings > Actions > General > Workflow permissions**: marca *Read and write permissions* (el workflow necesita hacer push). Comprueba también que Actions está permitido en el repositorio.
-3. **Settings > Pages**: *Source: Deploy from a branch*, rama `main`, carpeta `/ (root)`.
+3. **Settings > Pages > Build and deployment > Source: GitHub Actions** (ajuste único; ya no se sirve la rama `main`).
 4. Opcional, en **Settings > Secrets and variables > Actions > Variables**:
    - `WIKIPEDIA_RSS_USER_AGENT`: tu User-Agent con contacto (ver abajo).
-   - `SITE_URL`: si usas dominio propio, la raíz de la web (p. ej. `https://noticias.example.org`). Por defecto se usa `https://<usuario>.github.io/<repo>`.
+   - `SITE_URL`: si usas dominio propio, la URL completa de la web, con su ruta si la tiene (p. ej. `https://noticias.example.org`). Por defecto se usa `https://<usuario>.github.io/<repo>` (o `https://<usuario>.github.io` si el repositorio se llama `<usuario>.github.io`). La usan tanto el generador (`--site-url`, para los enlaces del feed) como la construcción de la web.
 5. **Actions > Actualizar feeds > Run workflow** para la primera ejecución (hasta entonces no existe `data/news.json` y la web no tiene noticias que mostrar). La web queda en `https://<usuario>.github.io/<repo>/` y el feed en `https://<usuario>.github.io/<repo>/feeds/en.xml`.
 
-Si la generación falla, el job termina en rojo para que lo veas (no se escribe nada). El push reintenta con `git pull --rebase` si alguien ha empujado a la vez; `concurrency` impide dos ejecuciones simultáneas. El cron de GitHub no es puntual: con carga, las ejecuciones pueden retrasarse o saltarse alguna.
+Si la generación falla, no se escribe nada, pero el job `deploy` se ejecuta igualmente con los datos del último commit y termina en rojo para que lo veas. El push reintenta con `git pull --rebase` si alguien ha empujado a la vez; `concurrency` impide dos ejecuciones simultáneas. El cron de GitHub no es puntual: con carga, las ejecuciones pueden retrasarse o saltarse alguna.
 
 ### Desactivación por inactividad
 

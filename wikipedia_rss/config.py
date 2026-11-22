@@ -3,13 +3,24 @@ from dataclasses import dataclass, field
 from typing import Dict, List
 from urllib.parse import quote
 
-DEFAULT_USER_AGENT = "wikipedia-noticias-rss/0.1"
+DEFAULT_USER_AGENT = "wikipedia-noticias-rss/0.1 (francanobr@gmail.com)"
 USER_AGENT_ENV = "WIKIPEDIA_RSS_USER_AGENT"
 
 # Used to fetch the news sites' pages (link previews). Deliberately generic, with no
 # contact details: those belong to the Wikipedia user agent above, not to third parties.
 SOURCES_USER_AGENT = "Mozilla/5.0 (compatible; wikipedia-noticias-link-preview/0.1)"
 SOURCES_USER_AGENT_ENV = "WIKIPEDIA_RSS_SOURCES_USER_AGENT"
+
+# Map and location of the stories' articles (their infobox): one request per article, at most this
+# many per run (the rest waits for the next run), and an article is looked at again after this many
+# days (sooner if it had nothing, since an editor may add a map). The feature is optional, so it is
+# kept cheap and polite: those requests are never retried, the whole phase gets a wall-clock budget,
+# and it stops at once if Wikipedia says it is throttling or overloaded (HTTP 429/503, maxlag).
+MAX_ARTICLE_FETCHES = 25
+ARTICLE_RECHECK_DAYS_NO_MAP = 14
+ARTICLE_RECHECK_DAYS_MAP = 60
+ARTICLE_FETCH_DELAY = 1.0   # seconds between two of those requests
+ARTICLE_FETCH_BUDGET = 90   # seconds (wall clock) for the whole phase; then it stops quietly
 
 LICENSE_NAME = "CC BY-SA 4.0"
 LICENSE_URL = "https://creativecommons.org/licenses/by-sa/4.0/"

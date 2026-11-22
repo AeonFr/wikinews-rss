@@ -7,9 +7,21 @@ on:
     # no hay commit.
     - cron: "17 6,18 * * *"
   workflow_dispatch:
+  # Un cambio de código o de la web vuelve a generar y a desplegar. Los commits del
+  # propio bot (solo state/, feeds/ y data/) no entran en esta lista, y además un push
+  # hecho con GITHUB_TOKEN no dispara otros workflows: por eso la web se construye y se
+  # despliega en esta misma ejecución (job "deploy") y no en un workflow aparte.
+  push:
+    branches: [main]
+    paths:
+      - "web/**"
+      - "wikipedia_rss/**"
+      - "wikipedia_rss.py"
+      - ".github/workflows/update-feeds.yml"
 
+# Cada job declara los permisos que necesita.
 permissions:
-  contents: write
+  contents: read
 
 # Nunca dos ejecuciones a la vez: la siguiente espera a que termine la actual.
 concurrency:
@@ -20,6 +32,11 @@ jobs:
   update:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    permissions:
+      contents: write
+    outputs:
+      site: ${{ steps.site.outputs.site }}
+      exit_code: ${{ steps.generate.outputs.exit_code }}
     env:
       # Opcional: define la variable de repositorio WIKIPEDIA_RSS_USER_AGENT
       # (Settings > Secrets and variables > Actions > Variables) con tu contacto.
@@ -31,16 +48,16 @@ jobs:
         with:
           python-version: "3.12"
 
-      # Los tests corren aparte (tests.yml, en push y pull_request) para que un
+      # Los tests corren aparte (tests.yml, en pull requests) para que un
       # test roto nunca impida actualizar los feeds.
 
-      - name: Generar feeds
-        id: generate
+      - name: Calcular la URL del sitio
+        id: site
         env:
           OWNER: ${{ github.repository_owner }}
           REPO: ${{ github.event.repository.name }}
           # Opcional: variable de repositorio SITE_URL para un dominio propio
-          # (la raíz de la web, sin barra final: la que sirve index.html).
+          # (URL completa de la web, con su ruta si la tiene, sin barra final).
           SITE_URL: ${{ vars.SITE_URL }}
         run: |
           owner="${OWNER,,}"   # los hostnames de Pages van en minúsculas
@@ -52,14 +69,21 @@ jobs:
             site="https://${owner}.github.io/${REPO}"
           fi
           echo "Site URL: $site"
+          echo "site=$site" >> "$GITHUB_OUTPUT"
+
+      - name: Generar feeds
+        id: generate
+        env:
+          SITE: ${{ steps.site.outputs.site }}
+        run: |
           # Si la generación falla, el script sale con código 1. No cortamos aquí:
-          # primero se hace commit de lo que se haya escrito y el job se marca en
-          # rojo en el último paso.
+          # primero se hace commit de lo que se haya escrito, luego se despliega la web
+          # y el job "deploy" se marca en rojo en su último paso.
           set +e
           log="$RUNNER_TEMP/generate.log"
-          python3 wikipedia_rss.py --site-url "$site" 2>&1 | tee "$log"
+          python3 wikipedia_rss.py --site-url "$SITE" 2>&1 | tee "$log"
           echo "exit_code=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
-          # Línea "ERROR wikipedia_rss: en: failed: <motivo>" para el paso final.
+          # Línea "ERROR wikipedia_rss: en: failed: <motivo>" para el paso de anotaciones.
           grep -E '^ERROR wikipedia_rss: [a-z-]+: failed: ' "$log" | sed -E 's/^ERROR wikipedia_rss: //' > "$RUNNER_TEMP/failed.txt" || true
 
       - name: Keepalive
@@ -74,17 +98,11 @@ jobs:
             date -u +%Y-%m-%dT%H:%M:%SZ > state/.keepalive
           fi
 
-      - name: Sellar los assets
-        # Cada referencia a assets/site.css y assets/site.js en el HTML lleva ?v=<hash del
-        # archivo>, para que el navegador no use una copia en caché cuando cambian. Los tests
-        # comprueban que estén al día; esto lo arregla si alguien cambió un asset sin sellar.
-        run: python3 -m wikipedia_rss.stamp
-
       - name: Commit y push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add state feeds data index.html story.html
+          git add state feeds data
           if git diff --cached --quiet; then
             echo "Sin cambios"
             exit 0
@@ -104,10 +122,10 @@ jobs:
           echo "::error::No se pudo hacer push tras 5 intentos"
           exit 1
 
-      - name: Fallar si la generación falló
+      - name: Anotar los errores de la generación
+        # Solo anota: el job no falla aquí para que "deploy" se ejecute igualmente
+        # (hay datos del último commit); el fallo se señala al final de "deploy".
         if: steps.generate.outputs.exit_code != '0'
-        env:
-          EXIT_CODE: ${{ steps.generate.outputs.exit_code }}
         run: |
           failed="$RUNNER_TEMP/failed.txt"
           if [ -s "$failed" ]; then
@@ -115,5 +133,67 @@ jobs:
               echo "::error title=Falló la generación::${line#*: failed: }"
             done < "$failed"
           fi
-          echo "::error::wikipedia_rss.py terminó con código ${EXIT_CODE} (revisa el paso 'Generar feeds')"
+          echo "::error::wikipedia_rss.py terminó con código ${{ steps.generate.outputs.exit_code }} (revisa el paso 'Generar feeds')"
+
+  deploy:
+    # Construye la web Astro (web/) con los datos recién commiteados y la publica en
+    # GitHub Pages. Requiere Settings > Pages > Build and deployment > Source: GitHub Actions.
+    needs: update
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    env:
+      SITE_URL: ${{ needs.update.outputs.site }}
+    steps:
+      # La rama, no el SHA del evento: así se obtiene el commit de datos que acaba de
+      # subir el job "update" (y cualquier otro posterior).
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          persist-credentials: false
+
+      - uses: actions/setup-node@v4
+        with:
+          # web/package.json pide node >=22.23.4: la última 22.x lo cumple.
+          node-version: "22"
+          check-latest: true
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      - uses: actions/configure-pages@v5
+
+      # Sin "npm test": los tests corren en tests.yml (pull requests) para que un test
+      # roto nunca impida publicar una actualización de datos.
+      - name: Instalar dependencias
+        working-directory: web
+        run: npm ci
+
+      - name: Construir la web
+        working-directory: web
+        run: |
+          echo "SITE_URL: $SITE_URL"
+          npm run build
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/dist
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Fallar si la generación falló
+        # Último paso, después del despliegue: la web ya está publicada con los datos
+        # disponibles, pero el run queda en rojo para que se vea el fallo.
+        if: needs.update.outputs.exit_code != '0'
+        run: |
+          echo "::error::La generación falló (código ${{ needs.update.outputs.exit_code }}); la web se desplegó con los datos disponibles. Revisa el job 'update'."
           exit 1

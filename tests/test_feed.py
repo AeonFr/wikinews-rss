@@ -50,9 +50,9 @@ class RunTest(unittest.TestCase):
         self.assertEqual(root.findtext("channel/link"), SITE)
         self.assertEqual(root.find("channel/{http://www.w3.org/2005/Atom}link").get("href"), SITE + "/feeds/en.xml")
         # The item links to its story page, which is in the website data.
-        self.assertEqual(first.findtext("link"), SITE + "/story.html?id=" + guid.split(":", 2)[2].replace(":", "-"))
+        self.assertEqual(first.findtext("link"), SITE + "/articles/" + guid.split(":", 2)[2].replace(":", "-") + "/")
         ids = [s["id"] for s in self.read_data()["stories"]]
-        self.assertIn(first.findtext("link").split("id=")[1], ids)
+        self.assertIn(first.findtext("link").rstrip("/").rsplit("/", 1)[1], ids)
 
     def test_without_site_url_items_link_to_the_article(self):
         feed.run(WIKI, en_client(), NOW, **self.dirs)
@@ -101,8 +101,7 @@ class RunTest(unittest.TestCase):
     def test_rerun_without_changes_is_byte_identical(self):
         self.run_en(NOW)
         first = self.snapshot()
-        # feed, news.json and state, plus the (empty) source previews data and cache, and the
-        # version file that points the pages at the data
+        # feed, news.json and state, plus the (empty) source previews data and cache and the articles cache
         self.assertEqual(len(first), 6)
         for hours in (1, 12, 24):
             self.run_en(NOW + datetime.timedelta(hours=hours))
@@ -141,25 +140,6 @@ class RunTest(unittest.TestCase):
         self.run_en(later + datetime.timedelta(hours=1), en_client(edited))
         self.assertEqual(self.snapshot(), first)
 
-    def read_version(self):
-        with open(os.path.join(self.dirs["data_dir"], "version.json"), encoding="utf-8") as f:
-            return json.load(f)
-
-    def test_version_file_has_the_hashes_of_the_data_files(self):
-        import hashlib
-        self.run_en(NOW)
-        version = self.read_version()
-        for key, name in (("news", "news.json"), ("sources", "sources.json")):
-            with open(os.path.join(self.dirs["data_dir"], name), "rb") as f:
-                self.assertEqual(version[key], hashlib.sha1(f.read()).hexdigest()[:10], name)
-        # Unchanged data, unchanged version (the rerun test above checks the files byte by byte);
-        # changed news, another hash for news.json only.
-        edited = fixture("en_day.html").replace("prepare for a complete", "prepare for a full", 1)
-        self.run_en(NOW + datetime.timedelta(days=1), en_client(edited))
-        after = self.read_version()
-        self.assertNotEqual(after["news"], version["news"])
-        self.assertEqual(after["sources"], version["sources"])
-
     def test_news_older_than_the_limit_is_deleted_everywhere(self):
         self.run_en(NOW)
         # With a 30-day limit, 23 Oct is 31 days old on 24 Nov; the page is still served by the (fake) portal.
@@ -181,7 +161,7 @@ class CliTest(unittest.TestCase):
     def test_writes_feed_and_data(self):
         with tempfile.TemporaryDirectory() as tmp, mock.patch.object(cli, "WikiClient", lambda *a, **k: en_client()):
             args = ["--out", tmp + "/f", "--data", tmp + "/d", "--state", tmp + "/s", "--days", "2",
-                    "--site-url", SITE, "--no-source-previews"]
+                    "--site-url", SITE, "--no-source-previews", "--no-article-maps"]
             self.assertEqual(cli.main(args, now=NOW), 0)
             self.assertTrue(os.path.exists(os.path.join(tmp, "f", "en.xml")))
             self.assertTrue(os.path.exists(os.path.join(tmp, "d", "news.json")))

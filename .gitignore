@@ -7,3 +7,8 @@ __pycache__/
 .tmp-*
 # Logs de la ejecución local con launchd
 logs/
+# Sitio nuevo (web/)
+web/node_modules
+web/dist
+web/.astro
+web/public/feeds

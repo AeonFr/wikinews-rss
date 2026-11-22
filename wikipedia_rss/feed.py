@@ -2,10 +2,12 @@
 import datetime
 import logging
 import os
+import time
 
-from . import parsers, rss, site, sources, state as st
+from . import infobox, parsers, rss, site, sources, state as st
 from .client import ApiError
 from .config import RETENTION_DAYS
+from .limits import ARTICLE_FETCH_BUDGET, MAX_ARTICLE_FETCHES
 
 log = logging.getLogger(__name__)
 
@@ -82,6 +84,25 @@ def topic_titles(it):
     return [link["title"] for t in it.get("topics", []) for link in t.get("links", [])]
 
 
+def highlighted_titles(cfg, it):
+    """Titles of the articles an entry highlights (italic or bold links): what an entry with no
+    article of its own may be about. Not for "Topics in the news", which have their own."""
+    if it.get("kind") == "topic":
+        return []
+    return parsers.highlighted_titles(it.get("html"), cfg, it.get("sources"))
+
+
+def highlighted_articles(cfg, titles, pages):
+    """[{title, url, extract}] of the existing articles among `titles` (`pages`: lookup_pages), no repeats."""
+    out = []
+    for title in titles:
+        page = pages.get(title)
+        if page and all(page["url"] != a["url"] for a in out):
+            out.append({"title": page["title"], "url": page["url"],
+                        "extract": page["extract"] if cfg.use_extracts else ""})
+    return out
+
+
 def cut_short(extract):
     """An extract stored by an older version, which cut it at 300 characters with an ellipsis."""
     return (extract or "").endswith("…")
@@ -121,6 +142,22 @@ def backfill_extracts(cfg, client, state, pages):
                 article["extract"] = page["extract"]
 
 
+def backfill_highlighted(cfg, client, state, pages):
+    """Give the stored headlines without an article their highlighted articles (see finalize) if they lack them.
+
+    Only the last `days` daily pages are scraped, so an older headline keeps what it had when it left
+    the scrape; one stored before this existed is looked up here, once (a headline whose highlighted
+    links turned out not to be articles keeps an empty list and is not asked for again).
+    """
+    missing = [(it, highlighted_titles(cfg, it)) for it in state.get("items", {}).values()
+               if not it.get("pageid") and "highlighted_articles" not in it]
+    missing = [(it, titles) for it, titles in missing if titles]
+    need = list(dict.fromkeys(t for _, titles in missing for t in titles if t not in pages))
+    found = dict(pages, **(lookup_pages(client, need, extracts=cfg.use_extracts) if need else {}))
+    for it, titles in missing:
+        it["highlighted_articles"] = highlighted_articles(cfg, titles, found)
+
+
 def finalize(cfg, raw_items, pages):
     """Assign guid, link and enrichment; drop duplicates within one scrape.
 
@@ -132,6 +169,9 @@ def finalize(cfg, raw_items, pages):
     Items whose main article exists also get "article_title" and, if configured,
     "article_extract" (shown in the card of the story page), and "topic_articles": the
     other articles linked on the topic lines above the entry (at any level) that exist.
+    An entry whose main article does not exist also gets "highlighted_articles" if its text
+    highlights links (see parsers.highlighted_titles): {title, url, extract} of those that exist,
+    which stand in for the article it lacks (the key is absent when it highlights nothing).
     """
     items, seen, pos = [], set(), {}
     for order, it in enumerate(raw_items):
@@ -161,6 +201,10 @@ def finalize(cfg, raw_items, pages):
                                        "extract": other["extract"] if cfg.use_extracts else ""})
         if topic_articles:
             it["topic_articles"] = topic_articles
+        if not page:
+            titles = highlighted_titles(cfg, it)
+            if titles:
+                it["highlighted_articles"] = highlighted_articles(cfg, titles, pages)
         if not page and it["main_title"] and not topic:
             it["group_key"] = "title:%s" % it["main_title"]
         items.append(it)
@@ -168,11 +212,17 @@ def finalize(cfg, raw_items, pages):
 
 
 def run(cfg, client, now, days=7, max_items=50, state_dir="state", out_dir="feeds", data_dir="data",
-        site_url=None, dry_run=False, retention_days=RETENTION_DAYS, max_group=st.MAX_GROUP, fetch_source=None):
+        site_url=None, dry_run=False, retention_days=RETENTION_DAYS, max_group=st.MAX_GROUP, fetch_source=None,
+        article_maps=True, max_article_fetches=MAX_ARTICLE_FETCHES, article_delay=0,
+        article_budget=ARTICLE_FETCH_BUDGET, article_clock=time.monotonic):
     """Scrape, update the state and write the RSS feed (out_dir) and the website data (data_dir).
 
     `fetch_source(url) -> (preview, reason)` (see sources.Fetcher) turns on the link previews
     of the cited sources; without it nothing is fetched (previews already cached are kept).
+    `article_maps` turns on reading the map and location from the infobox of the stories' articles
+    (at most `max_article_fetches` requests per run, `article_delay` seconds apart, within `article_budget`
+    seconds of `article_clock()`, without retries; see infobox.update_cache); without it
+    nothing is fetched (what is cached is kept).
     """
     today = now.date()
     raw_items = collect(cfg, client, today, days)
@@ -180,7 +230,7 @@ def run(cfg, client, now, days=7, max_items=50, state_dir="state", out_dir="feed
         raise RuntimeError("no items parsed; the page layout may have changed")
     topics, topics_read = collect_topics(cfg, client)
     raw_items += topics
-    titles = [t for it in raw_items for t in [it["main_title"]] + topic_titles(it)]
+    titles = [t for it in raw_items for t in [it["main_title"]] + topic_titles(it) + highlighted_titles(cfg, it)]
     pages = lookup_pages(client, titles, extracts=cfg.use_extracts)
     state_path = os.path.join(state_dir, "%s.json" % cfg.code)
     state = st.load_state(state_path)
@@ -188,6 +238,7 @@ def run(cfg, client, now, days=7, max_items=50, state_dir="state", out_dir="feed
 
     new = st.merge(state, items, now, retention_days, max_group, also_read=[cfg.portal] if topics_read else [])
     backfill_extracts(cfg, client, state, pages)
+    backfill_highlighted(cfg, client, state, pages)
     last_build = st.parse_iso(state["updated"])
     # The website keeps the topics the portal no longer highlights (their pages stay reachable);
     # the feed does not list them.
@@ -203,17 +254,36 @@ def run(cfg, client, now, days=7, max_items=50, state_dir="state", out_dir="feed
                      cfg.code, stats["fetched"], stats["found"], stats["failed"])
         except Exception as e:  # previews are optional: never fail the run because of them
             log.warning("%s: source previews skipped: %s", cfg.code, e)
+    articles_path = os.path.join(state_dir, "articles.json")
+    articles_cache = infobox.load_cache(articles_path)
+    articles_before = infobox.dump_cache(articles_cache)
     # Built after the previews so a story gets its image as soon as one is found.
     xml = rss.build_rss(cfg, feed_items, last_build, site_url, sources_cache)
-    data = site.dump_data(site.build_data(cfg, stories, state["updated"], retention_days, sources_cache))
+    data = site.dump_data(site.build_data(cfg, stories, state["updated"], retention_days, sources_cache,
+                                          articles_cache))
+    # The essential outputs are written before the optional map phase, so nothing that goes wrong
+    # there (an error, a hang, the job being killed) can lose them.
     if not dry_run:
         st.write_atomic(os.path.join(out_dir, "%s.xml" % cfg.code), xml)
         previews = sources.dump_data(sources_cache, source_urls)
         st.write_atomic(os.path.join(data_dir, "news.json"), data)
         st.write_atomic(os.path.join(data_dir, "sources.json"), previews)
-        # Last, so a page never gets hashes of files that are not written yet.
-        st.write_atomic(os.path.join(data_dir, "version.json"), site.data_version(data, previews))
         st.write_atomic(sources_path, sources.dump_cache(sources_cache))
         st.save_state(state_path, state)
+    if article_maps and not dry_run:
+        try:
+            stats = infobox.update_cache(articles_cache, site.story_articles(stories), client, now,
+                                         max_fetch=max_article_fetches, delay=article_delay,
+                                         budget=article_budget, clock=article_clock)
+            log.info("%s: article maps: %d fetched, %d with a map or location, %d failed, %d pending",
+                     cfg.code, stats["fetched"], stats["found"], stats["failed"], stats["pending"])
+        except Exception as e:  # optional: never fail the run because of it
+            log.warning("%s: article maps skipped: %s", cfg.code, e)
+    if not dry_run:
+        if infobox.dump_cache(articles_cache) != articles_before:  # something was fetched (or dropped)
+            data = site.dump_data(site.build_data(cfg, stories, state["updated"], retention_days, sources_cache,
+                                                  articles_cache))
+            st.write_atomic(os.path.join(data_dir, "news.json"), data)
+        st.write_atomic(articles_path, infobox.dump_cache(articles_cache))
     return {"scraped": len(items), "new": len(new), "in_feed": len(feed_items),
             "requests": client.requests, "items": feed_items, "xml": xml, "data": data}

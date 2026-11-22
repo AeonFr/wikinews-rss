@@ -251,6 +251,53 @@ def _daily_item(li, text, wiki, sources, topics, category, date, cfg, page_title
     }
 
 
+# --- highlighted links (an entry without an article may be about one) ------------------------------
+
+# Namespaces whose pages are not articles; cfg.ignore_namespaces is honoured too.
+NON_ARTICLE_NAMESPACES = frozenset(n.lower() for n in (
+    "File", "Image", "Media", "Category", "Portal", "Wikipedia", "WP", "Project", "Help", "Special", "Template",
+    "Module", "Draft", "Talk", "User", "MediaWiki", "TimedText", "Book"))
+_EMPHASIS = ("i", "b", "em", "strong")
+
+
+def _source_names(sources):
+    """Lowercased names of the cited outlets, also the parts of "AFP via France 24"."""
+    names = set()
+    for source in sources or []:
+        name = clean_space(source.get("name") or "").casefold()
+        names.add(name)
+        names.update(part.strip() for part in name.split(" via "))
+    names.discard("")
+    return names
+
+
+def highlighted_titles(html, cfg, sources=()):
+    """Titles of the Wikipedia articles an entry's text highlights, in order, without repeats.
+
+    html: the entry's inline html (see inline_html). A highlighted link is an <a> directly inside
+    <i> or <b> (the editors italicise or embolden the article an entry is about) that points to
+    https://<host>/wiki/<Title>. Not counted: other namespaces (File:, Category:, Portal:, ...),
+    links to a section only, red links, and links whose text is the name of a cited outlet
+    (`sources`: [{name, url}]), which is set in italics too but is not the subject.
+    """
+    skip = _source_names(sources)
+    prefix = "https://%s/wiki/" % cfg.host
+    ignored = NON_ARTICLE_NAMESPACES | {n.lower() for n in cfg.ignore_namespaces}
+    titles = []
+    for a in parse_html(html or "").find_all("a"):
+        href = a.attrs.get("href", "")
+        if a.parent.tag not in _EMPHASIS or not href.startswith(prefix) or "redlink=1" in href:
+            continue
+        title = unquote(href[len(prefix):].split("#")[0].split("?")[0]).replace("_", " ").strip()
+        if not title or title.split(":")[0].strip().lower() in ignored:
+            continue
+        if clean_space(a.text()).casefold() in skip:
+            continue
+        if title not in titles:
+            titles.append(title)
+    return titles
+
+
 # --- "Topics in the news" (the highlighted items of the portal's main page) -------------------
 
 TOPICS_CATEGORY = "Topics in the news"

@@ -184,7 +184,7 @@ class GroupingTest(unittest.TestCase):
         self.run_en(NOW + datetime.timedelta(hours=3), oct24=[HEADS[1], HEADS[0]], site_url="https://x.org")
         [after] = self.matching("Headline number")
         self.assertEqual(after.findtext("link"), before.findtext("link"))  # same story page
-        story_id = after.findtext("link").split("id=")[1]
+        story_id = after.findtext("link").rstrip("/").rsplit("/", 1)[1]
         stories = self.stories()
         story = stories[PFX + HEADS[0] + " / " + HEADS[1]]
         self.assertEqual(story["id"], story_id)

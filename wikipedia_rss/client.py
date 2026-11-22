@@ -30,10 +30,12 @@ class WikiClient:
         self.sleep = sleep
         self.requests = 0  # real (non-cached) requests made
 
-    def api(self, **params):
+    def api(self, retries=None, **params):
+        """Call the API. `retries` overrides the client's retry policy for this call only
+        (0: one attempt, no waits; a failure raises at once)."""
         params.update(format="json", formatversion="2", maxlag="5")
         url = "https://%s/w/api.php?%s" % (self.host, urllib.parse.urlencode(params))
-        data = json.loads(self._get(url, is_api=True))
+        data = json.loads(self._get(url, is_api=True, retries=retries))
         if "error" in data:
             raise ApiError(data["error"].get("code"), data["error"].get("info", ""))
         return data
@@ -46,7 +48,9 @@ class WikiClient:
     def _cache_path(self, url):
         return os.path.join(self.cache_dir, hashlib.sha1(url.encode()).hexdigest())
 
-    def _get(self, url, is_api=False):
+    def _get(self, url, is_api=False, retries=None):
+        if retries is None:
+            retries = self.retries
         if self.cache_dir:
             path = self._cache_path(url)
             if os.path.exists(path) and time.time() - os.path.getmtime(path) < self.cache_ttl:
@@ -55,7 +59,7 @@ class WikiClient:
                     return f.read()
 
         delay = 2.0
-        for attempt in range(self.retries + 1):
+        for attempt in range(retries + 1):
             retry_after = None
             try:
                 log.debug("GET %s", url)
@@ -71,7 +75,7 @@ class WikiClient:
                     # maxlag errors come back as HTTP 200 with a Retry-After header.
                     if is_api and b'"maxlag"' in body[:200]:
                         retry_after = resp.headers.get("Retry-After")
-                        raise _Retry("maxlag")
+                        raise MaxLag("maxlag")
                 if self.cache_dir:
                     os.makedirs(self.cache_dir, exist_ok=True)
                     with open(self._cache_path(url), "wb") as f:
@@ -82,9 +86,9 @@ class WikiClient:
                     raise
                 retry_after = e.headers.get("Retry-After")
                 err = e
-            except (urllib.error.URLError, TimeoutError, _Retry) as e:
+            except (urllib.error.URLError, TimeoutError, MaxLag) as e:
                 err = e
-            if attempt == self.retries:
+            if attempt == retries:
                 raise err
             wait = delay
             if retry_after and retry_after.isdigit():
@@ -94,5 +98,5 @@ class WikiClient:
             delay *= 2
 
 
-class _Retry(Exception):
-    pass
+class MaxLag(Exception):
+    """The API answered "maxlag": the servers are overloaded."""

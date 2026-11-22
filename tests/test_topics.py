@@ -113,7 +113,7 @@ class PipelineTest(unittest.TestCase):
         self.assertEqual([c.text for c in gta.findall("category")], ["Topics in the news"])
         self.assertIn("Portal:Current_events", gta.findtext("description"))
         self.assertNotIn(": The video game", gta.findtext("title"))  # no "article:" prefix
-        self.assertTrue(gta.findtext("link").startswith("https://x.org/story.html?id=topic-"))
+        self.assertTrue(gta.findtext("link").startswith("https://x.org/articles/topic-"))
 
     def dropped_box(self):
         """The box without the Grey Cup and the Nvidia items, and with a new one."""

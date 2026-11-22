@@ -1,7 +1,8 @@
 name: Tests
 
 # Separado de update-feeds.yml: un test roto marca el PR en rojo pero nunca bloquea
-# la actualización programada de los feeds. Solo corre en pull requests (y a mano).
+# la actualización programada de los feeds ni el despliegue de la web. Solo corre en
+# pull requests (y a mano). Los cambios en web/** también lo disparan.
 on:
   pull_request:
     paths-ignore: ["feeds/**", "state/**", "data/**"]
@@ -23,3 +24,35 @@ jobs:
 
       - name: Tests
         run: python3 -m unittest discover -s tests
+
+  web:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: web
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          # web/package.json pide node >=22.23.4: la última 22.x lo cumple.
+          node-version: "22"
+          check-latest: true
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      - name: Instalar dependencias
+        run: npm ci
+
+      - name: Tests
+        run: npm test
+
+      - name: Tipos (astro check)
+        run: npx astro check
+
+      - name: Build
+        env:
+          # URL ficticia: solo comprueba que la web se construye con una ruta base.
+          SITE_URL: https://example.github.io/repo
+        run: npm run build
