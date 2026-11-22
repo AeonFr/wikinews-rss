@@ -1,0 +1,39 @@
+---
+import type { GetStaticPaths } from "astro";
+import About from "../../components/article/About.astro";
+import ArticleHeader from "../../components/article/ArticleHeader.astro";
+import ArticleLayout from "../../components/article/ArticleLayout.astro";
+import Entries from "../../components/article/Entries.astro";
+import Related from "../../components/article/Related.astro";
+import SourceCards from "../../components/article/SourceCards.astro";
+import WhereFrom from "../../components/article/WhereFrom.astro";
+import { pageMeta } from "../../components/article/text";
+import Footer from "../../components/Footer.astro";
+import Masthead from "../../components/Masthead.astro";
+import Base from "../../layouts/Base.astro";
+import { getSiteModel } from "../../model/site";
+
+export const getStaticPaths = (() => {
+  const site = getSiteModel();
+  return site.articleIds().map((id) => ({ params: { id } }));
+}) satisfies GetStaticPaths;
+
+const site = getSiteModel();
+const page = site.articlePage(Astro.params.id);
+if (!page) throw new Error(`No story with id ${Astro.params.id}`);
+const { news } = site;
+const { title, description } = pageMeta(page);
+---
+
+<Base title={title} description={description}>
+  <Masthead />
+  <ArticleLayout>
+    <ArticleHeader page={page} hideTitle={page.titleIsCategory} />
+    <Entries blocks={page.entries} />
+    <WhereFrom where={page.whereFrom} />
+    <About about={page.about} showTitle={page.titleIsCategory} />
+    <SourceCards cards={page.sourceCards} />
+    <Related day={page.day} related={page.related} />
+  </ArticleLayout>
+  <Footer retentionDays={news.retention_days} portalUrl={news.portal.url} />
+</Base>

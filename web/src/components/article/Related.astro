@@ -1,0 +1,41 @@
+---
+import type { Related } from "../../model";
+import RelatedNewsList from "./RelatedNewsList.astro";
+import SectionHeading from "./SectionHeading.astro";
+import styles from "./Related.module.css";
+
+interface Props {
+  /** The day of the page. */
+  day: string;
+  related: Related | null;
+}
+const { day, related } = Astro.props;
+---
+
+{
+  related && (
+    <section class={styles.section} aria-labelledby="related-heading">
+      <SectionHeading id="related-heading">Related articles</SectionHeading>
+      {related.main.length > 0 && (
+        <div class={styles.block}>
+          <RelatedNewsList news={related.main} day={day} />
+        </div>
+      )}
+      {related.articles.map((article) => (
+        <div class={styles.block}>
+          <h3 class={styles.title}>
+            {article.url ? (
+              <a href={article.url} rel="noopener">
+                {article.title}
+              </a>
+            ) : (
+              article.title
+            )}
+          </h3>
+          {article.extract && <p class={styles.extract}>{article.extract}</p>}
+          <RelatedNewsList news={article.news} day={day} />
+        </div>
+      ))}
+    </section>
+  )
+}

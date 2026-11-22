@@ -1,0 +1,43 @@
+---
+import { formatDay } from "../../data/days";
+import type { HomeDay } from "../../model";
+import BoxList from "./BoxList.astro";
+import EntryList from "./EntryList.astro";
+import { dayHeadingId } from "./layout";
+import styles from "./DaySection.module.css";
+
+interface Props {
+  day: HomeDay;
+}
+const { day } = Astro.props;
+const headingId = dayHeadingId(day.day);
+// The first of the day's lists sits right under the heading's rule: it must not add a line of its own.
+const firstList = day.portalEntries.length > 0 ? "portal" : day.boxes.length > 0 ? "boxes" : "tiles";
+---
+
+<section class={styles.day} aria-labelledby={headingId}>
+  <h2 id={headingId} class={styles.heading}>
+    <time datetime={day.day}>{formatDay(day.day)}</time>
+  </h2>
+  {
+    day.portalEntries.length > 0 && (
+      <div class:list={[styles.block, firstList === "portal" && styles.first]}>
+        <EntryList entries={day.portalEntries} size="large" label="From the Current events portal" first={firstList === "portal"} />
+      </div>
+    )
+  }
+  {
+    day.boxes.length > 0 && (
+      <div class:list={[styles.block, firstList === "boxes" && styles.first]}>
+        <BoxList boxes={day.boxes} first={firstList === "boxes"} />
+      </div>
+    )
+  }
+  {
+    day.tiles.length > 0 && (
+      <div class:list={[styles.block, firstList === "tiles" && styles.first]}>
+        <EntryList entries={day.tiles} size="tile" label="Single stories" first={firstList === "tiles"} />
+      </div>
+    )
+  }
+</section>

@@ -79,12 +79,6 @@
    "site": "Cadena SER",
    "title": "Cristina Fernández Cubas, Premio Cervantes 2026"
   },
-  "https://dailytrust.com/30-feared-dead-as-mourners-boat-capsizes-in-bayelsa/#google_vignette": {
-   "description": "About 30 persons were said to have died, while 300 others went missing after a boat conveying mourners to a burial ceremony in Ukubie capsized near Oweikorogha...",
-   "image": "https://dailytrust.com/wp-content/uploads/2025/10/Boat.jpg",
-   "site": "Daily Trust",
-   "title": "30 feared dead as mourners' boat capsizes in Bayelsa"
-  },
   "https://dailytrust.com/police-arrest-34-foreigners-in-benue/": {
    "description": "The Police in Benue State have arrested 34 foreign nationals suspected of engaging in illicit activities in two Local Government Areas of the state. State...",
    "image": "https://dailytrust.com/wp-content/uploads/2025/11/BENUE.jpg",
@@ -99,6 +93,11 @@
    "description": "After more than 10 months in exile, Venezuelan opposition leader and Nobel laureate María Corina Machado has returned home to a political landscape that has been reshaped by her ally the United States without her involvement.",
    "image": "https://media.cnn.com/api/v1/images/stellar/prod/mc-1-jpg.JPG?c=16x9&q=w_800,c_fill",
    "title": "Venezuela’s Machado returns from exile to crowds of cheering supporters | CNN"
+  },
+  "https://edition.cnn.com/2026/10/25/us/11-shot-florida-tallahassee-shooting-hnk": {
+   "description": "Anthony Rivers III faces 11 counts of attempted second-degree murder and possession of a firearm by a delinquent in connection with a mass shooting Saturday night.",
+   "image": "https://media.cnn.com/api/v1/images/stellar/prod/fla-mass-shooting.jpg?c=16x9&q=w_800,c_fill",
+   "title": "15-year-old will be charged as an adult after 11 people were shot near Florida A&M University stadium | CNN"
   },
   "https://edition.cnn.com/2026/10/26/sport/ballon-dor-winners-harry-kane-alexia-putellas": {
    "description": "Harry Kane and Alèxia Putellas have been named the best men’s and women’s soccer players in the world at this year’s Ballon d’Or ceremony.",
@@ -162,6 +161,12 @@
    "site": "EFE Noticias",
    "title": "Los soldados de El Salvador lanzan su primera gran operación contra las bandas en Haití - EFE"
   },
+  "https://en.ammonnews.net/mobile/article/96443": {
+   "description": "The death toll from the terrorist attack targeting a church in the village of Hammoud in Karak has risen to nine...",
+   "image": "https://en.ammonnews.net/image.php?token=9d5b0bbe8fbf01a224807e0e9149b0bd&size=xxlarge",
+   "site": "Ammon News",
+   "title": "Ammonnews : Death toll in Karak church attack rises to 9"
+  },
   "https://en.ammonnews.net/mobile/article/96865": {
    "description": "The Public Security Directorate (PSD) mourned the martyrdom of Corporal Jawad Ali Khalaf Salayta, who was killed in a...",
    "image": "https://en.ammonnews.net/image.php?token=428dc4c00745a204915f7bb6b0e53cf3&size=xxlarge",
@@ -209,6 +214,10 @@
    "site": "Japan Wire by Kyodo News",
    "title": "Baseball: MVP award caps stellar Japan Series for SoftBank's Masaki"
   },
+  "https://english.news.cn/20261023/1db4ce38e905456db92465e90381a44a/c.html": {
+   "description": "2 soldiers killed in al-Qaeda attack in SE Yemen-",
+   "title": "2 soldiers killed in al-Qaeda attack in SE Yemen"
+  },
   "https://english.news.cn/20261028/0bff5197bf7d4bd8aef67cc902090535/c.html": {
    "description": "14 killed, 10 wounded in Saudi airstrikes in N. Yemen: Houthi media-",
    "title": "14 killed, 10 wounded in Saudi airstrikes in N. Yemen: Houthi media"
@@ -237,6 +246,10 @@
    "description": "At least 6 killed as building under construction collapses in Nairobi-",
    "title": "At least 6 killed as building under construction collapses in Nairobi"
   },
+  "https://english.news.cn/asiapacific/20261022/d3f0402fc54446f4a7e9b61bc33f97f2/c.html": {
+   "description": "6 killed, 25 injured as bus hits roadside tree in central India-",
+   "title": "6 killed, 25 injured as bus hits roadside tree in central India"
+  },
   "https://gulfnews.com/world/americas/colombian-media-outlet-attacked-with-explosives-1.500744157": {
    "description": "Colombian media outlet RCN attacked with explosives in Cali, causing property damage but no injuries. Two suspects arrested amid rising violence against journalists.",
    "image": "https://media.assettype.com/gulfnews%2F2026-11-11%2Fwjfzf06j%2Fnewsml_afp_com_20261111T150811Z_doc_d7787c9.jpeg?rect=0%2C0%2C1200%2C630&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
@@ -259,6 +272,12 @@
    "image": "https://assets.kyivindependent.com/content/images/2026/10/photo_2026-10-30_09-25-17_20261030-082531.jpg",
    "site": "The Kyiv Independent",
    "title": "Russian attacks across Ukraine kill 27, injure 127 over past day as 'horrific attack' strikes Dnipro train station"
+  },
+  "https://kyivindependent.com/ukraine-war-latest-ukraine-russia-agree-to-local-ceasefire-for-russian-occupied-oleshky-mediated-by-melania-trump/": {
+   "description": "Key developments on Oct. 23: * Ukraine, Russia agree on local ceasefire for Russian-occupied Oleshky, mediated by Melania Trump * Civilian cargo ship sinks off coast of Romania after Russian drone strike, authorities say * Ukraine to end automatic 100% mobilization exemptions for critical industries, Prime Minister says * Ukrainian drone attack triggers shut down of Moscow airports, missile…",
+   "image": "https://assets.kyivindependent.com/content/images/2026/10/GettyImages-2298552075_20261023-173045_20261023-173148.jpg",
+   "site": "The Kyiv Independent",
+   "title": "Ukraine war latest: Ukraine, Russia agree to local ceasefire for Russian-occupied Oleshky, mediated by Melania Trump"
   },
   "https://macaubusiness.com/us-imposes-terrorist-designations-on-three-guatemala-groups/": {
    "description": "International, MNA | The United States on Friday imposed terrorist designations on three Guatemala-based organizations, citing their relationships with Mexican cartels and alleged efforts to aid in the transportation of illicit drugs.",
@@ -289,6 +308,12 @@
    "image": "https://images.cdn.nos.nl/5/G/t/c/x/q/iXjNRr9273owBXgu5p8S21irDq3EEtrJaKw4EY7/1x1x1504x846-1280x720.webp",
    "title": "Zwaargewonden bij explosie en brand op Belgische kerstmarkt"
   },
+  "https://onefootball.com/en/news/lionel-messi-wins-the-princess-of-asturias-award-43661225": {
+   "description": "Lionel Messi adds another milestone to his legendary career after being honored with the 2026 Princess of Asturias Award for Sports, a distinction celebrating…",
+   "image": "https://photobooth-api.onefootball.com/api/screenshot/%2Fv2%2Fphotobooth%2Fcms%2Fen%2F43661225%3Fdate=2026-11-21",
+   "site": "OneFootball",
+   "title": "🏅Lionel Messi wins the Princess of Asturias Award"
+  },
   "https://punchng.com/bandits-kill-three-abduct-residents-in-sokoto/": {
    "description": "No fewer than three people have been killed by bandits, who also abducted an unspecified number of residents and rustled livestock during an attack on the Yartsakuwa community in the Rabah Local Government Area of Sokoto State.",
    "image": "https://cdn.punchng.com/wp-content/uploads/2026/08/21184132/Sokoto-map_1787334092.webp",
@@ -317,6 +342,12 @@
    "image": "https://media.shafaq.com/media/arcella/1794147300627.webp",
    "site": "Shafaq News..",
    "title": "Shafaq News..Erbil floods kill two, over 300 rescued"
+  },
+  "https://smilefm.co.za/anti-gang-unit-deployed-in-lavender-hill-after-five-killed-three-wounded/": {
+   "description": "Five people have been killed and three others wounded in a shooting in Lavender Hill. Western Cape Anti-Gang Unit..",
+   "image": "https://smilefm.co.za/wp-content/uploads/2024/02/credit-saps.jpg",
+   "site": "Smile 90.4FM",
+   "title": "Anti-gang unit deployed in Lavender Hill after five killed, three wounded - Smile 90.4FM"
   },
   "https://thefinancialexpress.com.bd/national/ex-al-mps-house-looted-set-on-fire-in-feni": {
    "description": "Unidentified miscreants looted and set fire to the ancestral residence of former Feni-3 Member of Parliament Haji Rahim Ullah at Sonapur village in Sonagazi upazila of Feni early Thursday. Rahim Ullah’s brother-in-law Rafiqul Islam, who was alone in the house, said 15 to 20 armed miscreants",
@@ -368,6 +399,12 @@
    "image": "https://cdn-attachments.timesofmalta.com/7b39751144a8f1f946af34e614b66575625290ed-1793702258-01a9184a-1200x630.png",
    "site": "Times of Malta",
    "title": "Tourist killed after two helicopters collide in Nepal's Everest region"
+  },
+  "https://tribune.net.ph/2026/10/24/israel-launches-major-west-bank-operation": {
+   "description": "Israel launched a multi-day military operation in the occupied West Bank’s Hebron area following an attack that killed two Israeli soldiers, with forces conducting searches, questioning suspects and demolishing structures they described as security threats. Prime Minister Benjamin Netanyahu ordered a West Bank lockdown and signaled a broader military campaign ahead of Israel’s elections, while…",
+   "image": "https://images.assettype.com/tribune/2026-10-24/sk9v67g7/1a93dffd2f0bf95cccc679b967d7d029451a9b7b.jpg?w=1024&auto=format&q=70&rect=0%2C0%2C1024%2C576&h=576&fit=crop",
+   "site": "Daily Tribune",
+   "title": "Israel launches major West Bank operation"
   },
   "https://tribune.net.ph/2026/11/04/2-former-cops-among-5-killed-in-bacoor-shootouts": {
    "description": "Five suspected robbers, including two former police officers, were killed in a series of shootouts with Bacoor police after an attempted robbery in Cavite. Authorities are pursuing two suspects who remain at large.",
@@ -448,6 +485,72 @@
    "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1793551937.jpg?resize=1429%2C1080&quality=80",
    "site": "Al Jazeera",
    "title": "Bangladesh workers clash with police in protests over low pay"
+  },
+  "https://www.aljazeera.com/news/2026/10/21/us-orders-departure-of-personnel-from-saudi-arabia-citing-houthi-threat": {
+   "description": "US State Department says Iran-aligned Houthis have 'increasingly ⁠⁠engaged in hostilities' against Saudi Arabia.",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/ap_6ad938b69c56d-1792620726.jpg?resize=1920%2C1440",
+   "site": "Al Jazeera",
+   "title": "US orders departure of personnel from Saudi Arabia, citing Houthi threat"
+  },
+  "https://www.aljazeera.com/news/2026/10/22/iran-says-seven-ships-hit-in-hormuz-strait-warns-us-of-wider-response": {
+   "description": "The US has pushed back on the IRGC's claims, dismissing them as an attempt to increase oil prices ahead of US elections.",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/getty_6a6e03d2c6-1785594834.jpg?resize=1920%2C1440",
+   "site": "Al Jazeera",
+   "title": "Iran says seven ships hit in Hormuz Strait, warns US of wider response"
+  },
+  "https://www.aljazeera.com/news/2026/10/22/magnitude-7-earthquake-kills-16-people-in-chinas-tibet-xinhua-reports": {
+   "description": "Authorities warn they expect death toll from magnitude 7 quake that hit remote part of Tibet to rise.",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/reuters_6adaf7eb-1792735211.jpg?resize=1200%2C675",
+   "site": "Al Jazeera",
+   "title": "Powerful earthquake in Tibet kills at least 16 people"
+  },
+  "https://www.aljazeera.com/news/2026/10/23/at-least-seven-killed-after-gunmen-open-fire-at-church-in-jordan": {
+   "description": "Survivors say two masked men began shooting as dozens attended a funeral procession.",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6adb79a2478a-1792768418.jpg?resize=1920%2C1440",
+   "site": "Al Jazeera",
+   "title": "At least seven killed after gunmen open fire at church in Jordan"
+  },
+  "https://www.aljazeera.com/news/2026/10/23/greece-joins-push-to-ban-social-media-for-minors": {
+   "description": "A growing number of countries are tightening rules governing children's online activity amid fears of addiction.",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/2026-05-13T134100Z_1030381756_RC2B8LAPPQ5I_RTRMADP_3_RUSSIA-DAILYLIFE-1792755671.jpg?resize=1920%2C1440",
+   "site": "Al Jazeera",
+   "title": "Greece joins push to ban social media for minors"
+  },
+  "https://www.aljazeera.com/news/2026/10/23/israel-arrests-36-palestinians-in-the-west-bank-attacks-on-farmers-ramp-up": {
+   "description": "Clampdown comes as two Israeli soldiers, two Palestinian gunmen killed amid heightened tensions ahead of election.",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6adb011175c4-1792737553.jpg?resize=1920%2C1440",
+   "site": "Al Jazeera",
+   "title": "Israel preparing full lockdown of occupied West Bank after Hebron gunfight"
+  },
+  "https://www.aljazeera.com/news/2026/10/24/about-25000-rally-in-madrid-in-support-of-spains-state-pension-scheme": {
+   "description": "Demonstrators want pensions to remain indexed to inflation and the gender pension gap to be eliminated.",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/ap_6adcc7ffb0c6f-1792854015.jpg?resize=1920%2C1440",
+   "site": "Al Jazeera",
+   "title": "About 25,000 rally in Madrid in support of Spain’s state pension scheme"
+  },
+  "https://www.aljazeera.com/news/2026/10/24/gunmen-kill-at-least-10-people-in-eastern-nigeria-police-say": {
+   "description": "Nigerian police say a large group carried out the attack on Binnari village in Taraba State.",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/ap_6add2796635cf-1792878486.jpg?resize=1920%2C1440",
+   "site": "Al Jazeera",
+   "title": "Gunmen kill at least 10 people in eastern Nigeria, police say"
+  },
+  "https://www.aljazeera.com/news/2026/10/24/israel-raids-towns-detains-dozens-of-palestinians-in-occupied-west-bank": {
+   "description": "Israeli military raid targets at least 15 towns in the northern West Bank, including Nablus and Jenin.",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6adb4ad09e91-1792756432.jpg?resize=1920%2C1440",
+   "site": "Al Jazeera",
+   "title": "Israel raids towns, arrests dozens of Palestinians in occupied West Bank"
+  },
+  "https://www.aljazeera.com/news/2026/10/24/more-than-2000-forced-from-homes-in-hebron-amid-israels-west-bank-raids": {
+   "description": "Palestinians in Hebron are 'living in fear' with the city closed, while Israeli forces arrest dozens across West Bank.",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/ap_6adcbfd8d2020-1792851928.jpg?resize=1920%2C1440",
+   "site": "Al Jazeera",
+   "title": "More than 2,000 forced from homes in Hebron amid Israel’s West Bank raids"
+  },
+  "https://www.aljazeera.com/news/2026/10/24/thousands-of-israelis-rally-against-netanyahu-govt-days-before-election": {
+   "description": "Opposition figures join Tel Aviv protesters demanding an independent October 7 inquiry.",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6adceee49503-1792863972.jpg?resize=1920%2C1440",
+   "site": "Al Jazeera",
+   "title": "Thousands of Israelis rally against Netanyahu gov’t days before election"
   },
   "https://www.aljazeera.com/news/2026/10/26/israeli-forces-kill-at-least-five-people-in-gaza-including-7-year-old-girl": {
    "description": "The death toll in Israel's genocidal war on Gaza climbs to 74,555, including 1,559 killed since 'ceasefire' last year.",
@@ -605,6 +708,12 @@
    "site": "Al Jazeera",
    "title": "Saudi coalition and Houthis exchange threats to bomb key ports"
   },
+  "https://www.aljazeera.com/news/2026/11/21/saudi-led-coalition-intercepts-three-houthi-missiles-headed-for-riyadh": {
+   "description": "Saudi Arabia issues emergency alerts in Riyadh for third night in row, as the Houthis threaten ports and power station.",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6b010dd74d22-1795231191.jpg?resize=1200%2C675",
+   "site": "Al Jazeera",
+   "title": "Saudi-led coalition intercepts three Houthi missiles headed for Riyadh"
+  },
   "https://www.aljazeera.com/news/2026/11/3/explosions-hit-irans-qeshm-island-as-us-media-report-us-strikes-in-hormuz": {
    "description": "Several explosions heard on Qeshm Island and in Bandar Lengeh as US media report US military strikes in Hormuz.",
    "image": "https://www.aljazeera.com/wp-content/uploads/2026/03/GettyImages-2266746200-1773658772.jpg?resize=1920%2C1440",
@@ -695,6 +804,12 @@
    "site": "Al Jazeera",
    "title": "Messi becomes first player to win back-to-back MLS Golden Boot awards"
   },
+  "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-sv-israel-targets-gaza-food-truck": {
+   "description": "Three Palestinians were killed in an Israeli air attack on a vehicle carrying food.",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795283560.jpg?resize=1620%2C1080&quality=80",
+   "site": "Al Jazeera",
+   "title": "Israeli strike hits food aid vehicle in Gaza, killing three"
+  },
   "https://www.aol.co.uk/articles/suspected-russian-projectile-lands-poland-095529000.html": {
    "description": "Russia fired cruise missiles and drones into Poland some 60 miles from where British troops were conducting military drills.",
    "image": "https://hermes.media.static.aol.com/media/2026/11/20/b8bb1b25-0a8b-3ad9-a87a-13d3d0436ec1/db4a38c0-aa43-4e5d-bf4c-4ba3280fed50.jpeg",
@@ -745,6 +860,11 @@
    "image": "https://ichef.bbci.co.uk/news/1024/branded_news/56c4/live/c36d8970-e448-11f1-a094-5fdc692f3e33.jpg",
    "title": "Trump, Putin and Xi release 'peace declaration' after historic meeting"
   },
+  "https://www.bbc.com/news/articles/c6ev38dj1g8zo": {
+   "description": "One person is killed and five wounded in a series of attacks. The suspected gunman has been apprehended.",
+   "image": "https://ichef.bbci.co.uk/news/1024/branded_news/7c59/live/b8966750-cef5-11f1-a701-fddedf244c16.jpg",
+   "title": "Macron says deadly shooting near Paris is a 'racist terrorist attack'"
+  },
   "https://www.bbc.com/news/articles/c6ly3mjx958eo": {
    "description": "Footage authenticated by BBC Verify shows damage to the building in the capital's central financial district.",
    "image": "https://ichef.bbci.co.uk/news/1024/branded_news/ea80/live/2b11cc30-dbbb-11f1-93e1-3b657b665bcf.png",
@@ -790,6 +910,11 @@
    "image": "https://ichef.bbci.co.uk/news/1024/branded_news/6bbd/live/f830f0d0-d128-11f1-a701-fddedf244c16.jpg",
    "title": "Jordan arrests three men suspected of deadly attack on church"
   },
+  "https://www.bbc.com/news/articles/cm5ynl4v4wgwo": {
+   "description": "The deaths include two women found drowned in a cellar in the Bouches-du-Rhône region.",
+   "image": "https://ichef.bbci.co.uk/news/1024/branded_news/ba84/live/388ad750-cdf9-11f1-9a39-31b474234113.jpg",
+   "title": "Storm Adam flooding: At least four dead in southern France"
+  },
   "https://www.bbc.com/news/articles/cmdx33v9vvr2o": {
    "description": "Au Kam San was sentenced to 12 years and six months' jail for \"subversion against the political power of the state\".",
    "image": "https://ichef.bbci.co.uk/news/1024/branded_news/0ae0/live/23a8aa80-d9aa-11f1-88e6-7913ca4cf3b6.jpg",
@@ -819,6 +944,11 @@
    "description": "It is not yet clear who was behind the attack, which appears to have targeted a military base.",
    "image": "https://ichef.bbci.co.uk/news/1024/branded_news/1e32/live/fa815d50-d6b6-11f1-aacc-5b5f23abff4b.jpg",
    "title": "Bomb attack in western Colombia kills four, including baby, local official says"
+  },
+  "https://www.bbc.com/news/articles/cqwy71ww156ro": {
+   "description": "It is the latest in a series of attacks by the Houthi movement targeting airports and other sites in the kingdom.",
+   "image": "https://ichef.bbci.co.uk/news/1024/branded_news/5e3c/live/e7d9d390-cdf5-11f1-a64c-550be9e3c66b.jpg",
+   "title": "Two killed in Houthi attack on airport in eastern Saudi Arabia, authorities say"
   },
   "https://www.bbc.com/news/articles/crlykey9jywqo": {
    "description": "The next fortnight sees two elections on different continents. The outcomes will shape geopolitics and the global economy, writes James Landale",
@@ -887,6 +1017,10 @@
    "site": "BBC News",
    "title": "Nvidia shares slide as US tech giant investigates CEO Jensen Huang's affair with suspected Chinese spy"
   },
+  "https://www.billboard.com/music/awards/2026-mercury-prize-winner-raye-music-may-contain-hope-1236365609/": {
+   "description": "RAYE has won the 2026 Mercury Prize for her album 'This Music May Contain Hope'.",
+   "title": "RAYE Wins 2026 Mercury Prize With 'This Music May Contain Hope'"
+  },
   "https://www.bloodhorse.com/horse-racing/articles/295716/emphatic-stays-undefeated-in-bc-juvenile-fillies": {
    "description": "Emphatic, a daughter of Nyquist, takes command in the stretch of the $2 million Juvenile Fillies (G1) and holds off a late charge from favorite Miss Monica. She delivers the first Breeders' Cup World Championships win for trainer Brendan Walsh.",
    "image": "https://cdn-images.bloodhorse.com/i/bloodhorse-images/2026/10/cb81e287feec4d37afc1e09251513d63.jpg?preset=facebook",
@@ -917,11 +1051,28 @@
    "site": "CBS News",
    "title": "No clear winner in Israeli election as negotiations to follow in order to form government"
   },
+  "https://www.cbsnews.com/news/paris-france-new-protests-riots-museums-shops/": {
+   "description": "While demonstrations throughout France were largely peaceful, police reported clashes with protesters Saturday evening.",
+   "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/10/24/1f313d02-d4a6-4895-bff1-474fd590f632/thumbnail/1200x630/1fffa0b356c9cc726fc07d1003a93caf/gettyimages-2301344085.jpg",
+   "site": "CBS News",
+   "title": "More than 1,000 arrested in France as protesters and police clash in several cities"
+  },
   "https://www.cbsnews.com/news/thomas-markle-sr-meghan-father-arrested-florida/": {
    "description": "It was reported in October that Meghan's estranged father, Thomas Markle, was under investigation by authorities in the Philippines for alleged possession of child sexual abuse materials.",
    "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/10/6a0c2914-3831-4480-961b-f102afcea97a/thumbnail/1200x630g2/6648ea02b0a4eda9e0e4463cac5e624d/gettyimages-2301126335.jpg",
    "site": "CBS News",
    "title": "Duchess Meghan's father, Thomas Markle Sr., arrested in Florida in child pornography probe"
+  },
+  "https://www.cbssports.com/nfl/news/what-is-illegal-forward-handing-bears-patriots-nfl-penalty/": {
+   "description": "Caleb Williams handed the ball to offensive lineman Joe Thuney, resulting in a five-yard penalty that hadn't been called in an NFL game since 2010.",
+   "image": "https://sportshub.cbsistatic.com/i/r/2026/10/23/8191a10a-dc72-4043-bcca-fd360accf477/thumbnail/1200x675/bb06bc5df3275725155f65b10ef5ce36/caleb-williams.jpg",
+   "site": "CBS Sports",
+   "title": "Rare NFL penalty: Bears become first team in 16 years to get flagged for illegal forward handoff"
+  },
+  "https://www.cnn.com/2026/10/23/middleeast/church-shooting-jordan-intl": {
+   "description": "At least nine people were killed and another 40 injured after gunmen opened fire on a church in Jordan’s southern Karak province, in an unprecedented attack that has left the nation stunned.",
+   "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2301101662.jpg?c=16x9&q=w_800,c_fill",
+   "title": "At least 9 people killed in unprecedented shooting at church in Jordan | CNN"
   },
   "https://www.cnn.com/2026/10/25/europe/bulgaria-presidential-race-heads-to-runoff-latam-intl": {
    "description": "The presidential election in Bulgaria on Sunday ended inconclusively, with the next head of state to be picked in a runoff, according to election officials.",
@@ -959,6 +1110,12 @@
    "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/11/08/thumbs/1200x675/469507.jpg",
    "site": "Daily Sabah",
    "title": "9 killed, 5 injured in truck-minibus collision in eastern Türkiye"
+  },
+  "https://www.dawn.com/news/2039703": {
+   "description": "Around 40 police personnel injured by stones thrown by protesters.",
+   "image": "https://i.dawn.com/large/2025/10/0108055090ad828.webp",
+   "site": "Dawn",
+   "title": "Indian protesters clash with police over dam project bordering China"
   },
   "https://www.dawn.com/news/2039736/israeli-strike-on-university-in-gaza-city-kills-3-another-4-palestinians-killed-in-separate-airstrikes": {
    "description": "Gaza's education ministry says 95pc of buildings belonging to academic institutions have been damaged as a result of Israel's military campaign.",
@@ -1014,6 +1171,12 @@
    "site": "dw.com",
    "title": "Guinea jails 200 in wildcat gold mining crackdown"
   },
+  "https://www.dw.com/en/hitlers-eagles-nest-retreat-catches-fire-police-say/a-79747820": {
+   "description": "The building, now a museum, has been extensively damaged. Authorities have arrested a suspect as firemen try to put out the fire in Bavaria, near the Austrian border.",
+   "image": "https://static.dw.com/image/79754223_6.jpg",
+   "site": "dw.com",
+   "title": "Suspect arrested as Hitler's Eagle's Nest, or Kehlsteinhaus, destroyed by fire"
+  },
   "https://www.dw.com/en/iihf-ordered-to-allow-russia-back-into-world-championships/a-79805650": {
    "description": "The Court of Arbitration for Sport has ruled that Russian teams must be allowed to take part in international ice hockey tournaments. The IIHF had banned Russia following the country's full-scale invasion of Ukraine.",
    "image": "https://static.dw.com/image/60835574_6.jpg",
@@ -1043,6 +1206,18 @@
    "image": "https://static.dw.com/image/79819807_6.jpg",
    "site": "dw.com",
    "title": "Germany's Gen Z protests disrupted by violence on Saturday"
+  },
+  "https://www.dw.com/en/new-york-archdiocese-to-pay-800-million-to-sex-abuse-survivors/a-79753347": {
+   "description": "Around 1,300 survivors agreed to the $800 million payout from the Catholic Church, marking one of the largest clergy abuse settlements in the US.",
+   "image": "https://static.dw.com/image/79753331_6.jpg",
+   "site": "dw.com",
+   "title": "New York Archdiocese to pay $800 million to survivors of sexual abuse"
+  },
+  "https://www.dw.com/en/typhoon-champi-taiwan/a-79748221": {
+   "description": "After killing one person and causing major disruptions in Taiwan, Typhoon Champi is now headed towards China.",
+   "image": "https://static.dw.com/image/79738674_6.jpg",
+   "site": "dw.com",
+   "title": "Typhoon Champi leaves 1 dead, over 500 injured in Taiwan"
   },
   "https://www.dw.com/en/us-american-soldier-arrested-uk-spying-russia/a-79913240": {
    "description": "A member of the US Army has been arrested near Gloucester in England. Police said he was suspected of espionage activity in connection with Russia. Investigators from the US and UK are involved in the probe.",
@@ -1097,6 +1272,18 @@
    "site": "ESPN.com",
    "title": "U.S. withdraws from FIFA U17 World Cup in Qatar over safety concerns"
   },
+  "https://www.euronews.com/2026/10/24/thousands-protest-against-far-right-national-rally-congress-in-france": {
+   "description": "The mayor of Saint-Denis, Bally Bagayoko, joined left-wing politicians and trade union leaders in Orléans as Marine Le Pen's party gathered ahead of the 2027 presidential election. #EuropeNews",
+   "image": "https://images.euronews.com/articles/stories/09/96/57/42/1200x675_cmsv2_9d5c9c78-afae-56f4-be2e-5d77b0a2c439-9965742.jpg",
+   "site": "euronews",
+   "title": "Tensions mount as thousands rally against Marine Le Pen’s rally"
+  },
+  "https://www.euronews.com/2026/10/25/100-arrested-after-night-of-unrest-and-looting-in-barcelona": {
+   "description": "Protesters threw stones and other heavy objects at officers, whilst several groups erected barricades, set fire to rubbish bins and smashed shop windows. #EuropeNews",
+   "image": "https://images.euronews.com/articles/stories/09/96/62/13/1200x675_cmsv2_4bc54c81-757a-5e9f-b26f-f866a45e53c1-9966213.jpg",
+   "site": "euronews",
+   "title": "128 arrested after night of unrest and looting in Barcelona"
+  },
   "https://www.euronews.com/2026/10/30/polish-president-turns-back-mid-flight-amid-coup-detat-allegations": {
    "description": "The Polish government has been pushing to remove the Constitutional Tribunal's judges, who were appointed by the previous right-wing administration led by the nationalist Law and Justice (PiS) party. #EuropeNews",
    "image": "https://images.euronews.com/articles/stories/09/97/40/68/1200x675_cmsv2_fd167ef1-3a7d-51b8-ba2e-cc25b2978bb1-9974068.jpg",
@@ -1127,6 +1314,18 @@
    "site": "euronews",
    "title": "Hungary seizes millions in cash amid corruption investigation"
   },
+  "https://www.euronews.com/2026/11/21/european-union-and-indonesia-sign-free-trade-deal-after-decade-of-talks": {
+   "description": "Trade between the EU and Indonesia was valued at €28.9 billion in 2025, with EU exports worth €10.2 billion and EU imports worth €18.7 billion. #EuropeNews",
+   "image": "https://images.euronews.com/articles/stories/10/00/25/39/1200x675_cmsv2_b6a51226-14f9-541e-8c88-4828b53c21fd-10002539.jpg",
+   "site": "euronews",
+   "title": "European Union and Indonesia sign free trade deal"
+  },
+  "https://www.euronews.com/2026/11/21/former-costa-concordia-cruise-ship-captain-released-from-prison-on-probation-after-nine-ye": {
+   "description": "The case dates back to January 2012, when the Costa Concordia ship struck rocks off the coast of Isola del Giglio in the Tyrrhenian Sea. The disaster claimed 32 lives.",
+   "image": "https://images.euronews.com/articles/stories/10/00/25/38/1200x675_cmsv2_cb58d451-a981-5da6-8532-b36cb3d35ea3-10002538.jpg",
+   "site": "euronews",
+   "title": "Former Costa Concordia captain released from prison on probation"
+  },
   "https://www.excelsior.com.mx/nacional/abaten-lider-cartel-nuevo-imperio-eu-acuso-proteger-capo-exatleta": {
    "description": "Edgar Aarón Vázquez, alias El General, murió en un operativo para capturarlo; era señalado como autor intelectual del asesinato del agente de la SSPC Milton Morales",
    "image": "https://imagenes.excelsior.com.mx/files/og_thumbnail/uploads/2026/11/06/6aed852bde67d.jpeg",
@@ -1151,6 +1350,12 @@
    "site": "France 24",
    "title": "Haitian police retake national stadium after two years of gang control"
   },
+  "https://www.france24.com/en/france/20261024-live-hundreds-of-protests-expected-in-france-amid-high-tensions-and-heavy-police-presence#post=U0UXw9tBzJKh9utyIIRy": {
+   "description": "Nearly 1,000 people were arrested on the sidelines of Saturday's protests, Interior Minister Laurent Nuñez announced, adding that the figure would likely rise. The government said 410,000 took place…",
+   "image": "https://s.france24.com/media/display/4e2c2ad4-cfd7-11f1-828f-4d317af013fd/w:1280/p:16x9/000-D4BG2Q9.jpg",
+   "site": "France 24",
+   "title": "Interior ministry says 410,000 protesters across France as organisers claim 'nearly 800,000'"
+  },
   "https://www.france24.com/en/france/20261031-live-france-braces-for-halloween-protests-government-vows-tough-response": {
    "description": "France's Interior Minister Laurent Nuñez said on Saturday that demonstrations across the country were largely peaceful, despite what he called an \"extraordinary\" level of violence from some groups of…",
    "image": "https://s.france24.com/media/display/f9cb77ac-d561-11f1-a729-bf1914cabd52/w:1280/p:16x9/000-D62C6EL.jpg",
@@ -1162,6 +1367,48 @@
    "image": "https://s.france24.com/media/display/26731cb6-e051-11f1-9abc-29048b396e03/w:1280/p:16x9/000-D7GH788.jpg",
    "site": "France 24",
    "title": "Fresh French protests draw 146,000, says interior ministry, 500,000 say unions"
+  },
+  "https://www.france24.com/en/live-news/20261022-canada-opens-free-trade-talks-with-turkey": {
+   "description": "Canada, locked in a trade war with the United States, opened talks with Turkey Thursday on a free trade agreement during a landmark visit by Prime Minister Mark Carney.",
+   "image": "https://s.france24.com/media/display/c39ba442-ce4d-11f1-aa67-8d87bc3aeb3a/w:1280/p:16x9/5c7eb62e3cc61f7bccf213750bc6e2e3afdf67ae.jpg",
+   "site": "France 24",
+   "title": "Canada opens free trade talks with Turkey"
+  },
+  "https://www.france24.com/en/live-news/20261022-finland-grants-licence-for-world-s-first-nuclear-waste-repository": {
+   "description": "Finland's government has granted an operating licence for the world's first permanent repository for radioactive spent nuclear fuel, waste management company Posiva said Thursday, 22 years after construction…",
+   "image": "https://s.france24.com/media/display/c7647852-ce33-11f1-8214-7967b15eed96/w:1280/p:16x9/e6e3c9410d6e881fd5a06a8a333ebbda7d4ae80b.jpg",
+   "site": "France 24",
+   "title": "Finland grants licence for world's first nuclear waste repository"
+  },
+  "https://www.france24.com/en/live-news/20261022-guatemala-sentences-former-police-officers-in-gay-couple-s-killings": {
+   "description": "A Guatemalan court has sentenced seven former police officers to up to 60 years in prison over the \"extrajudicial execution\" of a gay couple, killings denounced by human rights groups as a hate crime.…",
+   "image": "https://s.france24.com/media/display/7bca2fa2-ce3a-11f1-93a1-23d55109f116/w:1280/p:16x9/65af46db9307d6e13754b973fb5805f294c1ad9c.jpg",
+   "site": "France 24",
+   "title": "Guatemala sentences former police officers in gay couple's killings"
+  },
+  "https://www.france24.com/en/live-news/20261022-hashimoto-sweeps-to-gymnastics-world-all-around-title": {
+   "description": "Japan’s Daiki Hashimoto successfully defended his men’s individual all-around title at the Artistic Gymnastics World Championships in Rotterdam on Thursday ahead of China’s Yang Haonan and Britain's…",
+   "image": "https://s.france24.com/media/display/615ac14a-ce58-11f1-9157-23d55109f116/w:1280/p:16x9/d27ca1f28edeb2360211d4de0f4ed36315388f63.jpg",
+   "site": "France 24",
+   "title": "Hashimoto sweeps to gymnastics world all-around title"
+  },
+  "https://www.france24.com/en/live-news/20261022-marathon-star-aga-banned-six-years-for-doping-and-misleading-investigation": {
+   "description": "Former Tokyo marathon winner Ruti Aga has been banned for six years for taking a banned substance and then trying to mislead investigators, the Athletics Integrity Unity (AIU) said on Thursday.",
+   "image": "https://s.france24.com/media/display/52660e3c-ce3b-11f1-96ba-3f59e19fd7f8/w:1280/p:16x9/537047a9d3a7dfa852007b34672efd582b04e724.jpg",
+   "site": "France 24",
+   "title": "Marathon star Aga banned six years for doping and misleading investigation"
+  },
+  "https://www.france24.com/en/live-news/20261023-taiwan-shuts-down-as-typhoon-champi-approaches": {
+   "description": "As Typhoon Champi approached Taiwan, most businesses and schools were closed across the island Friday and hundreds of flights were canceled in the region. Authorities reported at least one death and…",
+   "image": "https://s.france24.com/media/display/f5c2df22-ce8d-11f1-90c0-1da646a5f16c/w:1280/p:16x9/d819a05d5c2fe530ae3991168d68541f32c11897.jpg",
+   "site": "France 24",
+   "title": "Taiwan shuts down schools and businesses as Typhoon Champi approaches"
+  },
+  "https://www.france24.com/en/live-news/20261025-2027-dakar-rally-to-be-moved-from-saudi-arabia": {
+   "description": "The 2027 Dakar Rally will be moved from Saudi Arabia \"following recent developments in the region\", organisers said on Sunday, after repeated attacks on the kingdom by Yemen's Houthis.",
+   "image": "https://s.france24.com/media/display/47f1c816-d092-11f1-9fd5-bba4eee3dc72/w:1280/p:16x9/1721a4c83aa6385f60ff4a6025ff215d01f66d9f.jpg",
+   "site": "France 24",
+   "title": "2027 Dakar Rally to be moved from Saudi Arabia"
   },
   "https://www.france24.com/en/live-news/20261026-egypt-parliament-authorises-military-support-to-saudi-arabia": {
    "description": "Egypt's parliament authorised on Monday sending military support to Saudi Arabia to defend the kingdom from attacks by Yemen's Houthis, following a request from President Abdel Fattah al-Sisi.",
@@ -1247,6 +1494,12 @@
    "site": "France 24",
    "title": "Malaysian ex-PM Najib's bid to serve prison term at home delayed"
   },
+  "https://www.france24.com/en/live-news/20261106-tanzania-opposition-leader-avoids-death-penalty-in-treason-trial": {
+   "description": "Tanzanian opposition leader Tundu Lissu was sentenced to four years in prison on Friday for inciting unrest, potentially barring him from the next election, in a case that has drawn international condemnation.",
+   "image": "https://s.france24.com/media/display/83204d7c-d9ca-11f1-9548-1beafce15fea/w:1280/p:16x9/dc57ed6b1279cd6abdbcf86cb7234e185c745c75.jpg",
+   "site": "France 24",
+   "title": "Tanzania opposition leader sentenced to four years in treason trial"
+  },
   "https://www.france24.com/en/live-news/20261106-us-reports-highest-number-of-measles-cases-in-35-years": {
    "description": "The United States has recorded more than 5,000 cases of measles this year, the highest number in 35 years, according to an official count released Friday.",
    "image": "https://s.france24.com/media/display/b208f824-da00-11f1-a6bc-695cb59fade5/w:1280/p:16x9/Part-GTY-495314981-1-1-3.jpg",
@@ -1330,6 +1583,18 @@
    "image": "https://s.france24.com/media/display/19853c5e-e435-11f1-b7eb-6b451f569414/w:1280/p:16x9/a98679a2927c0926b2696b83d57d313dd48e7110.jpg",
    "site": "France 24",
    "title": "Senegal president imposes key budget crucial for IMF loan"
+  },
+  "https://www.france24.com/en/live-news/20261121-gaza-civil-defence-says-israeli-fire-kills-four": {
+   "description": "Gaza's civil defence told AFP that Israeli fire killed four people on Saturday, including three in a strike on a vehicle carrying food aid in the war-ravaged territory.",
+   "image": "https://s.france24.com/media/display/f2fd9012-e5b6-11f1-b8cc-e56ab3dc0809/w:1280/p:16x9/008d77ccc00d0d27352953aea42a1c9af444e58f.jpg",
+   "site": "France 24",
+   "title": "Gaza civil defence says Israeli fire kills four"
+  },
+  "https://www.france24.com/en/live-news/20261121-mexico-captures-drug-kingpin-on-fbi-s-most-wanted-list": {
+   "description": "Mexico's military forces captured ​one of the most wanted suspected drug lords, Fausto Isidro Meza Flores, known as \"El Chapo Isidro,\" the military announced on Saturday, after a deadly firefight that…",
+   "image": "https://s.france24.com/media/display/7ea4cdf8-e5d8-11f1-9d8c-1bac47ab2f5d/w:1280/p:16x9/5ae7a51b5a446d41d7c0ce84900d19b70a41bb55.jpg",
+   "site": "France 24",
+   "title": "Mexico captures drug cartel boss ‘El Chapo Isidro’ after deadly firefight"
   },
   "https://www.france24.com/en/middle-east/20261026-iran-talks-mecca-pact-nations-war": {
    "description": "Senior officials from Saudi Arabia, Turkey and Pakistan held talks in Iran on Monday aimed at preventing renewed fighting in the Middle East, with Tehran describing discussions as “very good”. The diplomatic…",
@@ -1542,10 +1807,21 @@
    "site": "NST Online",
    "title": "Indonesia detains dozens after night of protest violence | New Straits Times"
   },
+  "https://www.nytimes.com/2026/11/06/us/edp445-youtuber-arrested-sex-crimes.html": {
+   "description": "A man known for online rants about pro football spoke in a documentary about accusations that he had a sexual interest in minors, prompting law enforcement to bring charges.",
+   "image": "https://static01.nyt.com/images/2026/11/05/multimedia/05xp-youtube-arrest/05xp-youtube-arrest-facebookJumbo.jpg",
+   "title": "YouTuber Accused of Child Sexual Abuse Is Arrested After Discussing Behavior in Film"
+  },
   "https://www.nytimes.com/2026/11/08/technology/nvidia-investigation-jensen-huang-china.html": {
    "description": "Mr. Huang, the company’s chief executive, acknowledged on Sunday that he was intimate with a business executive who U.S. officials had determined was working for Chinese intelligence.",
    "image": "https://static01.nyt.com/images/2026/11/08/multimedia/08biz-jensen-bqpz/08biz-jensen-bqpz-facebookJumbo.jpg",
    "title": "Nvidia Opens Investigation Into Jensen Huang’s Relationship With Suspected Chinese Spy"
+  },
+  "https://www.nytimes.com/athletic/7744275/2026/11/01/nyc-marathon-2026-results-andreas-almgren-sheila-chepkirui/": {
+   "description": "\"This marathon thing, it's quite fun,\" Almgren said after his win.",
+   "image": "https://static01.nyt.com/athletic/uploads/wp/2026/11/01112902/GettyImages-2302551079-scaled.jpg?width=1200&height=630&fit=crop",
+   "site": "The Athletic",
+   "title": "Andreas Almgren wins in New York City Marathon debut; Sheila Chepkirui reclaims title"
   },
   "https://www.occrp.org/en/news/fbi-cybercrime-operation-nets-nine-arrests-in-nigeria": {
    "image": "https://www.occrp.org/processed/containers/assets/news-brief-generic-africa.jpg/ec691917b7a0604aae4755d16a7c006e/news-brief-generic-africa.jpg",
@@ -1575,6 +1851,12 @@
    "site": "Plovdiv24.bg",
    "title": "Дрон засне невижданите мащаби на трагедията на АМ \"Тракия\": 86 коли и камиони, 11 жертви и 50 ранени"
   },
+  "https://www.pna.gov.ph/article/5-dead-in-sorsogon-public-market-fire": {
+   "description": "LEGAZPI CITY – Five people died in a fire that broke out at the Sorsogon City Public Market on Saturday night, the provincial government confirmed Sunday. Th...",
+   "image": "https://pna.gov.ph/_assets/storage/photo-assets/8KpX7fb8Uzeltz8sXGJ6zb4TyvqcbNV5iXSin7Jl.webp",
+   "site": "Philippine News Agency",
+   "title": "5 dead in Sorsogon public market fire"
+  },
   "https://www.prensalibre.com/guatemala/justicia/ejercito-moviliza-hasta-600-soldados-tras-siete-asesinatos-en-zacapa-e-izabal-que-revelan-las-investigaciones-breaking/": {
    "description": "El Ejército intensifica operativos en Zacapa, Chiquimula e Izabal, mientras la PNC investiga siete asesinatos y una posible venganza detrás del ataque en Puerto Barrios.",
    "image": "https://www.prensalibre.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-14-at-15.45.00.jpeg",
@@ -1586,6 +1868,12 @@
    "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-08%2F27q29jj7%2Fnarayangonj.jpg?rect=0%2C182%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
    "site": "Prothomalo",
    "title": "আড়াইহাজারে বিএনপির দুই পক্ষের সংঘর্ষে আহত ১০"
+  },
+  "https://www.rainews.it/maratona/2026/10/caro-vita-secondo-giorno-di-guerriglia-a-milano-nuovi-saccheggi-in-centro-dopo-gli-scontri-di-ieri-f03a282c-8ad7-411b-826e-f50b88ca9ebe.html": {
+   "description": "I cortei sono partiti nelle principali città italiane. Associazione Nazionale Magistrati: \"Miope rispondere al disagio con inasprimento pene\"",
+   "image": "https://www.rainews.it/cropgd/1200x630/dl/img/2026/10/24/1792835961420_rainewsedccdccacc.jpg",
+   "site": "RaiNews",
+   "title": "DIRETTA - Massima allerta per cortei, oggi 150 perquisizioni. Individuata mente dietro \"17 ottobre\""
   },
   "https://www.rainews.it/maratona/2026/10/sciopero-generale-del-30-ottobre-attenzione-sulle-grandi-citta-i-cortei-e-i-disagi-per-chi-viaggia-roma-milano-genova-napoli-firenze-376a3a17-fd70-4c69-8325-a376681518d8.html": {
    "description": "A Milano e Bologna manifestanti in Tangenziale, a Genova, La Spezia e Napoli entrano nel porto. Occupata l'università a Pisa. L'agitazione proclamata dai sindacati di base",
@@ -1610,6 +1898,18 @@
    "image": "https://gdb.rferl.org/5e87bd41-26bf-4a9d-6a69-08df13a87200_tv_w1200_h630.jpg",
    "site": "RadioFreeEurope/RadioLiberty",
    "title": "Vucic Concedes Defeat In Pivotal Serbian Parliamentary Election"
+  },
+  "https://www.rfi.fr/en/international-news/20261023-australia-sanctions-north-koreans-over-fraudulent-it-work-cybercrime": {
+   "description": "Australia said on Friday it had sanctioned two North Korean individuals and companies over the use of \"fraudulent\" IT workers and cybercrime to earn cash for the isolated nuclear-armed state.",
+   "image": "https://s.rfi.fr/media/display/d5aefad6-ce74-11f1-8dc6-ddfdef6ba301/w:1280/p:16x9/a46015c725b49818843c255c4cd92d10bf9efeb8.jpg",
+   "site": "RFI",
+   "title": "Australia sanctions North Koreans over 'fraudulent' IT work, cybercrime"
+  },
+  "https://www.rfi.fr/en/international-news/20261023-ukraine-says-two-soldiers-died-after-arrested-girl-sent-russian-poison": {
+   "description": "Ukrainian police said Friday they had detained a 17-year-old girl suspected of helping Russia's security services to poison Ukrainian soldiers and that two had died.",
+   "image": "https://s.rfi.fr/media/display/73c07be2-cebf-11f1-905e-bdb9616e85cf/w:1280/p:16x9/c917298bb97643d1a211339de8a37733b310e492.jpg",
+   "site": "RFI",
+   "title": "Ukraine says two soldiers died after arrested girl sent Russian poison"
   },
   "https://www.rfi.fr/en/international-news/20261025-nigeria-widens-hunt-for-possible-ebola-cases": {
    "description": "Nigeria has widened a hunt for potential Ebola cases, with an additional nine contacts traced, health authorities said Sunday.",
@@ -1695,6 +1995,12 @@
    "site": "RTE.ie",
    "title": "Tommy Robinson found guilty of harassing two journalists"
   },
+  "https://www.rtve.es/noticias/20261024/protesta-estudiantes-barcelona-degenera-disturbios-enfrentamientos-con-mossos-desquadra/17282127.shtml": {
+   "description": "Más de 120 detenidos y 14 agentes heridos tras los disturbios en el centro de Barcelona",
+   "image": "https://img.rtve.es/imagenes/protesta-estudiantes-barcelona-degenera-disturbios-enfrentamientos-con-mossos-desquadra/01792939667426.jpg",
+   "site": "RTVE.es",
+   "title": "Más de 120 detenidos y 14 agentes heridos tras los disturbios en el centro de Barcelona"
+  },
   "https://www.sankei.com/article/20261028-GGAHQ34HQVPJTOJL32EPYJQTTU/": {
    "description": "プロ野球のSMBC日本シリーズ2026は28日、福岡市のみずほペイペイドームで第4戦が行われ、パ・リーグ3連覇のソフトバンクが4－2でDeNAを下し、4連勝で…",
    "image": "https://www.sankei.com/resizer/v2/YWAGXVNXRZPUFOAKYEHBD5JM5I.jpg?auth=ade0483644cff24906c00e728127b6654be7081e617173b8630723102649472a&quality=50&focal=2053%2C411&width=1200&height=675",
@@ -1724,6 +2030,12 @@
    "image": "https://cassette.sphdigital.com.sg/image/straitstimes/9f5004a494b37570053ea0925f7a0889e030d7e24e6272530cd91f4b5b88a1c0?t=og",
    "site": "The Straits Times",
    "title": "Thailand sets noise, water use limits for data centres"
+  },
+  "https://www.straitstimes.com/sport/russia-to-host-2030-world-weightlifting-champs-in-olympic-federation-first": {
+   "description": "Moscow to host 2030 world weightlifting championships in first Olympic federation event in Russia since 2022. Read more at straitstimes.com.",
+   "image": "https://cassette.sphdigital.com.sg/image/straitstimes/d689af69fd3fd5a0cdb44b423bfb1917db7b9f027b7d149befe63f09d933c652?t=og",
+   "site": "The Straits Times",
+   "title": "Russia to host 2030 world weightlifting champs in Olympic federation first"
   },
   "https://www.straitstimes.com/world/europe/french-senate-weighs-bill-to-make-protesters-pay-for-unrest-damage": {
    "description": "However critics warned the move could curb the right to protest. Read more at straitstimes.com.",
@@ -1953,6 +2265,12 @@
    "site": "the Guardian",
    "title": "Ukraine war briefing: Outrage in Europe after Russian drone kills 14 on rail platform in Dnipro"
   },
+  "https://www.theguardian.com/world/live/2026/oct/24/france-demonstrations-police-macron-italy-albania-belgium-spain-ukraine-russia-europe-latest-news#top-of-blog": {
+   "description": "French police have made 1,000 arrests and Italian officers have raided homes in Milan, with protests also taking place in Spain and Albania",
+   "image": "https://i.guim.co.uk/img/media/14507464f3b26131fdacfffa0a76a694f48024cf/765_0_4356_3484/master/4356.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=67956e8b191580b3e16ebb31eb2a05e7",
+   "site": "the Guardian",
+   "title": "Hundreds of thousands march in France as protests take place across Europe – as it happened"
+  },
   "https://www.thehindu.com/news/international/fresh-unrest-in-bangladesh-as-garment-workers-protest-block-highways-for-higher-wages/article71711657.ece": {
    "description": "Bangladesh garment workers protest for higher wages, blocking highways as authorities deploy security forces amid escalating industrial unrest.",
    "image": "https://th-i.thgim.com/public/incoming/6apgn8/article71711712.ece/alternates/LANDSCAPE_1200/20261117186L.jpg",
@@ -1964,6 +2282,12 @@
    "image": "https://th-i.thgim.com/public/incoming/l0h7n1/article71689174.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-11-11%20at%2015.27.36.jpeg",
    "site": "The Hindu",
    "title": "Three CRPF jawans injured in terror attack in Kashmir’s Kulgam"
+  },
+  "https://www.themoscowtimes.com/2026/10/24/russia-ukraine-agree-on-ceasefire-in-embattled-oleshky-plan-new-peace-talks-next-month-a94069": {
+   "description": "Ukraine and Russia said on Friday they had agreed on a ceasefire in the Russian-occupied Ukrainian town of Oleshky, brokered through U.S. first lady Melania Trump, while Ukrainian President Volodymyr Zelensky said peace negotiators would meet next month for new talks.",
+   "image": "https://static.themoscowtimes.com/image/og/fb/94069__fb6e1c3d99508226efb95aded5dfb58c.jpg",
+   "site": "The Moscow Times",
+   "title": "Russia, Ukraine Agree on Ceasefire in Embattled Oleshky, Plan New Peace Talks Next Month - The Moscow Times"
   },
   "https://www.thenationalnews.com/news/gulf/2026/11/15/bahrain-issues-first-nationwide-alert-in-months-as-iran-claims-attack-on-base-hosting-us-helicopters/": {
    "description": "Kingdom's military says air defences destroyed several incoming projectiles, as residents were twice told to seek shelter",
@@ -1988,6 +2312,12 @@
    "image": "https://img.turkiyetoday.com/images/2026/11/17/kerch-bridge-road-span-destroyed-after-ukrainian-strikes-imagery-shows-3232578_20261117091014_20261117091014.jpeg",
    "site": "Türkiye Today",
    "title": "Kerch Bridge road span destroyed after Ukrainian strikes, imagery shows - Türkiye Today"
+  },
+  "https://www.turkiyetoday.com/world/romania-rescues-9-from-black-sea-ship-after-drone-attack-3230869?s=1": {
+   "description": "Romania rescues nine sailors and recovers one body after merchant ship sends Black Sea distress call off Constanta; three remain missing",
+   "image": "https://img.turkiyetoday.com/images/2026/10/23/romania-rescues-9-from-black-sea-ship-after-drone-attack-3230869_20261023120600.jpg",
+   "site": "Türkiye Today",
+   "title": "Romania rescues 9 from Black Sea ship after drone attack - Türkiye Today"
   },
   "https://www.vanguardngr.com/2026/11/military-rescues-125-kidnap-victims-neutralises-eight-terrorists/": {
    "description": "By: Kingsley Omonobi The Defence Headquarters says troops have rescued 125 kidnapped victims, neutralised eight terrorists and arrested 10 suspected collaborators and logistics suppliers in military operations across the country in the last one week. The operations, conducted between November 6 and 12, 2026, also led to the surrender of 12 terrorist fighters and their […]",

@@ -1,0 +1,81 @@
+/*
+ * The masthead is plain block flow, no grid: a thin bar with the feed link at its right edge, then the
+ * nameplate (the name in the bold serif, and the tagline centred directly under it). Nothing is placed side by side, so nothing can wrap into a second column: the
+ * tagline is a block of its own at every width (it wraps onto two centred lines on a narrow phone).
+ * (The first version put the feed link and the tagline in the same grid cell; the link, placed explicitly,
+ * made the grid auto-place the tagline into a new implicit column beside it.)
+ * The rules sit inside the page's gutters, so they line up with the day rules under the intro.
+ */
+.masthead {
+  padding-top: 0.5rem;
+}
+
+.bar {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 0.3rem;
+}
+
+.feed {
+  padding: 0.2rem 0;
+  color: var(--muted);
+  font: 0.8125rem/1.45 var(--sans);
+  text-decoration-line: underline; /* a utility link: keeps its underline (internal links have none) */
+}
+
+.title {
+  margin: 0;
+  padding: 0.85rem 0 0.8rem;
+  text-align: center;
+}
+
+.brand {
+  display: inline-block;
+  color: var(--fg);
+  font: 700 clamp(2rem, 9.5vw, 4.75rem) / 1 var(--display);
+  letter-spacing: -0.015em;
+  text-decoration: none;
+}
+
+.tagline {
+  margin: 0;
+  padding: 0.45rem 0 0.5rem;
+  text-align: center;
+  text-wrap: balance;
+  font: 0.9375rem/1.4 var(--serif);
+  color: var(--soft);
+}
+
+/*
+ * On the article pages the masthead is one slim row: the name on the left, the feed link on the right,
+ * no tagline. Still plain flex with two items: nothing can wrap into a second column.
+ */
+.compact {
+  padding-top: 0.75rem;
+}
+
+.compact > div {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.compact .nameplate {
+  order: -1;
+  min-width: 0;
+}
+
+.compact .bar {
+  padding: 0;
+}
+
+.compact .title {
+  padding: 0;
+  text-align: left;
+}
+
+.compact .brand {
+  font-size: 1.5rem;
+  line-height: 1.2;
+}

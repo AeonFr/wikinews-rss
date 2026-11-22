@@ -1,0 +1,30 @@
+/* The entries: one block per set of texts, hairlines between them (none between the title and the first). Its inline links go to Wikipedia (global rule). */
+.blocks {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.block {
+  padding: 1.15rem 0 1.1rem;
+}
+
+.block:first-child {
+  /* The header sits a little farther from the first entry (2.75rem) than the entries are from each other
+     (2.25rem: 1.1 + 1.15): the hierarchy is told by space, not by a rule. */
+  padding-top: 1.5rem;
+}
+
+.block + .block {
+  border-top: var(--w-hair) solid var(--line);
+}
+
+.text {
+  margin: 0 0 0.5rem;
+  /* Sans: this text is not a link as a whole (its own links go to Wikipedia); the serif is for clickable titles. */
+  font-family: var(--sans);
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}

@@ -1,0 +1,11 @@
+---
+import styles from "./Title.module.css";
+
+interface Props {
+  /** Not shown (kept for screen readers and the document outline): the title is only a category of the portal. */
+  hidden?: boolean;
+}
+const { hidden = false } = Astro.props;
+---
+
+<h1 class:list={[styles.title, hidden && styles.hidden]}><slot /></h1>

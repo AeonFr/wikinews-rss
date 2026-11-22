@@ -1,0 +1,23 @@
+---
+import { feedPath, homePath } from "../data/urls";
+import styles from "./Masthead.module.css";
+
+interface Props {
+  /** The site name is the page's `h1` (the home page); elsewhere it is just a link home. */
+  heading?: boolean;
+}
+const { heading = false } = Astro.props;
+const Brand = heading ? "h1" : "p";
+---
+
+<header class:list={[styles.masthead, !heading && styles.compact]}>
+  <div class="wrap">
+    <div class={styles.bar}>
+      <a class={styles.feed} href={feedPath()}>RSS feed</a>
+    </div>
+    <div class={styles.nameplate}>
+      <Brand class={styles.title}><a class={styles.brand} href={homePath()}>Wikipedia News</a></Brand>
+      {heading && <p class={styles.tagline}>The world’s events curated by Wikipedia editors</p>}
+    </div>
+  </div>
+</header>

@@ -1,0 +1,37 @@
+---
+import tiles from "../../layout/tiles.module.css";
+import type { HomeEntry } from "../../model";
+import HomeImage from "./HomeImage.astro";
+import { entryListStyles, withoutLinks } from "./layout";
+import styles from "./EntryList.module.css";
+
+interface Props {
+  entries: HomeEntry[];
+  /** "large": portal entries and topics (bigger text); "tile": single-article tiles. */
+  size: "large" | "tile";
+  /** Accessible name of the list. */
+  label: string;
+  /** The list sits right under a heading or banner that has its own rule: its first row gets no line of its own. */
+  first?: boolean;
+}
+const { entries, size, label, first = false } = Astro.props;
+const { grid, cells } = entryListStyles(entries);
+---
+
+<ul class:list={[tiles.grid, styles.list, styles[size], first && styles.first]} style={grid || undefined} aria-label={label}>
+  {
+    entries.map((entry) => (
+      <li class:list={[tiles.cell, styles.entry, entry.image && tiles.withImage]} style={cells[entry.storyId]}>
+        {entry.image && <HomeImage image={entry.image} class={[tiles.withImageImage, styles.image]} />}
+        <div class:list={[styles.body, entry.image && tiles.withImageText]}>
+          {entry.label && <p class={styles.label}>{entry.label}</p>}
+          {entry.items.map((item) => (
+            <p class={styles.text}>
+              <a class="go" href={entry.href} set:html={withoutLinks(item.html)} />
+            </p>
+          ))}
+        </div>
+      </li>
+    ))
+  }
+</ul>

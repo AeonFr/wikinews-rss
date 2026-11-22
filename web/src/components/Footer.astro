@@ -1,0 +1,23 @@
+---
+import { retentionPeriod } from "../data/days";
+import styles from "./Footer.module.css";
+
+interface Props {
+  retentionDays: number;
+  portalUrl: string;
+}
+const { retentionDays, portalUrl } = Astro.props;
+---
+
+<footer class={styles.footer}>
+  <div class="wrap">
+    <div class={styles.inner}>
+      <p>News older than {retentionPeriod(retentionDays)} is removed from this site.</p>
+      <p>
+        Unofficial project, not affiliated with the Wikimedia Foundation. News comes from <a href={portalUrl}>Wikipedia’s Current events portal</a>.
+        The text comes from Wikipedia contributors and is
+        available under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> license.
+      </p>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,16 @@
+.sources {
+  margin: 0.15rem 0;
+  color: var(--muted);
+  font: 0.8125rem/1.55 var(--sans);
+  overflow-wrap: anywhere;
+}
+
+.label {
+  color: var(--soft);
+  font-weight: 700;
+}
+
+/* Links to the outlets: a shade darker than the line, with the default underline. */
+.sources a {
+  color: var(--soft);
+}

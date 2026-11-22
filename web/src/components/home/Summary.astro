@@ -1,0 +1,18 @@
+---
+// "About the article": no title of its own here, the article's title is right above.
+import type { Summary } from "../../model";
+import tiles from "../../layout/tiles.module.css";
+import styles from "./Summary.module.css";
+
+interface Props {
+  summary: Summary;
+  /** Placement style (--r1.. --c3) of the cell. */
+  style?: string | null;
+}
+const { summary, style } = Astro.props;
+---
+
+<div class:list={[tiles.cell, styles.about]} style={style ?? undefined}>
+  {summary.extract && <p class={styles.text}>{summary.extract}</p>}
+  <a class={styles.link} href={summary.url}>Read on Wikipedia<span class={styles.sr}>: {summary.title}</span></a>
+</div>

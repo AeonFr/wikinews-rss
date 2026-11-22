@@ -1,0 +1,10 @@
+---
+import styles from "./SectionHeading.module.css";
+
+interface Props {
+  id: string;
+}
+const { id } = Astro.props;
+---
+
+<h2 id={id} class={styles.heading}><slot /></h2>

@@ -1,0 +1,26 @@
+---
+import Footer from "../components/Footer.astro";
+import DaySection from "../components/home/DaySection.astro";
+import Topics from "../components/home/Topics.astro";
+import Intro from "../components/Intro.astro";
+import Masthead from "../components/Masthead.astro";
+import Base from "../layouts/Base.astro";
+import { getSiteModel } from "../model/site";
+import styles from "../components/home/HomePage.module.css";
+
+const site = getSiteModel();
+const { news } = site;
+const home = site.home();
+---
+
+<Base title="Wikipedia News">
+  <Masthead heading />
+  <main class="wrap">
+    <div class={styles.content}>
+      <Intro updated={news.updated} portalUrl={news.portal.url} />
+      <Topics topics={home.topics} />
+      {home.days.map((day) => <DaySection day={day} />)}
+    </div>
+  </main>
+  <Footer retentionDays={news.retention_days} portalUrl={news.portal.url} />
+</Base>

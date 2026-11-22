@@ -7,6 +7,179 @@
  "stories": [
   {
    "article": {
+    "extract": "The Middle East is currently experiencing an ongoing series of interrelated wars, conflicts, and heightened instability, triggered by the ongoing Gaza war and the genocide in Gaza. These have primarily consisted of conflicts between Israel and the United States on one side, and Iran and militias that form the \"Axis of Resistance\", which includes such groups as Hamas, Hezbollah, and the Houthis, on the other.",
+    "title": "Middle Eastern crisis (2023–present)",
+    "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
+   },
+   "categories": [
+    "Armed conflicts and attacks"
+   ],
+   "group": "2026-11-21-334dbb8db8f2",
+   "headlines": [
+    {
+     "category": "Armed conflicts and attacks",
+     "html": "<a href=\"https://en.wikipedia.org/wiki/Gaza_Strip\">Gaza</a>'s <a href=\"https://en.wikipedia.org/wiki/Palestinian_Civil_Defence\">civil defence agency</a> reports four people killed by <a href=\"https://en.wikipedia.org/wiki/Israel\">Israeli</a> fire, including three in a <a href=\"https://en.wikipedia.org/wiki/Drone_warfare\">drone strike</a> on a <a href=\"https://en.wikipedia.org/wiki/Humanitarian_aid_during_the_Gaza_war\">food-carrying</a> vehicle in <a href=\"https://en.wikipedia.org/wiki/Gaza_City\">Gaza City</a> and one by gunfire in <a href=\"https://en.wikipedia.org/wiki/Jabalia\">Jabalia</a>. Israel says it targeted operatives.",
+     "id": "2026-11-21-b7abe738ea85",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_21&action=history",
+      "title": "Portal:Current events/2026 November 21",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_21"
+     },
+     "sources": [
+      {
+       "name": "AFP via France 24",
+       "url": "https://www.france24.com/en/live-news/20261121-gaza-civil-defence-says-israeli-fire-kills-four"
+      },
+      {
+       "name": "Reuters",
+       "url": "https://www.reuters.com/world/middle-east/israeli-strike-kills-three-vehicle-distributing-aid-gaza-witnesses-say-2026-11-21/"
+      },
+      {
+       "name": "Al Jazeera",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-sv-israel-targets-gaza-food-truck"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Middle Eastern crisis",
+       "links": [
+        {
+         "label": "Middle Eastern crisis",
+         "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
+      },
+      {
+       "label": "Gaza war",
+       "links": [
+        {
+         "label": "Gaza war",
+         "url": "https://en.wikipedia.org/wiki/Gaza_war"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Gaza_war"
+      },
+      {
+       "label": "Gaza genocide, Gaza humanitarian crisis",
+       "links": [
+        {
+         "label": "Gaza genocide",
+         "url": "https://en.wikipedia.org/wiki/Gaza_genocide"
+        },
+        {
+         "label": "Gaza humanitarian crisis",
+         "url": "https://en.wikipedia.org/wiki/Gaza_humanitarian_crisis"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Gaza_genocide"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-21-b7abe738ea85",
+   "image": {
+    "link": "https://www.france24.com/en/live-news/20261121-gaza-civil-defence-says-israeli-fire-kills-four",
+    "source": "AFP via France 24",
+    "url": "https://s.france24.com/media/display/f2fd9012-e5b6-11f1-b8cc-e56ab3dc0809/w:1280/p:16x9/008d77ccc00d0d27352953aea42a1c9af444e58f.jpg"
+   },
+   "more_articles": [
+    {
+     "extract": "The Gaza war is an armed conflict in the Gaza Strip and Israel, fought as part of the unresolved Israeli–Palestinian and Gaza–Israel conflicts. The war began on 7 October 2023, when Palestinian militant group Hamas led an attack on Israel, in which 1,195 Israelis and foreign nationals were killed and 251 were taken hostage.",
+     "title": "Gaza war",
+     "url": "https://en.wikipedia.org/wiki/Gaza_war"
+    },
+    {
+     "extract": "The Gaza genocide is the ongoing, intentional, and systematic destruction of the Palestinian people in the Gaza Strip carried out by Israel during the Gaza war. It encompasses mass killings, including the targeted killing of children (who account for 30% of those killed), deliberate starvation, infliction of serious bodily and mental harm, and prevention of births.",
+     "title": "Gaza genocide",
+     "url": "https://en.wikipedia.org/wiki/Gaza_genocide"
+    },
+    {
+     "extract": "The Gaza Strip is experiencing a humanitarian crisis as a result of the Gaza war and genocide. The crisis includes both an ongoing famine and a healthcare collapse.",
+     "title": "Gaza humanitarian crisis",
+     "url": "https://en.wikipedia.org/wiki/Gaza_humanitarian_crisis"
+    }
+   ],
+   "pub_date": "2026-11-21T23:26:18Z",
+   "title": "Gaza genocide, Gaza humanitarian crisis: Gaza's civil defence agency reports four people killed by Israeli fire, including three in a drone strike on a food-carrying vehicle in Gaza City and one by gunfire in Jabalia."
+  },
+  {
+   "article": null,
+   "categories": [
+    "Disasters and Accidents"
+   ],
+   "group": "2026-11-21-22964977c33f",
+   "headlines": [
+    {
+     "category": "Disasters and Accidents",
+     "html": "At least four people are killed and 35 others are injured in a fire at a power station in <a href=\"https://en.wikipedia.org/wiki/Basra\">Basra</a>, <a href=\"https://en.wikipedia.org/wiki/Iraq\">Iraq</a>.",
+     "id": "2026-11-21-22964977c33f",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_21&action=history",
+      "title": "Portal:Current events/2026 November 21",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_21"
+     },
+     "sources": [
+      {
+       "name": "Reuters",
+       "url": "https://www.reuters.com/business/energy/iraq-fire-basra-power-station-kills-least-four-injures-30-2026-11-21/"
+      }
+     ],
+     "topics": []
+    }
+   ],
+   "id": "2026-11-21-22964977c33f",
+   "more_articles": [],
+   "pub_date": "2026-11-21T23:26:18Z",
+   "title": "At least four people are killed and 35 others are injured in a fire at a power station in Basra, Iraq."
+  },
+  {
+   "article": {
+    "extract": "The European Union and Indonesia have built robust commercial relations, with bilateral trade amounting to approximately €25 billion in 2012 resulting in a sizeable €5.7 billion trade surplus for Indonesia with the EU. As of 2012, EU and Indonesia trade has been marked by an upward trend. Whereas total trade was worth almost €16 billion in 2009, by 2011 it had already reached €23.5 billion.",
+    "title": "Indonesia–European Union trade relations",
+    "url": "https://en.wikipedia.org/wiki/Indonesia%E2%80%93European_Union_trade_relations"
+   },
+   "categories": [
+    "International relations"
+   ],
+   "group": "2026-11-21-a51f2a9b8ece",
+   "headlines": [
+    {
+     "category": "International relations",
+     "html": "<a href=\"https://en.wikipedia.org/wiki/Indonesia\">Indonesia</a> and the <a href=\"https://en.wikipedia.org/wiki/European_Union\">European Union</a> sign trade and investment agreements that will lift 98.5% of <a href=\"https://en.wikipedia.org/wiki/Tariff\">tariffs</a> on <a href=\"https://en.wikipedia.org/wiki/Economy_of_the_European_Union\">EU goods</a>.",
+     "id": "2026-11-21-a51f2a9b8ece",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_21&action=history",
+      "title": "Portal:Current events/2026 November 21",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_21"
+     },
+     "sources": [
+      {
+       "name": "Euronews",
+       "url": "https://www.euronews.com/2026/11/21/european-union-and-indonesia-sign-free-trade-deal-after-decade-of-talks"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Indonesia–European Union trade relations",
+       "links": [
+        {
+         "label": "Indonesia–European Union trade relations",
+         "url": "https://en.wikipedia.org/wiki/Indonesia%E2%80%93European_Union_trade_relations"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Indonesia%E2%80%93European_Union_trade_relations"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-21-a51f2a9b8ece",
+   "more_articles": [],
+   "pub_date": "2026-11-21T23:26:18Z",
+   "title": "Indonesia–European Union trade relations: Indonesia and the European Union sign trade and investment agreements that will lift 98.5% of tariffs on EU goods."
+  },
+  {
+   "article": {
     "extract": "On 24 February 2022, Russia invaded Ukraine, starting the largest and deadliest war in Europe since World War II, in a major escalation of the existing war between the two countries that began when Russia attacked Ukraine in 2014. The fighting has caused hundreds of thousands of military casualties and tens of thousands of Ukrainian civilian casualties.",
     "title": "Russo-Ukrainian war (2022–present)",
     "url": "https://en.wikipedia.org/wiki/Russo-Ukrainian_war_(2022%E2%80%93present)"
@@ -79,7 +252,7 @@
    "headlines": [
     {
      "category": "Topics in the news",
-     "html": "The video game <b><a href=\"https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI\">Grand Theft Auto VI</a></b> achieves US$3.79 billion in sales within a day of its release, more than any other entertainment product in history.",
+     "html": "The video game <i><b><a href=\"https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI\">Grand Theft Auto VI</a></b></i> achieves US$3.79 billion in sales within a day of its release, more than any other entertainment product in history.",
      "id": "topic-a3163718a08b",
      "page": {
       "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events&action=history",
@@ -188,9 +361,9 @@
   },
   {
    "article": {
-    "extract": "The Yemeni civil war (Arabic: الحرب الأهلية اليمنية, romanized: al-ḥarb al-ʾahlīyah al-yamanīyah) is an ongoing multilateral civil war that began in late 2014 mainly between the Rashad al-Alimi-led Presidential Leadership Council and the Mahdi al-Mashat-led Houthi Supreme Political Council, along with their respective supporters and allies. Both sides claim to constitute the official government of Yemen while the Presidential Leadership Council is recognized by the United Nations as the official government.",
-    "title": "Yemeni civil war (2014–present)",
-    "url": "https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)"
+    "extract": "The Middle East is currently experiencing an ongoing series of interrelated wars, conflicts, and heightened instability, triggered by the ongoing Gaza war and the genocide in Gaza. These have primarily consisted of conflicts between Israel and the United States on one side, and Iran and militias that form the \"Axis of Resistance\", which includes such groups as Hamas, Hezbollah, and the Houthis, on the other.",
+    "title": "Middle Eastern crisis (2023–present)",
+    "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
    },
    "categories": [
     "Armed conflicts and attacks"
@@ -213,6 +386,16 @@
       }
      ],
      "topics": [
+      {
+       "label": "Middle Eastern crisis",
+       "links": [
+        {
+         "label": "Middle Eastern crisis",
+         "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
+      },
       {
        "label": "Yemeni civil war",
        "links": [
@@ -237,7 +420,17 @@
     }
    ],
    "id": "2026-11-21-334dbb8db8f2",
+   "image": {
+    "link": "https://www.france24.com/en/live-news/20261121-gaza-civil-defence-says-israeli-fire-kills-four",
+    "source": "AFP via France 24",
+    "url": "https://s.france24.com/media/display/f2fd9012-e5b6-11f1-b8cc-e56ab3dc0809/w:1280/p:16x9/008d77ccc00d0d27352953aea42a1c9af444e58f.jpg"
+   },
    "more_articles": [
+    {
+     "extract": "The Yemeni civil war (Arabic: الحرب الأهلية اليمنية, romanized: al-ḥarb al-ʾahlīyah al-yamanīyah) is an ongoing multilateral civil war that began in late 2014 mainly between the Rashad al-Alimi-led Presidential Leadership Council and the Mahdi al-Mashat-led Houthi Supreme Political Council, along with their respective supporters and allies. Both sides claim to constitute the official government of Yemen while the Presidential Leadership Council is recognized by the United Nations as the official government.",
+     "title": "Yemeni civil war (2014–present)",
+     "url": "https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)"
+    },
     {
      "extract": "The Houthi–Saudi conflict is an ongoing armed conflict involving the Armed Forces of Saudi Arabia and Houthi forces in Yemen and along the Saudi–Yemeni border, including parts of Asir, Jazan, and Najran in Saudi Arabia and Saada, Al-Jawf, and Hajjah in Yemen. The conflict began following the Saudi-led intervention in Yemen in 2015.",
      "title": "Houthi–Saudi conflict",
@@ -489,51 +682,6 @@
   },
   {
    "article": {
-    "extract": "On 20 November, 2026, a barge carrying a large group of funeral-goers capsized in the Nun River near the Oweikorogha Community of Bayelsa State, Nigeria. At least 30 people died, while around 300 are reported missing and 24 are rescued but injured.",
-    "title": "2026 Bayelsa boat disaster",
-    "url": "https://en.wikipedia.org/wiki/2026_Bayelsa_boat_disaster"
-   },
-   "categories": [
-    "Disasters and accidents"
-   ],
-   "group": "2026-11-20-0f0638848c56",
-   "headlines": [
-    {
-     "category": "Disasters and accidents",
-     "html": "Thirty people are killed and around 300 are missing after a ship carrying funeral goers capsizes in <a href=\"https://en.wikipedia.org/wiki/Bayelsa_State\">Bayelsa State</a>, <a href=\"https://en.wikipedia.org/wiki/Nigeria\">Nigeria</a>.",
-     "id": "2026-11-20-0f0638848c56",
-     "page": {
-      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_20&action=history",
-      "title": "Portal:Current events/2026 November 20",
-      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_20"
-     },
-     "sources": [
-      {
-       "name": "Daily Trust",
-       "url": "https://dailytrust.com/30-feared-dead-as-mourners-boat-capsizes-in-bayelsa/#google_vignette"
-      }
-     ],
-     "topics": [
-      {
-       "label": "2026 Bayelsa boat disaster",
-       "links": [
-        {
-         "label": "2026 Bayelsa boat disaster",
-         "url": "https://en.wikipedia.org/wiki/2026_Bayelsa_boat_disaster"
-        }
-       ],
-       "url": "https://en.wikipedia.org/wiki/2026_Bayelsa_boat_disaster"
-      }
-     ]
-    }
-   ],
-   "id": "2026-11-20-0f0638848c56",
-   "more_articles": [],
-   "pub_date": "2026-11-20T19:07:32Z",
-   "title": "2026 Bayelsa boat disaster: Thirty people are killed and around 300 are missing after a ship carrying funeral goers capsizes in Bayelsa State, Nigeria."
-  },
-  {
-   "article": {
     "extract": "On 24 February 2022, Russia invaded Ukraine, starting the largest and deadliest war in Europe since World War II, in a major escalation of the existing war between the two countries that began when Russia attacked Ukraine in 2014. The fighting has caused hundreds of thousands of military casualties and tens of thousands of Ukrainian civilian casualties.",
     "title": "Russo-Ukrainian war (2022–present)",
     "url": "https://en.wikipedia.org/wiki/Russo-Ukrainian_war_(2022%E2%80%93present)"
@@ -653,6 +801,86 @@
    ],
    "pub_date": "2026-11-20T15:34:54Z",
    "title": "2026 Italian unrest: A general strike is held in Italy, with protests in multiple cities across the country."
+  },
+  {
+   "article": {
+    "extract": "On 20 November, 2026, a barge carrying a large group of funeral-goers capsized in the Nun River near the Oweikorogha Community of Bayelsa State, Nigeria. At least 50 people died, while around 300 are reported missing and 24 are rescued but injured.",
+    "title": "2026 Bayelsa boat disaster",
+    "url": "https://en.wikipedia.org/wiki/2026_Bayelsa_boat_disaster"
+   },
+   "categories": [
+    "Disasters and accidents"
+   ],
+   "group": "2026-11-20-f1ead4e43d5f",
+   "headlines": [
+    {
+     "category": "Disasters and accidents",
+     "html": "Twenty-four people are killed and 24 more are rescued after a ship carrying funeral goers capsizes in <a href=\"https://en.wikipedia.org/wiki/Bayelsa_State\">Bayelsa State</a>, <a href=\"https://en.wikipedia.org/wiki/Nigeria\">Nigeria</a>.",
+     "id": "2026-11-20-f1ead4e43d5f",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_20&action=history",
+      "title": "Portal:Current events/2026 November 20",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_20"
+     },
+     "sources": [
+      {
+       "name": "Arab News",
+       "url": "https://www.arabnews.com/world/24-dead-in-nigeria-when-boat-capsizes-while-carrying-people-to-a-funeral-3013419"
+      }
+     ],
+     "topics": [
+      {
+       "label": "2026 Bayelsa boat disaster",
+       "links": [
+        {
+         "label": "2026 Bayelsa boat disaster",
+         "url": "https://en.wikipedia.org/wiki/2026_Bayelsa_boat_disaster"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/2026_Bayelsa_boat_disaster"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-20-f1ead4e43d5f",
+   "more_articles": [],
+   "pub_date": "2026-11-20T00:00:00Z",
+   "title": "2026 Bayelsa boat disaster: Twenty-four people are killed and 24 more are rescued after a ship carrying funeral goers capsizes in Bayelsa State, Nigeria."
+  },
+  {
+   "article": null,
+   "categories": [
+    "Law and crime"
+   ],
+   "group": "2026-11-20-0663b07521e0",
+   "headlines": [
+    {
+     "category": "Law and crime",
+     "html": "Former ship captain <a href=\"https://en.wikipedia.org/wiki/Francesco_Schettino\">Francesco Schettino</a> of the <a href=\"https://en.wikipedia.org/wiki/Costa_Concordia_disaster\">former</a> <a href=\"https://en.wikipedia.org/wiki/Costa_Concordia\">Costa Concordia</a> cruise ship is released from prison after nine years.",
+     "id": "2026-11-20-0663b07521e0",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_20&action=history",
+      "title": "Portal:Current events/2026 November 20",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_20"
+     },
+     "sources": [
+      {
+       "name": "Euronews",
+       "url": "https://www.euronews.com/2026/11/21/former-costa-concordia-cruise-ship-captain-released-from-prison-on-probation-after-nine-ye"
+      }
+     ],
+     "topics": []
+    }
+   ],
+   "id": "2026-11-20-0663b07521e0",
+   "image": {
+    "link": "https://www.euronews.com/2026/11/21/former-costa-concordia-cruise-ship-captain-released-from-prison-on-probation-after-nine-ye",
+    "source": "Euronews",
+    "url": "https://images.euronews.com/articles/stories/10/00/25/38/1200x675_cmsv2_cb58d451-a981-5da6-8532-b36cb3d35ea3-10002538.jpg"
+   },
+   "more_articles": [],
+   "pub_date": "2026-11-20T00:00:00Z",
+   "title": "Former ship captain Francesco Schettino of the former Costa Concordia cruise ship is released from prison after nine years."
   },
   {
    "article": {
@@ -12874,6 +13102,11 @@
     }
    ],
    "id": "2026-11-06-e7dfc0a125be",
+   "image": {
+    "link": "https://www.france24.com/en/live-news/20261106-tanzania-opposition-leader-avoids-death-penalty-in-treason-trial",
+    "source": "AFP via France 24",
+    "url": "https://s.france24.com/media/display/83204d7c-d9ca-11f1-9548-1beafce15fea/w:1280/p:16x9/dc57ed6b1279cd6abdbcf86cb7234e185c745c75.jpg"
+   },
    "more_articles": [],
    "pub_date": "2026-11-06T00:00:00Z",
    "title": "The High Court of Tanzania acquits Chadema chairperson Tundu Lissu of treason but sentences him to four years in prison for incitement related to statements opposing the 2025 general election results."
@@ -13808,9 +14041,9 @@
    ],
    "id": "2026-11-04-e42ef0927743",
    "image": {
-    "link": "https://www.hindustantimes.com/world-news/us-news/youtuber-edp445-bryant-moreland-arrested-in-las-vegas-over-alleged-sex-crimes-involving-a-minor-101793832237507.html",
-    "source": "The Hindustan Times",
-    "url": "https://www.hindustantimes.com/ht-img/img/2026/11/04/1600x900/logo/theinfamousedp_1793832827558_E23O_1793832835159_pLcG_ab59f0c7-4254-455d-8568-cc12956d5bf7_TDr8.png"
+    "link": "https://www.nytimes.com/2026/11/06/us/edp445-youtuber-arrested-sex-crimes.html",
+    "source": "The New York Times",
+    "url": "https://static01.nyt.com/images/2026/11/05/multimedia/05xp-youtube-arrest/05xp-youtube-arrest-facebookJumbo.jpg"
    },
    "more_articles": [],
    "pub_date": "2026-11-04T00:00:00Z",
@@ -21459,6 +21692,11 @@
     }
    ],
    "id": "2026-10-24-194b801f1b84",
+   "image": {
+    "link": "https://www.pna.gov.ph/article/5-dead-in-sorsogon-public-market-fire",
+    "source": "PNA",
+    "url": "https://pna.gov.ph/_assets/storage/photo-assets/8KpX7fb8Uzeltz8sXGJ6zb4TyvqcbNV5iXSin7Jl.webp"
+   },
    "more_articles": [],
    "pub_date": "2026-10-24T00:00:00Z",
    "title": "Five people are killed in a fire at the market place of Sorsogon City, Philippines."
@@ -21697,6 +21935,11 @@
     }
    ],
    "id": "2026-10-24-ff3f6079ed2e",
+   "image": {
+    "link": "https://www.euronews.com/2026/10/25/100-arrested-after-night-of-unrest-and-looting-in-barcelona",
+    "source": "Euronews",
+    "url": "https://images.euronews.com/articles/stories/09/96/62/13/1200x675_cmsv2_4bc54c81-757a-5e9f-b26f-f866a45e53c1-9966213.jpg"
+   },
    "more_articles": [],
    "pub_date": "2026-10-24T00:00:00Z",
    "title": "2026 European unrest: A student protest in Barcelona, Spain, ends in riots, looting and clashes with the police, resulting in 128 arrests. / At least 25,000 people gather in Madrid, Spain, in support of the country's state pension fund amid the general election in November. / A student protest in Barcelona, Spain, ends in riots, looting and clashes with the police."
@@ -21943,6 +22186,11 @@
     }
    ],
    "id": "2026-10-24-a32248c90a4d",
+   "image": {
+    "link": "https://smilefm.co.za/anti-gang-unit-deployed-in-lavender-hill-after-five-killed-three-wounded/",
+    "source": "Smile 90.4FM",
+    "url": "https://smilefm.co.za/wp-content/uploads/2024/02/credit-saps.jpg"
+   },
    "more_articles": [],
    "pub_date": "2026-10-24T00:00:00Z",
    "title": "Five people are killed and three more are injured in a suspected gang-related mass shooting at a residence in Lavender Hill, Cape Flats, South Africa."
@@ -22042,6 +22290,11 @@
     }
    ],
    "id": "2026-10-24-c7b5c89e1a22",
+   "image": {
+    "link": "https://www.france24.com/en/france/20261024-live-hundreds-of-protests-expected-in-france-amid-high-tensions-and-heavy-police-presence#post=U0UXw9tBzJKh9utyIIRy",
+    "source": "France 24",
+    "url": "https://s.france24.com/media/display/4e2c2ad4-cfd7-11f1-828f-4d317af013fd/w:1280/p:16x9/000-D4BG2Q9.jpg"
+   },
    "more_articles": [],
    "pub_date": "2026-10-24T00:00:00Z",
    "title": "2026 French fuel protests: Rioters in Paris attack police with projectiles, but are dispersed with tear gas and water cannons. / About 110,000 protesters march in Paris, France. / The Yellow vests hold a second wave of mass demonstrations across France."
@@ -22205,6 +22458,11 @@
     }
    ],
    "id": "2026-10-24-f43218abc143",
+   "image": {
+    "link": "https://www.aljazeera.com/news/2026/10/24/thousands-of-israelis-rally-against-netanyahu-govt-days-before-election",
+    "source": "Al Jazeera",
+    "url": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6adceee49503-1792863972.jpg?resize=1920%2C1440"
+   },
    "more_articles": [],
    "pub_date": "2026-10-24T00:00:00Z",
    "title": "Thousands of Israelis rally in Hostages Square in Tel Aviv to protest against the government, prime minister Benjamin Netanyahu's cabinet, and the continuation of the Gaza war."
@@ -22235,6 +22493,11 @@
     }
    ],
    "id": "2026-10-23-bf2a548c1181",
+   "image": {
+    "link": "https://www.dawn.com/news/2039703",
+    "source": "AFP via Dawn",
+    "url": "https://i.dawn.com/large/2025/10/0108055090ad828.webp"
+   },
    "more_articles": [],
    "pub_date": "2026-10-23T00:00:00Z",
    "title": "Protesters clash with police in Arunachal Pradesh, India, over the proposed Upper Siang Hydroelectric Project, injuring about 40 officers and damaging a police station, government buildings, and…"
@@ -22308,6 +22571,11 @@
     }
    ],
    "id": "2026-10-23-63a0d7fc7d4c",
+   "image": {
+    "link": "https://www.themoscowtimes.com/2026/10/24/russia-ukraine-agree-on-ceasefire-in-embattled-oleshky-plan-new-peace-talks-next-month-a94069",
+    "source": "The Moscow Times",
+    "url": "https://static.themoscowtimes.com/image/og/fb/94069__fb6e1c3d99508226efb95aded5dfb58c.jpg"
+   },
    "more_articles": [],
    "pub_date": "2026-10-23T00:00:00Z",
    "title": "Peace negotiations in the Russo-Ukrainian war, Blockade of Oleshky, United States and the Russo-Ukrainian war: Russia and Ukraine confirm the ceasefire agreement for Oleshky, with Ukrainian president Volodymyr Zelenskyy stating that peace talks will begin next month. / The U.S. government says that Russia and Ukraine reached a humanitarian ceasefire agreement in Oleshky brokered by U.S. first lady Melania Trump."
@@ -22489,6 +22757,11 @@
     }
    ],
    "id": "2026-10-23-ae82be5b60bd",
+   "image": {
+    "link": "https://www.aljazeera.com/news/2026/10/23/israel-arrests-36-palestinians-in-the-west-bank-attacks-on-farmers-ramp-up",
+    "source": "Al Jazeera",
+    "url": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6adb011175c4-1792737553.jpg?resize=1920%2C1440"
+   },
    "more_articles": [],
    "pub_date": "2026-10-23T00:00:00Z",
    "title": "2026 West Bank lockdown: The Israeli government orders the military to prepare for a complete lockdown of the West Bank. / Israeli forces launch a multi-day operation around Hebron in the occupied West Bank, conducting searches, questioning suspects, and demolishing structures after Palestinian gunmen killed two Israeli…"
@@ -22717,6 +22990,11 @@
     }
    ],
    "id": "2026-10-23-bf1b8a0c7765",
+   "image": {
+    "link": "https://www.dw.com/en/hitlers-eagles-nest-retreat-catches-fire-police-say/a-79747820",
+    "source": "DW",
+    "url": "https://static.dw.com/image/79754223_6.jpg"
+   },
    "more_articles": [],
    "pub_date": "2026-10-23T00:00:00Z",
    "title": "The Eagle's Nest in Germany is destroyed in a fire."
@@ -22786,6 +23064,11 @@
     }
    ],
    "id": "2026-10-23-3116d2e567a8",
+   "image": {
+    "link": "https://onefootball.com/en/news/lionel-messi-wins-the-princess-of-asturias-award-43661225",
+    "source": "OneFootball",
+    "url": "https://photobooth-api.onefootball.com/api/screenshot/%2Fv2%2Fphotobooth%2Fcms%2Fen%2F43661225%3Fdate=2026-11-21"
+   },
    "more_articles": [],
    "pub_date": "2026-10-23T00:00:00Z",
    "title": "Argentine football player Lionel Messi is awarded the 2026 Princess of Asturias Award for Sports for his career at FC Barcelona in Catalonia, Spain."
@@ -23376,6 +23659,11 @@
     }
    ],
    "id": "2026-10-22-c3e48bc0d97f",
+   "image": {
+    "link": "https://www.france24.com/en/live-news/20261022-finland-grants-licence-for-world-s-first-nuclear-waste-repository",
+    "source": "AFP via France 24",
+    "url": "https://s.france24.com/media/display/c7647852-ce33-11f1-8214-7967b15eed96/w:1280/p:16x9/e6e3c9410d6e881fd5a06a8a333ebbda7d4ae80b.jpg"
+   },
    "more_articles": [],
    "pub_date": "2026-10-22T00:00:00Z",
    "title": "The Finnish Government grants Posiva an operating license for the Onkalo spent nuclear fuel repository in Eurajoki, making it the world's first licensed deep geological disposal facility for spent…"
@@ -23523,6 +23811,11 @@
     }
    ],
    "id": "2026-10-22-f8da5528f053",
+   "image": {
+    "link": "https://www.france24.com/en/live-news/20261022-marathon-star-aga-banned-six-years-for-doping-and-misleading-investigation",
+    "source": "AFP via France 24",
+    "url": "https://s.france24.com/media/display/52660e3c-ce3b-11f1-96ba-3f59e19fd7f8/w:1280/p:16x9/537047a9d3a7dfa852007b34672efd582b04e724.jpg"
+   },
    "more_articles": [],
    "pub_date": "2026-10-22T00:00:00Z",
    "title": "The Athletics Integrity Unit bans Ethiopian marathon runner Ruti Aga for six years after she tested positive for methylprednisolone and submitted false information and a forged prescription during an…"
@@ -24434,5 +24727,5 @@
    "title": "2026 U.S. Open Cup final: In association football, St. Louis City SC defeats Columbus Crew in a penalty shoot-out to win the U.S. Open Cup, earning the club its first trophy since beginning play in 2023."
   }
  ],
- "updated": "2026-11-21T18:49:53Z"
+ "updated": "2026-11-21T23:26:18Z"
 }

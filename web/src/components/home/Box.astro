@@ -1,0 +1,20 @@
+---
+import type { Box } from "../../model";
+import BoxBody from "./BoxBody.astro";
+import { boxLayoutStyles } from "./layout";
+import styles from "./Box.module.css";
+
+interface Props {
+  box: Box;
+}
+const { box } = Astro.props;
+const layout = boxLayoutStyles(box, box.image !== null);
+const headingId = `box-${box.id}`;
+---
+
+<article aria-labelledby={headingId}>
+  <h3 id={headingId} class={styles.title}>
+    {box.titleHref ? <a class="go" href={box.titleHref}>{box.title}</a> : box.title}
+  </h3>
+  <BoxBody content={box} layout={layout} image={box.image} level={4} />
+</article>

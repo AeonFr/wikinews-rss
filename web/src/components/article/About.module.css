@@ -1,0 +1,73 @@
+.about {
+  margin-top: 2.5rem;
+}
+
+/* Beside the entries, the column starts at the top of the page, level with the date, and a hairline stands in the gap before it. */
+@media (min-width: 62rem) {
+  .about {
+    margin-top: 0;
+    margin-left: -1.25rem;
+    padding-left: calc(1.25rem - 1px);
+    border-left: var(--w-hair) solid var(--line);
+  }
+}
+
+.label {
+  margin: 0 0 0.9rem;
+  padding: 0 0 0.35rem;
+  border-bottom: var(--w-hair) solid var(--rule);
+  color: var(--fg);
+  font: 700 1.25rem/1.25 var(--serif);
+  letter-spacing: -0.005em;
+}
+
+/* The article's name, when the page has no title of its own (a Wikipedia link: its underline comes from global.css). */
+.articleTitle {
+  margin: 0 0 0.5rem;
+  color: var(--fg);
+  font: 700 1.125rem/1.35 var(--serif);
+  overflow-wrap: anywhere;
+}
+
+/* Descriptive text, not a link as a whole: sans, ink-soft (links inside follow the global rules). */
+.text {
+  margin: 0 0 0.85rem;
+  color: var(--soft);
+  font: 400 1.125rem/1.6 var(--sans);
+  overflow-wrap: anywhere;
+}
+
+/* A Wikipedia link (underline comes from global.css); set in the sans of the text above it. */
+.link {
+  display: inline-block;
+  margin-top: 0.25rem;
+  font: 400 1rem/1.4 var(--sans);
+}
+
+/* The infobox map: as wide as it is, never wider than the column, same aspect ratio. No hover effect. */
+.mapLink {
+  display: block;
+  margin: 0.4rem 0 0.75rem;
+  line-height: 0;
+}
+
+.map {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: var(--w-hair) solid var(--line);
+}
+
+/* "Location" is a small label (like the other labels), then the infobox's text. */
+.location {
+  margin: 0 0 0.75rem;
+  color: var(--soft);
+  font: 400 1rem/1.5 var(--sans);
+  overflow-wrap: anywhere;
+}
+
+.locationLabel {
+  margin-right: 0.35em;
+  color: var(--soft);
+  font: var(--label);
+}

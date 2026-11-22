@@ -1,0 +1,10 @@
+/* A section of the article page: a serif subhead over a hairline in ink. */
+.heading {
+  margin: 0 0 1rem;
+  padding: 0 0 0.35rem;
+  border-bottom: var(--w-hair) solid var(--rule);
+  color: var(--fg);
+  font: 700 1.25rem/1.25 var(--serif);
+  letter-spacing: -0.005em;
+  overflow-wrap: anywhere;
+}

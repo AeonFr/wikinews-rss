@@ -1,0 +1,21 @@
+---
+import type { HomeEntry } from "../../model";
+import EntryList from "./EntryList.astro";
+import styles from "./Topics.module.css";
+
+interface Props {
+  topics: HomeEntry[];
+}
+const { topics } = Astro.props;
+---
+
+{
+  topics.length > 0 && (
+    <section class={styles.topics} aria-labelledby="topics-heading">
+      <h2 id="topics-heading" class={styles.heading}>
+        Topics in the news
+      </h2>
+      <EntryList entries={topics} size="large" label="Topics in the news" first />
+    </section>
+  )
+}

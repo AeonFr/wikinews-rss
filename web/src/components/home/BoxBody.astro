@@ -1,0 +1,46 @@
+---
+/**
+ * The inside of a box or of a group: an optional image, the "About the article" column, the loose entries
+ * and the sub-groups, each placed on the grid by the build-time layout. Renders itself for sub-groups.
+ */
+import tiles from "../../layout/tiles.module.css";
+import type { BoxStyles } from "../../layout";
+import type { BoxContent, ModelImage } from "../../model";
+import HomeImage from "./HomeImage.astro";
+import Summary from "./Summary.astro";
+import { entryId, groupId, withoutLinks } from "./layout";
+import styles from "./BoxBody.module.css";
+
+interface Props {
+  content: BoxContent;
+  layout: BoxStyles;
+  image?: ModelImage | null;
+  /** Heading level of the titles of the groups in it. */
+  level: number;
+}
+const { content, layout, image = null, level } = Astro.props;
+const Title = `h${Math.min(level, 6)}` as "h4";
+---
+
+<div class:list={[tiles.grid, styles.body, level === 4 && styles.root]} style={layout.grid || undefined}>
+  {image && layout.image && <HomeImage image={image} class={[tiles.cell, tiles.hideable]} style={layout.image} />}
+  {content.summary && <Summary summary={content.summary} style={layout.summary} />}
+  {
+    content.entries.map((entry, i) => (
+      <div class={tiles.cell} style={layout.items[entryId(i)]}>
+        {entry.context && <p class={styles.label}>{entry.context}</p>}
+        <p class={styles.text}>
+          <a class="go" href={entry.href} set:html={withoutLinks(entry.html)} />
+        </p>
+      </div>
+    ))
+  }
+  {
+    content.groups.map((group, i) => (
+      <section class:list={[tiles.cell, group.showDivider && styles.divided]} style={layout.items[groupId(i)]}>
+        <Title class:list={[styles.label, styles.groupTitle]}>{group.title}</Title>
+        <Astro.self content={group} layout={layout.groups[groupId(i)]} level={level + 1} />
+      </section>
+    ))
+  }
+</div>

@@ -1,0 +1,4 @@
+/* Vertical space of the home page's content (the horizontal gutter comes from the global `.wrap`). */
+.content {
+  padding-block: 1.75rem 3rem;
+}

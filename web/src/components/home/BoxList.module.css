@@ -1,0 +1,25 @@
+/*
+ * A day's boxes: one per row (each is a full row). A box has no card behind it: its title, the rule at the
+ * left of "About the article" and the dividers between its groups hold it together, and a hairline in ink
+ * above it separates it from what comes before (the previous box, the portal entries). Under the day's
+ * heading (`.first`, the first block of the day) the heading's own rule is the only line, so the first box
+ * has none and no padding.
+ */
+.list {
+  display: grid;
+  gap: 1.75rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  min-width: 0;
+  padding-top: 0.85rem;
+  border-top: var(--w-hair) solid var(--rule);
+}
+
+.first .item:first-child {
+  padding-top: 0;
+  border-top-width: 0;
+}

@@ -1,0 +1,22 @@
+---
+import type { Box as BoxModel } from "../../model";
+import Box from "./Box.astro";
+import styles from "./BoxList.module.css";
+
+interface Props {
+  boxes: BoxModel[];
+  /** The list sits right under the day's heading, which has its own rule: the first box gets no line of its own. */
+  first?: boolean;
+}
+const { boxes, first = false } = Astro.props;
+---
+
+<ul class:list={[styles.list, first && styles.first]} aria-label="Stories with several entries">
+  {
+    boxes.map((box) => (
+      <li class={styles.item}>
+        <Box box={box} />
+      </li>
+    ))
+  }
+</ul>

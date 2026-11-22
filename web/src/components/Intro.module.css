@@ -1,0 +1,24 @@
+/* The deck under the nameplate: a centred lead, then the small print in the sans. */
+.about {
+  max-width: 42rem;
+  margin: 0 auto 2.75rem;
+  text-align: center;
+}
+
+.intro {
+  margin: 0 0 var(--space-3);
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.note {
+  margin: var(--space-1) 0;
+  color: var(--muted);
+  font: 0.8125rem/1.55 var(--sans);
+}
+
+/* The dateline: the last note is the "Last updated" line. */
+.note:last-of-type {
+  margin-top: var(--space-3);
+  font-weight: 600;
+}

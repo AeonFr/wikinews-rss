@@ -1,0 +1,91 @@
+/*
+ * Column layout: the CSS half of the build-time layout (see README.md).
+ * The tile placements are computed at build time for 1, 2 and 3 columns and written as inline custom
+ * properties (--r1 --c1 --h1, --r2 ..., --r3 ...; --k1 --k2 --k3 on a grid container whose number of
+ * columns is not the page's). The breakpoints (40rem, 62rem) are BREAKPOINTS_REM in types.ts.
+ */
+
+/* A grid container. Row and column gaps: set --gap-y / --gap-x on it (or an ancestor) to change them. */
+.grid {
+  --k1: 1;
+  --k2: 2;
+  --k3: 3;
+  display: grid;
+  grid-template-columns: repeat(var(--k1), minmax(0, 1fr));
+  gap: var(--gap-y, 1.75rem) var(--gap-x, 2.5rem);
+}
+
+/* A tile placed by the build: a direct child of a .grid with a `style` from placementStyle(). */
+.cell {
+  grid-row: var(--r1);
+  grid-column: var(--c1);
+  /* 1 when the tile starts in its list's first row at this width, else 0 (--tN comes from listStyles). */
+  --top: var(--t1);
+  min-width: 0;
+}
+
+/* A tile that can be hidden at some number of columns (the image of a box): also has class .cell. */
+.hideable {
+  --h1: initial;
+  --h2: initial;
+  --h3: initial;
+  display: var(--h1, block);
+}
+
+@media (min-width: 40rem) {
+  .grid {
+    grid-template-columns: repeat(var(--k2), minmax(0, 1fr));
+  }
+  .cell {
+    grid-row: var(--r2);
+    grid-column: var(--c2);
+    --top: var(--t2);
+  }
+  .hideable {
+    display: var(--h2, block);
+  }
+}
+
+@media (min-width: 62rem) {
+  .grid {
+    grid-template-columns: repeat(var(--k3), minmax(0, 1fr));
+  }
+  .cell {
+    grid-row: var(--r3);
+    grid-column: var(--c3);
+    --top: var(--t3);
+  }
+  .hideable {
+    display: var(--h3, block);
+  }
+}
+
+/*
+ * A full-row tile with an image (a portal entry or topic): the image is the first column, the text the
+ * others. It is its own grid with the page's number of columns; stacked (under 40rem) image, then text.
+ */
+.withImage {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  column-gap: var(--gap-x, 2.5rem);
+  align-items: start;
+}
+.withImageText {
+  min-width: 0;
+}
+@media (min-width: 40rem) {
+  .withImage {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .withImageImage {
+    grid-column: 1;
+  }
+  .withImageText {
+    grid-column: 2 / -1;
+  }
+}
+@media (min-width: 62rem) {
+  .withImage {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

@@ -1,0 +1,43 @@
+---
+import type { Outlet } from "../../model";
+import { outletLinkLabel } from "./text";
+import styles from "./SourcesLine.module.css";
+
+interface Props {
+  outlets: Outlet[];
+}
+const { outlets } = Astro.props;
+---
+
+{
+  outlets.length > 0 && (
+    <p class={styles.sources}>
+      <span class={styles.label}>Sources:</span>{" "}
+      {outlets.map((outlet, i) => (
+        <>
+          {i > 0 && ", "}
+          {outlet.links.length === 0 ? (
+            outlet.name
+          ) : outlet.links.length === 1 ? (
+            <a href={outlet.links[0].url} rel="noopener">
+              {outlet.name}
+            </a>
+          ) : (
+            <>
+              {outlet.name} (
+              {outlet.links.map((link, j) => (
+                <>
+                  {j > 0 && ", "}
+                  <a href={link.url} rel="noopener" aria-label={outletLinkLabel(outlet, link.number ?? j + 1)}>
+                    {link.number}
+                  </a>
+                </>
+              ))}
+              )
+            </>
+          )}
+        </>
+      ))}
+    </p>
+  )
+}

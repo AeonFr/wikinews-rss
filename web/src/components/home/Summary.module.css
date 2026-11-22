@@ -1,0 +1,29 @@
+/* "About the article": a quieter note set off by a rule at its left edge. */
+.about {
+  padding-left: 0.85rem;
+  border-left: var(--w-rule) solid var(--divider);
+  color: var(--soft);
+  font: 400 1rem/1.55 var(--sans); /* descriptive text, not a link as a whole: sans */
+}
+
+.text {
+  margin: 0 0 0.5rem;
+}
+
+/* A Wikipedia link: the underline comes from global.css; the font is the summary's. */
+.link {
+  font-size: 0.9375rem;
+  line-height: 1.4;
+}
+
+/* Visually hidden, read by screen readers: says which article the link is about. */
+.sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}

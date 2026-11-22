@@ -1,0 +1,33 @@
+---
+import { formatDay } from "../../data/days";
+import type { Crumb } from "../../model";
+import styles from "./Kicker.module.css";
+
+interface Props {
+  day: string;
+  crumbs: Crumb[];
+  categories: string[];
+}
+const { day, crumbs, categories } = Astro.props;
+---
+
+<div class={styles.kicker}>
+  <time datetime={day}>{formatDay(day)}</time>
+  {
+    crumbs.length > 0 ? (
+      <nav aria-label="Broader articles" class={styles.crumbs}>
+        <ol>
+          {crumbs.map((crumb) => (
+            <li>{crumb.href ? <a href={crumb.href}>{crumb.label}</a> : crumb.label}</li>
+          ))}
+        </ol>
+      </nav>
+    ) : categories.length > 0 ? (
+      <ul class={styles.chips} aria-label="Categories">
+        {categories.map((category) => (
+          <li>{category}</li>
+        ))}
+      </ul>
+    ) : null
+  }
+</div>

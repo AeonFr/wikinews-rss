@@ -1,0 +1,57 @@
+---
+import type { About } from "../../model";
+import { paragraphs } from "./text";
+import styles from "./About.module.css";
+
+interface Props {
+  about: About;
+  /** Name the article above its summary: the page has no title of its own (the entry's article is its highlighted link). */
+  showTitle?: boolean;
+}
+const { about, showTitle = false } = Astro.props;
+---
+
+{/* An entry straight from the portal with no article and no highlighted link has nothing to describe, and its day is already linked in "From ..." under the entries: no column at all. */}
+{
+  about.kind === "article" && (
+    <aside class={styles.about} data-column="side" aria-labelledby="about-heading">
+      <h2 id="about-heading" class={styles.label}>
+        About the article
+      </h2>
+      {showTitle && (
+        <p class={styles.articleTitle}>
+          <a href={about.summary.url} rel="noopener">
+            {about.summary.title}
+          </a>
+        </p>
+      )}
+      {paragraphs(about.summary.extract).map((text) => (
+        <p class={styles.text}>{text}</p>
+      ))}
+      {about.map && (
+        <a class={styles.mapLink} href={about.summary.url} rel="noopener">
+          {/* Wikimedia's static map, hotlinked. Default referrer policy on purpose (no referrerpolicy="no-referrer"):
+              the site may only serve the image with a Referer, and strict-origin-when-cross-origin sends just our origin. */}
+          <img
+            class={styles.map}
+            src={about.map.url}
+            srcset={about.map.url2x ? `${about.map.url2x} 2x` : undefined}
+            width={about.map.width}
+            height={about.map.height}
+            alt={about.map.alt}
+            loading="lazy"
+            decoding="async"
+          />
+        </a>
+      )}
+      {about.location && (
+        <p class={styles.location}>
+          <span class={styles.locationLabel}>Location</span> {about.location}
+        </p>
+      )}
+      <a class={styles.link} href={about.summary.url} rel="noopener">
+        Read on Wikipedia
+      </a>
+    </aside>
+  )
+}

@@ -1,0 +1,40 @@
+/* A group's entries sit closer together than the groups are from each other. */
+.body {
+  --gap-y: 0.75rem;
+  --gap-x: 2.5rem;
+}
+
+/* The box's own grid (level 4 is the box's groups' title level). */
+.root {
+  --gap-y: 1rem;
+}
+
+/* The context of an entry (the sub-topic it was under): a small label, as on the single tiles. */
+.label {
+  margin: 0 0 0.3rem;
+  color: var(--soft);
+  font: var(--label);
+  overflow-wrap: anywhere;
+}
+
+/* The title of a group: a bold serif in ink, so it reads as a sub-head, above the small labels. */
+.groupTitle {
+  margin: 0 0 0.5rem;
+  color: var(--fg);
+  font: 700 1.125rem/1.35 var(--serif);
+  overflow-wrap: anywhere;
+}
+
+/* A thin line sets a group apart from what comes before it in the box (never the first thing in it). */
+.divided {
+  padding-top: 1rem;
+  border-top: var(--w-hair) solid var(--divider);
+}
+
+/* The entry text is an internal link (ink, no underline: global rule), a little larger than a plain text. */
+.text {
+  margin: 0;
+  font-size: 1.3125rem;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+}

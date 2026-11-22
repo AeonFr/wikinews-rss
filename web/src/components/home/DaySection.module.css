@@ -1,0 +1,51 @@
+/*
+ * A day. The heading is sticky: it stays at the top of the screen while its day is on it and the next day's
+ * heading pushes it away (the section ends where the day does). Nothing between the heading and the section
+ * (no `overflow`, no `contain`) may be a scroll container, or `sticky` would stop working.
+ */
+.day {
+  padding-bottom: 3.5rem;
+}
+
+/* The date is a serif headline on a paper strip with a 2px ink rule under it. */
+.heading {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  margin: 0;
+  padding: 0.65rem 0 0.5rem;
+  border-bottom: var(--w-rule) solid var(--rule);
+  background: var(--bg); /* opaque: what scrolls under it must not show through */
+  color: var(--fg);
+  font: 700 1.3125rem/1.3 var(--serif);
+  letter-spacing: -0.005em;
+  text-wrap: nowrap;
+}
+
+.block {
+  margin-top: 1.75rem;
+}
+
+/*
+ * One line wherever two would meet. A day's lists (portal entries, boxes, tiles; any may be missing) are
+ * separated by the hairline above their first row, 1.75rem below what precedes them. The first list sits
+ * right under the heading's 2px rule, so it gets a smaller margin and no line of its own (its `first` prop:
+ * EntryList drops the line of the tiles that start in row 1 at the current width, BoxList that of the first box).
+ */
+.block.first {
+  margin-top: 1.25rem;
+}
+
+@media (max-width: 39.999rem) {
+  /* The rule of the heading runs to the screen edges; the text keeps the page's gutter. */
+  .heading {
+    margin-inline: calc(-1 * var(--gutter));
+    padding-inline: var(--gutter);
+    font-size: 1.1875rem;
+    text-wrap: wrap;
+  }
+
+  .block {
+    margin-top: 1.5rem;
+  }
+}

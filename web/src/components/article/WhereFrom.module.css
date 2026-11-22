@@ -1,0 +1,10 @@
+.where {
+  margin-top: 0.5rem;
+  color: var(--muted);
+  font: 0.8125rem/1.55 var(--sans);
+  overflow-wrap: anywhere;
+}
+
+.where p {
+  margin: 0.15rem 0;
+}

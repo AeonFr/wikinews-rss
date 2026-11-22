@@ -1,0 +1,13 @@
+/*
+ * The box of several entries about one article. No tint and no frame of its own: the line above it is
+ * BoxList's, and the vertical rule of the summary and the dividers between groups (BoxBody) group the content.
+ */
+.title {
+  margin: 0 0 1rem;
+  color: var(--fg);
+  font: 700 clamp(1.375rem, 2.6vw, 1.75rem) / 1.15 var(--serif);
+  letter-spacing: -0.005em;
+  overflow-wrap: anywhere;
+}
+
+/* When it links to the article's page it is an internal link: ink, no underline (global rule). */

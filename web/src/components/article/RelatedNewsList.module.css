@@ -1,0 +1,32 @@
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 6rem minmax(0, 1fr);
+  column-gap: 0.75rem;
+  align-items: baseline;
+  margin: 0 0 1rem;
+}
+
+.item:last-child {
+  margin-bottom: 0;
+}
+
+/* The subheader style (global `--label`), in a column of its own so the dates line up. */
+.date {
+  color: var(--soft);
+  font: var(--label);
+  white-space: nowrap;
+}
+
+/* On a narrow screen the date goes above its entries instead of taking a column from them. */
+@media (max-width: 30rem) {
+  .item {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 0.15rem;
+  }
+}

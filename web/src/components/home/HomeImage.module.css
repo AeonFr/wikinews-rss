@@ -1,0 +1,25 @@
+/*
+ * The image keeps its own aspect ratio: never cropped, no fixed frame. The link has no `display` of its
+ * own: it is always a grid item (blockified), and a box's image takes `display` from the layout (hidden).
+ */
+.image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  /* A hairline inside the edge keeps pale pictures from dissolving into the paper. */
+  outline: var(--w-hair) solid color-mix(in srgb, var(--fg) 12%, transparent);
+  outline-offset: -1px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .image img {
+    filter: brightness(0.92);
+  }
+}
+
+/* Full-bleed on a phone: the page's gutter is cancelled. */
+@media (max-width: 39.999rem) {
+  .image {
+    margin-inline: calc(-1 * var(--gutter));
+  }
+}

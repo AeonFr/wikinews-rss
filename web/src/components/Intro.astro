@@ -1,0 +1,34 @@
+---
+import { formatMomentUtc } from "../data/days";
+import styles from "./Intro.module.css";
+
+interface Props {
+  /** ISO UTC timestamp of the last update. */
+  updated: string;
+  portalUrl: string;
+}
+const { updated, portalUrl } = Astro.props;
+---
+
+<section class={styles.about} aria-label="About this site">
+  <p class={styles.intro}>
+    News from Wikipedia’s <a href={portalUrl}>Current events portal</a>. As editors add entries to any day, they appear here.
+  </p>
+  <p class={styles.note}>
+    Unofficial project, not affiliated with the Wikimedia Foundation. Text from Wikipedia contributors, available under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.
+  </p>
+  <p class={styles.note}>
+    Last updated <time id="updated-time" datetime={updated}>{formatMomentUtc(updated)}</time>.
+  </p>
+  <!-- The only JavaScript of the site: shows the UTC time above in the visitor's time zone. -->
+  <script is:inline>
+    (function () {
+      var t = document.getElementById("updated-time");
+      var d = new Date(t.dateTime);
+      if (isNaN(d)) return;
+      t.textContent = new Intl.DateTimeFormat("en", {
+        year: "numeric", month: "short", day: "numeric", hour: "numeric", minute: "2-digit",
+      }).format(d);
+    })();
+  </script>
+</section>

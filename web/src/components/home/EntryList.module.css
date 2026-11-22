@@ -1,0 +1,67 @@
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * The cell (see tiles.module.css) places it; a hairline on top makes a column rule of each tile.
+ *
+ * One line wherever two would meet: a list that sits right under a heading or a banner (`.first`, the
+ * first block of a day or the topics) already has that heading's rule above it, so the tiles of ITS first
+ * row (`--top`, 1 when the tile starts in row 1 at the current width: the build knows, see
+ * layout/README.md) lose their line and their padding; the heading's margin is the whole gap. Lower rows,
+ * and lists that follow other content, keep the line.
+ */
+.entry {
+  --pad: 0.7rem;
+  margin: 0;
+  padding-top: var(--pad);
+  border-top: var(--w-hair) solid var(--line);
+}
+
+.first .entry {
+  padding-top: calc(var(--pad) * (1 - var(--top)));
+  border-top-width: calc(var(--w-hair) * (1 - var(--top)));
+}
+
+/* The article's title (or the category): a small label (global subheader style). */
+.label {
+  margin: 0 0 0.3rem;
+  color: var(--soft);
+  font: var(--label);
+  overflow-wrap: anywhere;
+}
+
+/* The entry text is an internal link (ink, no underline: global rule), a little larger than a plain text. */
+.text {
+  margin: 0;
+  font-size: 1.3125rem;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+}
+
+.text + .text {
+  margin-top: 0.75rem;
+}
+
+/* Portal entries and topics: larger text, and a darker rule on top. */
+.large .entry {
+  border-top-color: var(--divider);
+}
+
+.large .text {
+  font-size: 1.4375rem;
+  line-height: 1.4;
+}
+
+/* An image beside or above the text. */
+.image {
+  margin-bottom: 0.6rem;
+}
+
+@media (min-width: 40rem) {
+  .image {
+    margin-bottom: 0;
+  }
+}

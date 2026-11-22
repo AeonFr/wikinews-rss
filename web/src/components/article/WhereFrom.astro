@@ -1,0 +1,43 @@
+---
+import { formatDay } from "../../data/days";
+import type { PortalPage, WhereFrom } from "../../model";
+import styles from "./WhereFrom.module.css";
+
+interface Props {
+  where: WhereFrom;
+}
+const { where } = Astro.props;
+const history = (page: PortalPage) => `History of ${page.title}`;
+---
+
+<div class={styles.where}>
+  {
+    where.kind === "topic" ? (
+      <p>
+        Added on <time datetime={where.addedAt.slice(0, 10)}>{formatDay(where.addedAt)}</time> to the{" "}
+        <a href={where.page.url} rel="noopener">
+          Current events portal
+        </a>{" "}
+        (
+        <a href={where.page.history_url} rel="noopener" aria-label={history(where.page)}>
+          history
+        </a>
+        ).
+      </p>
+    ) : (
+      where.pages.map((page) => (
+        <p>
+          From{" "}
+          <a href={page.url} rel="noopener">
+            {page.title}
+          </a>{" "}
+          (
+          <a href={page.history_url} rel="noopener" aria-label={history(page)}>
+            history
+          </a>
+          )
+        </p>
+      ))
+    )
+  }
+</div>

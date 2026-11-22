@@ -1,0 +1,43 @@
+---
+import type { SourceCard } from "../../model";
+import SectionHeading from "./SectionHeading.astro";
+import styles from "./SourceCards.module.css";
+
+interface Props {
+  cards: SourceCard[];
+}
+const { cards } = Astro.props;
+---
+
+{
+  cards.length > 0 && (
+    <section class={styles.section} aria-labelledby="sources-heading">
+      <SectionHeading id="sources-heading">From the sources</SectionHeading>
+      <ul class={styles.cards}>
+        {cards.map((card) => (
+          <li class={styles.card}>
+            {card.image && (
+              <img
+                class={styles.image}
+                src={card.image}
+                alt=""
+                loading="lazy"
+                decoding="async"
+                referrerpolicy="no-referrer"
+              />
+            )}
+            <div class={styles.body}>
+              <p class={styles.site}>{card.site}</p>
+              <p class={styles.title}>
+                <a class={styles.link} href={card.url} rel="noopener">
+                  {card.title}
+                </a>
+              </p>
+              {card.description && <p class={styles.description}>{card.description}</p>}
+            </div>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )
+}

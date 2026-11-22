@@ -1,0 +1,18 @@
+/* The double rule runs as wide as the content (it sits on the inner element, inside the page gutters). */
+.footer {
+  margin-top: 4rem;
+  padding: 0 0 3rem;
+  color: var(--muted);
+  font: 0.8125rem/1.6 var(--sans);
+  text-align: center;
+}
+
+.inner {
+  border-top: 3px double var(--rule);
+  padding-top: 1.25rem;
+}
+
+.footer p {
+  max-width: 42rem;
+  margin: var(--space-2) auto;
+}

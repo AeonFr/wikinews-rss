@@ -1,0 +1,40 @@
+/* Date, then the breadcrumb or the category chips: small metadata over the headline. */
+.kicker {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem 1rem;
+  margin: 0 0 0.75rem;
+  color: var(--soft);
+  font: var(--label);
+}
+
+.crumbs ol,
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Breadcrumb: the bigger articles, outermost first. The plain items are neutral labels (the kicker's style); the ones
+   that are links (internal: ink, no underline, global rule) are set in the serif of the links. */
+.crumbs a {
+  font: 0.875rem/1.5 var(--serif);
+}
+
+.crumbs li + li::before {
+  content: "›";
+  margin-right: 0.5rem;
+  color: var(--muted);
+}
+
+/* Category chips: squared outlines, not pills. */
+.chips li {
+  padding: 0 0.5rem;
+  border: var(--w-hair) solid var(--divider);
+  color: var(--soft);
+  font: var(--label);
+}

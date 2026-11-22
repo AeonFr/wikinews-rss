@@ -1,0 +1,33 @@
+/*
+ * The children of the article are in reading order for one column: title, entries, where-from,
+ * about, sources, related. From 62rem on, grid placement makes it three columns:
+ * everything but the "about" column spans the first two; the about column is the third and spans
+ * every row. Rows have no gap (sections bring their own top margin) so unused rows take no room.
+ * The last row is `1fr`: an item that spans a flexible track does not stretch the others, so a
+ * tall "about" text never opens gaps between the sections beside it.
+ */
+.page {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  /* A rule between the masthead and the article, as wide as the content like the other rules. */
+  border-top: var(--w-rule) solid var(--rule);
+  padding-top: 2rem;
+}
+
+@media (min-width: 62rem) {
+  .page {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-rows: repeat(5, auto) 1fr;
+    column-gap: 2.5rem;
+    align-items: start;
+  }
+
+  .page > * {
+    grid-column: 1 / span 2;
+  }
+
+  .page > [data-column="side"] {
+    grid-column: 3;
+    grid-row: 1 / -1;
+  }
+}

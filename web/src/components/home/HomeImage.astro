@@ -1,0 +1,17 @@
+---
+// Decorative (alt="", not focusable): the entry's text is the link for keyboards and screen readers.
+import type { ModelImage } from "../../model";
+import { imageTitle } from "./layout";
+import styles from "./HomeImage.module.css";
+
+interface Props {
+  image: ModelImage;
+  class?: string | string[] | Record<string, boolean>;
+  style?: string | null;
+}
+const { image, class: className, style } = Astro.props;
+---
+
+<a class:list={[styles.image, className]} href={image.href} style={style ?? undefined} tabindex="-1" aria-hidden="true">
+  <img src={image.url} alt="" title={imageTitle(image.source)} loading="lazy" referrerpolicy="no-referrer" />
+</a>

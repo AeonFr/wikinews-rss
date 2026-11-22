@@ -1,0 +1,23 @@
+---
+import type { EntryBlock } from "../../model";
+import SourcesLine from "./SourcesLine.astro";
+import styles from "./Entries.module.css";
+
+interface Props {
+  blocks: EntryBlock[];
+}
+const { blocks } = Astro.props;
+---
+
+<ul class={styles.blocks}>
+  {
+    blocks.map((block) => (
+      <li class={styles.block}>
+        {block.texts.map((item) => (
+          <p class={styles.text} set:html={item.html} />
+        ))}
+        <SourcesLine outlets={block.outlets} />
+      </li>
+    ))
+  }
+</ul>

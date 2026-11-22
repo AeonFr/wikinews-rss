@@ -1,0 +1,42 @@
+.section {
+  margin-top: 3rem;
+}
+
+.block {
+  margin: 0 0 1.5rem;
+}
+
+.block:last-child {
+  margin-bottom: 0;
+}
+
+.block + .block {
+  padding-top: 1.25rem;
+  border-top: var(--w-hair) solid var(--line);
+}
+
+.title {
+  margin: 0 0 0.3rem;
+  font: 700 1.1875rem/1.35 var(--serif);
+  overflow-wrap: anywhere;
+}
+
+/* The title links to Wikipedia (underlined, no arrow: global rule), unlike the entries below it, which have an arrow and no underline. */
+
+/* A short reminder of what the article is (not a link; the whole summary is a click away on Wikipedia): sans. */
+.extract {
+  display: -webkit-box;
+  max-width: 40rem;
+  margin: 0 0 0.9rem;
+  color: var(--soft);
+  font: 400 1rem/1.55 var(--sans);
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+}
+
+/* An article with no news listed is only its title and text: no space left for a list. */
+.extract:last-child {
+  margin-bottom: 0;
+}

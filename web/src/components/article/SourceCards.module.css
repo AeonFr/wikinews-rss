@@ -1,0 +1,108 @@
+.section {
+  margin-top: 3rem;
+}
+
+/*
+ * The list is the size container: a card is stacked (image on top) while the list is narrower than
+ * 30rem and puts the image beside the text once there is room.
+ */
+.cards {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  container: source-cards / inline-size;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  overflow: hidden;
+  border: var(--w-hair) solid var(--divider);
+  border-top: var(--w-rule) solid var(--rule);
+  background: var(--card);
+}
+
+/* Keyboard focus: the whole card is the click target, so the whole card gets the ring (the link's own ring stays where :has is unknown). */
+@supports selector(:has(a)) {
+  .card:has(.link:focus-visible) {
+    outline: 3px solid var(--accent);
+    outline-offset: 2px;
+  }
+
+  .link:focus-visible {
+    outline: none;
+  }
+}
+
+/* The image keeps its own aspect ratio: only the width is set, never a height or a crop. */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.body {
+  min-width: 0;
+  padding: 0.75rem 1rem 1rem;
+}
+
+.site {
+  margin: 0 0 0.3rem;
+  font: var(--label);
+  color: var(--soft);
+  overflow-wrap: anywhere;
+}
+
+.title {
+  margin: 0 0 0.4rem;
+  font-size: 1.0625rem;
+  font-weight: 700;
+  line-height: 1.3;
+  overflow-wrap: anywhere;
+}
+
+/* The whole card is the click target, but the link text stays just the title. A link to a news outlet: ink, with
+   the default thin underline (global.css), neither an internal link (no underline) nor a Wikipedia one (blue). */
+.link {
+  color: var(--fg);
+}
+
+.link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.description {
+  display: -webkit-box;
+  margin: 0;
+  font: 400 0.875rem/1.45 var(--sans);
+  color: var(--soft);
+  overflow: hidden;
+  overflow-wrap: anywhere;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+}
+
+@container source-cards (min-width: 30rem) {
+  .card {
+    flex-direction: row;
+  }
+
+  .image {
+    flex: 0 0 min(40%, 17rem);
+    width: min(40%, 17rem);
+    align-self: flex-start;
+  }
+
+  .body {
+    flex: 1;
+    align-self: center;
+  }
+}

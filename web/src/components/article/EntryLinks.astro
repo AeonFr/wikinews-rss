@@ -1,0 +1,21 @@
+---
+import type { TextItem } from "../../model";
+import styles from "./EntryLinks.module.css";
+
+/** The entries of another story, each linking to that story's page (plain text: an entry's own links stay on its page). */
+interface Props {
+  href: string;
+  texts: TextItem[];
+}
+const { href, texts } = Astro.props;
+---
+
+<div>
+  {
+    texts.map((item) => (
+      <p class={styles.entry}>
+        <a class="go" href={href}>{item.text}</a>
+      </p>
+    ))
+  }
+</div>
