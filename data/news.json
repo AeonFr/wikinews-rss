@@ -6,16 +6,21 @@
  "retention_days": 183,
  "stories": [
   {
-   "article": null,
+   "article": {
+    "extract": "The Russo-Ukrainian war began in February 2014 and is ongoing. Following Ukraine's Revolution of Dignity, Russia occupied Crimea and annexed it from Ukraine.",
+    "location": "Ukraine, Russia, and the Black Sea",
+    "title": "Russo-Ukrainian war",
+    "url": "https://en.wikipedia.org/wiki/Russo-Ukrainian_war"
+   },
    "categories": [
-    "Disasters and accidents"
+    "Armed conflicts and attacks"
    ],
-   "group": "2026-11-22-2e867aa7ff42",
+   "group": "2026-11-22-4695aa522c0e",
    "headlines": [
     {
-     "category": "Disasters and accidents",
-     "html": "The <a href=\"https://en.wikipedia.org/wiki/Russian_corvette_Merkury\">Russian corvette Merkury</a> is substantially damaged by explosions and an onboard fire while docked at the port of <a href=\"https://en.wikipedia.org/wiki/Benghazi\">Benghazi</a>, <a href=\"https://en.wikipedia.org/wiki/Libya\">Libya</a>.",
-     "id": "2026-11-22-2e867aa7ff42",
+     "category": "Armed conflicts and attacks",
+     "html": "A <a href=\"https://en.wikipedia.org/wiki/Malta\">Maltese</a>-flagged ship is also struck by naval drones off the coast of Benghazi.",
+     "id": "2026-11-22-e04198f138c0",
      "page": {
       "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_22&action=history",
       "title": "Portal:Current events/2026 November 22",
@@ -23,26 +28,396 @@
      },
      "sources": [
       {
-       "name": "Naval News",
-       "url": "https://www.navalnews.com/naval-news/2026/11/russian-warship-destroyed-in-huge-explosion-in-libya/"
+       "name": "Reuters",
+       "url": "https://www.reuters.com/world/middle-east/libyas-eastern-government-suspects-drone-attack-caused-explosion-russian-ship-2026-11-22/"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Russo-Ukrainian War",
+       "links": [
+        {
+         "label": "Russo-Ukrainian War",
+         "url": "https://en.wikipedia.org/wiki/Russo-Ukrainian_War"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Russo-Ukrainian_War"
       },
       {
-       "name": "Kyiv Post",
-       "url": "https://www.kyivpost.com/post/90861"
+       "label": "Naval warfare in the Russo-Ukrainian war (2022–present), Ukrainian attacks on the Russian shadow fleet",
+       "links": [
+        {
+         "label": "Naval warfare in the Russo-Ukrainian war (2022–present)",
+         "url": "https://en.wikipedia.org/wiki/Naval_warfare_in_the_Russo-Ukrainian_war_(2022%E2%80%93present)"
+        },
+        {
+         "label": "Ukrainian attacks on the Russian shadow fleet",
+         "url": "https://en.wikipedia.org/wiki/Ukrainian_attacks_on_the_Russian_shadow_fleet"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Naval_warfare_in_the_Russo-Ukrainian_war_(2022%E2%80%93present)"
+      }
+     ]
+    },
+    {
+     "category": "Armed conflicts and attacks",
+     "html": "Several people are killed and at least 10 people are injured after the <a href=\"https://en.wikipedia.org/wiki/Russian_corvette_Merkury\">Russian corvette <i>Merkury</i></a> is struck by a <a href=\"https://en.wikipedia.org/wiki/Ukraine\">Ukrainian</a> <a href=\"https://en.wikipedia.org/wiki/Unmanned_surface_vehicle\">naval</a> <a href=\"https://en.wikipedia.org/wiki/One-way_attack_drone\">drone</a> attack while docked at the port of <a href=\"https://en.wikipedia.org/wiki/Benghazi\">Benghazi</a>, <a href=\"https://en.wikipedia.org/wiki/Libya\">Libya</a>. The <i>Merkury</i> reportedly capsizes and sinks.",
+     "id": "2026-11-22-4695aa522c0e",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_22&action=history",
+      "title": "Portal:Current events/2026 November 22",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22"
+     },
+     "sources": [
+      {
+       "name": "Al-Jazeera",
+       "url": "https://www.aljazeera.com/amp/news/2026/11/22/suspected-drone-strike-hits-russian-vessel-in-libya"
+      },
+      {
+       "name": "Reuters",
+       "url": "https://www.reuters.com/world/middle-east/libyas-eastern-government-suspects-drone-attack-caused-explosion-russian-ship-2026-11-22/"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Russo-Ukrainian War",
+       "links": [
+        {
+         "label": "Russo-Ukrainian War",
+         "url": "https://en.wikipedia.org/wiki/Russo-Ukrainian_War"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Russo-Ukrainian_War"
+      },
+      {
+       "label": "Naval warfare in the Russo-Ukrainian war (2022–present), Ukrainian attacks on the Russian shadow fleet",
+       "links": [
+        {
+         "label": "Naval warfare in the Russo-Ukrainian war (2022–present)",
+         "url": "https://en.wikipedia.org/wiki/Naval_warfare_in_the_Russo-Ukrainian_war_(2022%E2%80%93present)"
+        },
+        {
+         "label": "Ukrainian attacks on the Russian shadow fleet",
+         "url": "https://en.wikipedia.org/wiki/Ukrainian_attacks_on_the_Russian_shadow_fleet"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Naval_warfare_in_the_Russo-Ukrainian_war_(2022%E2%80%93present)"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-22-4695aa522c0e",
+   "image": {
+    "link": "https://www.aljazeera.com/amp/news/2026/11/22/suspected-drone-strike-hits-russian-vessel-in-libya",
+    "source": "Al-Jazeera",
+    "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6b0335827927f-1795372418.jpg?resize=1920%2C1440"
+   },
+   "more_articles": [
+    {
+     "extract": "Naval warfare in the Russian invasion of Ukraine began on 24 February 2022, when the Russian Armed Forces launched a full-scale invasion of Ukraine, in a major escalation of the Russo-Ukrainian War that began in 2014. Media reporting of—and focus on—the invasion has largely been on the terrestrial and aerial aspects, but maritime engagements have been consequential during the conflict.",
+     "title": "Naval warfare in the Russo-Ukrainian war (2022–present)",
+     "url": "https://en.wikipedia.org/wiki/Naval_warfare_in_the_Russo-Ukrainian_war_(2022%E2%80%93present)"
+    },
+    {
+     "extract": "Ukrainian attacks on Russian vessels, including oil tankers from the \"Russian shadow fleet\", are actions conducted by the Security Service of Ukraine (SBU) targeting Russia-linked ships. Primarily carried out in the Black Sea and Mediterranean Sea, these strikes represent a significant escalation of Ukraine's maritime warfare strategy.",
+     "location": "Black Sea, Mediterranean Sea",
+     "title": "Ukrainian attacks on the Russian shadow fleet",
+     "url": "https://en.wikipedia.org/wiki/Ukrainian_attacks_on_the_Russian_shadow_fleet"
+    }
+   ],
+   "pub_date": "2026-11-22T23:39:34Z",
+   "title": "Naval warfare in the Russo-Ukrainian war (2022–present), Ukrainian attacks on the Russian shadow fleet: A Maltese-flagged ship is also struck by naval drones off the coast of Benghazi. / Several people are killed and at least 10 people are injured after the Russian corvette Merkury is struck by a Ukrainian naval drone attack while docked at the port of Benghazi, Libya."
+  },
+  {
+   "article": {
+    "extract": "The 63rd Golden Horse Awards (Chinese: 第63屆金馬獎) will take place on November 22, 2026, at the Taipei Music Center in Taipei, Taiwan. Organized by the Taipei Golden Horse Film Festival Executive Committee, the ceremony honors outstanding achievements in Chinese-language cinema from 2025 and 2026.",
+    "title": "63rd Golden Horse Awards",
+    "url": "https://en.wikipedia.org/wiki/63rd_Golden_Horse_Awards"
+   },
+   "categories": [
+    "Arts and culture"
+   ],
+   "group": "2026-11-22-2d57322523ee",
+   "headlines": [
+    {
+     "category": "Arts and culture",
+     "html": "The 63rd <a href=\"https://en.wikipedia.org/wiki/Golden_Horse_Awards\">Golden Horse Awards</a> take place in <a href=\"https://en.wikipedia.org/wiki/Taipei\">Taipei</a>, <a href=\"https://en.wikipedia.org/wiki/Taiwan\">Taiwan</a>, with the <a href=\"https://en.wikipedia.org/wiki/Cinema_of_Hong_Kong\">Hong Kong film</a> <i>We Are Born Good</i> winning <a href=\"https://en.wikipedia.org/wiki/Golden_Horse_Award_for_Best_Narrative_Feature\">Best Narrative Feature</a>.",
+     "id": "2026-11-22-2d57322523ee",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_22&action=history",
+      "title": "Portal:Current events/2026 November 22",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22"
+     },
+     "sources": [
+      {
+       "name": "AFP",
+       "url": "https://www.afp.com/en/hong-kong-cinema-takes-spotlight-taiwan-top-film-award"
+      }
+     ],
+     "topics": [
+      {
+       "label": "63rd Golden Horse Awards",
+       "links": [
+        {
+         "label": "63rd Golden Horse Awards",
+         "url": "https://en.wikipedia.org/wiki/63rd_Golden_Horse_Awards"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/63rd_Golden_Horse_Awards"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-22-2d57322523ee",
+   "more_articles": [],
+   "pub_date": "2026-11-22T23:39:34Z",
+   "title": "63rd Golden Horse Awards: The 63rd Golden Horse Awards take place in Taipei, Taiwan, with the Hong Kong film We Are Born Good winning Best Narrative Feature."
+  },
+  {
+   "article": null,
+   "categories": [
+    "Disasters and accidents"
+   ],
+   "group": "2026-11-22-58fc39a5b835",
+   "headlines": [
+    {
+     "category": "Disasters and accidents",
+     "html": "At least twelve people are killed and 23 others are injured in two separate road accidents in <a href=\"https://en.wikipedia.org/wiki/Rajasthan\">Rajasthan</a>, <a href=\"https://en.wikipedia.org/wiki/India\">India</a>.",
+     "id": "2026-11-22-58fc39a5b835",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_22&action=history",
+      "title": "Portal:Current events/2026 November 22",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22"
+     },
+     "sources": [
+      {
+       "name": "Xinhua",
+       "url": "https://english.news.cn/20261122/a785c3b7251f4a10b97fb302966d242e/c.html"
       }
      ],
      "topics": []
     }
    ],
-   "id": "2026-11-22-2e867aa7ff42",
+   "id": "2026-11-22-58fc39a5b835",
+   "more_articles": [],
+   "pub_date": "2026-11-22T23:39:34Z",
+   "title": "At least twelve people are killed and 23 others are injured in two separate road accidents in Rajasthan, India."
+  },
+  {
+   "article": null,
+   "categories": [
+    "Disasters and accidents"
+   ],
+   "group": "2026-11-22-35791c4a0f6e",
+   "headlines": [
+    {
+     "category": "Disasters and accidents",
+     "html": "A severe thunderstorm kills five people and injures more than 250 others in <a href=\"https://en.wikipedia.org/wiki/Tupanciret%C3%A3\">Tupanciretã</a>, <a href=\"https://en.wikipedia.org/wiki/Rio_Grande_do_Sul\">Rio Grande do Sul</a>, <a href=\"https://en.wikipedia.org/wiki/Brazil\">Brazil</a>.",
+     "id": "2026-11-22-35791c4a0f6e",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_22&action=history",
+      "title": "Portal:Current events/2026 November 22",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22"
+     },
+     "sources": [
+      {
+       "name": "AFP",
+       "url": "https://www.afp.com/en/brazil-storm-death-toll-rises-5"
+      }
+     ],
+     "topics": []
+    }
+   ],
+   "id": "2026-11-22-35791c4a0f6e",
+   "more_articles": [],
+   "pub_date": "2026-11-22T23:39:34Z",
+   "title": "A severe thunderstorm kills five people and injures more than 250 others in Tupanciretã, Rio Grande do Sul, Brazil."
+  },
+  {
+   "article": null,
+   "categories": [
+    "Disasters and accidents"
+   ],
+   "group": "2026-11-22-469b54f62fcf",
+   "headlines": [
+    {
+     "category": "Disasters and accidents",
+     "html": "A fire at a <a href=\"https://en.wikipedia.org/wiki/Confectionery\">confectionery</a> factory in <a href=\"https://en.wikipedia.org/wiki/Serang_Regency\">Serang Regency</a>, <a href=\"https://en.wikipedia.org/wiki/Banten\">Banten</a>, <a href=\"https://en.wikipedia.org/wiki/Indonesia\">Indonesia</a>, kills at least three people, leaves 36 others missing, and injures four.",
+     "id": "2026-11-22-469b54f62fcf",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_22&action=history",
+      "title": "Portal:Current events/2026 November 22",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22"
+     },
+     "sources": [
+      {
+       "name": "AFP via France 24",
+       "url": "https://www.france24.com/en/live-news/20261122-three-dead-36-missing-after-indonesia-factory-fire"
+      }
+     ],
+     "topics": []
+    }
+   ],
+   "id": "2026-11-22-469b54f62fcf",
    "image": {
-    "link": "https://www.kyivpost.com/post/90861",
-    "source": "Kyiv Post",
-    "url": "https://static.kyivpost.com/storage/2026/11/22/e1ff8e6b7e93d3e0c41939ee4474ab10.jpeg?w=1200&q=90&f=jpg"
+    "link": "https://www.france24.com/en/live-news/20261122-three-dead-36-missing-after-indonesia-factory-fire",
+    "source": "AFP via France 24",
+    "url": "https://s.france24.com/media/display/52ef6d9a-e631-11f1-9f36-e56ab3dc0809/w:1280/p:16x9/910044b45f340cf31a1869ea2e3157754643a56b.jpg"
    },
    "more_articles": [],
-   "pub_date": "2026-11-22T14:42:20Z",
-   "title": "The Russian corvette Merkury is substantially damaged by explosions and an onboard fire while docked at the port of Benghazi, Libya."
+   "pub_date": "2026-11-22T23:39:34Z",
+   "title": "A fire at a confectionery factory in Serang Regency, Banten, Indonesia, kills at least three people, leaves 36 others missing, and injures four."
+  },
+  {
+   "article": null,
+   "categories": [
+    "Disasters and accidents"
+   ],
+   "group": "2026-11-22-4a626c508c97",
+   "headlines": [
+    {
+     "category": "Disasters and accidents",
+     "html": "Three people are killed in a house fire in <a href=\"https://en.wikipedia.org/wiki/Trzcianka\">Trzcianka</a>, <a href=\"https://en.wikipedia.org/wiki/Poland\">Poland</a>.",
+     "id": "2026-11-22-4a626c508c97",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_22&action=history",
+      "title": "Portal:Current events/2026 November 22",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22"
+     },
+     "sources": [
+      {
+       "name": "Xinhua",
+       "url": "https://english.news.cn/20261122/bcadd59be9824a18b96cdca9f67305e5/c.html"
+      }
+     ],
+     "topics": []
+    }
+   ],
+   "id": "2026-11-22-4a626c508c97",
+   "more_articles": [],
+   "pub_date": "2026-11-22T23:39:34Z",
+   "title": "Three people are killed in a house fire in Trzcianka, Poland."
+  },
+  {
+   "article": null,
+   "categories": [
+    "Politics and elections"
+   ],
+   "group": "2026-11-22-2175d564af92",
+   "headlines": [
+    {
+     "category": "Politics and elections",
+     "html": "<a href=\"https://en.wikipedia.org/wiki/South_Korea\">South Korean</a> <a href=\"https://en.wikipedia.org/wiki/Minister_of_Education_(South_Korea)\">education minister</a> <a href=\"https://en.wikipedia.org/wiki/Choi_Kyo-jin\">Choi Kyo-jin</a> resigns following criticism of <a href=\"https://en.wikipedia.org/wiki/Government_of_South_Korea\">the government</a>'s response to <a href=\"https://en.wikipedia.org/wiki/Artificial_intelligence\">artificial intelligence</a>-assisted cheating concerns surrounding the <a href=\"https://en.wikipedia.org/wiki/College_Scholastic_Ability_Test\">College Scholastic Ability Test</a>. <a href=\"https://en.wikipedia.org/wiki/President_of_South_Korea\">President</a> <a href=\"https://en.wikipedia.org/wiki/Lee_Jae_Myung\">Lee Jae Myung</a> accepts Choi's resignation.",
+     "id": "2026-11-22-2175d564af92",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_22&action=history",
+      "title": "Portal:Current events/2026 November 22",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22"
+     },
+     "sources": [
+      {
+       "name": "AFP",
+       "url": "https://www.afp.com/en/south-korea-education-chief-resigns-amid-ai-cheating-scandal"
+      }
+     ],
+     "topics": []
+    }
+   ],
+   "id": "2026-11-22-2175d564af92",
+   "more_articles": [],
+   "pub_date": "2026-11-22T23:39:34Z",
+   "title": "South Korean education minister Choi Kyo-jin resigns following criticism of the government's response to artificial intelligence-assisted cheating concerns surrounding the College Scholastic Ability…"
+  },
+  {
+   "article": {
+    "extract": "The 2026 ATP Finals (also known as the 2026 Nitto ATP Finals due to Nitto sponsorship) was a men's tennis tournament held from 15 to 22 November 2026. It was played on indoor hardcourts at the Inalpi Arena in Turin, Italy for the sixth consecutive time, and was the season-ending event for the highest-ranked singles players and doubles teams on the 2026 ATP Tour.",
+    "location": "Turin, Italy",
+    "title": "2026 ATP Finals",
+    "url": "https://en.wikipedia.org/wiki/2026_ATP_Finals"
+   },
+   "categories": [
+    "Sports"
+   ],
+   "group": "2026-11-22-be53044a6037",
+   "headlines": [
+    {
+     "category": "Sports",
+     "html": "In <a href=\"https://en.wikipedia.org/wiki/Tennis\">tennis</a>, <a href=\"https://en.wikipedia.org/wiki/Carlos_Alcaraz\">Carlos Alcaraz</a> defeats <a href=\"https://en.wikipedia.org/wiki/Alexander_Zverev\">Alexander Zverev</a> in the final, 6–2, 7–6(9–7) to win his first <a href=\"https://en.wikipedia.org/wiki/Singles_(tennis)\">singles</a> title at the 2026 <a href=\"https://en.wikipedia.org/wiki/ATP_Finals\">ATP Finals</a>.",
+     "id": "2026-11-22-be53044a6037",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_22&action=history",
+      "title": "Portal:Current events/2026 November 22",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22"
+     },
+     "sources": [
+      {
+       "name": "Reuters",
+       "url": "https://www.reuters.com/sports/tennis/alcaraz-charges-past-world-number-one-zverev-clinch-atp-finals-title-2026-11-22/"
+      }
+     ],
+     "topics": [
+      {
+       "label": "2026 ATP Finals",
+       "links": [
+        {
+         "label": "2026 ATP Finals",
+         "url": "https://en.wikipedia.org/wiki/2026_ATP_Finals"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/2026_ATP_Finals"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-22-be53044a6037",
+   "more_articles": [],
+   "pub_date": "2026-11-22T23:39:34Z",
+   "title": "2026 ATP Finals: In tennis, Carlos Alcaraz defeats Alexander Zverev in the final, 6–2, 7–6(9–7) to win his first singles title at the 2026 ATP Finals."
+  },
+  {
+   "article": {
+    "extract": "The 2026 FIM MotoGP World Championship is the premier class of the 78th Fédération Internationale de Motocyclisme (FIM) Road Racing World Championship season, the highest level of competition in motorcycle road racing. It is the final season of the premier class using 1000cc engines and Michelin series-specified tyres, before switching to new 850cc engine regulations and tyres sourced from Pirelli, among other technical changes, from the 2027 season onwards.",
+    "title": "2026 MotoGP World Championship",
+    "url": "https://en.wikipedia.org/wiki/2026_MotoGP_World_Championship"
+   },
+   "categories": [
+    "Sports"
+   ],
+   "group": "2026-11-22-8c7490a91dd3",
+   "headlines": [
+    {
+     "category": "Sports",
+     "html": "In <a href=\"https://en.wikipedia.org/wiki/Motorcycle_racing\">motorcycle racing</a>, <a href=\"https://en.wikipedia.org/wiki/Spain\">Spanish</a> rider <a href=\"https://en.wikipedia.org/wiki/Marc_M%C3%A1rquez\">Marc Márquez</a> of <a href=\"https://en.wikipedia.org/wiki/Ducati_Corse\">Ducati Corse</a> secures his eighth <a href=\"https://en.wikipedia.org/wiki/MotoGP_World_Championship\">MotoGP World Championship</a> after finishing eighth at the <a href=\"https://en.wikipedia.org/wiki/2026_Portuguese_motorcycle_Grand_Prix\">Portuguese Grand Prix</a>, equalling <a href=\"https://en.wikipedia.org/wiki/Giacomo_Agostini\">Giacomo Agostini</a>'s <a href=\"https://en.wikipedia.org/wiki/List_of_Grand_Prix_motorcycle_racing_rider_records\">record</a> for the most premier-class motorcycle racing world titles.",
+     "id": "2026-11-22-8c7490a91dd3",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_22&action=history",
+      "title": "Portal:Current events/2026 November 22",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22"
+     },
+     "sources": [
+      {
+       "name": "AP",
+       "url": "https://apnews.com/article/marc-marquez-motogp-99638bd5dcc6a86106edba209851ad8f"
+      }
+     ],
+     "topics": [
+      {
+       "label": "2026 MotoGP World Championship",
+       "links": [
+        {
+         "label": "2026 MotoGP World Championship",
+         "url": "https://en.wikipedia.org/wiki/2026_MotoGP_World_Championship"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/2026_MotoGP_World_Championship"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-22-8c7490a91dd3",
+   "more_articles": [],
+   "pub_date": "2026-11-22T23:39:34Z",
+   "title": "2026 MotoGP World Championship: In motorcycle racing, Spanish rider Marc Márquez of Ducati Corse secures his eighth MotoGP World Championship after finishing eighth at the Portuguese Grand Prix, equalling Giacomo Agostini's record…"
   },
   {
    "article": {
@@ -263,7 +638,7 @@
    "headlines": [
     {
      "category": "Disasters and accidents",
-     "html": "At least four people are killed and 35 others are injured in a fire at a power station in <a href=\"https://en.wikipedia.org/wiki/Basra\">Basra</a>, <a href=\"https://en.wikipedia.org/wiki/Iraq\">Iraq</a>.",
+     "html": "Four people are killed and 35 others are injured in a fire at a power station in <a href=\"https://en.wikipedia.org/wiki/Basra\">Basra</a>, <a href=\"https://en.wikipedia.org/wiki/Iraq\">Iraq</a>.",
      "id": "2026-11-21-22964977c33f",
      "page": {
       "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_21&action=history",
@@ -282,7 +657,7 @@
    "id": "2026-11-21-22964977c33f",
    "more_articles": [],
    "pub_date": "2026-11-21T23:26:18Z",
-   "title": "At least four people are killed and 35 others are injured in a fire at a power station in Basra, Iraq."
+   "title": "Four people are killed and 35 others are injured in a fire at a power station in Basra, Iraq."
   },
   {
    "article": {
@@ -761,6 +1136,108 @@
   },
   {
    "article": {
+    "extract": "The Colombian conflict (Spanish: Conflicto armado interno de Colombia, lit. 'Colombian internal armed conflict') began on May 27, 1964, and is a low-intensity asymmetric war between the government of Colombia, paramilitary groups, crime syndicates, and far-left guerrilla groups engaged in armed factional hostilities to increase their influence in Colombian territory. Some of the most important international contributors to the Colombian conflict include multinational corporations, the United States, Cuba, and the drug trafficking industry.",
+    "location": "Colombia and Venezuela with spillovers into Peru, Brazil, Panama, Ecuador and Paraguay",
+    "title": "Colombian conflict",
+    "url": "https://en.wikipedia.org/wiki/Colombian_conflict"
+   },
+   "categories": [
+    "Armed conflicts and attacks"
+   ],
+   "group": "2026-11-21-66849b4e7b6d",
+   "headlines": [
+    {
+     "category": "Armed conflicts and attacks",
+     "html": "A bombing against a <a href=\"https://en.wikipedia.org/wiki/FARC_dissidents\">FARC dissidents</a> camp in the rural area of <a href=\"https://en.wikipedia.org/wiki/Mapirip%C3%A1n\">Mapiripán</a>, <a href=\"https://en.wikipedia.org/wiki/Meta_Department\">Meta Department</a>, left five guerrillas killed.",
+     "id": "2026-11-21-66849b4e7b6d",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_21&action=history",
+      "title": "Portal:Current events/2026 November 21",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_21"
+     },
+     "sources": [
+      {
+       "name": "CW+ noticias",
+       "url": "https://cwmas.com.co/nacion/2026/11/21/operacion-ninfa-mapiripan-meta/"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Colombian conflict",
+       "links": [
+        {
+         "label": "Colombian conflict",
+         "url": "https://en.wikipedia.org/wiki/Colombian_conflict"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Colombian_conflict"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-21-66849b4e7b6d",
+   "image": {
+    "link": "https://cwmas.com.co/nacion/2026/11/21/operacion-ninfa-mapiripan-meta/",
+    "source": "CW+ noticias",
+    "url": "https://cwmas.com.co/wp-content/uploads/2026/11/operacion-ninfa-mapiripan-meta-presidencia.jpg"
+   },
+   "more_articles": [],
+   "pub_date": "2026-11-21T00:00:00Z",
+   "title": "Colombian conflict: A bombing against a FARC dissidents camp in the rural area of Mapiripán, Meta Department, left five guerrillas killed."
+  },
+  {
+   "article": {
+    "extract": "The Mexican drug war (Spanish: Guerra contra el narcotráfico en México) is an ongoing asymmetric armed conflict between the Mexican government and various drug trafficking syndicates. When the Mexican military intervened in 2006, the government's main objective was to reduce drug-related violence.",
+    "location": "Latin America and the Caribbean",
+    "title": "Mexican drug war",
+    "url": "https://en.wikipedia.org/wiki/Mexican_drug_war"
+   },
+   "categories": [
+    "Armed conflicts and attacks"
+   ],
+   "group": "2026-11-21-8ee752260290",
+   "headlines": [
+    {
+     "category": "Armed conflicts and attacks",
+     "html": "Authorities confirmed following the federal operation in Guasave, Sinaloa, in which Fausto Isidro Meza Flores (a.k.a \"El Chapo Isidro\") was arrested, leave 4 <a href=\"https://en.wikipedia.org/wiki/Mexican_Army\">soldiers</a> killed and ten wounded as well as sixteen gunmen killed.",
+     "id": "2026-11-21-8ee752260290",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_21&action=history",
+      "title": "Portal:Current events/2026 November 21",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_21"
+     },
+     "sources": [
+      {
+       "name": "Meganoticias",
+       "url": "https://www.meganoticias.mx/cdmx/noticia/suman-20-muertos-por-enfrentamientos-en-guasave/791118"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Mexican drug war",
+       "links": [
+        {
+         "label": "Mexican drug war",
+         "url": "https://en.wikipedia.org/wiki/Mexican_drug_war"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Mexican_drug_war"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-21-8ee752260290",
+   "image": {
+    "link": "https://www.meganoticias.mx/cdmx/noticia/suman-20-muertos-por-enfrentamientos-en-guasave/791118",
+    "source": "Meganoticias",
+    "url": "https://www.meganoticias.mx/uploads/noticias/suman-20-muertos-por-enfrentamientos-en-guasave-791114.jpg"
+   },
+   "more_articles": [],
+   "pub_date": "2026-11-21T00:00:00Z",
+   "title": "Mexican drug war: Authorities confirmed following the federal operation in Guasave, Sinaloa, in which Fausto Isidro Meza Flores (a.k.a \"El Chapo Isidro\") was arrested, leave 4 soldiers killed and ten wounded as well…"
+  },
+  {
+   "article": {
     "extract": "Significant political, constitutional, and social changes in Bangladesh followed the July Uprising of 2024 and the resignation of Prime Minister Sheikh Hasina. The uprising was initially sparked by widespread public protests and calls for reform, led to major changes in Bangladesh's political landscape.",
     "location": "Bangladesh (with spillovers in India)",
     "title": "Aftermath of the July Uprising",
@@ -819,7 +1296,7 @@
    "headlines": [
     {
      "category": "Disasters and accidents",
-     "html": "At least three people are killed, four others are injured and 36 are reported missing after a fire at a candy factory near <a href=\"https://en.wikipedia.org/wiki/Jakarta\">Jakarta</a> in <a href=\"https://en.wikipedia.org/wiki/Banten\">Banten</a>, <a href=\"https://en.wikipedia.org/wiki/Indonesia\">Indonesia</a>.",
+     "html": "At least three people are killed, four others are injured and 36 are reported missing after a fire at a candy factory in <a href=\"https://en.wikipedia.org/wiki/Serang\">Serang</a>, <a href=\"https://en.wikipedia.org/wiki/Indonesia\">Indonesia</a>.",
      "id": "2026-11-21-04139de2a550",
      "page": {
       "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_21&action=history",
@@ -843,7 +1320,7 @@
    },
    "more_articles": [],
    "pub_date": "2026-11-21T00:00:00Z",
-   "title": "At least three people are killed, four others are injured and 36 are reported missing after a fire at a candy factory near Jakarta in Banten, Indonesia."
+   "title": "At least three people are killed, four others are injured and 36 are reported missing after a fire at a candy factory in Serang, Indonesia."
   },
   {
    "article": {
@@ -1220,7 +1697,7 @@
    "headlines": [
     {
      "category": "Law and crime",
-     "html": "Former ship captain <a href=\"https://en.wikipedia.org/wiki/Francesco_Schettino\">Francesco Schettino</a> of the <a href=\"https://en.wikipedia.org/wiki/Costa_Concordia_disaster\">former</a> <a href=\"https://en.wikipedia.org/wiki/Costa_Concordia\">Costa Concordia</a> cruise ship is released from prison after nine years.",
+     "html": "Former ship captain <a href=\"https://en.wikipedia.org/wiki/Francesco_Schettino\">Francesco Schettino</a> of the <a href=\"https://en.wikipedia.org/wiki/Costa_Concordia_disaster\">former</a> <i><a href=\"https://en.wikipedia.org/wiki/Costa_Concordia\">Costa Concordia</a></i> cruise ship is released from prison after nine years.",
      "id": "2026-11-20-0663b07521e0",
      "page": {
       "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_20&action=history",
@@ -1242,7 +1719,13 @@
     "source": "Euronews",
     "url": "https://images.euronews.com/articles/stories/10/00/25/38/1200x675_cmsv2_cb58d451-a981-5da6-8532-b36cb3d35ea3-10002538.jpg"
    },
-   "more_articles": [],
+   "more_articles": [
+    {
+     "extract": "Costa Concordia (Italian pronunciation: [ˈkɔsta koŋˈkɔrdja]) was a cruise ship operated by the Italian cruise line Costa Crociere. She was the first of her class, followed by her sister ships Costa Serena, Costa Pacifica, Costa Favolosa and Costa Fascinosa, and Carnival Splendor built for Carnival Cruise Line.",
+     "title": "Costa Concordia",
+     "url": "https://en.wikipedia.org/wiki/Costa_Concordia"
+    }
+   ],
    "pub_date": "2026-11-20T00:00:00Z",
    "title": "Former ship captain Francesco Schettino of the former Costa Concordia cruise ship is released from prison after nine years."
   },
@@ -1254,12 +1737,12 @@
     "url": "https://en.wikipedia.org/wiki/Mexican_drug_war"
    },
    "categories": [
-    "Law and crime"
+    "Armed conflicts and attacks"
    ],
    "group": "2026-11-20-ff1d32fced88",
    "headlines": [
     {
-     "category": "Law and crime",
+     "category": "Armed conflicts and attacks",
      "html": "<a href=\"https://en.wikipedia.org/wiki/Mexican_special_forces\">Mexican special forces</a> arrest <a href=\"https://en.wikipedia.org/wiki/Fausto_Isidro_Meza_Flores\">Fausto Isidro Meza Flores</a>, leader of the <a href=\"https://en.wikipedia.org/wiki/Drug_cartel\">drug cartel</a> <a href=\"https://en.wikipedia.org/wiki/Los_Mazatlecos\">Los Mazatlecos</a> and one of the <a href=\"https://en.wikipedia.org/wiki/United_States\">United States</a> <a href=\"https://en.wikipedia.org/wiki/Federal_Bureau_of_Investigation\">Federal Bureau of Investigation</a>'s <a href=\"https://en.wikipedia.org/wiki/FBI_Ten_Most_Wanted_Fugitives\">ten most-wanted fugitives</a>, and two associates during an operation in <a href=\"https://en.wikipedia.org/wiki/Guasave\">Guasave</a>, <a href=\"https://en.wikipedia.org/wiki/Sinaloa\">Sinaloa</a>, triggering armed clashes with suspected cartel members.",
      "id": "2026-11-20-ff1d32fced88",
      "page": {
@@ -5444,7 +5927,7 @@
      "url": "https://en.wikipedia.org/wiki/Russian_attacks_on_civilians_in_the_Russo-Ukrainian_war_(2022%E2%80%93present)"
     },
     {
-     "extract": "On 2 November 2026, a Russian airstrike hit a school in a double tap strike that was being used as a shelter and humanitarian aid distribution point in the rural settlement of Komyshuvakha during the Russian invasion of Ukraine. The strike has killed at least 72 so far, with 4 still missing.",
+     "extract": "On 2 November 2026, a Russian airstrike hit a school in a double tap strike that was being used as a shelter and humanitarian aid distribution point in the rural settlement of Komyshuvakha during the Russian invasion of Ukraine. The strike has killed at least 72 so far, with four still missing.",
      "location": "Komyshuvakha, Ukraine; 47°43′10″N 35°31′29″E﻿ / ﻿47.71944°N 35.52472°E",
      "title": "2026 Komyshuvakha strike",
      "url": "https://en.wikipedia.org/wiki/2026_Komyshuvakha_strike"
@@ -26654,5 +27137,5 @@
    "title": "2026 U.S. Open Cup final: In association football, St. Louis City SC defeats Columbus Crew in a penalty shoot-out to win the U.S. Open Cup, earning the club its first trophy since beginning play in 2023."
   }
  ],
- "updated": "2026-11-22T16:10:55Z"
+ "updated": "2026-11-22T23:39:34Z"
 }
