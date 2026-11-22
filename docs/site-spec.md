@@ -156,7 +156,7 @@ Main content, in order:
 - **From the sources**: a card per cited source that has a preview (`sources.json`): image, site, title, description. Deduplicate cards by (site, title, image).
   Source cards are **container-query** based: image on top when the container is narrow (< 30rem), beside the text when wide.
 - **Related articles** (heading exactly that, no date; the section is left out when there is nothing to show). The idea: by following the previous and
-  next news of an article one can reach every story about it. A story belongs to article A when its **nearest article** is A (topics never count);
+  next news of an article one can reach every story about it. A story belongs to article A when its **nearest article** is A (topics never count; an entry with neither an article nor a topic line has as nearest article the **first** link its editors highlighted);
   the page's own story is never listed. Dates are UTC days (`pub_date`). For each article the list is built like this, and the same rule serves the page's
   own article and every related article:
   - The **window** is the 7 days before to the 7 days after the page's day, both ends and the day itself included (the constant is
@@ -166,8 +166,9 @@ Main content, in order:
     page's own day do not stop a fallback; a side that already has stories in the window gets no fallback.
   - Order: newest first (by `pub_date`, ties in news order), later and earlier days mixed in one list.
   - Each item is a row: a small date next to the entries of that story (the `--label` subheader style in a `<time datetime>`, "Nov 20", with the year, "Nov 20, 2025",
-    when it is not the page's year), each entry an internal link (arrow, no underline) to the story's page. No "7 days" or "6 months" text anywhere in the section.
-  - First, with no sub-heading (it is the page's own article), the news about the page's **nearest article** (not for topics, nor for an entry without an article).
+    when it is not the page's year). **The date is the link** to the story's page (internal link with the arrow: "Nov 20 →"); the entries have no link of their own. Each entry is styled
+    as on the page itself (sans, a little smaller, its inline links go to Wikipedia) and entries citing the same outlets share one "Sources: …" line. No "7 days" or "6 months" text anywhere in the section.
+  - First, with no sub-heading (it is the page's own article), the news about the page's **own article**: a story's nearest article, a topic's article (a topic page lists the stories about it, never other topics); nothing for an entry without any article.
   - Then the **related articles**, each a block with a hairline above: its title (a link to Wikipedia, bold serif), its extract (descriptive text, sans, at most
     4 lines; may be missing), and its news as above. Which ones: first the articles this story is nested under (its `topics` path), **deepest first**;
     then the nearest articles of the stories of the **same group and same day** (the siblings), in the order of the siblings, without repeating the page's article
@@ -179,8 +180,8 @@ Third column / "About the article": label, the article's full summary (no cuttin
 (a portal-only entry with no article and no highlighted link has no About column and no visible title, since its "title" would only be the portal's category; keep a visually hidden `h1` for the outline; its day is linked in the "From ..." line).
 **A portal-only entry whose text highlights a Wikipedia link** (`article: null` but `more_articles` not empty, see section 2) takes the first of those as its article:
 the About column describes it (its name as a link right under the label, since the page has no title of its own, then summary, map/location and "Read on Wikipedia" as above).
-The page title stays hidden (model field `titleIsCategory`: the story has neither an `article` nor a nearest topic), and the implicit article does **not** make the story belong to
-that article: it is not a nearest article, so the story is not in `byNearest`, the home page and the grouping are unchanged and it adds no "Related articles" of its own.
+The page title stays hidden (model field `titleIsCategory`: the story has neither an `article` nor a nearest topic), and the implicit article **is** the story's nearest article for the "Related articles" lists (`nearestKey`): the story is in `byNearest` under the **first** highlighted link
+(the portal parser counts both `<i><a>…</a></i>` and `<a><i>…</i></a>`), so the pages of that article (and its topic) list it as news. The home page and the grouping are unchanged.
 Between the summary and that link, when the article being described has them: its **map** (`<img>` hotlinked from `maps.wikimedia.org`, `srcset` with the
 2x image, `width`/`height`, `loading="lazy"`, `alt="Map of <location or title>"`, fitted to the column width, linking to the Wikipedia article, no hover effect,
 default referrer policy) and a small "Location" label followed by the location text. Either may be missing; with neither the column is unchanged.
@@ -234,7 +235,7 @@ Internal and Wikipedia links differ by **arrow and no underline** versus **under
 
 | Kind | Where | Look |
 | --- | --- | --- |
-| **Internal link** (href is an absolute path of this site) | entry texts of tiles/boxes/portal entries/topics, box titles that link, the entries of "Related articles", breadcrumb links, nameplate | serif, ink (`--fg`), **no underline**; entry texts are a little larger than plain text (home entries 1.3125rem / lh 1.45, portal entries and topics 1.4375rem / lh 1.4; the entries of "Related articles" 1.1875rem / lh 1.5). Clickable article titles (class `go`) end with a small accent **→** |
+| **Internal link** (href is an absolute path of this site) | entry texts of tiles/boxes/portal entries/topics, box titles that link, the dates of "Related articles", breadcrumb links, nameplate | serif, ink (`--fg`), **no underline**; entry texts are a little larger than plain text (home entries 1.3125rem / lh 1.45, portal entries and topics 1.4375rem / lh 1.4; the dates of "Related articles" use the subheader style). Clickable article titles (class `go`) end with a small accent **→** |
 | **Wikipedia link** (host `*.wikipedia.org`, `*.wikimedia.org`, `*.wikidata.org`) | article titles of "Related articles", "Read on Wikipedia", "(history)" and portal links, inline links in the entries' HTML, the map | the colour of the surrounding text (`color: inherit`) with a **thin dotted underline** at rest (full strength, 1px, offset 0.2em), no arrow; font inherited from the surrounding text |
 | **Descriptive text** (not a link as a whole) | "About the article" (home and article page), the extracts under the titles of "Related articles", "Location" text, source-card descriptions | sans (`--sans`, weight `--sans-weight`), `--soft`; sizes 1rem (home summary), 1.125rem (article page summary), 1rem (extracts), 0.875rem (cards); links inside follow the other rules |
 | **Subheader** (one style everywhere) | the article label above a tile or the category, the context label of a box entry, the date of the article page and the date next to each news item of "Related articles", breadcrumb items that are not links, category chips, the site name on a source card, "Location" | `--label`: sans, 0.8125rem, weight 600, `--soft`; neutral, not italic, not uppercase. Group titles and section headings are bold serif in ink |
@@ -245,7 +246,7 @@ line is small muted sans. (Text inside an entry that Wikipedia marks with `<i>`,
 
 The arrow (`.go::after`, generated content with a no-break space so it never wraps alone, and `content: "..." / ""` so screen readers do not
 read it where supported; no hover change) goes on: the entry text of tiles, portal entries, topics and box entries (home), a box title that
-links, and the entries of "Related articles". Not on breadcrumb links (the `›` separators already mark them),
+links, and the dates of "Related articles". Not on breadcrumb links (the `›` separators already mark them),
 not on Wikipedia links, not on source cards or the "Sources:" outlets.
 
 Implementation, all in `global.css`:

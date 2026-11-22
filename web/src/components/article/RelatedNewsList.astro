@@ -1,10 +1,10 @@
 ---
 import { formatShortDay } from "../../data/days";
 import type { RelatedNews } from "../../model";
-import EntryLinks from "./EntryLinks.astro";
+import SourcesLine from "./SourcesLine.astro";
 import styles from "./RelatedNewsList.module.css";
 
-/** News of other stories: the date they are about, next to the entries that link to their pages. */
+/** News of other stories: the date they are about (a link to their page) and their entries, as on the page itself. */
 interface Props {
   news: RelatedNews[];
   /** The day of the page being shown: dates of other years say their year. */
@@ -19,9 +19,20 @@ const { news, day } = Astro.props;
       {news.map((item) => (
         <li class={styles.item}>
           <time class={styles.date} datetime={item.day}>
-            {formatShortDay(item.day, day)}
+            <a class="go" href={item.href}>
+              {formatShortDay(item.day, day)}
+            </a>
           </time>
-          <EntryLinks href={item.href} texts={item.texts} />
+          <div>
+            {item.blocks.map((block) => (
+              <div class={styles.block}>
+                {block.texts.map((text) => (
+                  <p class={styles.text} set:html={text.html} />
+                ))}
+                <SourcesLine outlets={block.outlets} />
+              </div>
+            ))}
+          </div>
         </li>
       ))}
     </ul>

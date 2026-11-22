@@ -11,6 +11,9 @@ from .limits import ARTICLE_FETCH_BUDGET, MAX_ARTICLE_FETCHES
 
 log = logging.getLogger(__name__)
 
+# Bumped when parsers.highlighted_titles finds more links than before: stored headlines are looked at again.
+HIGHLIGHT_VERSION = 2
+
 
 def collect(cfg, client, today, days):
     items, errors = [], 0
@@ -149,6 +152,12 @@ def backfill_highlighted(cfg, client, state, pages):
     the scrape; one stored before this existed is looked up here, once (a headline whose highlighted
     links turned out not to be articles keeps an empty list and is not asked for again).
     """
+    if state.get("highlight_version") != HIGHLIGHT_VERSION and state.get("items"):
+        # the stored lists were made by an older parser (it missed <a><i>Title</i></a>): make them again, once
+        for it in state["items"].values():
+            if not it.get("pageid"):
+                it.pop("highlighted_articles", None)
+        state["highlight_version"] = HIGHLIGHT_VERSION
     missing = [(it, highlighted_titles(cfg, it)) for it in state.get("items", {}).values()
                if not it.get("pageid") and "highlighted_articles" not in it]
     missing = [(it, titles) for it, titles in missing if titles]

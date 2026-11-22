@@ -103,13 +103,17 @@ describe("the window around a day: main article", () => {
     expect([...seen].sort()).toEqual(stories.map((s) => s.id).sort());
   });
 
-  it("has no main block for topics, for entries without an article, nor for another article's stories", () => {
-    const t = story("t", { kind: "topic", pub_date: at(0), article: article("Hormuz", "x"), headlines: [headline("t")] });
+  it("has no main block for entries without an article, nor for another article's stories", () => {
     const other = mk("other", 1, "Hormuz");
-    expect(page([t, other], "t").related).toBeNull();
     const portal = story("p", { pub_date: at(0), headlines: [headline("x")] });
     expect(page([portal, other], "p").related).toBeNull();
     expect(mainIds([cur, mk("x", 1, "Gaza")], "cur")).toEqual([]);
+  });
+
+  it("gives a topic the news about its own article, never another topic", () => {
+    const t = story("t", { kind: "topic", pub_date: at(0), article: article("Hormuz", "x"), headlines: [headline("t")] });
+    const t2 = story("t2", { kind: "topic", pub_date: at(1), article: article("Hormuz", "x"), headlines: [headline("t2")] });
+    expect(mainIds([t, t2, mk("other", 1, "Hormuz")], "t")).toEqual(["other"]);
   });
 
   it("recognises the same article through a differently encoded link, and never lists topics", () => {
@@ -130,7 +134,7 @@ describe("the window around a day: main article", () => {
         storyId: "o",
         href: "/articles/o/",
         day: addDays(DAY, -3),
-        texts: [expect.objectContaining({ text: "text of o" }), expect.objectContaining({ text: "second entry" })],
+        blocks: [{ outlets: [], texts: [expect.objectContaining({ text: "text of o" }), expect.objectContaining({ text: "second entry" })] }],
       },
     ]);
   });
@@ -234,7 +238,7 @@ describe("related articles", () => {
     expect(related.articles.map((a) => [a.title, a.news.length])).toEqual([["Beta", 0], ["Alpha", 0]]);
   });
 
-  it("lists the ancestors of a topic page too, but gives a topic no main block", () => {
+  it("lists the ancestors of a topic page too, and the news about the topic's own article as its main block", () => {
     const t = story("t", {
       kind: "topic",
       pub_date: at(0),
@@ -243,7 +247,7 @@ describe("related articles", () => {
       headlines: [headline("t", [topic("Alpha"), topic("Gamma")])],
     });
     const related = page([t, mk("g", 1, "Gamma"), mk("a", 1, "Alpha")], "t").related!;
-    expect(related.main).toEqual([]);
+    expect(related.main.map((n) => n.storyId)).toEqual(["g"]);
     expect(related.articles.map((a) => [a.title, a.news.map((n) => n.storyId)])).toEqual([["Alpha", ["a"]]]);
   });
 });

@@ -271,12 +271,18 @@ def _source_names(sources):
     return names
 
 
+def _wholly_emphasised(a):
+    """Whether the text of the link is all inside one <i>/<b>: <a href=...><i>Title</i></a>."""
+    inner = [c for c in a.children if not (isinstance(c, str) and not c.strip())]
+    return len(inner) == 1 and not isinstance(inner[0], str) and inner[0].tag in _EMPHASIS
+
+
 def highlighted_titles(html, cfg, sources=()):
     """Titles of the Wikipedia articles an entry's text highlights, in order, without repeats.
 
     html: the entry's inline html (see inline_html). A highlighted link is an <a> directly inside
-    <i> or <b> (the editors italicise or embolden the article an entry is about) that points to
-    https://<host>/wiki/<Title>. Not counted: other namespaces (File:, Category:, Portal:, ...),
+    <i> or <b>, or one whose whole text is inside one (<a><i>Title</i></a>): the editors italicise or
+    embolden the article an entry is about. It points to https://<host>/wiki/<Title>. Not counted: other namespaces (File:, Category:, Portal:, ...),
     links to a section only, red links, and links whose text is the name of a cited outlet
     (`sources`: [{name, url}]), which is set in italics too but is not the subject.
     """
@@ -286,7 +292,7 @@ def highlighted_titles(html, cfg, sources=()):
     titles = []
     for a in parse_html(html or "").find_all("a"):
         href = a.attrs.get("href", "")
-        if a.parent.tag not in _EMPHASIS or not href.startswith(prefix) or "redlink=1" in href:
+        if not (a.parent.tag in _EMPHASIS or _wholly_emphasised(a)) or not href.startswith(prefix) or "redlink=1" in href:
             continue
         title = unquote(href[len(prefix):].split("#")[0].split("?")[0]).replace("_", " ").strip()
         if not title or title.split(":")[0].strip().lower() in ignored:

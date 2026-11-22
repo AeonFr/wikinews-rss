@@ -89,7 +89,6 @@ describe("the real data", () => {
       expect(page, id).not.toBeNull();
       expect(page!.title.length).toBeGreaterThan(0);
       expect(page!.entries.flatMap((block) => block.texts)).toHaveLength(data.stories.find((s) => s.id === id)!.headlines.length);
-      if (page!.kind === "topic") expect(page!.related?.main ?? []).toEqual([]);
       const listed = [...(page!.related?.main ?? []), ...(page!.related?.articles ?? []).flatMap((a) => a.news)];
       for (const other of listed) {
         expect(other.storyId).not.toBe(id);

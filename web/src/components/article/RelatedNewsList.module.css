@@ -6,7 +6,7 @@
 
 .item {
   display: grid;
-  grid-template-columns: 6rem minmax(0, 1fr);
+  grid-template-columns: 7rem minmax(0, 1fr);
   column-gap: 0.75rem;
   align-items: baseline;
   margin: 0 0 1rem;
@@ -16,11 +16,31 @@
   margin-bottom: 0;
 }
 
-/* The subheader style (global `--label`), in a column of its own so the dates line up. */
+/* The subheader style (global `--label`), in a column of its own so the dates line up. The date is the link to the news' page. */
 .date {
   color: var(--soft);
   font: var(--label);
   white-space: nowrap;
+}
+
+.date a {
+  color: inherit;
+}
+
+.block + .block {
+  margin-top: 0.6rem;
+}
+
+/* As the entries of the page itself (Entries.module.css), a little smaller: sans, since the text is not a link as a whole. Its own links go to Wikipedia (global rule). */
+.text {
+  max-width: 40rem;
+  margin: 0 0 0.4rem;
+  font-family: var(--sans);
+  font-size: 1.0625rem;
+  font-weight: 400;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+  text-wrap: pretty;
 }
 
 /* On a narrow screen the date goes above its entries instead of taking a column from them. */

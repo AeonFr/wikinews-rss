@@ -7,18 +7,18 @@
 import { addDays, dayOf } from "../data/days";
 import type { ArticleRef, HeadlineTopic, Story } from "../data/types";
 import { articleKey, nearestKey, nearestTopic, storyArticles, topicUrl } from "./articles";
-import { type TextItem, storyHref, textItem } from "./entry";
+import { type EntryBlock, entryBlocks, storyHref } from "./entry";
 import type { NewsIndex } from "./news-index";
 
 /** How many days before and after the page's day count as "around it" (never shown on the page). */
 export const RELATED_WINDOW_DAYS = 7;
 
-/** One story of the lists: its page, its UTC day (shown next to the link) and its entries. */
+/** One story of the lists: its UTC day (a link to its page) and its entries, with their sources. */
 export interface RelatedNews {
   storyId: string;
   href: string;
   day: string;
-  texts: TextItem[];
+  blocks: EntryBlock[];
 }
 
 /** A related article: its title (linked to Wikipedia), its text, and its news around the page's day (maybe none). */
@@ -31,7 +31,7 @@ export interface RelatedArticle {
 }
 
 export interface Related {
-  /** News about the page's own article (no heading: it is the page's article), newest first. */
+  /** News about the page's own article (no heading: it is the page's article; a topic's too), newest first. */
   main: RelatedNews[];
   /** The articles this one is nested under, deepest first, then the ones its same-day siblings are about. */
   articles: RelatedArticle[];
@@ -79,7 +79,7 @@ const newsItem = (story: Story): RelatedNews => ({
   storyId: story.id,
   href: storyHref(story),
   day: dayOf(story.pub_date),
-  texts: story.headlines.map(textItem),
+  blocks: entryBlocks(story.headlines),
 });
 
 /** The stories of the same group (the same top-level article of the day) other than `story`, in news order. */
@@ -89,10 +89,10 @@ export function groupSiblings(index: NewsIndex, story: Story): Story[] {
 
 /**
  * The section of `story`'s page; null when there is nothing to show (no news about its article and no related
- * article). The main block is only for a story (not a topic) that has a nearest article.
+ * article). The main block is for the news about the page's own article: a story's nearest article, a topic's article.
  */
 export function buildRelated(index: NewsIndex, story: Story, siblings: Story[] = groupSiblings(index, story)): Related | null {
-  const mainKey = story.kind === "topic" ? null : nearestKey(story);
+  const mainKey = story.kind === "topic" ? (story.article ? articleKey(story.article.url) : null) : nearestKey(story);
   const newsAbout = (key: string): RelatedNews[] => newsAround(index.byNearestNewestFirst.get(key) ?? [], story).map(newsItem);
   const own = storyArticles(story);
 
