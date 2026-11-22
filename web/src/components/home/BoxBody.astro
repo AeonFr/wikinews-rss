@@ -27,9 +27,11 @@ const Title = `h${Math.min(level, 6)}` as "h4";
   {
     content.entries.map((entry, i) => (
       <div class={tiles.cell} style={layout.items[entryId(i)]}>
-        {entry.context && <p class={styles.label}>{entry.context}</p>}
         <p class={styles.text}>
-          <a class="go" href={entry.href} set:html={withoutLinks(entry.html)} />
+          <a class="go" href={entry.href}>
+            {entry.context && <span class={styles.context}>{entry.context}</span>}
+            <Fragment set:html={withoutLinks(entry.html)} />
+          </a>
         </p>
       </div>
     ))

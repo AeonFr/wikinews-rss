@@ -13,8 +13,10 @@ interface Props {
   label: string;
   /** The list sits right under a heading or banner that has its own rule: its first row gets no line of its own. */
   first?: boolean;
+  /** Show the entries' labels (the article above a tile); false for the featured entries, whose label is only a category. */
+  showLabels?: boolean;
 }
-const { entries, size, label, first = false } = Astro.props;
+const { entries, size, label, first = false, showLabels = true } = Astro.props;
 const { grid, cells } = entryListStyles(entries);
 ---
 
@@ -24,10 +26,12 @@ const { grid, cells } = entryListStyles(entries);
       <li class:list={[tiles.cell, styles.entry, entry.image && tiles.withImage]} style={cells[entry.storyId]}>
         {entry.image && <HomeImage image={entry.image} class={[tiles.withImageImage, styles.image]} />}
         <div class:list={[styles.body, entry.image && tiles.withImageText]}>
-          {entry.label && <p class={styles.label}>{entry.label}</p>}
-          {entry.items.map((item) => (
+          {entry.items.map((item, i) => (
             <p class={styles.text}>
-              <a class="go" href={entry.href} set:html={withoutLinks(item.html)} />
+              <a class="go" href={entry.href}>
+                {showLabels && i === 0 && entry.label && <span class={styles.label}>{entry.label}</span>}
+                <Fragment set:html={withoutLinks(item.html)} />
+              </a>
             </p>
           ))}
         </div>

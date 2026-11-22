@@ -51,7 +51,7 @@ Story = {
   more_articles: ArticleRef[],     // other articles on the topic lines of the story's headlines; for a story with no `article`
                                    // (a portal-only entry), the articles its text highlights (see below)
   headlines: Headline[],           // the entries (one or several)
-  image?: {url, source, link},     // only on stories of "featured" groups (several entries) and portal-only entries
+  image?: {url, source, link},     // the first source image found among the group's entries (when a source has a preview with one)
   kind?: "topic", retired?: true   // "Topics in the news" items; retired ones keep their page but are not listed
 }
 ArticleRef = { title, url, extract?,
@@ -83,16 +83,20 @@ article). The nesting of articles (topic > sub-topic > sub-sub-topic) comes from
 1. Masthead (site name, a tagline, a link to the RSS feed), an intro paragraph, a small unofficial-project/licence disclaimer, and a
    "Last updated" line with the `updated` timestamp (UTC text + the optional tiny enhancement script).
 2. **Topics in the news** section (above all days, not inside any day): stories with `kind === "topic"` and not `retired`, as portal-style
-   entries (see 3c), under a section heading that is clearly stronger than the article labels under it.
+   entries (see 3a), under a section heading that is clearly stronger than the article labels under it.
 3. **Day sections**, newest first, for the last **30 days** (by UTC day of `pub_date`, counted back from `updated`). Topics are never in a day.
    Each day has a sticky date heading (`position: sticky; top: 0`, opaque background) that stays until the next day pushes it away.
    Inside a day, in this order:
    - **a. Portal entries**: stories with no `article` that are their own unit. A larger text size than the others; with an image,
      the image is the first column and the text takes the rest of the row (full row: image 1 column, text the others).
-   - **b. Grouped boxes**: units (stories sharing a `group`) with several entries, as grouped boxes without a background tint (see 4); the vertical rule of the "About the article" summary plus the title and dividers group them.
-   - **c. Single-article tiles**: units with one story that has one entry and an article. A small label with the article's title
+   - **b. Single-article tiles**: units with one story that has one entry and an article. A small label with the article's title
      (or the category for no-article entries), then the entry text as a link to its article page.
-   Within portal entries and within grouped boxes, those that have an image come first.
+   - **c. Grouped boxes**: units (stories sharing a `group`) with several entries, as grouped boxes without a background tint (see 4); the vertical rule of the "About the article" summary plus the title and dividers group them.
+     They come **last**, after all the rest of the news, on every screen size: each box's title (with the hairline above it) ends the list before it, and the next day's heading ends the last box,
+     so one can always tell where a cluster ends.
+   The order of the day's lists is: **portal entries with an image, single-article tiles with an image, portal entries without an image, single-article tiles without**, then the grouped boxes (see c);
+   within the boxes those that have an image come first. A tile with an image is laid out like a portal entry
+   with one (a full row: the image the first column, the text beside it).
    Unit rule: `stories.length === 1 && (headlines.length === 1 || !article)` is a single tile / portal entry; anything else is a box.
 
 ## 4. Grouped boxes (the complex part; port this logic faithfully)
@@ -240,10 +244,10 @@ Internal and Wikipedia links differ by **arrow and no underline** versus **under
 
 | Kind | Where | Look |
 | --- | --- | --- |
-| **Internal link** (href is an absolute path of this site) | entry texts of tiles/boxes/portal entries/topics, box titles that link, the dates of "Related articles", breadcrumb links, nameplate | serif, ink (`--fg`), **no underline**; entry texts are a little larger than plain text (home entries 1.3125rem / lh 1.45, portal entries and topics 1.4375rem / lh 1.4; the dates of "Related articles" use the subheader style). Clickable article titles (class `go`) end with a small accent **→** |
+| **Internal link** (href is an absolute path of this site) | entry texts of tiles/boxes/portal entries/topics, box titles that link, the dates of "Related articles", breadcrumb links, nameplate | serif, ink (`--fg`), **no underline**; the **entry texts** (the long lines) use `--serif-text` (Charter, Sitka Text, Cambria, then Iowan/Georgia: a sturdier serif that reads closer to a sans), the headings and labels keep `--serif` (Georgia); entry texts are a little larger than plain text (home entries 1.3125rem / lh 1.45, portal entries and topics 1.5625rem / lh 1.4; the dates of "Related articles" use the subheader style). Clickable article titles (class `go`) end with a small accent **→** |
 | **Wikipedia link** (host `*.wikipedia.org`, `*.wikimedia.org`, `*.wikidata.org`) | article titles of "Related articles", "Read on Wikipedia", "(history)" and portal links, inline links in the entries' HTML, the map | the colour of the surrounding text (`color: inherit`) with a **thin dotted underline** at rest (full strength, 1px, offset 0.2em), no arrow; font inherited from the surrounding text |
 | **Descriptive text** (not a link as a whole) | "About the article" (home and article page), the extracts under the titles of "Related articles", "Location" text, source-card descriptions | sans (`--sans`, weight `--sans-weight`), `--soft`; sizes 1rem (home summary), 1.125rem (article page summary), 1rem (extracts), 0.875rem (cards); links inside follow the other rules |
-| **Subheader** (one style everywhere) | the article label above a tile or the category, the context label of a box entry, the date of the article page and the date next to each news item of "Related articles", breadcrumb items that are not links, category chips, the site name on a source card, "Location" | `--label`: sans, 0.8125rem, weight 600, `--soft`; neutral, not italic, not uppercase. Group titles and section headings are bold serif in ink |
+| **Subheader** (one style everywhere, except the home page's own labels) | the date of the article page and the date next to each news item of "Related articles", breadcrumb items that are not links, category chips, the site name on a source card, "Location" | `--label`: sans, 0.8125rem, weight 600, `--soft`; neutral, not italic, not uppercase. Group titles and section headings are bold serif in ink. **The home page's labels** (the article label above a tile, the context label of a box entry; **not** the category above a featured/portal entry, which shows none) are bigger (1.0625rem, weight 600, `--soft`) and set in the **serif**, on a line of their own **inside the entry's link** (the text of the first entry of the tile; they have no link of their own) |
 
 External links to news outlets (the "Sources:" lines and the source cards) are a modest further treatment (the dotted underline stays specific to Wikipedia links): the colour of the surrounding
 text (`--soft` in the sources line, ink in the card title) with the **default fainter thin underline** (45% of the text colour); the sources

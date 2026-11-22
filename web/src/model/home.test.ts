@@ -87,6 +87,13 @@ describe("buildHome: days", () => {
     expect(day.boxes.map((b) => b.id)).toEqual(["b2", "b1", "b3"]);
   });
 
+  it("puts the single-article tiles with an image first too, keeping the order otherwise", () => {
+    const tile = (id: string, extra = {}) => story(id, { article: article(id), headlines: [headline(id, [topic(id)])], ...extra });
+    const [day] = buildHome(news([tile("t1"), tile("t2", { image }), tile("t3"), tile("t4", { image })])).days;
+    expect(day.tiles.map((t) => t.storyId)).toEqual(["t2", "t4", "t1", "t3"]);
+    expect(day.tiles[0].image).toEqual({ url: image.url, source: "AP", href: "/articles/t2/" });
+  });
+
   it("puts a story in the day of its UTC date", () => {
     const home = buildHome(
       news([story("late", { pub_date: "2026-11-20T23:59:59Z", article: article("A"), headlines: [headline("x")] })]),

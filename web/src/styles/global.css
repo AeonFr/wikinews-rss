@@ -25,6 +25,10 @@
 
   /* Type */
   --serif: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif;
+  /* The text of the clickable entries (the long lines): still a serif, which says "link", but a sturdier, lower-contrast one that
+     reads closer to a sans: Charter (macOS, iOS), Sitka Text (Windows 10+, made for the screen), Cambria (older Windows), then the
+     Iowan/Georgia of the other stack. Lining figures, a large x-height and even strokes, unlike the headline serif. */
+  --serif-text: Charter, "Bitstream Charter", "Sitka Text", Cambria, "Iowan Old Style", Georgia, serif;
   --display: var(--serif); /* the nameplate and the banner headings: the same serif, as on Wikipedia */
   --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 

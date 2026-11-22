@@ -20,7 +20,7 @@ export interface HomeEntry {
   items: TextItem[];
   /** Characters of all the texts (joined by a space), for the layout. */
   length: number;
-  /** The story's image, if it has one (the generator gives images to portal entries and boxes only). */
+  /** The story's image, if it has one (the generator gives one to any story whose sources have one). */
   image: ModelImage | null;
 }
 
@@ -32,6 +32,7 @@ export interface HomeDay {
   /** Units with several entries; with an image first. */
   boxes: Box[];
   /** Units with one entry about an article. */
+  /** Single-article tiles; with an image first. */
   tiles: HomeEntry[];
 }
 
@@ -90,7 +91,7 @@ function buildDay(day: string, stories: Story[]): HomeDay {
     day,
     portalEntries: imagesFirst(portalEntries, (entry) => entry.image !== null),
     boxes: imagesFirst(boxes, (box) => box.image !== null),
-    tiles,
+    tiles: imagesFirst(tiles, (entry) => entry.image !== null),
   };
 }
 

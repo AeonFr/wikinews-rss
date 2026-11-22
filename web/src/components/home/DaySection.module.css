@@ -27,7 +27,7 @@
 }
 
 /*
- * One line wherever two would meet. A day's lists (portal entries, boxes, tiles; any may be missing) are
+ * One line wherever two would meet. A day's lists (portal entries, tiles, boxes: in that order, the clusters last; any may be missing) are
  * separated by the hairline above their first row, 1.75rem below what precedes them. The first list sits
  * right under the heading's 2px rule, so it gets a smaller margin and no line of its own (its `first` prop:
  * EntryList drops the line of the tiles that start in row 1 at the current width, BoxList that of the first box).

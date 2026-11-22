@@ -11,8 +11,18 @@ interface Props {
 }
 const { day } = Astro.props;
 const headingId = dayHeadingId(day.day);
+// The rest of the news comes first, the clusters (boxes) last: each cluster's title ends the list before it and the next
+// day's heading ends the last cluster. The order: portal entries with an image, tiles with an image, portal entries
+// without, tiles without.
+const withImage = <T extends { image: unknown }>(items: T[], yes: boolean) => items.filter((item) => (item.image !== null) === yes);
+const lists = [
+  { entries: withImage(day.portalEntries, true), size: "large" as const, label: "From the Current events portal" },
+  { entries: withImage(day.tiles, true), size: "tile" as const, label: "Single stories" },
+  { entries: withImage(day.portalEntries, false), size: "large" as const, label: "From the Current events portal" },
+  { entries: withImage(day.tiles, false), size: "tile" as const, label: "Single stories" },
+].filter((list) => list.entries.length > 0);
 // The first of the day's lists sits right under the heading's rule: it must not add a line of its own.
-const firstList = day.portalEntries.length > 0 ? "portal" : day.boxes.length > 0 ? "boxes" : "tiles";
+const boxesFirst = lists.length === 0;
 ---
 
 <section class={styles.day} aria-labelledby={headingId}>
@@ -20,23 +30,16 @@ const firstList = day.portalEntries.length > 0 ? "portal" : day.boxes.length > 0
     <time datetime={day.day}>{formatDay(day.day)}</time>
   </h2>
   {
-    day.portalEntries.length > 0 && (
-      <div class:list={[styles.block, firstList === "portal" && styles.first]}>
-        <EntryList entries={day.portalEntries} size="large" label="From the Current events portal" first={firstList === "portal"} />
+    lists.map((list, i) => (
+      <div class:list={[styles.block, i === 0 && styles.first]}>
+        <EntryList entries={list.entries} size={list.size} label={list.label} first={i === 0} showLabels={list.size === "tile"} />
       </div>
-    )
+    ))
   }
   {
     day.boxes.length > 0 && (
-      <div class:list={[styles.block, firstList === "boxes" && styles.first]}>
-        <BoxList boxes={day.boxes} first={firstList === "boxes"} />
-      </div>
-    )
-  }
-  {
-    day.tiles.length > 0 && (
-      <div class:list={[styles.block, firstList === "tiles" && styles.first]}>
-        <EntryList entries={day.tiles} size="tile" label="Single stories" first={firstList === "tiles"} />
+      <div class:list={[styles.block, boxesFirst && styles.first]}>
+        <BoxList boxes={day.boxes} first={boxesFirst} />
       </div>
     )
   }

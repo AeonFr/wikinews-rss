@@ -9,11 +9,19 @@
   --gap-y: 1rem;
 }
 
-/* The context of an entry (the sub-topic it was under): a small label, as on the single tiles. */
 .label {
   margin: 0 0 0.3rem;
   color: var(--soft);
   font: var(--label);
+  overflow-wrap: anywhere;
+}
+
+/* The context of an entry (the sub-topic it was under): a small serif label on a line of its own, part of the entry's link, as on the single tiles. */
+.context {
+  display: block;
+  margin: 0 0 0.3rem;
+  color: var(--soft);
+  font: 600 1.0625rem/1.35 var(--serif);
   overflow-wrap: anywhere;
 }
 
@@ -34,6 +42,7 @@
 /* The entry text is an internal link (ink, no underline: global rule), a little larger than a plain text. */
 .text {
   margin: 0;
+  font-family: var(--serif-text);
   font-size: 1.3125rem;
   line-height: 1.45;
   overflow-wrap: anywhere;

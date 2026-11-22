@@ -25,17 +25,19 @@
   border-top-width: calc(var(--w-hair) * (1 - var(--top)));
 }
 
-/* The article's title (or the category): a small label (global subheader style). */
+/* The article's title (or the category): a small serif label (the subheader size), on a line of its own and part of the entry's link. */
 .label {
+  display: block;
   margin: 0 0 0.3rem;
   color: var(--soft);
-  font: var(--label);
+  font: 600 1.0625rem/1.35 var(--serif);
   overflow-wrap: anywhere;
 }
 
 /* The entry text is an internal link (ink, no underline: global rule), a little larger than a plain text. */
 .text {
   margin: 0;
+  font-family: var(--serif-text);
   font-size: 1.3125rem;
   line-height: 1.45;
   overflow-wrap: anywhere;
@@ -51,7 +53,7 @@
 }
 
 .large .text {
-  font-size: 1.4375rem;
+  font-size: 1.5625rem;
   line-height: 1.4;
 }
 
