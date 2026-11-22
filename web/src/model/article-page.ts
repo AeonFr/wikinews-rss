@@ -42,13 +42,8 @@ export interface ArticlePage {
   /** "topic" and retired topics included: they have pages like any story. */
   kind: "story" | "topic";
   retired: boolean;
-  /** `<h1>`: the nearest article's label, else the article's title, else the category. */
+  /** The `<h1>`, visually hidden (it is more of a category): the nearest article's label, else the article's title, else the category. */
   title: string;
-  /**
-   * `title` is only the editors' category (the story has neither an article nor a nearest topic): the page shows no
-   * title, and an article taken from the entry's highlighted link (`about`) is named in its own column instead.
-   */
-  titleIsCategory: boolean;
   /** ISO UTC moment of the story; `day` is its UTC day. */
   pubDate: string;
   day: string;
@@ -145,7 +140,6 @@ export function buildArticlePage(news: NewsData, sources: SourcePreviews, storyI
     kind: story.kind === "topic" ? "topic" : "story",
     retired: story.retired === true,
     title: pageLabel(story),
-    titleIsCategory: !story.article && near === null,
     pubDate: story.pub_date,
     day: dayOf(story.pub_date),
     crumbs,
@@ -153,7 +147,7 @@ export function buildArticlePage(news: NewsData, sources: SourcePreviews, storyI
     entries: entryBlocks(story.headlines),
     whereFrom: whereFrom(story),
     sourceCards: sourceCards(story.headlines, sources),
-    related: buildRelated(index, story, siblings),
+    related: buildRelated(index, story),
     about: article ? aboutArticle(article) : { kind: "portal", page: story.headlines[0].page },
   };
 }

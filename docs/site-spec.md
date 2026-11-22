@@ -118,6 +118,9 @@ A box merges the stories of a unit. Its title is the top-level article's title. 
   **170 characters** would sit next to it, the image instead takes the whole width of the entries area (2 columns) on its own row and the texts go
   below. An image **never takes all 3 columns of the box** (and never the full width of a 2-column box): if it would, it is left out.
   Stacked (1 column), the image comes right under the title, **above** the summary.
+  **The text beside an image is the one the image comes from** (`story.image.link` is the page of the source it was taken from): the image goes in the box or group
+  that holds the entry citing that page, and that entry is the container's first one (not the shortest first), so it is the one beside the image. If the unit has
+  several stories and no entry cites the image's page, the image is left out; a unit of one story keeps it in the box.
 
 ## 5. Tile layout algorithm (compute at BUILD time, for 1, 2 and 3 columns)
 
@@ -131,7 +134,8 @@ For a list of tiles (single tiles, portal entries, topics, the entries inside a 
   thresholds: **short ≤ 280, long ≥ 500**). Needs: short/flex 1 column, long 2 (max `cols`), grouped boxes and sub-groups the full row.
 - Packing: each tile goes to the **first row with room** (so short tiles fill the gaps wide ones leave). Then, per row: a flex tile widens by 1
   to avoid a gap; then any leftover goes to the row's tile with the **longest text** (so **no row ever has an empty column**; an image tile is
-  the last to grow). Within a row, **the image first, then wider tiles first** (stable).
+  the last to grow). Within a row, **the image first** (and the tile that follows it in the input, the text it belongs to, right beside it), **then wider tiles first, and of the same
+  width the one with more text first** (ties keep the input order).
 - With 3 columns: if the **last row is a single tile and the row before has exactly three one-column tiles**, the last tile of that row moves down
   to join it (two rows of two, each with a wide and a narrow tile) instead of stretching the lone tile across all columns.
 - 1 column: everything stacked, no spans.
@@ -149,13 +153,14 @@ title, entries, where-from line, about, sources, related.
 Main content, in order:
 - Kicker: the date, then either a breadcrumb of the bigger articles this one is nested under (outermost first; plain text, a link only if
   another story of the same group is about that article) or, if none, the category chips. Page title (`h1`): the nearest article's label,
-  else the article's title, else the category.
+  else the article's title, else the category. **The title is never shown** (it reads as a category): the `h1` is kept visually hidden for screen readers and the outline,
+  and the article is named in the "About the article" column instead.
 - The entries: each text with its inline links; entries citing the same outlets are shown together with one "Sources: …" line (an outlet cited with
   several pages is shown once with numbered links, e.g. "Al Jazeera (1, 2)").
 - A line saying where they come from ("From <portal page> (history)"), once per portal page. For topics: "Added on <local date> to the Current events portal (history)."
 - **From the sources**: a card per cited source that has a preview (`sources.json`): image, site, title, description. Deduplicate cards by (site, title, image).
   Source cards are **container-query** based: image on top when the container is narrow (< 30rem), beside the text when wide.
-- **Related articles** (heading exactly that, no date; the section is left out when there is nothing to show). The idea: by following the previous and
+- **Also on <article>** and **Related articles** (two sections, headings exactly that, no date; each is left out when it has nothing to show; "Also on" comes first and names the page's own article, e.g. "Also on Grand Theft Auto VI"). The idea: by following the previous and
   next news of an article one can reach every story about it. A story belongs to article A when its **nearest article** is A (topics never count; an entry with neither an article nor a topic line has as nearest article the **first** link its editors highlighted);
   the page's own story is never listed. Dates are UTC days (`pub_date`). For each article the list is built like this, and the same rule serves the page's
   own article and every related article:
@@ -168,19 +173,19 @@ Main content, in order:
   - Each item is a row: a small date next to the entries of that story (the `--label` subheader style in a `<time datetime>`, "Nov 20", with the year, "Nov 20, 2025",
     when it is not the page's year). **The date is the link** to the story's page (internal link with the arrow: "Nov 20 →"); the entries have no link of their own. Each entry is styled
     as on the page itself (sans, a little smaller, its inline links go to Wikipedia) and entries citing the same outlets share one "Sources: …" line. No "7 days" or "6 months" text anywhere in the section.
-  - First, with no sub-heading (it is the page's own article), the news about the page's **own article**: a story's nearest article, a topic's article (a topic page lists the stories about it, never other topics); nothing for an entry without any article.
-  - Then the **related articles**, each a block with a hairline above: its title (a link to Wikipedia, bold serif), its extract (descriptive text, sans, at most
-    4 lines; may be missing), and its news as above. Which ones: first the articles this story is nested under (its `topics` path), **deepest first**;
-    then the nearest articles of the stories of the **same group and same day** (the siblings), in the order of the siblings, without repeating the page's article
-    or an article already listed. An ancestor with no news at all is still listed (title and extract only). The extract comes from the story's own articles, else
+  - **Also on <article>**: the news about the page's **own article** on other days: a story's nearest article, a topic's article (a topic page lists the stories about it, never other topics); nothing for an entry without any article.
+  - **Related articles**: only the articles of the **same branch** of the hierarchy, i.e. the ones the story is nested under (its `topics` path); never the other branches of the same
+    group, nor the siblings of those articles. For `A > B > C > entry` the page of C lists B then A; a sibling branch `A > D` is not listed. Each is a block with a hairline above:
+    its title alone (just that article's name, not the path above it), a link to Wikipedia (bold serif), its extract (descriptive text, sans, at most
+    4 lines; may be missing), and its news as above. Order: **deepest first**, without repeating the page's own article. An ancestor with no news at all is still listed (title and extract only). The extract comes from the story's own articles, else
     from any story that knows the article (the newest version that has a text).
   - The lookups use per-article lists sorted by date (`byNearestNewestFirst`) and binary search, so the cost per page does not grow with the number of stories.
 
 Third column / "About the article": label, the article's full summary (no cutting), and a link "Read on Wikipedia"
-(a portal-only entry with no article and no highlighted link has no About column and no visible title, since its "title" would only be the portal's category; keep a visually hidden `h1` for the outline; its day is linked in the "From ..." line).
-**A portal-only entry whose text highlights a Wikipedia link** (`article: null` but `more_articles` not empty, see section 2) takes the first of those as its article:
-the About column describes it (its name as a link right under the label, since the page has no title of its own, then summary, map/location and "Read on Wikipedia" as above).
-The page title stays hidden (model field `titleIsCategory`: the story has neither an `article` nor a nearest topic), and the implicit article **is** the story's nearest article for the "Related articles" lists (`nearestKey`): the story is in `byNearest` under the **first** highlighted link
+(a portal-only entry with no article and no highlighted link has no About column; its day is linked in the "From ..." line). **Every** About column names its article as a link
+right under the label (then summary, map/location and "Read on Wikipedia" as above), because the page shows no title of its own.
+**A portal-only entry whose text highlights a Wikipedia link** (`article: null` but `more_articles` not empty, see section 2) takes the first of those as its article.
+The implicit article **is** the story's nearest article for the "Related articles" lists (`nearestKey`): the story is in `byNearest` under the **first** highlighted link
 (the portal parser counts both `<i><a>…</a></i>` and `<a><i>…</i></a>`), so the pages of that article (and its topic) list it as news. The home page and the grouping are unchanged.
 Between the summary and that link, when the article being described has them: its **map** (`<img>` hotlinked from `maps.wikimedia.org`, `srcset` with the
 2x image, `width`/`height`, `loading="lazy"`, `alt="Map of <location or title>"`, fitted to the column width, linking to the Wikipedia article, no hover effect,

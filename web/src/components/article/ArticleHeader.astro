@@ -5,13 +5,11 @@ import Title from "./Title.astro";
 
 interface Props {
   page: Pick<ArticlePage, "title" | "day" | "crumbs" | "categories">;
-  /** The entry has no article: there is no real title to show. */
-  hideTitle?: boolean;
 }
-const { page, hideTitle = false } = Astro.props;
+const { page } = Astro.props;
 ---
 
 <header>
   <Kicker day={page.day} crumbs={page.crumbs} categories={page.categories} />
-  <Title hidden={hideTitle}>{page.title}</Title>
+  <Title>{page.title}</Title>
 </header>

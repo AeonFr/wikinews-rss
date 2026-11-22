@@ -1,14 +1,8 @@
+/*
+ * The page's `h1` is never shown: the nearest article's label is more of a category than a title, and the article is
+ * named in its own column ("About the article"). It stays for screen readers and the document outline.
+ */
 .title {
-  margin: 0 0 1.25rem;
-  color: var(--fg);
-  font: 700 clamp(1.5rem, 3.6vw, 2.125rem) / 1.1 var(--serif);
-  letter-spacing: -0.01em;
-  text-wrap: balance;
-  overflow-wrap: anywhere;
-}
-
-/* An entry straight from the portal has no article: its "title" would be the editors' category, so it is not shown. */
-.hidden {
   position: absolute;
   width: 1px;
   height: 1px;

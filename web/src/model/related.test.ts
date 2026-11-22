@@ -110,6 +110,12 @@ describe("the window around a day: main article", () => {
     expect(mainIds([cur, mk("x", 1, "Gaza")], "cur")).toEqual([]);
   });
 
+  it("names the page's own article for the heading \"Also on ...\"", () => {
+    expect(page([cur, mk("o", 1, "Hormuz")], "cur").related!.mainTitle).toBe("Hormuz");
+    const t = story("t", { kind: "topic", pub_date: at(0), article: article("Strait of Hormuz"), headlines: [headline("t")] });
+    expect(page([t, mk("o", 1, "Strait of Hormuz")], "t").related!.mainTitle).toBe("Strait of Hormuz");
+  });
+
   it("gives a topic the news about its own article, never another topic", () => {
     const t = story("t", { kind: "topic", pub_date: at(0), article: article("Hormuz", "x"), headlines: [headline("t")] });
     const t2 = story("t2", { kind: "topic", pub_date: at(1), article: article("Hormuz", "x"), headlines: [headline("t2")] });
@@ -141,29 +147,34 @@ describe("the window around a day: main article", () => {
 });
 
 describe("related articles", () => {
-  // this: Alpha > Beta > Gamma. Siblings of the same group and day sit around it.
+  // this: Alpha > Beta > Gamma. Other branches of the same group and day sit around it.
   const group = { group: "g" };
   const cur = mk("cur", 0, "Gamma", ["Alpha", "Beta"], group);
-  const sibDelta = mk("sibDelta", 0, "Delta", ["Alpha"], group);
-  const sibEps = mk("sibEps", 0, "Epsilon", ["Alpha", "Beta"], group);
+  const sibDelta = mk("sibDelta", 0, "Delta", ["Alpha"], group); // Alpha > Delta: another branch
+  const sibEps = mk("sibEps", 0, "Epsilon", ["Alpha", "Beta"], group); // Alpha > Beta > Epsilon: a sibling of this one
   const sibGamma = mk("sibGamma", 0, "Gamma", ["Alpha", "Beta"], group); // same article as the main one
-  const sibEps2 = mk("sibEps2", 0, "Epsilon", ["Alpha"], group); // Epsilon again
   const sibBeta = mk("sibBeta", 0, "Beta", ["Alpha"], group); // an ancestor
-  const stories = [cur, sibDelta, sibEps, sibGamma, sibEps2, sibBeta];
+  const stories = [cur, sibDelta, sibEps, sibGamma, sibBeta];
 
-  it("lists the ancestors deepest first, then the siblings' articles by first appearance, without duplicates", () => {
+  it("lists only the articles above, deepest first: never the siblings' articles of the same group", () => {
     const titles = page(stories, "cur").related!.articles.map((a) => a.title);
-    expect(titles).toEqual(["Beta", "Alpha", "Delta", "Epsilon"]);
+    expect(titles).toEqual(["Beta", "Alpha"]);
   });
 
-  it("gives each article its news, and a sibling's article at least that sibling", () => {
+  it("gives each article its news, only the stories whose nearest article it is", () => {
     const articles = page(stories, "cur").related!.articles;
     const by = Object.fromEntries(articles.map((a) => [a.title, a.news.map((n) => n.storyId)]));
-    expect(by.Delta).toEqual(["sibDelta"]);
-    expect(by.Epsilon).toEqual(["sibEps", "sibEps2"]);
     expect(by.Beta).toEqual(["sibBeta"]);
     expect(by.Alpha).toEqual([]); // no story about Alpha itself: still listed, with no news
     expect(page(stories, "cur").related!.main.map((n) => n.storyId)).toEqual(["sibGamma"]);
+  });
+
+  it("the Yemen case: a story under Crisis > War > Strait lists Crisis and War, not the other branch", () => {
+    const strait = mk("strait", 0, "Strait", ["Crisis", "War"], group);
+    const yemen = mk("yemen", 0, "Houthi conflict", ["Crisis", "Yemeni civil war"], group);
+    const offensives = mk("off", 0, "Yemen offensives", ["Crisis", "Yemeni civil war"], group);
+    const titles = page([strait, yemen, offensives], "strait").related!.articles.map((a) => a.title);
+    expect(titles).toEqual(["War", "Crisis"]);
   });
 
   it("does not repeat the main article or an ancestor as a related article, nor stories of other groups", () => {
@@ -193,13 +204,10 @@ describe("related articles", () => {
       mk("betaOld", -25, "Beta"),
       mk("betaOlder", -50, "Beta"),
       mk("betaSoon", 5, "Beta"),
-      mk("deltaOld", -100, "Delta"),
-      mk("deltaFuture", 100, "Delta"),
     ];
     const by = Object.fromEntries(page(more, "cur").related!.articles.map((a) => [a.title, a.news.map((n) => n.storyId)]));
     expect(by.Alpha).toEqual(["alphaLater", "alphaNear"]); // earlier in the window, so no earlier fallback; later fallback
     expect(by.Beta).toEqual(["betaSoon", "sibBeta", "betaOld"]); // nothing earlier in the window: the most recent earlier one, only
-    expect(by.Delta).toEqual(["deltaFuture", "sibDelta", "deltaOld"]);
   });
 
   it("takes the extract from the story's own articles, else from any other story", () => {
@@ -226,7 +234,7 @@ describe("related articles", () => {
     expect(articles).toEqual([{ title: "Alpha", url: "https://en.wikipedia.org/wiki/Alpha", extract: null, news: [] }]);
   });
 
-  it("is null when there is nothing: no news about the article, no ancestors, no siblings", () => {
+  it("is null when there is nothing: no news about the article, no ancestors", () => {
     expect(page([mk("s", 0, "Gamma")], "s").related).toBeNull();
     // Another article's stories do not count.
     expect(page([mk("s", 0, "Gamma"), mk("x", 1, "Delta")], "s").related).toBeNull();

@@ -13,14 +13,17 @@ const { day, related } = Astro.props;
 ---
 
 {
-  related && (
+  related && related.main.length > 0 && (
+    <section class={styles.section} aria-labelledby="also-heading">
+      <SectionHeading id="also-heading">Also on {related.mainTitle}</SectionHeading>
+      <RelatedNewsList news={related.main} day={day} />
+    </section>
+  )
+}
+{
+  related && related.articles.length > 0 && (
     <section class={styles.section} aria-labelledby="related-heading">
       <SectionHeading id="related-heading">Related articles</SectionHeading>
-      {related.main.length > 0 && (
-        <div class={styles.block}>
-          <RelatedNewsList news={related.main} day={day} />
-        </div>
-      )}
       {related.articles.map((article) => (
         <div class={styles.block}>
           <h3 class={styles.title}>

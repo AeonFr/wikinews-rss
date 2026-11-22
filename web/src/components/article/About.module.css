@@ -21,7 +21,7 @@
   letter-spacing: -0.005em;
 }
 
-/* The article's name, when the page has no title of its own (a Wikipedia link: its underline comes from global.css). */
+/* The article's name: the page shows no title of its own (a Wikipedia link: its underline comes from global.css). */
 .articleTitle {
   margin: 0 0 0.5rem;
   color: var(--fg);

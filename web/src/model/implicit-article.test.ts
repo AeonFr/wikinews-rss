@@ -32,10 +32,9 @@ describe("an entry with a highlighted link", () => {
     expect(page.about).toMatchObject({ kind: "article", summary: { title: "Pale Blue Dot" } });
   });
 
-  it("still has no page title: it is only the category", () => {
+  it("has the category as its (hidden) title", () => {
     const page = buildArticlePage(news([withLink()]), {}, "v")!;
     expect(page.title).toBe("Science");
-    expect(page.titleIsCategory).toBe(true);
     expect(page.categories).toEqual([]);
     expect(page.crumbs).toEqual([]);
     expect(page.related).toBeNull();
@@ -46,19 +45,17 @@ describe("an entry with a highlighted link", () => {
     const b = buildArticlePage(news([withoutLink()]), {}, "v")!;
     expect({ ...a, about: null }).toEqual({ ...b, about: null });
     expect(b.about.kind).toBe("portal");
-    expect(b.titleIsCategory).toBe(true);
   });
 });
 
-describe("titleIsCategory", () => {
-  it("is false for a story with an article, or with a nearest topic but no article", () => {
+describe("the page title", () => {
+  it("is the nearest article's label, for a story with an article or with a nearest topic but no article", () => {
     const n = news([
       other(),
       story("t", { headlines: [headline("y", [topic("Beta")])], more_articles: [article("Beta")] }),
     ]);
-    expect(buildArticlePage(n, {}, "o")!.titleIsCategory).toBe(false);
+    expect(buildArticlePage(n, {}, "o")!.title).toBe("Alpha");
     const nearTopic = buildArticlePage(n, {}, "t")!;
-    expect(nearTopic.titleIsCategory).toBe(false);
     expect(nearTopic.title).toBe("Beta");
   });
 });

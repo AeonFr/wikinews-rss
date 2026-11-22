@@ -5,10 +5,8 @@ import styles from "./About.module.css";
 
 interface Props {
   about: About;
-  /** Name the article above its summary: the page has no title of its own (the entry's article is its highlighted link). */
-  showTitle?: boolean;
 }
-const { about, showTitle = false } = Astro.props;
+const { about } = Astro.props;
 ---
 
 {/* An entry straight from the portal with no article and no highlighted link has nothing to describe, and its day is already linked in "From ..." under the entries: no column at all. */}
@@ -18,13 +16,11 @@ const { about, showTitle = false } = Astro.props;
       <h2 id="about-heading" class={styles.label}>
         About the article
       </h2>
-      {showTitle && (
-        <p class={styles.articleTitle}>
-          <a href={about.summary.url} rel="noopener">
-            {about.summary.title}
-          </a>
-        </p>
-      )}
+      <p class={styles.articleTitle}>
+        <a href={about.summary.url} rel="noopener">
+          {about.summary.title}
+        </a>
+      </p>
       {paragraphs(about.summary.extract).map((text) => (
         <p class={styles.text}>{text}</p>
       ))}

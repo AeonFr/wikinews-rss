@@ -1,11 +1,11 @@
 /**
- * The "Related articles" section of an article page: the news about the page's own article, then the related
- * articles (the ones this story is nested under, the ones its same-day siblings are about), each with its news
+ * The related news of an article page: the news about the page's own article, then the related articles (only
+ * the ones this story is nested under, its branch of the hierarchy), each with its news
  * around the page's day. The idea is that following the previous and next news of any article reaches every
  * story about it.
  */
 import { addDays, dayOf } from "../data/days";
-import type { ArticleRef, HeadlineTopic, Story } from "../data/types";
+import type { ArticleRef, Story } from "../data/types";
 import { articleKey, nearestKey, nearestTopic, storyArticles, topicUrl } from "./articles";
 import { type EntryBlock, entryBlocks, storyHref } from "./entry";
 import type { NewsIndex } from "./news-index";
@@ -31,9 +31,11 @@ export interface RelatedArticle {
 }
 
 export interface Related {
-  /** News about the page's own article (no heading: it is the page's article; a topic's too), newest first. */
+  /** News about the page's own article ("Also on <mainTitle>"; a topic's too), newest first. */
   main: RelatedNews[];
-  /** The articles this one is nested under, deepest first, then the ones its same-day siblings are about. */
+  /** Title of the page's own article (null when it has none, and then `main` is empty). */
+  mainTitle: string | null;
+  /** The articles this one is nested under (its branch only), deepest first. */
   articles: RelatedArticle[];
 }
 
@@ -91,15 +93,19 @@ export function groupSiblings(index: NewsIndex, story: Story): Story[] {
  * The section of `story`'s page; null when there is nothing to show (no news about its article and no related
  * article). The main block is for the news about the page's own article: a story's nearest article, a topic's article.
  */
-export function buildRelated(index: NewsIndex, story: Story, siblings: Story[] = groupSiblings(index, story)): Related | null {
+export function buildRelated(index: NewsIndex, story: Story): Related | null {
   const mainKey = story.kind === "topic" ? (story.article ? articleKey(story.article.url) : null) : nearestKey(story);
   const newsAbout = (key: string): RelatedNews[] => newsAround(index.byNearestNewestFirst.get(key) ?? [], story).map(newsItem);
   const own = storyArticles(story);
 
   const seen = new Set<string>(mainKey === null ? [] : [mainKey]);
   const articles: RelatedArticle[] = [];
-  const add = (key: string | null, topic: HeadlineTopic): void => {
-    if (key === null || seen.has(key)) return;
+  // Only the branch of the hierarchy the story sits in: the articles it is nested under, deepest first. Not the
+  // other branches of the same group (the siblings of those articles), nor the articles under them.
+  const above = nearestTopic(story)?.above ?? [];
+  for (const topic of above) {
+    const key = articleKey(topicUrl(topic) ?? "");
+    if (seen.has(key)) continue;
     seen.add(key);
     const article: ArticleRef | undefined = own.find((candidate) => articleKey(candidate.url) === key) ?? index.articles.get(key);
     articles.push({
@@ -108,16 +114,11 @@ export function buildRelated(index: NewsIndex, story: Story, siblings: Story[] =
       extract: article?.extract?.trim() || null,
       news: newsAbout(key),
     });
-  };
-
-  // The articles this story is nested under, deepest first; then the ones its siblings are about, in their order.
-  const above = nearestTopic(story)?.above ?? [];
-  for (const topic of [...above].reverse()) add(articleKey(topicUrl(topic) ?? ""), topic);
-  for (const sibling of siblings) {
-    const near = nearestTopic(sibling);
-    if (sibling.kind !== "topic" && near) add(nearestKey(sibling), near.topic);
   }
+  articles.reverse();
 
   const main = mainKey === null ? [] : newsAbout(mainKey);
-  return main.length === 0 && articles.length === 0 ? null : { main, articles };
+  const mainTitle =
+    mainKey === null ? null : (own.find((candidate) => articleKey(candidate.url) === mainKey) ?? index.articles.get(mainKey))?.title ?? nearestTopic(story)?.topic.label ?? null;
+  return main.length === 0 && articles.length === 0 ? null : { main, mainTitle, articles };
 }
