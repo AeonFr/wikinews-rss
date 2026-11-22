@@ -2811,6 +2811,11 @@
    },
    "more_articles": [
     {
+     "extract": "Grand Theft Auto VI is a 2026 action-adventure game developed and published by Rockstar Games. It is the eighth main entry in the Grand Theft Auto series, following 2013's Grand Theft Auto V, and the sixteenth entry overall.",
+     "title": "Grand Theft Auto VI",
+     "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI"
+    },
+    {
      "extract": "Call of Duty: Modern Warfare II is a 2022 first-person shooter game developed by Infinity Ward and published by Activision. It is the nineteenth installment of the Call of Duty series, serving as a sequel to the 2019 reboot of the Modern Warfare sub-series.",
      "title": "Call of Duty: Modern Warfare II (2022 video game)",
      "url": "https://en.wikipedia.org/wiki/Call_of_Duty:_Modern_Warfare_II_(2022_video_game)"
@@ -17987,9 +17992,9 @@
    ],
    "id": "2026-10-30-355ec22991cf",
    "image": {
-    "link": "https://www.engadget.com/2301941/binance-hacked-for-estimated-6-3-billion-in-record-crypto-theft/",
-    "source": "Engadget",
-    "url": "https://www.engadget.com/img/gallery/binance-hacked-for-an-estimated-6-3-billion-in-record-crypto-theft/l-intro-1793348577.jpg"
+    "link": "https://www.bloomberg.com/news/articles/2026-10-29/binance-founder-says-possible-hack-of-exchange-bitcoin-falls",
+    "source": "Bloomberg News",
+    "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i9zvAF6lhWAY/v0/1200x800.jpg"
    },
    "more_articles": [],
    "pub_date": "2026-10-30T12:57:08Z",
@@ -25585,5 +25590,5 @@
    "title": "2026 U.S. Open Cup final: In association football, St. Louis City SC defeats Columbus Crew in a penalty shoot-out to win the U.S. Open Cup, earning the club its first trophy since beginning play in 2023."
   }
  ],
- "updated": "2026-11-22T14:42:20Z"
+ "updated": "2026-11-22T15:17:34Z"
 }

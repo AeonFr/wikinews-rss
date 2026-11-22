@@ -131,19 +131,19 @@
    "fails": 2
   },
   "https://apnews.com/article/boat-strikes-alleged-drug-boat-latin-america-cartels-trump-ef5e229630e00f370e0d1772edc34dd9": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://apnews.com/article/bosnia-eufor-crash-helicopter-2eb085d8dcc0347ecd4f287d396091c4": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://apnews.com/article/brazil-election-lula-bolsonaro-runoff-vote-president-e2c9fe8fc4aa3e3675b9a8ec15405d93": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://apnews.com/article/britain-iran-spying-tehran-sepahvand-manesh-journalists-273c38362d3c0a0e8ece8a2075442dd0": {
    "checked": "2026-11-22T10:14:34Z",
@@ -171,9 +171,9 @@
    "fails": 3
   },
   "https://apnews.com/article/colombia-bomb-police-injured-cucuta-a2c539f7b5be172f0c6c211cc776405e": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://apnews.com/article/colombia-bus-crash-caqueta-driver-sleep-083df4d921603bc7566ce9299174b20d": {
    "checked": "2026-11-22T10:14:34Z",
@@ -186,9 +186,9 @@
    "fails": 2
   },
   "https://apnews.com/article/colombia-eln-army-guerrilla-killed-leaders-marcos-7ad9b570a1b6a12ddfd3d50dbcd1cbc4": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://apnews.com/article/colombia-mine-explosion-chita-bodies-77de9fe1831a8c03696e617149bb92d9": {
    "checked": "2026-11-22T10:14:34Z",
@@ -221,9 +221,9 @@
    "fails": 3
   },
   "https://apnews.com/article/doordash-instacart-delivery-d6f30f5d18c288eeba6babcb49260e06": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://apnews.com/article/earthquake-japan-170119b720b08d9f40028e5bc40feb17": {
    "checked": "2026-11-22T10:14:34Z",
@@ -321,9 +321,9 @@
    "fails": 2
   },
   "https://apnews.com/article/kenya-bus-crash-mombasa-road-879107e49e932de208f47caeb04904cb": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://apnews.com/article/mercury-bepicolombo-space-planet-esa-0c80bbf2039ed4f6ee4a34426b3594a0": {
    "checked": "2026-11-22T10:14:34Z",
@@ -331,9 +331,9 @@
    "fails": 1
   },
   "https://apnews.com/article/mideast-iran-saudi-yemen-israel-palestinians-october-282026-c032db4b09725fea0f6320eec49de5d4": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://apnews.com/article/mongolia-president-corruption-allegations-9542b2bf7536db6ae65b371aac07bbf4": {
    "checked": "2026-11-22T10:14:34Z",
@@ -366,9 +366,9 @@
    "fails": 2
   },
   "https://apnews.com/article/netherlands-eurovision-song-festival-dutch-27ee0f300f9cd0ca4a4844b51865bd95": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://apnews.com/article/new-zealand-election-results-luxon-hipkins-voting-8c1728ae2533201f68d5a5e75fc9e907": {
    "checked": "2026-11-22T10:14:34Z",
@@ -376,9 +376,9 @@
    "fails": 3
   },
   "https://apnews.com/article/nigeria-gunmen-attack-ecc5e9432b73275371b8490c775320dc": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://apnews.com/article/north-macedonia-iran-greece-arrests-449228844460fe264a7a0da5f50b3fd1": {
    "checked": "2026-11-22T10:14:34Z",
@@ -391,9 +391,9 @@
    "fails": 3
   },
   "https://apnews.com/article/pakistan-oxygen-cylinder-explosion-ambulance-sindh-f8e4e6dae32b237f1ea45e4e66f56fa5": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://apnews.com/article/pakistan-passenger-bus-river-gilgit-baltistan-1f7616e4b3ed9420cbf0bd4d5b4fde9f": {
    "checked": "2026-11-22T10:14:34Z",
@@ -411,9 +411,9 @@
    "fails": 1
   },
   "https://apnews.com/article/poland-european-union-justice-protests-police-tribunal-67eda2e3a151e00038d85a5e894a2a72": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://apnews.com/article/portugal-storm-charles-wind-rain-schools-462f7dfd9a5abb0ea0a21d5163d49f37": {
    "checked": "2026-11-22T10:14:34Z",
@@ -421,14 +421,14 @@
    "fails": 3
   },
   "https://apnews.com/article/protests-europe-youth-france-germany-spain-362a7cb69871ab21bd894290dad639f5": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://apnews.com/article/rains-flooding-haiti-dominican-republic-weather-killed-012fa128cea57defc8d2ce7735ec1e9c": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://apnews.com/article/russia-american-released-stephen-hubbard-ukraine-witkoff-2c7e34d6606be242ed4a7473e57110c7": {
    "checked": "2026-11-22T10:14:34Z",
@@ -461,14 +461,14 @@
    "fails": 2
   },
   "https://apnews.com/article/serbia-election-students-vucic-fdf5def8a20aebc8ae139fd719478775": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://apnews.com/article/serbia-election-vucic-protests-students-list-feb0e1f19d86c9d0a705f043dc136ca2": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://apnews.com/article/somalia-uae-ambassador-expulsion-sovereignty-somaliland-mohamud-3cdeb27a0a08d365d6a04de46500d842": {
    "checked": "2026-11-22T10:14:34Z",
@@ -481,9 +481,9 @@
    "fails": 3
   },
   "https://apnews.com/article/spain-bus-crash-injured-barcelona-catalonia-c731feec49bd7feb77ab44c57ba2e57b": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://apnews.com/article/spain-police-killed-explosive-e16086184fbee0e74f9e4b8e9992e075": {
    "checked": "2026-11-22T10:14:34Z",
@@ -491,9 +491,9 @@
    "fails": 3
   },
   "https://apnews.com/article/sudan-power-outage-capital-drone-0798818d82bc79ed10300687a514c693": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://apnews.com/article/taiwan-china-xi-jinping-comedian-huang-attacked-5de1ede690a3881d79f74624e81acf0c": {
    "checked": "2026-11-22T10:14:34Z",
@@ -511,9 +511,9 @@
    "fails": 3
   },
   "https://apnews.com/article/turkey-antalya-tornado-workers-killed-65ab84be64dc686752d231fb0b778dac": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://apnews.com/article/turkey-attacker-shooting-spree-8-dead-17a03eb1f79183017eb35016f60c8a98": {
    "checked": "2026-11-21T23:26:18Z",
@@ -521,9 +521,9 @@
    "fails": 2
   },
   "https://apnews.com/article/turkey-cappadocia-rock-formation-collapse-climbers-tourism-701991bfabd99898df47e8eba0fbd9fd": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://apnews.com/article/turkey-ex-minister-arrested-fund-scandal-f8e9cbd71d20cce682ac2e3461b9e13a": {
    "checked": "2026-11-21T23:26:18Z",
@@ -536,14 +536,14 @@
    "fails": 2
   },
   "https://apnews.com/article/uk-palestine-action-us-embassy-protest-arrests-181ab108a671bcabf5433863608949bc": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://apnews.com/article/wnba-finals-game-7-valkyries-dream-189aa4b8ecb1d1fd8ddfacde3a9d6ac4": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://apnews.com/article/yemen-airstrikes-market-houthis-bcc2409ada0398125173d84261bd1fff": {
    "checked": "2026-11-21T23:26:18Z",
@@ -568,9 +568,9 @@
    }
   },
   "https://borneobulletin.com.bn/flash-floods-kill-five-in-syria/": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://business.inquirer.net/621752/ph-inks-first-latin-american-free-trade-deal-with-chile/": {
    "checked": "2026-11-22T10:14:34Z",
@@ -970,9 +970,9 @@
    "fails": 2
   },
   "https://news.sky.com/story/spain-train-crash-latest-numerous-injuries-reported-after-high-speed-collision-on-madrid-andalusia-line-13604696": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://nltimes.nl/2026/11/01/gen-z-protest-hague-ends-without-major-incidents-34-arrested-mostly-teens": {
    "checked": "2026-11-21T00:02:07Z",
@@ -1011,9 +1011,9 @@
    }
   },
   "https://people.com/ao3-fanfiction-website-could-be-down-for-weeks-12202852": {
-   "checked": "2026-11-21T14:45:33Z",
-   "error": "HTTP 403",
-   "fails": 1
+   "checked": "2026-11-22T15:17:34Z",
+   "error": "HTTP 402",
+   "fails": 2
   },
   "https://peru21.pe/policiales/villa-el-salvador-detonan-explosivo-en-casa-de-alcalde-electo-marcelino-huaman-cuando-estaba-con-su-familia/": {
    "checked": "2026-11-21T23:26:18Z",
@@ -1079,9 +1079,9 @@
    "fails": 1
   },
   "https://sudantribune.com/article/320591": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://sudantribune.com/article/320792": {
    "checked": "2026-11-21T23:26:18Z",
@@ -1271,14 +1271,14 @@
    "fails": 2
   },
   "https://www.aa.com.tr/en/americas/un-mission-in-somalia-to-end-operations-on-oct-31-after-decades-of-support/4101656": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "no title",
-   "fails": 1
+   "fails": 2
   },
   "https://www.aa.com.tr/en/europe/2-killed-as-storm-boelo-batters-uk-leaves-90-000-without-electricity/4100972": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "no title",
-   "fails": 1
+   "fails": 2
   },
   "https://www.aa.com.tr/en/middle-east/3-palestinians-killed-in-israeli-attacks-across-gaza-medical-sources/4126079": {
    "checked": "2026-11-22T10:14:34Z",
@@ -1291,9 +1291,9 @@
    "fails": 3
   },
   "https://www.aa.com.tr/en/middle-east/syria-closes-border-crossing-with-jordan-to-passengers-trade/4101844": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "no title",
-   "fails": 1
+   "fails": 2
   },
   "https://www.abc.net.au/news/2026-11-08/israel-president-prime-minister-government-picked-eisenkot/107360472": {
    "checked": "2026-11-20T15:34:54Z",
@@ -1317,9 +1317,9 @@
    "fails": 1
   },
   "https://www.abs-cbn.com/news/world/2026/10/25/explosions-heard-in-saudi-capital-as-airport-due-to-reopen-1753": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://www.abs-cbn.com/news/world/2026/11/11/four-bears-blamed-and-put-down-after-fatal-mauling-in-canada-0852": {
    "checked": "2026-11-22T10:14:34Z",
@@ -1337,9 +1337,9 @@
    "fails": 2
   },
   "https://www.afp.com/en/australian-mushroom-killer-loses-appeal-has-sentence-extended": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://www.afp.com/en/bangladesh-garment-workers-police-clash-fresh-wage-protest": {
    "checked": "2026-11-22T10:14:34Z",
@@ -1352,9 +1352,9 @@
    "fails": 2
   },
   "https://www.afp.com/en/canada-buying-stake-ai-firm-cohere-bolster-tech-sovereignty": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://www.afp.com/en/canada-china-agree-further-tariff-cuts-leaders-meet": {
    "checked": "2026-11-22T10:14:34Z",
@@ -1362,9 +1362,9 @@
    "fails": 3
   },
   "https://www.afp.com/en/canada-hikes-rates-contain-oil-price-surge-caused-iran-war": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://www.afp.com/en/canadas-carney-touts-philippine-trade-deal-asia-tour": {
    "checked": "2026-11-22T10:14:34Z",
@@ -1382,9 +1382,9 @@
    "fails": 3
   },
   "https://www.afp.com/en/cruise-life-strands-passengers-cambodia-operator-goes-bust": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://www.afp.com/en/eight-dead-new-york-building-collapse": {
    "checked": "2026-11-22T10:14:34Z",
@@ -1447,9 +1447,9 @@
    "fails": 3
   },
   "https://www.afp.com/en/palestinian-activist-khalil-returns-columbia-after-us-detention": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://www.afp.com/en/paraguay-senate-begins-president-impeachment-trial": {
    "checked": "2026-11-21T23:26:18Z",
@@ -1482,9 +1482,9 @@
    "fails": 1
   },
   "https://www.afp.com/en/scam-centres-relocated-cambodia-operate-madagascar": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://www.afp.com/en/singapore-toughens-haze-law-arrest-powers-bigger-fines": {
    "checked": "2026-11-21T23:26:18Z",
@@ -1497,9 +1497,9 @@
    "fails": 1
   },
   "https://www.afp.com/en/us-grant-flavio-bolsonaro-visa-he-flees-brazil-after-election-loss": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://www.afp.com/en/us-withdraws-u17-world-cup-qatar-over-security-fears": {
    "checked": "2026-11-22T10:14:34Z",
@@ -1507,9 +1507,9 @@
    "fails": 3
   },
   "https://www.afp.com/en/valkyries-defeat-dream-capture-first-wnba-crown": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://www.al-monitor.com/originals/2026/11/pif-aramco-strikes-hit-heart-saudi-arabias-economic-overhaul": {
    "checked": "2026-11-20T15:34:54Z",
@@ -2484,9 +2484,13 @@
    }
   },
   "https://www.bloomberg.com/news/articles/2026-10-29/binance-founder-says-possible-hack-of-exchange-bitcoin-falls": {
-   "checked": "2026-11-21T14:45:33Z",
-   "error": "HTTP 403",
-   "fails": 1
+   "checked": "2026-11-22T15:17:34Z",
+   "preview": {
+    "description": "Hackers siphoned off $6.3 billion from crypto exchange Binance in the biggest heist that the digital-asset industry has ever faced, the latest in a slew of security incidents afflicting the financial sector.",
+    "image": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i9zvAF6lhWAY/v0/1200x800.jpg",
+    "site": "Bloomberg.com",
+    "title": "Binance Estimates $6.3 Billion Hacked in Crypto's Biggest Heist"
+   }
   },
   "https://www.bloomberg.com/news/articles/2026-11-14/faa-lifts-ground-stop-allowing-flights-to-resume-after-outage": {
    "checked": "2026-11-19T19:33:46Z",
@@ -2640,9 +2644,9 @@
    "fails": 3
   },
   "https://www.daily-sun.com/index.php/world/906308/report-2": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://www.dailysabah.com/turkiye/9-killed-5-injured-in-truck-minibus-collision-in-eastern-turkiye/news": {
    "checked": "2026-11-19T19:44:35Z",
@@ -2691,9 +2695,9 @@
    "fails": 2
   },
   "https://www.dhakatribune.com/bangladesh/425296/90-bgb-platoons-deployed-in-seven-districts": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://www.dhakatribune.com/bangladesh/nation/425065/another-gopalganj-mp%E2%80%99s-home-torched-patients-flee": {
    "checked": "2026-11-22T10:14:34Z",
@@ -2917,9 +2921,13 @@
    }
   },
   "https://www.espn.com/horse-racing/story/_/id/50342162/sovereignty-wins-breeders-cup-classic-year-missing-race": {
-   "checked": "2026-11-21T14:45:33Z",
-   "error": "no title",
-   "fails": 1
+   "checked": "2026-11-22T15:17:34Z",
+   "preview": {
+    "description": "Sovereignty surged past Knightsbridge in the stretch and held off The Puma to win the $7 million Breeders' Cup Classic by 1¾ lengths on Saturday.",
+    "image": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1101%2Fr1739261_1296x729_16%2D9.jpg",
+    "site": "ESPN.com",
+    "title": "Sovereignty wins Breeders' Cup Classic, a year after missing race"
+   }
   },
   "https://www.espn.com/racing/nascar/story/_/id/50281784/kyle-larson-extends-chase-points-lead-first-nascar-win-talladega-last-lap-scramble": {
    "checked": "2026-11-21T23:26:18Z",
@@ -3055,14 +3063,14 @@
    "fails": 2
   },
   "https://www.firstpost.com/world/defeated-flavio-bolsonaro-hands-over-passports-calls-travel-ban-attempt-to-intimidate-14055559.html": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://www.firstpost.com/world/polish-envoy-to-china-resigns-on-x-foreign-minister-accepts-departure-amid-ongoing-political-turmoil-14056805.html": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://www.foxweather.com/weather-news/3-dead-missing-plane-crash-grand-canyon-national-park": {
    "checked": "2026-11-19T19:33:46Z",
@@ -3574,14 +3582,14 @@
    }
   },
   "https://www.laprensagrafica.com/elsalvador/dos-soldados-salvadorenos-muertos-en-haiti-tras-explosion-en-campamento-20261120-0033.html": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "disallowed by robots.txt",
-   "fails": 1
+   "fails": 2
   },
   "https://www.laprensagrafica.com/elsalvador/emiten-orden-de-libertad-para-expresidente-elias-antonio-saca-20261027-0015.html": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "disallowed by robots.txt",
-   "fails": 1
+   "fails": 2
   },
   "https://www.latercera.com/mundo/noticia/bolivia-el-presidente-del-tribunal-supremo-de-justicia-huye-tras-orden-de-captura-por-narcotrafico/": {
    "checked": "2026-11-20T15:34:54Z",
@@ -3647,9 +3655,9 @@
    }
   },
   "https://www.luxtimes.lu/luxembourg/young-people-protest-luxembourg-housing-crisis-outside-parliament/163696719.html": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://www.manilatimes.net/2026/11/01/sports/yamaha-pulls-out-of-qatar-motogp-over-middle-east-situation/2458965": {
    "checked": "2026-11-21T00:02:07Z",
@@ -3848,9 +3856,9 @@
    }
   },
   "https://www.nytimes.com/2026/10/30/arts/ao3-fan-fiction-site-down.html": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://www.nytimes.com/2026/11/06/us/edp445-youtuber-arrested-sex-crimes.html": {
    "checked": "2026-11-21T23:26:18Z",
@@ -3999,9 +4007,9 @@
    "fails": 2
   },
   "https://www.reuters.com/business/energy/drone-strikes-cut-power-across-southeast-sudan-operator-says-2026-10-26/": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "disallowed by robots.txt",
-   "fails": 1
+   "fails": 2
   },
   "https://www.reuters.com/business/energy/iraq-fire-basra-power-station-kills-least-four-injures-30-2026-11-21/": {
    "checked": "2026-11-21T23:26:18Z",
@@ -4014,14 +4022,14 @@
    "fails": 3
   },
   "https://www.reuters.com/business/environment/cyclone-arnab-begins-making-landfall-indias-andhra-pradesh-state-2026-10-27/": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "disallowed by robots.txt",
-   "fails": 1
+   "fails": 2
   },
   "https://www.reuters.com/business/environment/five-children-among-seven-dead-eastern-syria-floods-2026-10-30/": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "disallowed by robots.txt",
-   "fails": 1
+   "fails": 2
   },
   "https://www.reuters.com/business/environment/typhoon-champi-sweeps-past-taiwan-one-dead-500-injured-2026-10-24/": {
    "checked": "2026-11-21T23:26:18Z",
@@ -4029,9 +4037,9 @@
    "fails": 1
   },
   "https://www.reuters.com/business/finance/ecb-hold-rates-investors-focus-french-bonds-lagardes-future-2026-10-28/": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "disallowed by robots.txt",
-   "fails": 1
+   "fails": 2
   },
   "https://www.reuters.com/business/finance/unicredit-wins-eu-approval-commerzbank-acquisition-2026-11-16/": {
    "checked": "2026-11-22T10:14:34Z",
@@ -4049,19 +4057,19 @@
    "fails": 3
   },
   "https://www.reuters.com/business/media-telecom/russian-investigative-newspaper-novaya-gazeta-says-it-is-shutting-down-after-2026-10-30/": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "disallowed by robots.txt",
-   "fails": 1
+   "fails": 2
   },
   "https://www.reuters.com/business/media-telecom/us-singer-chris-brown-arrives-uk-court-sentencing-over-nightclub-incident-2026-10-26/": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "disallowed by robots.txt",
-   "fails": 1
+   "fails": 2
   },
   "https://www.reuters.com/business/ottawa-takes-stake-cohere-ai-company-opens-45-billion-funding-round-2026-10-29/": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "disallowed by robots.txt",
-   "fails": 1
+   "fails": 2
   },
   "https://www.reuters.com/business/retail-consumer/temperature-soars-swedish-grocery-store-freezers-one-store-blames-hackers-2026-11-02/": {
    "checked": "2026-11-21T23:26:18Z",
@@ -4089,19 +4097,19 @@
    "fails": 1
   },
   "https://www.reuters.com/legal/transactional/doordash-strikes-17-billion-deal-us-rival-instacart-bets-grocery-delivery-2026-10-29/": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "disallowed by robots.txt",
-   "fails": 1
+   "fails": 2
   },
   "https://www.reuters.com/legal/transactional/tether-circle-freeze-238-billion-after-binance-reports-security-incident-2026-10-29/": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "disallowed by robots.txt",
-   "fails": 1
+   "fails": 2
   },
   "https://www.reuters.com/live/brazil-election-live-lula-bolsonaro-face-off-presidential-runoff-2026-10-25/": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "disallowed by robots.txt",
-   "fails": 1
+   "fails": 2
   },
   "https://www.reuters.com/live/nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12/": {
    "checked": "2026-11-22T10:14:34Z",
@@ -4109,9 +4117,9 @@
    "fails": 3
   },
   "https://www.reuters.com/science/martian-meteorite-found-sahara-is-41-billion-years-old-2026-10-29/": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "disallowed by robots.txt",
-   "fails": 1
+   "fails": 2
   },
   "https://www.reuters.com/sports/frances-laperche-wins-route-du-rhum-ultim-record-time-2026-11-08/": {
    "checked": "2026-11-21T23:26:18Z",
@@ -4129,9 +4137,9 @@
    "fails": 2
   },
   "https://www.reuters.com/world/africa/attackers-kill-60-people-ethiopias-conflict-hit-oromiya-region-orthodox-church-2026-10-27/": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "disallowed by robots.txt",
-   "fails": 1
+   "fails": 2
   },
   "https://www.reuters.com/world/africa/congolese-president-signs-contested-referendum-law-amid-fears-over-third-term-2026-11-11/": {
    "checked": "2026-11-22T10:14:34Z",
@@ -4159,9 +4167,9 @@
    "fails": 2
   },
   "https://www.reuters.com/world/africa/us-imposes-sanctions-rwandas-ministry-defense-2026-10-28/": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "disallowed by robots.txt",
-   "fails": 1
+   "fails": 2
   },
   "https://www.reuters.com/world/africa/us-suspend-south-africa-rwanda-duty-free-trade-access-2026-11-02/": {
    "checked": "2026-11-21T23:26:18Z",
@@ -4169,9 +4177,9 @@
    "fails": 2
   },
   "https://www.reuters.com/world/americas/brazil-heads-polls-runoff-between-leftist-lula-bolsonaro-jr-2026-10-25/": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "disallowed by robots.txt",
-   "fails": 1
+   "fails": 2
   },
   "https://www.reuters.com/world/americas/el-salvador-says-haiti-gangs-holding-4-force-members-hostage-announces-new-2026-10-21/": {
    "checked": "2026-11-22T10:14:34Z",
@@ -4179,14 +4187,14 @@
    "fails": 1
   },
   "https://www.reuters.com/world/americas/flavio-bolsonaro-expected-land-miami-shortly-after-trump-offers-brazil-exit-2026-10-28/": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "disallowed by robots.txt",
-   "fails": 1
+   "fails": 2
   },
   "https://www.reuters.com/world/americas/flavio-bolsonaro-leaves-brazil-us-after-election-defeat-source-media-say-2026-10-27/": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "disallowed by robots.txt",
-   "fails": 1
+   "fails": 2
   },
   "https://www.reuters.com/world/americas/former-presidential-candidate-gonzalez-arrested-ecuador-2026-10-22/": {
    "checked": "2026-11-21T23:26:18Z",
@@ -4259,9 +4267,9 @@
    "fails": 3
   },
   "https://www.reuters.com/world/asia-pacific/iranian-strait-authority-says-sinokor-vessels-will-face-legal-action-2026-10-27/": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "disallowed by robots.txt",
-   "fails": 1
+   "fails": 2
   },
   "https://www.reuters.com/world/asia-pacific/singapore-launch-gold-vault-service-foreign-central-banks-2026-11-10/": {
    "checked": "2026-11-22T10:14:34Z",
@@ -4284,9 +4292,9 @@
    "fails": 3
   },
   "https://www.reuters.com/world/bulgaria-votes-president-wake-deadly-black-sea-drone-strikes-2026-10-25/": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "disallowed by robots.txt",
-   "fails": 1
+   "fails": 2
   },
   "https://www.reuters.com/world/china/apartment-building-fire-northern-china-kills-14-2026-11-09/": {
    "checked": "2026-11-22T10:14:34Z",
@@ -4294,9 +4302,9 @@
    "fails": 3
   },
   "https://www.reuters.com/world/china/china-ai-bubble-has-already-burst-2026-10-26/": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "disallowed by robots.txt",
-   "fails": 1
+   "fails": 2
   },
   "https://www.reuters.com/world/china/china-extends-suspension-new-rare-earth-controls-until-january-2026-11-09/": {
    "checked": "2026-11-22T10:14:34Z",
@@ -4324,9 +4332,9 @@
    "fails": 1
   },
   "https://www.reuters.com/world/europe/serbia-votes-students-seek-unseat-vucic-snap-election-2026-10-25/": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "disallowed by robots.txt",
-   "fails": 1
+   "fails": 2
   },
   "https://www.reuters.com/world/europe/two-kiled-least-10-injured-shooting-polish-city-krakow-tvn24-reports-2026-11-07/": {
    "checked": "2026-11-21T23:26:18Z",
@@ -4354,9 +4362,9 @@
    "fails": 3
   },
   "https://www.reuters.com/world/frances-le-pen-launches-presidential-bid-protests-rattle-nation-2026-10-25/": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "disallowed by robots.txt",
-   "fails": 1
+   "fails": 2
   },
   "https://www.reuters.com/world/hungary-opens-communist-era-informer-files-belated-reckoning-with-cold-war-past-2026-11-04/": {
    "checked": "2026-11-21T23:26:18Z",
@@ -4404,9 +4412,9 @@
    "fails": 3
   },
   "https://www.reuters.com/world/middle-east/israel-election-what-happens-after-polls-close-2026-10-27/": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "disallowed by robots.txt",
-   "fails": 1
+   "fails": 2
   },
   "https://www.reuters.com/world/middle-east/israeli-strike-kills-three-vehicle-distributing-aid-gaza-witnesses-say-2026-11-21/": {
    "checked": "2026-11-21T23:26:18Z",
@@ -4424,9 +4432,9 @@
    "fails": 3
   },
   "https://www.reuters.com/world/policeman-kills-knife-attacker-outside-israels-embassy-serbia-2026-10-28/": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "disallowed by robots.txt",
-   "fails": 1
+   "fails": 2
   },
   "https://www.reuters.com/world/restive-pro-russian-moldovan-region-holds-elections-2026-11-15/": {
    "checked": "2026-11-22T10:14:34Z",
@@ -4439,14 +4447,14 @@
    "fails": 1
   },
   "https://www.reuters.com/world/swedish-parliament-vote-centre-party-leader-prime-minister-despite-gridlock-2026-10-29/": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "disallowed by robots.txt",
-   "fails": 1
+   "fails": 2
   },
   "https://www.reuters.com/world/swiss-court-finds-belarusian-man-guilty-over-disappearance-lukashenko-opponent-2026-10-26/": {
-   "checked": "2026-11-21T14:45:33Z",
+   "checked": "2026-11-22T15:17:34Z",
    "error": "disallowed by robots.txt",
-   "fails": 1
+   "fails": 2
   },
   "https://www.reuters.com/world/train-hits-minibus-russias-far-east-killing-six-2026-10-24/": {
    "checked": "2026-11-21T23:26:18Z",
