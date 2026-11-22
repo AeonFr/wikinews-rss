@@ -14,6 +14,11 @@ export function feedPath(base?: string): string {
   return withBase("feeds/en.xml", base);
 }
 
+/** Path of the SVG favicon (in `public/`). */
+export function faviconPath(base?: string): string {
+  return withBase("favicon.svg", base);
+}
+
 /** Path of the home page. */
 export function homePath(base?: string): string {
   return withBase("", base);

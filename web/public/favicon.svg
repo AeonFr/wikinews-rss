@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <style>
+    .paper { fill: #fbf9f4 }
+    .ink { fill: #1b1b1b }
+    .accent { fill: #8a1c1c }
+    @media (prefers-color-scheme: dark) {
+      .paper { fill: #15140f }
+      .ink { fill: #ece8dc }
+      .accent { fill: #e08a7a }
+    }
+  </style>
+  <!-- A newspaper front: the heavy rule under the nameplate, a headline and lines of text, an accent mark. -->
+  <rect class="paper" width="64" height="64" rx="12"/>
+  <rect class="ink" x="10" y="12" width="44" height="7"/>
+  <rect class="ink" x="10" y="25" width="44" height="5"/>
+  <rect class="ink" x="10" y="35" width="44" height="5"/>
+  <rect class="ink" x="10" y="45" width="28" height="5"/>
+  <rect class="accent" x="42" y="45" width="12" height="5"/>
+</svg>

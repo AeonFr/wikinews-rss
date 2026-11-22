@@ -1,6 +1,6 @@
 ---
 import "../styles/global.css";
-import { feedPath } from "../data/urls";
+import { faviconPath, feedPath } from "../data/urls";
 
 interface Props {
   title: string;
@@ -16,6 +16,7 @@ const { title, description = "The latest news from Wikipedia’s Current events 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href={faviconPath()} />
     <link rel="alternate" type="application/rss+xml" title="Wikipedia News" href={feedPath()} />
   </head>
   <body>

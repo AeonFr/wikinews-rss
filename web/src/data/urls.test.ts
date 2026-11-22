@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { articlePath, feedPath, homePath, withBase } from "./urls";
+import { articlePath, faviconPath, feedPath, homePath, withBase } from "./urls";
 
 describe("withBase", () => {
   it("works with the root base", () => {
@@ -21,6 +21,13 @@ describe("articlePath", () => {
     expect(articlePath("2026-11-21-614b5e1049c9", "/wikinews-rss")).toBe(
       "/wikinews-rss/articles/2026-11-21-614b5e1049c9/",
     );
+  });
+});
+
+describe("faviconPath", () => {
+  it("is in the root of the site, under its base path", () => {
+    expect(faviconPath("/wikinews-rss")).toBe("/wikinews-rss/favicon.svg");
+    expect(faviconPath("/")).toBe("/favicon.svg");
   });
 });
 
