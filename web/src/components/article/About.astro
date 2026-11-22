@@ -12,10 +12,7 @@ const { about } = Astro.props;
 {/* An entry straight from the portal with no article and no highlighted link has nothing to describe, and its day is already linked in "From ..." under the entries: no column at all. */}
 {
   about.kind === "article" && (
-    <aside class={styles.about} data-column="side" aria-labelledby="about-heading">
-      <h2 id="about-heading" class={styles.label}>
-        About the article
-      </h2>
+    <aside class={styles.about} data-column="side" aria-label="About the article">
       <p class={styles.articleTitle}>
         <a href={about.summary.url} rel="noopener">
           {about.summary.title}

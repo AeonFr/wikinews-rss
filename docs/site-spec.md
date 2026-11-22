@@ -185,9 +185,9 @@ Main content, in order:
     from any story that knows the article (the newest version that has a text).
   - The lookups use per-article lists sorted by date (`byNearestNewestFirst`) and binary search, so the cost per page does not grow with the number of stories.
 
-Third column / "About the article": label, the article's full summary (no cutting), and a link "Read on Wikipedia"
-(a portal-only entry with no article and no highlighted link has no About column; its day is linked in the "From ..." line). **Every** About column names its article as a link
-right under the label (then summary, map/location and "Read on Wikipedia" as above), because the page shows no title of its own.
+Third column / "About the article" (no visible heading: the landmark is named for screen readers only; the column starts with the article's name as a link): the article's full summary (no cutting), and a link "Read on Wikipedia"
+(a portal-only entry with no article and no highlighted link has no About column; its day is linked in the "From ..." line). **Every** About column starts with its article's name as a link
+(then summary, map/location and "Read on Wikipedia" as above), because the page shows no title of its own.
 **A portal-only entry whose text highlights a Wikipedia link** (`article: null` but `more_articles` not empty, see section 2) takes the first of those as its article.
 The implicit article **is** the story's nearest article for the "Related articles" lists (`nearestKey`): the story is in `byNearest` under the **first** highlighted link
 (the portal parser counts both `<i><a>…</a></i>` and `<a><i>…</i></a>`), so the pages of that article (and its topic) list it as news. The home page and the grouping are unchanged.
