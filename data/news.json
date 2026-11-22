@@ -6,6 +6,36 @@
  "retention_days": 183,
  "stories": [
   {
+   "article": null,
+   "categories": [
+    "Disasters and accidents"
+   ],
+   "group": "2026-11-22-2e867aa7ff42",
+   "headlines": [
+    {
+     "category": "Disasters and accidents",
+     "html": "The <a href=\"https://en.wikipedia.org/wiki/Russian_corvette_Merkury\">Russian corvette Merkury</a> is destroyed by an explosion at the port of <a href=\"https://en.wikipedia.org/wiki/Benghazi\">Benghazi</a>, <a href=\"https://en.wikipedia.org/wiki/Libya\">Libya</a>.",
+     "id": "2026-11-22-2e867aa7ff42",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_22&action=history",
+      "title": "Portal:Current events/2026 November 22",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22"
+     },
+     "sources": [
+      {
+       "name": "Naval News",
+       "url": "https://www.navalnews.com/naval-news/2026/11/russian-warship-destroyed-in-huge-explosion-in-libya/"
+      }
+     ],
+     "topics": []
+    }
+   ],
+   "id": "2026-11-22-2e867aa7ff42",
+   "more_articles": [],
+   "pub_date": "2026-11-22T14:23:07Z",
+   "title": "The Russian corvette Merkury is destroyed by an explosion at the port of Benghazi, Libya."
+  },
+  {
    "article": {
     "extract": "A series of labour demonstrations organized by workers in the ready-made garment industry have taken place in Bangladesh, demanding an increase in the sector's minimum monthly wage from ৳12,500 (US$100) to ৳30,000 (US$240). Began in August 2026, the protests escalated in late-October and early-November 2026 in the industrial areas of Ashulia, Gazipur and Dhaka.",
     "location": "Greater Dhaka, Bangladesh",
@@ -2781,6 +2811,11 @@
    },
    "more_articles": [
     {
+     "extract": "Grand Theft Auto VI is a 2026 action-adventure game developed and published by Rockstar Games. It is the eighth main entry in the Grand Theft Auto series, following 2013's Grand Theft Auto V, and the sixteenth entry overall.",
+     "title": "Grand Theft Auto VI",
+     "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI"
+    },
+    {
      "extract": "Call of Duty: Modern Warfare II is a 2022 first-person shooter game developed by Infinity Ward and published by Activision. It is the nineteenth installment of the Call of Duty series, serving as a sequel to the 2019 reboot of the Modern Warfare sub-series.",
      "title": "Call of Duty: Modern Warfare II (2022 video game)",
      "url": "https://en.wikipedia.org/wiki/Call_of_Duty:_Modern_Warfare_II_(2022_video_game)"
@@ -3389,7 +3424,7 @@
      "url": "https://en.wikipedia.org/wiki/Crimea_attacks_(2022%E2%80%93present)"
     },
     {
-     "extract": "Beginning on 16 November 2026, as part of the Russo-Ukrainian war, Ukrainian forces have repeatedly targeted the Crimean Bridge with missiles and drones, causing severe damage to the bridge and the destruction of the main span of its road bridge, as well as repeatedly stopping traffic across the bridge. The first attack, on 16 November 2026, caused one of the road bridge's structural arches to shift by about 15 degrees according to Russian media, forcing the partial closure of road traffic over the bridge.",
+     "extract": "Beginning on 16 November 2026, as part of the Russo-Ukrainian war, Ukrainian forces repeatedly targeted the Crimean Bridge with missiles and drones, causing severe damage to the bridge including the destruction of the main span of its road bridge. The first attack, on 16 November 2026, caused one of the road bridge's structural arches to shift by about 15 degrees according to Russian media, forcing the partial closure of road traffic over the bridge.",
      "location": "Crimean Bridge",
      "map": {
       "height": 200,
@@ -25555,5 +25590,5 @@
    "title": "2026 U.S. Open Cup final: In association football, St. Louis City SC defeats Columbus Crew in a penalty shoot-out to win the U.S. Open Cup, earning the club its first trophy since beginning play in 2023."
   }
  ],
- "updated": "2026-11-22T11:39:05Z"
+ "updated": "2026-11-22T14:23:07Z"
 }
