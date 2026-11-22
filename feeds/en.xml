@@ -6,20 +6,22 @@
     <description>News items from Wikipedia's Portal:Current events, one item per entry of the daily pages. Text from Wikipedia contributors, licensed under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). (history: https://en.wikipedia.org/w/index.php?title=Portal:Current_events&amp;action=history)</description>
     <language>en</language>
     <copyright>Text from Wikipedia contributors, licensed under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).</copyright>
-    <lastBuildDate>Sun, 22 Nov 2026 15:17:34 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 16:10:55 GMT</lastBuildDate>
     <generator>wikipedia-noticias-rss</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
     <atom:link href="https://aeonfr.github.io/wikinews-rss/feeds/en.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The Russian corvette Merkury is destroyed by an explosion at the port of Benghazi, Libya.</title>
+      <title>The Russian corvette Merkury is substantially damaged by explosions and an onboard fire while docked at the port of Benghazi, Libya.</title>
       <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-22-2e867aa7ff42/</link>
-      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Russian_corvette_Merkury"&gt;Russian corvette Merkury&lt;/a&gt; is destroyed by an explosion at the port of &lt;a href="https://en.wikipedia.org/wiki/Benghazi"&gt;Benghazi&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Libya"&gt;Libya&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.navalnews.com/naval-news/2026/11/russian-warship-destroyed-in-huge-explosion-in-libya/"&gt;Naval News&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href="https://www.kyivpost.com/post/90861"&gt;&lt;img src="https://static.kyivpost.com/storage/2026/11/22/e1ff8e6b7e93d3e0c41939ee4474ab10.jpeg?w=1200&amp;amp;q=90&amp;amp;f=jpg" alt=""&gt;&lt;/a&gt;&lt;br&gt;&lt;small&gt;Image: Kyiv Post&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Russian_corvette_Merkury"&gt;Russian corvette Merkury&lt;/a&gt; is substantially damaged by explosions and an onboard fire while docked at the port of &lt;a href="https://en.wikipedia.org/wiki/Benghazi"&gt;Benghazi&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Libya"&gt;Libya&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.navalnews.com/naval-news/2026/11/russian-warship-destroyed-in-huge-explosion-in-libya/"&gt;Naval News&lt;/a&gt;, &lt;a href="https://www.kyivpost.com/post/90861"&gt;Kyiv Post&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22"&gt;Portal:Current events/2026 November 22&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_22&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:en:2026-11-22:2e867aa7ff42</guid>
       <pubDate>Sun, 22 Nov 2026 14:42:20 GMT</pubDate>
       <category>Disasters and accidents</category>
+      <media:content url="https://static.kyivpost.com/storage/2026/11/22/e1ff8e6b7e93d3e0c41939ee4474ab10.jpeg?w=1200&amp;q=90&amp;f=jpg" medium="image" />
     </item>
     <item>
       <title>2026 Bangladesh garment workers protests: Border Guard Bangladesh deploys 95 platoons across seven districts, including two battalions in Gopalganj, stepping up surveillance at key installations and industrial zones using drones and police… / Several garment factories in Gazipur, Bangladesh, declare holidays amid ongoing minimum wage protests, as clashes erupt between workers and police along the Dhaka–Mymensingh Highway, with workers…</title>

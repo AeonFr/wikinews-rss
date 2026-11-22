@@ -27306,7 +27306,7 @@
    "date_source": "page_date",
    "first_seen": "2026-11-22T14:42:20Z",
    "guid": "wikipedia:en:2026-11-22:2e867aa7ff42",
-   "html": "The <a href=\"https://en.wikipedia.org/wiki/Russian_corvette_Merkury\">Russian corvette Merkury</a> is destroyed by an explosion at the port of <a href=\"https://en.wikipedia.org/wiki/Benghazi\">Benghazi</a>, <a href=\"https://en.wikipedia.org/wiki/Libya\">Libya</a>.",
+   "html": "The <a href=\"https://en.wikipedia.org/wiki/Russian_corvette_Merkury\">Russian corvette Merkury</a> is substantially damaged by explosions and an onboard fire while docked at the port of <a href=\"https://en.wikipedia.org/wiki/Benghazi\">Benghazi</a>, <a href=\"https://en.wikipedia.org/wiki/Libya\">Libya</a>.",
    "link": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22",
    "main_title": null,
    "order": 2,
@@ -27318,10 +27318,14 @@
     {
      "name": "Naval News",
      "url": "https://www.navalnews.com/naval-news/2026/11/russian-warship-destroyed-in-huge-explosion-in-libya/"
+    },
+    {
+     "name": "Kyiv Post",
+     "url": "https://www.kyivpost.com/post/90861"
     }
    ],
-   "text": "The Russian corvette Merkury is destroyed by an explosion at the port of Benghazi, Libya.",
-   "title": "The Russian corvette Merkury is destroyed by an explosion at the port of Benghazi, Libya.",
+   "text": "The Russian corvette Merkury is substantially damaged by explosions and an onboard fire while docked at the port of Benghazi, Libya.",
+   "title": "The Russian corvette Merkury is substantially damaged by explosions and an onboard fire while docked at the port of Benghazi, Libya.",
    "topics": []
   },
   "wikipedia:en:2026-11-22:4ab67a789224": {
@@ -27574,5 +27578,5 @@
    "topics": []
   }
  },
- "updated": "2026-11-22T15:17:34Z"
+ "updated": "2026-11-22T16:10:55Z"
 }

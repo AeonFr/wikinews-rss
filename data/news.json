@@ -14,7 +14,7 @@
    "headlines": [
     {
      "category": "Disasters and accidents",
-     "html": "The <a href=\"https://en.wikipedia.org/wiki/Russian_corvette_Merkury\">Russian corvette Merkury</a> is destroyed by an explosion at the port of <a href=\"https://en.wikipedia.org/wiki/Benghazi\">Benghazi</a>, <a href=\"https://en.wikipedia.org/wiki/Libya\">Libya</a>.",
+     "html": "The <a href=\"https://en.wikipedia.org/wiki/Russian_corvette_Merkury\">Russian corvette Merkury</a> is substantially damaged by explosions and an onboard fire while docked at the port of <a href=\"https://en.wikipedia.org/wiki/Benghazi\">Benghazi</a>, <a href=\"https://en.wikipedia.org/wiki/Libya\">Libya</a>.",
      "id": "2026-11-22-2e867aa7ff42",
      "page": {
       "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_22&action=history",
@@ -25,15 +25,24 @@
       {
        "name": "Naval News",
        "url": "https://www.navalnews.com/naval-news/2026/11/russian-warship-destroyed-in-huge-explosion-in-libya/"
+      },
+      {
+       "name": "Kyiv Post",
+       "url": "https://www.kyivpost.com/post/90861"
       }
      ],
      "topics": []
     }
    ],
    "id": "2026-11-22-2e867aa7ff42",
+   "image": {
+    "link": "https://www.kyivpost.com/post/90861",
+    "source": "Kyiv Post",
+    "url": "https://static.kyivpost.com/storage/2026/11/22/e1ff8e6b7e93d3e0c41939ee4474ab10.jpeg?w=1200&q=90&f=jpg"
+   },
    "more_articles": [],
    "pub_date": "2026-11-22T14:42:20Z",
-   "title": "The Russian corvette Merkury is destroyed by an explosion at the port of Benghazi, Libya."
+   "title": "The Russian corvette Merkury is substantially damaged by explosions and an onboard fire while docked at the port of Benghazi, Libya."
   },
   {
    "article": {
@@ -26645,5 +26654,5 @@
    "title": "2026 U.S. Open Cup final: In association football, St. Louis City SC defeats Columbus Crew in a penalty shoot-out to win the U.S. Open Cup, earning the club its first trophy since beginning play in 2023."
   }
  ],
- "updated": "2026-11-22T15:17:34Z"
+ "updated": "2026-11-22T16:10:55Z"
 }
