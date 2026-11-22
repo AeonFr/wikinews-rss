@@ -5,7 +5,7 @@
  */
 import tiles from "../../layout/tiles.module.css";
 import type { BoxStyles } from "../../layout";
-import type { BoxContent, ModelImage } from "../../model";
+import type { BoxContent } from "../../model";
 import HomeImage from "./HomeImage.astro";
 import Summary from "./Summary.astro";
 import { entryId, groupId, withoutLinks } from "./layout";
@@ -14,16 +14,15 @@ import styles from "./BoxBody.module.css";
 interface Props {
   content: BoxContent;
   layout: BoxStyles;
-  image?: ModelImage | null;
   /** Heading level of the titles of the groups in it. */
   level: number;
 }
-const { content, layout, image = null, level } = Astro.props;
+const { content, layout, level } = Astro.props;
 const Title = `h${Math.min(level, 6)}` as "h4";
 ---
 
 <div class:list={[tiles.grid, styles.body, level === 4 && styles.root]} style={layout.grid || undefined}>
-  {image && layout.image && <HomeImage image={image} class={[tiles.cell, tiles.hideable]} style={layout.image} />}
+  {content.image && layout.image && <HomeImage image={content.image} class={[tiles.cell, tiles.hideable]} style={layout.image} />}
   {content.summary && <Summary summary={content.summary} style={layout.summary} />}
   {
     content.entries.map((entry, i) => (

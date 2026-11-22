@@ -103,9 +103,21 @@ describe("layoutTiles: sizes and packing", () => {
     }
   });
 
-  it("orders each row: wider tiles first, equal widths in input order", () => {
+  it("orders each row: wider tiles first; of the same width the one with more text first, then input order", () => {
     expect(show(layoutTiles([text("a", S), text("b", L)], 3))).toEqual(["a:1.3+1", "b:1.1+2"]);
     expect(show(layoutTiles([text("a", S), text("b", S)], 2))).toEqual(["a:1.1+1", "b:1.2+1"]);
+    // equal widths: the longer text goes first, whatever the input order
+    expect(show(layoutTiles([text("a", 40), text("b", 90)], 2))).toEqual(["a:1.2+1", "b:1.1+1"]);
+    expect(show(layoutTiles([text("a", 40), text("b", 60), text("c", 90)], 3))).toEqual(["a:1.3+1", "b:1.2+1", "c:1.1+1"]);
+  });
+
+  it("keeps the tile after an image beside it, whatever the lengths of the others", () => {
+    // the image's own text (the first after it in the input) is short; the other text is longer but goes after it
+    expect(show(layoutTiles([image("i"), text("mine", 40), text("other", 120)], 3, { thresholds: BOX_THRESHOLDS }))).toEqual([
+      "i:1.1+1",
+      "mine:1.2+1",
+      "other:1.3+1",
+    ]);
   });
 
   it("gives the visual rank in `order`", () => {

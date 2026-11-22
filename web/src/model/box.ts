@@ -17,12 +17,19 @@ export interface BoxEntry extends TextItem {
   storyId: string;
   /** The entry's own article page. */
   href: string;
+  /** Pages the entry cites (to tell which entry an image comes from). */
+  cited: string[];
   /** Label of the sub-topic it was part of when that was not worth a group of its own. */
   context: string | null;
 }
 
 /** What a box and a group have in common. Entries are shortest first; `groups` come after them. */
 export interface BoxContent {
+  /**
+   * The unit's image, if any (the layout decides whether there is room for it). It sits in the box or group that
+   * holds the entry it comes from, which is that container's first entry: the text beside an image is its own.
+   */
+  image: ModelImage | null;
   entries: BoxEntry[];
   groups: BoxGroup[];
   /** Start of the article the box/group is about; null when it has none or must not show it. */
@@ -46,8 +53,6 @@ export interface Box extends BoxContent {
   title: string;
   /** The article page the title links to; null: the title is plain text. */
   titleHref: string | null;
-  /** The unit's image, if any (the layout decides whether there is room for it). */
-  image: ModelImage | null;
   storyIds: string[];
 }
 
@@ -58,6 +63,8 @@ interface TreeEntry {
   index: number;
   story: Story;
   item: TextItem;
+  /** The pages its headline cites. */
+  cited: string[];
   /** The sub-topics it sits under (at most MAX_LEVELS), outermost first. */
   path: HeadlineTopic[];
   context: string | null;
@@ -122,7 +129,7 @@ function simplify(node: Node, isRoot: boolean): Node {
 // ---- The box --------------------------------------------------------------------------------
 
 function toBoxEntry(entry: TreeEntry): BoxEntry {
-  return { ...entry.item, storyId: entry.story.id, href: storyHref(entry.story), context: entry.context };
+  return { ...entry.item, storyId: entry.story.id, href: storyHref(entry.story), cited: entry.cited, context: entry.context };
 }
 
 /** Entries shortest text first (ties keep the unit's order). */
@@ -148,6 +155,7 @@ function toGroup(node: Node, articles: ArticleRef[], direct: boolean, summaryCha
     title: chain.join(" › "),
     entries,
     groups,
+    image: null,
     summary: withSummary ? summaryOf(article, summaryChars) : null,
     length: sumLength(entries, groups),
     showDivider: false,
@@ -164,6 +172,34 @@ function unitArticles(stories: Story[]): ArticleRef[] {
   return [...seen.values()];
 }
 
+/** The container (the box or a group in it) that holds an entry citing `url`, with that entry's position. */
+function holderOf(content: BoxContent, url: string): { holder: BoxContent; index: number } | null {
+  const index = content.entries.findIndex((entry) => entry.cited.includes(url));
+  if (index >= 0) return { holder: content, index };
+  for (const group of content.groups) {
+    const found = holderOf(group, url);
+    if (found) return found;
+  }
+  return null;
+}
+
+/**
+ * Puts the image where it matches the text beside it: in the container that holds the entry the image comes from
+ * (`link` is the page it was taken from), which becomes that container's first entry, the one beside the image.
+ * An image whose entry is not known stays in the box only when the unit is a single story (all its entries are
+ * about the image); otherwise it is dropped, since the text next to it could be about something else.
+ */
+function placeImage(root: BoxContent, image: ModelImage, link: string, single: boolean): void {
+  const found = link ? holderOf(root, link) : null;
+  if (found) {
+    const [entry] = found.holder.entries.splice(found.index, 1);
+    found.holder.entries.unshift(entry);
+    found.holder.image = image;
+  } else if (single) {
+    root.image = image;
+  }
+}
+
 /**
  * The box of a unit (the stories of one group, in order). The root is the unit's top-level article; if it
  * has exactly one sub-group and no entries of its own, the box is that sub-group instead.
@@ -176,6 +212,7 @@ export function buildBox(stories: Story[], summaryChars = HOME_SUMMARY_CHARS): B
       index,
       story,
       item: textItem(headline),
+      cited: headline.sources.map((source) => source.url),
       path: subTopics(headline.topics),
       context: null,
     }));
@@ -197,12 +234,14 @@ export function buildBox(stories: Story[], summaryChars = HOME_SUMMARY_CHARS): B
   const image = imageStory
     ? storyImage(imageStory, (stories.length > 1 && imageStory.image?.link) || storyHref(imageStory))
     : null;
+  const groups = tree.children.map((child) => toGroup(child, articles, true, summaryChars));
+  const root: BoxContent = { image: null, entries: looseEntries, groups, summary: null, length: 0 };
+  if (image) placeImage(root, image, imageStory?.image?.link ?? "", stories.length === 1);
   // A group is divided from whatever comes before it in the box (the image counts), never from the title.
-  const preceding = (image ? 1 : 0) + looseEntries.length;
-  const groups = tree.children.map((child, i) => ({
-    ...toGroup(child, articles, true, summaryChars),
-    showDivider: preceding + i > 0,
-  }));
+  const preceding = (root.image ? 1 : 0) + looseEntries.length;
+  groups.forEach((group, i) => {
+    group.showDivider = preceding + i > 0;
+  });
   // The article's summary is the box's own first column unless it has groups: those carry their own.
   const summary = groups.length === 0 && article ? summaryOf(article, summaryChars) : null;
 
@@ -214,7 +253,7 @@ export function buildBox(stories: Story[], summaryChars = HOME_SUMMARY_CHARS): B
     id: first.group || first.id,
     title,
     titleHref,
-    image,
+    image: root.image,
     summary,
     entries: looseEntries,
     groups,

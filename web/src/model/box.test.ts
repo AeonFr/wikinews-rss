@@ -204,13 +204,50 @@ describe("buildBox: summaries", () => {
 
 describe("buildBox: image and lengths", () => {
   const image = { url: "https://img/a.jpg", source: "AP", link: "https://ap/x" };
+  const src = { name: "AP", url: image.link };
 
   it("sends the image of a single story to its page and of several stories to its source", () => {
     const one = unitStory("s1", [headline("a", [topic("Alpha")]), headline("b", [topic("Alpha")])], [B], { image });
     expect(buildBox([one]).image).toEqual({ url: image.url, source: "AP", href: "/articles/s1/" });
     const s1 = unitStory("s1", [headline("a", [topic("Alpha")])]);
-    const s2 = unitStory("s2", [headline("b", [topic("Alpha")])], [B], { image });
+    const s2 = unitStory("s2", [headline("b", [topic("Alpha")], { sources: [src] })], [B], { image });
     expect(buildBox([s1, s2]).image?.href).toBe(image.link);
+  });
+
+  describe("the text beside the image is the one it comes from", () => {
+    it("makes the entry the image comes from the first of the box, not the shortest", () => {
+      const s1 = unitStory("s1", [headline("short one", [topic("Alpha")])], [B], { image });
+      const s2 = unitStory("s2", [headline("a much longer entry, the one with the image", [topic("Alpha")], { sources: [src] })], [B], { image });
+      const box = buildBox([s1, s2]);
+      expect(box.entries.map((e) => e.storyId)).toEqual(["s2", "s1"]);
+      expect(box.image).not.toBeNull();
+    });
+
+    it("puts the image in the group that holds its entry, which is that group's first entry", () => {
+      const s1 = unitStory("s1", [headline("loose", [topic("Alpha")])], [B, C], { image });
+      const s2 = unitStory(
+        "s2",
+        [
+          headline("g1a", [topic("Alpha"), topic("Beta")]),
+          headline("the longer one with the image", [topic("Alpha"), topic("Beta")], { sources: [src] }),
+        ],
+        [B, C],
+        { image },
+      );
+      const box = buildBox([s1, s2]);
+      expect(box.image).toBeNull();
+      expect(box.groups).toHaveLength(1);
+      expect(box.groups[0].image?.href).toBe(image.link);
+      expect(box.groups[0].entries[0].text).toBe("the longer one with the image");
+      // the image is not before the group in the box any more: only the loose entry is
+      expect(box.groups[0].showDivider).toBe(true);
+    });
+
+    it("drops the image of several stories when no entry cites its page", () => {
+      const s1 = unitStory("s1", [headline("a", [topic("Alpha")])], [B], { image });
+      const s2 = unitStory("s2", [headline("b", [topic("Alpha")])], [B], { image });
+      expect(buildBox([s1, s2]).image).toBeNull();
+    });
   });
 
   it("ignores images that are not http(s)", () => {

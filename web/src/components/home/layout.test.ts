@@ -11,9 +11,9 @@ const entry = (storyId: string, length: number, image = false): HomeEntry => ({
   image: image ? { url: "https://img/x.jpg", source: "AP", href: "/x" } : null,
 });
 
-const boxEntry = (length: number): BoxEntry => ({ html: "", text: "", length, storyId: "s", href: "/s", context: null });
+const boxEntry = (length: number): BoxEntry => ({ html: "", text: "", length, storyId: "s", href: "/s", cited: [], context: null });
 const summary = { title: "A", url: "https://w/A", extract: "text" };
-const content = (extra: Partial<BoxContent>): BoxContent => ({ entries: [], groups: [], summary: null, length: 0, ...extra });
+const content = (extra: Partial<BoxContent>): BoxContent => ({ image: null, entries: [], groups: [], summary: null, length: 0, ...extra });
 const group = (extra: Partial<BoxGroup>): BoxGroup => ({
   ...content({}),
   chain: ["G"],
@@ -66,7 +66,7 @@ describe("boxInput", () => {
       items: [
         { id: "e0", textLength: 10 },
         { id: "e1", textLength: 20 },
-        { id: "g0", group: { summary: true, items: [{ id: "e0", textLength: 5 }, { id: "e1", textLength: 6 }] } },
+        { id: "g0", group: { summary: true, image: false, items: [{ id: "e0", textLength: 5 }, { id: "e1", textLength: 6 }] } },
       ],
     });
   });

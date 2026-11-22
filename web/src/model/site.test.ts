@@ -28,8 +28,13 @@ function checkContent(content: BoxContent, direct: boolean): void {
     expect(entry.length).toBe(entry.text.length);
     expect(entry.href.startsWith("/articles/")).toBe(true);
   }
-  const lengths = content.entries.map((e) => e.length);
+  // Shortest first, except that the entry beside the image comes first: the text next to an image is its own.
+  const withImage = content.image !== null && content.entries.length > 0;
+  const lengths = content.entries.slice(withImage ? 1 : 0).map((e) => e.length);
   expect(lengths).toEqual([...lengths].sort((a, b) => a - b));
+  if (content.image && /^https?:/.test(content.image.href) && content.entries.length > 0) {
+    expect(content.entries[0].cited).toContain(content.image.href);
+  }
   for (const group of content.groups) {
     expect(allEntries(group).length).toBeGreaterThanOrEqual(2);
     if (!direct) expect(group.summary).toBeNull();

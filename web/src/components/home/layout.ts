@@ -36,7 +36,7 @@ function contentInput(content: BoxContent): BoxInput {
     ...content.entries.map((entry, i) => ({ id: entryId(i), textLength: entry.length })),
     ...content.groups.map((group, i) => ({ id: groupId(i), group: contentInput(group) })),
   ];
-  return { summary: content.summary !== null, items };
+  return { summary: content.summary !== null, image: content.image !== null, items };
 }
 
 /** The layout input of a box; `image` says the unit has one to place. */

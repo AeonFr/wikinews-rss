@@ -69,7 +69,8 @@ export function assignOrder(placements: Placement[]): void {
  *    tile of that row (it would otherwise be stretched over the whole width).
  * 3. Per row: the first flex tile widens by one if the row has a gap; whatever is left goes to the tile with
  *    the longest text (an image is the last to grow). No row ends up with an empty column.
- * 4. Within a row the image comes first, then wider tiles first (otherwise in input order).
+ * 4. Within a row the image comes first and the tile after it in the input stays beside it; then wider tiles first,
+ *    and of the same width the one with more text first (otherwise in input order).
  *
  * With one column everything is stacked: no spans.
  */
@@ -138,7 +139,11 @@ export function layoutTiles(items: readonly TileItem[], cols: number, options: T
       longest.span += cols - row.used;
       row.used = cols;
     }
-    row.slots.sort((a, b) => Number(b.kind === "image") - Number(a.kind === "image") || b.span - a.span);
+    // The tile beside an image (the first of the row after it, in input order) stays next to it: it is the text the
+    // image belongs to. The others: wider first, and of the same width the one with more text first.
+    const companion = row.slots.some((s) => s.kind === "image") ? row.slots.find((s) => s.kind !== "image") : undefined;
+    const rank = (s: Slot): number => (s.kind === "image" ? 0 : s === companion ? 1 : 2);
+    row.slots.sort((a, b) => rank(a) - rank(b) || b.span - a.span || b.length - a.length || a.index - b.index);
   }
 
   const byId = new Map<string, Placement>();
