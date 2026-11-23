@@ -6,26 +6,77 @@
     <description>News items from Wikipedia's Portal:Current events, one item per entry of the daily pages. Text from Wikipedia contributors, licensed under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). (history: https://en.wikipedia.org/w/index.php?title=Portal:Current_events&amp;action=history)</description>
     <language>en</language>
     <copyright>Text from Wikipedia contributors, licensed under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).</copyright>
-    <lastBuildDate>Sun, 22 Nov 2026 23:39:34 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 18:24:10 GMT</lastBuildDate>
     <generator>wikipedia-noticias-rss</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
     <atom:link href="https://aeonfr.github.io/wikinews-rss/feeds/en.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Naval warfare in the Russo-Ukrainian war (2022–present), Ukrainian attacks on the Russian shadow fleet: A Maltese-flagged ship is also struck by naval drones off the coast of Benghazi. / Several people are killed and at least 10 people are injured after the Russian corvette Merkury is struck by a Ukrainian naval drone attack while docked at the port of Benghazi, Libya.</title>
-      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-22-4695aa522c0e/</link>
-      <description>&lt;p&gt;&lt;a href="https://www.aljazeera.com/amp/news/2026/11/22/suspected-drone-strike-hits-russian-vessel-in-libya"&gt;&lt;img src="https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6b0335827927f-1795372418.jpg?resize=1920%2C1440" alt=""&gt;&lt;/a&gt;&lt;br&gt;&lt;small&gt;Image: Al-Jazeera&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;A &lt;a href="https://en.wikipedia.org/wiki/Malta"&gt;Maltese&lt;/a&gt;-flagged ship is also struck by naval drones off the coast of Benghazi.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.reuters.com/world/middle-east/libyas-eastern-government-suspects-drone-attack-caused-explosion-russian-ship-2026-11-22/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Several people are killed and at least 10 people are injured after the &lt;a href="https://en.wikipedia.org/wiki/Russian_corvette_Merkury"&gt;Russian corvette &lt;i&gt;Merkury&lt;/i&gt;&lt;/a&gt; is struck by a &lt;a href="https://en.wikipedia.org/wiki/Ukraine"&gt;Ukrainian&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Unmanned_surface_vehicle"&gt;naval&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/One-way_attack_drone"&gt;drone&lt;/a&gt; attack while docked at the port of &lt;a href="https://en.wikipedia.org/wiki/Benghazi"&gt;Benghazi&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Libya"&gt;Libya&lt;/a&gt;. The &lt;i&gt;Merkury&lt;/i&gt; reportedly capsizes and sinks.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/amp/news/2026/11/22/suspected-drone-strike-hits-russian-vessel-in-libya"&gt;Al-Jazeera&lt;/a&gt;, &lt;a href="https://www.reuters.com/world/middle-east/libyas-eastern-government-suspects-drone-attack-caused-explosion-russian-ship-2026-11-22/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Russo-Ukrainian_War"&gt;Russo-Ukrainian War&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Naval_warfare_in_the_Russo-Ukrainian_war_(2022%E2%80%93present)"&gt;Naval warfare in the Russo-Ukrainian war (2022–present)&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Ukrainian_attacks_on_the_Russian_shadow_fleet"&gt;Ukrainian attacks on the Russian shadow fleet&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22"&gt;Portal:Current events/2026 November 22&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_22&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-22:4695aa522c0e</guid>
-      <pubDate>Sun, 22 Nov 2026 23:39:34 GMT</pubDate>
+      <title>Attacks in Russia during the Russo-Ukrainian war: Ukraine launches a large-scale drone attack across western Russia, striking the Perm refinery in Perm Krai and Novoshakhtinsk refinery in Rostov Oblast.</title>
+      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-23-e2223d0d910c/</link>
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Ukraine"&gt;Ukraine&lt;/a&gt; launches a large-scale &lt;a href="https://en.wikipedia.org/wiki/Drone_warfare"&gt;drone attack&lt;/a&gt; across &lt;a href="https://en.wikipedia.org/wiki/European_Russia"&gt;western Russia&lt;/a&gt;, striking the &lt;a href="https://en.wikipedia.org/wiki/Perm_refinery"&gt;Perm refinery&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Perm_Krai"&gt;Perm Krai&lt;/a&gt; and Novoshakhtinsk refinery in &lt;a href="https://en.wikipedia.org/wiki/Rostov_Oblast"&gt;Rostov Oblast&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://kyivindependent.com/novoshakhtinsk-oil-refinery-reportedly-burning-after-ukrainian-drone-attack/"&gt;The Kyiv Independent&lt;/a&gt;, &lt;a href="https://www.themoscowtimes.com/2026/11/23/ukrainian-drones-kill-1-strike-oil-refinery-in-perm-region-a94347"&gt;The Moscow Times&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Russo-Ukrainian_war"&gt;Russo-Ukrainian war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Attacks_in_Russia_during_the_Russo-Ukrainian_war_(2022%E2%80%93present)"&gt;Attacks in Russia during the Russo-Ukrainian war&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_23"&gt;Portal:Current events/2026 November 23&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_23&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-23:e2223d0d910c</guid>
+      <pubDate>Mon, 23 Nov 2026 18:24:10 GMT</pubDate>
       <category>Armed conflicts and attacks</category>
-      <category>Naval warfare in the Russo-Ukrainian war (2022–present), Ukrainian attacks on the Russian shadow fleet</category>
-      <media:content url="https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6b0335827927f-1795372418.jpg?resize=1920%2C1440" medium="image" />
+      <category>Attacks in Russia during the Russo-Ukrainian war</category>
+    </item>
+    <item>
+      <title>Jensen Huang scandal, Chinese intelligence activity abroad: Nvidia reinstates Jensen Huang as president and chief executive officer less than two weeks after he resigned following revelations of an affair with Alice Huang, who is suspected by U.S.…</title>
+      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-23-079fab24688d/</link>
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Nvidia"&gt;Nvidia&lt;/a&gt; reinstates &lt;a href="https://en.wikipedia.org/wiki/Jensen_Huang"&gt;Jensen Huang&lt;/a&gt; as &lt;a href="https://en.wikipedia.org/wiki/President_(corporate_title)"&gt;president&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Chief_executive_officer"&gt;chief executive officer&lt;/a&gt; less than two weeks after he resigned following revelations of an &lt;a href="https://en.wikipedia.org/wiki/Affair"&gt;affair&lt;/a&gt; with &lt;a href="https://en.wikipedia.org/wiki/Alice_Huang_(executive)"&gt;Alice Huang&lt;/a&gt;, who is suspected by &lt;a href="https://en.wikipedia.org/wiki/United_States_Intelligence_Community"&gt;U.S. intelligence&lt;/a&gt; of &lt;a href="https://en.wikipedia.org/wiki/Espionage"&gt;spying&lt;/a&gt; for &lt;a href="https://en.wikipedia.org/wiki/China"&gt;China&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.cbsnews.com/news/nvidia-reinstates-jensen-huang-ceo/"&gt;CBS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Jensen_Huang_scandal"&gt;Jensen Huang scandal&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Chinese_intelligence_activity_abroad"&gt;Chinese intelligence activity abroad&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_23"&gt;Portal:Current events/2026 November 23&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_23&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-23:079fab24688d</guid>
+      <pubDate>Mon, 23 Nov 2026 18:24:10 GMT</pubDate>
+      <category>Business and economy</category>
+      <category>Jensen Huang scandal, Chinese intelligence activity abroad</category>
+    </item>
+    <item>
+      <title>Tajikistan formally begins the process of withdrawing from the International Criminal Court.</title>
+      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-23-968c4c9747a3/</link>
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Tajikistan"&gt;Tajikistan&lt;/a&gt; formally begins the process of withdrawing from the &lt;a href="https://en.wikipedia.org/wiki/International_Criminal_Court"&gt;International Criminal Court&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.reuters.com/world/asia-pacific/tajikistan-becomes-fourth-country-withdraw-icc-since-us-diplomatic-push-2026-11-23/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_23"&gt;Portal:Current events/2026 November 23&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_23&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-23:968c4c9747a3</guid>
+      <pubDate>Mon, 23 Nov 2026 18:24:10 GMT</pubDate>
+      <category>International relations</category>
+    </item>
+    <item>
+      <title>2017–18 Spanish constitutional crisis: The Supreme Court of Spain grants an amnesty to the former Catalan president Carles Puigdemont, who is currently in self-imposed exile in Belgium, thereby bringing the legal proceedings against the…</title>
+      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-23-b28f119230ea/</link>
+      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Supreme_Court_of_Spain"&gt;Supreme Court of Spain&lt;/a&gt; grants an &lt;a href="https://en.wikipedia.org/wiki/Amnesty"&gt;amnesty&lt;/a&gt; to the former &lt;a href="https://en.wikipedia.org/wiki/President_of_Catalonia"&gt;Catalan president&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Carles_Puigdemont"&gt;Carles Puigdemont&lt;/a&gt;, who is currently in self-imposed &lt;a href="https://en.wikipedia.org/wiki/Exile"&gt;exile&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Belgium"&gt;Belgium&lt;/a&gt;, thereby bringing the legal proceedings against the leaders of the &lt;a href="https://en.wikipedia.org/wiki/Catalan_declaration_of_independence"&gt;October 2017 declaration of independence&lt;/a&gt; to a definitive close.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://elmundo.es/espana/2026/11/23/6b042ed9e4d4d8872c8b4579.html"&gt;El Mundo in Spanish&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2017%E2%80%9318_Spanish_constitutional_crisis"&gt;2017–18 Spanish constitutional crisis&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_23"&gt;Portal:Current events/2026 November 23&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_23&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-23:b28f119230ea</guid>
+      <pubDate>Mon, 23 Nov 2026 18:24:10 GMT</pubDate>
+      <category>Law and crime</category>
+      <category>2017–18 Spanish constitutional crisis</category>
+    </item>
+    <item>
+      <title>2026 European bomb threat wave: Hundreds of schools across Germany and Denmark receive bomb threats via email, with police ordering the schools to continue operations as normal.</title>
+      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-23-ee977b7e9f85/</link>
+      <description>&lt;p&gt;Hundreds of schools across &lt;a href="https://en.wikipedia.org/wiki/Germany"&gt;Germany&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Denmark"&gt;Denmark&lt;/a&gt; receive &lt;a href="https://en.wikipedia.org/wiki/Bomb_threat"&gt;bomb threats&lt;/a&gt; via &lt;a href="https://en.wikipedia.org/wiki/Email"&gt;email&lt;/a&gt;, with police ordering the schools to continue operations as normal.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.reuters.com/world/hundreds-german-schools-received-bomb-threats-bild-reports-2026-11-23/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_European_bomb_threat_wave"&gt;2026 European bomb threat wave&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_23"&gt;Portal:Current events/2026 November 23&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_23&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-23:ee977b7e9f85</guid>
+      <pubDate>Mon, 23 Nov 2026 18:24:10 GMT</pubDate>
+      <category>Law and crime</category>
+      <category>2026 European bomb threat wave</category>
+    </item>
+    <item>
+      <title>The joint ESA–JAXA mission BepiColombo enters orbit around Mercury.</title>
+      <link>https://aeonfr.github.io/wikinews-rss/articles/topic-fcecbb646c9a/</link>
+      <description>&lt;p&gt;The joint &lt;a href="https://en.wikipedia.org/wiki/European_Space_Agency"&gt;ESA&lt;/a&gt;–&lt;a href="https://en.wikipedia.org/wiki/JAXA"&gt;JAXA&lt;/a&gt; mission &lt;i&gt;&lt;b&gt;&lt;a href="https://en.wikipedia.org/wiki/BepiColombo"&gt;BepiColombo&lt;/a&gt;&lt;/b&gt;&lt;/i&gt; enters orbit around &lt;a href="https://en.wikipedia.org/wiki/Mercury_(planet)"&gt;Mercury&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events"&gt;Portal:Current events&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:topic:fcecbb646c9a</guid>
+      <pubDate>Mon, 23 Nov 2026 18:24:10 GMT</pubDate>
+      <category>Topics in the news</category>
     </item>
     <item>
       <title>63rd Golden Horse Awards: The 63rd Golden Horse Awards take place in Taipei, Taiwan, with the Hong Kong film We Are Born Good winning Best Narrative Feature.</title>
@@ -60,18 +111,6 @@
       <category>Disasters and accidents</category>
     </item>
     <item>
-      <title>A fire at a confectionery factory in Serang Regency, Banten, Indonesia, kills at least three people, leaves 36 others missing, and injures four.</title>
-      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-22-469b54f62fcf/</link>
-      <description>&lt;p&gt;&lt;a href="https://www.france24.com/en/live-news/20261122-three-dead-36-missing-after-indonesia-factory-fire"&gt;&lt;img src="https://s.france24.com/media/display/52ef6d9a-e631-11f1-9f36-e56ab3dc0809/w:1280/p:16x9/910044b45f340cf31a1869ea2e3157754643a56b.jpg" alt=""&gt;&lt;/a&gt;&lt;br&gt;&lt;small&gt;Image: AFP via France 24&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;A fire at a &lt;a href="https://en.wikipedia.org/wiki/Confectionery"&gt;confectionery&lt;/a&gt; factory in &lt;a href="https://en.wikipedia.org/wiki/Serang_Regency"&gt;Serang Regency&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Banten"&gt;Banten&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Indonesia"&gt;Indonesia&lt;/a&gt;, kills at least three people, leaves 36 others missing, and injures four.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.france24.com/en/live-news/20261122-three-dead-36-missing-after-indonesia-factory-fire"&gt;AFP via France 24&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22"&gt;Portal:Current events/2026 November 22&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_22&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-22:469b54f62fcf</guid>
-      <pubDate>Sun, 22 Nov 2026 23:39:34 GMT</pubDate>
-      <category>Disasters and accidents</category>
-      <media:content url="https://s.france24.com/media/display/52ef6d9a-e631-11f1-9f36-e56ab3dc0809/w:1280/p:16x9/910044b45f340cf31a1869ea2e3157754643a56b.jpg" medium="image" />
-    </item>
-    <item>
       <title>Three people are killed in a house fire in Trzcianka, Poland.</title>
       <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-22-4a626c508c97/</link>
       <description>&lt;p&gt;Three people are killed in a house fire in &lt;a href="https://en.wikipedia.org/wiki/Trzcianka"&gt;Trzcianka&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Poland"&gt;Poland&lt;/a&gt;.&lt;/p&gt;
@@ -92,9 +131,9 @@
       <category>Politics and elections</category>
     </item>
     <item>
-      <title>2026 ATP Finals: In tennis, Carlos Alcaraz defeats Alexander Zverev in the final, 6–2, 7–6(9–7) to win his first singles title at the 2026 ATP Finals.</title>
+      <title>2026 ATP Finals: In tennis, Carlos Alcaraz defeats Alexander Zverev 6–2, 7–6(9–7) in the final to win his first singles title at the 2026 ATP Finals.</title>
       <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-22-be53044a6037/</link>
-      <description>&lt;p&gt;In &lt;a href="https://en.wikipedia.org/wiki/Tennis"&gt;tennis&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Carlos_Alcaraz"&gt;Carlos Alcaraz&lt;/a&gt; defeats &lt;a href="https://en.wikipedia.org/wiki/Alexander_Zverev"&gt;Alexander Zverev&lt;/a&gt; in the final, 6–2, 7–6(9–7) to win his first &lt;a href="https://en.wikipedia.org/wiki/Singles_(tennis)"&gt;singles&lt;/a&gt; title at the 2026 &lt;a href="https://en.wikipedia.org/wiki/ATP_Finals"&gt;ATP Finals&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;In &lt;a href="https://en.wikipedia.org/wiki/Tennis"&gt;tennis&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Carlos_Alcaraz"&gt;Carlos Alcaraz&lt;/a&gt; defeats &lt;a href="https://en.wikipedia.org/wiki/Alexander_Zverev"&gt;Alexander Zverev&lt;/a&gt; 6–2, 7–6(9–7) in the final to win his first &lt;a href="https://en.wikipedia.org/wiki/Singles_(tennis)"&gt;singles&lt;/a&gt; title at the 2026 &lt;a href="https://en.wikipedia.org/wiki/ATP_Finals"&gt;ATP Finals&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Sources: &lt;a href="https://www.reuters.com/sports/tennis/alcaraz-charges-past-world-number-one-zverev-clinch-atp-finals-title-2026-11-22/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_ATP_Finals"&gt;2026 ATP Finals&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22"&gt;Portal:Current events/2026 November 22&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_22&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
@@ -116,12 +155,12 @@
       <category>2026 MotoGP World Championship</category>
     </item>
     <item>
-      <title>2026 Bangladesh garment workers protests: Border Guard Bangladesh deploys 95 platoons across seven districts, including two battalions in Gopalganj, stepping up surveillance at key installations and industrial zones using drones and police… / Several garment factories in Gazipur, Bangladesh, declare holidays amid ongoing minimum wage protests, as clashes erupt between workers and police along the Dhaka–Mymensingh Highway, with workers…</title>
+      <title>2026 Bangladesh garment workers protests: Border Guard Bangladesh deploys 95 platoons across seven districts, including two battalions in Gopalganj, stepping up surveillance at key installations and industrial zones using drones and police… / Several garment factories in Gazipur, Bangladesh declare holidays amid ongoing minimum wage protests, as clashes erupt between workers and police along the Dhaka–Mymensingh Highway, with workers…</title>
       <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-22-6b4a04586aa5/</link>
       <description>&lt;p&gt;&lt;a href="https://www.thedailystar.net/news/crime-justice/news/bgb-deploys-95-platoons-across-seven-districts-maintain-law-and-order-4330136"&gt;&lt;img src="https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/bgb%20%281%29_0_0.jpg" alt=""&gt;&lt;/a&gt;&lt;br&gt;&lt;small&gt;Image: The Daily Star&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Border_Guard_Bangladesh"&gt;Border Guard Bangladesh&lt;/a&gt; deploys 95 &lt;a href="https://en.wikipedia.org/wiki/Platoon"&gt;platoons&lt;/a&gt; across seven districts, including two &lt;a href="https://en.wikipedia.org/wiki/Battalion"&gt;battalions&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Gopalganj_District,_Bangladesh"&gt;Gopalganj&lt;/a&gt;, stepping up &lt;a href="https://en.wikipedia.org/wiki/Surveillance"&gt;surveillance&lt;/a&gt; at key installations and industrial zones using &lt;a href="https://en.wikipedia.org/wiki/Unmanned_aerial_vehicle"&gt;drones&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Police_body_camera"&gt;police body cameras&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Sources: &lt;a href="https://www.thedailystar.net/news/crime-justice/news/bgb-deploys-95-platoons-across-seven-districts-maintain-law-and-order-4330136"&gt;The Daily Star&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Several &lt;a href="https://en.wikipedia.org/wiki/Textile_industry_in_Bangladesh"&gt;garment factories&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Gazipur"&gt;Gazipur&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Bangladesh"&gt;Bangladesh&lt;/a&gt;, declare holidays amid ongoing &lt;a href="https://en.wikipedia.org/wiki/Minimum_wage"&gt;minimum wage&lt;/a&gt; protests, as clashes erupt between &lt;a href="https://en.wikipedia.org/wiki/Working_class"&gt;workers&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Bangladesh_Police"&gt;police&lt;/a&gt; along the &lt;a href="https://en.wikipedia.org/wiki/N3_(Bangladesh)"&gt;Dhaka–Mymensingh Highway&lt;/a&gt;, with workers throwing bricks and police firing &lt;a href="https://en.wikipedia.org/wiki/Tear_gas"&gt;tear gas&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Stun_grenade"&gt;stun grenades&lt;/a&gt; while &lt;a href="https://en.wikipedia.org/wiki/Special_Response_Battalion"&gt;Special Response Battalion&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Bangladesh_Ansar"&gt;Ansar&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Border_Guard_Bangladesh"&gt;BGB&lt;/a&gt;, and &lt;a href="https://en.wikipedia.org/wiki/Industrial_Police_(Bangladesh)"&gt;Industrial Police&lt;/a&gt; personnel deploy to the area.&lt;/p&gt;
+&lt;p&gt;Several &lt;a href="https://en.wikipedia.org/wiki/Textile_industry_in_Bangladesh"&gt;garment factories&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Gazipur"&gt;Gazipur&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Bangladesh"&gt;Bangladesh&lt;/a&gt; declare holidays amid ongoing &lt;a href="https://en.wikipedia.org/wiki/Minimum_wage"&gt;minimum wage&lt;/a&gt; protests, as clashes erupt between &lt;a href="https://en.wikipedia.org/wiki/Working_class"&gt;workers&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Bangladesh_Police"&gt;police&lt;/a&gt; along the &lt;a href="https://en.wikipedia.org/wiki/N3_(Bangladesh)"&gt;Dhaka–Mymensingh Highway&lt;/a&gt;, with workers throwing bricks and police firing &lt;a href="https://en.wikipedia.org/wiki/Tear_gas"&gt;tear gas&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Stun_grenade"&gt;stun grenades&lt;/a&gt; while &lt;a href="https://en.wikipedia.org/wiki/Special_Response_Battalion"&gt;Special Response Battalion&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Bangladesh_Ansar"&gt;Ansar&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Border_Guard_Bangladesh"&gt;BGB&lt;/a&gt;, and &lt;a href="https://en.wikipedia.org/wiki/Industrial_Police_(Bangladesh)"&gt;Industrial Police&lt;/a&gt; personnel deploy to the area.&lt;/p&gt;
 &lt;p&gt;Sources: &lt;a href="https://www.tbsnews.net/bangladesh/garment-workers-stage-fresh-protest-gazipur-attempt-block-dhaka-mymensingh-highway"&gt;The Business Standard&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"&gt;2026 Bangladesh garment workers protests&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22"&gt;Portal:Current events/2026 November 22&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_22&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
@@ -139,6 +178,82 @@
       <guid isPermaLink="false">wikipedia:en:topic:da4d7f84f614</guid>
       <pubDate>Sun, 22 Nov 2026 10:14:34 GMT</pubDate>
       <category>Topics in the news</category>
+    </item>
+    <item>
+      <title>2026 Iranian strikes on Bahrain: Bahrain announces that two people were injured by Iranian strikes the previous day.</title>
+      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-22-95a09b47f5b0/</link>
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Bahrain"&gt;Bahrain&lt;/a&gt; announces that two people were injured by &lt;a href="https://en.wikipedia.org/wiki/Iran"&gt;Iranian&lt;/a&gt; strikes the previous day.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.middleeasteye.net/live-blog/live-blog-update/bahrain-says-iranian-strike-wounds-two-one-critically"&gt;Middle East Eye&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"&gt;Middle Eastern crisis&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_Iran_war"&gt;2026 Iran war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_Arab_countries"&gt;2026 Iranian strikes on Arab countries&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_Bahrain"&gt;2026 Iranian strikes on Bahrain&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22"&gt;Portal:Current events/2026 November 22&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_22&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-22:95a09b47f5b0</guid>
+      <pubDate>Sun, 22 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Armed conflicts and attacks</category>
+      <category>2026 Iranian strikes on Bahrain</category>
+    </item>
+    <item>
+      <title>Naval warfare in the Russo-Ukrainian war, Ukrainian attacks on the Russian shadow fleet: The M/V Angara, a Russian-flagged cargo ship, is also struck by naval drones off the coast of Benghazi in the Mediterranean Sea. / Several people are killed and at least 10 others are injured after the Russian corvette Merkury is struck by a Ukrainian naval drone attack while docked at the port of Benghazi, Libya.</title>
+      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-22-eba12ce9b00b/</link>
+      <description>&lt;p&gt;&lt;a href="https://www.aljazeera.com/amp/news/2026/11/22/suspected-drone-strike-hits-russian-vessel-in-libya"&gt;&lt;img src="https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6b0335827927f-1795372418.jpg?resize=1920%2C1440" alt=""&gt;&lt;/a&gt;&lt;br&gt;&lt;small&gt;Image: Al-Jazeera&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;i&gt;M/V Angara&lt;/i&gt;, a &lt;a href="https://en.wikipedia.org/wiki/Russia"&gt;Russian&lt;/a&gt;-flagged cargo ship, is also struck by naval drones off the coast of Benghazi in the &lt;a href="https://en.wikipedia.org/wiki/Mediterranean_Sea"&gt;Mediterranean Sea&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.npr.org/2026/11/23/g-s1-155017/ukraine-attack-russian-warship-libya"&gt;NPR&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Several people are killed and at least 10 others are injured after the &lt;a href="https://en.wikipedia.org/wiki/Russian_corvette_Merkury"&gt;Russian corvette &lt;i&gt;Merkury&lt;/i&gt;&lt;/a&gt; is struck by a &lt;a href="https://en.wikipedia.org/wiki/Ukraine"&gt;Ukrainian&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Unmanned_surface_vehicle"&gt;naval&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/One-way_attack_drone"&gt;drone&lt;/a&gt; attack while docked at the port of &lt;a href="https://en.wikipedia.org/wiki/Benghazi"&gt;Benghazi&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Libya"&gt;Libya&lt;/a&gt;. The &lt;i&gt;Merkury&lt;/i&gt; later capsizes and sinks.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/amp/news/2026/11/22/suspected-drone-strike-hits-russian-vessel-in-libya"&gt;Al-Jazeera&lt;/a&gt;, &lt;a href="https://www.reuters.com/world/middle-east/libyas-eastern-government-suspects-drone-attack-caused-explosion-russian-ship-2026-11-22/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Russo-Ukrainian_war_(2022%E2%80%93present)"&gt;Russo-Ukrainian war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Naval_warfare_in_the_Russo-Ukrainian_war_(2022%E2%80%93present)"&gt;Naval warfare in the Russo-Ukrainian war&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Ukrainian_attacks_on_the_Russian_shadow_fleet"&gt;Ukrainian attacks on the Russian shadow fleet&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22"&gt;Portal:Current events/2026 November 22&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_22&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-22:eba12ce9b00b</guid>
+      <pubDate>Sun, 22 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Armed conflicts and attacks</category>
+      <category>Naval warfare in the Russo-Ukrainian war, Ukrainian attacks on the Russian shadow fleet</category>
+      <media:content url="https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6b0335827927f-1795372418.jpg?resize=1920%2C1440" medium="image" />
+    </item>
+    <item>
+      <title>Carbon monoxide poisoning from a suspected heater malfunction during Sunday mass at a church in Bad Grönenbach, Bavaria, Germany, leaves 56 people injured.</title>
+      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-22-214c5ae307e7/</link>
+      <description>&lt;p&gt;&lt;a href="https://www.spiegel.de/panorama/bad-groenenbach-im-allgaeu-56-verletzte-bei-gottesdienst-wegen-kohlenmonoxid-austritt-a-ebf9cf29-ce27-49f4-8e74-e2d2756f9277"&gt;&lt;img src="https://cdn.prod.www.spiegel.de/images/57b981bf-5044-4e25-8fdc-ca4a7471d8c1_w1200_r1.778_fpx58_fpy42.jpg" alt=""&gt;&lt;/a&gt;&lt;br&gt;&lt;small&gt;Image: Der Spiegel&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Carbon_monoxide_poisoning"&gt;Carbon monoxide poisoning&lt;/a&gt; from a suspected &lt;a href="https://en.wikipedia.org/wiki/Heater"&gt;heater&lt;/a&gt; malfunction during &lt;a href="https://en.wikipedia.org/wiki/Sunday_mass"&gt;Sunday mass&lt;/a&gt; at a church in &lt;a href="https://en.wikipedia.org/wiki/Bad_Gr%C3%B6nenbach"&gt;Bad Grönenbach&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Bavaria"&gt;Bavaria&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Germany"&gt;Germany&lt;/a&gt;, leaves 56 people injured.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.spiegel.de/panorama/bad-groenenbach-im-allgaeu-56-verletzte-bei-gottesdienst-wegen-kohlenmonoxid-austritt-a-ebf9cf29-ce27-49f4-8e74-e2d2756f9277"&gt;Der Spiegel&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22"&gt;Portal:Current events/2026 November 22&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_22&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-22:214c5ae307e7</guid>
+      <pubDate>Sun, 22 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Disasters and accidents</category>
+      <media:content url="https://cdn.prod.www.spiegel.de/images/57b981bf-5044-4e25-8fdc-ca4a7471d8c1_w1200_r1.778_fpx58_fpy42.jpg" medium="image" />
+    </item>
+    <item>
+      <title>2026 United Nations Climate Change Conference: The 2026 United Nations Climate Change Conference (COP31) in Antalya, Turkey, concludes without a final agreement after countries failed to reach consensus on fossil fuel policies.</title>
+      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-22-138dacf707cc/</link>
+      <description>&lt;p&gt;The 2026 &lt;a href="https://en.wikipedia.org/wiki/United_Nations_Climate_Change_Conference"&gt;United Nations Climate Change Conference&lt;/a&gt; (COP31) in &lt;a href="https://en.wikipedia.org/wiki/Antalya"&gt;Antalya&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Turkey"&gt;Turkey&lt;/a&gt;, concludes without a final agreement after countries failed to reach consensus on &lt;a href="https://en.wikipedia.org/wiki/Fossil_fuel"&gt;fossil fuel&lt;/a&gt; policies. It is the longest climate summit on record.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.afp.com/en/climate-talks-collapse-chaotic-end-cop31"&gt;AFP&lt;/a&gt;, &lt;a href="https://www.reuters.com/sustainability/cop/cop31-climate-talks-close-final-deal-says-summit-president-2026-11-21/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_United_Nations_Climate_Change_Conference"&gt;2026 United Nations Climate Change Conference&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22"&gt;Portal:Current events/2026 November 22&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_22&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-22:138dacf707cc</guid>
+      <pubDate>Sun, 22 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Health and environment</category>
+      <category>2026 United Nations Climate Change Conference</category>
+    </item>
+    <item>
+      <title>Democratic Republic of the Congo–Kenya relations: Democratic Republic of the Congo president Félix Tshisekedi and Kenyan president William Ruto agree to restore full diplomatic relations after a summit in Oyo, Republic of the Congo, hosted by the…</title>
+      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-22-c01e553fb7d6/</link>
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo"&gt;Democratic Republic of the Congo&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/President_of_the_Democratic_Republic_of_the_Congo"&gt;president&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/F%C3%A9lix_Tshisekedi"&gt;Félix Tshisekedi&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Kenya"&gt;Kenyan&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/President_of_Kenya"&gt;president&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/William_Ruto"&gt;William Ruto&lt;/a&gt; agree to restore full diplomatic relations after a summit in &lt;a href="https://en.wikipedia.org/wiki/Oyo,_Republic_of_the_Congo"&gt;Oyo, Republic of the Congo&lt;/a&gt;, hosted by the country's &lt;a href="https://en.wikipedia.org/wiki/President_of_the_Republic_of_the_Congo"&gt;president&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Denis_Sassou_Nguesso"&gt;Denis Sassou Nguesso&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Togo"&gt;Togolese&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/President_of_Togo"&gt;president&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Faure_Essozimna_Gnassingb%C3%A9"&gt;Faure Essozimna Gnassingbé&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.bbc.com/news/articles/cmvg2qnn95vro"&gt;BBC News&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo%E2%80%93Kenya_relations"&gt;Democratic Republic of the Congo–Kenya relations&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22"&gt;Portal:Current events/2026 November 22&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_22&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-22:c01e553fb7d6</guid>
+      <pubDate>Sun, 22 Nov 2026 00:00:00 GMT</pubDate>
+      <category>International relations</category>
+      <category>Democratic Republic of the Congo–Kenya relations</category>
+    </item>
+    <item>
+      <title>The Co-op Live arena in Manchester, England, is evacuated after an unknown substance is released during a Don Toliver concert.</title>
+      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-22-fd7df887ae13/</link>
+      <description>&lt;p&gt;&lt;a href="https://www.bbc.com/news/articles/c9e851dn8516o"&gt;&lt;img src="https://ichef.bbci.co.uk/news/1024/branded_news/9c37/live/7f3ca7f0-e744-11f1-a094-5fdc692f3e33.jpg" alt=""&gt;&lt;/a&gt;&lt;br&gt;&lt;small&gt;Image: BBC&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Co-op_Live"&gt;Co-op Live&lt;/a&gt; arena in &lt;a href="https://en.wikipedia.org/wiki/Manchester"&gt;Manchester&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/England"&gt;England&lt;/a&gt;, is evacuated after an unknown substance is released during a &lt;a href="https://en.wikipedia.org/wiki/Don_Toliver"&gt;Don Toliver&lt;/a&gt; concert.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.bbc.com/news/articles/c9e851dn8516o"&gt;BBC&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22"&gt;Portal:Current events/2026 November 22&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_22&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-22:fd7df887ae13</guid>
+      <pubDate>Sun, 22 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Law and crime</category>
+      <media:content url="https://ichef.bbci.co.uk/news/1024/branded_news/9c37/live/7f3ca7f0-e744-11f1-a094-5fdc692f3e33.jpg" medium="image" />
     </item>
     <item>
       <title>Gaza genocide, Gaza humanitarian crisis: Three Palestinians are killed by an Israeli drone strike on a food-carrying vehicle in Gaza City, while another is killed by gunfire in Jabalia.</title>
@@ -205,18 +320,9 @@
       <category>Topics in the news</category>
     </item>
     <item>
-      <title>Nvidia CEO Jensen Huang resigns amidst allegations of being targeted by a Chinese spy and of having extramarital affairs.</title>
-      <link>https://aeonfr.github.io/wikinews-rss/articles/topic-71dddb58d1ed/</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Nvidia"&gt;Nvidia&lt;/a&gt; CEO &lt;b&gt;&lt;a href="https://en.wikipedia.org/wiki/Jensen_Huang"&gt;Jensen Huang&lt;/a&gt;&lt;/b&gt; resigns amidst allegations of &lt;b&gt;&lt;a href="https://en.wikipedia.org/wiki/Jensen_Huang_scandal"&gt;being targeted by a Chinese spy&lt;/a&gt;&lt;/b&gt; and of having extramarital affairs.&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events"&gt;Portal:Current events&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:topic:71dddb58d1ed</guid>
-      <pubDate>Sat, 21 Nov 2026 18:49:53 GMT</pubDate>
-      <category>Topics in the news</category>
-    </item>
-    <item>
-      <title>Houthi–Saudi conflict: Saudi Arabia intercepts three missiles fired at Riyadh by the Houthis.</title>
+      <title>Houthi–Saudi conflict: Saudi forces intercept three ballistic missiles fired at Riyadh, Saudi Arabia, by the Houthis.</title>
       <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-21-334dbb8db8f2/</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Saudi_Arabia"&gt;Saudi Arabia&lt;/a&gt; intercepts three missiles fired at &lt;a href="https://en.wikipedia.org/wiki/Riyadh"&gt;Riyadh&lt;/a&gt; by the &lt;a href="https://en.wikipedia.org/wiki/Houthis"&gt;Houthis&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Saudi_Arabian_Armed_Forces"&gt;Saudi forces&lt;/a&gt; intercept three &lt;a href="https://en.wikipedia.org/wiki/Ballistic_missile"&gt;ballistic missiles&lt;/a&gt; fired at &lt;a href="https://en.wikipedia.org/wiki/Riyadh"&gt;Riyadh&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Saudi_Arabia"&gt;Saudi Arabia&lt;/a&gt;, by the &lt;a href="https://en.wikipedia.org/wiki/Houthis"&gt;Houthis&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/11/21/saudi-led-coalition-intercepts-three-houthi-missiles-headed-for-riyadh"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"&gt;Middle Eastern crisis&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)"&gt;Yemeni civil war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Houthi%E2%80%93Saudi_conflict"&gt;Houthi–Saudi conflict&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_21"&gt;Portal:Current events/2026 November 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
@@ -256,11 +362,33 @@
       <media:content url="https://www.tbsnews.net/sites/default/files/styles/social_share/public/images/2026/11/21/received_1820012490126544.jpeg" medium="image" />
     </item>
     <item>
-      <title>Colombian conflict: A bombing against a FARC dissidents camp in the rural area of Mapiripán, Meta Department, left five guerrillas killed.</title>
+      <title>A fire at a confectionery factory in Serang Regency, Banten, Indonesia, kills at least 24 people, leaves 30 others missing, and injures five.</title>
+      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-21-9fea75a8a1ea/</link>
+      <description>&lt;p&gt;A fire at a &lt;a href="https://en.wikipedia.org/wiki/Confectionery"&gt;confectionery&lt;/a&gt; factory in &lt;a href="https://en.wikipedia.org/wiki/Serang_Regency"&gt;Serang Regency&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Banten"&gt;Banten&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Indonesia"&gt;Indonesia&lt;/a&gt;, kills at least 24 people, leaves 30 others missing, and injures five.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.reuters.com/world/asia-pacific/indonesia-says-24-killed-factory-blaze-rescuers-search-dozens-missing-2026-11-23/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_21"&gt;Portal:Current events/2026 November 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-21:9fea75a8a1ea</guid>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Disasters and accidents</category>
+    </item>
+    <item>
+      <title>Three people are killed and another person is injured in a shootout at a baby shower in Parma, Ohio, United States.</title>
+      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-21-e9f3b1e7506c/</link>
+      <description>&lt;p&gt;&lt;a href="https://www.nbcnews.com/news/us-news/parma-ohio-baby-shower-shooting-rcna610722"&gt;&lt;img src="https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261122-baby-shower-shooting-vsb-231-cce594.jpg" alt=""&gt;&lt;/a&gt;&lt;br&gt;&lt;small&gt;Image: Associated Press via NBC News&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;Three people are killed and another person is injured in a &lt;a href="https://en.wikipedia.org/wiki/Shootout"&gt;shootout&lt;/a&gt; at a &lt;a href="https://en.wikipedia.org/wiki/Baby_shower"&gt;baby shower&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Parma,_Ohio"&gt;Parma&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Ohio"&gt;Ohio&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/United_States"&gt;United States&lt;/a&gt;. The dead include one of the shooters, while a second person is arrested for killing the presumed main perpetrator.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.nbcnews.com/news/us-news/parma-ohio-baby-shower-shooting-rcna610722"&gt;Associated Press via NBC News&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_21"&gt;Portal:Current events/2026 November 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-21:e9f3b1e7506c</guid>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Law and crime</category>
+      <media:content url="https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261122-baby-shower-shooting-vsb-231-cce594.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Colombian conflict: A bombing against a FARC dissidents camp in a rural area of Mapiripán, Meta Department, kills five guerrilla fighters.</title>
       <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-21-66849b4e7b6d/</link>
-      <description>&lt;p&gt;A bombing against a &lt;a href="https://en.wikipedia.org/wiki/FARC_dissidents"&gt;FARC dissidents&lt;/a&gt; camp in the rural area of &lt;a href="https://en.wikipedia.org/wiki/Mapirip%C3%A1n"&gt;Mapiripán&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Meta_Department"&gt;Meta Department&lt;/a&gt;, left five guerrillas killed.&lt;/p&gt;
+      <description>&lt;p&gt;A bombing against a &lt;a href="https://en.wikipedia.org/wiki/FARC_dissidents"&gt;FARC dissidents&lt;/a&gt; camp in a rural area of &lt;a href="https://en.wikipedia.org/wiki/Mapirip%C3%A1n"&gt;Mapiripán&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Meta_Department"&gt;Meta Department&lt;/a&gt;, kills five &lt;a href="https://en.wikipedia.org/wiki/Guerrilla_warfare"&gt;guerrilla fighters&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Sources: &lt;a href="https://cwmas.com.co/nacion/2026/11/21/operacion-ninfa-mapiripan-meta/"&gt;CW+ noticias&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Colombian_conflict"&gt;Colombian conflict&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/War_on_drugs"&gt;War on drugs&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Colombian_conflict"&gt;Colombian conflict&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_21"&gt;Portal:Current events/2026 November 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:en:2026-11-21:66849b4e7b6d</guid>
       <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
@@ -268,11 +396,11 @@
       <category>Colombian conflict</category>
     </item>
     <item>
-      <title>Mexican drug war: Authorities confirmed following the federal operation in Guasave, Sinaloa, in which Fausto Isidro Meza Flores (a.k.a "El Chapo Isidro") was arrested, leave 4 soldiers killed and ten wounded as well…</title>
+      <title>Mexican drug war: Four soldiers and 16 gunmen are killed in a shootout amid a federal operation by the Mexican Army in Guasave, Sinaloa, leading to the arrest of a cartel leader.</title>
       <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-21-8ee752260290/</link>
-      <description>&lt;p&gt;Authorities confirmed following the federal operation in Guasave, Sinaloa, in which Fausto Isidro Meza Flores (a.k.a "El Chapo Isidro") was arrested, leave 4 &lt;a href="https://en.wikipedia.org/wiki/Mexican_Army"&gt;soldiers&lt;/a&gt; killed and ten wounded as well as sixteen gunmen killed.&lt;/p&gt;
+      <description>&lt;p&gt;Four soldiers and 16 gunmen are killed in a &lt;a href="https://en.wikipedia.org/wiki/Shootout"&gt;shootout&lt;/a&gt; amid a federal operation by the &lt;a href="https://en.wikipedia.org/wiki/Mexican_Army"&gt;Mexican Army&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Guasave"&gt;Guasave&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Sinaloa"&gt;Sinaloa&lt;/a&gt;, leading to the arrest of a cartel leader.&lt;/p&gt;
 &lt;p&gt;Sources: &lt;a href="https://www.meganoticias.mx/cdmx/noticia/suman-20-muertos-por-enfrentamientos-en-guasave/791118"&gt;Meganoticias&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Mexican_drug_war"&gt;Mexican drug war&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/War_on_drugs"&gt;War on drugs&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Mexican_drug_war"&gt;Mexican drug war&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_21"&gt;Portal:Current events/2026 November 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:en:2026-11-21:8ee752260290</guid>
       <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
@@ -290,18 +418,6 @@
       <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
       <category>Armed conflicts and attacks</category>
       <category>Aftermath of the July Uprising</category>
-    </item>
-    <item>
-      <title>At least three people are killed, four others are injured and 36 are reported missing after a fire at a candy factory in Serang, Indonesia.</title>
-      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-21-04139de2a550/</link>
-      <description>&lt;p&gt;&lt;a href="https://www.theguardian.com/world/2026/nov/22/fire-confectionary-factory-indonesia-jakarta"&gt;&lt;img src="https://i.guim.co.uk/img/media/e0ed3952c817519e338f7b090e77d68893b48948/485_0_4287_3430/master/4287.jpg?width=1200&amp;amp;height=630&amp;amp;quality=85&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;precrop=40:21,offset-x50,offset-y0&amp;amp;overlay-align=bottom%2Cleft&amp;amp;overlay-width=100p&amp;amp;overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&amp;amp;enable=upscale&amp;amp;s=3efce65abbdaf52cb8ffc85ca31dd0d0" alt=""&gt;&lt;/a&gt;&lt;br&gt;&lt;small&gt;Image: The Guardian&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;At least three people are killed, four others are injured and 36 are reported missing after a fire at a candy factory in &lt;a href="https://en.wikipedia.org/wiki/Serang"&gt;Serang&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Indonesia"&gt;Indonesia&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.theguardian.com/world/2026/nov/22/fire-confectionary-factory-indonesia-jakarta"&gt;The Guardian&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_21"&gt;Portal:Current events/2026 November 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-21:04139de2a550</guid>
-      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Disasters and accidents</category>
-      <media:content url="https://i.guim.co.uk/img/media/e0ed3952c817519e338f7b090e77d68893b48948/485_0_4287_3430/master/4287.jpg?width=1200&amp;height=630&amp;quality=85&amp;auto=format&amp;fit=crop&amp;precrop=40:21,offset-x50,offset-y0&amp;overlay-align=bottom%2Cleft&amp;overlay-width=100p&amp;overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&amp;enable=upscale&amp;s=3efce65abbdaf52cb8ffc85ca31dd0d0" medium="image" />
     </item>
     <item>
       <title>Exploration of Mercury: The European Space Agency announces that the BepiColombo spacecraft inserted itself into orbit around Mercury.</title>
@@ -484,134 +600,6 @@
       <pubDate>Thu, 19 Nov 2026 15:46:16 GMT</pubDate>
       <category>International relations</category>
       <category>Chile–Philippines relations</category>
-    </item>
-    <item>
-      <title>China–Russia relations, China–United States relations, Russia–United States relations: Chinese leader Xi Jinping, Russian president Vladimir Putin, and United States president Donald Trump hold their first trilateral meeting in Shenzhen during the APEC summit and issue a joint…</title>
-      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-19-3e31c0d56cad/</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Paramount_leader"&gt;Chinese leader&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Xi_Jinping"&gt;Xi Jinping&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Russia"&gt;Russian&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/President_of_Russia"&gt;president&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Vladimir_Putin"&gt;Vladimir Putin&lt;/a&gt;, and &lt;a href="https://en.wikipedia.org/wiki/United_States"&gt;United States&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/President_of_the_United_States"&gt;president&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Donald_Trump"&gt;Donald Trump&lt;/a&gt; hold their first trilateral meeting in Shenzhen during the APEC summit and issue a joint declaration addressing &lt;a href="https://en.wikipedia.org/wiki/Nuclear_warfare"&gt;nuclear war&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Petroleum_production"&gt;petroleum production&lt;/a&gt;, and &lt;a href="https://en.wikipedia.org/wiki/United_Nations_reform"&gt;United Nations reform&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.afp.com/en/china-us-russia-issue-declaration-toward-peace-after-first-summit"&gt;AFP&lt;/a&gt;, &lt;a href="https://www.bbc.com/news/articles/c623j4ln97x7o"&gt;BBC News&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/APEC_China_2026"&gt;APEC China 2026&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/China%E2%80%93Russia_relations"&gt;China–Russia relations&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/China%E2%80%93United_States_relations"&gt;China–United States relations&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Russia%E2%80%93United_States_relations"&gt;Russia–United States relations&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_19"&gt;Portal:Current events/2026 November 19&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_19&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-19:3e31c0d56cad</guid>
-      <pubDate>Thu, 19 Nov 2026 15:46:16 GMT</pubDate>
-      <category>International relations</category>
-      <category>China–Russia relations, China–United States relations, Russia–United States relations</category>
-    </item>
-    <item>
-      <title>Rohingya genocide case: The International Court of Justice rules that Myanmar has committed genocide against the Rohingya people.</title>
-      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-19-b3c484e403e4/</link>
-      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/International_Court_of_Justice"&gt;International Court of Justice&lt;/a&gt; rules that &lt;a href="https://en.wikipedia.org/wiki/Myanmar"&gt;Myanmar&lt;/a&gt; has committed &lt;a href="https://en.wikipedia.org/wiki/Rohingya_genocide"&gt;genocide&lt;/a&gt; against the &lt;a href="https://en.wikipedia.org/wiki/Rohingya_people"&gt;Rohingya people&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.afp.com/en/myanmar-guilty-genocide-against-rohingya-says-top-un-court"&gt;AFP&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Rohingya_genocide_case"&gt;Rohingya genocide case&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_19"&gt;Portal:Current events/2026 November 19&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_19&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-19:b3c484e403e4</guid>
-      <pubDate>Thu, 19 Nov 2026 15:46:16 GMT</pubDate>
-      <category>Law and crime</category>
-      <category>Rohingya genocide case</category>
-    </item>
-    <item>
-      <title>Corruption in Mongolia: The State Great Khural accepts the resignation of Mongolian president Ukhnaagiin Khürelsükh.</title>
-      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-19-9201235d916e/</link>
-      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/State_Great_Khural"&gt;State Great Khural&lt;/a&gt; accepts the &lt;a href="https://en.wikipedia.org/wiki/Resignation"&gt;resignation&lt;/a&gt; of &lt;a href="https://en.wikipedia.org/wiki/Mongolia"&gt;Mongolian&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/President_of_Mongolia"&gt;president&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Ukhnaagiin_Kh%C3%BCrels%C3%BCkh"&gt;Ukhnaagiin Khürelsükh&lt;/a&gt;. The chamber's &lt;a href="https://en.wikipedia.org/wiki/Chairman_of_the_State_Great_Khural"&gt;chairman&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Sandagiin_Byambatsogt"&gt;Sandagiin Byambatsogt&lt;/a&gt;, assumes the &lt;a href="https://en.wikipedia.org/wiki/Acting_(law)"&gt;acting&lt;/a&gt; presidency until a new &lt;a href="https://en.wikipedia.org/wiki/2027_Mongolian_presidential_election"&gt;election&lt;/a&gt; is held within four months.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://apnews.com/article/mongolia-president-resignation-corruption-accusation-226d15f2b1421c00b37266f49cef46f7"&gt;AP&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Corruption_in_Mongolia"&gt;Corruption in Mongolia&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_19"&gt;Portal:Current events/2026 November 19&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_19&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-19:9201235d916e</guid>
-      <pubDate>Thu, 19 Nov 2026 15:46:16 GMT</pubDate>
-      <category>Politics and elections</category>
-      <category>Corruption in Mongolia</category>
-    </item>
-    <item>
-      <title>Honduras–United States relations: Honduran president Nasry Asfura and United States secretary of defense Pete Hegseth sign two security cooperation agreements at Soto Cano Air Base, Honduras.</title>
-      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-19-09e87eb055f7/</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/President_of_Honduras"&gt;Honduran president&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Nasry_Asfura"&gt;Nasry Asfura&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/United_States_secretary_of_defense"&gt;United States secretary of defense&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Pete_Hegseth"&gt;Pete Hegseth&lt;/a&gt; sign two security cooperation agreements at &lt;a href="https://en.wikipedia.org/wiki/Soto_Cano_Air_Base"&gt;Soto Cano Air Base&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Honduras"&gt;Honduras&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.latintimes.com/hegseth-asfura-pactos-defensa-operaciones-contra-narcotrafico-honduras-601616"&gt;The Latin News&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Operation_Southern_Spear"&gt;Operation Southern Spear&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Honduras%E2%80%93United_States_relations"&gt;Honduras–United States relations&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_19"&gt;Portal:Current events/2026 November 19&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_19&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-19:09e87eb055f7</guid>
-      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
-      <category>International relations</category>
-      <category>Honduras–United States relations</category>
-    </item>
-    <item>
-      <title>Haitian conflict: The Haitian National Police say that 34 alleged gang members were killed during an operation in Port-au-Prince, in an area under the influence of the Viv Ansanm alliance, with the assistance of the…</title>
-      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-19-632c6bc84f84/</link>
-      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Haitian_National_Police"&gt;Haitian National Police&lt;/a&gt; say that 34 alleged &lt;a href="https://en.wikipedia.org/wiki/Gangs_in_Haiti"&gt;gang members&lt;/a&gt; were killed during an operation in &lt;a href="https://en.wikipedia.org/wiki/Port-au-Prince"&gt;Port-au-Prince&lt;/a&gt;, in an area under the influence of the &lt;a href="https://en.wikipedia.org/wiki/Viv_Ansanm"&gt;Viv Ansanm&lt;/a&gt; alliance, with the assistance of the &lt;a href="https://en.wikipedia.org/wiki/Government_of_Haiti"&gt;Haitian government&lt;/a&gt; task force involving &lt;a href="https://en.wikipedia.org/wiki/Erik_Prince"&gt;Erik Prince&lt;/a&gt;'s &lt;a href="https://en.wikipedia.org/wiki/Private_security_contractor"&gt;private security contractors&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.reuters.com/world/americas/police-operation-haiti-leaves-least-34-alleged-gang-members-dead-2026-11-19/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Haitian_conflict"&gt;Haitian conflict&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_19"&gt;Portal:Current events/2026 November 19&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_19&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-19:632c6bc84f84</guid>
-      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Armed conflicts and attacks</category>
-      <category>Haitian conflict</category>
-    </item>
-    <item>
-      <title>2026 Strait of Hormuz crisis: Iran's navy says that an oil tanker caught on fire after hitting a naval mine east of the Strait of Hormuz.</title>
-      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-19-1ff281bbb4a0/</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Iran"&gt;Iran&lt;/a&gt;'s &lt;a href="https://en.wikipedia.org/wiki/Iranian_Navy"&gt;navy&lt;/a&gt; says that an &lt;a href="https://en.wikipedia.org/wiki/Oil_tanker"&gt;oil tanker&lt;/a&gt; caught on fire after hitting a &lt;a href="https://en.wikipedia.org/wiki/Naval_mine"&gt;naval mine&lt;/a&gt; east of the &lt;a href="https://en.wikipedia.org/wiki/Strait_of_Hormuz"&gt;Strait of Hormuz&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://aje.news/r003u9?update=5169046"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"&gt;Middle Eastern crisis&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_Iran_war"&gt;2026 Iran war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"&gt;2026 Strait of Hormuz crisis&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_19"&gt;Portal:Current events/2026 November 19&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_19&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-19:1ff281bbb4a0</guid>
-      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Armed conflicts and attacks</category>
-      <category>2026 Strait of Hormuz crisis</category>
-    </item>
-    <item>
-      <title>2026 Lebanon war: Two Israeli drones explode in Nabatieh, Lebanon, without causing any injuries. / The Israeli Air Force strikes a Hezbollah underground facility in Lebanon's Bekaa valley.</title>
-      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-19-114678325f54/</link>
-      <description>&lt;p&gt;&lt;a href="https://aje.news/r003u9?update=5168425"&gt;&lt;img src="https://www.aljazeera.com/wp-content/uploads/2026/11/2025-08-30T074128Z_279192352_RC24HGAAKIRL_RTRMADP_3_SAUDI-CITY-FINANCE-1795102039.jpg?resize=1920%2C1440" alt=""&gt;&lt;/a&gt;&lt;br&gt;&lt;small&gt;Image: Al Jazeera&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;Two &lt;a href="https://en.wikipedia.org/wiki/Israel"&gt;Israeli&lt;/a&gt; drones explode in &lt;a href="https://en.wikipedia.org/wiki/Nabatieh"&gt;Nabatieh&lt;/a&gt;, Lebanon, without causing any injuries.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://aje.news/r003u9?update=5168425"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Israeli_Air_Force"&gt;Israeli Air Force&lt;/a&gt; strikes a &lt;a href="https://en.wikipedia.org/wiki/Hezbollah"&gt;Hezbollah&lt;/a&gt; underground facility in &lt;a href="https://en.wikipedia.org/wiki/Lebanon"&gt;Lebanon&lt;/a&gt;'s &lt;a href="https://en.wikipedia.org/wiki/Bekaa_valley"&gt;Bekaa valley&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.timesofisrael.com/air-force-bombs-entrances-to-underground-hezbollah-missile-site-in-east-lebanon-idf/"&gt;The Times of Israel&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"&gt;Middle Eastern crisis&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_Iran_war"&gt;2026 Iran war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_Lebanon_war"&gt;2026 Lebanon war&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_19"&gt;Portal:Current events/2026 November 19&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_19&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-19:114678325f54</guid>
-      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Armed conflicts and attacks</category>
-      <category>2026 Lebanon war</category>
-      <media:content url="https://www.aljazeera.com/wp-content/uploads/2026/11/2025-08-30T074128Z_279192352_RC24HGAAKIRL_RTRMADP_3_SAUDI-CITY-FINANCE-1795102039.jpg?resize=1920%2C1440" medium="image" />
-    </item>
-    <item>
-      <title>Houthi–Saudi conflict: The Houthis fire missiles at King Abdullah Financial District in Riyadh, Saudi Arabia, which damage the Public Investment Fund Tower and other buildings but cause no injuries.</title>
-      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-19-fb516d28c906/</link>
-      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Houthis"&gt;Houthis&lt;/a&gt; fire &lt;a href="https://en.wikipedia.org/wiki/Missile"&gt;missiles&lt;/a&gt; at &lt;a href="https://en.wikipedia.org/wiki/King_Abdullah_Financial_District"&gt;King Abdullah Financial District&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Riyadh"&gt;Riyadh&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Saudi_Arabia"&gt;Saudi Arabia&lt;/a&gt;, which damage the &lt;a href="https://en.wikipedia.org/wiki/Public_Investment_Fund_Tower"&gt;Public Investment Fund Tower&lt;/a&gt; and other buildings but cause no injuries.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.middleeastmonitor.com/20261119-houthi-attack-damages-tower-in-riyadhs-financial-district-saudi-civil-defense/"&gt;Middle East Monitor&lt;/a&gt;, &lt;a href="https://www.al-monitor.com/originals/2026/11/pif-aramco-strikes-hit-heart-saudi-arabias-economic-overhaul"&gt;Al-Monitor&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"&gt;Middle Eastern crisis&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)"&gt;Yemeni civil war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Houthi%E2%80%93Saudi_conflict"&gt;Houthi–Saudi conflict&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_19"&gt;Portal:Current events/2026 November 19&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_19&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-19:fb516d28c906</guid>
-      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Armed conflicts and attacks</category>
-      <category>Houthi–Saudi conflict</category>
-    </item>
-    <item>
-      <title>2026 Yemen offensives: The Houthis say that Saudi-led coalition airstrikes have killed 10 people in Sanaa, Yemen, over the past two days. / The Yemeni government's military says it has killed or injured 144 Houthi fighters during recent operations in the Taiz, Marib, and Al-Jawf governorates, and to have repelled an attack in the Tur Al…</title>
-      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-19-b4b51a043d10/</link>
-      <description>&lt;p&gt;&lt;a href="https://aje.news/r003u9?update=5168933"&gt;&lt;img src="https://www.aljazeera.com/wp-content/uploads/2026/11/2025-08-30T074128Z_279192352_RC24HGAAKIRL_RTRMADP_3_SAUDI-CITY-FINANCE-1795102039.jpg?resize=1920%2C1440" alt=""&gt;&lt;/a&gt;&lt;br&gt;&lt;small&gt;Image: Al Jazeera&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;The Houthis say that &lt;a href="https://en.wikipedia.org/wiki/Saudi-led_intervention_in_the_Yemeni_civil_war"&gt;Saudi-led coalition&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Airstrike"&gt;airstrikes&lt;/a&gt; have killed 10 people in &lt;a href="https://en.wikipedia.org/wiki/Sanaa"&gt;Sanaa&lt;/a&gt;, Yemen, over the past two days.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://aje.news/r003u9?update=5168933"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Presidential_Leadership_Council"&gt;Yemeni government&lt;/a&gt;'s &lt;a href="https://en.wikipedia.org/wiki/Yemeni_Armed_Forces"&gt;military&lt;/a&gt; says it has killed or injured 144 Houthi fighters during recent operations in the &lt;a href="https://en.wikipedia.org/wiki/Taiz_Governorate"&gt;Taiz&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Marib_Governorate"&gt;Marib&lt;/a&gt;, and &lt;a href="https://en.wikipedia.org/wiki/Al-Jawf_Governorate"&gt;Al-Jawf&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Governorates_of_Yemen"&gt;governorates&lt;/a&gt;, and to have repelled an attack in the &lt;a href="https://en.wikipedia.org/wiki/Tur_Al_Bahah_district"&gt;Tur Al Bahah&lt;/a&gt; area.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://aje.news/r003u9?update=5168467"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"&gt;Middle Eastern crisis&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)"&gt;Yemeni civil war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_Yemen_offensives"&gt;2026 Yemen offensives&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_19"&gt;Portal:Current events/2026 November 19&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_19&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-19:b4b51a043d10</guid>
-      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Armed conflicts and attacks</category>
-      <category>2026 Yemen offensives</category>
-      <media:content url="https://www.aljazeera.com/wp-content/uploads/2026/11/2025-08-30T074128Z_279192352_RC24HGAAKIRL_RTRMADP_3_SAUDI-CITY-FINANCE-1795102039.jpg?resize=1920%2C1440" medium="image" />
-    </item>
-    <item>
-      <title>Gaza war: Gaza's health ministry reports that two people have been killed by recent Israeli attacks and two others died from their wounds over the past day.</title>
-      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-19-2ecb4f24776a/</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Gaza_Strip"&gt;Gaza&lt;/a&gt;'s &lt;a href="https://en.wikipedia.org/wiki/Ministry_of_Health_(Gaza)"&gt;health ministry&lt;/a&gt; reports that two people have been killed by recent Israeli attacks and two others died from their wounds over the past day.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://aje.news/r003u9?update=5168071"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"&gt;Middle Eastern crisis&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Gaza_war"&gt;Gaza war&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_19"&gt;Portal:Current events/2026 November 19&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_19&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-19:2ecb4f24776a</guid>
-      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Armed conflicts and attacks</category>
-      <category>Gaza war</category>
     </item>
   </channel>
 </rss>
