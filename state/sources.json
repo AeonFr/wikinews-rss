@@ -15,9 +15,9 @@
    "fails": 3
   },
   "https://aa.com.tr/en/world/floods-in-argentina-kill-2-displace-over-2-000-amid-el-nino/4099759": {
-   "checked": "2026-11-22T23:39:34Z",
+   "checked": "2026-11-24T17:54:20Z",
    "error": "no title",
-   "fails": 2
+   "fails": 3
   },
   "https://aje.news/r003u9?update=5168071": {
    "checked": "2026-11-20T15:34:54Z",
@@ -115,6 +115,11 @@
     "title": "Costa Rica News Deadly Bus Crash in Costa Rica Leaves Three Dead, 54 Injured 102926"
    }
   },
+  "https://apnews.com/article/africa-cup-final-afcon-senegal-morocco-cas-d3804e3923ec1b7e5ca846806e8d6040": {
+   "checked": "2026-11-24T17:54:20Z",
+   "error": "HTTP 403",
+   "fails": 1
+  },
   "https://apnews.com/article/ao3-fandom-archive-transformative-9e752c2cf91409434fcde7188140d066": {
    "checked": "2026-11-22T10:14:34Z",
    "error": "HTTP 403",
@@ -196,9 +201,9 @@
    "fails": 3
   },
   "https://apnews.com/article/congo-ebola-b739277681b530aef772cf66be7e41f0": {
-   "checked": "2026-11-22T23:39:34Z",
+   "checked": "2026-11-24T17:54:20Z",
    "error": "HTTP 403",
-   "fails": 2
+   "fails": 3
   },
   "https://apnews.com/article/congo-islamic-state-group-mambasa-attack-kidnapping-c1c568db3a670679818aa426cf28fc80": {
    "checked": "2026-11-22T10:14:34Z",
@@ -236,9 +241,9 @@
    "fails": 3
   },
   "https://apnews.com/article/el-salvador-haiti-special-forces-gangs-03ec2bf89616d8b313c54da34c24eab1": {
-   "checked": "2026-11-22T23:39:34Z",
+   "checked": "2026-11-24T17:54:20Z",
    "error": "HTTP 403",
-   "fails": 2
+   "fails": 3
   },
   "https://apnews.com/article/el-salvador-haiti-troops-killed-injured-bukele-c3192c1276fd235b727666a05062db00": {
    "checked": "2026-11-23T18:24:10Z",
@@ -266,9 +271,9 @@
    "fails": 3
   },
   "https://apnews.com/article/germany-hitler-eagles-nest-berchtesgaden-alps-fire-338ec9bbec52ecf52d1c127546d01eed": {
-   "checked": "2026-11-22T23:39:34Z",
+   "checked": "2026-11-24T17:54:20Z",
    "error": "HTTP 403",
-   "fails": 2
+   "fails": 3
   },
   "https://apnews.com/article/germany-military-chinese-drones-replaced-01cc05bde8132f468da742193fcbc489": {
    "checked": "2026-11-22T10:14:34Z",
@@ -306,9 +311,9 @@
    "fails": 3
   },
   "https://apnews.com/article/jordan-gunmen-greek-orthodox-church-deaths-karak-19599ce75b9ab6749a1e1bf2ff66f2ab": {
-   "checked": "2026-11-22T23:39:34Z",
+   "checked": "2026-11-24T17:54:20Z",
    "error": "HTTP 403",
-   "fails": 2
+   "fails": 3
   },
   "https://apnews.com/article/kashmir-india-pakistan-fighting-militant-4c8bb73e494d85b769d85a8c98ea1baf": {
    "checked": "2026-11-22T10:14:34Z",
@@ -326,9 +331,9 @@
    "fails": 3
   },
   "https://apnews.com/article/marc-marquez-motogp-99638bd5dcc6a86106edba209851ad8f": {
-   "checked": "2026-11-22T23:39:34Z",
+   "checked": "2026-11-24T17:54:20Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://apnews.com/article/mercury-bepicolombo-space-planet-esa-0c80bbf2039ed4f6ee4a34426b3594a0": {
    "checked": "2026-11-23T18:24:10Z",
@@ -411,9 +416,9 @@
    "fails": 3
   },
   "https://apnews.com/article/philippine-air-force-sf260-planes-collision-crash-9df3ee550257e4702f2f8e5e14313811": {
-   "checked": "2026-11-22T23:39:34Z",
+   "checked": "2026-11-24T17:54:20Z",
    "error": "HTTP 403",
-   "fails": 2
+   "fails": 3
   },
   "https://apnews.com/article/poland-european-union-justice-protests-police-tribunal-67eda2e3a151e00038d85a5e894a2a72": {
    "checked": "2026-11-23T18:24:10Z",
@@ -444,6 +449,11 @@
    "checked": "2026-11-22T10:14:34Z",
    "error": "HTTP 403",
    "fails": 3
+  },
+  "https://apnews.com/article/russia-ukraine-libya-sea-drone-attacks-bfff959fb4c7415f9473b34e78a4f750": {
+   "checked": "2026-11-24T17:54:20Z",
+   "error": "HTTP 403",
+   "fails": 1
   },
   "https://apnews.com/article/russia-ukraine-war-bridge-crimea-drones-missiles-df4b867cf8f70e88843d8fefea5d643c": {
    "checked": "2026-11-22T10:14:34Z",
@@ -591,6 +601,24 @@
     "title": "Cristina Fernández Cubas, Premio Cervantes 2026"
    }
   },
+  "https://citizen.digital/article/armed-gangs-attack-centraligerian-village-killing-11-n394344": {
+   "checked": "2026-11-24T17:54:20Z",
+   "preview": {
+    "description": "The gangs, known locally as \"bandits\", specialise in kidnapping and cattle rustling and frequently target rural communities in northwest and central Nigeria, ra",
+    "image": "https://assets.citizen.digital/177528/conversions/d38257e7-b40c-4234-a515-c0191771f0ea_images-%2841%29-og_image.webp",
+    "site": "Citizen Digital",
+    "title": "Armed gangs attack central Nigerian village, killing 11"
+   }
+  },
+  "https://colombiareports.com/illegal-armed-group-carries-out-first-urban-drone-attack-three-injured-in-northeast-colombia/": {
+   "checked": "2026-11-24T17:54:20Z",
+   "preview": {
+    "description": "A couple and their 18-month-old baby were injured in a drone attack on a police station in Cucuta, the first major city to be struck from the sky by guerrilla explosives. The attack damaged more than 60 homes near the Norte de Santander Police Department in the Tasajero neighborhood in the north of the regional […]",
+    "image": "https://colombiareports.com/wp-content/uploads/2026/11/cucuta2.jpg",
+    "site": "Colombia News",
+    "title": "Illegal armed group carries out first urban drone attack: three injured in northeast Colombia - Colombia News"
+   }
+  },
   "https://cwmas.com.co/nacion/2026/11/21/operacion-ninfa-mapiripan-meta/": {
    "checked": "2026-11-22T23:39:34Z",
    "preview": {
@@ -712,6 +740,22 @@
     "title": "Voyager 1 is now one light-day from Earth | CNN"
    }
   },
+  "https://edition.cnn.com/2026/11/23/europe/manchester-coop-live-tear-gas-don-toliver-hnk-intl": {
+   "checked": "2026-11-24T17:54:20Z",
+   "preview": {
+    "description": "Thousands of people were evacuated after an “unknown substance” was released during a concert starring American rapper Don Toliver in the English city of Manchester on Sunday night.",
+    "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2306419737.jpg?c=16x9&q=w_800,c_fill",
+    "title": "Manchester Co-Op Live: Don Toliver concert evacuated as ‘unknown substance’ fills UK arena | CNN"
+   }
+  },
+  "https://edition.cnn.com/2026/11/23/europe/spanish-court-carles-puigdemont-exile-intl": {
+   "checked": "2026-11-24T17:54:20Z",
+   "preview": {
+    "description": "Spain’s Supreme Court shelved a criminal case against Catalan separatist and former regional leader Carles Puigdemont on Monday, thus removing the last legal hurdle for him to return to Spain following nearly a decade of self-imposed exile.",
+    "image": "https://media.cnn.com/api/v1/images/stellar/prod/2026-10-06t160851z-1643276150-rc2sxna4xohv-rtrmadp-3-spain-politics-puigdemont.jpg?c=16x9&q=w_800,c_fill",
+    "title": "Spanish court removes last hurdle to Catalan leader’s return from exile | CNN"
+   }
+  },
   "https://edmontonjournal.com/sports/football/cfl/edmonton-elks/edmonton-elks-grey-cup-montreal-alouettes": {
    "checked": "2026-11-19T19:33:46Z",
    "preview": {
@@ -728,15 +772,6 @@
     "image": "https://efe.com/wp-content/uploads/2026/11/haiti-3.webp",
     "site": "EFE Noticias",
     "title": "Los soldados de El Salvador lanzan su primera gran operación contra las bandas en Haití - EFE"
-   }
-  },
-  "https://elmundo.es/espana/2026/11/23/6b042ed9e4d4d8872c8b4579.html": {
-   "checked": "2026-11-23T18:24:10Z",
-   "preview": {
-    "description": "El Tribunal Supremo ha dictado este lunes el auto en el que aplica la amnistía a Carles Puigdemont y archiva definitivamente la causa del procés. Además de al ex president, la...",
-    "image": "https://e01-phantom-elmundo.uecdn.es/6703e863303196a2d1a35be47e9a79cc/crop/11x5/1024x680/f/webp/assets/multimedia/imagenes/2026/11/23/17954363123511.jpg",
-    "site": "El Mundo",
-    "title": "El Supremo aplica la amnistía a Puigdemont y archiva definitivamente la causa del 'procés' nueve años después de su apertura"
    }
   },
   "https://en.ammonnews.net/mobile/article/96443": {
@@ -790,9 +825,9 @@
    }
   },
   "https://en.tempo.co/read/2122301/more-than-10-killed-in-saudi-led-coalition-airstrikes-in-yemen": {
-   "checked": "2026-11-22T23:39:34Z",
+   "checked": "2026-11-24T17:54:20Z",
    "error": "HTTP 403",
-   "fails": 2
+   "fails": 3
   },
   "https://english.aawsat.com/arab-world/5333747-israeli-strike-gaza-kills-three-including-child": {
    "checked": "2026-11-21T14:45:33Z",
@@ -800,6 +835,14 @@
     "description": "Three Palestinians, including a young girl, were killed Monday in an Israeli airstrike on a camp for displaced people in the southern Gaza Strip, medical sources and first responders said. Civil defense spokesman Mahmoud Bassal said a total of 11 people had been killed and 50 wounded by Israeli fire and airstrikes in Gaza over the past 24 hours. \"We transported three martyrs, including a child…",
     "image": "https://static.srpcdigital.com/styles/1200x600/public/2026-10/1847518.jpeg.webp?VersionId=jSt.MiXZEAWzNfKKHh0v4DnUERdCeMZg",
     "title": "Israeli Strike in Gaza Kills Three Including Child"
+   }
+  },
+  "https://english.aawsat.com/arab-world/5344502-landmine-blast-kills-5-children-northwest-syria": {
+   "checked": "2026-11-24T17:54:20Z",
+   "preview": {
+    "description": "A landmine explosion killed five children and wounded one other in northwest Syria, state media reported on Sunday. State TV said the blast was caused by a mine \"left behind\" during the rule of toppled president Bashar al-Assad's government and occurred in the village of Um Khuzaym in the countryside of Idlib province. Landmines and unexploded ordnance remain scattered across Syria after more…",
+    "image": "https://static.srpcdigital.com/styles/1200x600/public/2026-11/1888709.jpeg.webp?VersionId=MZQ5rbuhtNb6.TkCgXzmg6iQpWMBt5Ky",
+    "title": "Landmine Blast Kills 5 Children in Northwest Syria"
    }
   },
   "https://english.elpais.com/international/2026-11-04/the-us-takes-its-anti-narcotics-war-onto-venezuelan-soil-with-a-drone-strike-against-the-eln.html?outputType=amp": {
@@ -892,6 +935,13 @@
     "title": "3 killed in house fire in western Poland"
    }
   },
+  "https://english.news.cn/20261123/00ed81bb7e0043e5a18f3db0c2170696/c.html": {
+   "checked": "2026-11-24T17:54:20Z",
+   "preview": {
+    "description": "7 killed as truck overturns onto parked vehicle in Pakistan's Punjab-",
+    "title": "7 killed as truck overturns onto parked vehicle in Pakistan's Punjab"
+   }
+  },
   "https://english.news.cn/africa/20261113/75a689cf03b845409fd909fec59f84ba/c.html": {
    "checked": "2026-11-19T19:33:46Z",
    "preview": {
@@ -910,6 +960,15 @@
    "checked": "2026-11-22T23:39:34Z",
    "error": "HTTP 403",
    "fails": 3
+  },
+  "https://gulfnews.com/uae/emergencies/ras-al-khaimah-bus-truck-crash-death-toll-rises-to-13-14-injured-what-we-know-so-far-1.500752440": {
+   "checked": "2026-11-24T17:54:20Z",
+   "preview": {
+    "description": "Two more passengers die in hospital following early-morning collision on Al Watan Road",
+    "image": "https://media.assettype.com/gulfnews%2F2025-09-15%2F6ptdfn8u%2FSTOCK-AMBULANCE?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+    "site": "Gulf News: Latest UAE news, Dubai news, Business, travel news, Dubai Gold rate, prayer time, cinema",
+    "title": "Ras Al Khaimah bus-truck crash: Death toll rises to 13, 14 injured — what we know so far"
+   }
   },
   "https://gulfnews.com/world/americas/colombian-media-outlet-attacked-with-explosives-1.500744157": {
    "checked": "2026-11-19T19:44:35Z",
@@ -943,9 +1002,9 @@
    }
   },
   "https://japantoday.com/category/business/saudi-arabia-agrees-to-triple-crude-stored-in-japan-amid-mideast-tensions": {
-   "checked": "2026-11-22T23:39:34Z",
+   "checked": "2026-11-24T17:54:20Z",
    "error": "no title",
-   "fails": 2
+   "fails": 3
   },
   "https://kotaku.com/ea-to-shut-down-bioware-and-cancel-the-next-mass-effect-game-2000748374": {
    "checked": "2026-11-22T11:39:05Z",
@@ -1066,6 +1125,15 @@
    "error": "HTTP 403",
    "fails": 3
   },
+  "https://punchng.com/bandits-kill-niger-village-head-five-others/": {
+   "checked": "2026-11-24T17:54:20Z",
+   "preview": {
+    "description": "Suspected bandits killed the Lumma Ba'are village head and five others in Borgu LGA, Niger State, police and the state government confirmed on Saturday.",
+    "image": "https://punchng.com/wp-content/uploads/2026/06/Bandits.webp",
+    "site": "Punch Newspapers",
+    "title": "Bandits kill Niger village head, five others"
+   }
+  },
   "https://punchng.com/bandits-kill-three-abduct-residents-in-sokoto/": {
    "checked": "2026-11-19T19:33:46Z",
    "preview": {
@@ -1120,9 +1188,9 @@
    }
   },
   "https://sudantribune.com/article/320301": {
-   "checked": "2026-11-22T23:39:34Z",
+   "checked": "2026-11-24T17:54:20Z",
    "error": "HTTP 403",
-   "fails": 2
+   "fails": 3
   },
   "https://sudantribune.com/article/320591": {
    "checked": "2026-11-23T18:24:10Z",
@@ -1316,6 +1384,11 @@
    "error": "no title",
    "fails": 3
   },
+  "https://www.aa.com.tr/en/americas/car-bomb-explodes-near-colombia-s-meta-government-headquarters/4135229": {
+   "checked": "2026-11-24T17:54:20Z",
+   "error": "no title",
+   "fails": 1
+  },
   "https://www.aa.com.tr/en/americas/un-mission-in-somalia-to-end-operations-on-oct-31-after-decades-of-support/4101656": {
    "checked": "2026-11-23T18:24:10Z",
    "error": "no title",
@@ -1398,9 +1471,9 @@
    "fails": 3
   },
   "https://www.afp.com/en/brazil-storm-death-toll-rises-5": {
-   "checked": "2026-11-22T23:39:34Z",
+   "checked": "2026-11-24T17:54:20Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://www.afp.com/en/canada-buying-stake-ai-firm-cohere-bolster-tech-sovereignty": {
    "checked": "2026-11-23T18:24:10Z",
@@ -1468,14 +1541,14 @@
    "fails": 3
   },
   "https://www.afp.com/en/hong-kong-cinema-takes-spotlight-taiwan-top-film-award": {
-   "checked": "2026-11-22T23:39:34Z",
-   "error": "HTTP 403",
-   "fails": 1
-  },
-  "https://www.afp.com/en/japans-yoshida-wins-first-lpga-tour-title-south-korea-win": {
-   "checked": "2026-11-22T23:39:34Z",
+   "checked": "2026-11-24T17:54:20Z",
    "error": "HTTP 403",
    "fails": 2
+  },
+  "https://www.afp.com/en/japans-yoshida-wins-first-lpga-tour-title-south-korea-win": {
+   "checked": "2026-11-24T17:54:20Z",
+   "error": "HTTP 403",
+   "fails": 3
   },
   "https://www.afp.com/en/journalist-yoani-sanchez-activists-released-detention-cuba": {
    "checked": "2026-11-22T23:39:34Z",
@@ -1538,9 +1611,9 @@
    "fails": 3
   },
   "https://www.afp.com/en/russian-cargo-ship-hit-drone-baltic-finland-says": {
-   "checked": "2026-11-22T23:39:34Z",
+   "checked": "2026-11-24T17:54:20Z",
    "error": "HTTP 403",
-   "fails": 2
+   "fails": 3
   },
   "https://www.afp.com/en/scam-centres-relocated-cambodia-operate-madagascar": {
    "checked": "2026-11-23T18:24:10Z",
@@ -1558,9 +1631,9 @@
    "fails": 2
   },
   "https://www.afp.com/en/south-korea-education-chief-resigns-amid-ai-cheating-scandal": {
-   "checked": "2026-11-22T23:39:34Z",
+   "checked": "2026-11-24T17:54:20Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://www.afp.com/en/us-grant-flavio-bolsonaro-visa-he-flees-brazil-after-election-loss": {
    "checked": "2026-11-23T18:24:10Z",
@@ -1571,6 +1644,11 @@
    "checked": "2026-11-22T10:14:34Z",
    "error": "HTTP 403",
    "fails": 3
+  },
+  "https://www.afp.com/en/usa-joint-bid-host-2031-womens-world-cup-uk-host-2035": {
+   "checked": "2026-11-24T17:54:20Z",
+   "error": "HTTP 403",
+   "fails": 1
   },
   "https://www.afp.com/en/valkyries-defeat-dream-capture-first-wnba-crown": {
    "checked": "2026-11-23T18:24:10Z",
@@ -2183,9 +2261,9 @@
    }
   },
   "https://www.arabnews.com/world/24-dead-in-nigeria-when-boat-capsizes-while-carrying-people-to-a-funeral-3013419": {
-   "checked": "2026-11-22T23:39:34Z",
+   "checked": "2026-11-24T17:54:20Z",
    "error": "HTTP 403",
-   "fails": 2
+   "fails": 3
   },
   "https://www.arabnews.com/world/philippines-seizes-200-kg-of-methamphetamine-at-manila-port-3009754": {
    "checked": "2026-11-22T23:39:34Z",
@@ -2196,6 +2274,15 @@
    "checked": "2026-11-22T23:39:34Z",
    "error": "HTTP 403",
    "fails": 3
+  },
+  "https://www.asiaone.com/asia/explosion-kills-6-injures-10-vietnam-capital-hanoi": {
+   "checked": "2026-11-24T17:54:20Z",
+   "preview": {
+    "description": "HANOI — At least six people were killed and 10 others injured in an explosion on Tuesday (Nov 24) in a densely populated residential area of the Vietnamese capital Hanoi, police and state media said.The explosion happened at 8am (9am SGT) at a food shop in Dong Da Street, causing severe damage to the building and shattering the windows of...",
+    "image": "https://media.asiaone.com/sites/default/files/styles/article_top_image/public/original_images/Nov2026/vietnam%20flag.jpg?itok=CaNovi6N",
+    "site": "AsiaOne",
+    "title": "Explosion kills 6, injures 10 in Vietnam capital Hanoi"
+   }
   },
   "https://www.axios.com/2026/11/18/gta-6-playstation-psn-servers": {
    "checked": "2026-11-22T10:14:34Z",
@@ -2307,6 +2394,14 @@
     "title": "Dozens injured after trains collide head-on in Prague"
    }
   },
+  "https://www.bbc.com/news/articles/c6wy4ng1rznxo": {
+   "checked": "2026-11-24T17:54:20Z",
+   "preview": {
+    "description": "The UK is joined by several other nations in recognising an ICJ ruling that Myanmar carried out genocide.",
+    "image": "https://ichef.bbci.co.uk/news/1024/branded_news/46f8/live/11f74480-e77a-11f1-978f-df545a5c5c20.jpg",
+    "title": "UK sanctions top Myanmar military leaders after Rohingya genocide ruling"
+   }
+  },
   "https://www.bbc.com/news/articles/c6x2wd4v04eeo": {
    "checked": "2026-11-20T15:34:54Z",
    "preview": {
@@ -2401,6 +2496,14 @@
     "description": "Most of those jailed on Iran-linked terrorism charges are clerics, a UK-based human rights group, claiming confessions were forced. Bahraini authorities accused the 69 unnamed defendants of establishing a terrorist group linked to Iran's Revolutionary Guards.",
     "image": "https://ichef.bbci.co.uk/news/1024/branded_news/84f2/live/aa54a570-e1cf-11f1-99a1-253766e7ad8b.jpg",
     "title": "Bahrain court sentences dozens of Shia Muslims to life in prison, activists say"
+   }
+  },
+  "https://www.bbc.com/news/articles/cq1j6585l5g6o": {
+   "checked": "2026-11-24T17:54:20Z",
+   "preview": {
+    "description": "Parastoo Ahmadi, three musicians and a producer were reportedly given 74 lashes in Qom.",
+    "image": "https://ichef.bbci.co.uk/news/1024/branded_news/6a11/live/e201bf70-bb4c-11f1-bc1f-3f186ca4140c.jpg",
+    "title": "Iranian authorities flog singer who performed without hijab, lawyers say"
    }
   },
   "https://www.bbc.com/news/articles/cq2d6d5z9y5jo": {
@@ -2626,10 +2729,17 @@
     "title": "Sudan lifts 20-month ban on Kenyan tea after Ruto deal"
    }
   },
+  "https://www.catholicworldreport.com/2026/11/22/at-least-140-christians-killed-in-two-weeks-in-the-democratic-republic-of-congo/": {
+   "checked": "2026-11-24T17:54:20Z",
+   "preview": {
+    "image": "https://www.catholicworldreport.com/wp-content/uploads/2023/01/demrepcongo_cna.jpg",
+    "title": "At least 140 Christians killed in two weeks in the Democratic Republic of Congo"
+   }
+  },
   "https://www.cbc.ca/news/canada/british-columbia/livestory/bc-provincial-election-results-live-updates-2026-9.7389208": {
-   "checked": "2026-11-22T23:39:34Z",
+   "checked": "2026-11-24T17:54:20Z",
    "error": "TimeoutError",
-   "fails": 2
+   "fails": 3
   },
   "https://www.cbc.ca/sports/soccer/canadian-championship-forge-fc-cf-montreal-9.7391259": {
    "checked": "2026-11-23T18:24:10Z",
@@ -2679,6 +2789,15 @@
     "image": "https://sportshub.cbsistatic.com/i/r/2026/10/23/8191a10a-dc72-4043-bcca-fd360accf477/thumbnail/1200x675/bb06bc5df3275725155f65b10ef5ce36/caleb-williams.jpg",
     "site": "CBS Sports",
     "title": "Rare NFL penalty: Bears become first team in 16 years to get flagged for illegal forward handoff"
+   }
+  },
+  "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html": {
+   "checked": "2026-11-24T17:54:20Z",
+   "preview": {
+    "description": "Anthropic stock is set to begin trading on the Nasdaq under the ticker symbol ANT on Thursday.",
+    "image": "https://image.cnbcfm.com/api/v1/image/108554572-1795033463943-108554572-1795033101955-gettyimages-2305196401-ANTHROPIC_IPO.jpg?v=1795033477&w=1920&h=1080",
+    "site": "CNBC",
+    "title": "Anthropic IPO raises over $81 billion in largest offering on record, topping SpaceX"
    }
   },
   "https://www.cnn.com/2026/10/23/middleeast/church-shooting-jordan-intl": {
@@ -2738,6 +2857,15 @@
     "title": "KuCoin Suspends Services in Russia and Belarus With Immediate Effect"
    }
   },
+  "https://www.ctvnews.ca/world/article/24-civilians-killed-in-fresh-south-sudan-violence/": {
+   "checked": "2026-11-24T17:54:20Z",
+   "preview": {
+    "description": "A weekend attack by opposition forces in volatile South Sudan killed 24 civilians, including seven children, local authorities said Sunday.",
+    "image": "https://www.ctvnews.ca/resizer/v2/JJ3Y7IUK2GGOY5N4WLZFD6ZAAI.jpg?smart=true&auth=1ca85a800aaeeca3ea326586cf911060403708a04c276089d28c710e8010db7a&width=1200&height=630",
+    "site": "CTVNews",
+    "title": "24 civilians killed in fresh South Sudan violence"
+   }
+  },
   "https://www.daily-sun.com/bangladesh/909934/two-killed-in-attack-on-bnp-procession-in-narail": {
    "checked": "2026-11-22T10:14:34Z",
    "error": "HTTP 403",
@@ -2747,6 +2875,11 @@
    "checked": "2026-11-23T18:24:10Z",
    "error": "HTTP 403",
    "fails": 3
+  },
+  "https://www.daily-sun.com/world/910983/uk-recognises-rohingya-genocide-imposes-new-sanctions-on-myanmar-military": {
+   "checked": "2026-11-24T17:54:20Z",
+   "error": "HTTP 403",
+   "fails": 1
   },
   "https://www.dailysabah.com/turkiye/9-killed-5-injured-in-truck-minibus-collision-in-eastern-turkiye/news": {
    "checked": "2026-11-19T19:44:35Z",
@@ -3030,9 +3163,9 @@
    }
   },
   "https://www.espn.com/racing/nascar/story/_/id/50281784/kyle-larson-extends-chase-points-lead-first-nascar-win-talladega-last-lap-scramble": {
-   "checked": "2026-11-22T23:39:34Z",
+   "checked": "2026-11-24T17:54:20Z",
    "error": "no title",
-   "fails": 2
+   "fails": 3
   },
   "https://www.espn.com/soccer/story/_/id/50242822/st-louis-city-beats-columbus-open-cup-final": {
    "checked": "2026-11-22T11:39:05Z",
@@ -3044,9 +3177,9 @@
    }
   },
   "https://www.espn.com/soccer/story/_/id/50249418/usa-host-2028-inaugural-womens-club-world-cup": {
-   "checked": "2026-11-22T23:39:34Z",
+   "checked": "2026-11-24T17:54:20Z",
    "error": "no title",
-   "fails": 2
+   "fails": 3
   },
   "https://www.espn.com/soccer/story/_/id/50382265/world-record-53-red-cards-brazilian-20s-match": {
    "checked": "2026-11-22T23:39:34Z",
@@ -3156,6 +3289,11 @@
    "checked": "2026-11-22T10:14:34Z",
    "error": "HTTP 403",
    "fails": 3
+  },
+  "https://www.fanpage.it/roma/studente-muore-in-tenda-alla-sapienza-cardiopatico-era-in-attesa-di-un-alloggio-nello-studentato/": {
+   "checked": "2026-11-24T17:54:20Z",
+   "error": "HTTP 403",
+   "fails": 1
   },
   "https://www.firstpost.com/business/french-bank-hit-by-cyberattack-hackers-siphon-off-nearly-112-million-14058157.html": {
    "checked": "2026-11-22T23:39:34Z",
@@ -3577,6 +3715,24 @@
     "title": "Mexico captures drug cartel boss ‘El Chapo Isidro’ after deadly firefight"
    }
   },
+  "https://www.france24.com/en/live-news/20261123-canada-court-rules-lawmakers-must-swear-royal-oath-risking-quebec-chaos": {
+   "checked": "2026-11-24T17:54:20Z",
+   "preview": {
+    "description": "A Canadian court on Monday struck down a law that shielded provincial lawmakers in French-speaking Quebec from having to swear an oath to the British monarch.",
+    "image": "https://s.france24.com/media/display/59872a7a-e772-11f1-8827-6b451f569414/w:1280/p:16x9/8dd31a484c997040e59461ec0e87eace0e9a8789.jpg",
+    "site": "France 24",
+    "title": "Canada court rules lawmakers must swear royal oath, risking Quebec chaos"
+   }
+  },
+  "https://www.france24.com/en/live-news/20261123-turkey-says-pkk-evacuated-14-more-bases-in-northern-iraq": {
+   "checked": "2026-11-24T17:54:20Z",
+   "preview": {
+    "description": "PKK militants have withdrawn from 14 more bases in northern Iraq in a major boost to an emerging peace deal with Turkey, state media reported on Monday, citing the Turkish intelligence services.",
+    "image": "https://s.france24.com/media/display/9688da1e-e74e-11f1-a800-1bac47ab2f5d/w:1280/p:16x9/17b5a5912ab147512f20845d41b278f2095c0101.jpg",
+    "site": "France 24",
+    "title": "Turkey says PKK evacuated 14 more bases in northern Iraq"
+   }
+  },
   "https://www.france24.com/en/middle-east/20261026-iran-talks-mecca-pact-nations-war": {
    "checked": "2026-11-21T14:45:33Z",
    "preview": {
@@ -3709,15 +3865,6 @@
     "title": "Hegseth Proposes Joint Military Ops in Honduras, Warns U.S. Won't Cede Its 'Backyard'"
    }
   },
-  "https://www.lbc.co.uk/article/gta-6-breaks-records-as-estimated-sales-top-23bn-5HjdnKw_2/": {
-   "checked": "2026-11-20T15:34:54Z",
-   "preview": {
-    "description": "The sixth instalment of the action-adventure game saw more than 24.5 million copies sold in pre-orders and day-one sales, totalling about $2.36 billion (£1.8 billion)",
-    "image": "https://images.globalplayer.com/images/857160?crop=16_9&width=1200&signature=9etL71U-249hH65T3kIr0w4sGBM=",
-    "site": "LBC",
-    "title": "GTA 6 breaks records as estimated sales top $2.3bn | LBC"
-   }
-  },
   "https://www.lemonde.fr/en/france/article/2026/11/06/at-least-two-people-killed-after-bus-carrying-schoolchildren-crashes-in-france_6773528_7.html": {
    "checked": "2026-11-20T15:34:54Z",
    "preview": {
@@ -3783,14 +3930,6 @@
     "description": "El saldo hasta ahora incluye 16 civiles y cuatro elementos del Ejército MexicanoGuasave, Sinaloa.- Los enfrentamientos registrados en Guasave durante ...",
     "image": "https://www.meganoticias.mx/uploads/noticias/suman-20-muertos-por-enfrentamientos-en-guasave-791114.jpg",
     "title": "Suman 20 muertos por enfrentamientos en Guasave"
-   }
-  },
-  "https://www.middleeasteye.net/live-blog/live-blog-update/bahrain-says-iranian-strike-wounds-two-one-critically": {
-   "checked": "2026-11-23T18:24:10Z",
-   "preview": {
-    "image": "https://www.middleeasteye.net/sites/default/files/2026-11/lebanon-israel.jpg",
-    "site": "Middle East Eye",
-    "title": "Bahrain says Iranian strike wounds two, one critically"
    }
   },
   "https://www.middleeasteye.net/live-blog/live-blog-update/explosions-heard-irans-qeshm-island-state-media-reports": {
@@ -4088,6 +4227,15 @@
     "title": "আড়াইহাজারে বিএনপির দুই পক্ষের সংঘর্ষে আহত ১০"
    }
   },
+  "https://www.radiotamazuj.org/en/news/article/landmine-kills-18-family-members-in-west-kordofan": {
+   "checked": "2026-11-24T17:54:20Z",
+   "preview": {
+    "description": "Eighteen members of a family perished on Thursday when their vehicle drove over and triggered",
+    "image": "https://www.radiotamazuj.org/wp-content/uploads/2026/11/Screenshot-2026-11-20-120312.png",
+    "site": "Radio Tamazuj",
+    "title": "Landmine kills 18 family members in West Kordofan - Radio Tamazuj"
+   }
+  },
   "https://www.rainews.it/maratona/2026/10/caro-vita-secondo-giorno-di-guerriglia-a-milano-nuovi-saccheggi-in-centro-dopo-gli-scontri-di-ieri-f03a282c-8ad7-411b-826e-f50b88ca9ebe.html": {
    "checked": "2026-11-21T23:26:18Z",
    "preview": {
@@ -4140,9 +4288,9 @@
    "fails": 3
   },
   "https://www.reuters.com/business/energy/iraq-fire-basra-power-station-kills-least-four-injures-30-2026-11-21/": {
-   "checked": "2026-11-22T23:39:34Z",
+   "checked": "2026-11-24T17:54:20Z",
    "error": "disallowed by robots.txt",
-   "fails": 2
+   "fails": 3
   },
   "https://www.reuters.com/business/energy/production-suspended-iraqs-khor-mor-gas-field-after-drone-attack-sources-say-2026-11-08/": {
    "checked": "2026-11-22T10:14:34Z",
@@ -4160,9 +4308,14 @@
    "fails": 3
   },
   "https://www.reuters.com/business/environment/typhoon-champi-sweeps-past-taiwan-one-dead-500-injured-2026-10-24/": {
-   "checked": "2026-11-22T23:39:34Z",
+   "checked": "2026-11-24T17:54:20Z",
    "error": "disallowed by robots.txt",
-   "fails": 2
+   "fails": 3
+  },
+  "https://www.reuters.com/business/environment/uk-records-highest-number-heat-related-deaths-2026-2026-11-24/": {
+   "checked": "2026-11-24T17:54:20Z",
+   "error": "disallowed by robots.txt",
+   "fails": 1
   },
   "https://www.reuters.com/business/finance/ecb-hold-rates-investors-focus-french-bonds-lagardes-future-2026-10-28/": {
    "checked": "2026-11-23T18:24:10Z",
@@ -4175,9 +4328,9 @@
    "fails": 3
   },
   "https://www.reuters.com/business/healthcare-pharmaceuticals/france-reports-first-human-shamonda-virus-case-2026-10-22/": {
-   "checked": "2026-11-22T23:39:34Z",
+   "checked": "2026-11-24T17:54:20Z",
    "error": "disallowed by robots.txt",
-   "fails": 2
+   "fails": 3
   },
   "https://www.reuters.com/business/healthcare-pharmaceuticals/us-fda-orders-new-eye-risk-warnings-ozempic-zepbound-2026-11-09/": {
    "checked": "2026-11-22T10:14:34Z",
@@ -4220,9 +4373,9 @@
    "fails": 3
   },
   "https://www.reuters.com/legal/litigation/conservative-party-wins-first-election-nearly-century-british-columbia-2026-10-25/": {
-   "checked": "2026-11-22T23:39:34Z",
+   "checked": "2026-11-24T17:54:20Z",
    "error": "disallowed by robots.txt",
-   "fails": 2
+   "fails": 3
   },
   "https://www.reuters.com/legal/transactional/doordash-strikes-17-billion-deal-us-rival-instacart-bets-grocery-delivery-2026-10-29/": {
    "checked": "2026-11-23T18:24:10Z",
@@ -4255,9 +4408,9 @@
    "fails": 3
   },
   "https://www.reuters.com/sports/tennis/alcaraz-charges-past-world-number-one-zverev-clinch-atp-finals-title-2026-11-22/": {
-   "checked": "2026-11-22T23:39:34Z",
+   "checked": "2026-11-24T17:54:20Z",
    "error": "disallowed by robots.txt",
-   "fails": 1
+   "fails": 2
   },
   "https://www.reuters.com/sustainability/cop/cop31-climate-talks-close-final-deal-says-summit-president-2026-11-21/": {
    "checked": "2026-11-23T18:24:10Z",
@@ -4335,9 +4488,9 @@
    "fails": 3
   },
   "https://www.reuters.com/world/americas/former-presidential-candidate-gonzalez-arrested-ecuador-2026-10-22/": {
-   "checked": "2026-11-22T23:39:34Z",
+   "checked": "2026-11-24T17:54:20Z",
    "error": "disallowed by robots.txt",
-   "fails": 2
+   "fails": 3
   },
   "https://www.reuters.com/world/americas/iran-designates-argentinas-navy-air-force-terrorist-organizations-2026-11-11/": {
    "checked": "2026-11-22T10:14:34Z",
@@ -4395,9 +4548,9 @@
    "fails": 1
   },
   "https://www.reuters.com/world/asia-pacific/indonesia-seizes-116-tons-ketamine-police-chief-says-2026-10-23/": {
-   "checked": "2026-11-22T23:39:34Z",
+   "checked": "2026-11-24T17:54:20Z",
    "error": "disallowed by robots.txt",
-   "fails": 2
+   "fails": 3
   },
   "https://www.reuters.com/world/asia-pacific/indonesia-vice-president-expresses-intention-resign-presidential-official-says-2026-11-10/": {
    "checked": "2026-11-22T10:14:34Z",
@@ -4470,9 +4623,9 @@
    "fails": 3
   },
   "https://www.reuters.com/world/europe/melania-trump-secures-oleshky-ceasefire-between-russia-ukraine-white-house-says-2026-10-23/": {
-   "checked": "2026-11-22T23:39:34Z",
+   "checked": "2026-11-24T17:54:20Z",
    "error": "disallowed by robots.txt",
-   "fails": 2
+   "fails": 3
   },
   "https://www.reuters.com/world/europe/putin-hosts-trump-envoy-new-ukraine-peace-talks-frees-us-citizen-held-russia-2026-10-21/": {
    "checked": "2026-11-23T18:24:10Z",
@@ -4535,9 +4688,9 @@
    "fails": 3
   },
   "https://www.reuters.com/world/international-criminal-court-wins-eus-2026-sakharov-prize-2026-10-22/": {
-   "checked": "2026-11-22T23:39:34Z",
+   "checked": "2026-11-24T17:54:20Z",
    "error": "disallowed by robots.txt",
-   "fails": 2
+   "fails": 3
   },
   "https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14/": {
    "checked": "2026-11-22T10:14:34Z",
@@ -4570,9 +4723,9 @@
    "fails": 3
   },
   "https://www.reuters.com/world/middle-east/israeli-strike-kills-three-vehicle-distributing-aid-gaza-witnesses-say-2026-11-21/": {
-   "checked": "2026-11-22T23:39:34Z",
+   "checked": "2026-11-24T17:54:20Z",
    "error": "disallowed by robots.txt",
-   "fails": 2
+   "fails": 3
   },
   "https://www.reuters.com/world/middle-east/israeli-strike-southern-gaza-hospital-kills-four-gaza-civil-defence-says-2026-11-11/": {
    "checked": "2026-11-22T10:14:34Z",
@@ -4580,9 +4733,9 @@
    "fails": 3
   },
   "https://www.reuters.com/world/middle-east/libyas-eastern-government-suspects-drone-attack-caused-explosion-russian-ship-2026-11-22/": {
-   "checked": "2026-11-22T23:39:34Z",
+   "checked": "2026-11-24T17:54:20Z",
    "error": "disallowed by robots.txt",
-   "fails": 1
+   "fails": 2
   },
   "https://www.reuters.com/world/middle-east/us-strikes-iranian-missile-launch-site-qeshm-island-us-official-says-2026-11-17/": {
    "checked": "2026-11-22T10:14:34Z",
@@ -4600,9 +4753,9 @@
    "fails": 3
   },
   "https://www.reuters.com/world/senior-uae-diplomat-lana-nusseibeh-enters-race-un-chief-2026-10-21/": {
-   "checked": "2026-11-22T23:39:34Z",
+   "checked": "2026-11-24T17:54:20Z",
    "error": "disallowed by robots.txt",
-   "fails": 2
+   "fails": 3
   },
   "https://www.reuters.com/world/swedish-parliament-vote-centre-party-leader-prime-minister-despite-gridlock-2026-10-29/": {
    "checked": "2026-11-23T18:24:10Z",
@@ -4615,9 +4768,9 @@
    "fails": 3
   },
   "https://www.reuters.com/world/train-hits-minibus-russias-far-east-killing-six-2026-10-24/": {
-   "checked": "2026-11-22T23:39:34Z",
+   "checked": "2026-11-24T17:54:20Z",
    "error": "disallowed by robots.txt",
-   "fails": 2
+   "fails": 3
   },
   "https://www.reuters.com/world/uk/uk-court-overturns-trinidad-tobago-law-criminalising-homosexual-sex-2026-11-10/": {
    "checked": "2026-11-22T10:14:34Z",
@@ -4750,6 +4903,15 @@
     "image": "https://s.rfi.fr/media/display/df0d3da4-e0c6-11f1-8a66-695cb59fade5/w:1280/p:16x9/83cdb6dec7518d18f93ef05713cfda460feb48d3.jpg",
     "site": "RFI",
     "title": "Australia crush New Zealand 34-10 to win Women's Rugby League World Cup"
+   }
+  },
+  "https://www.riotimesonline.com/nigeria-niger-state-reprisals-fulani-killed-2026/": {
+   "checked": "2026-11-24T17:54:20Z",
+   "preview": {
+    "description": "Vigilantes killed at least 35 Fulani in Wawa, Niger State, Nigeria, after a raid on a nearby village; police confirm no toll, one group says 64.",
+    "image": "https://www.riotimesonline.com/wp-content/uploads/2026/11/niger-state-farmland-hills-nigeria-af06-photo.jpg",
+    "site": "The Rio Times",
+    "title": "Vigilantes Reportedly Kill Fulani in Nigeria"
    }
   },
   "https://www.rnz.co.nz/news/politics_election-2026/2420113/too-close-to-call-wait-begins-for-special-votes-after-cliffhanger-election-night": {
@@ -4910,6 +5072,15 @@
     "title": "Zurich and Basel protests turn violent"
    }
   },
+  "https://www.tagesschau.de/inland/regional/nordrheinwestfalen/gruene-angriff-nrw-schwerte-100.html": {
+   "checked": "2026-11-24T17:54:20Z",
+   "preview": {
+    "description": "In Schwerte in Nordrhein-Westfalen hat nach Informationen des WDR eine maskierte Person eine Fraktionssitzung der Grünen gestürmt. Drei Menschen wurden dabei verletzt. Der Staatsschutz ermittelt.",
+    "image": "https://images.tagesschau.de/image/c89cef5a-b899-44fa-9c42-a8f10b19db9d/AAABogx__X8/AAABnSSvrFg/16x9-big/schwerte-nrw-angriff-fraktionssitzung-gruene-100.jpg?width=1280",
+    "site": "tagesschau.de",
+    "title": "Nordrhein-Westfalen: Angriff auf Grünen-Politiker während Fraktionssitzung"
+   }
+  },
   "https://www.tbsnews.net/bangladesh/10-injured-five-shot-rival-bnp-factions-clash-munshiganj-1600101": {
    "checked": "2026-11-19T19:44:35Z",
    "preview": {
@@ -4962,6 +5133,15 @@
     "image": "https://www.tbsnews.net/sites/default/files/styles/social_share/public/images/2026/11/22/untitled-1.jpg",
     "site": "The Business Standard",
     "title": "Garment workers stage fresh protest in Gazipur, attempt to block Dhaka-Mymensingh highway"
+   }
+  },
+  "https://www.tbsnews.net/bangladesh/least-20-injured-clash-between-two-al-factions-gopalganj-1612076": {
+   "checked": "2026-11-24T17:54:20Z",
+   "preview": {
+    "description": "Four crude bombs exploded, and several shops were vandalised during the clash between supporters from two villages, leaving five people hospitalised.",
+    "image": "https://www.tbsnews.net/sites/default/files/styles/social_share/public/images/2026/11/23/screenshot_2026-11-23_234723.png",
+    "site": "The Business Standard",
+    "title": "At least 20 injured in clash between two AL factions in Gopalganj"
    }
   },
   "https://www.tbsnews.net/bangladesh/police-garment-workers-clash-kafrul-over-alleged-harassment-female-workers-1606131": {
@@ -5019,9 +5199,9 @@
    }
   },
   "https://www.theaustralian.com.au/news/latest-news/rescuers-search-for-seven-people-in-nairobi-building-collapse/news-story/14ad68668d7297f52ea49cb9ab9e58ed": {
-   "checked": "2026-11-22T23:39:34Z",
+   "checked": "2026-11-24T17:54:20Z",
    "error": "disallowed by robots.txt",
-   "fails": 2
+   "fails": 3
   },
   "https://www.thedailystar.net/business/global-economy/news/singapore-launches-gold-storage-service-central-banks-4319921": {
    "checked": "2026-11-19T19:44:35Z",
@@ -5039,6 +5219,15 @@
     "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/measles-final.jpg",
     "site": "The Daily Star",
     "title": "Eight more die with measles-like symptoms"
+   }
+  },
+  "https://www.thedailystar.net/news/crime-justice/news/15-injured-bnp-factions-clash-jhenaidah-4331446": {
+   "checked": "2026-11-24T17:54:20Z",
+   "preview": {
+    "description": "Police say violence stemmed from dispute over local dominance",
+    "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/Jhenaidah%20BNP%20factional%20clash%201.jpeg",
+    "site": "The Daily Star",
+    "title": "15 injured as BNP factions clash in Jhenaidah"
    }
   },
   "https://www.thedailystar.net/news/crime-justice/news/bgb-deploys-95-platoons-across-seven-districts-maintain-law-and-order-4330136": {
@@ -5131,6 +5320,15 @@
     "title": "Police vehicle torched as garment workers block Dhaka-Mymensingh highway"
    }
   },
+  "https://www.thedailystar.net/news/politics/news/clashes-over-awami-league-processions-gopalganj-leave-least-30-injured-4331701": {
+   "checked": "2026-11-24T17:54:20Z",
+   "preview": {
+    "description": "Crude bombs explode and 12 shops are vandalised in separate incidents in Gopalganj town and Kotalipara",
+    "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/1000102553.jpg",
+    "site": "The Daily Star",
+    "title": "Clashes over Awami League processions in Gopalganj leave at least 30 injured"
+   }
+  },
   "https://www.thedailystar.net/news/world/news/truck-crash-uae-kills-14-injures-30-4322351": {
    "checked": "2026-11-19T19:44:35Z",
    "preview": {
@@ -5174,6 +5372,24 @@
     "image": "https://i.guim.co.uk/img/media/f88eb30da8765416e5de2380d70ed0056788cab0/691_0_6776_5421/master/6776.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=b6b46f05da72b59cef6ac1bfe8fd0f1d",
     "site": "the Guardian",
     "title": "M John Harrison becomes first science fiction author to win the Booker prize"
+   }
+  },
+  "https://www.theguardian.com/football/2026/nov/24/afcon-verdict-senegal-morocco-africa-cup-of-nations-champions-court-ruling-cas": {
+   "checked": "2026-11-24T17:54:20Z",
+   "preview": {
+    "description": "The court of arbitration for sport has ruled Senegal won the African Cup of Nations title that had been awarded to Morocco because of a Senegal walk-off",
+    "image": "https://i.guim.co.uk/img/media/a6ed91cef442f9734b4f289ce6ba75b0587c54f8/705_0_4240_3392/master/4240.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=023255f8df3774fad0d3c8b1fc9490dd",
+    "site": "the Guardian",
+    "title": "Senegal restored as Africa Cup of Nations champions after court ruling"
+   }
+  },
+  "https://www.theguardian.com/games/2026/nov/21/a-new-record-for-entertainment-grand-theft-auto-vi-sales-hit-38bn-on-first-day-of-release-developer-says": {
+   "checked": "2026-11-24T17:54:20Z",
+   "preview": {
+    "description": "The announcement from Rockstar Games would mean GTA VI has already earned more than the entire box office run of the highest-grossing film of all time",
+    "image": "https://i.guim.co.uk/img/media/5988d7ddcc73c1dddca7f0d330ee2d523648a57a/1183_0_6827_5464/master/6827.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=95042df6a5e99cce15a43e1023e3bd22",
+    "site": "the Guardian",
+    "title": "‘A new record for entertainment’: Grand Theft Auto VI sales hit $3.8bn on first day of release, developer says"
    }
   },
   "https://www.theguardian.com/us-news/2026/nov/02/what-are-midterm-elections": {
@@ -5364,6 +5580,15 @@
     "image": "https://img.turkiyetoday.com/images/2026/10/23/romania-rescues-9-from-black-sea-ship-after-drone-attack-3230869_20261023120600.jpg",
     "site": "Türkiye Today",
     "title": "Romania rescues 9 from Black Sea ship after drone attack - Türkiye Today"
+   }
+  },
+  "https://www.tvcnews.tv/bandits-kill-two-teachers-abduct-13-in-zamfara-as-police-arrest-gunrunner-with-eight-ak-47-rifles/": {
+   "checked": "2026-11-24T17:54:20Z",
+   "preview": {
+    "description": "TVC News Nigeria is a 24-hour Nigeria-centric news, current affairs and documentary channel. The channel provides real-time, reliable and accurate news to Nigerians...",
+    "image": "https://tvcnews.tv/wp-content/uploads/2026/11/HXzonleWgAA7_G1.jpg",
+    "site": "Trending News",
+    "title": "Bandits Kill Two Teachers, Abduct 13 In Zamfara As Police Arrest Gunrunner With Eight AK-47 Rifles"
    }
   },
   "https://www.upi.com/Top_News/World-News/2026/10/21/Jackdaw-gasfield-production-greenlighted/2721792570621/": {
