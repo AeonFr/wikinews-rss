@@ -15,12 +15,12 @@
    "categories": [
     "Armed conflicts and attacks"
    ],
-   "group": "2026-11-25-e1dea5c443f0",
+   "group": "2026-11-25-e3445be79189",
    "headlines": [
     {
      "category": "Armed conflicts and attacks",
-     "html": "At least seven people, including a senior <a href=\"https://en.wikipedia.org/wiki/Hamas\">Hamas</a> security official, his wife, and two daughters, are killed in an <a href=\"https://en.wikipedia.org/wiki/Israel\">Israeli</a> airstrike on the <a href=\"https://en.wikipedia.org/wiki/Al-Shati_refugee_camp\">Al-Shati refugee camp</a> near <a href=\"https://en.wikipedia.org/wiki/Gaza_City\">Gaza City</a> in the <a href=\"https://en.wikipedia.org/wiki/Gaza_Strip\">Gaza Strip</a>.",
-     "id": "2026-11-25-e1dea5c443f0",
+     "html": "An <a href=\"https://en.wikipedia.org/wiki/Hamas\">Hamas</a> security official, his wife, and two daughters, are killed in an <a href=\"https://en.wikipedia.org/wiki/Israel\">Israeli</a> airstrike on the <a href=\"https://en.wikipedia.org/wiki/Al-Shati_refugee_camp\">Al-Shati refugee camp</a> near <a href=\"https://en.wikipedia.org/wiki/Gaza_City\">Gaza City</a> in the <a href=\"https://en.wikipedia.org/wiki/Gaza_Strip\">Gaza Strip</a>. Three more <a href=\"https://en.wikipedia.org/wiki/Palestinians\">Palestinians</a> are also killed and several injured in more Israeli airstrikes.",
+     "id": "2026-11-25-e3445be79189",
      "page": {
       "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
       "title": "Portal:Current events/2026 November 25",
@@ -30,6 +30,315 @@
       {
        "name": "Al Jazeera",
        "url": "https://www.aljazeera.com/news/2026/11/25/israeli-strike-kills-hamas-official-his-wife-and-children"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Gaza war, Gaza genocide",
+       "links": [
+        {
+         "label": "Gaza war",
+         "url": "https://en.wikipedia.org/wiki/Gaza_war"
+        },
+        {
+         "label": "Gaza genocide",
+         "url": "https://en.wikipedia.org/wiki/Gaza_genocide"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Gaza_war"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-25-e3445be79189",
+   "image": {
+    "link": "https://www.aljazeera.com/news/2026/11/25/israeli-strike-kills-hamas-official-his-wife-and-children",
+    "source": "Al Jazeera",
+    "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-25T092857Z_670670454_RC2WUOAYSQUZ_RTRMADP_3_ISRAEL-PALESTINIANS-GAZA-1-1795606726.jpg?resize=1920%2C1440"
+   },
+   "more_articles": [
+    {
+     "extract": "The Gaza genocide is the ongoing, intentional, and systematic destruction of the Palestinian people in the Gaza Strip carried out by Israel during the Gaza war. It encompasses mass killings, including the targeted killing of children (who account for 30% of those killed), deliberate starvation, infliction of serious bodily and mental harm, and prevention of births.",
+     "location": "Israeli-occupied Gaza Strip (Palestine)",
+     "title": "Gaza genocide",
+     "url": "https://en.wikipedia.org/wiki/Gaza_genocide"
+    }
+   ],
+   "pub_date": "2026-11-25T18:12:36Z",
+   "title": "Gaza war, Gaza genocide: An Hamas security official, his wife, and two daughters, are killed in an Israeli airstrike on the Al-Shati refugee camp near Gaza City in the Gaza Strip."
+  },
+  {
+   "article": {
+    "extract": "A series of labour demonstrations organized by workers in the ready-made garment industry have taken place in Bangladesh, demanding an increase in the sector's minimum monthly wage from ৳12,500 (US$100) to ৳30,000 (US$240). Began in August 2026, the protests escalated in late-October and early-November 2026 in the industrial areas of Ashulia, Gazipur and Dhaka.",
+    "location": "Greater Dhaka, Bangladesh",
+    "title": "2026 Bangladesh garment workers protests",
+    "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"
+   },
+   "categories": [
+    "Business and economy"
+   ],
+   "group": "2026-11-25-0043cadd82e5",
+   "headlines": [
+    {
+     "category": "Business and economy",
+     "html": "At least 140 <a href=\"https://en.wikipedia.org/wiki/Textile_industry_in_Bangladesh\">garment factories</a> close across <a href=\"https://en.wikipedia.org/wiki/Gazipur_District\">Gazipur</a>, <a href=\"https://en.wikipedia.org/wiki/Savar_Upazila\">Savar</a>, and <a href=\"https://en.wikipedia.org/wiki/Ashulia\">Ashulia</a>, after workers reject the newly announced <a href=\"https://en.wikipedia.org/wiki/Minimum_wage\">minimum wage</a> as insufficient, blocking the <a href=\"https://en.wikipedia.org/wiki/N3_(Bangladesh)\">Dhaka–Mymensingh</a> and <a href=\"https://en.wikipedia.org/wiki/N4_(Bangladesh)\">Dhaka–Tangail</a> highways and clashing with <a href=\"https://en.wikipedia.org/wiki/Bangladesh_Police\">police</a> firing <a href=\"https://en.wikipedia.org/wiki/Tear_gas\">tear gas</a> and <a href=\"https://en.wikipedia.org/wiki/Stun_grenade\">stun grenades</a>.",
+     "id": "2026-11-25-f11728c995c9",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
+      "title": "Portal:Current events/2026 November 25",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"
+     },
+     "sources": [
+      {
+       "name": "The Business Standard",
+       "url": "https://www.tbsnews.net/economy/rmg/police-fire-tear-gas-sound-grenades-garment-workers-block-dhaka-tangail-highway-1613231"
+      },
+      {
+       "name": "The Daily Star",
+       "url": "https://www.thedailystar.net/news/news/87-garment-factories-shut-amid-protests-gazipur-savar-ashulia-4332861"
+      }
+     ],
+     "topics": [
+      {
+       "label": "2026 Bangladesh garment workers protests",
+       "links": [
+        {
+         "label": "2026 Bangladesh garment workers protests",
+         "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"
+      }
+     ]
+    },
+    {
+     "category": "Business and economy",
+     "html": "<a href=\"https://en.wikipedia.org/wiki/Bangladesh\">Bangladesh</a>'s <a href=\"https://en.wikipedia.org/wiki/Minimum_Wage_Board\">Minimum Wage Board</a> raises the monthly <a href=\"https://en.wikipedia.org/wiki/Minimum_wage\">minimum wage</a> for <a href=\"https://en.wikipedia.org/wiki/Textile_industry_in_Bangladesh\">garment workers</a> from <a href=\"https://en.wikipedia.org/wiki/Bangladeshi_taka\">৳</a>12,500 to ৳17,000 following a 4–2 vote, a decision rejected by <a href=\"https://en.wikipedia.org/wiki/Trade_union\">labour unions</a> demanding at least ৳18,000 amid nearly a month of <a href=\"https://en.wikipedia.org/wiki/Strike_action\">labour unrest</a> and hundreds of factory closures.",
+     "id": "2026-11-25-0043cadd82e5",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
+      "title": "Portal:Current events/2026 November 25",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"
+     },
+     "sources": [
+      {
+       "name": "The Daily Star",
+       "url": "https://www.thedailystar.net/news/bangladesh/news/new-rmg-pay-scale-minimum-wage-set-tk-17k-after-vote-4332751"
+      }
+     ],
+     "topics": [
+      {
+       "label": "2026 Bangladesh garment workers protests",
+       "links": [
+        {
+         "label": "2026 Bangladesh garment workers protests",
+         "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-25-0043cadd82e5",
+   "image": {
+    "link": "https://www.tbsnews.net/economy/rmg/police-fire-tear-gas-sound-grenades-garment-workers-block-dhaka-tangail-highway-1613231",
+    "source": "The Business Standard",
+    "url": "https://www.tbsnews.net/sites/default/files/styles/social_share/public/images/2026/11/25/gazipur_wednesday_highway.jpg"
+   },
+   "more_articles": [],
+   "pub_date": "2026-11-25T18:12:36Z",
+   "title": "2026 Bangladesh garment workers protests: At least 140 garment factories close across Gazipur, Savar, and Ashulia, after workers reject the newly announced minimum wage as insufficient, blocking the Dhaka–Mymensingh and Dhaka–Tangail… / Bangladesh's Minimum Wage Board raises the monthly minimum wage for garment workers from ৳12,500 to ৳17,000 following a 4–2 vote, a decision rejected by labour unions demanding at least ৳18,000 amid…"
+  },
+  {
+   "article": {
+    "extract": "At exactly 9:00 am CST (15:00 UTC) on November 25, 2026, the United States Army detonated approximately 9,500 pounds (4,300 kg) of lead azide stored at the Iowa Army Ammunition Plant near Middletown, Iowa. The material detonated consisted of 68 drums of lead azide, a primary explosive used to initiate munitions.",
+    "location": "Middletown, Iowa, United States",
+    "map": {
+     "height": 200,
+     "url": "https://maps.wikimedia.org/img/osm-intl,8,40.790556,-91.244722,270x200.png?lang=en&domain=en.wikipedia.org&title=Iowa_lead_azide_detonation&groups=_1d9f262a8501f4d17aa298a6a132d2496af3f54f&parser=legacy",
+     "url2x": "https://maps.wikimedia.org/img/osm-intl,8,40.790556,-91.244722,270x200@2x.png?lang=en&domain=en.wikipedia.org&title=Iowa_lead_azide_detonation&groups=_1d9f262a8501f4d17aa298a6a132d2496af3f54f&parser=legacy",
+     "width": 270
+    },
+    "title": "Iowa lead azide detonation",
+    "url": "https://en.wikipedia.org/wiki/Iowa_lead_azide_detonation"
+   },
+   "categories": [
+    "Health and environment"
+   ],
+   "group": "2026-11-25-2d65dd66a77b",
+   "headlines": [
+    {
+     "category": "Health and environment",
+     "html": "The <a href=\"https://en.wikipedia.org/wiki/United_States_Army\">United States Army</a> detonates nearly 5 tons of degrading <a href=\"https://en.wikipedia.org/wiki/Lead_azide\">lead azide</a> at the <a href=\"https://en.wikipedia.org/wiki/Iowa_Army_Ammunition_Plant\">Iowa Army Ammunition Plant</a> in <a href=\"https://en.wikipedia.org/wiki/Middletown,_Iowa\">Middletown</a>, <a href=\"https://en.wikipedia.org/wiki/Iowa\">Iowa</a>.",
+     "id": "2026-11-25-2d65dd66a77b",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
+      "title": "Portal:Current events/2026 November 25",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"
+     },
+     "sources": [
+      {
+       "name": "CNN",
+       "url": "https://edition.cnn.com/2026/11/25/us/live-news/iowa-lead-azide-detonation"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Iowa lead azide detonation",
+       "links": [
+        {
+         "label": "Iowa lead azide detonation",
+         "url": "https://en.wikipedia.org/wiki/Iowa_lead_azide_detonation"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Iowa_lead_azide_detonation"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-25-2d65dd66a77b",
+   "image": {
+    "link": "https://edition.cnn.com/2026/11/25/us/live-news/iowa-lead-azide-detonation",
+    "source": "CNN",
+    "url": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2306835116.jpg?c=16x9&q=w_800,c_fill"
+   },
+   "more_articles": [],
+   "pub_date": "2026-11-25T18:12:36Z",
+   "title": "Iowa lead azide detonation: The United States Army detonates nearly 5 tons of degrading lead azide at the Iowa Army Ammunition Plant in Middletown, Iowa."
+  },
+  {
+   "article": {
+    "extract": "Foreign relations exist between Australia and Solomon Islands. Australia has a High Commission in Honiara and Solomon Islands has a High Commission in Canberra.",
+    "title": "Australia–Solomon Islands relations",
+    "url": "https://en.wikipedia.org/wiki/Australia%E2%80%93Solomon_Islands_relations"
+   },
+   "categories": [
+    "International relations"
+   ],
+   "group": "2026-11-25-86bc6b906e4a",
+   "headlines": [
+    {
+     "category": "International relations",
+     "html": "<a href=\"https://en.wikipedia.org/wiki/Solomon_Islands\">Solomon Islands</a> <a href=\"https://en.wikipedia.org/wiki/Prime_Minister_of_Solomon_Islands\">prime minister</a> <a href=\"https://en.wikipedia.org/wiki/Matthew_Wale\">Matthew Wale</a> signs a treaty with <a href=\"https://en.wikipedia.org/wiki/Australia\">Australian</a> <a href=\"https://en.wikipedia.org/wiki/Prime_Minister_of_Australia\">prime minister</a> <a href=\"https://en.wikipedia.org/wiki/Anthony_Albanese\">Anthony Albanese</a>, to designate Australia as the \"primary <a href=\"https://en.wikipedia.org/wiki/Australian_Defence_Force\">security</a> partner\", after ending the 2022 security pact with <a href=\"https://en.wikipedia.org/wiki/China\">China</a>.",
+     "id": "2026-11-25-86bc6b906e4a",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
+      "title": "Portal:Current events/2026 November 25",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"
+     },
+     "sources": [
+      {
+       "name": "NBC News",
+       "url": "https://www.nbcnews.com/world/asia/solomon-islands-signs-treaty-australia-checks-chinas-influence-pacific-rcna611254"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Australia–Solomon Islands relations",
+       "links": [
+        {
+         "label": "Australia–Solomon Islands relations",
+         "url": "https://en.wikipedia.org/wiki/Australia%E2%80%93Solomon_Islands_relations"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Australia%E2%80%93Solomon_Islands_relations"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-25-86bc6b906e4a",
+   "image": {
+    "link": "https://www.nbcnews.com/world/asia/solomon-islands-signs-treaty-australia-checks-chinas-influence-pacific-rcna611254",
+    "source": "NBC News",
+    "url": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261125-aus-solo-rs-2c1049.jpg"
+   },
+   "more_articles": [],
+   "pub_date": "2026-11-25T18:12:36Z",
+   "title": "Australia–Solomon Islands relations: Solomon Islands prime minister Matthew Wale signs a treaty with Australian prime minister Anthony Albanese, to designate Australia as the \"primary security partner\", after ending the 2022 security…"
+  },
+  {
+   "article": {
+    "extract": "Significant political, constitutional, and social changes in Bangladesh followed the July Uprising of 2024 and the resignation of Prime Minister Sheikh Hasina. The uprising was initially sparked by widespread public protests and calls for reform, led to major changes in Bangladesh's political landscape.",
+    "location": "Bangladesh (with spillovers in India)",
+    "title": "Aftermath of the July Uprising",
+    "url": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"
+   },
+   "categories": [
+    "Law and crime"
+   ],
+   "group": "2026-11-25-c646c6118ab7",
+   "headlines": [
+    {
+     "category": "Law and crime",
+     "html": "<a href=\"https://en.wikipedia.org/wiki/Border_Guard_Bangladesh\">Border Guard Bangladesh</a> deploys 108 <a href=\"https://en.wikipedia.org/wiki/Platoon\">platoons</a> across <a href=\"https://en.wikipedia.org/wiki/Dhaka\">Dhaka</a> and seven other districts, including 56 in <a href=\"https://en.wikipedia.org/wiki/Gopalganj_District,_Bangladesh\">Gopalganj</a>, under instructions from the <a href=\"https://en.wikipedia.org/wiki/Ministry_of_Home_Affairs_(Bangladesh)\">Ministry of Home Affairs</a> to step up surveillance at key installations and industrial zones.",
+     "id": "2026-11-25-c646c6118ab7",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
+      "title": "Portal:Current events/2026 November 25",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"
+     },
+     "sources": [
+      {
+       "name": "The Daily Star",
+       "url": "https://www.thedailystar.net/news/news/bgb-deploys-108-platoons-eight-districts-4332856"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Aftermath of the July Uprising, 2026 Bangladesh garment workers protests",
+       "links": [
+        {
+         "label": "Aftermath of the July Uprising",
+         "url": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"
+        },
+        {
+         "label": "2026 Bangladesh garment workers protests",
+         "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-25-c646c6118ab7",
+   "image": {
+    "link": "https://www.thedailystar.net/news/news/bgb-deploys-108-platoons-eight-districts-4332856",
+    "source": "The Daily Star",
+    "url": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/bgb%20%281%29_0_0.jpg"
+   },
+   "more_articles": [
+    {
+     "extract": "A series of labour demonstrations organized by workers in the ready-made garment industry have taken place in Bangladesh, demanding an increase in the sector's minimum monthly wage from ৳12,500 (US$100) to ৳30,000 (US$240). Began in August 2026, the protests escalated in late-October and early-November 2026 in the industrial areas of Ashulia, Gazipur and Dhaka.",
+     "location": "Greater Dhaka, Bangladesh",
+     "title": "2026 Bangladesh garment workers protests",
+     "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"
+    }
+   ],
+   "pub_date": "2026-11-25T18:12:36Z",
+   "title": "Aftermath of the July Uprising, 2026 Bangladesh garment workers protests: Border Guard Bangladesh deploys 108 platoons across Dhaka and seven other districts, including 56 in Gopalganj, under instructions from the Ministry of Home Affairs to step up surveillance at key…"
+  },
+  {
+   "article": null,
+   "categories": [
+    "Law and crime"
+   ],
+   "group": "2026-11-25-0b968d4aaf1b",
+   "headlines": [
+    {
+     "category": "Law and crime",
+     "html": "A <a href=\"https://en.wikipedia.org/wiki/Federal_jury\">federal jury</a> in <a href=\"https://en.wikipedia.org/wiki/Brooklyn\">Brooklyn</a>, <a href=\"https://en.wikipedia.org/wiki/New_York_(state)\">New York</a>, <a href=\"https://en.wikipedia.org/wiki/United_States\">United States</a>, finds <a href=\"https://en.wikipedia.org/wiki/Huawei\">Huawei</a> and three of its subsidiaries guilty on 10 of 12 counts, including <a href=\"https://en.wikipedia.org/wiki/Bank_fraud\">bank fraud</a>, <a href=\"https://en.wikipedia.org/wiki/Wire_fraud\">wire fraud</a>, <a href=\"https://en.wikipedia.org/wiki/Money_laundering\">money laundering</a>, conspiracy to steal <a href=\"https://en.wikipedia.org/wiki/Trade_secret\">trade secrets</a>, and violating the <a href=\"https://en.wikipedia.org/wiki/International_Emergency_Economic_Powers_Act\">International Emergency Economic Powers Act</a> by misleading banks about its business in <a href=\"https://en.wikipedia.org/wiki/Iran\">Iran</a>.",
+     "id": "2026-11-25-0b968d4aaf1b",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
+      "title": "Portal:Current events/2026 November 25",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"
+     },
+     "sources": [
+      {
+       "name": "TIME",
+       "url": "https://time.com/article/2026/11/25/huawei-guilty-crimes-fraud-conspiracy-sanctions-us-china/"
       }
      ],
      "topics": [
@@ -309,10 +618,44 @@
      "topics": []
     }
    ],
+   "id": "2026-11-25-0b968d4aaf1b",
+   "image": {
+    "link": "https://time.com/article/2026/11/25/huawei-guilty-crimes-fraud-conspiracy-sanctions-us-china/",
+    "source": "TIME",
+    "url": "https://static.time.com/v3/assets/bltea6093859af6183b/bltc8dc9b9a58ce72ce/6b06a10264655985ef9946b5/Huawei_logo.jpg?branch=production&width=1024&quality=75&auto=webp&crop=16:9"
+   },
+   "more_articles": [],
+   "pub_date": "2026-11-25T18:12:36Z",
+   "title": "A federal jury in Brooklyn, New York, United States, finds Huawei and three of its subsidiaries guilty on 10 of 12 counts, including bank fraud, wire fraud, money laundering, conspiracy to steal…"
+  },
+  {
+   "article": {
+    "extract": "The 2025 Africa Cup of Nations final was a football match played on 18 January 2026 at the Prince Moulay Abdellah Stadium in Rabat, Morocco. It determined the winners of the 2025 Africa Cup of Nations (AFCON), the 35th edition of the biennial African tournament organised by the Confederation of African Football (CAF), and was contested between Senegal and hosts Morocco.",
+    "title": "2025 Africa Cup of Nations final",
+    "url": "https://en.wikipedia.org/wiki/2025_Africa_Cup_of_Nations_final"
+   },
+   "categories": [
+    "Topics in the news"
+   ],
+   "group": "topic-eca1d3a6d08a",
+   "headlines": [
+    {
+     "category": "Topics in the news",
+     "html": "In association football, the <a href=\"https://en.wikipedia.org/wiki/Court_of_Arbitration_for_Sport\">Court of Arbitration for Sport</a> restores <a href=\"https://en.wikipedia.org/wiki/Senegal_national_football_team\">Senegal</a> as the winner of the <b><a href=\"https://en.wikipedia.org/wiki/2025_Africa_Cup_of_Nations_final\">2025 Africa Cup of Nations final</a></b>, overturning the <a href=\"https://en.wikipedia.org/wiki/Confederation_of_African_Football\">Confederation of African Football</a>'s decision to declare <a href=\"https://en.wikipedia.org/wiki/Morocco_national_football_team\">Morocco</a> as the winner of the tournament.",
+     "id": "topic-eca1d3a6d08a",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events&action=history",
+      "title": "Portal:Current events",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events"
+     },
+     "sources": [],
+     "topics": []
+    }
+   ],
    "id": "topic-eca1d3a6d08a",
    "kind": "topic",
    "more_articles": [],
-   "pub_date": "2026-11-25T17:22:13Z",
+   "pub_date": "2026-11-25T18:12:36Z",
    "title": "In association football, the Court of Arbitration for Sport restores Senegal as the winner of the 2025 Africa Cup of Nations final, overturning the Confederation of African Football's decision to…"
   },
   {
@@ -619,6 +962,10 @@
      },
      "sources": [
       {
+       "name": "The Indian Express",
+       "url": "https://indianexpress.com/article/explained/explained-culture/miss-universe-2026-controversies-ownership-judging-five-problems-10977410/"
+      },
+      {
        "name": "People",
        "url": "https://people.com/miss-universe-2026-winner-jennifer-barreto-12267491"
       }
@@ -819,7 +1166,7 @@
    "headlines": [
     {
      "category": "Politics and elections",
-     "html": "Former <a href=\"https://en.wikipedia.org/wiki/Prime_Minister_of_Bangladesh\">Bangladesh Prime Minister</a> <a href=\"https://en.wikipedia.org/wiki/Sheikh_Hasina\">Sheikh Hasina</a> announces she plans to return to <a href=\"https://en.wikipedia.org/wiki/Bangladesh\">the country</a> on December 16, coinciding with <a href=\"https://en.wikipedia.org/wiki/Victory_Day_(Bangladesh)\">Victory Day</a>.",
+     "html": "Former <a href=\"https://en.wikipedia.org/wiki/Prime_Minister_of_Bangladesh\">Bangladesh prime minister</a> <a href=\"https://en.wikipedia.org/wiki/Sheikh_Hasina\">Sheikh Hasina</a> announces she plans to return to <a href=\"https://en.wikipedia.org/wiki/Bangladesh\">the country</a> from <a href=\"https://en.wikipedia.org/wiki/Resignation_of_Sheikh_Hasina\">exile</a> on December 16, coinciding with <a href=\"https://en.wikipedia.org/wiki/Victory_Day_(Bangladesh)\">Victory Day</a>.",
      "id": "2026-11-24-c0cd016b9f06",
      "page": {
       "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_24&action=history",
@@ -893,7 +1240,7 @@
     }
    ],
    "pub_date": "2026-11-24T00:00:00Z",
-   "title": "Aftermath of the July Uprising, 2026 Bangladesh garment workers protests: Former Bangladesh Prime Minister Sheikh Hasina announces she plans to return to the country on December 16, coinciding with Victory Day. / Border Guard Bangladesh deploys 101 platoons across Dhaka and seven other districts, including two battalions in Gopalganj, following instructions from the home ministry to increase surveillance at…"
+   "title": "Aftermath of the July Uprising, 2026 Bangladesh garment workers protests: Former Bangladesh prime minister Sheikh Hasina announces she plans to return to the country from exile on December 16, coinciding with Victory Day. / Border Guard Bangladesh deploys 101 platoons across Dhaka and seven other districts, including two battalions in Gopalganj, following instructions from the home ministry to increase surveillance at…"
   },
   {
    "article": null,
@@ -1675,7 +2022,7 @@
   },
   {
    "article": {
-    "extract": "Since July 2026, mass protest movements arose across Europe. Major demonstrations were held across Albania, Belgium, Czech Republic, France, Germany, Georgia, Greece, Ireland, Italy, Poland, Portugal, Serbia, Spain and Ukraine, with minor demonstrations and strikes occurring in other countries.",
+    "extract": "Since 2026, mass protest movements arose across Europe. Major demonstrations were held across Albania, Belgium, Czech Republic, France, Germany, Georgia, Greece, Ireland, Italy, Poland, Portugal, Serbia, Spain and Ukraine, with minor demonstrations and strikes occurring in other countries.",
     "location": "Europe",
     "title": "2026 European unrest",
     "url": "https://en.wikipedia.org/wiki/2026_European_unrest"
@@ -4096,7 +4443,7 @@
   },
   {
    "article": {
-    "extract": "Since July 2026, mass protest movements arose across Europe. Major demonstrations were held across Albania, Belgium, Czech Republic, France, Germany, Georgia, Greece, Ireland, Italy, Poland, Portugal, Serbia, Spain and Ukraine, with minor demonstrations and strikes occurring in other countries.",
+    "extract": "Since 2026, mass protest movements arose across Europe. Major demonstrations were held across Albania, Belgium, Czech Republic, France, Germany, Georgia, Greece, Ireland, Italy, Poland, Portugal, Serbia, Spain and Ukraine, with minor demonstrations and strikes occurring in other countries.",
     "location": "Europe",
     "title": "2026 European unrest",
     "url": "https://en.wikipedia.org/wiki/2026_European_unrest"
@@ -29893,5 +30240,5 @@
    "title": "2026 U.S. Open Cup final: In association football, St. Louis City SC defeats Columbus Crew in a penalty shoot-out to win the U.S. Open Cup, earning the club its first trophy since beginning play in 2023."
   }
  ],
- "updated": "2026-11-25T17:22:13Z"
+ "updated": "2026-11-25T18:12:36Z"
 }
