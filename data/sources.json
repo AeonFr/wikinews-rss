@@ -107,6 +107,12 @@
    "description": "Web Summit cancelled day two in Lisbon on government advice as Storm Charles brought severe weather. Organizers aim to resume Thursday.",
    "title": "Web Summit Cancels Day Two In Lisbon As Storm Charles Hits Portugal"
   },
+  "https://e.vnexpress.net/news/news/death-toll-from-hanoi-eatery-blast-rises-to-7-5148312.html": {
+   "description": "Seven people were killed and nine others injured when an explosion brought down a hotpot restaurant in Hanoi on Tuesday morning.",
+   "image": "https://vcdn1-english.vnecdn.net/2026/11/24/1-1795488791-8783-1795488796.jpg?w=680&h=0&q=100&dpr=1&fit=crop&s=O4PX5s82MkiLilhaoK7lbQ",
+   "site": "VnExpress International – Latest news, business, travel and analysis from Vietnam",
+   "title": "Death toll from Hanoi eatery blast rises to 7 - VnExpress International"
+  },
   "https://edition.cnn.com/2026/10/25/americas/machado-returns-venezuela-latam-intl": {
    "description": "After more than 10 months in exile, Venezuelan opposition leader and Nobel laureate María Corina Machado has returned home to a political landscape that has been reshaped by her ally the United States without her involvement.",
    "image": "https://media.cnn.com/api/v1/images/stellar/prod/mc-1-jpg.JPG?c=16x9&q=w_800,c_fill",
@@ -561,6 +567,12 @@
    "site": "Al Jazeera",
    "title": "Russian vessel hit by suspected Ukrainian drone at Libya’s Benghazi port"
   },
+  "https://www.aljazeera.com/amp/news/2026/11/24/hostage-situation-reported-in-colombia-as-armed-men-flee-into-supermarket": {
+   "description": "President Abelardo de la Espriella says police and military have been deployed as situation unfolds in Cartagena.",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6b05e778013d-1795549048.jpg?resize=1920%2C1440",
+   "site": "Al Jazeera",
+   "title": "Hostage situation reported in Colombia as armed men flee into supermarket"
+  },
   "https://www.aljazeera.com/amp/video/newsfeed/2026/11/1/bangladesh-workers-clash-with-police-in-protests-over-low-pay": {
    "description": "Dozens of garment workers in Bangladesh clashed with police in the capital Dhaka.",
    "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1793551937.jpg?resize=1429%2C1080&quality=80",
@@ -931,12 +943,6 @@
    "description": "Yemeni army reports 854 operations against Houthi forces, claims 193 killed or wounded",
    "image": "https://assets.maestronewsroom.com/media/30f6532d-717b-4366-9158-9c455299fcd9/1795192780357-7a5c26c6ad556b9d.png",
    "title": "Yemeni army reports 854 operations against Houthi forces, claims 193 killed or wounded"
-  },
-  "https://www.asiaone.com/asia/explosion-kills-6-injures-10-vietnam-capital-hanoi": {
-   "description": "HANOI — At least six people were killed and 10 others injured in an explosion on Tuesday (Nov 24) in a densely populated residential area of the Vietnamese capital Hanoi, police and state media said.The explosion happened at 8am (9am SGT) at a food shop in Dong Da Street, causing severe damage to the building and shattering the windows of...",
-   "image": "https://media.asiaone.com/sites/default/files/styles/article_top_image/public/original_images/Nov2026/vietnam%20flag.jpg?itok=CaNovi6N",
-   "site": "AsiaOne",
-   "title": "Explosion kills 6, injures 10 in Vietnam capital Hanoi"
   },
   "https://www.bbc.co.uk/news/articles/cmdxw051np9jo": {
    "description": "The number of deaths linked to cocaine use in England and Wales has nearly quadrupled in a decade.",
@@ -1807,6 +1813,12 @@
    "site": "France 24",
    "title": "Mecca pact nations hold talks with Iran to prevent renewed Middle East war"
   },
+  "https://www.genocidewatch.com/single-post/drone-attacks-kill-four-near-sudan-s-capital": {
+   "description": "By AI Jazeera Staff and AFPNovember 22, 2026The Rapid Support Forces are blamed as drones reportedly hit United Nations and government buildings, as well as Khartoum’s airport.Drone attacks blamed on Sudan’s paramilitary Rapid Support Forces (RSF) have killed four people in and around the capital, Khartoum, and damaged a United Nations building, according to local reports and UN officials.The…",
+   "image": "https://static.wixstatic.com/media/99d73a_896965c859fe48d6b4a516744de79f42~mv2.webp/v1/fill/w_770,h_513,al_c,q_85/99d73a_896965c859fe48d6b4a516744de79f42~mv2.webp",
+   "site": "genocidewatch",
+   "title": "Drone Attacks Kill Four Near Sudan’s Capital"
+  },
   "https://www.gmanetwork.com/news/topstories/metro/1009656/pnp-defends-response-to-asean-summit-protests/story/": {
    "description": "The Philippine National Police (PNP) on Monday defended its response to protest-related incidents during the 49th ASEAN Summit and Related Summits, even as it described the overall security situation as \"generally peaceful\" despite some disruptions.",
    "image": "https://images.gmanews.tv/webpics/2026/11/903953472_1690795466168273_2704272668629012318_n_2026_11_16_13_13_22.jpg",
@@ -1872,6 +1884,12 @@
    "image": "https://www.latercera.com/resizer/v2/5GA7CHOHLRAXZDS5F6YOTRVPJQ.jpg?auth=665e6d5e0fc92e3104a5f0321fe3c33c74791acf0e8d78e02a0b5d9598f7f94c&height=630&width=1200&smart=true",
    "site": "La Tercera",
    "title": "Bolivia: el presidente del Tribunal Supremo de Justicia huye tras orden de captura por narcotráfico - La Tercera"
+  },
+  "https://www.latimes.com/world-nation/story/2026-11-19/university-lecturer-from-serbias-student-led-movement-is-elected-parliament-speaker": {
+   "description": "A university lecturer from Serbia's student-led movement has become Parliament speaker.",
+   "image": "https://ca-times.brightspotcdn.com/dims4/default/d676c76/2147483647/strip/true/crop/4133x2170+0+293/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fb8%2F3c%2F1a31d8f9ad9c5ee771a75b802001%2Fc3c520abab0a41d1b126cb7db7542a3e",
+   "site": "Los Angeles Times",
+   "title": "University lecturer from Serbia's student-led movement is elected Parliament speaker"
   },
   "https://www.latintimes.com/hegseth-asfura-pactos-defensa-operaciones-contra-narcotrafico-honduras-601616": {
    "description": "Hegseth met Asfura at Palmerola, proposed joint military ops against cartels, and vowed Washington won't cede its Latin American backyard.",
@@ -2089,6 +2107,12 @@
    "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-08%2F27q29jj7%2Fnarayangonj.jpg?rect=0%2C182%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
    "site": "Prothomalo",
    "title": "আড়াইহাজারে বিএনপির দুই পক্ষের সংঘর্ষে আহত ১০"
+  },
+  "https://www.radiotamazuj.org/en/news/article/farmer-herder-clashes-leave-5-dead-6-injured-in-east-darfur": {
+   "description": "Five people were killed and six others injured on Monday during armed clashes between farmers",
+   "image": "https://www.radiotamazuj.org/wp-content/uploads/2026/11/Screenshot-2026-11-24-163750.png",
+   "site": "Radio Tamazuj",
+   "title": "Farmer-herder clashes leave 5 dead, 6 injured in East Darfur - Radio Tamazuj"
   },
   "https://www.radiotamazuj.org/en/news/article/landmine-kills-18-family-members-in-west-kordofan": {
    "description": "Eighteen members of a family perished on Thursday when their vehicle drove over and triggered",
@@ -2311,6 +2335,12 @@
    "site": "The Business Standard",
    "title": "12 injured as BNP factions clash over 7 November programmes in Sunamganj"
   },
+  "https://www.tbsnews.net/bangladesh/98-platoons-bgb-deployed-dhaka-7-other-districts-1611461": {
+   "description": "Following the directives of the Ministry of Home Affairs, BGB personnel are performing their duties in coordination with the respective district administrations and other law enforcement agencies, it said.",
+   "image": "https://www.tbsnews.net/sites/default/files/styles/social_share/public/images/2026/11/23/screenshot_2026-11-23_154553.png",
+   "site": "The Business Standard",
+   "title": "98 platoons of BGB deployed in Dhaka, 7 other districts"
+  },
   "https://www.tbsnews.net/bangladesh/awami-league-office-former-mp-bahars-house-set-fire-cumilla-1606191": {
    "description": "Kotwali Model Police Station OC Touhidul Anwar said a few young men briefly set fire to the buildings from outside using paper without entering the office.",
    "image": "https://www.tbsnews.net/sites/default/files/styles/social_share/public/images/2026/11/18/915326644_1508839427828048_2809501306865396470_n_0.jpg",
@@ -2370,6 +2400,12 @@
    "image": "https://www.tbsnews.net/sites/default/files/styles/social_gpi_bKash_cash_apr26/public/images/2026/11/16/uncdf_garment_workers_labourers.jpg",
    "site": "The Business Standard",
    "title": "Wage Board postpones today's meeting on garment workers' minimum wages"
+  },
+  "https://www.tbsnews.net/economy/rmg/production-halted-481-garment-factories-amid-minimum-wage-negotiations-1612891": {
+   "description": "Factory owners proposed a minimum monthly wage of Tk15,700, against workers' demand for Tk22,000.",
+   "image": "https://www.tbsnews.net/sites/default/files/styles/social_share/public/images/2026/11/04/factory-closure_0.jpg",
+   "site": "The Business Standard",
+   "title": "Production halted at 481 garment factories amid minimum wage negotiations"
   },
   "https://www.tbsnews.net/economy/rmg/rmg-factory-owners-threaten-closures-under-no-work-no-pay-provision-amid-labour-unrest": {
    "description": "BGMEA says 55 factories shut on Saturday under section 13(1) of labour act; 147 units halt production.",
@@ -2431,6 +2467,12 @@
    "site": "The Daily Star",
    "title": "50 factories in Savar, Ashulia declare holidays amid wage protests"
   },
+  "https://www.thedailystar.net/news/news/bgb-deploys-101-platoons-dhaka-7-districts-4331806": {
+   "description": "Surveillance beefed up at key installations and industrial areas",
+   "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/bgb-deployed.jpg",
+   "site": "The Daily Star",
+   "title": "BGB deploys 101 platoons in Dhaka, 7 districts"
+  },
   "https://www.thedailystar.net/news/news/bgb-deploys-96-platoons-seven-districts-4327946": {
    "description": "Five more kept on standby to deal with any untoward situation",
    "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/bgb%20%281%29_0.jpg",
@@ -2478,6 +2520,12 @@
    "image": "https://i.guim.co.uk/img/media/dd139e0696a494665b7aa4358ff2cd286e480999/407_0_4073_3258/master/4073.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=2718db805236c4dcb9fb7a9a2c029e9e",
    "site": "the Guardian",
    "title": "‘Disgusted by it’: body of Melbourne Cup race horse found dumped in Sydney skip bin"
+  },
+  "https://www.theguardian.com/australia-news/2026/nov/25/beau-lamarre-condon-trial-verdict-former-police-officer-jesse-baird-luke-davies-ntwnfb": {
+   "description": "Jury finds former police officer guilty of killing couple in Baird’s Sydney home in 2024",
+   "image": "https://i.guim.co.uk/img/media/ebfc885f7db8935002487a469a0f9baba836690e/262_168_2337_1870/master/2337.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e16d87a17e4dcb69a3b4e1cb03b120ce",
+   "site": "the Guardian",
+   "title": "Beau Lamarre-Condon found guilty of murdering Jesse Baird and Luke Davies"
   },
   "https://www.theguardian.com/australia-news/2026/oct/25/western-sydney-international-airport-wsi-open-airlines-flights-cost-transport-history": {
    "description": "Some 60km from the CBD and in operation for 24 hours a day, Sydney’s second airport, opening to passengers on Sunday, cost $5.3bn",

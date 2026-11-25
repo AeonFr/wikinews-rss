@@ -6,11 +6,23 @@
     <description>News items from Wikipedia's Portal:Current events, one item per entry of the daily pages. Text from Wikipedia contributors, licensed under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). (history: https://en.wikipedia.org/w/index.php?title=Portal:Current_events&amp;action=history)</description>
     <language>en</language>
     <copyright>Text from Wikipedia contributors, licensed under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).</copyright>
-    <lastBuildDate>Tue, 24 Nov 2026 17:54:20 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 02:34:34 GMT</lastBuildDate>
     <generator>wikipedia-noticias-rss</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
     <atom:link href="https://aeonfr.github.io/wikinews-rss/feeds/en.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beau Lamarre-Condon is found guilty of the 2024 murder of Australian television presenter Jesse Baird and his partner Luke Davies.</title>
+      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-25-90bcf2e6daac/</link>
+      <description>&lt;p&gt;&lt;a href="https://www.theguardian.com/australia-news/2026/nov/25/beau-lamarre-condon-trial-verdict-former-police-officer-jesse-baird-luke-davies-ntwnfb"&gt;&lt;img src="https://i.guim.co.uk/img/media/ebfc885f7db8935002487a469a0f9baba836690e/262_168_2337_1870/master/2337.jpg?width=1200&amp;amp;height=630&amp;amp;quality=85&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;precrop=40:21,offset-x50,offset-y0&amp;amp;overlay-align=bottom%2Cleft&amp;amp;overlay-width=100p&amp;amp;overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&amp;amp;enable=upscale&amp;amp;s=e16d87a17e4dcb69a3b4e1cb03b120ce" alt=""&gt;&lt;/a&gt;&lt;br&gt;&lt;small&gt;Image: The Guardian&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;Beau Lamarre-Condon is found guilty of the 2024 murder of Australian television presenter &lt;a href="https://en.wikipedia.org/wiki/Jesse_Baird"&gt;Jesse Baird&lt;/a&gt; and his partner Luke Davies.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.theguardian.com/australia-news/2026/nov/25/beau-lamarre-condon-trial-verdict-former-police-officer-jesse-baird-luke-davies-ntwnfb"&gt;The Guardian&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"&gt;Portal:Current events/2026 November 25&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-25:90bcf2e6daac</guid>
+      <pubDate>Wed, 25 Nov 2026 02:34:34 GMT</pubDate>
+      <category>Law and crime</category>
+      <media:content url="https://i.guim.co.uk/img/media/ebfc885f7db8935002487a469a0f9baba836690e/262_168_2337_1870/master/2337.jpg?width=1200&amp;height=630&amp;quality=85&amp;auto=format&amp;fit=crop&amp;precrop=40:21,offset-x50,offset-y0&amp;overlay-align=bottom%2Cleft&amp;overlay-width=100p&amp;overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&amp;enable=upscale&amp;s=e16d87a17e4dcb69a3b4e1cb03b120ce" medium="image" />
+    </item>
     <item>
       <title>Zaporizhzhia strikes, Russian attacks on civilians in the Russo-Ukrainian war: A Russian airstrike hits a five-story apartment building in Zaporizhzhia, Ukraine, killing two people and wounding 44 others.</title>
       <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-24-6b64076c17b9/</link>
@@ -34,18 +46,6 @@
       <pubDate>Tue, 24 Nov 2026 17:54:20 GMT</pubDate>
       <category>Disasters and accidents</category>
       <media:content url="https://media.assettype.com/gulfnews%2F2025-09-15%2F6ptdfn8u%2FSTOCK-AMBULANCE?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100" medium="image" />
-    </item>
-    <item>
-      <title>At least six people are killed and ten others are injured in a cooking gas explosion in a residential area of Hanoi, Vietnam.</title>
-      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-24-47ccb2208542/</link>
-      <description>&lt;p&gt;&lt;a href="https://www.asiaone.com/asia/explosion-kills-6-injures-10-vietnam-capital-hanoi"&gt;&lt;img src="https://media.asiaone.com/sites/default/files/styles/article_top_image/public/original_images/Nov2026/vietnam%20flag.jpg?itok=CaNovi6N" alt=""&gt;&lt;/a&gt;&lt;br&gt;&lt;small&gt;Image: AsiaOne&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;At least six people are killed and ten others are injured in a &lt;a href="https://en.wikipedia.org/wiki/Fuel_gas"&gt;cooking gas&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Gas_explosion"&gt;explosion&lt;/a&gt; in a residential area of &lt;a href="https://en.wikipedia.org/wiki/Hanoi"&gt;Hanoi&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Vietnam"&gt;Vietnam&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.asiaone.com/asia/explosion-kills-6-injures-10-vietnam-capital-hanoi"&gt;AsiaOne&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_24"&gt;Portal:Current events/2026 November 24&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_24&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-24:47ccb2208542</guid>
-      <pubDate>Tue, 24 Nov 2026 17:54:20 GMT</pubDate>
-      <category>Disasters and accidents</category>
-      <media:content url="https://media.asiaone.com/sites/default/files/styles/article_top_image/public/original_images/Nov2026/vietnam%20flag.jpg?itok=CaNovi6N" medium="image" />
     </item>
     <item>
       <title>2026 United Kingdom heatwaves: The UK Health Security Agency says it recorded the highest number of heat-related deaths in the United Kingdom on record in 2026 at 5,258, surpassing the previous record in 2022.</title>
@@ -88,6 +88,83 @@
       <guid isPermaLink="false">wikipedia:en:topic:37a6b65dbfaa</guid>
       <pubDate>Tue, 24 Nov 2026 17:54:20 GMT</pubDate>
       <category>Topics in the news</category>
+    </item>
+    <item>
+      <title>Gaza war: Israel kills Hamas security official Naeem Abu Nahel in an airstrike in the Gaza Strip.</title>
+      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-24-a6cef948b434/</link>
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Israel"&gt;Israel&lt;/a&gt; kills &lt;a href="https://en.wikipedia.org/wiki/Hamas"&gt;Hamas&lt;/a&gt; security official Naeem Abu Nahel in an &lt;a href="https://en.wikipedia.org/wiki/Airstrike"&gt;airstrike&lt;/a&gt; in the &lt;a href="https://en.wikipedia.org/wiki/Gaza_Strip"&gt;Gaza Strip&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.washingtonpost.com/world/2026/11/24/israel-kills-hamas-internal-security-chief-gaza/"&gt;The Washington Post&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Gaza_war"&gt;Gaza war&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_24"&gt;Portal:Current events/2026 November 24&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_24&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-24:a6cef948b434</guid>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Armed conflicts and attacks</category>
+      <category>Gaza war</category>
+    </item>
+    <item>
+      <title>2026 Bangladesh garment workers protests: Police fire tear gas and stun grenades to disperse protesting garment workers across Gazipur, Savar, and Ashulia, Bangladesh, as production halts at 481 factories amid minimum wage disputes.</title>
+      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-24-d19d3970a07b/</link>
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Bangladesh_Police"&gt;Police&lt;/a&gt; fire &lt;a href="https://en.wikipedia.org/wiki/Tear_gas"&gt;tear gas&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Stun_grenade"&gt;stun grenades&lt;/a&gt; to disperse protesting &lt;a href="https://en.wikipedia.org/wiki/Textile_industry_in_Bangladesh"&gt;garment workers&lt;/a&gt; across &lt;a href="https://en.wikipedia.org/wiki/Gazipur_District"&gt;Gazipur&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Savar_Upazila"&gt;Savar&lt;/a&gt;, and &lt;a href="https://en.wikipedia.org/wiki/Ashulia"&gt;Ashulia&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Bangladesh"&gt;Bangladesh&lt;/a&gt;, as production halts at 481 factories amid &lt;a href="https://en.wikipedia.org/wiki/Minimum_wage"&gt;minimum wage&lt;/a&gt; disputes.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.tbsnews.net/economy/rmg/production-halted-481-garment-factories-amid-minimum-wage-negotiations-1612891"&gt;The Business Standard&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"&gt;2026 Bangladesh garment workers protests&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_24"&gt;Portal:Current events/2026 November 24&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_24&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-24:d19d3970a07b</guid>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Business and economy</category>
+      <category>2026 Bangladesh garment workers protests</category>
+    </item>
+    <item>
+      <title>Seven people are killed and nine others are injured in a cooking gas explosion at a hot pot restaurant in Hanoi, Vietnam.</title>
+      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-24-ed109645f74b/</link>
+      <description>&lt;p&gt;&lt;a href="https://e.vnexpress.net/news/news/death-toll-from-hanoi-eatery-blast-rises-to-7-5148312.html"&gt;&lt;img src="https://vcdn1-english.vnecdn.net/2026/11/24/1-1795488791-8783-1795488796.jpg?w=680&amp;amp;h=0&amp;amp;q=100&amp;amp;dpr=1&amp;amp;fit=crop&amp;amp;s=O4PX5s82MkiLilhaoK7lbQ" alt=""&gt;&lt;/a&gt;&lt;br&gt;&lt;small&gt;Image: VnExpress&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;Seven people are killed and nine others are injured in a &lt;a href="https://en.wikipedia.org/wiki/Fuel_gas"&gt;cooking gas&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Gas_explosion"&gt;explosion&lt;/a&gt; at a &lt;a href="https://en.wikipedia.org/wiki/Hot_pot"&gt;hot pot&lt;/a&gt; restaurant in &lt;a href="https://en.wikipedia.org/wiki/Hanoi"&gt;Hanoi&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Vietnam"&gt;Vietnam&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://e.vnexpress.net/news/news/death-toll-from-hanoi-eatery-blast-rises-to-7-5148312.html"&gt;VnExpress&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_24"&gt;Portal:Current events/2026 November 24&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_24&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-24:ed109645f74b</guid>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Disasters and accidents</category>
+      <media:content url="https://vcdn1-english.vnecdn.net/2026/11/24/1-1795488791-8783-1795488796.jpg?w=680&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=O4PX5s82MkiLilhaoK7lbQ" medium="image" />
+    </item>
+    <item>
+      <title>A Turkish Air Force helicopter crashes during a training flight in Eskişehir, Turkey, killing five crew members.</title>
+      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-24-f34504c8e46f/</link>
+      <description>&lt;p&gt;A &lt;a href="https://en.wikipedia.org/wiki/Turkish_Air_Force"&gt;Turkish Air Force&lt;/a&gt; helicopter crashes during a training flight in &lt;a href="https://en.wikipedia.org/wiki/Eski%C5%9Fehir"&gt;Eskişehir&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Turkey"&gt;Turkey&lt;/a&gt;, killing five crew members.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://apnews.com/article/turkey-military-helicopter-crash-eskisehir-d807011ff565dcfbce78fcf44d338994"&gt;AP&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_24"&gt;Portal:Current events/2026 November 24&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_24&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-24:f34504c8e46f</guid>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Disasters and accidents</category>
+    </item>
+    <item>
+      <title>Aftermath of the July Uprising, 2026 Bangladesh garment workers protests: Former Bangladesh Prime Minister Sheikh Hasina announces she plans to return to the country on December 16, coinciding with Victory Day. / Border Guard Bangladesh deploys 101 platoons across Dhaka and seven other districts, including two battalions in Gopalganj, following instructions from the home ministry to increase surveillance at…</title>
+      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-24-6b14f62be101/</link>
+      <description>&lt;p&gt;&lt;a href="https://www.thedailystar.net/news/news/bgb-deploys-101-platoons-dhaka-7-districts-4331806"&gt;&lt;img src="https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/bgb-deployed.jpg" alt=""&gt;&lt;/a&gt;&lt;br&gt;&lt;small&gt;Image: The Daily Star&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;Former &lt;a href="https://en.wikipedia.org/wiki/Prime_Minister_of_Bangladesh"&gt;Bangladesh Prime Minister&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Sheikh_Hasina"&gt;Sheikh Hasina&lt;/a&gt; announces she plans to return to &lt;a href="https://en.wikipedia.org/wiki/Bangladesh"&gt;the country&lt;/a&gt; on December 16, coinciding with &lt;a href="https://en.wikipedia.org/wiki/Victory_Day_(Bangladesh)"&gt;Victory Day&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.reuters.com/world/asia-pacific/sheikh-hasina-seeks-return-bangladesh-december-16-state-carrier-2026-11-24/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Border_Guard_Bangladesh"&gt;Border Guard Bangladesh&lt;/a&gt; deploys 101 &lt;a href="https://en.wikipedia.org/wiki/Platoon"&gt;platoons&lt;/a&gt; across &lt;a href="https://en.wikipedia.org/wiki/Dhaka"&gt;Dhaka&lt;/a&gt; and seven other districts, including two &lt;a href="https://en.wikipedia.org/wiki/Battalion"&gt;battalions&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Gopalganj_District,_Bangladesh"&gt;Gopalganj&lt;/a&gt;, following instructions from the &lt;a href="https://en.wikipedia.org/wiki/Ministry_of_Home_Affairs_(Bangladesh)"&gt;home ministry&lt;/a&gt; to increase surveillance at key installations and industrial areas.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.thedailystar.net/news/news/bgb-deploys-101-platoons-dhaka-7-districts-4331806"&gt;The Daily Star&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"&gt;Aftermath of the July Uprising&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"&gt;Aftermath of the July Uprising&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"&gt;2026 Bangladesh garment workers protests&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_24"&gt;Portal:Current events/2026 November 24&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_24&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-24:6b14f62be101</guid>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Politics and elections</category>
+      <category>Aftermath of the July Uprising</category>
+      <category>Law and crime</category>
+      <category>Aftermath of the July Uprising, 2026 Bangladesh garment workers protests</category>
+      <media:content url="https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/bgb-deployed.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Armed men in Cartagena, Colombia took 25 people hostage in a supermarket after a failed armored-car robbery.</title>
+      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-24-a5b813d0c298/</link>
+      <description>&lt;p&gt;&lt;a href="https://www.aljazeera.com/amp/news/2026/11/24/hostage-situation-reported-in-colombia-as-armed-men-flee-into-supermarket"&gt;&lt;img src="https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6b05e778013d-1795549048.jpg?resize=1920%2C1440" alt=""&gt;&lt;/a&gt;&lt;br&gt;&lt;small&gt;Image: Aliazeera&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;Armed men in &lt;a href="https://en.wikipedia.org/wiki/Cartagena,_Colombia"&gt;Cartagena, Colombia&lt;/a&gt; took 25 people hostage in a &lt;a href="https://en.wikipedia.org/wiki/Supermarket"&gt;supermarket&lt;/a&gt; after a failed armored-car robbery.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/amp/news/2026/11/24/hostage-situation-reported-in-colombia-as-armed-men-flee-into-supermarket"&gt;Aliazeera&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_24"&gt;Portal:Current events/2026 November 24&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_24&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-24:a5b813d0c298</guid>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Law and crime</category>
+      <media:content url="https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6b05e778013d-1795549048.jpg?resize=1920%2C1440" medium="image" />
     </item>
     <item>
       <title>Attacks in Russia during the Russo-Ukrainian war: Ukraine launches a large-scale drone attack across western Russia, striking the Perm refinery in Perm Krai and Novoshakhtinsk refinery in Rostov Oblast.</title>
@@ -145,13 +222,47 @@
       <category>Topics in the news</category>
     </item>
     <item>
-      <title>Colombian conflict: Three civilians are injured and 60 homes are damaged following a drone attack against a police station in Cúcuta. / At least 21 people are injured after a car bomb explodes next to the Meta Department Government building in downtown Villavicencio.</title>
+      <title>Mexican drug war: Mexican authorities announce that they have killed 16 suspected members of the Beltrán-Leyva cartel during an operation yesterday to capture former high-ranking leader Fausto Isidro Meza Flores, who…</title>
+      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-23-5a09332495b6/</link>
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Federal_Police_(Mexico)"&gt;Mexican authorities&lt;/a&gt; announce that they have killed 16 suspected members of the &lt;a href="https://en.wikipedia.org/wiki/Beltr%C3%A1n-Leyva_Organization"&gt;Beltrán-Leyva cartel&lt;/a&gt; during an operation yesterday to capture former high-ranking leader &lt;a href="https://en.wikipedia.org/wiki/Fausto_Isidro_Meza_Flores"&gt;Fausto Isidro Meza Flores&lt;/a&gt;, who was on the &lt;a href="https://en.wikipedia.org/wiki/Federal_Bureau_of_Investigation"&gt;FBI&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/FBI_Ten_Most_Wanted_Fugitives"&gt;Ten Most Wanted Fugitives&lt;/a&gt; list, in &lt;a href="https://en.wikipedia.org/wiki/Guasave"&gt;Guasave&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Sinaloa"&gt;Sinaloa&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Mexico"&gt;Mexico&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.voiceofemirates.com/en/news/2026/11/23/mexico-announces-the-killing-of-16-suspected-drug-cartel-members-during-the-arrest-of-el-chapo-isidro/"&gt;Voice of Emirates&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Mexican_drug_war"&gt;Mexican drug war&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_23"&gt;Portal:Current events/2026 November 23&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_23&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-23:5a09332495b6</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Armed conflicts and attacks</category>
+      <category>Mexican drug war</category>
+    </item>
+    <item>
+      <title>Sudanese nomadic conflicts: Five people are killed and six others are injured during classe between farmers and herders in East Darfur, Sudan.</title>
+      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-23-8a2a72f20189/</link>
+      <description>&lt;p&gt;Five people are killed and six others are injured during classe between &lt;a href="https://en.wikipedia.org/wiki/Farmer%E2%80%93herder_conflict"&gt;farmers and herders&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/East_Darfur"&gt;East Darfur&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Sudan"&gt;Sudan&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.radiotamazuj.org/en/news/article/farmer-herder-clashes-leave-5-dead-6-injured-in-east-darfur"&gt;Radio Tamazuj&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Sudanese_nomadic_conflicts"&gt;Sudanese nomadic conflicts&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_23"&gt;Portal:Current events/2026 November 23&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_23&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-23:8a2a72f20189</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Armed conflicts and attacks</category>
+      <category>Sudanese nomadic conflicts</category>
+    </item>
+    <item>
+      <title>Five people are killed and 25 others are injured when a bus crashes on the Pan-American Highway outside of Ciudad Juárez, Mexico.</title>
+      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-23-13ea1090b48f/</link>
+      <description>&lt;p&gt;Five people are killed and 25 others are injured when a bus crashes on the &lt;a href="https://en.wikipedia.org/wiki/Pan-American_Highway"&gt;Pan-American Highway&lt;/a&gt; outside of &lt;a href="https://en.wikipedia.org/wiki/Ciudad_Ju%C3%A1rez"&gt;Ciudad Juárez&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Mexico"&gt;Mexico&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.ktsm.com/news/juarez/5-people-dead-after-bus-crash-outside-of-juarez-driver-arrested/"&gt;KTSM&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_23"&gt;Portal:Current events/2026 November 23&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_23&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-23:13ea1090b48f</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Disasters and accidents</category>
+    </item>
+    <item>
+      <title>Colombian conflict: Three civilians are injured and 60 homes are damaged following a drone attack against a police station in Cúcuta. / At least 21 people are injured after a car bomb explodes next to the Meta Department Government building in downtown Villavicencio, Colombia.</title>
       <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-23-1206050935eb/</link>
       <description>&lt;p&gt;&lt;a href="https://colombiareports.com/illegal-armed-group-carries-out-first-urban-drone-attack-three-injured-in-northeast-colombia/"&gt;&lt;img src="https://colombiareports.com/wp-content/uploads/2026/11/cucuta2.jpg" alt=""&gt;&lt;/a&gt;&lt;br&gt;&lt;small&gt;Image: Colombia Reports&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;Three civilians are injured and 60 homes are damaged following a drone attack against a police station in &lt;a href="https://en.wikipedia.org/wiki/C%C3%BAcuta"&gt;Cúcuta&lt;/a&gt;. This is the first registered drone attack in an urban area in Colombia.&lt;/p&gt;
+&lt;p&gt;Three civilians are injured and 60 homes are damaged following a drone attack against a &lt;a href="https://en.wikipedia.org/wiki/National_Police_of_Colombia"&gt;police station&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/C%C3%BAcuta"&gt;Cúcuta&lt;/a&gt;. This is the first registered drone attack in an urban area in Colombia.&lt;/p&gt;
 &lt;p&gt;Sources: &lt;a href="https://colombiareports.com/illegal-armed-group-carries-out-first-urban-drone-attack-three-injured-in-northeast-colombia/"&gt;Colombia Reports&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;At least 21 people are injured after a &lt;a href="https://en.wikipedia.org/wiki/Car_bomb"&gt;car bomb&lt;/a&gt; explodes next to the &lt;a href="https://en.wikipedia.org/wiki/Meta_Department"&gt;Meta Department&lt;/a&gt; Government building in downtown &lt;a href="https://en.wikipedia.org/wiki/Villavicencio"&gt;Villavicencio&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.aa.com.tr/en/americas/car-bomb-explodes-near-colombia-s-meta-government-headquarters/4135229"&gt;Anadolu Ajansı&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;At least 21 people are injured after a &lt;a href="https://en.wikipedia.org/wiki/Car_bomb"&gt;car bomb&lt;/a&gt; explodes next to the &lt;a href="https://en.wikipedia.org/wiki/Meta_Department"&gt;Meta Department&lt;/a&gt; Government building in downtown &lt;a href="https://en.wikipedia.org/wiki/Villavicencio"&gt;Villavicencio&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Colombia"&gt;Colombia&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.aa.com.tr/en/americas/car-bomb-explodes-near-colombia-s-meta-government-headquarters/4135229"&gt;Anadolu Ajansi&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Colombian_conflict"&gt;Colombian conflict&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_23"&gt;Portal:Current events/2026 November 23&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_23&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:en:2026-11-23:1206050935eb</guid>
@@ -159,6 +270,24 @@
       <category>Armed conflicts and attacks</category>
       <category>Colombian conflict</category>
       <media:content url="https://colombiareports.com/wp-content/uploads/2026/11/cucuta2.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Aftermath of the Bangladesh July Uprising: Border Guard Bangladesh deploys 98 platoons across Dhaka and seven other districts, following instructions from the home ministry to increase surveillance at key installations and industrial areas. / At least 15 people are injured and 28 houses and shops are vandalised during clashes between rival Bangladesh Nationalist Party factions in Shailkupa Upazila, Jhenaidah District, Bangladesh. / At least 30 people are injured, eight seriously, and 12 shops are vandalised as rival factions of the banned Awami League clash in two separate incidents and detonate four crude bombs in Gopalganj…</title>
+      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-23-be2e7abdf304/</link>
+      <description>&lt;p&gt;&lt;a href="https://www.tbsnews.net/bangladesh/98-platoons-bgb-deployed-dhaka-7-other-districts-1611461"&gt;&lt;img src="https://www.tbsnews.net/sites/default/files/styles/social_share/public/images/2026/11/23/screenshot_2026-11-23_154553.png" alt=""&gt;&lt;/a&gt;&lt;br&gt;&lt;small&gt;Image: UNB via The Business Standard&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Border_Guard_Bangladesh"&gt;Border Guard Bangladesh&lt;/a&gt; deploys 98 &lt;a href="https://en.wikipedia.org/wiki/Platoon"&gt;platoons&lt;/a&gt; across &lt;a href="https://en.wikipedia.org/wiki/Dhaka"&gt;Dhaka&lt;/a&gt; and seven other districts, following instructions from the &lt;a href="https://en.wikipedia.org/wiki/Ministry_of_Home_Affairs_(Bangladesh)"&gt;home ministry&lt;/a&gt; to increase surveillance at key installations and industrial areas.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.tbsnews.net/bangladesh/98-platoons-bgb-deployed-dhaka-7-other-districts-1611461"&gt;UNB via The Business Standard&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;At least 15 people are injured and 28 houses and shops are &lt;a href="https://en.wikipedia.org/wiki/Vandalism"&gt;vandalised&lt;/a&gt; during clashes between rival &lt;a href="https://en.wikipedia.org/wiki/Bangladesh_Nationalist_Party"&gt;Bangladesh Nationalist Party&lt;/a&gt; factions in &lt;a href="https://en.wikipedia.org/wiki/Shailkupa_Upazila"&gt;Shailkupa Upazila&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Jhenaidah_District"&gt;Jhenaidah District&lt;/a&gt;, Bangladesh.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.thedailystar.net/news/crime-justice/news/15-injured-bnp-factions-clash-jhenaidah-4331446"&gt;The Daily Star&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;At least 30 people are injured, eight seriously, and 12 shops are &lt;a href="https://en.wikipedia.org/wiki/Vandalism"&gt;vandalised&lt;/a&gt; as rival factions of the banned &lt;a href="https://en.wikipedia.org/wiki/Awami_League"&gt;Awami League&lt;/a&gt; clash in two separate incidents and detonate four &lt;a href="https://en.wikipedia.org/wiki/Improvised_explosive_device"&gt;crude bombs&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Gopalganj_District,_Bangladesh"&gt;Gopalganj District&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Bangladesh"&gt;Bangladesh&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.thedailystar.net/news/politics/news/clashes-over-awami-league-processions-gopalganj-leave-least-30-injured-4331701"&gt;The Daily Star&lt;/a&gt;, &lt;a href="https://www.tbsnews.net/bangladesh/least-20-injured-clash-between-two-al-factions-gopalganj-1612076"&gt;The Business Standard&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"&gt;Aftermath of the Bangladesh July Uprising&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_23"&gt;Portal:Current events/2026 November 23&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_23&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-23:be2e7abdf304</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Armed conflicts and attacks</category>
+      <category>Aftermath of the Bangladesh July Uprising</category>
+      <media:content url="https://www.tbsnews.net/sites/default/files/styles/social_share/public/images/2026/11/23/screenshot_2026-11-23_154553.png" medium="image" />
     </item>
     <item>
       <title>Kurdish–Turkish conflict: Turkish intelligence reports that the Kurdistan Workers' Party withdraws from 14 additional bases in northern Iraq as part of an ongoing disarmament process aimed at ending its conflict with Turkey.</title>
@@ -173,25 +302,9 @@
       <category>Kurdish–Turkish conflict</category>
     </item>
     <item>
-      <title>Aftermath of the July Uprising: At least 15 people are injured and 28 houses and shops are vandalised during clashes between rival Bangladesh Nationalist Party factions in Shailkupa Upazila, Jhenaidah District, Bangladesh. / At least 30 people are injured, eight seriously, and 12 shops are vandalised as rival factions of the banned Awami League clash in two separate incidents and detonate four crude bombs in Gopalganj…</title>
-      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-23-be2e7abdf304/</link>
-      <description>&lt;p&gt;&lt;a href="https://www.thedailystar.net/news/crime-justice/news/15-injured-bnp-factions-clash-jhenaidah-4331446"&gt;&lt;img src="https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/Jhenaidah%20BNP%20factional%20clash%201.jpeg" alt=""&gt;&lt;/a&gt;&lt;br&gt;&lt;small&gt;Image: The Daily Star&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;At least 15 people are injured and 28 houses and shops are &lt;a href="https://en.wikipedia.org/wiki/Vandalism"&gt;vandalised&lt;/a&gt; during clashes between rival &lt;a href="https://en.wikipedia.org/wiki/Bangladesh_Nationalist_Party"&gt;Bangladesh Nationalist Party&lt;/a&gt; factions in &lt;a href="https://en.wikipedia.org/wiki/Shailkupa_Upazila"&gt;Shailkupa Upazila&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Jhenaidah_District"&gt;Jhenaidah District&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Bangladesh"&gt;Bangladesh&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.thedailystar.net/news/crime-justice/news/15-injured-bnp-factions-clash-jhenaidah-4331446"&gt;The Daily Star&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;At least 30 people are injured, eight seriously, and 12 shops are &lt;a href="https://en.wikipedia.org/wiki/Vandalism"&gt;vandalised&lt;/a&gt; as rival factions of the banned &lt;a href="https://en.wikipedia.org/wiki/Awami_League"&gt;Awami League&lt;/a&gt; clash in two separate incidents and detonate four &lt;a href="https://en.wikipedia.org/wiki/Improvised_explosive_device"&gt;crude bombs&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Gopalganj_District,_Bangladesh"&gt;Gopalganj District&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Bangladesh"&gt;Bangladesh&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.thedailystar.net/news/politics/news/clashes-over-awami-league-processions-gopalganj-leave-least-30-injured-4331701"&gt;The Daily Star&lt;/a&gt;, &lt;a href="https://www.tbsnews.net/bangladesh/least-20-injured-clash-between-two-al-factions-gopalganj-1612076"&gt;The Business Standard&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"&gt;Aftermath of the July Uprising&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_23"&gt;Portal:Current events/2026 November 23&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_23&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-23:be2e7abdf304</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Armed conflicts and attacks</category>
-      <category>Aftermath of the July Uprising</category>
-      <media:content url="https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/Jhenaidah%20BNP%20factional%20clash%201.jpeg" medium="image" />
-    </item>
-    <item>
-      <title>Seven people are killed and two others are injured after a truck loaded with stones overturns onto a minitruck in Punjab, Pakistan.</title>
+      <title>Seven people are killed and two others are injured after a truck loaded with stones overturns onto a minitruck in Bahawalpur District, Punjab, Pakistan.</title>
       <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-23-4ee569dc11e7/</link>
-      <description>&lt;p&gt;Seven people are killed and two others are injured after a truck loaded with stones overturns onto a minitruck in &lt;a href="https://en.wikipedia.org/wiki/Punjab,_Pakistan"&gt;Punjab, Pakistan&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;Seven people are killed and two others are injured after a truck loaded with stones overturns onto a minitruck in &lt;a href="https://en.wikipedia.org/wiki/Bahawalpur_District"&gt;Bahawalpur District&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Punjab,_Pakistan"&gt;Punjab, Pakistan&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Sources: &lt;a href="https://english.news.cn/20261123/00ed81bb7e0043e5a18f3db0c2170696/c.html"&gt;Xinhua&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_23"&gt;Portal:Current events/2026 November 23&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_23&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:en:2026-11-23:4ee569dc11e7</guid>
@@ -295,9 +408,9 @@
       <category>63rd Golden Horse Awards</category>
     </item>
     <item>
-      <title>At least twelve people are killed and 23 others are injured in two separate road accidents in Rajasthan, India.</title>
+      <title>At least twelve people are killed and 23 others are injured in two separate road accidents in Kota district, Rajasthan, India.</title>
       <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-22-58fc39a5b835/</link>
-      <description>&lt;p&gt;At least twelve people are killed and 23 others are injured in two separate road accidents in &lt;a href="https://en.wikipedia.org/wiki/Rajasthan"&gt;Rajasthan&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/India"&gt;India&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;At least twelve people are killed and 23 others are injured in two separate road accidents in &lt;a href="https://en.wikipedia.org/wiki/Kota_district"&gt;Kota district&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Rajasthan"&gt;Rajasthan&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/India"&gt;India&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Sources: &lt;a href="https://english.news.cn/20261122/a785c3b7251f4a10b97fb302966d242e/c.html"&gt;Xinhua&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22"&gt;Portal:Current events/2026 November 22&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_22&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:en:2026-11-22:58fc39a5b835</guid>
@@ -382,6 +495,18 @@
       <guid isPermaLink="false">wikipedia:en:topic:da4d7f84f614</guid>
       <pubDate>Sun, 22 Nov 2026 10:14:34 GMT</pubDate>
       <category>Topics in the news</category>
+    </item>
+    <item>
+      <title>Sudanese civil war: Four people are killed, nine others are wounded, and a United Nations building is damaged in drone attacks in Omdurman, Sudan.</title>
+      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-22-52d81d752b6a/</link>
+      <description>&lt;p&gt;Four people are killed, nine others are wounded, and a &lt;a href="https://en.wikipedia.org/wiki/United_Nations"&gt;United Nations&lt;/a&gt; building is damaged in &lt;a href="https://en.wikipedia.org/wiki/Drone_attacks"&gt;drone attacks&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Omdurman"&gt;Omdurman&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Sudan"&gt;Sudan&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.genocidewatch.com/single-post/drone-attacks-kill-four-near-sudan-s-capital"&gt;AFP via Genocide Watch&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Sudanese_civil_war_(2023%E2%80%93present)"&gt;Sudanese civil war&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22"&gt;Portal:Current events/2026 November 22&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_22&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-22:52d81d752b6a</guid>
+      <pubDate>Sun, 22 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Armed conflicts and attacks</category>
+      <category>Sudanese civil war</category>
     </item>
     <item>
       <title>Allied Democratic Forces insurgency: The Catholic World Report notes that at least 140 people were killed by Allied Democratic Forces and Islamic State Central Africa Province attacks targeting Christians in the Democratic Republic of…</title>
@@ -482,132 +607,6 @@
       <pubDate>Sun, 22 Nov 2026 00:00:00 GMT</pubDate>
       <category>International relations</category>
       <category>Democratic Republic of the Congo–Kenya relations</category>
-    </item>
-    <item>
-      <title>2026 Co-op Live incident: Around 12,000 concertgoers are evacuated from the Co-op Live arena in Manchester, England, after an unknown substance, initially believed to be tear gas, is dispersed during a Don Toliver concert…</title>
-      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-22-fd7df887ae13/</link>
-      <description>&lt;p&gt;Around 12,000 concertgoers are evacuated from the &lt;a href="https://en.wikipedia.org/wiki/Co-op_Live"&gt;Co-op Live&lt;/a&gt; arena in &lt;a href="https://en.wikipedia.org/wiki/Manchester"&gt;Manchester&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/England"&gt;England&lt;/a&gt;, after an unknown substance, initially believed to be &lt;a href="https://en.wikipedia.org/wiki/Tear_gas"&gt;tear gas&lt;/a&gt;, is dispersed during a &lt;a href="https://en.wikipedia.org/wiki/Don_Toliver"&gt;Don Toliver&lt;/a&gt; concert, causing respiratory distress to multiple attendees.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.bbc.com/news/articles/c9e851dn8516o"&gt;BBC News&lt;/a&gt;, &lt;a href="https://edition.cnn.com/2026/11/23/europe/manchester-coop-live-tear-gas-don-toliver-hnk-intl"&gt;CNN&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Co-op_Live_incident"&gt;2026 Co-op Live incident&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22"&gt;Portal:Current events/2026 November 22&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_22&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-22:fd7df887ae13</guid>
-      <pubDate>Sun, 22 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Law and crime</category>
-      <category>2026 Co-op Live incident</category>
-    </item>
-    <item>
-      <title>Gaza genocide, Gaza humanitarian crisis: Three Palestinians are killed by an Israeli drone strike on a food-carrying vehicle in Gaza City, while another is killed by gunfire in Jabalia.</title>
-      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-21-b7abe738ea85/</link>
-      <description>&lt;p&gt;Three &lt;a href="https://en.wikipedia.org/wiki/Palestinians"&gt;Palestinians&lt;/a&gt; are killed by an &lt;a href="https://en.wikipedia.org/wiki/Israel"&gt;Israeli&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Drone_warfare"&gt;drone strike&lt;/a&gt; on a &lt;a href="https://en.wikipedia.org/wiki/Humanitarian_aid_during_the_Gaza_war"&gt;food-carrying&lt;/a&gt; vehicle in &lt;a href="https://en.wikipedia.org/wiki/Gaza_City"&gt;Gaza City&lt;/a&gt;, while another is killed by gunfire in &lt;a href="https://en.wikipedia.org/wiki/Jabalia"&gt;Jabalia&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.france24.com/en/live-news/20261121-gaza-civil-defence-says-israeli-fire-kills-four"&gt;AFP via France 24&lt;/a&gt;, &lt;a href="https://www.reuters.com/world/middle-east/israeli-strike-kills-three-vehicle-distributing-aid-gaza-witnesses-say-2026-11-21/"&gt;Reuters&lt;/a&gt;, &lt;a href="https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-sv-israel-targets-gaza-food-truck"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"&gt;Middle Eastern crisis&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Gaza_war"&gt;Gaza war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Gaza_genocide"&gt;Gaza genocide&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Gaza_humanitarian_crisis"&gt;Gaza humanitarian crisis&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_21"&gt;Portal:Current events/2026 November 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-21:b7abe738ea85</guid>
-      <pubDate>Sat, 21 Nov 2026 23:26:18 GMT</pubDate>
-      <category>Armed conflicts and attacks</category>
-      <category>Gaza genocide, Gaza humanitarian crisis</category>
-    </item>
-    <item>
-      <title>Four people are killed and 35 others are injured in a fire at a power station in Basra, Iraq.</title>
-      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-21-22964977c33f/</link>
-      <description>&lt;p&gt;Four people are killed and 35 others are injured in a fire at a power station in &lt;a href="https://en.wikipedia.org/wiki/Basra"&gt;Basra&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Iraq"&gt;Iraq&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.reuters.com/business/energy/iraq-fire-basra-power-station-kills-least-four-injures-30-2026-11-21/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_21"&gt;Portal:Current events/2026 November 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-21:22964977c33f</guid>
-      <pubDate>Sat, 21 Nov 2026 23:26:18 GMT</pubDate>
-      <category>Disasters and accidents</category>
-    </item>
-    <item>
-      <title>Indonesia–European Union trade relations: Indonesia and the European Union sign trade and investment agreements that will lift 98.5% of tariffs on EU goods.</title>
-      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-21-a51f2a9b8ece/</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Indonesia"&gt;Indonesia&lt;/a&gt; and the &lt;a href="https://en.wikipedia.org/wiki/European_Union"&gt;European Union&lt;/a&gt; sign trade and investment agreements that will lift 98.5% of &lt;a href="https://en.wikipedia.org/wiki/Tariff"&gt;tariffs&lt;/a&gt; on &lt;a href="https://en.wikipedia.org/wiki/Economy_of_the_European_Union"&gt;EU goods&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.euronews.com/2026/11/21/european-union-and-indonesia-sign-free-trade-deal-after-decade-of-talks"&gt;Euronews&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Indonesia%E2%80%93European_Union_trade_relations"&gt;Indonesia–European Union trade relations&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_21"&gt;Portal:Current events/2026 November 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-21:a51f2a9b8ece</guid>
-      <pubDate>Sat, 21 Nov 2026 23:26:18 GMT</pubDate>
-      <category>International relations</category>
-      <category>Indonesia–European Union trade relations</category>
-    </item>
-    <item>
-      <title>2026 drone incursions into the Baltic states and Finland: The Finnish defence ministry imposes temporary airspace and maritime restrictions after a drone struck a Russian cargo vessel in international waters of the Gulf of Finland, causing a fire.</title>
-      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-21-614b5e1049c9/</link>
-      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Finland"&gt;Finnish&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Ministry_of_Defence_(Finland)"&gt;defence ministry&lt;/a&gt; imposes temporary &lt;a href="https://en.wikipedia.org/wiki/Airspace"&gt;airspace&lt;/a&gt; and maritime restrictions after a &lt;a href="https://en.wikipedia.org/wiki/Unmanned_aerial_vehicle"&gt;drone&lt;/a&gt; struck a &lt;a href="https://en.wikipedia.org/wiki/Russia"&gt;Russian&lt;/a&gt; cargo vessel in &lt;a href="https://en.wikipedia.org/wiki/International_waters"&gt;international waters&lt;/a&gt; of the &lt;a href="https://en.wikipedia.org/wiki/Gulf_of_Finland"&gt;Gulf of Finland&lt;/a&gt;, causing a fire.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.afp.com/en/russian-cargo-ship-hit-drone-baltic-finland-says"&gt;AFP&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Russo-Ukrainian_war_(2022%E2%80%93present)"&gt;Russo-Ukrainian war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/2026_drone_incursions_into_the_Baltic_states_and_Finland"&gt;2026 drone incursions into the Baltic states and Finland&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_21"&gt;Portal:Current events/2026 November 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-21:614b5e1049c9</guid>
-      <pubDate>Sat, 21 Nov 2026 18:49:53 GMT</pubDate>
-      <category>Armed conflicts and attacks</category>
-      <category>2026 drone incursions into the Baltic states and Finland</category>
-    </item>
-    <item>
-      <title>Houthi–Saudi conflict: Saudi forces intercept three ballistic missiles fired at Riyadh, Saudi Arabia, by the Houthis.</title>
-      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-21-334dbb8db8f2/</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Saudi_Arabian_Armed_Forces"&gt;Saudi forces&lt;/a&gt; intercept three &lt;a href="https://en.wikipedia.org/wiki/Ballistic_missile"&gt;ballistic missiles&lt;/a&gt; fired at &lt;a href="https://en.wikipedia.org/wiki/Riyadh"&gt;Riyadh&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Saudi_Arabia"&gt;Saudi Arabia&lt;/a&gt;, by the &lt;a href="https://en.wikipedia.org/wiki/Houthis"&gt;Houthis&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/11/21/saudi-led-coalition-intercepts-three-houthi-missiles-headed-for-riyadh"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"&gt;Middle Eastern crisis&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)"&gt;Yemeni civil war&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Houthi%E2%80%93Saudi_conflict"&gt;Houthi–Saudi conflict&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_21"&gt;Portal:Current events/2026 November 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-21:334dbb8db8f2</guid>
-      <pubDate>Sat, 21 Nov 2026 16:51:27 GMT</pubDate>
-      <category>Armed conflicts and attacks</category>
-      <category>Houthi–Saudi conflict</category>
-    </item>
-    <item>
-      <title>Japan–Saudi Arabia relations: The Japanese trade ministry announces that Saudi Arabia agreed to triple the volume of crude oil stored in Japan to 24 million barrels, under Japan's joint stockpiling system with Saudi Arabia…</title>
-      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-21-9a82d37cf9f4/</link>
-      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Ministry_of_Economy,_Trade_and_Industry"&gt;Japanese trade ministry&lt;/a&gt; announces that Saudi Arabia agreed to triple the volume of &lt;a href="https://en.wikipedia.org/wiki/Crude_oil"&gt;crude oil&lt;/a&gt; stored in &lt;a href="https://en.wikipedia.org/wiki/Japan"&gt;Japan&lt;/a&gt; to 24 million &lt;a href="https://en.wikipedia.org/wiki/Barrel_(unit)"&gt;barrels&lt;/a&gt;, under Japan's joint &lt;a href="https://en.wikipedia.org/wiki/Global_strategic_petroleum_reserves"&gt;stockpiling system&lt;/a&gt; with Saudi Arabia, &lt;a href="https://en.wikipedia.org/wiki/Kuwait"&gt;Kuwait&lt;/a&gt;, and the &lt;a href="https://en.wikipedia.org/wiki/United_Arab_Emirates"&gt;United Arab Emirates&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://japantoday.com/category/business/saudi-arabia-agrees-to-triple-crude-stored-in-japan-amid-mideast-tensions"&gt;Japan Today&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Japan%E2%80%93Saudi_Arabia_relations"&gt;Japan–Saudi Arabia relations&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_21"&gt;Portal:Current events/2026 November 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-21:9a82d37cf9f4</guid>
-      <pubDate>Sat, 21 Nov 2026 16:51:27 GMT</pubDate>
-      <category>Business and economy</category>
-      <category>Japan–Saudi Arabia relations</category>
-    </item>
-    <item>
-      <title>2026 Bangladesh garment workers protests: Border Guard Bangladesh deploys 90 platoons across seven districts, with four more on standby, amid ongoing political violence and strike action. / Laid-off garment workers in Rupganj, Narayanganj District, block roads by felling trees and burning tires over unpaid wages. / At least 80 garment factories in Savar and Ashulia, Bangladesh, declare general holidays after workers stage sit-ins and work stoppages over minimum wage demands, while police announce that 96…</title>
-      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-21-dc412c8ecca4/</link>
-      <description>&lt;p&gt;&lt;a href="https://www.tbsnews.net/bangladesh/garment-workers-block-road-over-unpaid-wages-narayanganj-1609671"&gt;&lt;img src="https://www.tbsnews.net/sites/default/files/styles/social_share/public/images/2026/11/21/received_1820012490126544.jpeg" alt=""&gt;&lt;/a&gt;&lt;br&gt;&lt;small&gt;Image: The Business Standard&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Border_Guard_Bangladesh"&gt;Border Guard Bangladesh&lt;/a&gt; deploys 90 &lt;a href="https://en.wikipedia.org/wiki/Platoon"&gt;platoons&lt;/a&gt; across seven &lt;a href="https://en.wikipedia.org/wiki/Districts_of_Bangladesh"&gt;districts&lt;/a&gt;, with four more on standby, amid ongoing &lt;a href="https://en.wikipedia.org/wiki/Political_violence"&gt;political violence&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Strike_action"&gt;strike action&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.dhakatribune.com/bangladesh/425296/90-bgb-platoons-deployed-in-seven-districts"&gt;Dhaka Tribune&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Laid-off garment workers in &lt;a href="https://en.wikipedia.org/wiki/Rupganj_Upazila"&gt;Rupganj&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Narayanganj_District"&gt;Narayanganj District&lt;/a&gt;, block roads by &lt;a href="https://en.wikipedia.org/wiki/Felling"&gt;felling&lt;/a&gt; trees and &lt;a href="https://en.wikipedia.org/wiki/Tire_fire"&gt;burning tires&lt;/a&gt; over &lt;a href="https://en.wikipedia.org/wiki/Wage_theft"&gt;unpaid wages&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.tbsnews.net/bangladesh/garment-workers-block-road-over-unpaid-wages-narayanganj-1609671"&gt;The Business Standard&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;At least 80 &lt;a href="https://en.wikipedia.org/wiki/Textile_industry_in_Bangladesh"&gt;garment factories&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Savar_Upazila"&gt;Savar&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Ashulia"&gt;Ashulia&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Bangladesh"&gt;Bangladesh&lt;/a&gt;, declare general holidays after workers stage &lt;a href="https://en.wikipedia.org/wiki/Sit-in"&gt;sit-ins&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Strike_action"&gt;work stoppages&lt;/a&gt; over &lt;a href="https://en.wikipedia.org/wiki/Minimum_wage"&gt;minimum wage&lt;/a&gt; demands, while &lt;a href="https://en.wikipedia.org/wiki/Bangladesh_Police"&gt;police&lt;/a&gt; announce that 96 people, including five &lt;a href="https://en.wikipedia.org/wiki/Trade_union"&gt;labour&lt;/a&gt; leaders, have been arrested in connection with the 4 November clashes on the &lt;a href="https://en.wikipedia.org/wiki/N5_(Bangladesh)"&gt;Dhaka–Aricha Highway&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.tbsnews.net/economy/rmg/labour-unrest-least-12-factories-declare-holiday-amid-work-abstention-savar-1609261"&gt;The Business Standard&lt;/a&gt;, &lt;a href="https://www.thedailystar.net/news/news/50-factories-savar-ashulia-declare-holidays-amid-wage-protests-4329371"&gt;The Daily Star&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"&gt;2026 Bangladesh garment workers protests&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_21"&gt;Portal:Current events/2026 November 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-21:dc412c8ecca4</guid>
-      <pubDate>Sat, 21 Nov 2026 14:45:33 GMT</pubDate>
-      <category>Business and economy</category>
-      <category>2026 Bangladesh garment workers protests</category>
-      <media:content url="https://www.tbsnews.net/sites/default/files/styles/social_share/public/images/2026/11/21/received_1820012490126544.jpeg" medium="image" />
-    </item>
-    <item>
-      <title>Nigerian bandit conflict: Between 35 and 74 Fulani herdsmen are killed in a vigilante attack in two villages of Borgu in retaliation for the earlier bandit raid. / Between five and eleven people, including an infant, are killed, five others are injured and several others are abducted in a bandit attack in Borgu, Niger State, Nigeria.</title>
-      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-21-de9d15fb833c/</link>
-      <description>&lt;p&gt;&lt;a href="https://www.riotimesonline.com/nigeria-niger-state-reprisals-fulani-killed-2026/"&gt;&lt;img src="https://www.riotimesonline.com/wp-content/uploads/2026/11/niger-state-farmland-hills-nigeria-af06-photo.jpg" alt=""&gt;&lt;/a&gt;&lt;br&gt;&lt;small&gt;Image: The Rio Times&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;Between 35 and 74 &lt;a href="https://en.wikipedia.org/wiki/Fulani_herdsmen"&gt;Fulani herdsmen&lt;/a&gt; are killed in a vigilante attack in two villages of Borgu in retaliation for the earlier bandit raid.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.riotimesonline.com/nigeria-niger-state-reprisals-fulani-killed-2026/"&gt;The Rio Times&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Between five and eleven people, including an infant, are killed, five others are injured and several others are abducted in a bandit attack in &lt;a href="https://en.wikipedia.org/wiki/Borgu_(local_government_area)"&gt;Borgu&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Niger_State"&gt;Niger State&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Nigeria"&gt;Nigeria&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://punchng.com/bandits-kill-niger-village-head-five-others/"&gt;The Punch&lt;/a&gt;, &lt;a href="https://citizen.digital/article/armed-gangs-attack-centraligerian-village-killing-11-n394344"&gt;AFP via Citizen Digital&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Nigerian_bandit_conflict"&gt;Nigerian bandit conflict&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_21"&gt;Portal:Current events/2026 November 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-21:de9d15fb833c</guid>
-      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Armed conflicts and attacks</category>
-      <category>Nigerian bandit conflict</category>
-      <media:content url="https://www.riotimesonline.com/wp-content/uploads/2026/11/niger-state-farmland-hills-nigeria-af06-photo.jpg" medium="image" />
-    </item>
-    <item>
-      <title>A fire at a confectionery factory in Serang Regency, Banten, Indonesia, kills at least 24 people, leaves 30 others missing, and injures five.</title>
-      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-21-9fea75a8a1ea/</link>
-      <description>&lt;p&gt;A fire at a &lt;a href="https://en.wikipedia.org/wiki/Confectionery"&gt;confectionery&lt;/a&gt; factory in &lt;a href="https://en.wikipedia.org/wiki/Serang_Regency"&gt;Serang Regency&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Banten"&gt;Banten&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Indonesia"&gt;Indonesia&lt;/a&gt;, kills at least 24 people, leaves 30 others missing, and injures five.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.reuters.com/world/asia-pacific/indonesia-says-24-killed-factory-blaze-rescuers-search-dozens-missing-2026-11-23/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_21"&gt;Portal:Current events/2026 November 21&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_21&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-21:9fea75a8a1ea</guid>
-      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Disasters and accidents</category>
     </item>
   </channel>
 </rss>

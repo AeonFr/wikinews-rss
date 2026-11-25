@@ -6,6 +6,41 @@
  "retention_days": 183,
  "stories": [
   {
+   "article": null,
+   "categories": [
+    "Law and crime"
+   ],
+   "group": "2026-11-25-90bcf2e6daac",
+   "headlines": [
+    {
+     "category": "Law and crime",
+     "html": "Beau Lamarre-Condon is found guilty of the 2024 murder of Australian television presenter <a href=\"https://en.wikipedia.org/wiki/Jesse_Baird\">Jesse Baird</a> and his partner Luke Davies.",
+     "id": "2026-11-25-90bcf2e6daac",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
+      "title": "Portal:Current events/2026 November 25",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"
+     },
+     "sources": [
+      {
+       "name": "The Guardian",
+       "url": "https://www.theguardian.com/australia-news/2026/nov/25/beau-lamarre-condon-trial-verdict-former-police-officer-jesse-baird-luke-davies-ntwnfb"
+      }
+     ],
+     "topics": []
+    }
+   ],
+   "id": "2026-11-25-90bcf2e6daac",
+   "image": {
+    "link": "https://www.theguardian.com/australia-news/2026/nov/25/beau-lamarre-condon-trial-verdict-former-police-officer-jesse-baird-luke-davies-ntwnfb",
+    "source": "The Guardian",
+    "url": "https://i.guim.co.uk/img/media/ebfc885f7db8935002487a469a0f9baba836690e/262_168_2337_1870/master/2337.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e16d87a17e4dcb69a3b4e1cb03b120ce"
+   },
+   "more_articles": [],
+   "pub_date": "2026-11-25T02:34:34Z",
+   "title": "Beau Lamarre-Condon is found guilty of the 2024 murder of Australian television presenter Jesse Baird and his partner Luke Davies."
+  },
+  {
    "article": {
     "extract": "On 24 February 2022, Russia invaded Ukraine, starting the largest and deadliest war in Europe since World War II, in a major escalation of the existing war between the two countries that began when Russia attacked Ukraine in 2014. The fighting has caused hundreds of thousands of military casualties and tens of thousands of Ukrainian civilian casualties.",
     "location": "Ukraine, Russia, Black Sea",
@@ -111,41 +146,6 @@
    "more_articles": [],
    "pub_date": "2026-11-24T17:54:20Z",
    "title": "Thirteen people are killed and fourteen others are injured when a bus collides with a stationary truck in Ras Al Khaimah, United Arab Emirates."
-  },
-  {
-   "article": null,
-   "categories": [
-    "Disasters and accidents"
-   ],
-   "group": "2026-11-24-47ccb2208542",
-   "headlines": [
-    {
-     "category": "Disasters and accidents",
-     "html": "At least six people are killed and ten others are injured in a <a href=\"https://en.wikipedia.org/wiki/Fuel_gas\">cooking gas</a> <a href=\"https://en.wikipedia.org/wiki/Gas_explosion\">explosion</a> in a residential area of <a href=\"https://en.wikipedia.org/wiki/Hanoi\">Hanoi</a>, <a href=\"https://en.wikipedia.org/wiki/Vietnam\">Vietnam</a>.",
-     "id": "2026-11-24-47ccb2208542",
-     "page": {
-      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_24&action=history",
-      "title": "Portal:Current events/2026 November 24",
-      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_24"
-     },
-     "sources": [
-      {
-       "name": "AsiaOne",
-       "url": "https://www.asiaone.com/asia/explosion-kills-6-injures-10-vietnam-capital-hanoi"
-      }
-     ],
-     "topics": []
-    }
-   ],
-   "id": "2026-11-24-47ccb2208542",
-   "image": {
-    "link": "https://www.asiaone.com/asia/explosion-kills-6-injures-10-vietnam-capital-hanoi",
-    "source": "AsiaOne",
-    "url": "https://media.asiaone.com/sites/default/files/styles/article_top_image/public/original_images/Nov2026/vietnam%20flag.jpg?itok=CaNovi6N"
-   },
-   "more_articles": [],
-   "pub_date": "2026-11-24T17:54:20Z",
-   "title": "At least six people are killed and ten others are injured in a cooking gas explosion in a residential area of Hanoi, Vietnam."
   },
   {
    "article": {
@@ -321,6 +321,294 @@
    "more_articles": [],
    "pub_date": "2026-11-24T17:54:20Z",
    "title": "The International Court of Justice rules that Myanmar has committed genocide against the Rohingya people."
+  },
+  {
+   "article": {
+    "extract": "The Gaza war is an armed conflict in the Gaza Strip and Israel, fought as part of the unresolved Israeli–Palestinian and Gaza–Israel conflicts. The war began on 7 October 2023, when Palestinian militant group Hamas led an attack on Israel, in which 1,195 Israelis and foreign nationals were killed and 251 were taken hostage.",
+    "location": "Gaza Strip and Israel",
+    "title": "Gaza war",
+    "url": "https://en.wikipedia.org/wiki/Gaza_war"
+   },
+   "categories": [
+    "Armed conflicts and attacks"
+   ],
+   "group": "2026-11-24-a6cef948b434",
+   "headlines": [
+    {
+     "category": "Armed conflicts and attacks",
+     "html": "<a href=\"https://en.wikipedia.org/wiki/Israel\">Israel</a> kills <a href=\"https://en.wikipedia.org/wiki/Hamas\">Hamas</a> security official Naeem Abu Nahel in an <a href=\"https://en.wikipedia.org/wiki/Airstrike\">airstrike</a> in the <a href=\"https://en.wikipedia.org/wiki/Gaza_Strip\">Gaza Strip</a>.",
+     "id": "2026-11-24-a6cef948b434",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_24&action=history",
+      "title": "Portal:Current events/2026 November 24",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_24"
+     },
+     "sources": [
+      {
+       "name": "The Washington Post",
+       "url": "https://www.washingtonpost.com/world/2026/11/24/israel-kills-hamas-internal-security-chief-gaza/"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Gaza war",
+       "links": [
+        {
+         "label": "Gaza war",
+         "url": "https://en.wikipedia.org/wiki/Gaza_war"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Gaza_war"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-24-a6cef948b434",
+   "more_articles": [],
+   "pub_date": "2026-11-24T00:00:00Z",
+   "title": "Gaza war: Israel kills Hamas security official Naeem Abu Nahel in an airstrike in the Gaza Strip."
+  },
+  {
+   "article": {
+    "extract": "A series of labour demonstrations organized by workers in the ready-made garment industry have taken place in Bangladesh, demanding an increase in the sector's minimum monthly wage from ৳12,500 (US$100) to ৳30,000 (US$240). Began in August 2026, the protests escalated in late-October and early-November 2026 in the industrial areas of Ashulia, Gazipur and Dhaka.",
+    "location": "Greater Dhaka, Bangladesh",
+    "title": "2026 Bangladesh garment workers protests",
+    "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"
+   },
+   "categories": [
+    "Business and economy"
+   ],
+   "group": "2026-11-24-d19d3970a07b",
+   "headlines": [
+    {
+     "category": "Business and economy",
+     "html": "<a href=\"https://en.wikipedia.org/wiki/Bangladesh_Police\">Police</a> fire <a href=\"https://en.wikipedia.org/wiki/Tear_gas\">tear gas</a> and <a href=\"https://en.wikipedia.org/wiki/Stun_grenade\">stun grenades</a> to disperse protesting <a href=\"https://en.wikipedia.org/wiki/Textile_industry_in_Bangladesh\">garment workers</a> across <a href=\"https://en.wikipedia.org/wiki/Gazipur_District\">Gazipur</a>, <a href=\"https://en.wikipedia.org/wiki/Savar_Upazila\">Savar</a>, and <a href=\"https://en.wikipedia.org/wiki/Ashulia\">Ashulia</a>, <a href=\"https://en.wikipedia.org/wiki/Bangladesh\">Bangladesh</a>, as production halts at 481 factories amid <a href=\"https://en.wikipedia.org/wiki/Minimum_wage\">minimum wage</a> disputes.",
+     "id": "2026-11-24-d19d3970a07b",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_24&action=history",
+      "title": "Portal:Current events/2026 November 24",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_24"
+     },
+     "sources": [
+      {
+       "name": "The Business Standard",
+       "url": "https://www.tbsnews.net/economy/rmg/production-halted-481-garment-factories-amid-minimum-wage-negotiations-1612891"
+      }
+     ],
+     "topics": [
+      {
+       "label": "2026 Bangladesh garment workers protests",
+       "links": [
+        {
+         "label": "2026 Bangladesh garment workers protests",
+         "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-24-d19d3970a07b",
+   "image": {
+    "link": "https://www.tbsnews.net/economy/rmg/production-halted-481-garment-factories-amid-minimum-wage-negotiations-1612891",
+    "source": "The Business Standard",
+    "url": "https://www.tbsnews.net/sites/default/files/styles/social_share/public/images/2026/11/04/factory-closure_0.jpg"
+   },
+   "more_articles": [],
+   "pub_date": "2026-11-24T00:00:00Z",
+   "title": "2026 Bangladesh garment workers protests: Police fire tear gas and stun grenades to disperse protesting garment workers across Gazipur, Savar, and Ashulia, Bangladesh, as production halts at 481 factories amid minimum wage disputes."
+  },
+  {
+   "article": null,
+   "categories": [
+    "Disasters and accidents"
+   ],
+   "group": "2026-11-24-ed109645f74b",
+   "headlines": [
+    {
+     "category": "Disasters and accidents",
+     "html": "Seven people are killed and nine others are injured in a <a href=\"https://en.wikipedia.org/wiki/Fuel_gas\">cooking gas</a> <a href=\"https://en.wikipedia.org/wiki/Gas_explosion\">explosion</a> at a <a href=\"https://en.wikipedia.org/wiki/Hot_pot\">hot pot</a> restaurant in <a href=\"https://en.wikipedia.org/wiki/Hanoi\">Hanoi</a>, <a href=\"https://en.wikipedia.org/wiki/Vietnam\">Vietnam</a>.",
+     "id": "2026-11-24-ed109645f74b",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_24&action=history",
+      "title": "Portal:Current events/2026 November 24",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_24"
+     },
+     "sources": [
+      {
+       "name": "VnExpress",
+       "url": "https://e.vnexpress.net/news/news/death-toll-from-hanoi-eatery-blast-rises-to-7-5148312.html"
+      }
+     ],
+     "topics": []
+    }
+   ],
+   "id": "2026-11-24-ed109645f74b",
+   "image": {
+    "link": "https://e.vnexpress.net/news/news/death-toll-from-hanoi-eatery-blast-rises-to-7-5148312.html",
+    "source": "VnExpress",
+    "url": "https://vcdn1-english.vnecdn.net/2026/11/24/1-1795488791-8783-1795488796.jpg?w=680&h=0&q=100&dpr=1&fit=crop&s=O4PX5s82MkiLilhaoK7lbQ"
+   },
+   "more_articles": [],
+   "pub_date": "2026-11-24T00:00:00Z",
+   "title": "Seven people are killed and nine others are injured in a cooking gas explosion at a hot pot restaurant in Hanoi, Vietnam."
+  },
+  {
+   "article": null,
+   "categories": [
+    "Disasters and accidents"
+   ],
+   "group": "2026-11-24-f34504c8e46f",
+   "headlines": [
+    {
+     "category": "Disasters and accidents",
+     "html": "A <a href=\"https://en.wikipedia.org/wiki/Turkish_Air_Force\">Turkish Air Force</a> helicopter crashes during a training flight in <a href=\"https://en.wikipedia.org/wiki/Eski%C5%9Fehir\">Eskişehir</a>, <a href=\"https://en.wikipedia.org/wiki/Turkey\">Turkey</a>, killing five crew members.",
+     "id": "2026-11-24-f34504c8e46f",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_24&action=history",
+      "title": "Portal:Current events/2026 November 24",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_24"
+     },
+     "sources": [
+      {
+       "name": "AP",
+       "url": "https://apnews.com/article/turkey-military-helicopter-crash-eskisehir-d807011ff565dcfbce78fcf44d338994"
+      }
+     ],
+     "topics": []
+    }
+   ],
+   "id": "2026-11-24-f34504c8e46f",
+   "more_articles": [],
+   "pub_date": "2026-11-24T00:00:00Z",
+   "title": "A Turkish Air Force helicopter crashes during a training flight in Eskişehir, Turkey, killing five crew members."
+  },
+  {
+   "article": {
+    "extract": "Significant political, constitutional, and social changes in Bangladesh followed the July Uprising of 2024 and the resignation of Prime Minister Sheikh Hasina. The uprising was initially sparked by widespread public protests and calls for reform, led to major changes in Bangladesh's political landscape.",
+    "location": "Bangladesh (with spillovers in India)",
+    "title": "Aftermath of the July Uprising",
+    "url": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"
+   },
+   "categories": [
+    "Politics and elections",
+    "Law and crime"
+   ],
+   "group": "2026-11-24-6b14f62be101",
+   "headlines": [
+    {
+     "category": "Politics and elections",
+     "html": "Former <a href=\"https://en.wikipedia.org/wiki/Prime_Minister_of_Bangladesh\">Bangladesh Prime Minister</a> <a href=\"https://en.wikipedia.org/wiki/Sheikh_Hasina\">Sheikh Hasina</a> announces she plans to return to <a href=\"https://en.wikipedia.org/wiki/Bangladesh\">the country</a> on December 16, coinciding with <a href=\"https://en.wikipedia.org/wiki/Victory_Day_(Bangladesh)\">Victory Day</a>.",
+     "id": "2026-11-24-c0cd016b9f06",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_24&action=history",
+      "title": "Portal:Current events/2026 November 24",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_24"
+     },
+     "sources": [
+      {
+       "name": "Reuters",
+       "url": "https://www.reuters.com/world/asia-pacific/sheikh-hasina-seeks-return-bangladesh-december-16-state-carrier-2026-11-24/"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Aftermath of the July Uprising",
+       "links": [
+        {
+         "label": "Aftermath of the July Uprising",
+         "url": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"
+      }
+     ]
+    },
+    {
+     "category": "Law and crime",
+     "html": "<a href=\"https://en.wikipedia.org/wiki/Border_Guard_Bangladesh\">Border Guard Bangladesh</a> deploys 101 <a href=\"https://en.wikipedia.org/wiki/Platoon\">platoons</a> across <a href=\"https://en.wikipedia.org/wiki/Dhaka\">Dhaka</a> and seven other districts, including two <a href=\"https://en.wikipedia.org/wiki/Battalion\">battalions</a> in <a href=\"https://en.wikipedia.org/wiki/Gopalganj_District,_Bangladesh\">Gopalganj</a>, following instructions from the <a href=\"https://en.wikipedia.org/wiki/Ministry_of_Home_Affairs_(Bangladesh)\">home ministry</a> to increase surveillance at key installations and industrial areas.",
+     "id": "2026-11-24-6b14f62be101",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_24&action=history",
+      "title": "Portal:Current events/2026 November 24",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_24"
+     },
+     "sources": [
+      {
+       "name": "The Daily Star",
+       "url": "https://www.thedailystar.net/news/news/bgb-deploys-101-platoons-dhaka-7-districts-4331806"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Aftermath of the July Uprising, 2026 Bangladesh garment workers protests",
+       "links": [
+        {
+         "label": "Aftermath of the July Uprising",
+         "url": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"
+        },
+        {
+         "label": "2026 Bangladesh garment workers protests",
+         "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-24-6b14f62be101",
+   "image": {
+    "link": "https://www.thedailystar.net/news/news/bgb-deploys-101-platoons-dhaka-7-districts-4331806",
+    "source": "The Daily Star",
+    "url": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/bgb-deployed.jpg"
+   },
+   "more_articles": [
+    {
+     "extract": "A series of labour demonstrations organized by workers in the ready-made garment industry have taken place in Bangladesh, demanding an increase in the sector's minimum monthly wage from ৳12,500 (US$100) to ৳30,000 (US$240). Began in August 2026, the protests escalated in late-October and early-November 2026 in the industrial areas of Ashulia, Gazipur and Dhaka.",
+     "location": "Greater Dhaka, Bangladesh",
+     "title": "2026 Bangladesh garment workers protests",
+     "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"
+    }
+   ],
+   "pub_date": "2026-11-24T00:00:00Z",
+   "title": "Aftermath of the July Uprising, 2026 Bangladesh garment workers protests: Former Bangladesh Prime Minister Sheikh Hasina announces she plans to return to the country on December 16, coinciding with Victory Day. / Border Guard Bangladesh deploys 101 platoons across Dhaka and seven other districts, including two battalions in Gopalganj, following instructions from the home ministry to increase surveillance at…"
+  },
+  {
+   "article": null,
+   "categories": [
+    "Law and crime"
+   ],
+   "group": "2026-11-24-a5b813d0c298",
+   "headlines": [
+    {
+     "category": "Law and crime",
+     "html": "Armed men in <a href=\"https://en.wikipedia.org/wiki/Cartagena,_Colombia\">Cartagena, Colombia</a> took 25 people hostage in a <a href=\"https://en.wikipedia.org/wiki/Supermarket\">supermarket</a> after a failed armored-car robbery.",
+     "id": "2026-11-24-a5b813d0c298",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_24&action=history",
+      "title": "Portal:Current events/2026 November 24",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_24"
+     },
+     "sources": [
+      {
+       "name": "Aliazeera",
+       "url": "https://www.aljazeera.com/amp/news/2026/11/24/hostage-situation-reported-in-colombia-as-armed-men-flee-into-supermarket"
+      }
+     ],
+     "topics": []
+    }
+   ],
+   "id": "2026-11-24-a5b813d0c298",
+   "image": {
+    "link": "https://www.aljazeera.com/amp/news/2026/11/24/hostage-situation-reported-in-colombia-as-armed-men-flee-into-supermarket",
+    "source": "Aliazeera",
+    "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6b05e778013d-1795549048.jpg?resize=1920%2C1440"
+   },
+   "more_articles": [],
+   "pub_date": "2026-11-24T00:00:00Z",
+   "title": "Armed men in Cartagena, Colombia took 25 people hostage in a supermarket after a failed armored-car robbery."
   },
   {
    "article": {
@@ -532,7 +820,7 @@
   },
   {
    "article": {
-    "extract": "BepiColombo (Japanese: ベピ・コロンボ, romanized: Bepi Koronbo) is a joint mission of the European Space Agency (ESA) and the Japan Aerospace Exploration Agency (JAXA) which, in 2026, became the 2nd mission ever to enter orbit around the planet Mercury. It comprises two orbiters: the Mercury Planetary Orbiter (MPO), built and operated by ESA, and Mio (Mercury Magnetospheric Orbiter, MMO), built and operated by JAXA. Together the spacecraft will perform a comprehensive study of Mercury, including characterization of its magnetic field, magnetosphere, and both interior and surface structure.",
+    "extract": "BepiColombo (Japanese: ベピ・コロンボ, romanized: Bepi Koronbo) is a joint mission of the European Space Agency (ESA) and the Japan Aerospace Exploration Agency (JAXA) which, in 2026, became the second mission ever to enter orbit around the planet Mercury, the first being MESSENGER. It comprises two orbiters: the Mercury Planetary Orbiter (MPO), built and operated by ESA, and Mio (Mercury Magnetospheric Orbiter, MMO), built and operated by JAXA. Together the spacecraft will perform a comprehensive study of Mercury, including characterization of its magnetic field, magnetosphere, and both interior and surface structure.",
     "title": "BepiColombo",
     "url": "https://en.wikipedia.org/wiki/BepiColombo"
    },
@@ -562,6 +850,133 @@
   },
   {
    "article": {
+    "extract": "The Mexican drug war (Spanish: Guerra contra el narcotráfico en México) is an ongoing asymmetric armed conflict between the Mexican government and various drug trafficking syndicates. When the Mexican military intervened in 2006, the government's main objective was to reduce drug-related violence.",
+    "location": "Latin America and the Caribbean",
+    "title": "Mexican drug war",
+    "url": "https://en.wikipedia.org/wiki/Mexican_drug_war"
+   },
+   "categories": [
+    "Armed conflicts and attacks"
+   ],
+   "group": "2026-11-23-5a09332495b6",
+   "headlines": [
+    {
+     "category": "Armed conflicts and attacks",
+     "html": "<a href=\"https://en.wikipedia.org/wiki/Federal_Police_(Mexico)\">Mexican authorities</a> announce that they have killed 16 suspected members of the <a href=\"https://en.wikipedia.org/wiki/Beltr%C3%A1n-Leyva_Organization\">Beltrán-Leyva cartel</a> during an operation yesterday to capture former high-ranking leader <a href=\"https://en.wikipedia.org/wiki/Fausto_Isidro_Meza_Flores\">Fausto Isidro Meza Flores</a>, who was on the <a href=\"https://en.wikipedia.org/wiki/Federal_Bureau_of_Investigation\">FBI</a> <a href=\"https://en.wikipedia.org/wiki/FBI_Ten_Most_Wanted_Fugitives\">Ten Most Wanted Fugitives</a> list, in <a href=\"https://en.wikipedia.org/wiki/Guasave\">Guasave</a>, <a href=\"https://en.wikipedia.org/wiki/Sinaloa\">Sinaloa</a>, <a href=\"https://en.wikipedia.org/wiki/Mexico\">Mexico</a>.",
+     "id": "2026-11-23-5a09332495b6",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_23&action=history",
+      "title": "Portal:Current events/2026 November 23",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_23"
+     },
+     "sources": [
+      {
+       "name": "Voice of Emirates",
+       "url": "https://www.voiceofemirates.com/en/news/2026/11/23/mexico-announces-the-killing-of-16-suspected-drug-cartel-members-during-the-arrest-of-el-chapo-isidro/"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Mexican drug war",
+       "links": [
+        {
+         "label": "Mexican drug war",
+         "url": "https://en.wikipedia.org/wiki/Mexican_drug_war"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Mexican_drug_war"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-23-5a09332495b6",
+   "more_articles": [],
+   "pub_date": "2026-11-23T00:00:00Z",
+   "title": "Mexican drug war: Mexican authorities announce that they have killed 16 suspected members of the Beltrán-Leyva cartel during an operation yesterday to capture former high-ranking leader Fausto Isidro Meza Flores, who…"
+  },
+  {
+   "article": {
+    "extract": "Sudanese nomadic conflicts are non-state conflicts between rival nomadic tribes in Sudan and South Sudan. These conflicts are common and typically arise over scarce resources such as grazing land, cattle, and drinking water.",
+    "location": "Darfur, West Kordofan and South Sudan",
+    "title": "Sudanese nomadic conflicts",
+    "url": "https://en.wikipedia.org/wiki/Sudanese_nomadic_conflicts"
+   },
+   "categories": [
+    "Armed conflicts and attacks"
+   ],
+   "group": "2026-11-23-8a2a72f20189",
+   "headlines": [
+    {
+     "category": "Armed conflicts and attacks",
+     "html": "Five people are killed and six others are injured during classe between <a href=\"https://en.wikipedia.org/wiki/Farmer%E2%80%93herder_conflict\">farmers and herders</a> in <a href=\"https://en.wikipedia.org/wiki/East_Darfur\">East Darfur</a>, <a href=\"https://en.wikipedia.org/wiki/Sudan\">Sudan</a>.",
+     "id": "2026-11-23-8a2a72f20189",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_23&action=history",
+      "title": "Portal:Current events/2026 November 23",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_23"
+     },
+     "sources": [
+      {
+       "name": "Radio Tamazuj",
+       "url": "https://www.radiotamazuj.org/en/news/article/farmer-herder-clashes-leave-5-dead-6-injured-in-east-darfur"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Sudanese nomadic conflicts",
+       "links": [
+        {
+         "label": "Sudanese nomadic conflicts",
+         "url": "https://en.wikipedia.org/wiki/Sudanese_nomadic_conflicts"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Sudanese_nomadic_conflicts"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-23-8a2a72f20189",
+   "image": {
+    "link": "https://www.radiotamazuj.org/en/news/article/farmer-herder-clashes-leave-5-dead-6-injured-in-east-darfur",
+    "source": "Radio Tamazuj",
+    "url": "https://www.radiotamazuj.org/wp-content/uploads/2026/11/Screenshot-2026-11-24-163750.png"
+   },
+   "more_articles": [],
+   "pub_date": "2026-11-23T00:00:00Z",
+   "title": "Sudanese nomadic conflicts: Five people are killed and six others are injured during classe between farmers and herders in East Darfur, Sudan."
+  },
+  {
+   "article": null,
+   "categories": [
+    "Disasters and accidents"
+   ],
+   "group": "2026-11-23-13ea1090b48f",
+   "headlines": [
+    {
+     "category": "Disasters and accidents",
+     "html": "Five people are killed and 25 others are injured when a bus crashes on the <a href=\"https://en.wikipedia.org/wiki/Pan-American_Highway\">Pan-American Highway</a> outside of <a href=\"https://en.wikipedia.org/wiki/Ciudad_Ju%C3%A1rez\">Ciudad Juárez</a>, <a href=\"https://en.wikipedia.org/wiki/Mexico\">Mexico</a>.",
+     "id": "2026-11-23-13ea1090b48f",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_23&action=history",
+      "title": "Portal:Current events/2026 November 23",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_23"
+     },
+     "sources": [
+      {
+       "name": "KTSM",
+       "url": "https://www.ktsm.com/news/juarez/5-people-dead-after-bus-crash-outside-of-juarez-driver-arrested/"
+      }
+     ],
+     "topics": []
+    }
+   ],
+   "id": "2026-11-23-13ea1090b48f",
+   "more_articles": [],
+   "pub_date": "2026-11-23T00:00:00Z",
+   "title": "Five people are killed and 25 others are injured when a bus crashes on the Pan-American Highway outside of Ciudad Juárez, Mexico."
+  },
+  {
+   "article": {
     "extract": "The Colombian conflict (Spanish: Conflicto armado interno de Colombia, lit. 'Colombian internal armed conflict') began on May 27, 1964, and is a low-intensity asymmetric war between the government of Colombia, paramilitary groups, crime syndicates, and far-left guerrilla groups engaged in armed factional hostilities to increase their influence in Colombian territory. Some of the most important international contributors to the Colombian conflict include multinational corporations, the United States, Cuba, and the drug trafficking industry.",
     "location": "Colombia and Venezuela with spillovers into Peru, Brazil, Panama, Ecuador and Paraguay",
     "title": "Colombian conflict",
@@ -574,7 +989,7 @@
    "headlines": [
     {
      "category": "Armed conflicts and attacks",
-     "html": "Three civilians are injured and 60 homes are damaged following a drone attack against a police station in <a href=\"https://en.wikipedia.org/wiki/C%C3%BAcuta\">Cúcuta</a>. This is the first registered drone attack in an urban area in Colombia.",
+     "html": "Three civilians are injured and 60 homes are damaged following a drone attack against a <a href=\"https://en.wikipedia.org/wiki/National_Police_of_Colombia\">police station</a> in <a href=\"https://en.wikipedia.org/wiki/C%C3%BAcuta\">Cúcuta</a>. This is the first registered drone attack in an urban area in Colombia.",
      "id": "2026-11-23-1cfdd881aa6d",
      "page": {
       "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_23&action=history",
@@ -602,7 +1017,7 @@
     },
     {
      "category": "Armed conflicts and attacks",
-     "html": "At least 21 people are injured after a <a href=\"https://en.wikipedia.org/wiki/Car_bomb\">car bomb</a> explodes next to the <a href=\"https://en.wikipedia.org/wiki/Meta_Department\">Meta Department</a> Government building in downtown <a href=\"https://en.wikipedia.org/wiki/Villavicencio\">Villavicencio</a>.",
+     "html": "At least 21 people are injured after a <a href=\"https://en.wikipedia.org/wiki/Car_bomb\">car bomb</a> explodes next to the <a href=\"https://en.wikipedia.org/wiki/Meta_Department\">Meta Department</a> Government building in downtown <a href=\"https://en.wikipedia.org/wiki/Villavicencio\">Villavicencio</a>, <a href=\"https://en.wikipedia.org/wiki/Colombia\">Colombia</a>.",
      "id": "2026-11-23-1206050935eb",
      "page": {
       "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_23&action=history",
@@ -611,7 +1026,7 @@
      },
      "sources": [
       {
-       "name": "Anadolu Ajansı",
+       "name": "Anadolu Ajansi",
        "url": "https://www.aa.com.tr/en/americas/car-bomb-explodes-near-colombia-s-meta-government-headquarters/4135229"
       }
      ],
@@ -637,7 +1052,118 @@
    },
    "more_articles": [],
    "pub_date": "2026-11-23T00:00:00Z",
-   "title": "Colombian conflict: Three civilians are injured and 60 homes are damaged following a drone attack against a police station in Cúcuta. / At least 21 people are injured after a car bomb explodes next to the Meta Department Government building in downtown Villavicencio."
+   "title": "Colombian conflict: Three civilians are injured and 60 homes are damaged following a drone attack against a police station in Cúcuta. / At least 21 people are injured after a car bomb explodes next to the Meta Department Government building in downtown Villavicencio, Colombia."
+  },
+  {
+   "article": {
+    "extract": "Significant political, constitutional, and social changes in Bangladesh followed the July Uprising of 2024 and the resignation of Prime Minister Sheikh Hasina. The uprising was initially sparked by widespread public protests and calls for reform, led to major changes in Bangladesh's political landscape.",
+    "location": "Bangladesh (with spillovers in India)",
+    "title": "Aftermath of the July Uprising",
+    "url": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"
+   },
+   "categories": [
+    "Armed conflicts and attacks"
+   ],
+   "group": "2026-11-23-be2e7abdf304",
+   "headlines": [
+    {
+     "category": "Armed conflicts and attacks",
+     "html": "<a href=\"https://en.wikipedia.org/wiki/Border_Guard_Bangladesh\">Border Guard Bangladesh</a> deploys 98 <a href=\"https://en.wikipedia.org/wiki/Platoon\">platoons</a> across <a href=\"https://en.wikipedia.org/wiki/Dhaka\">Dhaka</a> and seven other districts, following instructions from the <a href=\"https://en.wikipedia.org/wiki/Ministry_of_Home_Affairs_(Bangladesh)\">home ministry</a> to increase surveillance at key installations and industrial areas.",
+     "id": "2026-11-23-c1adfce94bdd",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_23&action=history",
+      "title": "Portal:Current events/2026 November 23",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_23"
+     },
+     "sources": [
+      {
+       "name": "UNB via The Business Standard",
+       "url": "https://www.tbsnews.net/bangladesh/98-platoons-bgb-deployed-dhaka-7-other-districts-1611461"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Aftermath of the Bangladesh July Uprising",
+       "links": [
+        {
+         "label": "Aftermath of the Bangladesh July Uprising",
+         "url": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"
+      }
+     ]
+    },
+    {
+     "category": "Armed conflicts and attacks",
+     "html": "At least 15 people are injured and 28 houses and shops are <a href=\"https://en.wikipedia.org/wiki/Vandalism\">vandalised</a> during clashes between rival <a href=\"https://en.wikipedia.org/wiki/Bangladesh_Nationalist_Party\">Bangladesh Nationalist Party</a> factions in <a href=\"https://en.wikipedia.org/wiki/Shailkupa_Upazila\">Shailkupa Upazila</a>, <a href=\"https://en.wikipedia.org/wiki/Jhenaidah_District\">Jhenaidah District</a>, Bangladesh.",
+     "id": "2026-11-23-fb0d9c21fd6f",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_23&action=history",
+      "title": "Portal:Current events/2026 November 23",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_23"
+     },
+     "sources": [
+      {
+       "name": "The Daily Star",
+       "url": "https://www.thedailystar.net/news/crime-justice/news/15-injured-bnp-factions-clash-jhenaidah-4331446"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Aftermath of the Bangladesh July Uprising",
+       "links": [
+        {
+         "label": "Aftermath of the Bangladesh July Uprising",
+         "url": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"
+      }
+     ]
+    },
+    {
+     "category": "Armed conflicts and attacks",
+     "html": "At least 30 people are injured, eight seriously, and 12 shops are <a href=\"https://en.wikipedia.org/wiki/Vandalism\">vandalised</a> as rival factions of the banned <a href=\"https://en.wikipedia.org/wiki/Awami_League\">Awami League</a> clash in two separate incidents and detonate four <a href=\"https://en.wikipedia.org/wiki/Improvised_explosive_device\">crude bombs</a> in <a href=\"https://en.wikipedia.org/wiki/Gopalganj_District,_Bangladesh\">Gopalganj District</a>, <a href=\"https://en.wikipedia.org/wiki/Bangladesh\">Bangladesh</a>.",
+     "id": "2026-11-23-be2e7abdf304",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_23&action=history",
+      "title": "Portal:Current events/2026 November 23",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_23"
+     },
+     "sources": [
+      {
+       "name": "The Daily Star",
+       "url": "https://www.thedailystar.net/news/politics/news/clashes-over-awami-league-processions-gopalganj-leave-least-30-injured-4331701"
+      },
+      {
+       "name": "The Business Standard",
+       "url": "https://www.tbsnews.net/bangladesh/least-20-injured-clash-between-two-al-factions-gopalganj-1612076"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Aftermath of the Bangladesh July Uprising",
+       "links": [
+        {
+         "label": "Aftermath of the Bangladesh July Uprising",
+         "url": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-23-be2e7abdf304",
+   "image": {
+    "link": "https://www.tbsnews.net/bangladesh/98-platoons-bgb-deployed-dhaka-7-other-districts-1611461",
+    "source": "UNB via The Business Standard",
+    "url": "https://www.tbsnews.net/sites/default/files/styles/social_share/public/images/2026/11/23/screenshot_2026-11-23_154553.png"
+   },
+   "more_articles": [],
+   "pub_date": "2026-11-23T00:00:00Z",
+   "title": "Aftermath of the Bangladesh July Uprising: Border Guard Bangladesh deploys 98 platoons across Dhaka and seven other districts, following instructions from the home ministry to increase surveillance at key installations and industrial areas. / At least 15 people are injured and 28 houses and shops are vandalised during clashes between rival Bangladesh Nationalist Party factions in Shailkupa Upazila, Jhenaidah District, Bangladesh. / At least 30 people are injured, eight seriously, and 12 shops are vandalised as rival factions of the banned Awami League clash in two separate incidents and detonate four crude bombs in Gopalganj…"
   },
   {
    "article": {
@@ -691,89 +1217,6 @@
    "title": "Kurdish–Turkish conflict: Turkish intelligence reports that the Kurdistan Workers' Party withdraws from 14 additional bases in northern Iraq as part of an ongoing disarmament process aimed at ending its conflict with Turkey."
   },
   {
-   "article": {
-    "extract": "Significant political, constitutional, and social changes in Bangladesh followed the July Uprising of 2024 and the resignation of Prime Minister Sheikh Hasina. The uprising was initially sparked by widespread public protests and calls for reform, led to major changes in Bangladesh's political landscape.",
-    "location": "Bangladesh (with spillovers in India)",
-    "title": "Aftermath of the July Uprising",
-    "url": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"
-   },
-   "categories": [
-    "Armed conflicts and attacks"
-   ],
-   "group": "2026-11-23-be2e7abdf304",
-   "headlines": [
-    {
-     "category": "Armed conflicts and attacks",
-     "html": "At least 15 people are injured and 28 houses and shops are <a href=\"https://en.wikipedia.org/wiki/Vandalism\">vandalised</a> during clashes between rival <a href=\"https://en.wikipedia.org/wiki/Bangladesh_Nationalist_Party\">Bangladesh Nationalist Party</a> factions in <a href=\"https://en.wikipedia.org/wiki/Shailkupa_Upazila\">Shailkupa Upazila</a>, <a href=\"https://en.wikipedia.org/wiki/Jhenaidah_District\">Jhenaidah District</a>, <a href=\"https://en.wikipedia.org/wiki/Bangladesh\">Bangladesh</a>.",
-     "id": "2026-11-23-fb0d9c21fd6f",
-     "page": {
-      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_23&action=history",
-      "title": "Portal:Current events/2026 November 23",
-      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_23"
-     },
-     "sources": [
-      {
-       "name": "The Daily Star",
-       "url": "https://www.thedailystar.net/news/crime-justice/news/15-injured-bnp-factions-clash-jhenaidah-4331446"
-      }
-     ],
-     "topics": [
-      {
-       "label": "Aftermath of the July Uprising",
-       "links": [
-        {
-         "label": "Aftermath of the July Uprising",
-         "url": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"
-        }
-       ],
-       "url": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"
-      }
-     ]
-    },
-    {
-     "category": "Armed conflicts and attacks",
-     "html": "At least 30 people are injured, eight seriously, and 12 shops are <a href=\"https://en.wikipedia.org/wiki/Vandalism\">vandalised</a> as rival factions of the banned <a href=\"https://en.wikipedia.org/wiki/Awami_League\">Awami League</a> clash in two separate incidents and detonate four <a href=\"https://en.wikipedia.org/wiki/Improvised_explosive_device\">crude bombs</a> in <a href=\"https://en.wikipedia.org/wiki/Gopalganj_District,_Bangladesh\">Gopalganj District</a>, <a href=\"https://en.wikipedia.org/wiki/Bangladesh\">Bangladesh</a>.",
-     "id": "2026-11-23-be2e7abdf304",
-     "page": {
-      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_23&action=history",
-      "title": "Portal:Current events/2026 November 23",
-      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_23"
-     },
-     "sources": [
-      {
-       "name": "The Daily Star",
-       "url": "https://www.thedailystar.net/news/politics/news/clashes-over-awami-league-processions-gopalganj-leave-least-30-injured-4331701"
-      },
-      {
-       "name": "The Business Standard",
-       "url": "https://www.tbsnews.net/bangladesh/least-20-injured-clash-between-two-al-factions-gopalganj-1612076"
-      }
-     ],
-     "topics": [
-      {
-       "label": "Aftermath of the July Uprising",
-       "links": [
-        {
-         "label": "Aftermath of the July Uprising",
-         "url": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"
-        }
-       ],
-       "url": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"
-      }
-     ]
-    }
-   ],
-   "id": "2026-11-23-be2e7abdf304",
-   "image": {
-    "link": "https://www.thedailystar.net/news/crime-justice/news/15-injured-bnp-factions-clash-jhenaidah-4331446",
-    "source": "The Daily Star",
-    "url": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/Jhenaidah%20BNP%20factional%20clash%201.jpeg"
-   },
-   "more_articles": [],
-   "pub_date": "2026-11-23T00:00:00Z",
-   "title": "Aftermath of the July Uprising: At least 15 people are injured and 28 houses and shops are vandalised during clashes between rival Bangladesh Nationalist Party factions in Shailkupa Upazila, Jhenaidah District, Bangladesh. / At least 30 people are injured, eight seriously, and 12 shops are vandalised as rival factions of the banned Awami League clash in two separate incidents and detonate four crude bombs in Gopalganj…"
-  },
-  {
    "article": null,
    "categories": [
     "Disasters and accidents"
@@ -782,7 +1225,7 @@
    "headlines": [
     {
      "category": "Disasters and accidents",
-     "html": "Seven people are killed and two others are injured after a truck loaded with stones overturns onto a minitruck in <a href=\"https://en.wikipedia.org/wiki/Punjab,_Pakistan\">Punjab, Pakistan</a>.",
+     "html": "Seven people are killed and two others are injured after a truck loaded with stones overturns onto a minitruck in <a href=\"https://en.wikipedia.org/wiki/Bahawalpur_District\">Bahawalpur District</a>, <a href=\"https://en.wikipedia.org/wiki/Punjab,_Pakistan\">Punjab, Pakistan</a>.",
      "id": "2026-11-23-4ee569dc11e7",
      "page": {
       "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_23&action=history",
@@ -801,7 +1244,7 @@
    "id": "2026-11-23-4ee569dc11e7",
    "more_articles": [],
    "pub_date": "2026-11-23T00:00:00Z",
-   "title": "Seven people are killed and two others are injured after a truck loaded with stones overturns onto a minitruck in Punjab, Pakistan."
+   "title": "Seven people are killed and two others are injured after a truck loaded with stones overturns onto a minitruck in Bahawalpur District, Punjab, Pakistan."
   },
   {
    "article": {
@@ -1200,7 +1643,7 @@
    "headlines": [
     {
      "category": "Disasters and accidents",
-     "html": "At least twelve people are killed and 23 others are injured in two separate road accidents in <a href=\"https://en.wikipedia.org/wiki/Rajasthan\">Rajasthan</a>, <a href=\"https://en.wikipedia.org/wiki/India\">India</a>.",
+     "html": "At least twelve people are killed and 23 others are injured in two separate road accidents in <a href=\"https://en.wikipedia.org/wiki/Kota_district\">Kota district</a>, <a href=\"https://en.wikipedia.org/wiki/Rajasthan\">Rajasthan</a>, <a href=\"https://en.wikipedia.org/wiki/India\">India</a>.",
      "id": "2026-11-22-58fc39a5b835",
      "page": {
       "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_22&action=history",
@@ -1219,7 +1662,7 @@
    "id": "2026-11-22-58fc39a5b835",
    "more_articles": [],
    "pub_date": "2026-11-22T23:39:34Z",
-   "title": "At least twelve people are killed and 23 others are injured in two separate road accidents in Rajasthan, India."
+   "title": "At least twelve people are killed and 23 others are injured in two separate road accidents in Kota district, Rajasthan, India."
   },
   {
    "article": null,
@@ -1483,7 +1926,7 @@
   },
   {
    "article": {
-    "extract": "Grand Theft Auto VI is a 2026 action-adventure game developed and published by Rockstar Games. It is the eighth main entry in the Grand Theft Auto series, following 2013's Grand Theft Auto V, and the sixteenth entry overall.",
+    "extract": "Grand Theft Auto VI is a 2026 action-adventure game developed and published by Rockstar Games. It is the eighth main entry in the Grand Theft Auto series, following Grand Theft Auto V (2013), and the sixteenth entry overall.",
     "title": "Grand Theft Auto VI",
     "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI"
    },
@@ -1510,6 +1953,57 @@
    "more_articles": [],
    "pub_date": "2026-11-22T10:14:34Z",
    "title": "The video game Grand Theft Auto VI achieves US$3.79 billion in sales on its launch day, more than any other entertainment product in history."
+  },
+  {
+   "article": {
+    "extract": "Since April 2023, there has been a civil war in Sudan between the two main factions of the country's military government. The conflict involves the internationally recognized government of Sudan led by the Sudanese Armed Forces (SAF), under General Abdel Fattah al-Burhan; against the rival Government of Peace and Unity led by the Rapid Support Forces (RSF) paramilitary group, commanded by General Hemedti (Muhammad Hamdan Dagalo Musa).",
+    "location": "Sudan (with spillovers into Libya, Egypt, Ethiopia, Chad, South Sudan and Central African Republic)",
+    "title": "Sudanese civil war (2023–present)",
+    "url": "https://en.wikipedia.org/wiki/Sudanese_civil_war_(2023%E2%80%93present)"
+   },
+   "categories": [
+    "Armed conflicts and attacks"
+   ],
+   "group": "2026-11-22-52d81d752b6a",
+   "headlines": [
+    {
+     "category": "Armed conflicts and attacks",
+     "html": "Four people are killed, nine others are wounded, and a <a href=\"https://en.wikipedia.org/wiki/United_Nations\">United Nations</a> building is damaged in <a href=\"https://en.wikipedia.org/wiki/Drone_attacks\">drone attacks</a> in <a href=\"https://en.wikipedia.org/wiki/Omdurman\">Omdurman</a>, <a href=\"https://en.wikipedia.org/wiki/Sudan\">Sudan</a>.",
+     "id": "2026-11-22-52d81d752b6a",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_22&action=history",
+      "title": "Portal:Current events/2026 November 22",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22"
+     },
+     "sources": [
+      {
+       "name": "AFP via Genocide Watch",
+       "url": "https://www.genocidewatch.com/single-post/drone-attacks-kill-four-near-sudan-s-capital"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Sudanese civil war",
+       "links": [
+        {
+         "label": "Sudanese civil war",
+         "url": "https://en.wikipedia.org/wiki/Sudanese_civil_war_(2023%E2%80%93present)"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Sudanese_civil_war_(2023%E2%80%93present)"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-22-52d81d752b6a",
+   "image": {
+    "link": "https://www.genocidewatch.com/single-post/drone-attacks-kill-four-near-sudan-s-capital",
+    "source": "AFP via Genocide Watch",
+    "url": "https://static.wixstatic.com/media/99d73a_896965c859fe48d6b4a516744de79f42~mv2.webp/v1/fill/w_770,h_513,al_c,q_85/99d73a_896965c859fe48d6b4a516744de79f42~mv2.webp"
+   },
+   "more_articles": [],
+   "pub_date": "2026-11-22T00:00:00Z",
+   "title": "Sudanese civil war: Four people are killed, nine others are wounded, and a United Nations building is damaged in drone attacks in Omdurman, Sudan."
   },
   {
    "article": {
@@ -1975,7 +2469,7 @@
   },
   {
    "article": {
-    "extract": "The 2026 Co-op Live incident occurred on 22 November 2026 at Co-op Live, an indoor arena in Manchester, England, during a concert of American rapper Don Toliver. An \"unknown substance\", initially believed by police to be tear gas, was released in the crowd, causing some attendees to experience eye and respiratory symptoms.",
+    "extract": "An incident occurred on 22 November 2026 at Co-op Live, an indoor arena in Manchester, England, during a concert of American rapper Don Toliver. An \"unknown substance\", initially believed by police to be tear gas, was released in the crowd, causing some attendees to experience eye and respiratory symptoms.",
     "location": "53°29′15″N 2°12′02″W﻿ / ﻿53.4876°N 2.2005°W; Co-op Live, Manchester, England",
     "title": "2026 Co-op Live incident",
     "url": "https://en.wikipedia.org/wiki/2026_Co-op_Live_incident"
@@ -2974,7 +3468,7 @@
   },
   {
    "article": {
-    "extract": "The exploration of Mercury has been limited, making it the least explored of the inner planets. It began with the Mariner 10 flybys in 1974 and 1975, continued with the MESSENGER orbiter from 2011 to 2015, and is set to advance with the BepiColombo mission, which is scheduled to enter orbit in November 2026.",
+    "extract": "The exploration of Mercury has been limited, making it the least explored of the inner planets. It began with the Mariner 10 flybys in 1974 and 1975, continued with the MESSENGER orbiter from 2011 to 2015, and advanced with the BepiColombo mission, which entered orbit in November 2026.",
     "title": "Exploration of Mercury",
     "url": "https://en.wikipedia.org/wiki/Exploration_of_Mercury"
    },
@@ -4105,6 +4599,41 @@
    "title": "Corruption in Mongolia: The State Great Khural accepts the resignation of Mongolian president Ukhnaagiin Khürelsükh."
   },
   {
+   "article": null,
+   "categories": [
+    "Politics and elections"
+   ],
+   "group": "2026-11-19-c27beb6ef803",
+   "headlines": [
+    {
+     "category": "Politics and elections",
+     "html": "<a href=\"https://en.wikipedia.org/wiki/Aleksandar_%C4%8Cupi%C4%87\">Aleksandar Čupić</a> is elected <a href=\"https://en.wikipedia.org/wiki/President_of_the_National_Assembly_of_Serbia\">president of the National Assembly</a>, thus becoming the new acting <a href=\"https://en.wikipedia.org/wiki/President_of_Serbia\">President of Serbia</a>, succeeding <a href=\"https://en.wikipedia.org/wiki/Ana_Brnabi%C4%87\">Ana Brnabić</a>.",
+     "id": "2026-11-19-c27beb6ef803",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_19&action=history",
+      "title": "Portal:Current events/2026 November 19",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_19"
+     },
+     "sources": [
+      {
+       "name": "Los Angeles Times",
+       "url": "https://www.latimes.com/world-nation/story/2026-11-19/university-lecturer-from-serbias-student-led-movement-is-elected-parliament-speaker"
+      }
+     ],
+     "topics": []
+    }
+   ],
+   "id": "2026-11-19-c27beb6ef803",
+   "image": {
+    "link": "https://www.latimes.com/world-nation/story/2026-11-19/university-lecturer-from-serbias-student-led-movement-is-elected-parliament-speaker",
+    "source": "Los Angeles Times",
+    "url": "https://ca-times.brightspotcdn.com/dims4/default/d676c76/2147483647/strip/true/crop/4133x2170+0+293/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fb8%2F3c%2F1a31d8f9ad9c5ee771a75b802001%2Fc3c520abab0a41d1b126cb7db7542a3e"
+   },
+   "more_articles": [],
+   "pub_date": "2026-11-19T00:00:00Z",
+   "title": "Aleksandar Čupić is elected president of the National Assembly, thus becoming the new acting President of Serbia, succeeding Ana Brnabić."
+  },
+  {
    "article": {
     "extract": "Since April 2023, there has been a civil war in Sudan between the two main factions of the country's military government. The conflict involves the internationally recognized government of Sudan led by the Sudanese Armed Forces (SAF), under General Abdel Fattah al-Burhan; against the rival Government of Peace and Unity led by the Rapid Support Forces (RSF) paramilitary group, commanded by General Hemedti (Muhammad Hamdan Dagalo Musa).",
     "location": "Sudan (with spillovers into Libya, Egypt, Ethiopia, Chad, South Sudan and Central African Republic)",
@@ -4266,7 +4795,7 @@
    },
    "more_articles": [
     {
-     "extract": "Grand Theft Auto VI is a 2026 action-adventure game developed and published by Rockstar Games. It is the eighth main entry in the Grand Theft Auto series, following 2013's Grand Theft Auto V, and the sixteenth entry overall.",
+     "extract": "Grand Theft Auto VI is a 2026 action-adventure game developed and published by Rockstar Games. It is the eighth main entry in the Grand Theft Auto series, following Grand Theft Auto V (2013), and the sixteenth entry overall.",
      "title": "Grand Theft Auto VI",
      "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI"
     },
@@ -28936,5 +29465,5 @@
    "title": "2026 U.S. Open Cup final: In association football, St. Louis City SC defeats Columbus Crew in a penalty shoot-out to win the U.S. Open Cup, earning the club its first trophy since beginning play in 2023."
   }
  ],
- "updated": "2026-11-24T17:54:20Z"
+ "updated": "2026-11-25T02:34:34Z"
 }
