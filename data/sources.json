@@ -183,6 +183,11 @@
    "image": "https://media.cnn.com/api/v1/images/stellar/prod/2026-10-06t160851z-1643276150-rc2sxna4xohv-rtrmadp-3-spain-politics-puigdemont.jpg?c=16x9&q=w_800,c_fill",
    "title": "Spanish court removes last hurdle to Catalan leader’s return from exile | CNN"
   },
+  "https://edition.cnn.com/2026/11/25/us/live-news/iowa-lead-azide-detonation": {
+   "description": "The US Army detonated several tons of bomb-making chemicals in southeast Iowa. Follow here for the latest.",
+   "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2306835116.jpg?c=16x9&q=w_800,c_fill",
+   "title": "Live updates: Army detonates tons of lead azide in Iowa | CNN"
+  },
   "https://edmontonjournal.com/sports/football/cfl/edmonton-elks/edmonton-elks-grey-cup-montreal-alouettes": {
    "description": "The Edmonton Elks pulled themselves up from the very bottom to win the team's 15th Grey Cup on Sunday against the Montreal Alouettes",
    "image": "https://smartcdn.gprod.postmedia.digital/edmontonjournal/wp-content/uploads/2026/11/grey_cup_celebration039.ca_306340259.jpg",
@@ -818,6 +823,12 @@
    "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6b010dd74d22-1795231191.jpg?resize=1200%2C675",
    "site": "Al Jazeera",
    "title": "Saudi-led coalition intercepts three Houthi missiles headed for Riyadh"
+  },
+  "https://www.aljazeera.com/news/2026/11/25/israeli-strike-kills-hamas-official-his-wife-and-children": {
+   "description": "Gaza's internal security director and his family are among seven Palestinians killed in one day by Israeli forces.",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-25T092857Z_670670454_RC2WUOAYSQUZ_RTRMADP_3_ISRAEL-PALESTINIANS-GAZA-1-1795606726.jpg?resize=1920%2C1440",
+   "site": "Al Jazeera",
+   "title": "Israeli strike in Gaza kills senior Hamas official, his wife and children"
   },
   "https://www.aljazeera.com/news/2026/11/3/explosions-hit-irans-qeshm-island-as-us-media-report-us-strikes-in-hormuz": {
    "description": "Several explosions heard on Qeshm Island and in Bandar Lengeh as US media report US military strikes in Hormuz.",
@@ -1897,6 +1908,12 @@
    "site": "Latin Times",
    "title": "Hegseth Proposes Joint Military Ops in Honduras, Warns U.S. Won't Cede Its 'Backyard'"
   },
+  "https://www.latintimes.com/unrwa-worker-killed-israeli-strike-gaza-water-well-601786": {
+   "description": "An Israeli airstrike killed UNRWA employee Adel al-Helo while he maintained a water well in Jabalia, according to UNRWA and local health officials; three others were wounded.",
+   "image": "https://d.latintimes.com/en/full/594455/gaza-city-strike-victims-funeral.jpg",
+   "site": "Latin Times",
+   "title": "UNRWA says staff member was killed while maintaining a water well in Jabalia during an Israeli airstrike"
+  },
   "https://www.lemonde.fr/en/france/article/2026/11/06/at-least-two-people-killed-after-bus-carrying-schoolchildren-crashes-in-france_6773528_7.html": {
    "description": "Transportation Minister Philippe Tabarot was traveling to the scene after a bus carrying schoolchildren veered off the road and crashed into a tree in eastern France on Friday morning.",
    "image": "https://img.lemde.fr/2026/11/06/0/0/5220/3480/1440/960/60/0/0c1929a_ftp-1-ttkoci79c3xa-5520462-01-06.jpg",
@@ -2401,6 +2418,12 @@
    "site": "The Business Standard",
    "title": "Wage Board postpones today's meeting on garment workers' minimum wages"
   },
+  "https://www.tbsnews.net/economy/rmg/police-fire-tear-gas-sound-grenades-garment-workers-block-dhaka-tangail-highway-1613231": {
+   "description": "The clashes took place after a new minimum wage of Tk17,000 was fixed, which represents a 36% increase from the existing minimum wage of Tk12,500.",
+   "image": "https://www.tbsnews.net/sites/default/files/styles/social_share/public/images/2026/11/25/gazipur_wednesday_highway.jpg",
+   "site": "The Business Standard",
+   "title": "RMG workers, cops clash in Gazipur, Savar after new wage fixed, 60 factories declare holiday"
+  },
   "https://www.tbsnews.net/economy/rmg/production-halted-481-garment-factories-amid-minimum-wage-negotiations-1612891": {
    "description": "Factory owners proposed a minimum monthly wage of Tk15,700, against workers' demand for Tk22,000.",
    "image": "https://www.tbsnews.net/sites/default/files/styles/social_share/public/images/2026/11/04/factory-closure_0.jpg",
@@ -2424,6 +2447,12 @@
    "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/measles-final.jpg",
    "site": "The Daily Star",
    "title": "Eight more die with measles-like symptoms"
+  },
+  "https://www.thedailystar.net/news/bangladesh/news/new-rmg-pay-scale-minimum-wage-set-tk-17k-after-vote-4332751": {
+   "description": "The new minimum wage for garment workers has been set at Tk 17,000, following a vote of the members of the wage board.",
+   "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/RMG-worker1.jpg",
+   "site": "The Daily Star",
+   "title": "New RMG pay scale: Minimum wage set at Tk 17k after vote"
   },
   "https://www.thedailystar.net/news/crime-justice/news/15-injured-bnp-factions-clash-jhenaidah-4331446": {
    "description": "Police say violence stemmed from dispute over local dominance",
@@ -2467,11 +2496,23 @@
    "site": "The Daily Star",
    "title": "50 factories in Savar, Ashulia declare holidays amid wage protests"
   },
+  "https://www.thedailystar.net/news/news/87-garment-factories-shut-amid-protests-gazipur-savar-ashulia-4332861": {
+   "description": "Workers block Dhaka-Mymensingh highway, stage work stoppages demanding higher wages",
+   "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/factory%20closed%20%281%29_0.jpg",
+   "site": "The Daily Star",
+   "title": "140 garment factories closed in Gazipur, Savar, Ashulia amid wage protests"
+  },
   "https://www.thedailystar.net/news/news/bgb-deploys-101-platoons-dhaka-7-districts-4331806": {
    "description": "Surveillance beefed up at key installations and industrial areas",
    "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/bgb-deployed.jpg",
    "site": "The Daily Star",
    "title": "BGB deploys 101 platoons in Dhaka, 7 districts"
+  },
+  "https://www.thedailystar.net/news/news/bgb-deploys-108-platoons-eight-districts-4332856": {
+   "description": "Another four platoons kept on standby to maintain law and order",
+   "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/bgb%20%281%29_0_0.jpg",
+   "site": "The Daily Star",
+   "title": "BGB deploys 108 platoons in eight districts"
   },
   "https://www.thedailystar.net/news/news/bgb-deploys-96-platoons-seven-districts-4327946": {
    "description": "Five more kept on standby to deal with any untoward situation",
@@ -2520,12 +2561,6 @@
    "image": "https://i.guim.co.uk/img/media/dd139e0696a494665b7aa4358ff2cd286e480999/407_0_4073_3258/master/4073.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=2718db805236c4dcb9fb7a9a2c029e9e",
    "site": "the Guardian",
    "title": "‘Disgusted by it’: body of Melbourne Cup race horse found dumped in Sydney skip bin"
-  },
-  "https://www.theguardian.com/australia-news/2026/nov/25/beau-lamarre-condon-trial-verdict-former-police-officer-jesse-baird-luke-davies-ntwnfb": {
-   "description": "Jury finds former police officer guilty of killing couple in Baird’s Sydney home in 2024",
-   "image": "https://i.guim.co.uk/img/media/ebfc885f7db8935002487a469a0f9baba836690e/262_168_2337_1870/master/2337.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e16d87a17e4dcb69a3b4e1cb03b120ce",
-   "site": "the Guardian",
-   "title": "Beau Lamarre-Condon found guilty of murdering Jesse Baird and Luke Davies"
   },
   "https://www.theguardian.com/australia-news/2026/oct/25/western-sydney-international-airport-wsi-open-airlines-flights-cost-transport-history": {
    "description": "Some 60km from the CBD and in operation for 24 hours a day, Sydney’s second airport, opening to passengers on Sunday, cost $5.3bn",

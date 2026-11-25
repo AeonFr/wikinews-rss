@@ -6,16 +6,21 @@
  "retention_days": 183,
  "stories": [
   {
-   "article": null,
+   "article": {
+    "extract": "The Gaza war is an armed conflict in the Gaza Strip and Israel, fought as part of the unresolved Israeli–Palestinian and Gaza–Israel conflicts. The war began on 7 October 2023, when Palestinian militant group Hamas led an attack on Israel, in which 1,195 Israelis and foreign nationals were killed and 251 were taken hostage.",
+    "location": "Gaza Strip and Israel",
+    "title": "Gaza war",
+    "url": "https://en.wikipedia.org/wiki/Gaza_war"
+   },
    "categories": [
-    "Law and crime"
+    "Armed conflicts and attacks"
    ],
-   "group": "2026-11-25-90bcf2e6daac",
+   "group": "2026-11-25-e1dea5c443f0",
    "headlines": [
     {
-     "category": "Law and crime",
-     "html": "Beau Lamarre-Condon is found guilty of the 2024 murder of Australian television presenter <a href=\"https://en.wikipedia.org/wiki/Jesse_Baird\">Jesse Baird</a> and his partner Luke Davies.",
-     "id": "2026-11-25-90bcf2e6daac",
+     "category": "Armed conflicts and attacks",
+     "html": "At least seven people, including a senior <a href=\"https://en.wikipedia.org/wiki/Hamas\">Hamas</a> security official, his wife, and two daughters, are killed in an <a href=\"https://en.wikipedia.org/wiki/Israel\">Israeli</a> airstrike on the <a href=\"https://en.wikipedia.org/wiki/Al-Shati_refugee_camp\">Al-Shati refugee camp</a> near <a href=\"https://en.wikipedia.org/wiki/Gaza_City\">Gaza City</a> in the <a href=\"https://en.wikipedia.org/wiki/Gaza_Strip\">Gaza Strip</a>.",
+     "id": "2026-11-25-e1dea5c443f0",
      "page": {
       "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
       "title": "Portal:Current events/2026 November 25",
@@ -23,22 +28,292 @@
      },
      "sources": [
       {
-       "name": "The Guardian",
-       "url": "https://www.theguardian.com/australia-news/2026/nov/25/beau-lamarre-condon-trial-verdict-former-police-officer-jesse-baird-luke-davies-ntwnfb"
+       "name": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/25/israeli-strike-kills-hamas-official-his-wife-and-children"
       }
      ],
+     "topics": [
+      {
+       "label": "Gaza war, Gaza genocide",
+       "links": [
+        {
+         "label": "Gaza war",
+         "url": "https://en.wikipedia.org/wiki/Gaza_war"
+        },
+        {
+         "label": "Gaza genocide",
+         "url": "https://en.wikipedia.org/wiki/Gaza_genocide"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Gaza_war"
+      },
+      {
+       "label": "Al-Shati refugee camp airstrikes",
+       "links": [
+        {
+         "label": "Al-Shati refugee camp airstrikes",
+         "url": "https://en.wikipedia.org/wiki/Al-Shati_refugee_camp_airstrikes"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Al-Shati_refugee_camp_airstrikes"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-25-e1dea5c443f0",
+   "image": {
+    "link": "https://www.aljazeera.com/news/2026/11/25/israeli-strike-kills-hamas-official-his-wife-and-children",
+    "source": "Al Jazeera",
+    "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-25T092857Z_670670454_RC2WUOAYSQUZ_RTRMADP_3_ISRAEL-PALESTINIANS-GAZA-1-1795606726.jpg?resize=1920%2C1440"
+   },
+   "more_articles": [
+    {
+     "extract": "The Gaza genocide is the ongoing, intentional, and systematic destruction of the Palestinian people in the Gaza Strip carried out by Israel during the Gaza war. It encompasses mass killings, including the targeted killing of children (who account for 30% of those killed), deliberate starvation, infliction of serious bodily and mental harm, and prevention of births.",
+     "location": "Israeli-occupied Gaza Strip (Palestine)",
+     "title": "Gaza genocide",
+     "url": "https://en.wikipedia.org/wiki/Gaza_genocide"
+    },
+    {
+     "extract": "On 9 October 2023, during the Gaza war, the Israel Defense Forces (IDF) conducted an airstrike on al-Shati refugee camp in the Gaza Strip, destroying four mosques. According to Palestinian media, the attack killed people inside.",
+     "location": "Al-Shati camp, Gaza Strip; 31°31′55.91″N 34°26′43.42″E﻿ / ﻿31.5321972°N 34.4453944°E",
+     "title": "Al-Shati refugee camp airstrikes",
+     "url": "https://en.wikipedia.org/wiki/Al-Shati_refugee_camp_airstrikes"
+    }
+   ],
+   "pub_date": "2026-11-25T17:22:13Z",
+   "title": "Al-Shati refugee camp airstrikes: At least seven people, including a senior Hamas security official, his wife, and two daughters, are killed in an Israeli airstrike on the Al-Shati refugee camp near Gaza City in the Gaza Strip."
+  },
+  {
+   "article": {
+    "extract": "A series of labour demonstrations organized by workers in the ready-made garment industry have taken place in Bangladesh, demanding an increase in the sector's minimum monthly wage from ৳12,500 (US$100) to ৳30,000 (US$240). Began in August 2026, the protests escalated in late-October and early-November 2026 in the industrial areas of Ashulia, Gazipur and Dhaka.",
+    "location": "Greater Dhaka, Bangladesh",
+    "title": "2026 Bangladesh garment workers protests",
+    "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"
+   },
+   "categories": [
+    "Business and economy"
+   ],
+   "group": "2026-11-25-0043cadd82e5",
+   "headlines": [
+    {
+     "category": "Business and economy",
+     "html": "At least 140 <a href=\"https://en.wikipedia.org/wiki/Textile_industry_in_Bangladesh\">garment factories</a> close across <a href=\"https://en.wikipedia.org/wiki/Gazipur_District\">Gazipur</a>, <a href=\"https://en.wikipedia.org/wiki/Savar_Upazila\">Savar</a>, and <a href=\"https://en.wikipedia.org/wiki/Ashulia\">Ashulia</a>, after workers reject the newly announced <a href=\"https://en.wikipedia.org/wiki/Minimum_wage\">minimum wage</a> as insufficient, blocking the <a href=\"https://en.wikipedia.org/wiki/N3_(Bangladesh)\">Dhaka–Mymensingh</a> and <a href=\"https://en.wikipedia.org/wiki/N4_(Bangladesh)\">Dhaka–Tangail</a> highways and clashing with <a href=\"https://en.wikipedia.org/wiki/Bangladesh_Police\">police</a> firing <a href=\"https://en.wikipedia.org/wiki/Tear_gas\">tear gas</a> and <a href=\"https://en.wikipedia.org/wiki/Stun_grenade\">stun grenades</a>.",
+     "id": "2026-11-25-f11728c995c9",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
+      "title": "Portal:Current events/2026 November 25",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"
+     },
+     "sources": [
+      {
+       "name": "The Business Standard",
+       "url": "https://www.tbsnews.net/economy/rmg/police-fire-tear-gas-sound-grenades-garment-workers-block-dhaka-tangail-highway-1613231"
+      },
+      {
+       "name": "The Daily Star",
+       "url": "https://www.thedailystar.net/news/news/87-garment-factories-shut-amid-protests-gazipur-savar-ashulia-4332861"
+      }
+     ],
+     "topics": [
+      {
+       "label": "2026 Bangladesh garment workers protests",
+       "links": [
+        {
+         "label": "2026 Bangladesh garment workers protests",
+         "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"
+      }
+     ]
+    },
+    {
+     "category": "Business and economy",
+     "html": "<a href=\"https://en.wikipedia.org/wiki/Bangladesh\">Bangladesh</a>'s <a href=\"https://en.wikipedia.org/wiki/Minimum_Wage_Board\">Minimum Wage Board</a> raises the monthly <a href=\"https://en.wikipedia.org/wiki/Minimum_wage\">minimum wage</a> for <a href=\"https://en.wikipedia.org/wiki/Textile_industry_in_Bangladesh\">garment workers</a> from <a href=\"https://en.wikipedia.org/wiki/Bangladeshi_taka\">৳</a>12,500 to ৳17,000 following a 4–2 vote, a decision rejected by <a href=\"https://en.wikipedia.org/wiki/Trade_union\">labour unions</a> demanding at least ৳18,000 amid nearly a month of <a href=\"https://en.wikipedia.org/wiki/Strike_action\">labour unrest</a> and hundreds of factory closures.",
+     "id": "2026-11-25-0043cadd82e5",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
+      "title": "Portal:Current events/2026 November 25",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"
+     },
+     "sources": [
+      {
+       "name": "The Daily Star",
+       "url": "https://www.thedailystar.net/news/bangladesh/news/new-rmg-pay-scale-minimum-wage-set-tk-17k-after-vote-4332751"
+      }
+     ],
+     "topics": [
+      {
+       "label": "2026 Bangladesh garment workers protests",
+       "links": [
+        {
+         "label": "2026 Bangladesh garment workers protests",
+         "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-25-0043cadd82e5",
+   "image": {
+    "link": "https://www.tbsnews.net/economy/rmg/police-fire-tear-gas-sound-grenades-garment-workers-block-dhaka-tangail-highway-1613231",
+    "source": "The Business Standard",
+    "url": "https://www.tbsnews.net/sites/default/files/styles/social_share/public/images/2026/11/25/gazipur_wednesday_highway.jpg"
+   },
+   "more_articles": [],
+   "pub_date": "2026-11-25T17:22:13Z",
+   "title": "2026 Bangladesh garment workers protests: At least 140 garment factories close across Gazipur, Savar, and Ashulia, after workers reject the newly announced minimum wage as insufficient, blocking the Dhaka–Mymensingh and Dhaka–Tangail… / Bangladesh's Minimum Wage Board raises the monthly minimum wage for garment workers from ৳12,500 to ৳17,000 following a 4–2 vote, a decision rejected by labour unions demanding at least ৳18,000 amid…"
+  },
+  {
+   "article": {
+    "extract": "At exactly 9:00 am CST (15:00 UTC) on November 25, 2026, the United States Army detonated approximately 9,500 pounds (4,300 kg) of lead azide stored at the Iowa Army Ammunition Plant near Middletown, Iowa. The material detonated consisted of 68 drums of lead azide, a primary explosive used to initiate munitions.",
+    "location": "Middletown, Iowa, United States",
+    "map": {
+     "height": 200,
+     "url": "https://maps.wikimedia.org/img/osm-intl,8,40.790556,-91.244722,270x200.png?lang=en&domain=en.wikipedia.org&title=Iowa_lead_azide_detonation&groups=_1d9f262a8501f4d17aa298a6a132d2496af3f54f&parser=legacy",
+     "url2x": "https://maps.wikimedia.org/img/osm-intl,8,40.790556,-91.244722,270x200@2x.png?lang=en&domain=en.wikipedia.org&title=Iowa_lead_azide_detonation&groups=_1d9f262a8501f4d17aa298a6a132d2496af3f54f&parser=legacy",
+     "width": 270
+    },
+    "title": "Iowa lead azide detonation",
+    "url": "https://en.wikipedia.org/wiki/Iowa_lead_azide_detonation"
+   },
+   "categories": [
+    "Health and environment"
+   ],
+   "group": "2026-11-25-2d65dd66a77b",
+   "headlines": [
+    {
+     "category": "Health and environment",
+     "html": "The <a href=\"https://en.wikipedia.org/wiki/United_States_Army\">United States Army</a> detonates nearly 5 tons of degrading <a href=\"https://en.wikipedia.org/wiki/Lead_azide\">lead azide</a> at the <a href=\"https://en.wikipedia.org/wiki/Iowa_Army_Ammunition_Plant\">Iowa Army Ammunition Plant</a> in <a href=\"https://en.wikipedia.org/wiki/Middletown,_Iowa\">Middletown</a>, <a href=\"https://en.wikipedia.org/wiki/Iowa\">Iowa</a>.",
+     "id": "2026-11-25-2d65dd66a77b",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
+      "title": "Portal:Current events/2026 November 25",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"
+     },
+     "sources": [
+      {
+       "name": "CNN",
+       "url": "https://edition.cnn.com/2026/11/25/us/live-news/iowa-lead-azide-detonation"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Iowa lead azide detonation",
+       "links": [
+        {
+         "label": "Iowa lead azide detonation",
+         "url": "https://en.wikipedia.org/wiki/Iowa_lead_azide_detonation"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Iowa_lead_azide_detonation"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-25-2d65dd66a77b",
+   "image": {
+    "link": "https://edition.cnn.com/2026/11/25/us/live-news/iowa-lead-azide-detonation",
+    "source": "CNN",
+    "url": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2306835116.jpg?c=16x9&q=w_800,c_fill"
+   },
+   "more_articles": [],
+   "pub_date": "2026-11-25T17:22:13Z",
+   "title": "Iowa lead azide detonation: The United States Army detonates nearly 5 tons of degrading lead azide at the Iowa Army Ammunition Plant in Middletown, Iowa."
+  },
+  {
+   "article": {
+    "extract": "Significant political, constitutional, and social changes in Bangladesh followed the July Uprising of 2024 and the resignation of Prime Minister Sheikh Hasina. The uprising was initially sparked by widespread public protests and calls for reform, led to major changes in Bangladesh's political landscape.",
+    "location": "Bangladesh (with spillovers in India)",
+    "title": "Aftermath of the July Uprising",
+    "url": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"
+   },
+   "categories": [
+    "Law and crime"
+   ],
+   "group": "2026-11-25-c646c6118ab7",
+   "headlines": [
+    {
+     "category": "Law and crime",
+     "html": "<a href=\"https://en.wikipedia.org/wiki/Border_Guard_Bangladesh\">Border Guard Bangladesh</a> deploys 108 <a href=\"https://en.wikipedia.org/wiki/Platoon\">platoons</a> across <a href=\"https://en.wikipedia.org/wiki/Dhaka\">Dhaka</a> and seven other districts, including 56 in <a href=\"https://en.wikipedia.org/wiki/Gopalganj_District,_Bangladesh\">Gopalganj</a>, under instructions from the <a href=\"https://en.wikipedia.org/wiki/Ministry_of_Home_Affairs_(Bangladesh)\">Ministry of Home Affairs</a> to step up surveillance at key installations and industrial zones.",
+     "id": "2026-11-25-c646c6118ab7",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
+      "title": "Portal:Current events/2026 November 25",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"
+     },
+     "sources": [
+      {
+       "name": "The Daily Star",
+       "url": "https://www.thedailystar.net/news/news/bgb-deploys-108-platoons-eight-districts-4332856"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Aftermath of the July Uprising, 2026 Bangladesh garment workers protests",
+       "links": [
+        {
+         "label": "Aftermath of the July Uprising",
+         "url": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"
+        },
+        {
+         "label": "2026 Bangladesh garment workers protests",
+         "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-25-c646c6118ab7",
+   "image": {
+    "link": "https://www.thedailystar.net/news/news/bgb-deploys-108-platoons-eight-districts-4332856",
+    "source": "The Daily Star",
+    "url": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/bgb%20%281%29_0_0.jpg"
+   },
+   "more_articles": [
+    {
+     "extract": "A series of labour demonstrations organized by workers in the ready-made garment industry have taken place in Bangladesh, demanding an increase in the sector's minimum monthly wage from ৳12,500 (US$100) to ৳30,000 (US$240). Began in August 2026, the protests escalated in late-October and early-November 2026 in the industrial areas of Ashulia, Gazipur and Dhaka.",
+     "location": "Greater Dhaka, Bangladesh",
+     "title": "2026 Bangladesh garment workers protests",
+     "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"
+    }
+   ],
+   "pub_date": "2026-11-25T17:22:13Z",
+   "title": "Aftermath of the July Uprising, 2026 Bangladesh garment workers protests: Border Guard Bangladesh deploys 108 platoons across Dhaka and seven other districts, including 56 in Gopalganj, under instructions from the Ministry of Home Affairs to step up surveillance at key…"
+  },
+  {
+   "article": {
+    "extract": "The 2025 Africa Cup of Nations final was a football match played on 18 January 2026 at the Prince Moulay Abdellah Stadium in Rabat, Morocco. It determined the winners of the 2025 Africa Cup of Nations (AFCON), the 35th edition of the biennial African tournament organised by the Confederation of African Football (CAF), and was contested between Senegal and hosts Morocco.",
+    "title": "2025 Africa Cup of Nations final",
+    "url": "https://en.wikipedia.org/wiki/2025_Africa_Cup_of_Nations_final"
+   },
+   "categories": [
+    "Topics in the news"
+   ],
+   "group": "topic-eca1d3a6d08a",
+   "headlines": [
+    {
+     "category": "Topics in the news",
+     "html": "In association football, the <a href=\"https://en.wikipedia.org/wiki/Court_of_Arbitration_for_Sport\">Court of Arbitration for Sport</a> restores <a href=\"https://en.wikipedia.org/wiki/Senegal_national_football_team\">Senegal</a> as the winner of the <b><a href=\"https://en.wikipedia.org/wiki/2025_Africa_Cup_of_Nations_final\">2025 Africa Cup of Nations final</a></b>, overturning the <a href=\"https://en.wikipedia.org/wiki/Confederation_of_African_Football\">Confederation of African Football</a>'s decision to declare <a href=\"https://en.wikipedia.org/wiki/Morocco_national_football_team\">Morocco</a> as the winner of the tournament.",
+     "id": "topic-eca1d3a6d08a",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events&action=history",
+      "title": "Portal:Current events",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events"
+     },
+     "sources": [],
      "topics": []
     }
    ],
-   "id": "2026-11-25-90bcf2e6daac",
-   "image": {
-    "link": "https://www.theguardian.com/australia-news/2026/nov/25/beau-lamarre-condon-trial-verdict-former-police-officer-jesse-baird-luke-davies-ntwnfb",
-    "source": "The Guardian",
-    "url": "https://i.guim.co.uk/img/media/ebfc885f7db8935002487a469a0f9baba836690e/262_168_2337_1870/master/2337.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e16d87a17e4dcb69a3b4e1cb03b120ce"
-   },
+   "id": "topic-eca1d3a6d08a",
+   "kind": "topic",
    "more_articles": [],
-   "pub_date": "2026-11-25T02:34:34Z",
-   "title": "Beau Lamarre-Condon is found guilty of the 2024 murder of Australian television presenter Jesse Baird and his partner Luke Davies."
+   "pub_date": "2026-11-25T17:22:13Z",
+   "title": "In association football, the Court of Arbitration for Sport restores Senegal as the winner of the 2025 Africa Cup of Nations final, overturning the Confederation of African Football's decision to…"
   },
   {
    "article": {
@@ -221,7 +496,7 @@
    "headlines": [
     {
      "category": "Sports",
-     "html": "In <a href=\"https://en.wikipedia.org/wiki/Association_football\">association football</a>, the <a href=\"https://en.wikipedia.org/wiki/Court_of_Arbitration_for_Sport\">Court of Arbitration for Sport</a> rules in favor of <a href=\"https://en.wikipedia.org/wiki/Senegalese_Football_Federation\">Senegal</a> against <a href=\"https://en.wikipedia.org/wiki/Royal_Moroccan_Football_Federation\">Morocco</a> and reverses the <a href=\"https://en.wikipedia.org/wiki/Confederation_of_African_Football\">Confederation of African Football's</a> controversial decision to overturn Senegal's 1–0 victory in the <a href=\"https://en.wikipedia.org/wiki/2025_Africa_Cup_of_Nations_final\">2025 Africa Cup of Nations final</a>.",
+     "html": "In <a href=\"https://en.wikipedia.org/wiki/Association_football\">association football</a>, the <a href=\"https://en.wikipedia.org/wiki/Court_of_Arbitration_for_Sport\">Court of Arbitration for Sport</a> rules in favor of the <a href=\"https://en.wikipedia.org/wiki/Senegalese_Football_Federation\">Senegalese Football Federation</a> and against the <a href=\"https://en.wikipedia.org/wiki/Confederation_of_African_Football\">Confederation of African Football</a>, and reverses the latter's controversial decision to overturn <a href=\"https://en.wikipedia.org/wiki/Senegal_national_football_team\">Senegal's</a> 1–0 victory against <a href=\"https://en.wikipedia.org/wiki/Morocco_national_football_team\">Morocco</a> in the <a href=\"https://en.wikipedia.org/wiki/2025_Africa_Cup_of_Nations_final\">2025 Africa Cup of Nations final</a>, thereby restoring Senegal as the 2025 Africa Cup of Nations champions.",
      "id": "2026-11-24-907a7f0fd592",
      "page": {
       "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_24&action=history",
@@ -260,11 +535,11 @@
    },
    "more_articles": [],
    "pub_date": "2026-11-24T17:54:20Z",
-   "title": "2025 Africa Cup of Nations: In association football, the Court of Arbitration for Sport rules in favor of Senegal against Morocco and reverses the Confederation of African Football's controversial decision to overturn Senegal's…"
+   "title": "2025 Africa Cup of Nations: In association football, the Court of Arbitration for Sport rules in favor of the Senegalese Football Federation and against the Confederation of African Football, and reverses the latter's…"
   },
   {
    "article": {
-    "extract": "Ukhnaagiin Khürelsükh (born 14 June 1968) is a Mongolian politician who served as the country's president from 2021 to 2026. He previously served as the prime minister from 2017 to 2021 and was elected to the Parliament of Mongolia four times – in 2000, 2004, 2012, and 2020.",
+    "extract": "Ukhnaagiin Khürelsükh (born 14 June 1968) is a Mongolian politician who served as President of Mongolia from 2021 to 2026. He previously served as Prime Minister of Mongolia from 2017 to 2021 and was elected to the Parliament of Mongolia four times – in 2000, 2004, 2012, and 2020.",
     "title": "Ukhnaagiin Khürelsükh",
     "url": "https://en.wikipedia.org/wiki/Ukhnaagiin_Kh%C3%BCrels%C3%BCkh"
    },
@@ -321,6 +596,51 @@
    "more_articles": [],
    "pub_date": "2026-11-24T17:54:20Z",
    "title": "The International Court of Justice rules that Myanmar has committed genocide against the Rohingya people."
+  },
+  {
+   "article": {
+    "extract": "Miss Universe 2026 was the 75th Miss Universe pageant, held at the José Miguel Agrelot Coliseum in San Juan, Puerto Rico, on 24 November 2026. The event was presented by R'Bonney Gabriel, Mario Lopez, Zuri Hall, and Dayanara Torres.",
+    "title": "Miss Universe 2026",
+    "url": "https://en.wikipedia.org/wiki/Miss_Universe_2026"
+   },
+   "categories": [
+    "Arts and culture"
+   ],
+   "group": "2026-11-24-b95a894b47d8",
+   "headlines": [
+    {
+     "category": "Arts and culture",
+     "html": "<a href=\"https://en.wikipedia.org/wiki/Jennifer_Barreto\">Jennifer Barreto</a> of <a href=\"https://en.wikipedia.org/wiki/Puerto_Rico\">Puerto Rico</a> is crowned <a href=\"https://en.wikipedia.org/wiki/Miss_Universe\">Miss Universe</a> in <a href=\"https://en.wikipedia.org/wiki/San_Juan\">San Juan</a>, Puerto Rico, becoming the sixth Puerto Rican woman, the first mother and married woman to win the title.",
+     "id": "2026-11-24-b95a894b47d8",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_24&action=history",
+      "title": "Portal:Current events/2026 November 24",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_24"
+     },
+     "sources": [
+      {
+       "name": "People",
+       "url": "https://people.com/miss-universe-2026-winner-jennifer-barreto-12267491"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Miss Universe 2026",
+       "links": [
+        {
+         "label": "Miss Universe 2026",
+         "url": "https://en.wikipedia.org/wiki/Miss_Universe_2026"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Miss_Universe_2026"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-24-b95a894b47d8",
+   "more_articles": [],
+   "pub_date": "2026-11-24T00:00:00Z",
+   "title": "Miss Universe 2026: Jennifer Barreto of Puerto Rico is crowned Miss Universe in San Juan, Puerto Rico, becoming the sixth Puerto Rican woman, the first mother and married woman to win the title."
   },
   {
    "article": {
@@ -584,7 +904,7 @@
    "headlines": [
     {
      "category": "Law and crime",
-     "html": "Armed men in <a href=\"https://en.wikipedia.org/wiki/Cartagena,_Colombia\">Cartagena, Colombia</a> took 25 people hostage in a <a href=\"https://en.wikipedia.org/wiki/Supermarket\">supermarket</a> after a failed armored-car robbery.",
+     "html": "Twenty people are rescued after a <a href=\"https://en.wikipedia.org/wiki/Hostage\">hostage-taking</a> at a supermarket by armed men in <a href=\"https://en.wikipedia.org/wiki/Cartagena,_Colombia\">Cartagena</a>, <a href=\"https://en.wikipedia.org/wiki/Colombia\">Colombia</a>, after a failed <a href=\"https://en.wikipedia.org/wiki/Armored_car_(military)\">armored-car</a> robbery. One assailant is killed by security forces, while the others are arrested.",
      "id": "2026-11-24-a5b813d0c298",
      "page": {
       "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_24&action=history",
@@ -593,7 +913,7 @@
      },
      "sources": [
       {
-       "name": "Aliazeera",
+       "name": "Al Jazeera",
        "url": "https://www.aljazeera.com/amp/news/2026/11/24/hostage-situation-reported-in-colombia-as-armed-men-flee-into-supermarket"
       }
      ],
@@ -603,12 +923,12 @@
    "id": "2026-11-24-a5b813d0c298",
    "image": {
     "link": "https://www.aljazeera.com/amp/news/2026/11/24/hostage-situation-reported-in-colombia-as-armed-men-flee-into-supermarket",
-    "source": "Aliazeera",
+    "source": "Al Jazeera",
     "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6b05e778013d-1795549048.jpg?resize=1920%2C1440"
    },
    "more_articles": [],
    "pub_date": "2026-11-24T00:00:00Z",
-   "title": "Armed men in Cartagena, Colombia took 25 people hostage in a supermarket after a failed armored-car robbery."
+   "title": "Twenty people are rescued after a hostage-taking at a supermarket by armed men in Cartagena, Colombia, after a failed armored-car robbery."
   },
   {
    "article": {
@@ -850,6 +1170,113 @@
   },
   {
    "article": {
+    "extract": "The Gaza war is an armed conflict in the Gaza Strip and Israel, fought as part of the unresolved Israeli–Palestinian and Gaza–Israel conflicts. The war began on 7 October 2023, when Palestinian militant group Hamas led an attack on Israel, in which 1,195 Israelis and foreign nationals were killed and 251 were taken hostage.",
+    "location": "Gaza Strip and Israel",
+    "title": "Gaza war",
+    "url": "https://en.wikipedia.org/wiki/Gaza_war"
+   },
+   "categories": [
+    "Armed conflicts and attacks"
+   ],
+   "group": "2026-11-23-f7e09112ac64",
+   "headlines": [
+    {
+     "category": "Armed conflicts and attacks",
+     "html": "An <a href=\"https://en.wikipedia.org/wiki/Israel\">Israeli</a> airstrike kills a <a href=\"https://en.wikipedia.org/wiki/UNRWA\">UNRWA</a> employee and injures three other people in the <a href=\"https://en.wikipedia.org/wiki/Jabalia_refugee_camp\">Jabalia refugee camp</a> in the <a href=\"https://en.wikipedia.org/wiki/Gaza_Strip\">Gaza Strip</a>.",
+     "id": "2026-11-23-f7e09112ac64",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_23&action=history",
+      "title": "Portal:Current events/2026 November 23",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_23"
+     },
+     "sources": [
+      {
+       "name": "The Latin Times",
+       "url": "https://www.latintimes.com/unrwa-worker-killed-israeli-strike-gaza-water-well-601786"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Gaza war, UNRWA and Israel",
+       "links": [
+        {
+         "label": "Gaza war",
+         "url": "https://en.wikipedia.org/wiki/Gaza_war"
+        },
+        {
+         "label": "UNRWA and Israel",
+         "url": "https://en.wikipedia.org/wiki/UNRWA_and_Israel"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Gaza_war"
+      },
+      {
+       "label": "Jabalia refugee camp airstrikes",
+       "links": [
+        {
+         "label": "Jabalia refugee camp airstrikes",
+         "url": "https://en.wikipedia.org/wiki/Jabalia_refugee_camp_airstrikes"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Jabalia_refugee_camp_airstrikes"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-23-f7e09112ac64",
+   "image": {
+    "link": "https://www.latintimes.com/unrwa-worker-killed-israeli-strike-gaza-water-well-601786",
+    "source": "The Latin Times",
+    "url": "https://d.latintimes.com/en/full/594455/gaza-city-strike-victims-funeral.jpg"
+   },
+   "more_articles": [
+    {
+     "extract": "The relationship between the United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA) and Israel is a feature of the Israeli–Palestinian conflict. For decades, UNRWA has faced Israeli allegations surrounding its neutrality.",
+     "title": "UNRWA and Israel",
+     "url": "https://en.wikipedia.org/wiki/UNRWA_and_Israel"
+    },
+    {
+     "extract": "From 9 October 2023, as part of the Gaza war, the Israel Defense Forces (IDF) has conducted airstrikes in Jabalia refugee camp, saying it was a stronghold for Hamas and other militant groups. In Jabalia camp, a densely populated region of Gaza, over sixty people were killed in airstrikes on 31 October, and much of the market was destroyed.",
+     "location": "31°32′14″N 34°29′47″E﻿ / ﻿31.53722°N 34.49639°E; Jabalia refugee camp, Gaza Strip",
+     "title": "Attacks on Jabalia refugee camp (2023–present)",
+     "url": "https://en.wikipedia.org/wiki/Attacks_on_Jabalia_refugee_camp_(2023%E2%80%93present)"
+    }
+   ],
+   "pub_date": "2026-11-23T00:00:00Z",
+   "title": "Jabalia refugee camp airstrikes: An Israeli airstrike kills a UNRWA employee and injures three other people in the Jabalia refugee camp in the Gaza Strip."
+  },
+  {
+   "article": null,
+   "categories": [
+    "Disasters and accidents"
+   ],
+   "group": "2026-11-23-bd43d80dd27b",
+   "headlines": [
+    {
+     "category": "Disasters and accidents",
+     "html": "Nine people are killed and 17 more are missing as a river overflows in <a href=\"https://en.wikipedia.org/wiki/Bogor\">Bogor</a>, <a href=\"https://en.wikipedia.org/wiki/West_Java\">West Java</a>, <a href=\"https://en.wikipedia.org/wiki/Indonesia\">Indonesia</a>, hitting with <a href=\"https://en.wikipedia.org/wiki/Flood\">floods</a> an <a href=\"https://en.wikipedia.org/wiki/Illegal_mining\">illegal</a> <a href=\"https://en.wikipedia.org/wiki/Gold_mining\">gold mine</a>.",
+     "id": "2026-11-23-bd43d80dd27b",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_23&action=history",
+      "title": "Portal:Current events/2026 November 23",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_23"
+     },
+     "sources": [
+      {
+       "name": "South China Morning Post",
+       "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375778/3-dead-23-trapped-indonesia-after-illegal-gold-mine-floods"
+      }
+     ],
+     "topics": []
+    }
+   ],
+   "id": "2026-11-23-bd43d80dd27b",
+   "more_articles": [],
+   "pub_date": "2026-11-23T00:00:00Z",
+   "title": "Nine people are killed and 17 more are missing as a river overflows in Bogor, West Java, Indonesia, hitting with floods an illegal gold mine."
+  },
+  {
+   "article": {
     "extract": "The Mexican drug war (Spanish: Guerra contra el narcotráfico en México) is an ongoing asymmetric armed conflict between the Mexican government and various drug trafficking syndicates. When the Mexican military intervened in 2006, the government's main objective was to reduce drug-related violence.",
     "location": "Latin America and the Caribbean",
     "title": "Mexican drug war",
@@ -1017,7 +1444,7 @@
     },
     {
      "category": "Armed conflicts and attacks",
-     "html": "At least 21 people are injured after a <a href=\"https://en.wikipedia.org/wiki/Car_bomb\">car bomb</a> explodes next to the <a href=\"https://en.wikipedia.org/wiki/Meta_Department\">Meta Department</a> Government building in downtown <a href=\"https://en.wikipedia.org/wiki/Villavicencio\">Villavicencio</a>, <a href=\"https://en.wikipedia.org/wiki/Colombia\">Colombia</a>.",
+     "html": "At least 21 people are injured after a <a href=\"https://en.wikipedia.org/wiki/Car_bomb\">car bomb</a> explodes next to the <a href=\"https://en.wikipedia.org/wiki/Meta_Department\">Meta Department</a> government building in downtown <a href=\"https://en.wikipedia.org/wiki/Villavicencio\">Villavicencio</a>, <a href=\"https://en.wikipedia.org/wiki/Colombia\">Colombia</a>.",
      "id": "2026-11-23-1206050935eb",
      "page": {
       "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_23&action=history",
@@ -1052,7 +1479,7 @@
    },
    "more_articles": [],
    "pub_date": "2026-11-23T00:00:00Z",
-   "title": "Colombian conflict: Three civilians are injured and 60 homes are damaged following a drone attack against a police station in Cúcuta. / At least 21 people are injured after a car bomb explodes next to the Meta Department Government building in downtown Villavicencio, Colombia."
+   "title": "Colombian conflict: Three civilians are injured and 60 homes are damaged following a drone attack against a police station in Cúcuta. / At least 21 people are injured after a car bomb explodes next to the Meta Department government building in downtown Villavicencio, Colombia."
   },
   {
    "article": {
@@ -1248,7 +1675,7 @@
   },
   {
    "article": {
-    "extract": "Since July 2026, mass protest movements arose across Europe. Major demonstrations were held across Albania, Belgium, Czechia, France, Germany, Georgia, Greece, Ireland, Italy, Poland, Portugal, Serbia, Spain and Ukraine, with minor demonstrations and strikes occurring in other countries.",
+    "extract": "Since July 2026, mass protest movements arose across Europe. Major demonstrations were held across Albania, Belgium, Czech Republic, France, Germany, Georgia, Greece, Ireland, Italy, Poland, Portugal, Serbia, Spain and Ukraine, with minor demonstrations and strikes occurring in other countries.",
     "location": "Europe",
     "title": "2026 European unrest",
     "url": "https://en.wikipedia.org/wiki/2026_European_unrest"
@@ -1952,6 +2379,7 @@
    "kind": "topic",
    "more_articles": [],
    "pub_date": "2026-11-22T10:14:34Z",
+   "retired": true,
    "title": "The video game Grand Theft Auto VI achieves US$3.79 billion in sales on its launch day, more than any other entertainment product in history."
   },
   {
@@ -2469,7 +2897,7 @@
   },
   {
    "article": {
-    "extract": "An incident occurred on 22 November 2026 at Co-op Live, an indoor arena in Manchester, England, during a concert of American rapper Don Toliver. An \"unknown substance\", initially believed by police to be tear gas, was released in the crowd, causing some attendees to experience eye and respiratory symptoms.",
+    "extract": "On 22 November 2026, an unidentified substance was released into the audience during a concert by American rapper Don Toliver at Co-op Live in Manchester, England. The incident occurred at approximately 22:00 GMT, near the end of the performance, and prompted reports of eye irritation, coughing, breathing difficulties and a burning sensation in the throat among attendees.",
     "location": "53°29′15″N 2°12′02″W﻿ / ﻿53.4876°N 2.2005°W; Co-op Live, Manchester, England",
     "title": "2026 Co-op Live incident",
     "url": "https://en.wikipedia.org/wiki/2026_Co-op_Live_incident"
@@ -3668,7 +4096,7 @@
   },
   {
    "article": {
-    "extract": "Since July 2026, mass protest movements arose across Europe. Major demonstrations were held across Albania, Belgium, Czechia, France, Germany, Georgia, Greece, Ireland, Italy, Poland, Portugal, Serbia, Spain and Ukraine, with minor demonstrations and strikes occurring in other countries.",
+    "extract": "Since July 2026, mass protest movements arose across Europe. Major demonstrations were held across Albania, Belgium, Czech Republic, France, Germany, Georgia, Greece, Ireland, Italy, Poland, Portugal, Serbia, Spain and Ukraine, with minor demonstrations and strikes occurring in other countries.",
     "location": "Europe",
     "title": "2026 European unrest",
     "url": "https://en.wikipedia.org/wiki/2026_European_unrest"
@@ -29465,5 +29893,5 @@
    "title": "2026 U.S. Open Cup final: In association football, St. Louis City SC defeats Columbus Crew in a penalty shoot-out to win the U.S. Open Cup, earning the club its first trophy since beginning play in 2023."
   }
  ],
- "updated": "2026-11-25T02:34:34Z"
+ "updated": "2026-11-25T17:22:13Z"
 }
