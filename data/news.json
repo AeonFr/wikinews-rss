@@ -7,10 +7,40 @@
  "stories": [
   {
    "article": {
-    "extract": "The Gaza war is an armed conflict in the Gaza Strip and Israel, fought as part of the unresolved Israeli–Palestinian and Gaza–Israel conflicts. The war began on 7 October 2023, when Palestinian militant group Hamas led an attack on Israel, in which 1,195 Israelis and foreign nationals were killed and 251 were taken hostage.",
-    "location": "Gaza Strip and Israel",
-    "title": "Gaza war",
-    "url": "https://en.wikipedia.org/wiki/Gaza_war"
+    "extract": "Sandagiin Byambatsogt (Mongolian: Сандагийн Бямбацогт; born 14 September 1974) is a Mongolian politician and public administration manager who has been the Chairman of the State Great Khural since 2026. He has served as a member of the State Great Khural since 2008, having been elected five times to the parliament.",
+    "title": "Sandagiin Byambatsogt",
+    "url": "https://en.wikipedia.org/wiki/Sandagiin_Byambatsogt"
+   },
+   "categories": [
+    "Topics in the news"
+   ],
+   "group": "topic-0158d0a788c2",
+   "headlines": [
+    {
+     "category": "Topics in the news",
+     "html": "<b><a href=\"https://en.wikipedia.org/wiki/Sandagiin_Byambatsogt\">Sandagiin Byambatsogt</a></b> becomes acting <a href=\"https://en.wikipedia.org/wiki/President_of_Mongolia\">president of Mongolia</a> after <b><a href=\"https://en.wikipedia.org/wiki/Ukhnaagiin_Kh%C3%BCrels%C3%BCkh\">Ukhnaagiin Khürelsükh</a></b> resigns amid corruption allegations.",
+     "id": "topic-0158d0a788c2",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events&action=history",
+      "title": "Portal:Current events",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events"
+     },
+     "sources": [],
+     "topics": []
+    }
+   ],
+   "id": "topic-0158d0a788c2",
+   "kind": "topic",
+   "more_articles": [],
+   "pub_date": "2026-11-26T01:49:12Z",
+   "title": "Sandagiin Byambatsogt becomes acting president of Mongolia after Ukhnaagiin Khürelsükh resigns amid corruption allegations."
+  },
+  {
+   "article": {
+    "extract": "The Middle East is currently experiencing an ongoing series of interrelated wars, conflicts, and heightened instability, triggered by the ongoing Gaza war and the genocide in Gaza. These have primarily consisted of conflicts between Israel and the United States on one side, and Iran and militias that form the \"Axis of Resistance\", which includes such groups as Hamas, Hezbollah, and the Houthis, on the other.",
+    "location": "Middle East",
+    "title": "Middle Eastern crisis (2023–present)",
+    "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
    },
    "categories": [
     "Armed conflicts and attacks"
@@ -19,7 +49,7 @@
    "headlines": [
     {
      "category": "Armed conflicts and attacks",
-     "html": "An <a href=\"https://en.wikipedia.org/wiki/Hamas\">Hamas</a> security official, his wife, and two daughters, are killed in an <a href=\"https://en.wikipedia.org/wiki/Israel\">Israeli</a> airstrike on the <a href=\"https://en.wikipedia.org/wiki/Al-Shati_refugee_camp\">Al-Shati refugee camp</a> near <a href=\"https://en.wikipedia.org/wiki/Gaza_City\">Gaza City</a> in the <a href=\"https://en.wikipedia.org/wiki/Gaza_Strip\">Gaza Strip</a>. Three more <a href=\"https://en.wikipedia.org/wiki/Palestinians\">Palestinians</a> are also killed and several injured in more Israeli airstrikes.",
+     "html": "A <a href=\"https://en.wikipedia.org/wiki/Hamas\">Hamas</a> security official, his wife, and two daughters, are killed in an <a href=\"https://en.wikipedia.org/wiki/Israel\">Israeli</a> <a href=\"https://en.wikipedia.org/wiki/Airstrike\">airstrike</a> on the <a href=\"https://en.wikipedia.org/wiki/Al-Shati_refugee_camp\">Al-Shati refugee camp</a> near <a href=\"https://en.wikipedia.org/wiki/Gaza_City\">Gaza City</a>. Seven more <a href=\"https://en.wikipedia.org/wiki/Palestinians\">Palestinians</a> are also killed and several injured in more Israeli airstrikes.",
      "id": "2026-11-25-e3445be79189",
      "page": {
       "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
@@ -30,9 +60,23 @@
       {
        "name": "Al Jazeera",
        "url": "https://www.aljazeera.com/news/2026/11/25/israeli-strike-kills-hamas-official-his-wife-and-children"
+      },
+      {
+       "name": "Al Jazeera 2",
+       "url": "https://aje.news/0x4p9q?update=5187000"
       }
      ],
      "topics": [
+      {
+       "label": "Middle Eastern crisis",
+       "links": [
+        {
+         "label": "Middle Eastern crisis",
+         "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
+      },
       {
        "label": "Gaza war, Gaza genocide",
        "links": [
@@ -58,6 +102,12 @@
    },
    "more_articles": [
     {
+     "extract": "The Gaza war is an armed conflict in the Gaza Strip and Israel, fought as part of the unresolved Israeli–Palestinian and Gaza–Israel conflicts. The war began on 7 October 2023, when Palestinian militant group Hamas led an attack on Israel, in which 1,195 Israelis and foreign nationals were killed and 251 were taken hostage.",
+     "location": "Gaza Strip and Israel",
+     "title": "Gaza war",
+     "url": "https://en.wikipedia.org/wiki/Gaza_war"
+    },
+    {
      "extract": "The Gaza genocide is the ongoing, intentional, and systematic destruction of the Palestinian people in the Gaza Strip carried out by Israel during the Gaza war. It encompasses mass killings, including the targeted killing of children (who account for 30% of those killed), deliberate starvation, infliction of serious bodily and mental harm, and prevention of births.",
      "location": "Israeli-occupied Gaza Strip (Palestine)",
      "title": "Gaza genocide",
@@ -65,7 +115,7 @@
     }
    ],
    "pub_date": "2026-11-25T18:12:36Z",
-   "title": "Gaza war, Gaza genocide: An Hamas security official, his wife, and two daughters, are killed in an Israeli airstrike on the Al-Shati refugee camp near Gaza City in the Gaza Strip."
+   "title": "Gaza war, Gaza genocide: A Hamas security official, his wife, and two daughters, are killed in an Israeli airstrike on the Al-Shati refugee camp near Gaza City."
   },
   {
    "article": {
@@ -122,6 +172,10 @@
      },
      "sources": [
       {
+       "name": "AFP",
+       "url": "https://www.afp.com/en/bangladesh-garment-workers-win-wage-rise-after-weeks-protests"
+      },
+      {
        "name": "The Daily Star",
        "url": "https://www.thedailystar.net/news/bangladesh/news/new-rmg-pay-scale-minimum-wage-set-tk-17k-after-vote-4332751"
       }
@@ -152,63 +206,6 @@
   },
   {
    "article": {
-    "extract": "At exactly 9:00 am CST (15:00 UTC) on November 25, 2026, the United States Army detonated approximately 9,500 pounds (4,300 kg) of lead azide stored at the Iowa Army Ammunition Plant near Middletown, Iowa. The material detonated consisted of 68 drums of lead azide, a primary explosive used to initiate munitions.",
-    "location": "Middletown, Iowa, United States",
-    "map": {
-     "height": 200,
-     "url": "https://maps.wikimedia.org/img/osm-intl,8,40.790556,-91.244722,270x200.png?lang=en&domain=en.wikipedia.org&title=Iowa_lead_azide_detonation&groups=_1d9f262a8501f4d17aa298a6a132d2496af3f54f&parser=legacy",
-     "url2x": "https://maps.wikimedia.org/img/osm-intl,8,40.790556,-91.244722,270x200@2x.png?lang=en&domain=en.wikipedia.org&title=Iowa_lead_azide_detonation&groups=_1d9f262a8501f4d17aa298a6a132d2496af3f54f&parser=legacy",
-     "width": 270
-    },
-    "title": "Iowa lead azide detonation",
-    "url": "https://en.wikipedia.org/wiki/Iowa_lead_azide_detonation"
-   },
-   "categories": [
-    "Health and environment"
-   ],
-   "group": "2026-11-25-2d65dd66a77b",
-   "headlines": [
-    {
-     "category": "Health and environment",
-     "html": "The <a href=\"https://en.wikipedia.org/wiki/United_States_Army\">United States Army</a> detonates nearly 5 tons of degrading <a href=\"https://en.wikipedia.org/wiki/Lead_azide\">lead azide</a> at the <a href=\"https://en.wikipedia.org/wiki/Iowa_Army_Ammunition_Plant\">Iowa Army Ammunition Plant</a> in <a href=\"https://en.wikipedia.org/wiki/Middletown,_Iowa\">Middletown</a>, <a href=\"https://en.wikipedia.org/wiki/Iowa\">Iowa</a>.",
-     "id": "2026-11-25-2d65dd66a77b",
-     "page": {
-      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
-      "title": "Portal:Current events/2026 November 25",
-      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"
-     },
-     "sources": [
-      {
-       "name": "CNN",
-       "url": "https://edition.cnn.com/2026/11/25/us/live-news/iowa-lead-azide-detonation"
-      }
-     ],
-     "topics": [
-      {
-       "label": "Iowa lead azide detonation",
-       "links": [
-        {
-         "label": "Iowa lead azide detonation",
-         "url": "https://en.wikipedia.org/wiki/Iowa_lead_azide_detonation"
-        }
-       ],
-       "url": "https://en.wikipedia.org/wiki/Iowa_lead_azide_detonation"
-      }
-     ]
-    }
-   ],
-   "id": "2026-11-25-2d65dd66a77b",
-   "image": {
-    "link": "https://edition.cnn.com/2026/11/25/us/live-news/iowa-lead-azide-detonation",
-    "source": "CNN",
-    "url": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2306835116.jpg?c=16x9&q=w_800,c_fill"
-   },
-   "more_articles": [],
-   "pub_date": "2026-11-25T18:12:36Z",
-   "title": "Iowa lead azide detonation: The United States Army detonates nearly 5 tons of degrading lead azide at the Iowa Army Ammunition Plant in Middletown, Iowa."
-  },
-  {
-   "article": {
     "extract": "Foreign relations exist between Australia and Solomon Islands. Australia has a High Commission in Honiara and Solomon Islands has a High Commission in Canberra.",
     "title": "Australia–Solomon Islands relations",
     "url": "https://en.wikipedia.org/wiki/Australia%E2%80%93Solomon_Islands_relations"
@@ -220,7 +217,7 @@
    "headlines": [
     {
      "category": "International relations",
-     "html": "<a href=\"https://en.wikipedia.org/wiki/Solomon_Islands\">Solomon Islands</a> <a href=\"https://en.wikipedia.org/wiki/Prime_Minister_of_Solomon_Islands\">prime minister</a> <a href=\"https://en.wikipedia.org/wiki/Matthew_Wale\">Matthew Wale</a> signs a treaty with <a href=\"https://en.wikipedia.org/wiki/Australia\">Australian</a> <a href=\"https://en.wikipedia.org/wiki/Prime_Minister_of_Australia\">prime minister</a> <a href=\"https://en.wikipedia.org/wiki/Anthony_Albanese\">Anthony Albanese</a>, to designate Australia as the \"primary <a href=\"https://en.wikipedia.org/wiki/Australian_Defence_Force\">security</a> partner\", after ending the 2022 security pact with <a href=\"https://en.wikipedia.org/wiki/China\">China</a>.",
+     "html": "<a href=\"https://en.wikipedia.org/wiki/Solomon_Islands\">Solomon Islands</a> <a href=\"https://en.wikipedia.org/wiki/Prime_Minister_of_Solomon_Islands\">prime minister</a> <a href=\"https://en.wikipedia.org/wiki/Matthew_Wale\">Matthew Wale</a> signs a treaty with <a href=\"https://en.wikipedia.org/wiki/Australia\">Australian</a> <a href=\"https://en.wikipedia.org/wiki/Prime_Minister_of_Australia\">prime minister</a> <a href=\"https://en.wikipedia.org/wiki/Anthony_Albanese\">Anthony Albanese</a> to designate Australia as the \"primary <a href=\"https://en.wikipedia.org/wiki/Australian_Defence_Force\">security</a> partner\" after ending the 2022 security pact with <a href=\"https://en.wikipedia.org/wiki/China\">China</a>.",
      "id": "2026-11-25-86bc6b906e4a",
      "page": {
       "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
@@ -255,7 +252,7 @@
    },
    "more_articles": [],
    "pub_date": "2026-11-25T18:12:36Z",
-   "title": "Australia–Solomon Islands relations: Solomon Islands prime minister Matthew Wale signs a treaty with Australian prime minister Anthony Albanese, to designate Australia as the \"primary security partner\", after ending the 2022 security…"
+   "title": "Australia–Solomon Islands relations: Solomon Islands prime minister Matthew Wale signs a treaty with Australian prime minister Anthony Albanese to designate Australia as the \"primary security partner\" after ending the 2022 security pact…"
   },
   {
    "article": {
@@ -337,291 +334,21 @@
      },
      "sources": [
       {
-       "name": "TIME",
+       "name": "Reuters",
+       "url": "https://www.reuters.com/legal/litigation/chinas-huawei-convicted-us-criminal-trial-stemming-iran-business-2026-11-24/"
+      },
+      {
+       "name": "Time",
        "url": "https://time.com/article/2026/11/25/huawei-guilty-crimes-fraud-conspiracy-sanctions-us-china/"
       }
      ],
-     "topics": [
-      {
-       "label": "Gaza war, Gaza genocide",
-       "links": [
-        {
-         "label": "Gaza war",
-         "url": "https://en.wikipedia.org/wiki/Gaza_war"
-        },
-        {
-         "label": "Gaza genocide",
-         "url": "https://en.wikipedia.org/wiki/Gaza_genocide"
-        }
-       ],
-       "url": "https://en.wikipedia.org/wiki/Gaza_war"
-      },
-      {
-       "label": "Al-Shati refugee camp airstrikes",
-       "links": [
-        {
-         "label": "Al-Shati refugee camp airstrikes",
-         "url": "https://en.wikipedia.org/wiki/Al-Shati_refugee_camp_airstrikes"
-        }
-       ],
-       "url": "https://en.wikipedia.org/wiki/Al-Shati_refugee_camp_airstrikes"
-      }
-     ]
-    }
-   ],
-   "id": "2026-11-25-e1dea5c443f0",
-   "image": {
-    "link": "https://www.aljazeera.com/news/2026/11/25/israeli-strike-kills-hamas-official-his-wife-and-children",
-    "source": "Al Jazeera",
-    "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-25T092857Z_670670454_RC2WUOAYSQUZ_RTRMADP_3_ISRAEL-PALESTINIANS-GAZA-1-1795606726.jpg?resize=1920%2C1440"
-   },
-   "more_articles": [
-    {
-     "extract": "The Gaza genocide is the ongoing, intentional, and systematic destruction of the Palestinian people in the Gaza Strip carried out by Israel during the Gaza war. It encompasses mass killings, including the targeted killing of children (who account for 30% of those killed), deliberate starvation, infliction of serious bodily and mental harm, and prevention of births.",
-     "location": "Israeli-occupied Gaza Strip (Palestine)",
-     "title": "Gaza genocide",
-     "url": "https://en.wikipedia.org/wiki/Gaza_genocide"
-    },
-    {
-     "extract": "On 9 October 2023, during the Gaza war, the Israel Defense Forces (IDF) conducted an airstrike on al-Shati refugee camp in the Gaza Strip, destroying four mosques. According to Palestinian media, the attack killed people inside.",
-     "location": "Al-Shati camp, Gaza Strip; 31°31′55.91″N 34°26′43.42″E﻿ / ﻿31.5321972°N 34.4453944°E",
-     "title": "Al-Shati refugee camp airstrikes",
-     "url": "https://en.wikipedia.org/wiki/Al-Shati_refugee_camp_airstrikes"
-    }
-   ],
-   "pub_date": "2026-11-25T17:22:13Z",
-   "title": "Al-Shati refugee camp airstrikes: At least seven people, including a senior Hamas security official, his wife, and two daughters, are killed in an Israeli airstrike on the Al-Shati refugee camp near Gaza City in the Gaza Strip."
-  },
-  {
-   "article": {
-    "extract": "A series of labour demonstrations organized by workers in the ready-made garment industry have taken place in Bangladesh, demanding an increase in the sector's minimum monthly wage from ৳12,500 (US$100) to ৳30,000 (US$240). Began in August 2026, the protests escalated in late-October and early-November 2026 in the industrial areas of Ashulia, Gazipur and Dhaka.",
-    "location": "Greater Dhaka, Bangladesh",
-    "title": "2026 Bangladesh garment workers protests",
-    "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"
-   },
-   "categories": [
-    "Business and economy"
-   ],
-   "group": "2026-11-25-0043cadd82e5",
-   "headlines": [
-    {
-     "category": "Business and economy",
-     "html": "At least 140 <a href=\"https://en.wikipedia.org/wiki/Textile_industry_in_Bangladesh\">garment factories</a> close across <a href=\"https://en.wikipedia.org/wiki/Gazipur_District\">Gazipur</a>, <a href=\"https://en.wikipedia.org/wiki/Savar_Upazila\">Savar</a>, and <a href=\"https://en.wikipedia.org/wiki/Ashulia\">Ashulia</a>, after workers reject the newly announced <a href=\"https://en.wikipedia.org/wiki/Minimum_wage\">minimum wage</a> as insufficient, blocking the <a href=\"https://en.wikipedia.org/wiki/N3_(Bangladesh)\">Dhaka–Mymensingh</a> and <a href=\"https://en.wikipedia.org/wiki/N4_(Bangladesh)\">Dhaka–Tangail</a> highways and clashing with <a href=\"https://en.wikipedia.org/wiki/Bangladesh_Police\">police</a> firing <a href=\"https://en.wikipedia.org/wiki/Tear_gas\">tear gas</a> and <a href=\"https://en.wikipedia.org/wiki/Stun_grenade\">stun grenades</a>.",
-     "id": "2026-11-25-f11728c995c9",
-     "page": {
-      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
-      "title": "Portal:Current events/2026 November 25",
-      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"
-     },
-     "sources": [
-      {
-       "name": "The Business Standard",
-       "url": "https://www.tbsnews.net/economy/rmg/police-fire-tear-gas-sound-grenades-garment-workers-block-dhaka-tangail-highway-1613231"
-      },
-      {
-       "name": "The Daily Star",
-       "url": "https://www.thedailystar.net/news/news/87-garment-factories-shut-amid-protests-gazipur-savar-ashulia-4332861"
-      }
-     ],
-     "topics": [
-      {
-       "label": "2026 Bangladesh garment workers protests",
-       "links": [
-        {
-         "label": "2026 Bangladesh garment workers protests",
-         "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"
-        }
-       ],
-       "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"
-      }
-     ]
-    },
-    {
-     "category": "Business and economy",
-     "html": "<a href=\"https://en.wikipedia.org/wiki/Bangladesh\">Bangladesh</a>'s <a href=\"https://en.wikipedia.org/wiki/Minimum_Wage_Board\">Minimum Wage Board</a> raises the monthly <a href=\"https://en.wikipedia.org/wiki/Minimum_wage\">minimum wage</a> for <a href=\"https://en.wikipedia.org/wiki/Textile_industry_in_Bangladesh\">garment workers</a> from <a href=\"https://en.wikipedia.org/wiki/Bangladeshi_taka\">৳</a>12,500 to ৳17,000 following a 4–2 vote, a decision rejected by <a href=\"https://en.wikipedia.org/wiki/Trade_union\">labour unions</a> demanding at least ৳18,000 amid nearly a month of <a href=\"https://en.wikipedia.org/wiki/Strike_action\">labour unrest</a> and hundreds of factory closures.",
-     "id": "2026-11-25-0043cadd82e5",
-     "page": {
-      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
-      "title": "Portal:Current events/2026 November 25",
-      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"
-     },
-     "sources": [
-      {
-       "name": "The Daily Star",
-       "url": "https://www.thedailystar.net/news/bangladesh/news/new-rmg-pay-scale-minimum-wage-set-tk-17k-after-vote-4332751"
-      }
-     ],
-     "topics": [
-      {
-       "label": "2026 Bangladesh garment workers protests",
-       "links": [
-        {
-         "label": "2026 Bangladesh garment workers protests",
-         "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"
-        }
-       ],
-       "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"
-      }
-     ]
-    }
-   ],
-   "id": "2026-11-25-0043cadd82e5",
-   "image": {
-    "link": "https://www.tbsnews.net/economy/rmg/police-fire-tear-gas-sound-grenades-garment-workers-block-dhaka-tangail-highway-1613231",
-    "source": "The Business Standard",
-    "url": "https://www.tbsnews.net/sites/default/files/styles/social_share/public/images/2026/11/25/gazipur_wednesday_highway.jpg"
-   },
-   "more_articles": [],
-   "pub_date": "2026-11-25T17:22:13Z",
-   "title": "2026 Bangladesh garment workers protests: At least 140 garment factories close across Gazipur, Savar, and Ashulia, after workers reject the newly announced minimum wage as insufficient, blocking the Dhaka–Mymensingh and Dhaka–Tangail… / Bangladesh's Minimum Wage Board raises the monthly minimum wage for garment workers from ৳12,500 to ৳17,000 following a 4–2 vote, a decision rejected by labour unions demanding at least ৳18,000 amid…"
-  },
-  {
-   "article": {
-    "extract": "At exactly 9:00 am CST (15:00 UTC) on November 25, 2026, the United States Army detonated approximately 9,500 pounds (4,300 kg) of lead azide stored at the Iowa Army Ammunition Plant near Middletown, Iowa. The material detonated consisted of 68 drums of lead azide, a primary explosive used to initiate munitions.",
-    "location": "Middletown, Iowa, United States",
-    "map": {
-     "height": 200,
-     "url": "https://maps.wikimedia.org/img/osm-intl,8,40.790556,-91.244722,270x200.png?lang=en&domain=en.wikipedia.org&title=Iowa_lead_azide_detonation&groups=_1d9f262a8501f4d17aa298a6a132d2496af3f54f&parser=legacy",
-     "url2x": "https://maps.wikimedia.org/img/osm-intl,8,40.790556,-91.244722,270x200@2x.png?lang=en&domain=en.wikipedia.org&title=Iowa_lead_azide_detonation&groups=_1d9f262a8501f4d17aa298a6a132d2496af3f54f&parser=legacy",
-     "width": 270
-    },
-    "title": "Iowa lead azide detonation",
-    "url": "https://en.wikipedia.org/wiki/Iowa_lead_azide_detonation"
-   },
-   "categories": [
-    "Health and environment"
-   ],
-   "group": "2026-11-25-2d65dd66a77b",
-   "headlines": [
-    {
-     "category": "Health and environment",
-     "html": "The <a href=\"https://en.wikipedia.org/wiki/United_States_Army\">United States Army</a> detonates nearly 5 tons of degrading <a href=\"https://en.wikipedia.org/wiki/Lead_azide\">lead azide</a> at the <a href=\"https://en.wikipedia.org/wiki/Iowa_Army_Ammunition_Plant\">Iowa Army Ammunition Plant</a> in <a href=\"https://en.wikipedia.org/wiki/Middletown,_Iowa\">Middletown</a>, <a href=\"https://en.wikipedia.org/wiki/Iowa\">Iowa</a>.",
-     "id": "2026-11-25-2d65dd66a77b",
-     "page": {
-      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
-      "title": "Portal:Current events/2026 November 25",
-      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"
-     },
-     "sources": [
-      {
-       "name": "CNN",
-       "url": "https://edition.cnn.com/2026/11/25/us/live-news/iowa-lead-azide-detonation"
-      }
-     ],
-     "topics": [
-      {
-       "label": "Iowa lead azide detonation",
-       "links": [
-        {
-         "label": "Iowa lead azide detonation",
-         "url": "https://en.wikipedia.org/wiki/Iowa_lead_azide_detonation"
-        }
-       ],
-       "url": "https://en.wikipedia.org/wiki/Iowa_lead_azide_detonation"
-      }
-     ]
-    }
-   ],
-   "id": "2026-11-25-2d65dd66a77b",
-   "image": {
-    "link": "https://edition.cnn.com/2026/11/25/us/live-news/iowa-lead-azide-detonation",
-    "source": "CNN",
-    "url": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2306835116.jpg?c=16x9&q=w_800,c_fill"
-   },
-   "more_articles": [],
-   "pub_date": "2026-11-25T17:22:13Z",
-   "title": "Iowa lead azide detonation: The United States Army detonates nearly 5 tons of degrading lead azide at the Iowa Army Ammunition Plant in Middletown, Iowa."
-  },
-  {
-   "article": {
-    "extract": "Significant political, constitutional, and social changes in Bangladesh followed the July Uprising of 2024 and the resignation of Prime Minister Sheikh Hasina. The uprising was initially sparked by widespread public protests and calls for reform, led to major changes in Bangladesh's political landscape.",
-    "location": "Bangladesh (with spillovers in India)",
-    "title": "Aftermath of the July Uprising",
-    "url": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"
-   },
-   "categories": [
-    "Law and crime"
-   ],
-   "group": "2026-11-25-c646c6118ab7",
-   "headlines": [
-    {
-     "category": "Law and crime",
-     "html": "<a href=\"https://en.wikipedia.org/wiki/Border_Guard_Bangladesh\">Border Guard Bangladesh</a> deploys 108 <a href=\"https://en.wikipedia.org/wiki/Platoon\">platoons</a> across <a href=\"https://en.wikipedia.org/wiki/Dhaka\">Dhaka</a> and seven other districts, including 56 in <a href=\"https://en.wikipedia.org/wiki/Gopalganj_District,_Bangladesh\">Gopalganj</a>, under instructions from the <a href=\"https://en.wikipedia.org/wiki/Ministry_of_Home_Affairs_(Bangladesh)\">Ministry of Home Affairs</a> to step up surveillance at key installations and industrial zones.",
-     "id": "2026-11-25-c646c6118ab7",
-     "page": {
-      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
-      "title": "Portal:Current events/2026 November 25",
-      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"
-     },
-     "sources": [
-      {
-       "name": "The Daily Star",
-       "url": "https://www.thedailystar.net/news/news/bgb-deploys-108-platoons-eight-districts-4332856"
-      }
-     ],
-     "topics": [
-      {
-       "label": "Aftermath of the July Uprising, 2026 Bangladesh garment workers protests",
-       "links": [
-        {
-         "label": "Aftermath of the July Uprising",
-         "url": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"
-        },
-        {
-         "label": "2026 Bangladesh garment workers protests",
-         "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"
-        }
-       ],
-       "url": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"
-      }
-     ]
-    }
-   ],
-   "id": "2026-11-25-c646c6118ab7",
-   "image": {
-    "link": "https://www.thedailystar.net/news/news/bgb-deploys-108-platoons-eight-districts-4332856",
-    "source": "The Daily Star",
-    "url": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/bgb%20%281%29_0_0.jpg"
-   },
-   "more_articles": [
-    {
-     "extract": "A series of labour demonstrations organized by workers in the ready-made garment industry have taken place in Bangladesh, demanding an increase in the sector's minimum monthly wage from ৳12,500 (US$100) to ৳30,000 (US$240). Began in August 2026, the protests escalated in late-October and early-November 2026 in the industrial areas of Ashulia, Gazipur and Dhaka.",
-     "location": "Greater Dhaka, Bangladesh",
-     "title": "2026 Bangladesh garment workers protests",
-     "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"
-    }
-   ],
-   "pub_date": "2026-11-25T17:22:13Z",
-   "title": "Aftermath of the July Uprising, 2026 Bangladesh garment workers protests: Border Guard Bangladesh deploys 108 platoons across Dhaka and seven other districts, including 56 in Gopalganj, under instructions from the Ministry of Home Affairs to step up surveillance at key…"
-  },
-  {
-   "article": {
-    "extract": "The 2025 Africa Cup of Nations final was a football match played on 18 January 2026 at the Prince Moulay Abdellah Stadium in Rabat, Morocco. It determined the winners of the 2025 Africa Cup of Nations (AFCON), the 35th edition of the biennial African tournament organised by the Confederation of African Football (CAF), and was contested between Senegal and hosts Morocco.",
-    "title": "2025 Africa Cup of Nations final",
-    "url": "https://en.wikipedia.org/wiki/2025_Africa_Cup_of_Nations_final"
-   },
-   "categories": [
-    "Topics in the news"
-   ],
-   "group": "topic-eca1d3a6d08a",
-   "headlines": [
-    {
-     "category": "Topics in the news",
-     "html": "In association football, the <a href=\"https://en.wikipedia.org/wiki/Court_of_Arbitration_for_Sport\">Court of Arbitration for Sport</a> restores <a href=\"https://en.wikipedia.org/wiki/Senegal_national_football_team\">Senegal</a> as the winner of the <b><a href=\"https://en.wikipedia.org/wiki/2025_Africa_Cup_of_Nations_final\">2025 Africa Cup of Nations final</a></b>, overturning the <a href=\"https://en.wikipedia.org/wiki/Confederation_of_African_Football\">Confederation of African Football</a>'s decision to declare <a href=\"https://en.wikipedia.org/wiki/Morocco_national_football_team\">Morocco</a> as the winner of the tournament.",
-     "id": "topic-eca1d3a6d08a",
-     "page": {
-      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events&action=history",
-      "title": "Portal:Current events",
-      "url": "https://en.wikipedia.org/wiki/Portal:Current_events"
-     },
-     "sources": [],
      "topics": []
     }
    ],
    "id": "2026-11-25-0b968d4aaf1b",
    "image": {
     "link": "https://time.com/article/2026/11/25/huawei-guilty-crimes-fraud-conspiracy-sanctions-us-china/",
-    "source": "TIME",
+    "source": "Time",
     "url": "https://static.time.com/v3/assets/bltea6093859af6183b/bltc8dc9b9a58ce72ce/6b06a10264655985ef9946b5/Huawei_logo.jpg?branch=production&width=1024&quality=75&auto=webp&crop=16:9"
    },
    "more_articles": [],
@@ -657,6 +384,606 @@
    "more_articles": [],
    "pub_date": "2026-11-25T18:12:36Z",
    "title": "In association football, the Court of Arbitration for Sport restores Senegal as the winner of the 2025 Africa Cup of Nations final, overturning the Confederation of African Football's decision to…"
+  },
+  {
+   "article": {
+    "extract": "The Middle East is currently experiencing an ongoing series of interrelated wars, conflicts, and heightened instability, triggered by the ongoing Gaza war and the genocide in Gaza. These have primarily consisted of conflicts between Israel and the United States on one side, and Iran and militias that form the \"Axis of Resistance\", which includes such groups as Hamas, Hezbollah, and the Houthis, on the other.",
+    "location": "Middle East",
+    "title": "Middle Eastern crisis (2023–present)",
+    "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
+   },
+   "categories": [
+    "Armed conflicts and attacks"
+   ],
+   "group": "2026-11-25-e3445be79189",
+   "headlines": [
+    {
+     "category": "Armed conflicts and attacks",
+     "html": "The <a href=\"https://en.wikipedia.org/wiki/Ras_Tanura\">Ras Tanura</a> <a href=\"https://en.wikipedia.org/wiki/Oil_refinery\">oil refinery</a> in <a href=\"https://en.wikipedia.org/wiki/Saudi_Arabia\">Saudi Arabia</a>'s <a href=\"https://en.wikipedia.org/wiki/Eastern_Province_(Saudi_Arabia)\">Eastern Province</a> is damaged in an attack by the <a href=\"https://en.wikipedia.org/wiki/Houthis\">Houthis</a>.",
+     "id": "2026-11-25-cb20639d2d7a",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
+      "title": "Portal:Current events/2026 November 25",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"
+     },
+     "sources": [
+      {
+       "name": "NBC News",
+       "url": "https://www.nbcnews.com/world/saudi-arabia/yemen-houthi-rebels-attack-saudi-arabia-largest-oil-refinery-rcna611319"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Middle Eastern crisis",
+       "links": [
+        {
+         "label": "Middle Eastern crisis",
+         "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
+      },
+      {
+       "label": "Yemeni civil war",
+       "links": [
+        {
+         "label": "Yemeni civil war",
+         "url": "https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)"
+      },
+      {
+       "label": "Houthi–Saudi conflict",
+       "links": [
+        {
+         "label": "Houthi–Saudi conflict",
+         "url": "https://en.wikipedia.org/wiki/Houthi%E2%80%93Saudi_conflict"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Houthi%E2%80%93Saudi_conflict"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-25-cb20639d2d7a",
+   "image": {
+    "link": "https://www.aljazeera.com/news/2026/11/25/israeli-strike-kills-hamas-official-his-wife-and-children",
+    "source": "Al Jazeera",
+    "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-25T092857Z_670670454_RC2WUOAYSQUZ_RTRMADP_3_ISRAEL-PALESTINIANS-GAZA-1-1795606726.jpg?resize=1920%2C1440"
+   },
+   "more_articles": [
+    {
+     "extract": "The Yemeni civil war (Arabic: الحرب الأهلية اليمنية, romanized: al-ḥarb al-ʾahlīyah al-yamanīyah) is an ongoing multilateral civil war that began in late 2014 mainly between the Rashad al-Alimi-led Presidential Leadership Council and the Mahdi al-Mashat-led Houthi Supreme Political Council, along with their respective supporters and allies. Both sides claim to constitute the official government of Yemen while the Presidential Leadership Council is recognized by the United Nations as the official government.",
+     "location": "Yemen and Saudi Arabia",
+     "title": "Yemeni civil war (2014–present)",
+     "url": "https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)"
+    },
+    {
+     "extract": "The Houthi–Saudi conflict is an ongoing armed conflict involving the Armed Forces of Saudi Arabia and Houthi forces in Yemen and along the Saudi–Yemeni border, including parts of Asir, Jazan, and Najran in Saudi Arabia and Saada, Al-Jawf, and Hajjah in Yemen. The conflict began following the Saudi-led intervention in Yemen in 2015.",
+     "location": "Yemen and Saudi Arabia",
+     "title": "Houthi–Saudi conflict",
+     "url": "https://en.wikipedia.org/wiki/Houthi%E2%80%93Saudi_conflict"
+    }
+   ],
+   "pub_date": "2026-11-25T00:00:00Z",
+   "title": "Houthi–Saudi conflict: The Ras Tanura oil refinery in Saudi Arabia's Eastern Province is damaged in an attack by the Houthis."
+  },
+  {
+   "article": {
+    "extract": "Disputes and clashes in Syria have continued following the fall of the Assad regime in December 2024, which many sources consider the end of the Syrian civil war. Numerous actors are involved, including clashes between the newly-formed Syrian caretaker government and later the Syrian transitional government led by the former emir of Hay'at Tahrir al-Sham (HTS) and incumbent president Ahmed al-Sharaa, Assad loyalists, Alawite groups, and Druze insurgents; clashes between elements of the Turkish-backed Syrian National Army (SNA) and the government on one side, and formerly the Kurdish-led Syrian Democratic Forces (SDF) on the other; as well as an Israeli invasion and occupation of the demilitarized buffer zone in southwestern Syria.",
+    "location": "Syria",
+    "title": "Aftermath of the Syrian civil war",
+    "url": "https://en.wikipedia.org/wiki/Aftermath_of_the_Syrian_civil_war"
+   },
+   "categories": [
+    "Armed conflicts and attacks"
+   ],
+   "group": "2026-11-25-4c9d1b7c1de0",
+   "headlines": [
+    {
+     "category": "Armed conflicts and attacks",
+     "html": "An <a href=\"https://en.wikipedia.org/wiki/Islamic_State\">Islamic State</a> <a href=\"https://en.wikipedia.org/wiki/Suicide_attack\">suicide bomber</a> blows himself up <a href=\"https://en.wikipedia.org/wiki/Car_bomb\">on a motorcycle</a> at a checkpoint in <a href=\"https://en.wikipedia.org/wiki/Hasakah\">Hasakah</a>, <a href=\"https://en.wikipedia.org/wiki/Syria\">Syria</a>, killing two security forces and wounding five more.",
+     "id": "2026-11-25-4c9d1b7c1de0",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
+      "title": "Portal:Current events/2026 November 25",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"
+     },
+     "sources": [
+      {
+       "name": "AA",
+       "url": "https://aa.com.tr/en/middle-east/isis-attack-on-military-headquarters-kills-2-in-northeastern-syria-official-says/4138076"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Aftermath of the Syrian civil war",
+       "links": [
+        {
+         "label": "Aftermath of the Syrian civil war",
+         "url": "https://en.wikipedia.org/wiki/Aftermath_of_the_Syrian_civil_war"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Aftermath_of_the_Syrian_civil_war"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-25-4c9d1b7c1de0",
+   "more_articles": [],
+   "pub_date": "2026-11-25T00:00:00Z",
+   "title": "Aftermath of the Syrian civil war: An Islamic State suicide bomber blows himself up on a motorcycle at a checkpoint in Hasakah, Syria, killing two security forces and wounding five more."
+  },
+  {
+   "article": {
+    "extract": "Thanksgiving is a federal holiday in the United States celebrated during fall on the fourth Thursday of November (which became the uniform date country-wide in 1941). The earliest Thanksgiving can occur is November 22; the latest is November 28.",
+    "title": "Thanksgiving (United States)",
+    "url": "https://en.wikipedia.org/wiki/Thanksgiving_(United_States)"
+   },
+   "categories": [
+    "Arts and culture"
+   ],
+   "group": "2026-11-25-ed06b9ad9a29",
+   "headlines": [
+    {
+     "category": "Arts and culture",
+     "html": "The <a href=\"https://en.wikipedia.org/wiki/Macy%27s_Thanksgiving_Day_Parade\">Macy’s Thanksgiving Day Parade</a> in <a href=\"https://en.wikipedia.org/wiki/New_York_City\">New York City</a> is postponed to Saturday, November 28, 2026 due to thunderstorms. It is the first time since <a href=\"https://en.wikipedia.org/wiki/World_War_II\">World War II</a> since the parade was not held on the scheduled day, and the first since its inception in <a href=\"https://en.wikipedia.org/wiki/1924\">1924</a> that it has been delayed rather than cancelled.",
+     "id": "2026-11-25-ed06b9ad9a29",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
+      "title": "Portal:Current events/2026 November 25",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"
+     },
+     "sources": [
+      {
+       "name": "NBC",
+       "url": "https://www.nbcnews.com/news/us-news/macys-thanksgiving-day-parade-weather-delay-rcna611355"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Thanksgiving (United States)",
+       "links": [
+        {
+         "label": "Thanksgiving (United States)",
+         "url": "https://en.wikipedia.org/wiki/Thanksgiving_(United_States)"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Thanksgiving_(United_States)"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-25-ed06b9ad9a29",
+   "image": {
+    "link": "https://www.nbcnews.com/news/us-news/macys-thanksgiving-day-parade-weather-delay-rcna611355",
+    "source": "NBC",
+    "url": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261125-thanksgiving-parade-snoopy-mn-1255-a4d9d2.jpg"
+   },
+   "more_articles": [],
+   "pub_date": "2026-11-25T00:00:00Z",
+   "title": "Thanksgiving (United States): The Macy’s Thanksgiving Day Parade in New York City is postponed to Saturday, November 28, 2026 due to thunderstorms."
+  },
+  {
+   "article": {
+    "extract": "Since early 2026, mass protest movements arose across Europe. Major demonstrations were held across Albania, Belgium, Czech Republic, France, Germany, Georgia, Greece, Ireland, Italy, Poland, Portugal, Serbia, Spain and Ukraine, with minor demonstrations and strikes occurring in other countries.",
+    "location": "Europe",
+    "title": "2026 European unrest",
+    "url": "https://en.wikipedia.org/wiki/2026_European_unrest"
+   },
+   "categories": [
+    "Business and economy"
+   ],
+   "group": "2026-11-25-de6dd45ab080",
+   "headlines": [
+    {
+     "category": "Business and economy",
+     "html": "Thousands of workers across <a href=\"https://en.wikipedia.org/wiki/Greece\">Greece</a> stage a strike demanding higher wages, restored <a href=\"https://en.wikipedia.org/wiki/Government_of_Greece\">public-sector</a> <a href=\"https://en.wikipedia.org/wiki/Bonus_payment\">bonuses</a>, and increased funding for <a href=\"https://en.wikipedia.org/wiki/Education_in_Greece\">education</a> and <a href=\"https://en.wikipedia.org/wiki/Healthcare_in_Greece\">healthcare</a>, disrupting ferry, <a href=\"https://en.wikipedia.org/wiki/Athens_Metro\">metro</a>, and air services. <a href=\"https://en.wikipedia.org/wiki/Hellenic_Police\">Police</a> report approximately 15,000 demonstrators in <a href=\"https://en.wikipedia.org/wiki/Athens\">Athens</a>.",
+     "id": "2026-11-25-de6dd45ab080",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
+      "title": "Portal:Current events/2026 November 25",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"
+     },
+     "sources": [
+      {
+       "name": "AFP via France 24",
+       "url": "https://www.france24.com/en/live-news/20261125-greece-cost-of-living-strike-hits-trains-and-planes"
+      },
+      {
+       "name": "Reuters",
+       "url": "https://www.reuters.com/world/greeks-strike-over-wages-public-services-2026-11-25/"
+      }
+     ],
+     "topics": [
+      {
+       "label": "2026 European unrest",
+       "links": [
+        {
+         "label": "2026 European unrest",
+         "url": "https://en.wikipedia.org/wiki/2026_European_unrest"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/2026_European_unrest"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-25-de6dd45ab080",
+   "image": {
+    "link": "https://www.france24.com/en/live-news/20261125-greece-cost-of-living-strike-hits-trains-and-planes",
+    "source": "AFP via France 24",
+    "url": "https://s.france24.com/media/display/45b83da4-e8cb-11f1-bf65-29d00e23de9a/w:1280/p:16x9/23ac3a5b4934c75e47bd71af2493ac9165f33737.jpg"
+   },
+   "more_articles": [],
+   "pub_date": "2026-11-25T00:00:00Z",
+   "title": "2026 European unrest: Thousands of workers across Greece stage a strike demanding higher wages, restored public-sector bonuses, and increased funding for education and healthcare, disrupting ferry, metro, and air services."
+  },
+  {
+   "article": null,
+   "categories": [
+    "Business and economy"
+   ],
+   "group": "2026-11-25-b4eec8bd9e87",
+   "headlines": [
+    {
+     "category": "Business and economy",
+     "html": "The <a href=\"https://en.wikipedia.org/wiki/European_Union\">European Union</a> and <a href=\"https://en.wikipedia.org/wiki/United_Kingdom\">United Kingdom</a> impose fines totalling more than <a href=\"https://en.wikipedia.org/wiki/Euro\">€</a>570 million (<a href=\"https://en.wikipedia.org/wiki/US$\">US$</a>626 million) on <a href=\"https://en.wikipedia.org/wiki/Fragrance\">fragrance</a> manufacturers <a href=\"https://en.wikipedia.org/wiki/Firmenich\">Firmenich</a>, <a href=\"https://en.wikipedia.org/wiki/Givaudan\">Givaudan</a>, and <a href=\"https://en.wikipedia.org/wiki/International_Flavors_%26_Fragrances\">International Flavors &amp; Fragrances</a> for exchanging <a href=\"https://en.wikipedia.org/wiki/Trade_secret\">commercially sensitive information</a> between 2019 and 2023.",
+     "id": "2026-11-25-b4eec8bd9e87",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
+      "title": "Portal:Current events/2026 November 25",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"
+     },
+     "sources": [
+      {
+       "name": "AFP",
+       "url": "https://www.afp.com/es/node/3854796"
+      }
+     ],
+     "topics": []
+    }
+   ],
+   "id": "2026-11-25-b4eec8bd9e87",
+   "more_articles": [],
+   "pub_date": "2026-11-25T00:00:00Z",
+   "title": "The European Union and United Kingdom impose fines totalling more than €570 million (US$626 million) on fragrance manufacturers Firmenich, Givaudan, and International Flavors & Fragrances for…"
+  },
+  {
+   "article": {
+    "extract": "On 25 November 2026, a fuel tanker carrying petroleum products overturned on Ring Road in the Al Warraq of Giza Governorate, Egypt. The crash resulted in a massive fire which killed 31 people and injured at least 21 others.",
+    "location": "Ring Road, Al Warraq, Giza Governorate, Egypt",
+    "title": "2026 Giza fuel tanker explosion",
+    "url": "https://en.wikipedia.org/wiki/2026_Giza_fuel_tanker_explosion"
+   },
+   "categories": [
+    "Disasters and accidents"
+   ],
+   "group": "2026-11-25-2c2e64b85df6",
+   "headlines": [
+    {
+     "category": "Disasters and accidents",
+     "html": "Thirty-one people are killed and 25 more injured after the overturn and explosion of a <a href=\"https://en.wikipedia.org/wiki/Tank_truck\">fuel tanker</a> on a <a href=\"https://en.wikipedia.org/wiki/Highway\">highway</a> in <a href=\"https://en.wikipedia.org/wiki/Cairo\">Cairo</a>, <a href=\"https://en.wikipedia.org/wiki/Egypt\">Egypt</a>.",
+     "id": "2026-11-25-2c2e64b85df6",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
+      "title": "Portal:Current events/2026 November 25",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"
+     },
+     "sources": [
+      {
+       "name": "France24",
+       "url": "https://www.france24.com/en/live-news/20261125-egypt-says-30-dead-in-cairo-fire-after-fuel-truck-overturns"
+      }
+     ],
+     "topics": [
+      {
+       "label": "2026 Giza fuel tanker explosion",
+       "links": [
+        {
+         "label": "2026 Giza fuel tanker explosion",
+         "url": "https://en.wikipedia.org/wiki/2026_Giza_fuel_tanker_explosion"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/2026_Giza_fuel_tanker_explosion"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-25-2c2e64b85df6",
+   "image": {
+    "link": "https://www.france24.com/en/live-news/20261125-egypt-says-30-dead-in-cairo-fire-after-fuel-truck-overturns",
+    "source": "France24",
+    "url": "https://s.france24.com/media/display/dab353d8-e909-11f1-a463-1991d4929b54/w:1280/p:16x9/54894a6dbd255c6e5becf79e023ff6c764ac5f60.jpg"
+   },
+   "more_articles": [],
+   "pub_date": "2026-11-25T00:00:00Z",
+   "title": "2026 Giza fuel tanker explosion: Thirty-one people are killed and 25 more injured after the overturn and explosion of a fuel tanker on a highway in Cairo, Egypt."
+  },
+  {
+   "article": null,
+   "categories": [
+    "Disasters and accidents"
+   ],
+   "group": "2026-11-25-30730eef2fb1",
+   "headlines": [
+    {
+     "category": "Disasters and accidents",
+     "html": "Six people die in the crash of a <a href=\"https://en.wikipedia.org/wiki/Cessna_210_Centurion\">Cessna 210 Centurion</a> carrying a family from a <a href=\"https://en.wikipedia.org/wiki/Fishing\">fishing</a> trip near <a href=\"https://en.wikipedia.org/wiki/Horn_Island_(Mississippi)\">Horn Island</a>, <a href=\"https://en.wikipedia.org/wiki/Mississippi\">Mississippi</a>, <a href=\"https://en.wikipedia.org/wiki/United_States\">United States</a>.",
+     "id": "2026-11-25-30730eef2fb1",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
+      "title": "Portal:Current events/2026 November 25",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"
+     },
+     "sources": [
+      {
+       "name": "CNN",
+       "url": "https://edition.cnn.com/2026/11/24/us/plane-crash-mississippi-horn-island"
+      }
+     ],
+     "topics": []
+    }
+   ],
+   "id": "2026-11-25-30730eef2fb1",
+   "image": {
+    "link": "https://edition.cnn.com/2026/11/24/us/plane-crash-mississippi-horn-island",
+    "source": "CNN",
+    "url": "https://media.cnn.com/api/v1/images/stellar/prod/c-260826-as-us-nolanwellscommunity-dsc08991.jpg?c=16x9&q=w_800,c_fill"
+   },
+   "more_articles": [],
+   "pub_date": "2026-11-25T00:00:00Z",
+   "title": "Six people die in the crash of a Cessna 210 Centurion carrying a family from a fishing trip near Horn Island, Mississippi, United States."
+  },
+  {
+   "article": {
+    "extract": "At exactly 9:00 am CST (15:00 UTC) on November 25, 2026, the United States Army detonated approximately 9,500 pounds (4,300 kg) of lead azide stored at the Iowa Army Ammunition Plant near Middletown, Iowa. The material detonated consisted of 68 drums of lead azide, a primary explosive used to initiate munitions.",
+    "location": "Middletown, Iowa, United States",
+    "map": {
+     "height": 200,
+     "url": "https://maps.wikimedia.org/img/osm-intl,8,40.790556,-91.244722,270x200.png?lang=en&domain=en.wikipedia.org&title=Iowa_lead_azide_detonation&groups=_1d9f262a8501f4d17aa298a6a132d2496af3f54f&parser=legacy",
+     "url2x": "https://maps.wikimedia.org/img/osm-intl,8,40.790556,-91.244722,270x200@2x.png?lang=en&domain=en.wikipedia.org&title=Iowa_lead_azide_detonation&groups=_1d9f262a8501f4d17aa298a6a132d2496af3f54f&parser=legacy",
+     "width": 270
+    },
+    "title": "Iowa lead azide detonation",
+    "url": "https://en.wikipedia.org/wiki/Iowa_lead_azide_detonation"
+   },
+   "categories": [
+    "Health and environment"
+   ],
+   "group": "2026-11-25-661b84548ee1",
+   "headlines": [
+    {
+     "category": "Health and environment",
+     "html": "The <a href=\"https://en.wikipedia.org/wiki/United_States_Army\">United States Army</a> detonates nearly 5 tons of degrading <a href=\"https://en.wikipedia.org/wiki/Lead_azide\">lead azide</a> at the <a href=\"https://en.wikipedia.org/wiki/Iowa_Army_Ammunition_Plant\">Iowa Army Ammunition Plant</a> in <a href=\"https://en.wikipedia.org/wiki/Middletown,_Iowa\">Middletown</a>, <a href=\"https://en.wikipedia.org/wiki/Iowa\">Iowa</a>, citing spontaneous explosion risks.",
+     "id": "2026-11-25-661b84548ee1",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
+      "title": "Portal:Current events/2026 November 25",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"
+     },
+     "sources": [
+      {
+       "name": "AFP",
+       "url": "https://www.afp.com/en/us-army-detonates-toxic-explosives-iowa-despite-contamination-fears"
+      },
+      {
+       "name": "CNN",
+       "url": "https://edition.cnn.com/2026/11/25/us/live-news/iowa-lead-azide-detonation"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Iowa lead azide detonation",
+       "links": [
+        {
+         "label": "Iowa lead azide detonation",
+         "url": "https://en.wikipedia.org/wiki/Iowa_lead_azide_detonation"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Iowa_lead_azide_detonation"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-25-661b84548ee1",
+   "image": {
+    "link": "https://edition.cnn.com/2026/11/25/us/live-news/iowa-lead-azide-detonation",
+    "source": "CNN",
+    "url": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2306835116.jpg?c=16x9&q=w_800,c_fill"
+   },
+   "more_articles": [],
+   "pub_date": "2026-11-25T00:00:00Z",
+   "title": "Iowa lead azide detonation: The United States Army detonates nearly 5 tons of degrading lead azide at the Iowa Army Ammunition Plant in Middletown, Iowa, citing spontaneous explosion risks."
+  },
+  {
+   "article": {
+    "extract": "The bilateral relations between the Kingdom of Cambodia and the People's Republic of China have been marked by close economic, political and security cooperation. The first contacts between China and the Khmer Empire occurred in the Tang period in the 9th century after it was unified in 802 AD by Jayavarman II. Cambodia maintained relations with the Ming dynasty during the final years of the Khmer Empire when Ponhea Yat dispatched a minister to establish formal diplomatic ties.",
+    "title": "Cambodia–China relations",
+    "url": "https://en.wikipedia.org/wiki/Cambodia%E2%80%93China_relations"
+   },
+   "categories": [
+    "International relations"
+   ],
+   "group": "2026-11-25-348424ae1504",
+   "headlines": [
+    {
+     "category": "International relations",
+     "html": "The <a href=\"https://en.wikipedia.org/wiki/Royal_Cambodian_Armed_Forces\">Cambodian</a> and <a href=\"https://en.wikipedia.org/wiki/People%27s_Liberation_Army\">Chinese militaries</a> begin their largest joint <a href=\"https://en.wikipedia.org/wiki/Military_exercise\">exercise</a>, Golden Dragon 2026, involving nearly 3,000 personnel across three locations in <a href=\"https://en.wikipedia.org/wiki/Cambodia\">Cambodia</a>, focusing on <a href=\"https://en.wikipedia.org/wiki/Counterterrorism\">counterterrorism</a>, anti-<a href=\"https://en.wikipedia.org/wiki/Piracy\">piracy</a> operations, and <a href=\"https://en.wikipedia.org/wiki/Humanitarian_assistance\">humanitarian assistance</a>.",
+     "id": "2026-11-25-348424ae1504",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
+      "title": "Portal:Current events/2026 November 25",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"
+     },
+     "sources": [
+      {
+       "name": "AFP via France 24",
+       "url": "https://www.france24.com/en/live-news/20261125-china-cambodia-stage-joint-military-drills"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Cambodia–China relations",
+       "links": [
+        {
+         "label": "Cambodia–China relations",
+         "url": "https://en.wikipedia.org/wiki/Cambodia%E2%80%93China_relations"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Cambodia%E2%80%93China_relations"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-25-348424ae1504",
+   "image": {
+    "link": "https://www.france24.com/en/live-news/20261125-china-cambodia-stage-joint-military-drills",
+    "source": "AFP via France 24",
+    "url": "https://s.france24.com/media/display/54be565a-e89c-11f1-aed3-81da3ab2acbb/w:1280/p:16x9/efdb9fe07a1609f0ae6491ce6fcfd97f8cd1f680.jpg"
+   },
+   "more_articles": [],
+   "pub_date": "2026-11-25T00:00:00Z",
+   "title": "Cambodia–China relations: The Cambodian and Chinese militaries begin their largest joint exercise, Golden Dragon 2026, involving nearly 3,000 personnel across three locations in Cambodia, focusing on counterterrorism…"
+  },
+  {
+   "article": {
+    "extract": "Kilmar Armando Ábrego García, a Salvadoran man living in the United States, was illegally deported to El Salvador on March 15, 2025, by the U.S. government under the Trump administration, which called it \"an administrative error\". His case became the most prominent of the hundreds of migrants the U.S. sent to be jailed without trial at the Salvadoran Terrorism Confinement Center (CECOT) under the countries' agreement where the U.S. would pay the Salvadoran government to imprison U.S. deportees there.",
+    "title": "Deportation of Kilmar Abrego Garcia",
+    "url": "https://en.wikipedia.org/wiki/Deportation_of_Kilmar_Abrego_Garcia"
+   },
+   "categories": [
+    "Law and crime"
+   ],
+   "group": "2026-11-25-3aed753c82e5",
+   "headlines": [
+    {
+     "category": "Law and crime",
+     "html": "<a href=\"https://en.wikipedia.org/wiki/Salvadorans\">Salvadoran national</a> Kilmar Abrego Garcia arrives in <a href=\"https://en.wikipedia.org/wiki/Madrid\">Madrid</a>, <a href=\"https://en.wikipedia.org/wiki/Spain\">Spain</a>, after voluntarily leaving the <a href=\"https://en.wikipedia.org/wiki/United_States\">United States</a> following a legal dispute over his wrongful <a href=\"https://en.wikipedia.org/wiki/Deportation_in_the_second_Trump_administration\">deportation</a> to <a href=\"https://en.wikipedia.org/wiki/El_Salvador\">El Salvador</a> in March 2025.",
+     "id": "2026-11-25-3aed753c82e5",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
+      "title": "Portal:Current events/2026 November 25",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"
+     },
+     "sources": [
+      {
+       "name": "AFP via RFI",
+       "url": "https://www.rfi.fr/en/international-news/20261125-wrongly-deported-salvadoran-man-arrives-in-spain-from-us"
+      },
+      {
+       "name": "Reuters",
+       "url": "https://www.reuters.com/world/americas/salvadoran-migrant-kilmar-abrego-garcia-lands-spain-after-us-departure-deal-2026-11-25/"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Deportation of Kilmar Abrego Garcia",
+       "links": [
+        {
+         "label": "Deportation of Kilmar Abrego Garcia",
+         "url": "https://en.wikipedia.org/wiki/Deportation_of_Kilmar_Abrego_Garcia"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Deportation_of_Kilmar_Abrego_Garcia"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-25-3aed753c82e5",
+   "image": {
+    "link": "https://www.rfi.fr/en/international-news/20261125-wrongly-deported-salvadoran-man-arrives-in-spain-from-us",
+    "source": "AFP via RFI",
+    "url": "https://s.rfi.fr/media/display/90176a92-e8d9-11f1-b5e4-1991d4929b54/w:1280/p:16x9/07885389efe72fd0b159fd1bd3dcb85960c6968e.jpg"
+   },
+   "more_articles": [],
+   "pub_date": "2026-11-25T00:00:00Z",
+   "title": "Deportation of Kilmar Abrego Garcia: Salvadoran national Kilmar Abrego Garcia arrives in Madrid, Spain, after voluntarily leaving the United States following a legal dispute over his wrongful deportation to El Salvador in March 2025."
+  },
+  {
+   "article": null,
+   "categories": [
+    "Law and crime"
+   ],
+   "group": "2026-11-25-446b82587724",
+   "headlines": [
+    {
+     "category": "Law and crime",
+     "html": "The <a href=\"https://en.wikipedia.org/wiki/Federal_Supreme_Court_of_Iraq\">Federal Supreme Court</a> rules that the <a href=\"https://en.wikipedia.org/wiki/Federal_government_of_Iraq\">federal government of Iraq</a> can deploy <a href=\"https://en.wikipedia.org/wiki/Iraqi_Armed_Forces\">troops</a> to the country's borders and can oversee and audit the <a href=\"https://en.wikipedia.org/wiki/Petroleum_industry_in_Iraq\">oil industry</a> in the <a href=\"https://en.wikipedia.org/wiki/Kurdistan_Region\">Kurdistan Region</a>, a day after <a href=\"https://en.wikipedia.org/wiki/Prime_Minister_of_Iraq\">Iraqi prime minister</a> <a href=\"https://en.wikipedia.org/wiki/Ali_al-Zaidi\">Ali al-Zaidi</a> announced he is placing the region's oilfields and border crossings under federal control to combat oil smuggling.",
+     "id": "2026-11-25-446b82587724",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
+      "title": "Portal:Current events/2026 November 25",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"
+     },
+     "sources": [
+      {
+       "name": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/25/iraqs-top-court-rules-government-can-take-over-kurdish-borders-oil-fields"
+      }
+     ],
+     "topics": []
+    }
+   ],
+   "id": "2026-11-25-446b82587724",
+   "image": {
+    "link": "https://www.aljazeera.com/news/2026/11/25/iraqs-top-court-rules-government-can-take-over-kurdish-borders-oil-fields",
+    "source": "Al Jazeera",
+    "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6b0090b5-1795199157.jpg?resize=1920%2C1440"
+   },
+   "more_articles": [],
+   "pub_date": "2026-11-25T00:00:00Z",
+   "title": "The Federal Supreme Court rules that the federal government of Iraq can deploy troops to the country's borders and can oversee and audit the oil industry in the Kurdistan Region, a day after Iraqi…"
+  },
+  {
+   "article": {
+    "extract": "Shenzhou 24 (simplified Chinese: 神舟二十四号; traditional Chinese: 神舟二十四號; pinyin: Shénzhōu èrshísì hào) is an in-progress Chinese spaceflight to the Tiangong space station. The mission carries three taikonauts aboard a Shenzhou spacecraft.",
+    "title": "Shenzhou 24",
+    "url": "https://en.wikipedia.org/wiki/Shenzhou_24"
+   },
+   "categories": [
+    "Science and technology"
+   ],
+   "group": "2026-11-25-08c471cee26d",
+   "headlines": [
+    {
+     "category": "Science and technology",
+     "html": "<a href=\"https://en.wikipedia.org/wiki/Pakistan\">Pakistani</a> astronaut <a href=\"https://en.wikipedia.org/wiki/Muhammad_Zeeshan_Ali\">Muhammad Zeeshan Ali</a> becomes the <a href=\"https://en.wikipedia.org/wiki/List_of_space_travelers_by_nationality\">first Pakistani to reach orbit</a> and the first foreign national to board <a href=\"https://en.wikipedia.org/wiki/China\">China</a>'s <a href=\"https://en.wikipedia.org/wiki/Tiangong_space_station\"><i>Tiangong</i> space station</a>, arriving aboard the <a href=\"https://en.wikipedia.org/wiki/China_Manned_Space_Program\">Shenzhou</a>-24 <a href=\"https://en.wikipedia.org/wiki/Shenzhou_(spacecraft)\">spacecraft</a> alongside two <a href=\"https://en.wikipedia.org/wiki/Chinese_astronauts\">Chinese astronauts</a> to conduct scientific experiments during a five-day mission.",
+     "id": "2026-11-25-08c471cee26d",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
+      "title": "Portal:Current events/2026 November 25",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"
+     },
+     "sources": [
+      {
+       "name": "AFP",
+       "url": "https://www.afp.com/en/china-space-station-receives-pakistani-astronaut-historic-mission"
+      },
+      {
+       "name": "Reuters",
+       "url": "https://www.reuters.com/science/chinas-shenzhou-24-space-flight-takes-off-with-pakistani-national-first-foreign-2026-11-25/"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Shenzhou 24",
+       "links": [
+        {
+         "label": "Shenzhou 24",
+         "url": "https://en.wikipedia.org/wiki/Shenzhou_24"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Shenzhou_24"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-25-08c471cee26d",
+   "more_articles": [],
+   "pub_date": "2026-11-25T00:00:00Z",
+   "title": "Shenzhou 24: Pakistani astronaut Muhammad Zeeshan Ali becomes the first Pakistani to reach orbit and the first foreign national to board China's Tiangong space station, arriving aboard the Shenzhou-24 spacecraft…"
   },
   {
    "article": {
@@ -882,36 +1209,6 @@
   },
   {
    "article": {
-    "extract": "Ukhnaagiin Khürelsükh (born 14 June 1968) is a Mongolian politician who served as President of Mongolia from 2021 to 2026. He previously served as Prime Minister of Mongolia from 2017 to 2021 and was elected to the Parliament of Mongolia four times – in 2000, 2004, 2012, and 2020.",
-    "title": "Ukhnaagiin Khürelsükh",
-    "url": "https://en.wikipedia.org/wiki/Ukhnaagiin_Kh%C3%BCrels%C3%BCkh"
-   },
-   "categories": [
-    "Topics in the news"
-   ],
-   "group": "topic-fe53ffb1cd0d",
-   "headlines": [
-    {
-     "category": "Topics in the news",
-     "html": "Mongolian president <b><a href=\"https://en.wikipedia.org/wiki/Ukhnaagiin_Kh%C3%BCrels%C3%BCkh\">Ukhnaagiin Khürelsükh</a></b> announces his resignation in response to corruption allegations.",
-     "id": "topic-fe53ffb1cd0d",
-     "page": {
-      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events&action=history",
-      "title": "Portal:Current events",
-      "url": "https://en.wikipedia.org/wiki/Portal:Current_events"
-     },
-     "sources": [],
-     "topics": []
-    }
-   ],
-   "id": "topic-fe53ffb1cd0d",
-   "kind": "topic",
-   "more_articles": [],
-   "pub_date": "2026-11-24T17:54:20Z",
-   "title": "Mongolian president Ukhnaagiin Khürelsükh announces his resignation in response to corruption allegations."
-  },
-  {
-   "article": {
     "extract": "The Application of the Convention on the Prevention and Punishment of the Crime of Genocide (The Gambia v. Myanmar), commonly referred to as the Rohingya genocide case, was a case heard by the International Court of Justice (ICJ).",
     "title": "Rohingya genocide case",
     "url": "https://en.wikipedia.org/wiki/Rohingya_genocide_case"
@@ -942,6 +1239,188 @@
   },
   {
    "article": {
+    "extract": "Ukhnaagiin Khürelsükh (born 14 June 1968) is a Mongolian politician who served as President of Mongolia from 2021 to 2026. He previously served as Prime Minister of Mongolia from 2017 to 2021 and was elected to the Parliament of Mongolia four times – in 2000, 2004, 2012, and 2020.",
+    "title": "Ukhnaagiin Khürelsükh",
+    "url": "https://en.wikipedia.org/wiki/Ukhnaagiin_Kh%C3%BCrels%C3%BCkh"
+   },
+   "categories": [
+    "Topics in the news"
+   ],
+   "group": "topic-fe53ffb1cd0d",
+   "headlines": [
+    {
+     "category": "Topics in the news",
+     "html": "Mongolian president <b><a href=\"https://en.wikipedia.org/wiki/Ukhnaagiin_Kh%C3%BCrels%C3%BCkh\">Ukhnaagiin Khürelsükh</a></b> announces his resignation in response to corruption allegations.",
+     "id": "topic-fe53ffb1cd0d",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events&action=history",
+      "title": "Portal:Current events",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events"
+     },
+     "sources": [],
+     "topics": []
+    }
+   ],
+   "id": "topic-fe53ffb1cd0d",
+   "kind": "topic",
+   "more_articles": [],
+   "pub_date": "2026-11-24T17:54:20Z",
+   "retired": true,
+   "title": "Mongolian president Ukhnaagiin Khürelsükh announces his resignation in response to corruption allegations."
+  },
+  {
+   "article": {
+    "extract": "The Middle East is currently experiencing an ongoing series of interrelated wars, conflicts, and heightened instability, triggered by the ongoing Gaza war and the genocide in Gaza. These have primarily consisted of conflicts between Israel and the United States on one side, and Iran and militias that form the \"Axis of Resistance\", which includes such groups as Hamas, Hezbollah, and the Houthis, on the other.",
+    "location": "Middle East",
+    "title": "Middle Eastern crisis (2023–present)",
+    "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
+   },
+   "categories": [
+    "Armed conflicts and attacks"
+   ],
+   "group": "2026-11-24-a6cef948b434",
+   "headlines": [
+    {
+     "category": "Armed conflicts and attacks",
+     "html": "The <a href=\"https://en.wikipedia.org/wiki/Saudi_Civil_Defense\">Saudi Civil Defense</a> announces that 11 people are injured in a strike on the <a href=\"https://en.wikipedia.org/wiki/Public_Investment_Fund_Tower\">Public Investment Fund Tower</a> in <a href=\"https://en.wikipedia.org/wiki/Riyadh\">Riyadh</a>.",
+     "id": "2026-11-24-8401821f0d3e",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_24&action=history",
+      "title": "Portal:Current events/2026 November 24",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_24"
+     },
+     "sources": [
+      {
+       "name": "Reuters",
+       "url": "https://www.reuters.com/world/middle-east/saudi-led-coalition-says-tower-riyadh-finance-district-targeted-by-terrorist-2026-11-24/"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Middle Eastern crisis",
+       "links": [
+        {
+         "label": "Middle Eastern crisis",
+         "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
+      },
+      {
+       "label": "Yemeni civil war",
+       "links": [
+        {
+         "label": "Yemeni civil war",
+         "url": "https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)"
+      },
+      {
+       "label": "Houthi–Saudi conflict",
+       "links": [
+        {
+         "label": "Houthi–Saudi conflict",
+         "url": "https://en.wikipedia.org/wiki/Houthi%E2%80%93Saudi_conflict"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Houthi%E2%80%93Saudi_conflict"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-24-8401821f0d3e",
+   "more_articles": [
+    {
+     "extract": "The Yemeni civil war (Arabic: الحرب الأهلية اليمنية, romanized: al-ḥarb al-ʾahlīyah al-yamanīyah) is an ongoing multilateral civil war that began in late 2014 mainly between the Rashad al-Alimi-led Presidential Leadership Council and the Mahdi al-Mashat-led Houthi Supreme Political Council, along with their respective supporters and allies. Both sides claim to constitute the official government of Yemen while the Presidential Leadership Council is recognized by the United Nations as the official government.",
+     "location": "Yemen and Saudi Arabia",
+     "title": "Yemeni civil war (2014–present)",
+     "url": "https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)"
+    },
+    {
+     "extract": "The Houthi–Saudi conflict is an ongoing armed conflict involving the Armed Forces of Saudi Arabia and Houthi forces in Yemen and along the Saudi–Yemeni border, including parts of Asir, Jazan, and Najran in Saudi Arabia and Saada, Al-Jawf, and Hajjah in Yemen. The conflict began following the Saudi-led intervention in Yemen in 2015.",
+     "location": "Yemen and Saudi Arabia",
+     "title": "Houthi–Saudi conflict",
+     "url": "https://en.wikipedia.org/wiki/Houthi%E2%80%93Saudi_conflict"
+    }
+   ],
+   "pub_date": "2026-11-24T00:00:00Z",
+   "title": "Houthi–Saudi conflict: The Saudi Civil Defense announces that 11 people are injured in a strike on the Public Investment Fund Tower in Riyadh."
+  },
+  {
+   "article": {
+    "extract": "On 24 February 2022, Russia invaded Ukraine, starting the largest and deadliest war in Europe since World War II, in a major escalation of the existing war between the two countries that began when Russia attacked Ukraine in 2014. The fighting has caused hundreds of thousands of military casualties and tens of thousands of Ukrainian civilian casualties.",
+    "location": "Ukraine, Russia, Black Sea",
+    "title": "Russo-Ukrainian war (2022–present)",
+    "url": "https://en.wikipedia.org/wiki/Russo-Ukrainian_war_(2022%E2%80%93present)"
+   },
+   "categories": [
+    "Armed conflicts and attacks"
+   ],
+   "group": "2026-11-24-6b64076c17b9",
+   "headlines": [
+    {
+     "category": "Armed conflicts and attacks",
+     "html": "Two <a href=\"https://en.wikipedia.org/wiki/Libyan_Navy\">Libyan naval officers</a> dies of their wounds sustained in the <a href=\"https://en.wikipedia.org/wiki/Ukraine\">Ukrainian</a> <a href=\"https://en.wikipedia.org/wiki/Unmanned_surface_vehicle\">naval</a> <a href=\"https://en.wikipedia.org/wiki/One-way_attack_drone\">drone</a> attack against the <a href=\"https://en.wikipedia.org/wiki/Russian_corvette_Merkury\">Russian corvette Merkury</a> in the <a href=\"https://en.wikipedia.org/wiki/Port_of_Benghazi\">Port of Benghazi</a>, two days ago. <a href=\"https://en.wikipedia.org/wiki/Libya\">Libya</a> announces it will respond.",
+     "id": "2026-11-24-a1e17e3f784c",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_24&action=history",
+      "title": "Portal:Current events/2026 November 24",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_24"
+     },
+     "sources": [
+      {
+       "name": "AP",
+       "url": "https://apnews.com/article/russia-ukraine-war-libya-drone-attack-warship-officers-5719d6750c0619695c7f23a373cecd7b"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Russo-Ukrainian war",
+       "links": [
+        {
+         "label": "Russo-Ukrainian war",
+         "url": "https://en.wikipedia.org/wiki/Russo-Ukrainian_war_(2022%E2%80%93present)"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Russo-Ukrainian_war_(2022%E2%80%93present)"
+      },
+      {
+       "label": "Naval warfare in the Russo-Ukrainian war, Ukrainian attacks on the Russian shadow fleet",
+       "links": [
+        {
+         "label": "Naval warfare in the Russo-Ukrainian war",
+         "url": "https://en.wikipedia.org/wiki/Naval_warfare_in_the_Russo-Ukrainian_war_(2022%E2%80%93present)"
+        },
+        {
+         "label": "Ukrainian attacks on the Russian shadow fleet",
+         "url": "https://en.wikipedia.org/wiki/Ukrainian_attacks_on_the_Russian_shadow_fleet"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Naval_warfare_in_the_Russo-Ukrainian_war_(2022%E2%80%93present)"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-24-a1e17e3f784c",
+   "more_articles": [
+    {
+     "extract": "Naval warfare in the Russian invasion of Ukraine began on 24 February 2022, when the Russian Armed Forces launched a full-scale invasion of Ukraine, in a major escalation of the Russo-Ukrainian War that began in 2014. Media reporting of—and focus on—the invasion has largely been on the terrestrial and aerial aspects, but maritime engagements have been consequential during the conflict.",
+     "title": "Naval warfare in the Russo-Ukrainian war (2022–present)",
+     "url": "https://en.wikipedia.org/wiki/Naval_warfare_in_the_Russo-Ukrainian_war_(2022%E2%80%93present)"
+    },
+    {
+     "extract": "Ukrainian attacks on Russian vessels, including oil tankers from the \"Russian shadow fleet\", are actions conducted by the Security Service of Ukraine (SBU) targeting Russia-linked ships. Primarily carried out in the Black Sea and Mediterranean Sea, these strikes represent a significant escalation of Ukraine's maritime warfare strategy.",
+     "location": "Black Sea, Mediterranean Sea",
+     "title": "Ukrainian attacks on the Russian shadow fleet",
+     "url": "https://en.wikipedia.org/wiki/Ukrainian_attacks_on_the_Russian_shadow_fleet"
+    }
+   ],
+   "pub_date": "2026-11-24T00:00:00Z",
+   "title": "Naval warfare in the Russo-Ukrainian war, Ukrainian attacks on the Russian shadow fleet: Two Libyan naval officers dies of their wounds sustained in the Ukrainian naval drone attack against the Russian corvette Merkury in the Port of Benghazi, two days ago."
+  },
+  {
+   "article": {
     "extract": "Miss Universe 2026 was the 75th Miss Universe pageant, held at the José Miguel Agrelot Coliseum in San Juan, Puerto Rico, on 24 November 2026. The event was presented by R'Bonney Gabriel, Mario Lopez, Zuri Hall, and Dayanara Torres.",
     "title": "Miss Universe 2026",
     "url": "https://en.wikipedia.org/wiki/Miss_Universe_2026"
@@ -953,7 +1432,7 @@
    "headlines": [
     {
      "category": "Arts and culture",
-     "html": "<a href=\"https://en.wikipedia.org/wiki/Jennifer_Barreto\">Jennifer Barreto</a> of <a href=\"https://en.wikipedia.org/wiki/Puerto_Rico\">Puerto Rico</a> is crowned <a href=\"https://en.wikipedia.org/wiki/Miss_Universe\">Miss Universe</a> in <a href=\"https://en.wikipedia.org/wiki/San_Juan\">San Juan</a>, Puerto Rico, becoming the sixth Puerto Rican woman, the first mother and married woman to win the title.",
+     "html": "<a href=\"https://en.wikipedia.org/wiki/Jennifer_Barreto\">Jennifer Barreto</a> of <a href=\"https://en.wikipedia.org/wiki/Puerto_Rico\">Puerto Rico</a> is crowned <a href=\"https://en.wikipedia.org/wiki/Miss_Universe\">Miss Universe</a> in <a href=\"https://en.wikipedia.org/wiki/San_Juan,_Puerto_Rico\">San Juan</a>, Puerto Rico, becoming the sixth Puerto-Rican woman, the first mother and married woman to win the title.",
      "id": "2026-11-24-b95a894b47d8",
      "page": {
       "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_24&action=history",
@@ -987,14 +1466,14 @@
    "id": "2026-11-24-b95a894b47d8",
    "more_articles": [],
    "pub_date": "2026-11-24T00:00:00Z",
-   "title": "Miss Universe 2026: Jennifer Barreto of Puerto Rico is crowned Miss Universe in San Juan, Puerto Rico, becoming the sixth Puerto Rican woman, the first mother and married woman to win the title."
+   "title": "Miss Universe 2026: Jennifer Barreto of Puerto Rico is crowned Miss Universe in San Juan, Puerto Rico, becoming the sixth Puerto-Rican woman, the first mother and married woman to win the title."
   },
   {
    "article": {
-    "extract": "The Gaza war is an armed conflict in the Gaza Strip and Israel, fought as part of the unresolved Israeli–Palestinian and Gaza–Israel conflicts. The war began on 7 October 2023, when Palestinian militant group Hamas led an attack on Israel, in which 1,195 Israelis and foreign nationals were killed and 251 were taken hostage.",
-    "location": "Gaza Strip and Israel",
-    "title": "Gaza war",
-    "url": "https://en.wikipedia.org/wiki/Gaza_war"
+    "extract": "The Middle East is currently experiencing an ongoing series of interrelated wars, conflicts, and heightened instability, triggered by the ongoing Gaza war and the genocide in Gaza. These have primarily consisted of conflicts between Israel and the United States on one side, and Iran and militias that form the \"Axis of Resistance\", which includes such groups as Hamas, Hezbollah, and the Houthis, on the other.",
+    "location": "Middle East",
+    "title": "Middle Eastern crisis (2023–present)",
+    "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
    },
    "categories": [
     "Armed conflicts and attacks"
@@ -1018,6 +1497,16 @@
      ],
      "topics": [
       {
+       "label": "Middle Eastern crisis",
+       "links": [
+        {
+         "label": "Middle Eastern crisis",
+         "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
+      },
+      {
        "label": "Gaza war",
        "links": [
         {
@@ -1031,7 +1520,14 @@
     }
    ],
    "id": "2026-11-24-a6cef948b434",
-   "more_articles": [],
+   "more_articles": [
+    {
+     "extract": "The Gaza war is an armed conflict in the Gaza Strip and Israel, fought as part of the unresolved Israeli–Palestinian and Gaza–Israel conflicts. The war began on 7 October 2023, when Palestinian militant group Hamas led an attack on Israel, in which 1,195 Israelis and foreign nationals were killed and 251 were taken hostage.",
+     "location": "Gaza Strip and Israel",
+     "title": "Gaza war",
+     "url": "https://en.wikipedia.org/wiki/Gaza_war"
+    }
+   ],
    "pub_date": "2026-11-24T00:00:00Z",
    "title": "Gaza war: Israel kills Hamas security official Naeem Abu Nahel in an airstrike in the Gaza Strip."
   },
@@ -1251,7 +1747,7 @@
    "headlines": [
     {
      "category": "Law and crime",
-     "html": "Twenty people are rescued after a <a href=\"https://en.wikipedia.org/wiki/Hostage\">hostage-taking</a> at a supermarket by armed men in <a href=\"https://en.wikipedia.org/wiki/Cartagena,_Colombia\">Cartagena</a>, <a href=\"https://en.wikipedia.org/wiki/Colombia\">Colombia</a>, after a failed <a href=\"https://en.wikipedia.org/wiki/Armored_car_(military)\">armored-car</a> robbery. One assailant is killed by security forces, while the others are arrested.",
+     "html": "Twenty people are rescued after a <a href=\"https://en.wikipedia.org/wiki/Hostage\">hostage-taking</a> at a supermarket by armed men in <a href=\"https://en.wikipedia.org/wiki/Cartagena,_Colombia\">Cartagena</a>, <a href=\"https://en.wikipedia.org/wiki/Colombia\">Colombia</a>, after a failed <a href=\"https://en.wikipedia.org/wiki/Armored_car_(military)\">armored-car</a> robbery. One assailant is killed by <a href=\"https://en.wikipedia.org/wiki/Public_Forces_(Colombia)\">security forces</a>, while the others are arrested.",
      "id": "2026-11-24-a5b813d0c298",
      "page": {
       "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_24&action=history",
@@ -2022,7 +2518,7 @@
   },
   {
    "article": {
-    "extract": "Since 2026, mass protest movements arose across Europe. Major demonstrations were held across Albania, Belgium, Czech Republic, France, Germany, Georgia, Greece, Ireland, Italy, Poland, Portugal, Serbia, Spain and Ukraine, with minor demonstrations and strikes occurring in other countries.",
+    "extract": "Since early 2026, mass protest movements arose across Europe. Major demonstrations were held across Albania, Belgium, Czech Republic, France, Germany, Georgia, Greece, Ireland, Italy, Poland, Portugal, Serbia, Spain and Ukraine, with minor demonstrations and strikes occurring in other countries.",
     "location": "Europe",
     "title": "2026 European unrest",
     "url": "https://en.wikipedia.org/wiki/2026_European_unrest"
@@ -3040,18 +3536,14 @@
     },
     {
      "category": "Armed conflicts and attacks",
-     "html": "Several people are killed and at least 10 others are injured after the <a href=\"https://en.wikipedia.org/wiki/Russian_corvette_Merkury\">Russian corvette <i>Merkury</i></a> is struck by a <a href=\"https://en.wikipedia.org/wiki/Ukraine\">Ukrainian</a> <a href=\"https://en.wikipedia.org/wiki/Unmanned_surface_vehicle\">naval</a> <a href=\"https://en.wikipedia.org/wiki/One-way_attack_drone\">drone</a> attack while docked at the <a href=\"https://en.wikipedia.org/wiki/Port_of_Benghazi\">Port of Benghazi</a>, <a href=\"https://en.wikipedia.org/wiki/Libya\">Libya</a>. The <i>Merkury</i> later capsizes and sinks.",
-     "id": "2026-11-22-4695aa522c0e",
+     "html": "Ten people are injured after the <a href=\"https://en.wikipedia.org/wiki/Russian_corvette_Merkury\">Russian corvette <i>Merkury</i></a> is struck by a <a href=\"https://en.wikipedia.org/wiki/Ukraine\">Ukrainian</a> <a href=\"https://en.wikipedia.org/wiki/Unmanned_surface_vehicle\">naval</a> <a href=\"https://en.wikipedia.org/wiki/One-way_attack_drone\">drone</a> attack while docked at the <a href=\"https://en.wikipedia.org/wiki/Port_of_Benghazi\">Port of Benghazi</a>, <a href=\"https://en.wikipedia.org/wiki/Libya\">Libya</a>. The <i>Merkury</i> later capsizes and sinks.",
+     "id": "2026-11-22-893233cb54b4",
      "page": {
       "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_22&action=history",
       "title": "Portal:Current events/2026 November 22",
       "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22"
      },
      "sources": [
-      {
-       "name": "Al-Jazeera",
-       "url": "https://www.aljazeera.com/amp/news/2026/11/22/suspected-drone-strike-hits-russian-vessel-in-libya"
-      },
       {
        "name": "Reuters",
        "url": "https://www.reuters.com/world/middle-east/libyas-eastern-government-suspects-drone-attack-caused-explosion-russian-ship-2026-11-22/"
@@ -3086,11 +3578,6 @@
     }
    ],
    "id": "2026-11-22-eba12ce9b00b",
-   "image": {
-    "link": "https://www.aljazeera.com/amp/news/2026/11/22/suspected-drone-strike-hits-russian-vessel-in-libya",
-    "source": "Al-Jazeera",
-    "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6b0335827927f-1795372418.jpg?resize=1920%2C1440"
-   },
    "more_articles": [
     {
      "extract": "Naval warfare in the Russian invasion of Ukraine began on 24 February 2022, when the Russian Armed Forces launched a full-scale invasion of Ukraine, in a major escalation of the Russo-Ukrainian War that began in 2014. Media reporting of—and focus on—the invasion has largely been on the terrestrial and aerial aspects, but maritime engagements have been consequential during the conflict.",
@@ -3105,7 +3592,7 @@
     }
    ],
    "pub_date": "2026-11-22T00:00:00Z",
-   "title": "Naval warfare in the Russo-Ukrainian war, Ukrainian attacks on the Russian shadow fleet: The M/V Angara, a Russian-flagged cargo ship, is also struck by naval drones off the coast of Benghazi in the Mediterranean Sea. / Several people are killed and at least 10 others are injured after the Russian corvette Merkury is struck by a Ukrainian naval drone attack while docked at the Port of Benghazi, Libya."
+   "title": "Naval warfare in the Russo-Ukrainian war, Ukrainian attacks on the Russian shadow fleet: The M/V Angara, a Russian-flagged cargo ship, is also struck by naval drones off the coast of Benghazi in the Mediterranean Sea. / Ten people are injured after the Russian corvette Merkury is struck by a Ukrainian naval drone attack while docked at the Port of Benghazi, Libya."
   },
   {
    "article": null,
@@ -4443,7 +4930,7 @@
   },
   {
    "article": {
-    "extract": "Since 2026, mass protest movements arose across Europe. Major demonstrations were held across Albania, Belgium, Czech Republic, France, Germany, Georgia, Greece, Ireland, Italy, Poland, Portugal, Serbia, Spain and Ukraine, with minor demonstrations and strikes occurring in other countries.",
+    "extract": "Since early 2026, mass protest movements arose across Europe. Major demonstrations were held across Albania, Belgium, Czech Republic, France, Germany, Georgia, Greece, Ireland, Italy, Poland, Portugal, Serbia, Spain and Ukraine, with minor demonstrations and strikes occurring in other countries.",
     "location": "Europe",
     "title": "2026 European unrest",
     "url": "https://en.wikipedia.org/wiki/2026_European_unrest"
@@ -30240,5 +30727,5 @@
    "title": "2026 U.S. Open Cup final: In association football, St. Louis City SC defeats Columbus Crew in a penalty shoot-out to win the U.S. Open Cup, earning the club its first trophy since beginning play in 2023."
   }
  ],
- "updated": "2026-11-25T18:12:36Z"
+ "updated": "2026-11-26T01:49:12Z"
 }

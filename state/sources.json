@@ -14,10 +14,24 @@
    "error": "no title",
    "fails": 3
   },
+  "https://aa.com.tr/en/middle-east/isis-attack-on-military-headquarters-kills-2-in-northeastern-syria-official-says/4138076": {
+   "checked": "2026-11-26T01:49:12Z",
+   "error": "no title",
+   "fails": 1
+  },
   "https://aa.com.tr/en/world/floods-in-argentina-kill-2-displace-over-2-000-amid-el-nino/4099759": {
    "checked": "2026-11-24T17:54:20Z",
    "error": "no title",
    "fails": 3
+  },
+  "https://aje.news/0x4p9q?update=5187000": {
+   "checked": "2026-11-26T01:49:12Z",
+   "preview": {
+    "description": "These were the updates on the US-Israel war on Iran from Wednesday, November 25, 2026.",
+    "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/2026-10-26T040011Z_1015270531_RC25SNAOPR60_RTRMADP_3_MYANMAR-CONFLICT-JET-FUEL-1793317588.jpg?resize=1920%2C1440",
+    "site": "Al Jazeera",
+    "title": "Iran war updates: Another tanker ‘on fire’ after hitting mine in Hormuz"
+   }
   },
   "https://aje.news/r003u9?update=5168071": {
    "checked": "2026-11-20T15:34:54Z",
@@ -460,6 +474,11 @@
    "error": "HTTP 403",
    "fails": 3
   },
+  "https://apnews.com/article/russia-ukraine-war-libya-drone-attack-warship-officers-5719d6750c0619695c7f23a373cecd7b": {
+   "checked": "2026-11-26T01:49:12Z",
+   "error": "HTTP 403",
+   "fails": 1
+  },
   "https://apnews.com/article/russia-ukraine-war-putin-zelenskyy-uae-3d878a3e56d5df5bd198a6d20c824d18": {
    "checked": "2026-11-22T10:14:34Z",
    "error": "HTTP 403",
@@ -768,6 +787,14 @@
     "description": "Spain’s Supreme Court shelved a criminal case against Catalan separatist and former regional leader Carles Puigdemont on Monday, thus removing the last legal hurdle for him to return to Spain following nearly a decade of self-imposed exile.",
     "image": "https://media.cnn.com/api/v1/images/stellar/prod/2026-10-06t160851z-1643276150-rc2sxna4xohv-rtrmadp-3-spain-politics-puigdemont.jpg?c=16x9&q=w_800,c_fill",
     "title": "Spanish court removes last hurdle to Catalan leader’s return from exile | CNN"
+   }
+  },
+  "https://edition.cnn.com/2026/11/24/us/plane-crash-mississippi-horn-island": {
+   "checked": "2026-11-26T01:49:12Z",
+   "preview": {
+    "description": "Six relatives from two families who were on a fishing trip together died when a small plane carrying them crashed Tuesday near Mississippi’s Horn Island, according to their families.",
+    "image": "https://media.cnn.com/api/v1/images/stellar/prod/c-260826-as-us-nolanwellscommunity-dsc08991.jpg?c=16x9&q=w_800,c_fill",
+    "title": "6 relatives on a fishing trip were killed after their plane crashed near Mississippi’s Horn Island | CNN"
    }
   },
   "https://edition.cnn.com/2026/11/25/us/live-news/iowa-lead-azide-detonation": {
@@ -1506,6 +1533,11 @@
    "error": "HTTP 403",
    "fails": 3
   },
+  "https://www.afp.com/en/bangladesh-garment-workers-win-wage-rise-after-weeks-protests": {
+   "checked": "2026-11-26T01:49:12Z",
+   "error": "HTTP 403",
+   "fails": 1
+  },
   "https://www.afp.com/en/bangladesh-increase-garment-sector-pay-after-protests": {
    "checked": "2026-11-22T23:39:34Z",
    "error": "HTTP 403",
@@ -1535,6 +1567,11 @@
    "checked": "2026-11-22T10:14:34Z",
    "error": "HTTP 403",
    "fails": 3
+  },
+  "https://www.afp.com/en/china-space-station-receives-pakistani-astronaut-historic-mission": {
+   "checked": "2026-11-26T01:49:12Z",
+   "error": "HTTP 403",
+   "fails": 1
   },
   "https://www.afp.com/en/china-us-russia-issue-declaration-toward-peace-after-first-summit": {
    "checked": "2026-11-22T10:14:34Z",
@@ -1676,6 +1713,11 @@
    "error": "HTTP 403",
    "fails": 3
   },
+  "https://www.afp.com/en/us-army-detonates-toxic-explosives-iowa-despite-contamination-fears": {
+   "checked": "2026-11-26T01:49:12Z",
+   "error": "HTTP 403",
+   "fails": 1
+  },
   "https://www.afp.com/en/us-grant-flavio-bolsonaro-visa-he-flees-brazil-after-election-loss": {
    "checked": "2026-11-23T18:24:10Z",
    "error": "HTTP 403",
@@ -1695,6 +1737,11 @@
    "checked": "2026-11-23T18:24:10Z",
    "error": "HTTP 403",
    "fails": 3
+  },
+  "https://www.afp.com/es/node/3854796": {
+   "checked": "2026-11-26T01:49:12Z",
+   "error": "HTTP 403",
+   "fails": 1
   },
   "https://www.al-monitor.com/originals/2026/11/pif-aramco-strikes-hit-heart-saudi-arabias-economic-overhaul": {
    "checked": "2026-11-20T15:34:54Z",
@@ -1730,15 +1777,6 @@
     "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/AFP__20261102__D64N394__v1__HighRes__PalestinianIsraelConflictWestBank-1793606912.jpg?resize=1920%2C1440",
     "site": "Al Jazeera",
     "title": "Hebron governor says Israeli forces withdraw from city after 10-day siege"
-   }
-  },
-  "https://www.aljazeera.com/amp/news/2026/11/22/suspected-drone-strike-hits-russian-vessel-in-libya": {
-   "checked": "2026-11-22T23:39:34Z",
-   "preview": {
-    "description": "There was no immediate reaction from Russia, and no one has claimed responsibility for the suspected attack.",
-    "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6b0335827927f-1795372418.jpg?resize=1920%2C1440",
-    "site": "Al Jazeera",
-    "title": "Russian vessel hit by suspected Ukrainian drone at Libya’s Benghazi port"
    }
   },
   "https://www.aljazeera.com/amp/news/2026/11/24/hostage-situation-reported-in-colombia-as-armed-men-flee-into-supermarket": {
@@ -2117,6 +2155,15 @@
     "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6b010dd74d22-1795231191.jpg?resize=1200%2C675",
     "site": "Al Jazeera",
     "title": "Saudi-led coalition intercepts three Houthi missiles headed for Riyadh"
+   }
+  },
+  "https://www.aljazeera.com/news/2026/11/25/iraqs-top-court-rules-government-can-take-over-kurdish-borders-oil-fields": {
+   "checked": "2026-11-26T01:49:12Z",
+   "preview": {
+    "description": "The ruling comes a day after Kurdish authorities accused Baghdad of an 'assault' on the region's constitutional rights.",
+    "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6b0090b5-1795199157.jpg?resize=1920%2C1440",
+    "site": "Al Jazeera",
+    "title": "Iraq’s top court rules government can take over Kurdish borders, oil fields"
    }
   },
   "https://www.aljazeera.com/news/2026/11/25/israeli-strike-kills-hamas-official-his-wife-and-children": {
@@ -3783,6 +3830,33 @@
     "title": "Turkey says PKK evacuated 14 more bases in northern Iraq"
    }
   },
+  "https://www.france24.com/en/live-news/20261125-china-cambodia-stage-joint-military-drills": {
+   "checked": "2026-11-26T01:49:12Z",
+   "preview": {
+    "description": "Staunch allies China and Cambodia began joint military exercises on Wednesday, which Phnom Penh said were the largest yet, featuring nearly 3,000 personnel across three locations.",
+    "image": "https://s.france24.com/media/display/54be565a-e89c-11f1-aed3-81da3ab2acbb/w:1280/p:16x9/efdb9fe07a1609f0ae6491ce6fcfd97f8cd1f680.jpg",
+    "site": "France 24",
+    "title": "China, Cambodia stage joint military drills"
+   }
+  },
+  "https://www.france24.com/en/live-news/20261125-egypt-says-30-dead-in-cairo-fire-after-fuel-truck-overturns": {
+   "checked": "2026-11-26T01:49:12Z",
+   "preview": {
+    "description": "A fire erupted in Egyptian capital Cairo on Wednesday killing at least 31 people, the health ministry said, after a fuel truck reportedly overturned on a packed highway.",
+    "image": "https://s.france24.com/media/display/dab353d8-e909-11f1-a463-1991d4929b54/w:1280/p:16x9/54894a6dbd255c6e5becf79e023ff6c764ac5f60.jpg",
+    "site": "France 24",
+    "title": "Egypt says 31 dead in Cairo fire after fuel truck overturns"
+   }
+  },
+  "https://www.france24.com/en/live-news/20261125-greece-cost-of-living-strike-hits-trains-and-planes": {
+   "checked": "2026-11-26T01:49:12Z",
+   "preview": {
+    "description": "Thousands of people demonstrated in Greek cities on Wednesday during a 24-hour cost-of-living strike that disrupted public transport and other services.",
+    "image": "https://s.france24.com/media/display/45b83da4-e8cb-11f1-bf65-29d00e23de9a/w:1280/p:16x9/23ac3a5b4934c75e47bd71af2493ac9165f33737.jpg",
+    "site": "France 24",
+    "title": "Greece cost-of-living strike hits trains and planes"
+   }
+  },
   "https://www.france24.com/en/middle-east/20261026-iran-talks-mecca-pact-nations-war": {
    "checked": "2026-11-21T14:45:33Z",
    "preview": {
@@ -4057,6 +4131,15 @@
     "title": "Tensions rise in Philadelphia over boycott of Jewish-owned restaurants"
    }
   },
+  "https://www.nbcnews.com/news/us-news/macys-thanksgiving-day-parade-weather-delay-rcna611355": {
+   "checked": "2026-11-26T01:49:12Z",
+   "preview": {
+    "description": "The traditional event is celebrating its 100th. The only reason it has ever been canceled? War, in 1942, 43 and 44.",
+    "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261125-thanksgiving-parade-snoopy-mn-1255-a4d9d2.jpg",
+    "site": "NBC News",
+    "title": "Macy’s Thanksgiving Day Parade is pushed back to Saturday due to weather"
+   }
+  },
   "https://www.nbcnews.com/news/us-news/manhunt-california-spirit-halloween-shooting-dead-injured-police-rcna606673": {
    "checked": "2026-11-21T14:45:33Z",
    "preview": {
@@ -4118,6 +4201,15 @@
     "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261125-aus-solo-rs-2c1049.jpg",
     "site": "NBC News",
     "title": "Solomon Islands signs treaty with Australia that checks China’s influence in the South Pacific"
+   }
+  },
+  "https://www.nbcnews.com/world/saudi-arabia/yemen-houthi-rebels-attack-saudi-arabia-largest-oil-refinery-rcna611319": {
+   "checked": "2026-11-26T01:49:12Z",
+   "preview": {
+    "description": "Satellite imagery from both NASA and Planet Labs showed thick black smoke over the installation.",
+    "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261125-ras-tanura-saudi-oil-refinery-bf-1212-0b0623.jpg",
+    "site": "NBC News",
+    "title": "Yemen’s Houthi rebels attack Saudi Arabia’s largest oil refinery"
    }
   },
   "https://www.nbcsports.com/olympics/news/skate-canada-figure-skating-2026-grand-prix-rio-nakata": {
@@ -4472,6 +4564,11 @@
    "error": "disallowed by robots.txt",
    "fails": 3
   },
+  "https://www.reuters.com/legal/litigation/chinas-huawei-convicted-us-criminal-trial-stemming-iran-business-2026-11-24/": {
+   "checked": "2026-11-26T01:49:12Z",
+   "error": "disallowed by robots.txt",
+   "fails": 1
+  },
   "https://www.reuters.com/legal/litigation/conservative-party-wins-first-election-nearly-century-british-columbia-2026-10-25/": {
    "checked": "2026-11-24T17:54:20Z",
    "error": "disallowed by robots.txt",
@@ -4496,6 +4593,11 @@
    "checked": "2026-11-22T10:14:34Z",
    "error": "disallowed by robots.txt",
    "fails": 3
+  },
+  "https://www.reuters.com/science/chinas-shenzhou-24-space-flight-takes-off-with-pakistani-national-first-foreign-2026-11-25/": {
+   "checked": "2026-11-26T01:49:12Z",
+   "error": "disallowed by robots.txt",
+   "fails": 1
   },
   "https://www.reuters.com/science/martian-meteorite-found-sahara-is-41-billion-years-old-2026-10-29/": {
    "checked": "2026-11-23T18:24:10Z",
@@ -4631,6 +4733,11 @@
    "checked": "2026-11-23T18:24:10Z",
    "error": "disallowed by robots.txt",
    "fails": 3
+  },
+  "https://www.reuters.com/world/americas/salvadoran-migrant-kilmar-abrego-garcia-lands-spain-after-us-departure-deal-2026-11-25/": {
+   "checked": "2026-11-26T01:49:12Z",
+   "error": "disallowed by robots.txt",
+   "fails": 1
   },
   "https://www.reuters.com/world/americas/us-defense-secretary-hegseth-vows-boost-venezuela-military-cooperation-2026-11-18/": {
    "checked": "2026-11-22T10:14:34Z",
@@ -4772,6 +4879,11 @@
    "error": "disallowed by robots.txt",
    "fails": 3
   },
+  "https://www.reuters.com/world/greeks-strike-over-wages-public-services-2026-11-25/": {
+   "checked": "2026-11-26T01:49:12Z",
+   "error": "disallowed by robots.txt",
+   "fails": 1
+  },
   "https://www.reuters.com/world/hundreds-german-schools-received-bomb-threats-bild-reports-2026-11-23/": {
    "checked": "2026-11-25T02:34:34Z",
    "error": "disallowed by robots.txt",
@@ -4841,6 +4953,11 @@
    "checked": "2026-11-25T18:12:36Z",
    "error": "disallowed by robots.txt",
    "fails": 3
+  },
+  "https://www.reuters.com/world/middle-east/saudi-led-coalition-says-tower-riyadh-finance-district-targeted-by-terrorist-2026-11-24/": {
+   "checked": "2026-11-26T01:49:12Z",
+   "error": "disallowed by robots.txt",
+   "fails": 1
   },
   "https://www.reuters.com/world/middle-east/us-strikes-iranian-missile-launch-site-qeshm-island-us-official-says-2026-11-17/": {
    "checked": "2026-11-22T10:14:34Z",
@@ -4990,6 +5107,15 @@
     "image": "https://s.rfi.fr/media/display/8c1308b2-e01d-11f1-8660-5f54d898a954/w:1280/p:16x9/3a04c3a5561fc9f6aab7c51e295a08c3d9add70f.jpg",
     "site": "RFI",
     "title": "South Sudan postpones first national elections until February"
+   }
+  },
+  "https://www.rfi.fr/en/international-news/20261125-wrongly-deported-salvadoran-man-arrives-in-spain-from-us": {
+   "checked": "2026-11-26T01:49:12Z",
+   "preview": {
+    "description": "A Salvadoran man who was wrongly deported from the United States, symbolising President Donald Trump's migration crackdown, celebrated his \"freedom\" and vowed to \"keep fighting\" for immigrants after…",
+    "image": "https://s.rfi.fr/media/display/90176a92-e8d9-11f1-b5e4-1991d4929b54/w:1280/p:16x9/07885389efe72fd0b159fd1bd3dcb85960c6968e.jpg",
+    "site": "RFI",
+    "title": "Wrongly deported Salvadoran man arrives in Spain from US"
    }
   },
   "https://www.rfi.fr/en/middle-east/20261112-iran-pair-guilty-of-spying-on-london-based-journalists-for-tehran": {
