@@ -497,6 +497,12 @@
    "site": "Times of Malta",
    "title": "Tourist killed after two helicopters collide in Nepal's Everest region"
   },
+  "https://today.lorientlejour.com/article/1555723/minibus-drivers-exchange-gunfire-in-broad-daylight-on-a-south-beirut-street.html": {
+   "description": "BEIRUT — A shootout broke out on Thursday morning between minibus drivers in the southern suburbs of Beirut, leaving two people dead and three injured, according to a Lebanese Army source contacted...",
+   "image": "https://s.lorientlejour.com/storage/attachments/1556/ezeze_304832_663630.png/r/800/ezeze_304832_663630.png",
+   "site": "L'Orient Today",
+   "title": "Minibus drivers exchange gunfire in broad daylight on a south Beirut street"
+  },
   "https://tribune.net.ph/2026/10/24/israel-launches-major-west-bank-operation": {
    "description": "Israel launched a multi-day military operation in the occupied West Bank’s Hebron area following an attack that killed two Israeli soldiers, with forces conducting searches, questioning suspects and demolishing structures they described as security threats. Prime Minister Benjamin Netanyahu ordered a West Bank lockdown and signaled a broader military campaign ahead of Israel’s elections, while…",
    "image": "https://images.assettype.com/tribune/2026-10-24/sk9v67g7/1a93dffd2f0bf95cccc679b967d7d029451a9b7b.jpg?w=1024&auto=format&q=70&rect=0%2C0%2C1024%2C576&h=576&fit=crop",
@@ -1841,12 +1847,6 @@
    "site": "France 24",
    "title": "China, Cambodia stage joint military drills"
   },
-  "https://www.france24.com/en/live-news/20261125-egypt-says-30-dead-in-cairo-fire-after-fuel-truck-overturns": {
-   "description": "A fire erupted in Egyptian capital Cairo on Wednesday killing at least 31 people, the health ministry said, after a fuel truck reportedly overturned on a packed highway.",
-   "image": "https://s.france24.com/media/display/dab353d8-e909-11f1-a463-1991d4929b54/w:1280/p:16x9/54894a6dbd255c6e5becf79e023ff6c764ac5f60.jpg",
-   "site": "France 24",
-   "title": "Egypt says 31 dead in Cairo fire after fuel truck overturns"
-  },
   "https://www.france24.com/en/live-news/20261125-greece-cost-of-living-strike-hits-trains-and-planes": {
    "description": "Thousands of people demonstrated in Greek cities on Wednesday during a 24-hour cost-of-living strike that disrupted public transport and other services.",
    "image": "https://s.france24.com/media/display/45b83da4-e8cb-11f1-bf65-29d00e23de9a/w:1280/p:16x9/23ac3a5b4934c75e47bd71af2493ac9165f33737.jpg",
@@ -1918,6 +1918,12 @@
    "image": "https://media.internazionale.it/images/2026/10/27/362254-hd.jpeg",
    "site": "Internazionale",
    "title": "Jordan says it killed more than 20 Islamic State militants in airstrikes on Syria"
+  },
+  "https://www.internazionale.it/ultime-notizie-reuters/2026/11/26/crew-member-dies-after-diesel-tanker-sinks-off-ibiza-spain-launches-pollution-plan": {
+   "description": "MADRID, Nov 26 (Reuters) - At least one crew member aboard a ship carrying diesel has died after the vessel capsized and partially sank off the Spanish island of Ibiza on… Leggi",
+   "image": "https://static.internazionale.it/assets/img/home-summary-img-substitute.png",
+   "site": "Internazionale",
+   "title": "Crew member dies after diesel tanker capsizes off Ibiza, no pollution so far"
   },
   "https://www.jpost.com/israel-news/defense-news/article-912959": {
    "description": "The military stated that the operatives had been actively working to restore operational military capabilities and planning attacks against Israeli troops and civilians.",
@@ -2017,12 +2023,6 @@
    "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261108-philadelphia-boycott-israel-jewish-ww-1418-293a16.jpg",
    "site": "NBC News",
    "title": "Tensions rise in Philadelphia over boycott of Jewish-owned restaurants"
-  },
-  "https://www.nbcnews.com/news/us-news/macys-thanksgiving-day-parade-weather-delay-rcna611355": {
-   "description": "The traditional event is celebrating its 100th. The only reason it has ever been canceled? War, in 1942, 43 and 44.",
-   "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261125-thanksgiving-parade-snoopy-mn-1255-a4d9d2.jpg",
-   "site": "NBC News",
-   "title": "Macy’s Thanksgiving Day Parade is pushed back to Saturday due to weather"
   },
   "https://www.nbcnews.com/news/us-news/manhunt-california-spirit-halloween-shooting-dead-injured-police-rcna606673": {
    "description": "At least three victims were in critical condition, the Fairfield police chief said.",
@@ -2207,6 +2207,12 @@
    "image": "https://www.rainews.it/cropgd/1200x630/dl/img/2026/11/20/1795185143116_rainewsccaacacbaf.jpg",
    "site": "RaiNews",
    "title": "Sciopero generale, cortei contro manovra e governo. Landini: \"Oltre 1 milione nelle piazze\""
+  },
+  "https://www.rainews.it/maratona/2026/11/yemen-scontri-tra-esercito-e-houthi-a-marib-e-al-jawf-64d93082-0760-48fa-b413-8620e40fdbf3.html": {
+   "description": "Le due vittime, Antonio Saccoccio (65 anni) ed Emanuele Lo Russo (36 anni), erano impegnate nella manutenzione di antenne della difesa antiaerea. Tajani: \"Ci lamenteremo con l'Ambasciata iraniana\". Ma Teheran nega ogni coinvolgimento",
+   "image": "https://www.rainews.it/cropgd/1200x630/dl/img/2026/11/26/1795708153545_cop_Kuwait_genericaframe.jpeg",
+   "site": "RaiNews",
+   "title": "Kuwait, attacco iraniano con droni: morti due tecnici italiani Rheinmetall. Cordoglio di Meloni"
   },
   "https://www.rappler.com/philippines/muntinlupa-city-protest-arrest-asean-2026/": {
    "description": "The protesters, members of Lakbayan Timog Katagalugan, were heading to Liwasang Bonifacio to join other groups opposing Pax Silica and the expected arrival of US President Donald Trump.",
@@ -2602,6 +2608,12 @@
    "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/1000102553.jpg",
    "site": "The Daily Star",
    "title": "Clashes over Awami League processions in Gopalganj leave at least 30 injured"
+  },
+  "https://www.thedailystar.net/news/politics/news/one-killed-five-injured-bnp-factional-clash-munshiganj-4333826": {
+   "description": "Rival groups clash over establishing dominance ahead of union parishad polls",
+   "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/Munshiganj%20killed.PNG",
+   "site": "The Daily Star",
+   "title": "One killed, five injured in BNP factional clash in Munshiganj"
   },
   "https://www.thedailystar.net/news/world/news/truck-crash-uae-kills-14-injures-30-4322351": {
    "description": "Truck overturns after hitting another vehicle, setting several vehicles ablaze",

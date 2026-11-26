@@ -179,6 +179,11 @@
    "error": "HTTP 403",
    "fails": 3
   },
+  "https://apnews.com/article/cairo-highway-fire-ring-road-89e4cd3d3d53016c9c35440b57c5ea1e": {
+   "checked": "2026-11-26T17:01:50Z",
+   "error": "HTTP 403",
+   "fails": 1
+  },
   "https://apnews.com/article/cambodia-traffic-accidents-school-bus-e0c3e6316356dcbe3c4ff9fbed68a62b": {
    "checked": "2026-11-22T10:14:34Z",
    "error": "HTTP 403",
@@ -565,9 +570,9 @@
    "fails": 3
   },
   "https://apnews.com/article/turkey-military-helicopter-crash-eskisehir-d807011ff565dcfbce78fcf44d338994": {
-   "checked": "2026-11-25T02:34:34Z",
+   "checked": "2026-11-26T17:01:50Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://apnews.com/article/ueno-bank-collapse-paraguay-banking-crisis-santiago-pena-impeachment-eccea1c9a64808b5cd7e6e1d5542084f": {
    "checked": "2026-11-22T23:39:34Z",
@@ -1368,6 +1373,15 @@
     "title": "Tourist killed after two helicopters collide in Nepal's Everest region"
    }
   },
+  "https://today.lorientlejour.com/article/1555723/minibus-drivers-exchange-gunfire-in-broad-daylight-on-a-south-beirut-street.html": {
+   "checked": "2026-11-26T17:01:50Z",
+   "preview": {
+    "description": "BEIRUT — A shootout broke out on Thursday morning between minibus drivers in the southern suburbs of Beirut, leaving two people dead and three injured, according to a Lebanese Army source contacted...",
+    "image": "https://s.lorientlejour.com/storage/attachments/1556/ezeze_304832_663630.png/r/800/ezeze_304832_663630.png",
+    "site": "L'Orient Today",
+    "title": "Minibus drivers exchange gunfire in broad daylight on a south Beirut street"
+   }
+  },
   "https://tribune.net.ph/2026/10/24/israel-launches-major-west-bank-operation": {
    "checked": "2026-11-21T23:26:18Z",
    "preview": {
@@ -1579,9 +1593,9 @@
    "fails": 3
   },
   "https://www.afp.com/en/climate-talks-collapse-chaotic-end-cop31": {
-   "checked": "2026-11-25T02:34:34Z",
+   "checked": "2026-11-26T17:01:50Z",
    "error": "HTTP 403",
-   "fails": 2
+   "fails": 3
   },
   "https://www.afp.com/en/costa-rican-journalist-gunned-down-near-capital": {
    "checked": "2026-11-22T10:14:34Z",
@@ -3839,15 +3853,6 @@
     "title": "China, Cambodia stage joint military drills"
    }
   },
-  "https://www.france24.com/en/live-news/20261125-egypt-says-30-dead-in-cairo-fire-after-fuel-truck-overturns": {
-   "checked": "2026-11-26T01:49:12Z",
-   "preview": {
-    "description": "A fire erupted in Egyptian capital Cairo on Wednesday killing at least 31 people, the health ministry said, after a fuel truck reportedly overturned on a packed highway.",
-    "image": "https://s.france24.com/media/display/dab353d8-e909-11f1-a463-1991d4929b54/w:1280/p:16x9/54894a6dbd255c6e5becf79e023ff6c764ac5f60.jpg",
-    "site": "France 24",
-    "title": "Egypt says 31 dead in Cairo fire after fuel truck overturns"
-   }
-  },
   "https://www.france24.com/en/live-news/20261125-greece-cost-of-living-strike-hits-trains-and-planes": {
    "checked": "2026-11-26T01:49:12Z",
    "preview": {
@@ -3865,6 +3870,11 @@
     "site": "France 24",
     "title": "Mecca pact nations hold talks with Iran to prevent renewed Middle East war"
    }
+  },
+  "https://www.ft.com/content/88a0691a-6ce8-4c97-abf4-7aee0351fd51?syn-25a6b1a6=1": {
+   "checked": "2026-11-26T17:01:50Z",
+   "error": "HTTP 403",
+   "fails": 1
   },
   "https://www.genocidewatch.com/single-post/drone-attacks-kill-four-near-sudan-s-capital": {
    "checked": "2026-11-25T02:34:34Z",
@@ -3956,6 +3966,15 @@
     "title": "Jordan says it killed more than 20 Islamic State militants in airstrikes on Syria"
    }
   },
+  "https://www.internazionale.it/ultime-notizie-reuters/2026/11/26/crew-member-dies-after-diesel-tanker-sinks-off-ibiza-spain-launches-pollution-plan": {
+   "checked": "2026-11-26T17:01:50Z",
+   "preview": {
+    "description": "MADRID, Nov 26 (Reuters) - At least one crew member aboard a ship carrying diesel has died after the vessel capsized and partially sank off the Spanish island of Ibiza on… Leggi",
+    "image": "https://static.internazionale.it/assets/img/home-summary-img-substitute.png",
+    "site": "Internazionale",
+    "title": "Crew member dies after diesel tanker capsizes off Ibiza, no pollution so far"
+   }
+  },
   "https://www.jornada.com.mx/noticia/2026/11/01/estados/atacan-centros-de-rehabilitacion-en-mazatlan-y-matan-a-3-personas": {
    "checked": "2026-11-22T23:39:34Z",
    "error": "HTTP 403",
@@ -3971,9 +3990,9 @@
    }
   },
   "https://www.ktsm.com/news/juarez/5-people-dead-after-bus-crash-outside-of-juarez-driver-arrested/": {
-   "checked": "2026-11-25T02:34:34Z",
+   "checked": "2026-11-26T17:01:50Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://www.laprensagrafica.com/elsalvador/dos-soldados-salvadorenos-muertos-en-haiti-tras-explosion-en-campamento-20261120-0033.html": {
    "checked": "2026-11-23T18:24:10Z",
@@ -4131,15 +4150,6 @@
     "title": "Tensions rise in Philadelphia over boycott of Jewish-owned restaurants"
    }
   },
-  "https://www.nbcnews.com/news/us-news/macys-thanksgiving-day-parade-weather-delay-rcna611355": {
-   "checked": "2026-11-26T01:49:12Z",
-   "preview": {
-    "description": "The traditional event is celebrating its 100th. The only reason it has ever been canceled? War, in 1942, 43 and 44.",
-    "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261125-thanksgiving-parade-snoopy-mn-1255-a4d9d2.jpg",
-    "site": "NBC News",
-    "title": "Macy’s Thanksgiving Day Parade is pushed back to Saturday due to weather"
-   }
-  },
   "https://www.nbcnews.com/news/us-news/manhunt-california-spirit-halloween-shooting-dead-injured-police-rcna606673": {
    "checked": "2026-11-21T14:45:33Z",
    "preview": {
@@ -4283,9 +4293,9 @@
    }
   },
   "https://www.npr.org/2026/11/23/g-s1-155017/ukraine-attack-russian-warship-libya": {
-   "checked": "2026-11-25T02:34:34Z",
+   "checked": "2026-11-26T17:01:50Z",
    "error": "TimeoutError",
-   "fails": 2
+   "fails": 3
   },
   "https://www.nst.com.my/amp/world/world/2026/11/1576502/us-ukraine-say-europe-join-russia-talks-putin-sticks-hardline-stance": {
    "checked": "2026-11-19T19:44:35Z",
@@ -4455,6 +4465,15 @@
     "title": "Sciopero generale, cortei contro manovra e governo. Landini: \"Oltre 1 milione nelle piazze\""
    }
   },
+  "https://www.rainews.it/maratona/2026/11/yemen-scontri-tra-esercito-e-houthi-a-marib-e-al-jawf-64d93082-0760-48fa-b413-8620e40fdbf3.html": {
+   "checked": "2026-11-26T17:01:50Z",
+   "preview": {
+    "description": "Le due vittime, Antonio Saccoccio (65 anni) ed Emanuele Lo Russo (36 anni), erano impegnate nella manutenzione di antenne della difesa antiaerea. Tajani: \"Ci lamenteremo con l'Ambasciata iraniana\". Ma Teheran nega ogni coinvolgimento",
+    "image": "https://www.rainews.it/cropgd/1200x630/dl/img/2026/11/26/1795708153545_cop_Kuwait_genericaframe.jpeg",
+    "site": "RaiNews",
+    "title": "Kuwait, attacco iraniano con droni: morti due tecnici italiani Rheinmetall. Cordoglio di Meloni"
+   }
+  },
   "https://www.rappler.com/philippines/muntinlupa-city-protest-arrest-asean-2026/": {
    "checked": "2026-11-19T19:33:46Z",
    "preview": {
@@ -4615,9 +4634,9 @@
    "fails": 3
   },
   "https://www.reuters.com/sustainability/cop/cop31-climate-talks-close-final-deal-says-summit-president-2026-11-21/": {
-   "checked": "2026-11-25T02:34:34Z",
+   "checked": "2026-11-26T17:01:50Z",
    "error": "disallowed by robots.txt",
-   "fails": 2
+   "fails": 3
   },
   "https://www.reuters.com/technology/romanian-intelligence-agency-says-it-identified-russian-linked-cyber-attack-2026-11-11/": {
    "checked": "2026-11-22T10:14:34Z",
@@ -4750,9 +4769,9 @@
    "fails": 3
   },
   "https://www.reuters.com/world/asia-pacific/indonesia-says-24-killed-factory-blaze-rescuers-search-dozens-missing-2026-11-23/": {
-   "checked": "2026-11-25T02:34:34Z",
+   "checked": "2026-11-26T17:01:50Z",
    "error": "disallowed by robots.txt",
-   "fails": 2
+   "fails": 3
   },
   "https://www.reuters.com/world/asia-pacific/indonesia-seizes-116-tons-ketamine-police-chief-says-2026-10-23/": {
    "checked": "2026-11-24T17:54:20Z",
@@ -4775,9 +4794,9 @@
    "fails": 3
   },
   "https://www.reuters.com/world/asia-pacific/sheikh-hasina-seeks-return-bangladesh-december-16-state-carrier-2026-11-24/": {
-   "checked": "2026-11-25T02:34:34Z",
+   "checked": "2026-11-26T17:01:50Z",
    "error": "disallowed by robots.txt",
-   "fails": 1
+   "fails": 2
   },
   "https://www.reuters.com/world/asia-pacific/singapore-launch-gold-vault-service-foreign-central-banks-2026-11-10/": {
    "checked": "2026-11-22T10:14:34Z",
@@ -4785,9 +4804,9 @@
    "fails": 3
   },
   "https://www.reuters.com/world/asia-pacific/tajikistan-becomes-fourth-country-withdraw-icc-since-us-diplomatic-push-2026-11-23/": {
-   "checked": "2026-11-25T02:34:34Z",
+   "checked": "2026-11-26T17:01:50Z",
    "error": "disallowed by robots.txt",
-   "fails": 2
+   "fails": 3
   },
   "https://www.reuters.com/world/asia-pacific/turkey-qatar-pakistan-indonesia-sign-defence-cooperation-accord-ankara-says-2026-10-21/": {
    "checked": "2026-11-25T02:34:34Z",
@@ -4885,9 +4904,9 @@
    "fails": 1
   },
   "https://www.reuters.com/world/hundreds-german-schools-received-bomb-threats-bild-reports-2026-11-23/": {
-   "checked": "2026-11-25T02:34:34Z",
+   "checked": "2026-11-26T17:01:50Z",
    "error": "disallowed by robots.txt",
-   "fails": 2
+   "fails": 3
   },
   "https://www.reuters.com/world/hungary-opens-communist-era-informer-files-belated-reckoning-with-cold-war-past-2026-11-04/": {
    "checked": "2026-11-22T23:39:34Z",
@@ -5628,6 +5647,15 @@
     "title": "Clashes over Awami League processions in Gopalganj leave at least 30 injured"
    }
   },
+  "https://www.thedailystar.net/news/politics/news/one-killed-five-injured-bnp-factional-clash-munshiganj-4333826": {
+   "checked": "2026-11-26T17:01:50Z",
+   "preview": {
+    "description": "Rival groups clash over establishing dominance ahead of union parishad polls",
+    "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/Munshiganj%20killed.PNG",
+    "site": "The Daily Star",
+    "title": "One killed, five injured in BNP factional clash in Munshiganj"
+   }
+  },
   "https://www.thedailystar.net/news/world/news/truck-crash-uae-kills-14-injures-30-4322351": {
    "checked": "2026-11-19T19:44:35Z",
    "preview": {
@@ -5918,9 +5946,9 @@
    }
   },
   "https://www.voiceofemirates.com/en/news/2026/11/23/mexico-announces-the-killing-of-16-suspected-drug-cartel-members-during-the-arrest-of-el-chapo-isidro/": {
-   "checked": "2026-11-25T02:34:34Z",
+   "checked": "2026-11-26T17:01:50Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://www.washingtonpost.com/elections/results/2026/11/03/michigan-senate-el-sayed-rogers-live-updates/": {
    "checked": "2026-11-22T23:39:34Z",
@@ -5928,9 +5956,9 @@
    "fails": 3
   },
   "https://www.washingtonpost.com/world/2026/11/24/israel-kills-hamas-internal-security-chief-gaza/": {
-   "checked": "2026-11-25T02:34:34Z",
+   "checked": "2026-11-26T17:01:50Z",
    "error": "TimeoutError",
-   "fails": 1
+   "fails": 2
   },
   "https://www.yahoo.com/news/world/articles/brazil-votes-tight-run-off-070332944.html": {
    "checked": "2026-11-21T14:45:33Z",
