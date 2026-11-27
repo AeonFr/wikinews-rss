@@ -15,9 +15,9 @@
    "fails": 3
   },
   "https://aa.com.tr/en/middle-east/isis-attack-on-military-headquarters-kills-2-in-northeastern-syria-official-says/4138076": {
-   "checked": "2026-11-26T01:49:12Z",
+   "checked": "2026-11-27T16:30:43Z",
    "error": "no title",
-   "fails": 1
+   "fails": 2
   },
   "https://aa.com.tr/en/world/floods-in-argentina-kill-2-displace-over-2-000-amid-el-nino/4099759": {
    "checked": "2026-11-24T17:54:20Z",
@@ -495,9 +495,9 @@
    "fails": 3
   },
   "https://apnews.com/article/russia-ukraine-war-libya-drone-attack-warship-officers-5719d6750c0619695c7f23a373cecd7b": {
-   "checked": "2026-11-26T01:49:12Z",
+   "checked": "2026-11-27T16:30:43Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://apnews.com/article/russia-ukraine-war-putin-zelenskyy-uae-3d878a3e56d5df5bd198a6d20c824d18": {
    "checked": "2026-11-22T10:14:34Z",
@@ -658,6 +658,15 @@
     "image": "https://cadenaser.com/resizer/v2/2ZF5JARHFBHOPMP2DAB5X5NM3Y.jpeg?auth=2c3af0c2983a6b331ce4bbe7276d8d8d0728d66ab974f5eb0235656746e6c609&quality=70&width=1200&height=675&smart=true",
     "site": "Cadena SER",
     "title": "Cristina Fernández Cubas, Premio Cervantes 2026"
+   }
+  },
+  "https://cambiocolombia.com/conflicto-armado-en-colombia/articulo/2026/11/ataque-con-dron-en-condoto-choco-dejo-un-policia-muerto-y-dos-heridos-de-la-espriella-ordeno-perseguir-a-los-responsables": {
+   "checked": "2026-11-27T16:30:43Z",
+   "preview": {
+    "description": "Un auxiliar de Policía murió y dos uniformados resultaron heridos en un ataque con dron contra la estación de Condoto, Chocó. Esto se sabe del atentado.",
+    "image": "https://d1x0qnenkl91hi.cloudfront.net/uploads/crops/full-width/article_44692_main_e149b8788a_full-width.webp",
+    "site": "Cambio",
+    "title": "Ataque con drones a la estación de Policía de Condoto, Chocó, dejó un auxiliar muerto y dos policías heridos"
    }
   },
   "https://citizen.digital/article/armed-gangs-attack-centraligerian-village-killing-11-n394344": {
@@ -1583,9 +1592,9 @@
    "fails": 3
   },
   "https://www.afp.com/en/bangladesh-garment-workers-win-wage-rise-after-weeks-protests": {
-   "checked": "2026-11-26T01:49:12Z",
+   "checked": "2026-11-27T16:30:43Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://www.afp.com/en/bangladesh-increase-garment-sector-pay-after-protests": {
    "checked": "2026-11-22T23:39:34Z",
@@ -1618,9 +1627,9 @@
    "fails": 3
   },
   "https://www.afp.com/en/china-space-station-receives-pakistani-astronaut-historic-mission": {
-   "checked": "2026-11-26T01:49:12Z",
+   "checked": "2026-11-27T16:30:43Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://www.afp.com/en/china-us-russia-issue-declaration-toward-peace-after-first-summit": {
    "checked": "2026-11-22T10:14:34Z",
@@ -1768,9 +1777,9 @@
    "fails": 3
   },
   "https://www.afp.com/en/us-army-detonates-toxic-explosives-iowa-despite-contamination-fears": {
-   "checked": "2026-11-26T01:49:12Z",
+   "checked": "2026-11-27T16:30:43Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://www.afp.com/en/us-clears-spacex-launch-1-mn-orbital-data-center-satellites": {
    "checked": "2026-11-27T01:47:24Z",
@@ -1798,9 +1807,9 @@
    "fails": 3
   },
   "https://www.afp.com/es/node/3854796": {
-   "checked": "2026-11-26T01:49:12Z",
+   "checked": "2026-11-27T16:30:43Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://www.al-monitor.com/originals/2026/11/pif-aramco-strikes-hit-heart-saudi-arabias-economic-overhaul": {
    "checked": "2026-11-20T15:34:54Z",
@@ -2243,6 +2252,15 @@
     "title": "Israeli strike in Gaza kills senior Hamas official, his wife and children"
    }
   },
+  "https://www.aljazeera.com/news/2026/11/27/at-least-13-niger-soldiers-killed-in-sanam-armed-attack": {
+   "checked": "2026-11-27T16:30:43Z",
+   "preview": {
+    "description": "It remains unclear who carried out the attack on Niger's National Guard in Tillaberi, near the Mali border.",
+    "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/reuters_6a94293e-1788094782.jpg?resize=1200%2C675",
+    "site": "Al Jazeera",
+    "title": "At least 13 Niger soldiers killed in Sanam armed attack"
+   }
+  },
   "https://www.aljazeera.com/news/2026/11/3/explosions-hit-irans-qeshm-island-as-us-media-report-us-strikes-in-hormuz": {
    "checked": "2026-11-20T15:34:54Z",
    "preview": {
@@ -2454,6 +2472,11 @@
    "error": "HTTP 403",
    "fails": 3
   },
+  "https://www.axios.com/2026/11/25/macys-thanksgiving-parade-2026-balloons-weather": {
+   "checked": "2026-11-27T16:30:43Z",
+   "error": "HTTP 403",
+   "fails": 1
+  },
   "https://www.axios.com/local/san-antonio/2026/11/04/texas-governor-race-results-hinojosa-abbott": {
    "checked": "2026-11-22T23:39:34Z",
    "error": "HTTP 403",
@@ -2525,6 +2548,14 @@
     "description": "While the presidents have previously met for one-on-one meetings, this is their first trilateral discussion.",
     "image": "https://ichef.bbci.co.uk/news/1024/branded_news/56c4/live/c36d8970-e448-11f1-a094-5fdc692f3e33.jpg",
     "title": "Trump, Putin and Xi release 'peace declaration' after historic meeting"
+   }
+  },
+  "https://www.bbc.com/news/articles/c670278qk879o": {
+   "checked": "2026-11-27T16:30:43Z",
+   "preview": {
+    "description": "The right-leaning ruling bloc led by the National Party has fallen short of the majority needed to govern.",
+    "image": "https://ichef.bbci.co.uk/news/1024/branded_news/6f08/live/c2e7e400-ea01-11f1-976c-6d185a1abdb9.jpg",
+    "title": "New Zealand election results: Ruling coalition loses parliamentary majority"
    }
   },
   "https://www.bbc.com/news/articles/c6ev38dj1g8zo": {
@@ -3298,6 +3329,11 @@
    "checked": "2026-11-22T10:14:34Z",
    "error": "disallowed by robots.txt",
    "fails": 3
+  },
+  "https://www.eluniversal.com.mx/mundo/presidente-de-colombia-acusa-a-disidentes-de-las-farc-de-atentado-que-devasto-villavicencio-ataque-ensombrece-aniversario-de-paz/": {
+   "checked": "2026-11-27T16:30:43Z",
+   "error": "disallowed by robots.txt",
+   "fails": 1
   },
   "https://www.engadget.com/2301941/binance-hacked-for-estimated-6-3-billion-in-record-crypto-theft/": {
    "checked": "2026-11-21T14:45:33Z",
@@ -4473,6 +4509,15 @@
     "title": "Ejército moviliza hasta 600 soldados tras siete asesinatos en Zacapa e Izabal: qué revelan las investigaciones"
    }
   },
+  "https://www.proceso.com.mx/nacional/estados/2026/11/25/operativo-en-jilotlan-jalisco-deja-siete-muertos-y-cuatro-detenidos-384350.html": {
+   "checked": "2026-11-27T16:30:43Z",
+   "preview": {
+    "description": "El despliegue tenía como objetivo la captura de William Álvarez, alias “El Maníaco”. Hasta ahora no se ha precisado si figura entre los detenidos.",
+    "image": "https://assets.proceso.com.mx/social/384350-0496bd53c4.jpg",
+    "site": "Proceso",
+    "title": "Operativo en Jilotlán, Jalisco deja siete muertos y cuatro detenidos"
+   }
+  },
   "https://www.prothomalo.com/bangladesh/district/ihc0h3av1v": {
    "checked": "2026-11-19T19:44:35Z",
    "preview": {
@@ -4642,9 +4687,9 @@
    "fails": 3
   },
   "https://www.reuters.com/legal/litigation/chinas-huawei-convicted-us-criminal-trial-stemming-iran-business-2026-11-24/": {
-   "checked": "2026-11-26T01:49:12Z",
+   "checked": "2026-11-27T16:30:43Z",
    "error": "disallowed by robots.txt",
-   "fails": 1
+   "fails": 2
   },
   "https://www.reuters.com/legal/litigation/conservative-party-wins-first-election-nearly-century-british-columbia-2026-10-25/": {
    "checked": "2026-11-24T17:54:20Z",
@@ -4672,9 +4717,9 @@
    "fails": 3
   },
   "https://www.reuters.com/science/chinas-shenzhou-24-space-flight-takes-off-with-pakistani-national-first-foreign-2026-11-25/": {
-   "checked": "2026-11-26T01:49:12Z",
+   "checked": "2026-11-27T16:30:43Z",
    "error": "disallowed by robots.txt",
-   "fails": 1
+   "fails": 2
   },
   "https://www.reuters.com/science/martian-meteorite-found-sahara-is-41-billion-years-old-2026-10-29/": {
    "checked": "2026-11-23T18:24:10Z",
@@ -4740,6 +4785,11 @@
    "checked": "2026-11-22T23:39:34Z",
    "error": "disallowed by robots.txt",
    "fails": 3
+  },
+  "https://www.reuters.com/world/africa/suspected-militants-kill-least-30-nigerias-niger-state-residents-say-2026-11-25/": {
+   "checked": "2026-11-27T16:30:43Z",
+   "error": "disallowed by robots.txt",
+   "fails": 1
   },
   "https://www.reuters.com/world/africa/us-imposes-sanctions-rwandas-ministry-defense-2026-10-28/": {
    "checked": "2026-11-23T18:24:10Z",
@@ -4817,9 +4867,9 @@
    "fails": 3
   },
   "https://www.reuters.com/world/americas/salvadoran-migrant-kilmar-abrego-garcia-lands-spain-after-us-departure-deal-2026-11-25/": {
-   "checked": "2026-11-26T01:49:12Z",
+   "checked": "2026-11-27T16:30:43Z",
    "error": "disallowed by robots.txt",
-   "fails": 1
+   "fails": 2
   },
   "https://www.reuters.com/world/americas/us-defense-secretary-hegseth-vows-boost-venezuela-military-cooperation-2026-11-18/": {
    "checked": "2026-11-22T10:14:34Z",
@@ -4962,9 +5012,9 @@
    "fails": 3
   },
   "https://www.reuters.com/world/greeks-strike-over-wages-public-services-2026-11-25/": {
-   "checked": "2026-11-26T01:49:12Z",
+   "checked": "2026-11-27T16:30:43Z",
    "error": "disallowed by robots.txt",
-   "fails": 1
+   "fails": 2
   },
   "https://www.reuters.com/world/hundreds-german-schools-received-bomb-threats-bild-reports-2026-11-23/": {
    "checked": "2026-11-26T17:01:50Z",
@@ -5037,9 +5087,9 @@
    "fails": 3
   },
   "https://www.reuters.com/world/middle-east/saudi-led-coalition-says-tower-riyadh-finance-district-targeted-by-terrorist-2026-11-24/": {
-   "checked": "2026-11-26T01:49:12Z",
+   "checked": "2026-11-27T16:30:43Z",
    "error": "disallowed by robots.txt",
-   "fails": 1
+   "fails": 2
   },
   "https://www.reuters.com/world/middle-east/us-strikes-iranian-missile-launch-site-qeshm-island-us-official-says-2026-11-17/": {
    "checked": "2026-11-22T10:14:34Z",

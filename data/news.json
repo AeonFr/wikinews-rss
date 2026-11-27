@@ -18,7 +18,7 @@
    "headlines": [
     {
      "category": "Politics and elections",
-     "html": "The counting of <a href=\"https://en.wikipedia.org/wiki/Special_vote\">special votes</a> results in the <a href=\"https://en.wikipedia.org/wiki/New_Zealand_National_Party\">National Party</a> losing two electorate seats, including one <a href=\"https://en.wikipedia.org/wiki/Overhang_seat\">overhang seat</a>. The National—<a href=\"https://en.wikipedia.org/wiki/ACT_New_Zealand\">ACT</a>—<a href=\"https://en.wikipedia.org/wiki/New_Zealand_First\">NZ First</a> <a href=\"https://en.wikipedia.org/wiki/Sixth_National_Government_of_New_Zealand\">coalition government</a> falls below a majority to 65 seats, placing the <a href=\"https://en.wikipedia.org/wiki/Opportunity_Party_(New_Zealand)\">Opportunity Party</a> into a <a href=\"https://en.wikipedia.org/wiki/Kingmaker\">kingmaker</a> position.",
+     "html": "The counting of <a href=\"https://en.wikipedia.org/wiki/Special_vote\">special votes</a> results in the <a href=\"https://en.wikipedia.org/wiki/New_Zealand_National_Party\">National Party</a> losing two electorate seats, including one <a href=\"https://en.wikipedia.org/wiki/Overhang_seat\">overhang seat</a>. The National–<a href=\"https://en.wikipedia.org/wiki/ACT_New_Zealand\">ACT</a>–<a href=\"https://en.wikipedia.org/wiki/New_Zealand_First\">NZ First</a> <a href=\"https://en.wikipedia.org/wiki/Sixth_National_Government_of_New_Zealand\">coalition government</a> falls below a majority to 65 seats, placing the <a href=\"https://en.wikipedia.org/wiki/Opportunity_Party_(New_Zealand)\">Opportunity Party</a> into a <a href=\"https://en.wikipedia.org/wiki/Kingmaker\">kingmaker</a> position.",
      "id": "2026-11-27-fe2711418618",
      "page": {
       "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_27&action=history",
@@ -26,6 +26,10 @@
       "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_27"
      },
      "sources": [
+      {
+       "name": "BBC News",
+       "url": "https://www.bbc.com/news/articles/c670278qk879o"
+      },
       {
        "name": "RNZ",
        "url": "https://www.rnz.co.nz/news/politics_election-2026/2820329/election-2026-final-results-coalition-loses-majority-another-election-possible"
@@ -47,9 +51,9 @@
    ],
    "id": "2026-11-27-fe2711418618",
    "image": {
-    "link": "https://www.rnz.co.nz/news/politics_election-2026/2820329/election-2026-final-results-coalition-loses-majority-another-election-possible",
-    "source": "RNZ",
-    "url": "https://media.rnztools.nz/rnz/image/upload/s--Pt1jLp7---/t_tohu-badge-facebook/f_auto/q_auto/4JHSYZB_election_2026_luxon_wong_jpg"
+    "link": "https://www.bbc.com/news/articles/c670278qk879o",
+    "source": "BBC News",
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/6f08/live/c2e7e400-ea01-11f1-976c-6d185a1abdb9.jpg"
    },
    "more_articles": [],
    "pub_date": "2026-11-27T01:47:24Z",
@@ -152,7 +156,7 @@
   },
   {
    "article": {
-    "extract": "In mathematics, the Riemann hypothesis is the hypothesis that the Riemann zeta function has its zeros only at the negative even integers and at complex numbers with real part 12. First posed in 1859 by Bernhard Riemann, pure mathematicians consider the hypothesis to be one of the most important problems in the field.",
+    "extract": "In mathematics, the Riemann hypothesis is the theorem that the Riemann zeta function has its zeros only at the negative even integers and at complex numbers with real part 12. First posed in 1859 by Bernhard Riemann, pure mathematicians consider the hypothesis to be one of the most important problems in the field.",
     "title": "Riemann hypothesis",
     "url": "https://en.wikipedia.org/wiki/Riemann_hypothesis"
    },
@@ -210,6 +214,171 @@
    "pub_date": "2026-11-26T01:49:12Z",
    "retired": true,
    "title": "Sandagiin Byambatsogt becomes acting president of Mongolia after Ukhnaagiin Khürelsükh resigns amid corruption allegations."
+  },
+  {
+   "article": {
+    "extract": "The War in the Sahel, also known as the Sahel War, is a multi-sided armed conflict that has been ongoing since 2012. The conflict mainly takes place in the countries of Mali, Niger and Burkina Faso.",
+    "location": "Sahel (mainly Mali, Burkina Faso and Niger), with spillovers in Benin, Togo, Mauritania, Algeria and Ivory Coast",
+    "title": "War in the Sahel",
+    "url": "https://en.wikipedia.org/wiki/War_in_the_Sahel"
+   },
+   "categories": [
+    "Armed conflicts and attacks"
+   ],
+   "group": "2026-11-26-d333f6911646",
+   "headlines": [
+    {
+     "category": "Armed conflicts and attacks",
+     "html": "Thirteen members of the <a href=\"https://en.wikipedia.org/wiki/National_Guard_of_Niger\">National Guard of Niger</a> are killed and 20 more injured during an armed attack by unknown assailants against their <a href=\"https://en.wikipedia.org/wiki/Compound_(enclosure)\">compound</a> in <a href=\"https://en.wikipedia.org/wiki/Sanam,_Niger\">Sanam</a>, <a href=\"https://en.wikipedia.org/wiki/Niger\">Niger</a>. Several gunmen are also killed in the ensuing <a href=\"https://en.wikipedia.org/wiki/Shootout\">shootout</a>.",
+     "id": "2026-11-26-d333f6911646",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_26&action=history",
+      "title": "Portal:Current events/2026 November 26",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_26"
+     },
+     "sources": [
+      {
+       "name": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/27/at-least-13-niger-soldiers-killed-in-sanam-armed-attack"
+      }
+     ],
+     "topics": [
+      {
+       "label": "War in the Sahel",
+       "links": [
+        {
+         "label": "War in the Sahel",
+         "url": "https://en.wikipedia.org/wiki/War_in_the_Sahel"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/War_in_the_Sahel"
+      },
+      {
+       "label": "Islamist insurgency in Niger",
+       "links": [
+        {
+         "label": "Islamist insurgency in Niger",
+         "url": "https://en.wikipedia.org/wiki/Islamist_insurgency_in_Niger"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Islamist_insurgency_in_Niger"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-26-d333f6911646",
+   "image": {
+    "link": "https://www.aljazeera.com/news/2026/11/27/at-least-13-niger-soldiers-killed-in-sanam-armed-attack",
+    "source": "Al Jazeera",
+    "url": "https://www.aljazeera.com/wp-content/uploads/2026/08/reuters_6a94293e-1788094782.jpg?resize=1200%2C675"
+   },
+   "more_articles": [
+    {
+     "extract": "Since 2015, the border area between Burkina Faso, Mali, and Niger has been a hotbed for jihadist forces originating from Mali. The insurgency has taken place in two distinct regions of Niger.",
+     "location": "Niger",
+     "title": "Islamist insurgency in Niger",
+     "url": "https://en.wikipedia.org/wiki/Islamist_insurgency_in_Niger"
+    }
+   ],
+   "pub_date": "2026-11-26T00:00:00Z",
+   "title": "Islamist insurgency in Niger: Thirteen members of the National Guard of Niger are killed and 20 more injured during an armed attack by unknown assailants against their compound in Sanam, Niger."
+  },
+  {
+   "article": {
+    "extract": "Across Nigeria, there are a series of disputes over arable land between Fulani herders and non-Fulani farmers. The conflicts have been especially prominent in the Middle Belt (North Central) since the return of democracy in 1999.",
+    "location": "Middle Belt, Nigeria",
+    "title": "Herder–farmer conflicts in Nigeria",
+    "url": "https://en.wikipedia.org/wiki/Herder%E2%80%93farmer_conflicts_in_Nigeria"
+   },
+   "categories": [
+    "Armed conflicts and attacks"
+   ],
+   "group": "2026-11-26-bc4bf17dce91",
+   "headlines": [
+    {
+     "category": "Armed conflicts and attacks",
+     "html": "Thirty people are killed and homes are <a href=\"https://en.wikipedia.org/wiki/Arson\">burned</a> by gunmen in <a href=\"https://en.wikipedia.org/wiki/Niger_State\">Niger State</a>, <a href=\"https://en.wikipedia.org/wiki/Nigeria\">Nigeria</a>.",
+     "id": "2026-11-26-bc4bf17dce91",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_26&action=history",
+      "title": "Portal:Current events/2026 November 26",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_26"
+     },
+     "sources": [
+      {
+       "name": "Reuters",
+       "url": "https://www.reuters.com/world/africa/suspected-militants-kill-least-30-nigerias-niger-state-residents-say-2026-11-25/"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Herder–farmer conflicts in Nigeria",
+       "links": [
+        {
+         "label": "Herder–farmer conflicts in Nigeria",
+         "url": "https://en.wikipedia.org/wiki/Herder%E2%80%93farmer_conflicts_in_Nigeria"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Herder%E2%80%93farmer_conflicts_in_Nigeria"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-26-bc4bf17dce91",
+   "more_articles": [],
+   "pub_date": "2026-11-26T00:00:00Z",
+   "title": "Herder–farmer conflicts in Nigeria: Thirty people are killed and homes are burned by gunmen in Niger State, Nigeria."
+  },
+  {
+   "article": {
+    "extract": "The Colombian conflict (Spanish: Conflicto armado interno de Colombia, lit. 'Colombian internal armed conflict') began on May 27, 1964, and is a low-intensity asymmetric war between the government of Colombia, paramilitary groups, crime syndicates, and far-left guerrilla groups engaged in armed factional hostilities to increase their influence in Colombian territory. Some of the most important international contributors to the Colombian conflict include multinational corporations, the United States, Cuba, and the drug trafficking industry.",
+    "location": "Colombia and Venezuela with spillovers into Peru, Brazil, Panama, Ecuador and Paraguay",
+    "title": "Colombian conflict",
+    "url": "https://en.wikipedia.org/wiki/Colombian_conflict"
+   },
+   "categories": [
+    "Armed conflicts and attacks"
+   ],
+   "group": "2026-11-26-ef9f97178050",
+   "headlines": [
+    {
+     "category": "Armed conflicts and attacks",
+     "html": "A <a href=\"https://en.wikipedia.org/wiki/Drone_warfare\">drone strike</a> against a police station in <a href=\"https://en.wikipedia.org/wiki/Condoto\">Condoto</a>, <a href=\"https://en.wikipedia.org/wiki/Choc%C3%B3_Department\">Chocó Department</a>, leaves one officer killed and two more wounded, marking the second drone attack in an urban area in the last week.",
+     "id": "2026-11-26-ef9f97178050",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_26&action=history",
+      "title": "Portal:Current events/2026 November 26",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_26"
+     },
+     "sources": [
+      {
+       "name": "Cambio Colombia",
+       "url": "https://cambiocolombia.com/conflicto-armado-en-colombia/articulo/2026/11/ataque-con-dron-en-condoto-choco-dejo-un-policia-muerto-y-dos-heridos-de-la-espriella-ordeno-perseguir-a-los-responsables"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Colombian conflict",
+       "links": [
+        {
+         "label": "Colombian conflict",
+         "url": "https://en.wikipedia.org/wiki/Colombian_conflict"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Colombian_conflict"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-26-ef9f97178050",
+   "image": {
+    "link": "https://cambiocolombia.com/conflicto-armado-en-colombia/articulo/2026/11/ataque-con-dron-en-condoto-choco-dejo-un-policia-muerto-y-dos-heridos-de-la-espriella-ordeno-perseguir-a-los-responsables",
+    "source": "Cambio Colombia",
+    "url": "https://d1x0qnenkl91hi.cloudfront.net/uploads/crops/full-width/article_44692_main_e149b8788a_full-width.webp"
+   },
+   "more_articles": [],
+   "pub_date": "2026-11-26T00:00:00Z",
+   "title": "Colombian conflict: A drone strike against a police station in Condoto, Chocó Department, leaves one officer killed and two more wounded, marking the second drone attack in an urban area in the last week."
   },
   {
    "article": {
@@ -618,7 +787,7 @@
   },
   {
    "article": {
-    "extract": "On 25 November 2026, a fuel tanker carrying petroleum products and gas cylinders overturned on Ring Road in the El Warraq district of Giza Governorate, Egypt. The crash resulted in a massive fire which killed 180+ people and injured 26 others.",
+    "extract": "On 25 November 2026, a fuel tanker carrying petroleum products and gas cylinders overturned on Ring Road in the El Warraq district of Giza Governorate, Egypt. The crash resulted in a massive fire which killed 31 people and injured 21 others.",
     "location": "Ring Road, Al Warraq, Giza Governorate, Egypt",
     "title": "2026 Giza fuel tanker explosion",
     "url": "https://en.wikipedia.org/wiki/2026_Giza_fuel_tanker_explosion"
@@ -664,7 +833,7 @@
   },
   {
    "article": {
-    "extract": "Presidential elections will be held in Serbia on 27 December 2026 to elect the president of Serbia. The election is being held early because Aleksandar Vučić resigned on 27 September 2026, before the end of his second term, to lead the list of the Serbian Progressive Party (SNS) as its candidate for prime minister in the snap parliamentary election of 25 October.",
+    "extract": "A presidential election will be held in Serbia on 27 December 2026 to elect the president of Serbia. The election is being held early because Aleksandar Vučić resigned on 27 September 2026, before the end of his second term, to lead the list of the Serbian Progressive Party (SNS) as its candidate for prime minister in the snap parliamentary election of 25 October.",
     "title": "2026 Serbian presidential election",
     "url": "https://en.wikipedia.org/wiki/2026_Serbian_presidential_election"
    },
@@ -774,7 +943,7 @@
    "headlines": [
     {
      "category": "Politics and elections",
-     "html": "The <a href=\"https://en.wikipedia.org/wiki/Guinea-Bissau\">Bissau-Guinean</a> <a href=\"https://en.wikipedia.org/wiki/High_Military_Command_for_the_Restoration_of_National_Security_and_Public_Order\">military government</a> postpones <a href=\"https://en.wikipedia.org/wiki/President_of_Guinea-Bissau\">presidential</a> and <a href=\"https://en.wikipedia.org/wiki/National_People%27s_Assembly_(Guinea-Bissau)\">legislative</a> elections from December 2026 to November 2028, citing inadequate resources and logistical preparations, extending its transition to civilian rule following the <a href=\"https://en.wikipedia.org/wiki/2025_Guinea-Bissau_coup_d%27%C3%A9tat\">November 2025 coup</a>.",
+     "html": "The <a href=\"https://en.wikipedia.org/wiki/Guinea-Bissau\">Bissau-Guinean</a> <a href=\"https://en.wikipedia.org/wiki/High_Military_Command_for_the_Restoration_of_National_Security_and_Public_Order\">military government</a> postpones <a href=\"https://en.wikipedia.org/wiki/President_of_Guinea-Bissau\">presidential</a> and <a href=\"https://en.wikipedia.org/wiki/National_People%27s_Assembly_(Guinea-Bissau)\">legislative</a> elections from December 2026 to November 2028, citing inadequate resources and logistical preparations, delaying its transition to civilian rule following the <a href=\"https://en.wikipedia.org/wiki/2025_Guinea-Bissau_coup_d%27%C3%A9tat\">November 2025 coup</a>.",
      "id": "2026-11-26-40925f2fefa6",
      "page": {
       "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_26&action=history",
@@ -804,7 +973,7 @@
    "id": "2026-11-26-40925f2fefa6",
    "more_articles": [],
    "pub_date": "2026-11-26T00:00:00Z",
-   "title": "Next Guinea-Bissau general election: The Bissau-Guinean military government postpones presidential and legislative elections from December 2026 to November 2028, citing inadequate resources and logistical preparations, extending its…"
+   "title": "Next Guinea-Bissau general election: The Bissau-Guinean military government postpones presidential and legislative elections from December 2026 to November 2028, citing inadequate resources and logistical preparations, delaying its…"
   },
   {
    "article": {
@@ -1203,6 +1372,133 @@
    "title": "In association football, the Court of Arbitration for Sport restores Senegal as the winner of the 2025 Africa Cup of Nations final, overturning the Confederation of African Football's decision to…"
   },
   {
+   "article": {
+    "extract": "The Mexican drug war (Spanish: Guerra contra el narcotráfico en México) is an ongoing asymmetric armed conflict between the Mexican government and various drug trafficking syndicates. When the Mexican military intervened in 2006, the government's main objective was to reduce drug-related violence.",
+    "location": "Latin America and the Caribbean",
+    "title": "Mexican drug war",
+    "url": "https://en.wikipedia.org/wiki/Mexican_drug_war"
+   },
+   "categories": [
+    "Armed conflicts and attacks"
+   ],
+   "group": "2026-11-25-1f8b9968522f",
+   "headlines": [
+    {
+     "category": "Armed conflicts and attacks",
+     "html": "An operation against a <a href=\"https://en.wikipedia.org/wiki/CJNG\">CJNG</a> ringleader left seven gunmen killed and four detained in <a href=\"https://en.wikipedia.org/wiki/Jilotl%C3%A1n_de_los_Dolores\">Jilotlán de los Dolores</a>, <a href=\"https://en.wikipedia.org/wiki/Jalisco\">Jalisco</a>, México.",
+     "id": "2026-11-25-1f8b9968522f",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
+      "title": "Portal:Current events/2026 November 25",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"
+     },
+     "sources": [
+      {
+       "name": "Revista Proceso",
+       "url": "https://www.proceso.com.mx/nacional/estados/2026/11/25/operativo-en-jilotlan-jalisco-deja-siete-muertos-y-cuatro-detenidos-384350.html"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Mexican drug war",
+       "links": [
+        {
+         "label": "Mexican drug war",
+         "url": "https://en.wikipedia.org/wiki/Mexican_drug_war"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Mexican_drug_war"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-25-1f8b9968522f",
+   "image": {
+    "link": "https://www.proceso.com.mx/nacional/estados/2026/11/25/operativo-en-jilotlan-jalisco-deja-siete-muertos-y-cuatro-detenidos-384350.html",
+    "source": "Revista Proceso",
+    "url": "https://assets.proceso.com.mx/social/384350-0496bd53c4.jpg"
+   },
+   "more_articles": [],
+   "pub_date": "2026-11-25T00:00:00Z",
+   "title": "Mexican drug war: An operation against a CJNG ringleader left seven gunmen killed and four detained in Jilotlán de los Dolores, Jalisco, México."
+  },
+  {
+   "article": {
+    "extract": "The Colombian conflict (Spanish: Conflicto armado interno de Colombia, lit. 'Colombian internal armed conflict') began on May 27, 1964, and is a low-intensity asymmetric war between the government of Colombia, paramilitary groups, crime syndicates, and far-left guerrilla groups engaged in armed factional hostilities to increase their influence in Colombian territory. Some of the most important international contributors to the Colombian conflict include multinational corporations, the United States, Cuba, and the drug trafficking industry.",
+    "location": "Colombia and Venezuela with spillovers into Peru, Brazil, Panama, Ecuador and Paraguay",
+    "title": "Colombian conflict",
+    "url": "https://en.wikipedia.org/wiki/Colombian_conflict"
+   },
+   "categories": [
+    "Armed conflicts and attacks"
+   ],
+   "group": "2026-11-25-40be1f7d9216",
+   "headlines": [
+    {
+     "category": "Armed conflicts and attacks",
+     "html": "A car bomb blast near the city hall of <a href=\"https://en.wikipedia.org/wiki/Villavicencio\">Villavicencio</a>, <a href=\"https://en.wikipedia.org/wiki/Meta_Department\">Meta Department</a>, leaving at least 12 people wounded.",
+     "id": "2026-11-25-40be1f7d9216",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
+      "title": "Portal:Current events/2026 November 25",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"
+     },
+     "sources": [
+      {
+       "name": "El Universal",
+       "url": "https://www.eluniversal.com.mx/mundo/presidente-de-colombia-acusa-a-disidentes-de-las-farc-de-atentado-que-devasto-villavicencio-ataque-ensombrece-aniversario-de-paz/"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Colombian conflict",
+       "links": [
+        {
+         "label": "Colombian conflict",
+         "url": "https://en.wikipedia.org/wiki/Colombian_conflict"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Colombian_conflict"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-25-40be1f7d9216",
+   "more_articles": [],
+   "pub_date": "2026-11-25T00:00:00Z",
+   "title": "Colombian conflict: A car bomb blast near the city hall of Villavicencio, Meta Department, leaving at least 12 people wounded."
+  },
+  {
+   "article": null,
+   "categories": [
+    "Arts and culture"
+   ],
+   "group": "2026-11-25-53850ad0c17c",
+   "headlines": [
+    {
+     "category": "Arts and culture",
+     "html": "The 100th <a href=\"https://en.wikipedia.org/wiki/Macy%27s_Thanksgiving_Day_Parade\">Macy's Thanksgiving Day Parade</a> in <a href=\"https://en.wikipedia.org/wiki/New_York_City\">New York City</a>, <a href=\"https://en.wikipedia.org/wiki/New_York_(state)\">New York</a>, <a href=\"https://en.wikipedia.org/wiki/United_States\">United States</a>, is postponed to November 28 due to a severe <a href=\"https://en.wikipedia.org/wiki/Coastal_storm\">coastal storm</a> bringing heavy rain, <a href=\"https://en.wikipedia.org/wiki/Coastal_flooding\">coastal flooding</a>, and wind gusts of up to 60 mph (97 km/h). It is the first weather-related postponement in the parade's history.",
+     "id": "2026-11-25-53850ad0c17c",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
+      "title": "Portal:Current events/2026 November 25",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"
+     },
+     "sources": [
+      {
+       "name": "Axios",
+       "url": "https://www.axios.com/2026/11/25/macys-thanksgiving-parade-2026-balloons-weather"
+      }
+     ],
+     "topics": []
+    }
+   ],
+   "id": "2026-11-25-53850ad0c17c",
+   "more_articles": [],
+   "pub_date": "2026-11-25T00:00:00Z",
+   "title": "The 100th Macy's Thanksgiving Day Parade in New York City, New York, United States, is postponed to November 28 due to a severe coastal storm bringing heavy rain, coastal flooding, and wind gusts of…"
+  },
+  {
    "article": null,
    "categories": [
     "Disasters and accidents"
@@ -1276,7 +1572,7 @@
    "headlines": [
     {
      "category": "Law and crime",
-     "html": "A <a href=\"https://en.wikipedia.org/wiki/Magistrates%27_Court_(Kenya)\">magistrates' court</a> in <a href=\"https://en.wikipedia.org/wiki/Mombasa\">Mombasa</a>, <a href=\"https://en.wikipedia.org/wiki/Kenya\">Kenya</a>, finds jailed cult leader <a href=\"https://en.wikipedia.org/wiki/Paul_Mackenzie\">Paul Mackenzie</a>, founder of the <a href=\"https://en.wikipedia.org/wiki/Good_News_International_Ministries\">Good News International Church</a>, of <a href=\"https://en.wikipedia.org/wiki/Assault\">assault</a> and <a href=\"https://en.wikipedia.org/wiki/Child_abuse\">cruelty to children</a>, which will add to his existing sentence of 200 years in prison for <a href=\"https://en.wikipedia.org/wiki/Mass_murder\">mass murder</a>.",
+     "html": "A <a href=\"https://en.wikipedia.org/wiki/Magistrates%27_Court_(Kenya)\">magistrates' court</a> in <a href=\"https://en.wikipedia.org/wiki/Mombasa\">Mombasa</a>, <a href=\"https://en.wikipedia.org/wiki/Kenya\">Kenya</a>, finds jailed cult leader <a href=\"https://en.wikipedia.org/wiki/Paul_Mackenzie_(cult_leader)\">Paul Mackenzie</a>, founder of the <a href=\"https://en.wikipedia.org/wiki/Good_News_International_Ministries\">Good News International Church</a>, guilty of <a href=\"https://en.wikipedia.org/wiki/Assault\">assault</a> and <a href=\"https://en.wikipedia.org/wiki/Child_abuse\">cruelty to children</a>, which will add to his existing sentence of 200 years in prison for <a href=\"https://en.wikipedia.org/wiki/Mass_murder\">mass murder</a>.",
      "id": "2026-11-25-d15c04b503f3",
      "page": {
       "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
@@ -1295,11 +1591,11 @@
    "id": "2026-11-25-d15c04b503f3",
    "more_articles": [],
    "pub_date": "2026-11-25T00:00:00Z",
-   "title": "A magistrates' court in Mombasa, Kenya, finds jailed cult leader Paul Mackenzie, founder of the Good News International Church, of assault and cruelty to children, which will add to his existing…"
+   "title": "A magistrates' court in Mombasa, Kenya, finds jailed cult leader Paul Mackenzie, founder of the Good News International Church, guilty of assault and cruelty to children, which will add to his…"
   },
   {
    "article": {
-    "extract": "On 25 November 2026, a fuel tanker carrying petroleum products and gas cylinders overturned on Ring Road in the El Warraq district of Giza Governorate, Egypt. The crash resulted in a massive fire which killed 180+ people and injured 26 others.",
+    "extract": "On 25 November 2026, a fuel tanker carrying petroleum products and gas cylinders overturned on Ring Road in the El Warraq district of Giza Governorate, Egypt. The crash resulted in a massive fire which killed 31 people and injured 21 others.",
     "location": "Ring Road, Al Warraq, Giza Governorate, Egypt",
     "title": "2026 Giza fuel tanker explosion",
     "url": "https://en.wikipedia.org/wiki/2026_Giza_fuel_tanker_explosion"
@@ -1475,7 +1771,7 @@
   },
   {
    "article": {
-    "extract": "Since early 2026, mass protest movements arose across Europe. Major demonstrations were held across Albania, Belgium, Czech Republic, France, Germany, Georgia, Greece, Ireland, Italy, Poland, Portugal, Serbia, Spain and Ukraine, with minor demonstrations and strikes occurring in other countries.",
+    "extract": "Since 2026, mass protest movements arose across Europe. Major demonstrations were held across Albania, Belgium, Czech Republic, France, Germany, Georgia, Greece, Ireland, Italy, Poland, Portugal, Serbia, Spain and Ukraine, with minor demonstrations and strikes occurring in other countries.",
     "location": "Europe",
     "title": "2026 European unrest",
     "url": "https://en.wikipedia.org/wiki/2026_European_unrest"
@@ -2125,6 +2421,64 @@
    "pub_date": "2026-11-24T17:54:20Z",
    "retired": true,
    "title": "Mongolian president Ukhnaagiin Khürelsükh announces his resignation in response to corruption allegations."
+  },
+  {
+   "article": {
+    "extract": "The War in the Sahel, also known as the Sahel War, is a multi-sided armed conflict that has been ongoing since 2012. The conflict mainly takes place in the countries of Mali, Niger and Burkina Faso.",
+    "location": "Sahel (mainly Mali, Burkina Faso and Niger), with spillovers in Benin, Togo, Mauritania, Algeria and Ivory Coast",
+    "title": "War in the Sahel",
+    "url": "https://en.wikipedia.org/wiki/War_in_the_Sahel"
+   },
+   "categories": [
+    "Armed conflicts and attacks"
+   ],
+   "group": "2026-11-24-ec293b07e07a",
+   "headlines": [
+    {
+     "category": "Armed conflicts and attacks",
+     "html": "Eleven <a href=\"https://en.wikipedia.org/wiki/Niger_Armed_Forces\">soldiers</a> are killed and five more injured during an attack by <a href=\"https://en.wikipedia.org/wiki/Boko_Haram\">Boko Haram</a> gunmen against a military patrol in Baroua, <a href=\"https://en.wikipedia.org/wiki/Diffa_Region\">Diffa Region</a>, <a href=\"https://en.wikipedia.org/wiki/Niger\">Niger</a>.",
+     "id": "2026-11-24-ec293b07e07a",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_24&action=history",
+      "title": "Portal:Current events/2026 November 24",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_24"
+     },
+     "sources": [],
+     "topics": [
+      {
+       "label": "War in the Sahel",
+       "links": [
+        {
+         "label": "War in the Sahel",
+         "url": "https://en.wikipedia.org/wiki/War_in_the_Sahel"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/War_in_the_Sahel"
+      },
+      {
+       "label": "Islamist insurgency in Niger",
+       "links": [
+        {
+         "label": "Islamist insurgency in Niger",
+         "url": "https://en.wikipedia.org/wiki/Islamist_insurgency_in_Niger"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Islamist_insurgency_in_Niger"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-24-ec293b07e07a",
+   "more_articles": [
+    {
+     "extract": "Since 2015, the border area between Burkina Faso, Mali, and Niger has been a hotbed for jihadist forces originating from Mali. The insurgency has taken place in two distinct regions of Niger.",
+     "location": "Niger",
+     "title": "Islamist insurgency in Niger",
+     "url": "https://en.wikipedia.org/wiki/Islamist_insurgency_in_Niger"
+    }
+   ],
+   "pub_date": "2026-11-24T00:00:00Z",
+   "title": "Islamist insurgency in Niger: Eleven soldiers are killed and five more injured during an attack by Boko Haram gunmen against a military patrol in Baroua, Diffa Region, Niger."
   },
   {
    "article": {
@@ -3376,7 +3730,7 @@
   },
   {
    "article": {
-    "extract": "Since early 2026, mass protest movements arose across Europe. Major demonstrations were held across Albania, Belgium, Czech Republic, France, Germany, Georgia, Greece, Ireland, Italy, Poland, Portugal, Serbia, Spain and Ukraine, with minor demonstrations and strikes occurring in other countries.",
+    "extract": "Since 2026, mass protest movements arose across Europe. Major demonstrations were held across Albania, Belgium, Czech Republic, France, Germany, Georgia, Greece, Ireland, Italy, Poland, Portugal, Serbia, Spain and Ukraine, with minor demonstrations and strikes occurring in other countries.",
     "location": "Europe",
     "title": "2026 European unrest",
     "url": "https://en.wikipedia.org/wiki/2026_European_unrest"
@@ -31585,5 +31939,5 @@
    "title": "2026 U.S. Open Cup final: In association football, St. Louis City SC defeats Columbus Crew in a penalty shoot-out to win the U.S. Open Cup, earning the club its first trophy since beginning play in 2023."
   }
  ],
- "updated": "2026-11-27T01:47:24Z"
+ "updated": "2026-11-27T16:30:43Z"
 }

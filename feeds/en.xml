@@ -6,7 +6,7 @@
     <description>News items from Wikipedia's Portal:Current events, one item per entry of the daily pages. Text from Wikipedia contributors, licensed under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). (history: https://en.wikipedia.org/w/index.php?title=Portal:Current_events&amp;action=history)</description>
     <language>en</language>
     <copyright>Text from Wikipedia contributors, licensed under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).</copyright>
-    <lastBuildDate>Fri, 27 Nov 2026 01:47:24 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 16:30:43 GMT</lastBuildDate>
     <generator>wikipedia-noticias-rss</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -14,8 +14,8 @@
     <item>
       <title>2026 New Zealand general election: The counting of special votes results in the National Party losing two electorate seats, including one overhang seat.</title>
       <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-27-fe2711418618/</link>
-      <description>&lt;p&gt;The counting of &lt;a href="https://en.wikipedia.org/wiki/Special_vote"&gt;special votes&lt;/a&gt; results in the &lt;a href="https://en.wikipedia.org/wiki/New_Zealand_National_Party"&gt;National Party&lt;/a&gt; losing two electorate seats, including one &lt;a href="https://en.wikipedia.org/wiki/Overhang_seat"&gt;overhang seat&lt;/a&gt;. The National—&lt;a href="https://en.wikipedia.org/wiki/ACT_New_Zealand"&gt;ACT&lt;/a&gt;—&lt;a href="https://en.wikipedia.org/wiki/New_Zealand_First"&gt;NZ First&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Sixth_National_Government_of_New_Zealand"&gt;coalition government&lt;/a&gt; falls below a majority to 65 seats, placing the &lt;a href="https://en.wikipedia.org/wiki/Opportunity_Party_(New_Zealand)"&gt;Opportunity Party&lt;/a&gt; into a &lt;a href="https://en.wikipedia.org/wiki/Kingmaker"&gt;kingmaker&lt;/a&gt; position.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.rnz.co.nz/news/politics_election-2026/2820329/election-2026-final-results-coalition-loses-majority-another-election-possible"&gt;RNZ&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;The counting of &lt;a href="https://en.wikipedia.org/wiki/Special_vote"&gt;special votes&lt;/a&gt; results in the &lt;a href="https://en.wikipedia.org/wiki/New_Zealand_National_Party"&gt;National Party&lt;/a&gt; losing two electorate seats, including one &lt;a href="https://en.wikipedia.org/wiki/Overhang_seat"&gt;overhang seat&lt;/a&gt;. The National–&lt;a href="https://en.wikipedia.org/wiki/ACT_New_Zealand"&gt;ACT&lt;/a&gt;–&lt;a href="https://en.wikipedia.org/wiki/New_Zealand_First"&gt;NZ First&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Sixth_National_Government_of_New_Zealand"&gt;coalition government&lt;/a&gt; falls below a majority to 65 seats, placing the &lt;a href="https://en.wikipedia.org/wiki/Opportunity_Party_(New_Zealand)"&gt;Opportunity Party&lt;/a&gt; into a &lt;a href="https://en.wikipedia.org/wiki/Kingmaker"&gt;kingmaker&lt;/a&gt; position.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.bbc.com/news/articles/c670278qk879o"&gt;BBC News&lt;/a&gt;, &lt;a href="https://www.rnz.co.nz/news/politics_election-2026/2820329/election-2026-final-results-coalition-loses-majority-another-election-possible"&gt;RNZ&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_New_Zealand_general_election"&gt;2026 New Zealand general election&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_27"&gt;Portal:Current events/2026 November 27&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_27&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:en:2026-11-27:fe2711418618</guid>
@@ -62,6 +62,42 @@
       <guid isPermaLink="false">wikipedia:en:topic:3c99926685d3</guid>
       <pubDate>Thu, 26 Nov 2026 17:01:50 GMT</pubDate>
       <category>Topics in the news</category>
+    </item>
+    <item>
+      <title>Islamist insurgency in Niger: Thirteen members of the National Guard of Niger are killed and 20 more injured during an armed attack by unknown assailants against their compound in Sanam, Niger.</title>
+      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-26-d333f6911646/</link>
+      <description>&lt;p&gt;Thirteen members of the &lt;a href="https://en.wikipedia.org/wiki/National_Guard_of_Niger"&gt;National Guard of Niger&lt;/a&gt; are killed and 20 more injured during an armed attack by unknown assailants against their &lt;a href="https://en.wikipedia.org/wiki/Compound_(enclosure)"&gt;compound&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Sanam,_Niger"&gt;Sanam&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Niger"&gt;Niger&lt;/a&gt;. Several gunmen are also killed in the ensuing &lt;a href="https://en.wikipedia.org/wiki/Shootout"&gt;shootout&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/11/27/at-least-13-niger-soldiers-killed-in-sanam-armed-attack"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/War_in_the_Sahel"&gt;War in the Sahel&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Islamist_insurgency_in_Niger"&gt;Islamist insurgency in Niger&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_26"&gt;Portal:Current events/2026 November 26&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_26&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-26:d333f6911646</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Armed conflicts and attacks</category>
+      <category>Islamist insurgency in Niger</category>
+    </item>
+    <item>
+      <title>Herder–farmer conflicts in Nigeria: Thirty people are killed and homes are burned by gunmen in Niger State, Nigeria.</title>
+      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-26-bc4bf17dce91/</link>
+      <description>&lt;p&gt;Thirty people are killed and homes are &lt;a href="https://en.wikipedia.org/wiki/Arson"&gt;burned&lt;/a&gt; by gunmen in &lt;a href="https://en.wikipedia.org/wiki/Niger_State"&gt;Niger State&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Nigeria"&gt;Nigeria&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.reuters.com/world/africa/suspected-militants-kill-least-30-nigerias-niger-state-residents-say-2026-11-25/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Herder%E2%80%93farmer_conflicts_in_Nigeria"&gt;Herder–farmer conflicts in Nigeria&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_26"&gt;Portal:Current events/2026 November 26&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_26&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-26:bc4bf17dce91</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Armed conflicts and attacks</category>
+      <category>Herder–farmer conflicts in Nigeria</category>
+    </item>
+    <item>
+      <title>Colombian conflict: A drone strike against a police station in Condoto, Chocó Department, leaves one officer killed and two more wounded, marking the second drone attack in an urban area in the last week.</title>
+      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-26-ef9f97178050/</link>
+      <description>&lt;p&gt;A &lt;a href="https://en.wikipedia.org/wiki/Drone_warfare"&gt;drone strike&lt;/a&gt; against a police station in &lt;a href="https://en.wikipedia.org/wiki/Condoto"&gt;Condoto&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Choc%C3%B3_Department"&gt;Chocó Department&lt;/a&gt;, leaves one officer killed and two more wounded, marking the second drone attack in an urban area in the last week.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://cambiocolombia.com/conflicto-armado-en-colombia/articulo/2026/11/ataque-con-dron-en-condoto-choco-dejo-un-policia-muerto-y-dos-heridos-de-la-espriella-ordeno-perseguir-a-los-responsables"&gt;Cambio Colombia&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Colombian_conflict"&gt;Colombian conflict&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_26"&gt;Portal:Current events/2026 November 26&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_26&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-26:ef9f97178050</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Armed conflicts and attacks</category>
+      <category>Colombian conflict</category>
     </item>
     <item>
       <title>2026 Iranian strikes on Kuwait: Two Italian technicians working for Rheinmetall are killed and two other people are injured in a drone strike against a location in Kuwait.</title>
@@ -185,9 +221,9 @@
       <category>Anti-corruption campaign under Xi Jinping</category>
     </item>
     <item>
-      <title>Next Guinea-Bissau general election: The Bissau-Guinean military government postpones presidential and legislative elections from December 2026 to November 2028, citing inadequate resources and logistical preparations, extending its…</title>
+      <title>Next Guinea-Bissau general election: The Bissau-Guinean military government postpones presidential and legislative elections from December 2026 to November 2028, citing inadequate resources and logistical preparations, delaying its…</title>
       <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-26-40925f2fefa6/</link>
-      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Guinea-Bissau"&gt;Bissau-Guinean&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/High_Military_Command_for_the_Restoration_of_National_Security_and_Public_Order"&gt;military government&lt;/a&gt; postpones &lt;a href="https://en.wikipedia.org/wiki/President_of_Guinea-Bissau"&gt;presidential&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/National_People%27s_Assembly_(Guinea-Bissau)"&gt;legislative&lt;/a&gt; elections from December 2026 to November 2028, citing inadequate resources and logistical preparations, extending its transition to civilian rule following the &lt;a href="https://en.wikipedia.org/wiki/2025_Guinea-Bissau_coup_d%27%C3%A9tat"&gt;November 2025 coup&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Guinea-Bissau"&gt;Bissau-Guinean&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/High_Military_Command_for_the_Restoration_of_National_Security_and_Public_Order"&gt;military government&lt;/a&gt; postpones &lt;a href="https://en.wikipedia.org/wiki/President_of_Guinea-Bissau"&gt;presidential&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/National_People%27s_Assembly_(Guinea-Bissau)"&gt;legislative&lt;/a&gt; elections from December 2026 to November 2028, citing inadequate resources and logistical preparations, delaying its transition to civilian rule following the &lt;a href="https://en.wikipedia.org/wiki/2025_Guinea-Bissau_coup_d%27%C3%A9tat"&gt;November 2025 coup&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Sources: &lt;a href="https://www.reuters.com/world/africa/guinea-bissau-delays-elections-extending-military-led-transition-year-after-coup-2026-11-26/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Next_Guinea-Bissau_general_election"&gt;Next Guinea-Bissau general election&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_26"&gt;Portal:Current events/2026 November 26&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_26&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
@@ -282,6 +318,40 @@
       <category>Topics in the news</category>
     </item>
     <item>
+      <title>Mexican drug war: An operation against a CJNG ringleader left seven gunmen killed and four detained in Jilotlán de los Dolores, Jalisco, México.</title>
+      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-25-1f8b9968522f/</link>
+      <description>&lt;p&gt;An operation against a &lt;a href="https://en.wikipedia.org/wiki/CJNG"&gt;CJNG&lt;/a&gt; ringleader left seven gunmen killed and four detained in &lt;a href="https://en.wikipedia.org/wiki/Jilotl%C3%A1n_de_los_Dolores"&gt;Jilotlán de los Dolores&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Jalisco"&gt;Jalisco&lt;/a&gt;, México.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.proceso.com.mx/nacional/estados/2026/11/25/operativo-en-jilotlan-jalisco-deja-siete-muertos-y-cuatro-detenidos-384350.html"&gt;Revista Proceso&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Mexican_drug_war"&gt;Mexican drug war&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"&gt;Portal:Current events/2026 November 25&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-25:1f8b9968522f</guid>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Armed conflicts and attacks</category>
+      <category>Mexican drug war</category>
+    </item>
+    <item>
+      <title>Colombian conflict: A car bomb blast near the city hall of Villavicencio, Meta Department, leaving at least 12 people wounded.</title>
+      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-25-40be1f7d9216/</link>
+      <description>&lt;p&gt;A car bomb blast near the city hall of &lt;a href="https://en.wikipedia.org/wiki/Villavicencio"&gt;Villavicencio&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Meta_Department"&gt;Meta Department&lt;/a&gt;, leaving at least 12 people wounded.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.eluniversal.com.mx/mundo/presidente-de-colombia-acusa-a-disidentes-de-las-farc-de-atentado-que-devasto-villavicencio-ataque-ensombrece-aniversario-de-paz/"&gt;El Universal&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Colombian_conflict"&gt;Colombian conflict&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"&gt;Portal:Current events/2026 November 25&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-25:40be1f7d9216</guid>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Armed conflicts and attacks</category>
+      <category>Colombian conflict</category>
+    </item>
+    <item>
+      <title>The 100th Macy's Thanksgiving Day Parade in New York City, New York, United States, is postponed to November 28 due to a severe coastal storm bringing heavy rain, coastal flooding, and wind gusts of…</title>
+      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-25-53850ad0c17c/</link>
+      <description>&lt;p&gt;The 100th &lt;a href="https://en.wikipedia.org/wiki/Macy%27s_Thanksgiving_Day_Parade"&gt;Macy's Thanksgiving Day Parade&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/New_York_City"&gt;New York City&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/New_York_(state)"&gt;New York&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/United_States"&gt;United States&lt;/a&gt;, is postponed to November 28 due to a severe &lt;a href="https://en.wikipedia.org/wiki/Coastal_storm"&gt;coastal storm&lt;/a&gt; bringing heavy rain, &lt;a href="https://en.wikipedia.org/wiki/Coastal_flooding"&gt;coastal flooding&lt;/a&gt;, and wind gusts of up to 60 mph (97 km/h). It is the first weather-related postponement in the parade's history.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.axios.com/2026/11/25/macys-thanksgiving-parade-2026-balloons-weather"&gt;Axios&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"&gt;Portal:Current events/2026 November 25&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-25:53850ad0c17c</guid>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Arts and culture</category>
+    </item>
+    <item>
       <title>At least four people are killed, 14 people are injured, and 17 others remain trapped under rubble when a six-story building collapses in Karachi, Sindh, Pakistan.</title>
       <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-25-281ccf4a4e8c/</link>
       <description>&lt;p&gt;At least four people are killed, 14 people are injured, and 17 others remain trapped under rubble when a six-story building collapses in &lt;a href="https://en.wikipedia.org/wiki/Karachi"&gt;Karachi&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Sindh"&gt;Sindh&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Pakistan"&gt;Pakistan&lt;/a&gt;.&lt;/p&gt;
@@ -304,9 +374,9 @@
       <media:content url="https://i.guim.co.uk/img/media/ebfc885f7db8935002487a469a0f9baba836690e/262_168_2337_1870/master/2337.jpg?width=1200&amp;height=630&amp;quality=85&amp;auto=format&amp;fit=crop&amp;precrop=40:21,offset-x50,offset-y0&amp;overlay-align=bottom%2Cleft&amp;overlay-width=100p&amp;overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&amp;enable=upscale&amp;s=e16d87a17e4dcb69a3b4e1cb03b120ce" medium="image" />
     </item>
     <item>
-      <title>A magistrates' court in Mombasa, Kenya, finds jailed cult leader Paul Mackenzie, founder of the Good News International Church, of assault and cruelty to children, which will add to his existing…</title>
+      <title>A magistrates' court in Mombasa, Kenya, finds jailed cult leader Paul Mackenzie, founder of the Good News International Church, guilty of assault and cruelty to children, which will add to his…</title>
       <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-25-d15c04b503f3/</link>
-      <description>&lt;p&gt;A &lt;a href="https://en.wikipedia.org/wiki/Magistrates%27_Court_(Kenya)"&gt;magistrates' court&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Mombasa"&gt;Mombasa&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Kenya"&gt;Kenya&lt;/a&gt;, finds jailed cult leader &lt;a href="https://en.wikipedia.org/wiki/Paul_Mackenzie"&gt;Paul Mackenzie&lt;/a&gt;, founder of the &lt;a href="https://en.wikipedia.org/wiki/Good_News_International_Ministries"&gt;Good News International Church&lt;/a&gt;, of &lt;a href="https://en.wikipedia.org/wiki/Assault"&gt;assault&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Child_abuse"&gt;cruelty to children&lt;/a&gt;, which will add to his existing sentence of 200 years in prison for &lt;a href="https://en.wikipedia.org/wiki/Mass_murder"&gt;mass murder&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;A &lt;a href="https://en.wikipedia.org/wiki/Magistrates%27_Court_(Kenya)"&gt;magistrates' court&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Mombasa"&gt;Mombasa&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Kenya"&gt;Kenya&lt;/a&gt;, finds jailed cult leader &lt;a href="https://en.wikipedia.org/wiki/Paul_Mackenzie_(cult_leader)"&gt;Paul Mackenzie&lt;/a&gt;, founder of the &lt;a href="https://en.wikipedia.org/wiki/Good_News_International_Ministries"&gt;Good News International Church&lt;/a&gt;, guilty of &lt;a href="https://en.wikipedia.org/wiki/Assault"&gt;assault&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Child_abuse"&gt;cruelty to children&lt;/a&gt;, which will add to his existing sentence of 200 years in prison for &lt;a href="https://en.wikipedia.org/wiki/Mass_murder"&gt;mass murder&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Sources: &lt;a href="https://apnews.com/article/kenya-cult-leader-paul-mackenzie-conviction-e4024cd1ff2e2ddce24b89ee0756b2c4"&gt;AP&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"&gt;Portal:Current events/2026 November 25&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:en:2026-11-25:d15c04b503f3</guid>
@@ -492,6 +562,17 @@
       <category>2025 Africa Cup of Nations</category>
     </item>
     <item>
+      <title>Islamist insurgency in Niger: Eleven soldiers are killed and five more injured during an attack by Boko Haram gunmen against a military patrol in Baroua, Diffa Region, Niger.</title>
+      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-24-ec293b07e07a/</link>
+      <description>&lt;p&gt;Eleven &lt;a href="https://en.wikipedia.org/wiki/Niger_Armed_Forces"&gt;soldiers&lt;/a&gt; are killed and five more injured during an attack by &lt;a href="https://en.wikipedia.org/wiki/Boko_Haram"&gt;Boko Haram&lt;/a&gt; gunmen against a military patrol in Baroua, &lt;a href="https://en.wikipedia.org/wiki/Diffa_Region"&gt;Diffa Region&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Niger"&gt;Niger&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/War_in_the_Sahel"&gt;War in the Sahel&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Islamist_insurgency_in_Niger"&gt;Islamist insurgency in Niger&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_24"&gt;Portal:Current events/2026 November 24&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_24&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-24:ec293b07e07a</guid>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Armed conflicts and attacks</category>
+      <category>Islamist insurgency in Niger</category>
+    </item>
+    <item>
       <title>Houthi–Saudi conflict: The Saudi Civil Defense announces that 11 people are injured in a strike on the Public Investment Fund Tower in Riyadh.</title>
       <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-24-8401821f0d3e/</link>
       <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Saudi_Civil_Defense"&gt;Saudi Civil Defense&lt;/a&gt; announces that 11 people are injured in a strike on the &lt;a href="https://en.wikipedia.org/wiki/Public_Investment_Fund_Tower"&gt;Public Investment Fund Tower&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Riyadh"&gt;Riyadh&lt;/a&gt;.&lt;/p&gt;
@@ -514,95 +595,6 @@
       <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
       <category>Armed conflicts and attacks</category>
       <category>Naval warfare in the Russo-Ukrainian war, Ukrainian attacks on the Russian shadow fleet</category>
-    </item>
-    <item>
-      <title>Miss Universe 2026: Jennifer Barreto of Puerto Rico is crowned Miss Universe in San Juan, Puerto Rico, becoming the sixth Puerto-Rican woman, the first mother and married woman to win the title.</title>
-      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-24-b95a894b47d8/</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Jennifer_Barreto"&gt;Jennifer Barreto&lt;/a&gt; of &lt;a href="https://en.wikipedia.org/wiki/Puerto_Rico"&gt;Puerto Rico&lt;/a&gt; is crowned &lt;a href="https://en.wikipedia.org/wiki/Miss_Universe"&gt;Miss Universe&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/San_Juan,_Puerto_Rico"&gt;San Juan&lt;/a&gt;, Puerto Rico, becoming the sixth Puerto-Rican woman, the first mother and married woman to win the title.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://indianexpress.com/article/explained/explained-culture/miss-universe-2026-controversies-ownership-judging-five-problems-10977410/"&gt;The Indian Express&lt;/a&gt;, &lt;a href="https://people.com/miss-universe-2026-winner-jennifer-barreto-12267491"&gt;People&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Miss_Universe_2026"&gt;Miss Universe 2026&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_24"&gt;Portal:Current events/2026 November 24&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_24&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-24:b95a894b47d8</guid>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Arts and culture</category>
-      <category>Miss Universe 2026</category>
-    </item>
-    <item>
-      <title>Gaza war: Israel kills Hamas security official Naeem Abu Nahel in an airstrike in the Gaza Strip.</title>
-      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-24-a6cef948b434/</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Israel"&gt;Israel&lt;/a&gt; kills &lt;a href="https://en.wikipedia.org/wiki/Hamas"&gt;Hamas&lt;/a&gt; security official Naeem Abu Nahel in an &lt;a href="https://en.wikipedia.org/wiki/Airstrike"&gt;airstrike&lt;/a&gt; in the &lt;a href="https://en.wikipedia.org/wiki/Gaza_Strip"&gt;Gaza Strip&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.washingtonpost.com/world/2026/11/24/israel-kills-hamas-internal-security-chief-gaza/"&gt;The Washington Post&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"&gt;Middle Eastern crisis&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Gaza_war"&gt;Gaza war&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_24"&gt;Portal:Current events/2026 November 24&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_24&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-24:a6cef948b434</guid>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Armed conflicts and attacks</category>
-      <category>Gaza war</category>
-    </item>
-    <item>
-      <title>2026 Bangladesh garment workers protests: Police fire tear gas and stun grenades to disperse protesting garment workers across Gazipur, Savar, and Ashulia, Bangladesh, as production halts at 481 factories amid minimum wage disputes.</title>
-      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-24-d19d3970a07b/</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Bangladesh_Police"&gt;Police&lt;/a&gt; fire &lt;a href="https://en.wikipedia.org/wiki/Tear_gas"&gt;tear gas&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Stun_grenade"&gt;stun grenades&lt;/a&gt; to disperse protesting &lt;a href="https://en.wikipedia.org/wiki/Textile_industry_in_Bangladesh"&gt;garment workers&lt;/a&gt; across &lt;a href="https://en.wikipedia.org/wiki/Gazipur_District"&gt;Gazipur&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Savar_Upazila"&gt;Savar&lt;/a&gt;, and &lt;a href="https://en.wikipedia.org/wiki/Ashulia"&gt;Ashulia&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Bangladesh"&gt;Bangladesh&lt;/a&gt;, as production halts at 481 factories amid &lt;a href="https://en.wikipedia.org/wiki/Minimum_wage"&gt;minimum wage&lt;/a&gt; disputes.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.tbsnews.net/economy/rmg/production-halted-481-garment-factories-amid-minimum-wage-negotiations-1612891"&gt;The Business Standard&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"&gt;2026 Bangladesh garment workers protests&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_24"&gt;Portal:Current events/2026 November 24&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_24&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-24:d19d3970a07b</guid>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Business and economy</category>
-      <category>2026 Bangladesh garment workers protests</category>
-    </item>
-    <item>
-      <title>Seven people are killed and nine others are injured in a cooking gas explosion at a hot pot restaurant in Hanoi, Vietnam.</title>
-      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-24-ed109645f74b/</link>
-      <description>&lt;p&gt;&lt;a href="https://e.vnexpress.net/news/news/death-toll-from-hanoi-eatery-blast-rises-to-7-5148312.html"&gt;&lt;img src="https://vcdn1-english.vnecdn.net/2026/11/24/1-1795488791-8783-1795488796.jpg?w=680&amp;amp;h=0&amp;amp;q=100&amp;amp;dpr=1&amp;amp;fit=crop&amp;amp;s=O4PX5s82MkiLilhaoK7lbQ" alt=""&gt;&lt;/a&gt;&lt;br&gt;&lt;small&gt;Image: VnExpress&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;Seven people are killed and nine others are injured in a &lt;a href="https://en.wikipedia.org/wiki/Fuel_gas"&gt;cooking gas&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Gas_explosion"&gt;explosion&lt;/a&gt; at a &lt;a href="https://en.wikipedia.org/wiki/Hot_pot"&gt;hot pot&lt;/a&gt; restaurant in &lt;a href="https://en.wikipedia.org/wiki/Hanoi"&gt;Hanoi&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Vietnam"&gt;Vietnam&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://e.vnexpress.net/news/news/death-toll-from-hanoi-eatery-blast-rises-to-7-5148312.html"&gt;VnExpress&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_24"&gt;Portal:Current events/2026 November 24&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_24&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-24:ed109645f74b</guid>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Disasters and accidents</category>
-      <media:content url="https://vcdn1-english.vnecdn.net/2026/11/24/1-1795488791-8783-1795488796.jpg?w=680&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=O4PX5s82MkiLilhaoK7lbQ" medium="image" />
-    </item>
-    <item>
-      <title>A Turkish Air Force helicopter crashes during a training flight in Eskişehir, Turkey, killing five crew members.</title>
-      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-24-f34504c8e46f/</link>
-      <description>&lt;p&gt;A &lt;a href="https://en.wikipedia.org/wiki/Turkish_Air_Force"&gt;Turkish Air Force&lt;/a&gt; helicopter crashes during a training flight in &lt;a href="https://en.wikipedia.org/wiki/Eski%C5%9Fehir"&gt;Eskişehir&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Turkey"&gt;Turkey&lt;/a&gt;, killing five crew members.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://apnews.com/article/turkey-military-helicopter-crash-eskisehir-d807011ff565dcfbce78fcf44d338994"&gt;AP&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_24"&gt;Portal:Current events/2026 November 24&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_24&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-24:f34504c8e46f</guid>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Disasters and accidents</category>
-    </item>
-    <item>
-      <title>Aftermath of the July Uprising, 2026 Bangladesh garment workers protests: Former Bangladesh prime minister Sheikh Hasina announces she plans to return to the country from exile on December 16, coinciding with Victory Day. / Border Guard Bangladesh deploys 101 platoons across Dhaka and seven other districts, including two battalions in Gopalganj, following instructions from the home ministry to increase surveillance at…</title>
-      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-24-6b14f62be101/</link>
-      <description>&lt;p&gt;&lt;a href="https://www.thedailystar.net/news/news/bgb-deploys-101-platoons-dhaka-7-districts-4331806"&gt;&lt;img src="https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/bgb-deployed.jpg" alt=""&gt;&lt;/a&gt;&lt;br&gt;&lt;small&gt;Image: The Daily Star&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;Former &lt;a href="https://en.wikipedia.org/wiki/Prime_Minister_of_Bangladesh"&gt;Bangladesh prime minister&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Sheikh_Hasina"&gt;Sheikh Hasina&lt;/a&gt; announces she plans to return to &lt;a href="https://en.wikipedia.org/wiki/Bangladesh"&gt;the country&lt;/a&gt; from &lt;a href="https://en.wikipedia.org/wiki/Resignation_of_Sheikh_Hasina"&gt;exile&lt;/a&gt; on December 16, coinciding with &lt;a href="https://en.wikipedia.org/wiki/Victory_Day_(Bangladesh)"&gt;Victory Day&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.reuters.com/world/asia-pacific/sheikh-hasina-seeks-return-bangladesh-december-16-state-carrier-2026-11-24/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Border_Guard_Bangladesh"&gt;Border Guard Bangladesh&lt;/a&gt; deploys 101 &lt;a href="https://en.wikipedia.org/wiki/Platoon"&gt;platoons&lt;/a&gt; across &lt;a href="https://en.wikipedia.org/wiki/Dhaka"&gt;Dhaka&lt;/a&gt; and seven other districts, including two &lt;a href="https://en.wikipedia.org/wiki/Battalion"&gt;battalions&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Gopalganj_District,_Bangladesh"&gt;Gopalganj&lt;/a&gt;, following instructions from the &lt;a href="https://en.wikipedia.org/wiki/Ministry_of_Home_Affairs_(Bangladesh)"&gt;home ministry&lt;/a&gt; to increase surveillance at key installations and industrial areas.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.thedailystar.net/news/news/bgb-deploys-101-platoons-dhaka-7-districts-4331806"&gt;The Daily Star&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"&gt;Aftermath of the July Uprising&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"&gt;Aftermath of the July Uprising&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"&gt;2026 Bangladesh garment workers protests&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_24"&gt;Portal:Current events/2026 November 24&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_24&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-24:6b14f62be101</guid>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Politics and elections</category>
-      <category>Aftermath of the July Uprising</category>
-      <category>Law and crime</category>
-      <category>Aftermath of the July Uprising, 2026 Bangladesh garment workers protests</category>
-      <media:content url="https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/bgb-deployed.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Twenty people are rescued after a hostage-taking at a supermarket by armed men in Cartagena, Colombia, after a failed armored-car robbery.</title>
-      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-24-a5b813d0c298/</link>
-      <description>&lt;p&gt;&lt;a href="https://www.aljazeera.com/amp/news/2026/11/24/hostage-situation-reported-in-colombia-as-armed-men-flee-into-supermarket"&gt;&lt;img src="https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6b05e778013d-1795549048.jpg?resize=1920%2C1440" alt=""&gt;&lt;/a&gt;&lt;br&gt;&lt;small&gt;Image: Al Jazeera&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;Twenty people are rescued after a &lt;a href="https://en.wikipedia.org/wiki/Hostage"&gt;hostage-taking&lt;/a&gt; at a supermarket by armed men in &lt;a href="https://en.wikipedia.org/wiki/Cartagena,_Colombia"&gt;Cartagena&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Colombia"&gt;Colombia&lt;/a&gt;, after a failed &lt;a href="https://en.wikipedia.org/wiki/Armored_car_(military)"&gt;armored-car&lt;/a&gt; robbery. One assailant is killed by &lt;a href="https://en.wikipedia.org/wiki/Public_Forces_(Colombia)"&gt;security forces&lt;/a&gt;, while the others are arrested.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/amp/news/2026/11/24/hostage-situation-reported-in-colombia-as-armed-men-flee-into-supermarket"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_24"&gt;Portal:Current events/2026 November 24&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_24&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-24:a5b813d0c298</guid>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Law and crime</category>
-      <media:content url="https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6b05e778013d-1795549048.jpg?resize=1920%2C1440" medium="image" />
     </item>
   </channel>
 </rss>
