@@ -99,6 +99,8 @@ jobs:
           fi
 
       - name: Commit y push
+        env:
+          SITE: ${{ steps.site.outputs.site }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -113,11 +115,20 @@ jobs:
             if git push origin "HEAD:${branch}"; then
               exit 0
             fi
-            echo "Push rechazado (intento ${attempt}); rebase y reintento"
-            # En un rebase, -X theirs da prioridad a nuestro commit (el que se reaplica)
-            # si alguien tocó a la vez state/ o feeds/.
-            git pull --rebase -X theirs origin "${branch}" || { git rebase --abort; sleep 5; }
+            echo "Push rechazado (intento ${attempt}); se regenera sobre lo último de la rama"
+            # Nunca se fusionan a mano (rebase o merge) los archivos generados: data/news.json es
+            # una lista y una fusión de texto de dos ejecuciones la deja con historias repetidas.
+            # Se descarta nuestro commit, se parte de la rama remota y se vuelve a generar: el
+            # estado ya incluye lo que hizo la otra ejecución.
             sleep $(( attempt * 3 ))
+            git fetch -q origin "${branch}" && git reset -q --hard FETCH_HEAD || continue
+            python3 wikipedia_rss.py --site-url "$SITE" || echo "La regeneración falló; se sube lo que haya"
+            git add state feeds data
+            if git diff --cached --quiet; then
+              echo "Sin cambios tras regenerar"
+              exit 0
+            fi
+            git commit -q -m "Actualizar feeds $(date -u +%Y-%m-%dT%H:%MZ)"
           done
           echo "::error::No se pudo hacer push tras 5 intentos"
           exit 1
