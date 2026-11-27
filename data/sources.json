@@ -841,6 +841,12 @@
    "site": "Al Jazeera",
    "title": "Saudi-led coalition intercepts three Houthi missiles headed for Riyadh"
   },
+  "https://www.aljazeera.com/news/2026/11/25/houthis-target-saudi-arabias-red-sea-ports-as-strikes-escalate": {
+   "description": "Explosion reported in Sanaa after Saudi air defenses intercept ballistic missiles targeting Riyadh.",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6b075e56efe1-1795645014.jpg?resize=1920%2C1440",
+   "site": "Al Jazeera",
+   "title": "Houthis target Saudi Arabia’s Red Sea ports as strikes escalate"
+  },
   "https://www.aljazeera.com/news/2026/11/25/iraqs-top-court-rules-government-can-take-over-kurdish-borders-oil-fields": {
    "description": "The ruling comes a day after Kurdish authorities accused Baghdad of an 'assault' on the region's constitutional rights.",
    "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6b0090b5-1795199157.jpg?resize=1920%2C1440",
@@ -1001,6 +1007,11 @@
    "image": "https://static.files.bbci.co.uk/core/website/assets/static/news/images/metadata/poster-1024x576.5f404a8b8b.png",
    "site": "BBC News",
    "title": "Meghan's father Thomas Markle appears in court after arrest on charge relating to child sex abuse material"
+  },
+  "https://www.bbc.com/news/articles/c39w9y5dx4k5o": {
+   "description": "The pair were technicians for German company Rheinmetall, according to Italy's foreign ministry.",
+   "image": "https://ichef.bbci.co.uk/news/1024/branded_news/1ece/live/c83dee70-e9f4-11f1-9c56-b1b6306ef9e3.png",
+   "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility"
   },
   "https://www.bbc.com/news/articles/c58j484089ewo": {
    "description": "At least four bodies have been recovered from the boat which was reportedly carrying between 50 and 100 people.",
@@ -1853,6 +1864,12 @@
    "site": "France 24",
    "title": "Greece cost-of-living strike hits trains and planes"
   },
+  "https://www.france24.com/en/live-news/20261126-china-shuts-down-golf-courses-in-apparent-new-clampdown": {
+   "description": "Chinese authorities ordered more than a dozen golf courses to close this month, according to an AFP tally, in an apparent new crackdown a decade after the sport was first targeted in President Xi Jinping's…",
+   "image": "https://s.france24.com/media/display/ef97e428-e989-11f1-8995-f9cf020caef6/w:1280/p:16x9/af56ca64cfb32dba7a7f25a0c32f86ea1883f28f.jpg",
+   "site": "France 24",
+   "title": "China shuts down golf courses in apparent new clampdown"
+  },
   "https://www.france24.com/en/middle-east/20261026-iran-talks-mecca-pact-nations-war": {
    "description": "Senior officials from Saudi Arabia, Turkey and Pakistan held talks in Iran on Monday aimed at preventing renewed fighting in the Middle East, with Tehran describing discussions as “very good”. The diplomatic…",
    "image": "https://s.france24.com/media/display/484996fa-cd8f-11f1-8da3-4da0d2c6855d/w:1280/p:16x9/2f310afab0f2ee355e67e96c836f9f342820c590.jpg",
@@ -1918,12 +1935,6 @@
    "image": "https://media.internazionale.it/images/2026/10/27/362254-hd.jpeg",
    "site": "Internazionale",
    "title": "Jordan says it killed more than 20 Islamic State militants in airstrikes on Syria"
-  },
-  "https://www.internazionale.it/ultime-notizie-reuters/2026/11/26/crew-member-dies-after-diesel-tanker-sinks-off-ibiza-spain-launches-pollution-plan": {
-   "description": "MADRID, Nov 26 (Reuters) - At least one crew member aboard a ship carrying diesel has died after the vessel capsized and partially sank off the Spanish island of Ibiza on… Leggi",
-   "image": "https://static.internazionale.it/assets/img/home-summary-img-substitute.png",
-   "site": "Internazionale",
-   "title": "Crew member dies after diesel tanker capsizes off Ibiza, no pollution so far"
   },
   "https://www.jpost.com/israel-news/defense-news/article-912959": {
    "description": "The military stated that the operatives had been actively working to restore operational military capabilities and planning attacks against Israeli troops and civilians.",
@@ -2208,12 +2219,6 @@
    "site": "RaiNews",
    "title": "Sciopero generale, cortei contro manovra e governo. Landini: \"Oltre 1 milione nelle piazze\""
   },
-  "https://www.rainews.it/maratona/2026/11/yemen-scontri-tra-esercito-e-houthi-a-marib-e-al-jawf-64d93082-0760-48fa-b413-8620e40fdbf3.html": {
-   "description": "Le due vittime, Antonio Saccoccio (65 anni) ed Emanuele Lo Russo (36 anni), erano impegnate nella manutenzione di antenne della difesa antiaerea. Tajani: \"Ci lamenteremo con l'Ambasciata iraniana\". Ma Teheran nega ogni coinvolgimento",
-   "image": "https://www.rainews.it/cropgd/1200x630/dl/img/2026/11/26/1795708153545_cop_Kuwait_genericaframe.jpeg",
-   "site": "RaiNews",
-   "title": "Kuwait, attacco iraniano con droni: morti due tecnici italiani Rheinmetall. Cordoglio di Meloni"
-  },
   "https://www.rappler.com/philippines/muntinlupa-city-protest-arrest-asean-2026/": {
    "description": "The protesters, members of Lakbayan Timog Katagalugan, were heading to Liwasang Bonifacio to join other groups opposing Pax Silica and the expected arrival of US President Donald Trump.",
    "image": "https://www.rappler.com/tachyon/2026/11/PNP-Southern-Police-District-arrest-.jpg",
@@ -2309,6 +2314,12 @@
    "image": "https://media.rnztools.nz/rnz/image/upload/s--mi9nA36h--/t_tohu-badge-facebook/f_auto/q_auto/4JFIJ2R_Image_26_jpg",
    "site": "RNZ",
    "title": "'Too close to call': Wait begins for special votes after cliffhanger Election night"
+  },
+  "https://www.rnz.co.nz/news/politics_election-2026/2820329/election-2026-final-results-coalition-loses-majority-another-election-possible": {
+   "description": "The final election count has erased the coalition's majority, leaving Christopher Luxon reliant on Opportunity to break the deadlock and avoid a return to the polls.",
+   "image": "https://media.rnztools.nz/rnz/image/upload/s--Pt1jLp7---/t_tohu-badge-facebook/f_auto/q_auto/4JHSYZB_election_2026_luxon_wong_jpg",
+   "site": "RNZ",
+   "title": "Election 2026 final results: Coalition loses majority, another election possible"
   },
   "https://www.rte.ie/news/2026/1110/1598675-walliams-named-in-failed-injunction/": {
    "description": "Multiple women have accused British comedian and author David Walliams of sexual misconduct, including when they were teenagers.",
@@ -2501,6 +2512,18 @@
    "site": "The Business Standard",
    "title": "'No work, no pay': RMG factory owners threaten closures from Sunday if unrest continues"
   },
+  "https://www.tbsnews.net/economy/rmg/rmg-workers-clash-police-despite-wage-announcement-400-factories-suspend-production": {
+   "description": "Many factories had declared holiday ahead of wage announcement, anticipating unrest.",
+   "image": "https://www.tbsnews.net/sites/default/files/styles/social_share/public/images/2026/11/26/gazipur_wednesday_highway.jpg",
+   "site": "The Business Standard",
+   "title": "RMG workers clash with police despite wage announcement; 400 factories suspend production"
+  },
+  "https://www.telegraph.co.uk/world-news/2026/11/26/china-golf-courses-ccp-western-elites-xi-jinping-corruption/": {
+   "description": "At least 18 facilities shut down in purge of activity Beijing associates with Western elites and corruption",
+   "image": "https://www.telegraph.co.uk/content/dam/world-news/2026/11/26/TELEMMGLPICT000513055833_17956995825530_trans_NvBQzQNjv4BqBD7yLMLhszR9S0QoXclNSgNVNGrWqfIvhOPLYRBzybM.jpeg?impolicy=OG-Standard",
+   "site": "The Telegraph",
+   "title": "China closes golf courses in attack on ‘sport for millionaires’"
+  },
   "https://www.thedailystar.net/business/global-economy/news/singapore-launches-gold-storage-service-central-banks-4319921": {
    "description": "The Monetary Authority of Singapore said the facility, housed in the city-state's national currency vault, could store 500 tonnes of gold but could expand that as demand grows.",
    "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/gold%20bars.png",
@@ -2632,6 +2655,12 @@
    "image": "https://i.guim.co.uk/img/media/dd139e0696a494665b7aa4358ff2cd286e480999/407_0_4073_3258/master/4073.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=2718db805236c4dcb9fb7a9a2c029e9e",
    "site": "the Guardian",
    "title": "‘Disgusted by it’: body of Melbourne Cup race horse found dumped in Sydney skip bin"
+  },
+  "https://www.theguardian.com/australia-news/2026/nov/25/beau-lamarre-condon-trial-verdict-former-police-officer-jesse-baird-luke-davies-ntwnfb": {
+   "description": "Jury finds former police officer guilty of killing couple in Baird’s Sydney home in 2024",
+   "image": "https://i.guim.co.uk/img/media/ebfc885f7db8935002487a469a0f9baba836690e/262_168_2337_1870/master/2337.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e16d87a17e4dcb69a3b4e1cb03b120ce",
+   "site": "the Guardian",
+   "title": "Beau Lamarre-Condon found guilty of murdering Jesse Baird and Luke Davies"
   },
   "https://www.theguardian.com/australia-news/2026/oct/25/western-sydney-international-airport-wsi-open-airlines-flights-cost-transport-history": {
    "description": "Some 60km from the CBD and in operation for 24 hours a day, Sydney’s second airport, opening to passengers on Sunday, cost $5.3bn",

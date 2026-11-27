@@ -7,112 +7,53 @@
  "stories": [
   {
    "article": {
-    "extract": "Since 28 February 2026, the United States and Israel have been at war with Iran and its regional allies, following the Twelve-Day War in June 2025 and sporadic fighting during the Middle Eastern crisis sparked by the Gaza war, which began in 2023. Amid ongoing US–Iran negotiations regarding Iran's nuclear program, the war began when the US and Israel conducted hundreds of air strikes on targets across Iran, including strikes that assassinated Supreme Leader Ali Khamenei alongside several other Iranian officials.",
-    "location": "West Asia",
-    "map": {
-     "height": 295,
-     "url": "https://maps.wikimedia.org/img/osm-intl,3,30,47,295x295.png?lang=en&domain=en.wikipedia.org&title=2026_Iran_war&groups=_44adc35176c326053c7025a4520ec1d824a75f51&parser=legacy",
-     "url2x": "https://maps.wikimedia.org/img/osm-intl,3,30,47,295x295@2x.png?lang=en&domain=en.wikipedia.org&title=2026_Iran_war&groups=_44adc35176c326053c7025a4520ec1d824a75f51&parser=legacy",
-     "width": 295
-    },
-    "title": "2026 Iran war",
-    "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
+    "extract": "The 2026 New Zealand general election was held on 7 November 2026 to determine the composition of the 55th Parliament of New Zealand. Voters elected 130 members to the House of Representatives under the mixed-member proportional (MMP) voting system, comprising 71 members elected from single-member electorates and 59 members elected from closed party lists to achieve proportionality.",
+    "title": "2026 New Zealand general election",
+    "url": "https://en.wikipedia.org/wiki/2026_New_Zealand_general_election"
    },
    "categories": [
-    "Armed conflicts and attacks"
+    "Politics and elections"
    ],
-   "group": "2026-11-26-b390fab8f61e",
+   "group": "2026-11-27-fe2711418618",
    "headlines": [
     {
-     "category": "Armed conflicts and attacks",
-     "html": "Two <a href=\"https://en.wikipedia.org/wiki/Italy\">Italian</a> techincians working for <a href=\"https://en.wikipedia.org/wiki/Rheinmetall\">Rheinmetall</a>, are killed and two other people, are injured in a <a href=\"https://en.wikipedia.org/wiki/Drone_warfare\">drone strike</a> against a location in <a href=\"https://en.wikipedia.org/wiki/Kuwait\">Kuwait</a>. <a href=\"https://en.wikipedia.org/wiki/Iran\">Iran</a> has been blamed for the attack but denies responsibility.",
-     "id": "2026-11-26-b390fab8f61e",
+     "category": "Politics and elections",
+     "html": "The counting of <a href=\"https://en.wikipedia.org/wiki/Special_vote\">special votes</a> results in the <a href=\"https://en.wikipedia.org/wiki/New_Zealand_National_Party\">National Party</a> losing two electorate seats, including one <a href=\"https://en.wikipedia.org/wiki/Overhang_seat\">overhang seat</a>. The National—<a href=\"https://en.wikipedia.org/wiki/ACT_New_Zealand\">ACT</a>—<a href=\"https://en.wikipedia.org/wiki/New_Zealand_First\">NZ First</a> <a href=\"https://en.wikipedia.org/wiki/Sixth_National_Government_of_New_Zealand\">coalition government</a> falls below a majority to 65 seats, placing the <a href=\"https://en.wikipedia.org/wiki/Opportunity_Party_(New_Zealand)\">Opportunity Party</a> into a <a href=\"https://en.wikipedia.org/wiki/Kingmaker\">kingmaker</a> position.",
+     "id": "2026-11-27-fe2711418618",
      "page": {
-      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_26&action=history",
-      "title": "Portal:Current events/2026 November 26",
-      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_26"
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_27&action=history",
+      "title": "Portal:Current events/2026 November 27",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_27"
      },
      "sources": [
       {
-       "name": "Rai News",
-       "url": "https://www.rainews.it/maratona/2026/11/yemen-scontri-tra-esercito-e-houthi-a-marib-e-al-jawf-64d93082-0760-48fa-b413-8620e40fdbf3.html"
+       "name": "RNZ",
+       "url": "https://www.rnz.co.nz/news/politics_election-2026/2820329/election-2026-final-results-coalition-loses-majority-another-election-possible"
       }
      ],
      "topics": [
       {
-       "label": "2026 Iran war",
+       "label": "2026 New Zealand general election",
        "links": [
         {
-         "label": "2026 Iran war",
-         "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
+         "label": "2026 New Zealand general election",
+         "url": "https://en.wikipedia.org/wiki/2026_New_Zealand_general_election"
         }
        ],
-       "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
-      },
-      {
-       "label": "2026 Iranian strikes on Kuwait",
-       "links": [
-        {
-         "label": "2026 Iranian strikes on Kuwait",
-         "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_Kuwait"
-        }
-       ],
-       "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_Kuwait"
+       "url": "https://en.wikipedia.org/wiki/2026_New_Zealand_general_election"
       }
      ]
     }
    ],
-   "id": "2026-11-26-b390fab8f61e",
+   "id": "2026-11-27-fe2711418618",
    "image": {
-    "link": "https://www.rainews.it/maratona/2026/11/yemen-scontri-tra-esercito-e-houthi-a-marib-e-al-jawf-64d93082-0760-48fa-b413-8620e40fdbf3.html",
-    "source": "Rai News",
-    "url": "https://www.rainews.it/cropgd/1200x630/dl/img/2026/11/26/1795708153545_cop_Kuwait_genericaframe.jpeg"
-   },
-   "more_articles": [
-    {
-     "extract": "On 28 February 2026, during the 2026 Iran war, Iran began launching a series of retaliatory strikes on American and Kuwaiti targets within Kuwait.",
-     "location": "Kuwait",
-     "title": "Kuwait in the 2026 Iran war",
-     "url": "https://en.wikipedia.org/wiki/Kuwait_in_the_2026_Iran_war"
-    }
-   ],
-   "pub_date": "2026-11-26T17:01:50Z",
-   "title": "2026 Iranian strikes on Kuwait: Two Italian techincians working for Rheinmetall, are killed and two other people, are injured in a drone strike against a location in Kuwait."
-  },
-  {
-   "article": null,
-   "categories": [
-    "Armed conflicts and attacks"
-   ],
-   "group": "2026-11-26-df63ad324107",
-   "headlines": [
-    {
-     "category": "Armed conflicts and attacks",
-     "html": "A clash between rival <a href=\"https://en.wikipedia.org/wiki/Bangladesh_Nationalist_Party\">Bangladesh Nationalist Party</a> factions in <a href=\"https://en.wikipedia.org/wiki/Munshiganj_Sadar_Upazila\">Munshiganj Sadar Upazila</a>, <a href=\"https://en.wikipedia.org/wiki/Bangladesh\">Bangladesh</a>, leaves one person dead and five injured by <a href=\"https://en.wikipedia.org/wiki/Gunfire\">gunfire</a> ahead of upcoming <a href=\"https://en.wikipedia.org/wiki/Union_councils_of_Bangladesh\">union parishad</a> elections.",
-     "id": "2026-11-26-df63ad324107",
-     "page": {
-      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_26&action=history",
-      "title": "Portal:Current events/2026 November 26",
-      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_26"
-     },
-     "sources": [
-      {
-       "name": "The Daily Star",
-       "url": "https://www.thedailystar.net/news/politics/news/one-killed-five-injured-bnp-factional-clash-munshiganj-4333826"
-      }
-     ],
-     "topics": []
-    }
-   ],
-   "id": "2026-11-26-df63ad324107",
-   "image": {
-    "link": "https://www.thedailystar.net/news/politics/news/one-killed-five-injured-bnp-factional-clash-munshiganj-4333826",
-    "source": "The Daily Star",
-    "url": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/Munshiganj%20killed.PNG"
+    "link": "https://www.rnz.co.nz/news/politics_election-2026/2820329/election-2026-final-results-coalition-loses-majority-another-election-possible",
+    "source": "RNZ",
+    "url": "https://media.rnztools.nz/rnz/image/upload/s--Pt1jLp7---/t_tohu-badge-facebook/f_auto/q_auto/4JHSYZB_election_2026_luxon_wong_jpg"
    },
    "more_articles": [],
-   "pub_date": "2026-11-26T17:01:50Z",
-   "title": "A clash between rival Bangladesh Nationalist Party factions in Munshiganj Sadar Upazila, Bangladesh, leaves one person dead and five injured by gunfire ahead of upcoming union parishad elections."
+   "pub_date": "2026-11-27T01:47:24Z",
+   "title": "2026 New Zealand general election: The counting of special votes results in the National Party losing two electorate seats, including one overhang seat."
   },
   {
    "article": null,
@@ -123,7 +64,7 @@
    "headlines": [
     {
      "category": "Business and economy",
-     "html": "Spanish economist <a href=\"https://en.wikipedia.org/wiki/Pablo_Hern%C3%A1ndez_de_Cos\">Pablo Hernández de Cos</a> is elected as the new <a href=\"https://en.wikipedia.org/wiki/President_of_the_European_Central_Bank\">president of the European Central Bank</a> and will succeed <a href=\"https://en.wikipedia.org/wiki/Christine_Lagarde\">Christine Lagarde</a> after her resignation.",
+     "html": "<a href=\"https://en.wikipedia.org/wiki/Spain\">Spanish</a> economist <a href=\"https://en.wikipedia.org/wiki/Pablo_Hern%C3%A1ndez_de_Cos\">Pablo Hernández de Cos</a> is elected as the new <a href=\"https://en.wikipedia.org/wiki/President_of_the_European_Central_Bank\">president</a> of the <a href=\"https://en.wikipedia.org/wiki/European_Central_Bank\">European Central Bank</a>, succeeding <a href=\"https://en.wikipedia.org/wiki/France\">French</a> lawyer <a href=\"https://en.wikipedia.org/wiki/Christine_Lagarde\">Christine Lagarde</a> after her resignation.",
      "id": "2026-11-26-401d9c4467cd",
      "page": {
       "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_26&action=history",
@@ -142,42 +83,7 @@
    "id": "2026-11-26-401d9c4467cd",
    "more_articles": [],
    "pub_date": "2026-11-26T17:01:50Z",
-   "title": "Spanish economist Pablo Hernández de Cos is elected as the new president of the European Central Bank and will succeed Christine Lagarde after her resignation."
-  },
-  {
-   "article": null,
-   "categories": [
-    "Disasters and accidents"
-   ],
-   "group": "2026-11-26-6ff47cad3e6f",
-   "headlines": [
-    {
-     "category": "Disasters and accidents",
-     "html": "One crew member is killed and 16 more are rescued after the <a href=\"https://en.wikipedia.org/wiki/Sinking\">sinking</a> of a <a href=\"https://en.wikipedia.org/wiki/Malta\">Malta</a>-flagged tanker near the waters of <a href=\"https://en.wikipedia.org/wiki/Ibiza\">Ibiza</a>, <a href=\"https://en.wikipedia.org/wiki/Spain\">Spain</a>.",
-     "id": "2026-11-26-6ff47cad3e6f",
-     "page": {
-      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_26&action=history",
-      "title": "Portal:Current events/2026 November 26",
-      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_26"
-     },
-     "sources": [
-      {
-       "name": "Internazionale",
-       "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/11/26/crew-member-dies-after-diesel-tanker-sinks-off-ibiza-spain-launches-pollution-plan"
-      }
-     ],
-     "topics": []
-    }
-   ],
-   "id": "2026-11-26-6ff47cad3e6f",
-   "image": {
-    "link": "https://www.internazionale.it/ultime-notizie-reuters/2026/11/26/crew-member-dies-after-diesel-tanker-sinks-off-ibiza-spain-launches-pollution-plan",
-    "source": "Internazionale",
-    "url": "https://static.internazionale.it/assets/img/home-summary-img-substitute.png"
-   },
-   "more_articles": [],
-   "pub_date": "2026-11-26T17:01:50Z",
-   "title": "One crew member is killed and 16 more are rescued after the sinking of a Malta-flagged tanker near the waters of Ibiza, Spain."
+   "title": "Spanish economist Pablo Hernández de Cos is elected as the new president of the European Central Bank, succeeding French lawyer Christine Lagarde after her resignation."
   },
   {
    "article": null,
@@ -188,7 +94,7 @@
    "headlines": [
     {
      "category": "Law and crime",
-     "html": "A <a href=\"https://en.wikipedia.org/wiki/Shootout\">shootout</a> between <a href=\"https://en.wikipedia.org/wiki/Minibus\">minibus</a> drivers after a quarrel on a street in <a href=\"https://en.wikipedia.org/wiki/Beirut\">Beirut</a>, <a href=\"https://en.wikipedia.org/wiki/Lebanon\">Lebanon</a>, leaves two people killed and three more injured.",
+     "html": "A <a href=\"https://en.wikipedia.org/wiki/Shootout\">shootout</a> between <a href=\"https://en.wikipedia.org/wiki/Minibus\">minibus</a> drivers after a quarrel on a street in <a href=\"https://en.wikipedia.org/wiki/Beirut\">Beirut</a>, <a href=\"https://en.wikipedia.org/wiki/Lebanon\">Lebanon</a>, kills two people and injures three more.",
      "id": "2026-11-26-533d5ae45f9f",
      "page": {
       "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_26&action=history",
@@ -212,7 +118,7 @@
    },
    "more_articles": [],
    "pub_date": "2026-11-26T17:01:50Z",
-   "title": "A shootout between minibus drivers after a quarrel on a street in Beirut, Lebanon, leaves two people killed and three more injured."
+   "title": "A shootout between minibus drivers after a quarrel on a street in Beirut, Lebanon, kills two people and injures three more."
   },
   {
    "article": {
@@ -246,7 +152,7 @@
   },
   {
    "article": {
-    "extract": "In mathematics, the Riemann hypothesis is the theorem that the Riemann zeta function has its zeros only at the negative even integers and at complex numbers with real part 12. First posed in 1859 by Bernhard Riemann, pure mathematicians consider the hypothesis to be one of the most important problems in the field.",
+    "extract": "In mathematics, the Riemann hypothesis is the hypothesis that the Riemann zeta function has its zeros only at the negative even integers and at complex numbers with real part 12. First posed in 1859 by Bernhard Riemann, pure mathematicians consider the hypothesis to be one of the most important problems in the field.",
     "title": "Riemann hypothesis",
     "url": "https://en.wikipedia.org/wiki/Riemann_hypothesis"
    },
@@ -304,6 +210,657 @@
    "pub_date": "2026-11-26T01:49:12Z",
    "retired": true,
    "title": "Sandagiin Byambatsogt becomes acting president of Mongolia after Ukhnaagiin Khürelsükh resigns amid corruption allegations."
+  },
+  {
+   "article": {
+    "extract": "The Middle East is currently experiencing an ongoing series of interrelated wars, conflicts, and heightened instability, triggered by the ongoing Gaza war and the genocide in Gaza. These have primarily consisted of conflicts between Israel and the United States on one side, and Iran and militias that form the \"Axis of Resistance\", which includes such groups as Hamas, Hezbollah, and the Houthis, on the other.",
+    "location": "Middle East",
+    "title": "Middle Eastern crisis (2023–present)",
+    "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
+   },
+   "categories": [
+    "Armed conflicts and attacks"
+   ],
+   "group": "2026-11-26-82269f192e1d",
+   "headlines": [
+    {
+     "category": "Armed conflicts and attacks",
+     "html": "Two <a href=\"https://en.wikipedia.org/wiki/Italy\">Italian</a> technicians working for <a href=\"https://en.wikipedia.org/wiki/Rheinmetall\">Rheinmetall</a> are killed and two other people are injured in a <a href=\"https://en.wikipedia.org/wiki/Drone_warfare\">drone strike</a> against a location in <a href=\"https://en.wikipedia.org/wiki/Kuwait\">Kuwait</a>. <a href=\"https://en.wikipedia.org/wiki/Iran\">Iran</a> has been blamed for the attack but denies responsibility.",
+     "id": "2026-11-26-82269f192e1d",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_26&action=history",
+      "title": "Portal:Current events/2026 November 26",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_26"
+     },
+     "sources": [
+      {
+       "name": "BBC News",
+       "url": "https://www.bbc.com/news/articles/c39w9y5dx4k5o"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Middle Eastern crisis",
+       "links": [
+        {
+         "label": "Middle Eastern crisis",
+         "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
+      },
+      {
+       "label": "2026 Iran war",
+       "links": [
+        {
+         "label": "2026 Iran war",
+         "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
+      },
+      {
+       "label": "2026 Iranian strikes on Kuwait",
+       "links": [
+        {
+         "label": "2026 Iranian strikes on Kuwait",
+         "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_Kuwait"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_Kuwait"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-26-82269f192e1d",
+   "image": {
+    "link": "https://www.bbc.com/news/articles/c39w9y5dx4k5o",
+    "source": "BBC News",
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/1ece/live/c83dee70-e9f4-11f1-9c56-b1b6306ef9e3.png"
+   },
+   "more_articles": [
+    {
+     "extract": "Since 28 February 2026, the United States and Israel have been at war with Iran and its regional allies, following the Twelve-Day War in June 2025 and sporadic fighting during the Middle Eastern crisis sparked by the Gaza war, which began in 2023. Amid ongoing US–Iran negotiations regarding Iran's nuclear program, the war began when the US and Israel conducted hundreds of air strikes on targets across Iran, including strikes that assassinated Supreme Leader Ali Khamenei alongside several other Iranian officials.",
+     "location": "West Asia",
+     "map": {
+      "height": 295,
+      "url": "https://maps.wikimedia.org/img/osm-intl,3,30,47,295x295.png?lang=en&domain=en.wikipedia.org&title=2026_Iran_war&groups=_44adc35176c326053c7025a4520ec1d824a75f51&parser=legacy",
+      "url2x": "https://maps.wikimedia.org/img/osm-intl,3,30,47,295x295@2x.png?lang=en&domain=en.wikipedia.org&title=2026_Iran_war&groups=_44adc35176c326053c7025a4520ec1d824a75f51&parser=legacy",
+      "width": 295
+     },
+     "title": "2026 Iran war",
+     "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
+    },
+    {
+     "extract": "On 28 February 2026, during the 2026 Iran war, Iran began launching a series of retaliatory strikes on American and Kuwaiti targets within Kuwait.",
+     "location": "Kuwait",
+     "title": "Kuwait in the 2026 Iran war",
+     "url": "https://en.wikipedia.org/wiki/Kuwait_in_the_2026_Iran_war"
+    }
+   ],
+   "pub_date": "2026-11-26T00:00:00Z",
+   "title": "2026 Iranian strikes on Kuwait: Two Italian technicians working for Rheinmetall are killed and two other people are injured in a drone strike against a location in Kuwait."
+  },
+  {
+   "article": {
+    "extract": "The Middle East is currently experiencing an ongoing series of interrelated wars, conflicts, and heightened instability, triggered by the ongoing Gaza war and the genocide in Gaza. These have primarily consisted of conflicts between Israel and the United States on one side, and Iran and militias that form the \"Axis of Resistance\", which includes such groups as Hamas, Hezbollah, and the Houthis, on the other.",
+    "location": "Middle East",
+    "title": "Middle Eastern crisis (2023–present)",
+    "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
+   },
+   "categories": [
+    "Armed conflicts and attacks"
+   ],
+   "group": "2026-11-26-82269f192e1d",
+   "headlines": [
+    {
+     "category": "Armed conflicts and attacks",
+     "html": "<a href=\"https://en.wikipedia.org/wiki/Saudi_Arabia\">Saudi Arabia</a> says it has destroyed 50 <a href=\"https://en.wikipedia.org/wiki/Houthis\">Houthi</a> military targets, including weapons depots, <a href=\"https://en.wikipedia.org/wiki/Ballistic_missile\">ballistic missile</a> and drone launch sites, and command centres, in airstrikes on <a href=\"https://en.wikipedia.org/wiki/Sanaa\">Sanaa</a>, <a href=\"https://en.wikipedia.org/wiki/Al_Hudaydah_(governorate)\">Al Hudaydah</a>, and <a href=\"https://en.wikipedia.org/wiki/Saada_Governorate\">Saada Governorates</a> in <a href=\"https://en.wikipedia.org/wiki/Yemen\">Yemen</a>.",
+     "id": "2026-11-26-8021d10f04f6",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_26&action=history",
+      "title": "Portal:Current events/2026 November 26",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_26"
+     },
+     "sources": [
+      {
+       "name": "AFP via AA",
+       "url": "https://www.aa.com.tr/en/middle-east/saudi-led-coalition-says-it-destroyed-50-houthi-military-targets-across-yemen/4139651"
+      },
+      {
+       "name": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/25/houthis-target-saudi-arabias-red-sea-ports-as-strikes-escalate"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Middle Eastern crisis",
+       "links": [
+        {
+         "label": "Middle Eastern crisis",
+         "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"
+      },
+      {
+       "label": "Yemeni civil war",
+       "links": [
+        {
+         "label": "Yemeni civil war",
+         "url": "https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)"
+      },
+      {
+       "label": "Houthi–Saudi conflict",
+       "links": [
+        {
+         "label": "Houthi–Saudi conflict",
+         "url": "https://en.wikipedia.org/wiki/Houthi%E2%80%93Saudi_conflict"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Houthi%E2%80%93Saudi_conflict"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-26-8021d10f04f6",
+   "image": {
+    "link": "https://www.bbc.com/news/articles/c39w9y5dx4k5o",
+    "source": "BBC News",
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/1ece/live/c83dee70-e9f4-11f1-9c56-b1b6306ef9e3.png"
+   },
+   "more_articles": [
+    {
+     "extract": "The Yemeni civil war (Arabic: الحرب الأهلية اليمنية, romanized: al-ḥarb al-ʾahlīyah al-yamanīyah) is an ongoing multilateral civil war that began in late 2014 mainly between the Rashad al-Alimi-led Presidential Leadership Council and the Mahdi al-Mashat-led Houthi Supreme Political Council, along with their respective supporters and allies. Both sides claim to constitute the official government of Yemen while the Presidential Leadership Council is recognized by the United Nations as the official government.",
+     "location": "Yemen and Saudi Arabia",
+     "title": "Yemeni civil war (2014–present)",
+     "url": "https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)"
+    },
+    {
+     "extract": "The Houthi–Saudi conflict is an ongoing armed conflict involving the Armed Forces of Saudi Arabia and Houthi forces in Yemen and along the Saudi–Yemeni border, including parts of Asir, Jazan, and Najran in Saudi Arabia and Saada, Al-Jawf, and Hajjah in Yemen. The conflict began following the Saudi-led intervention in Yemen in 2015.",
+     "location": "Yemen and Saudi Arabia",
+     "title": "Houthi–Saudi conflict",
+     "url": "https://en.wikipedia.org/wiki/Houthi%E2%80%93Saudi_conflict"
+    }
+   ],
+   "pub_date": "2026-11-26T00:00:00Z",
+   "title": "Houthi–Saudi conflict: Saudi Arabia says it has destroyed 50 Houthi military targets, including weapons depots, ballistic missile and drone launch sites, and command centres, in airstrikes on Sanaa, Al Hudaydah, and Saada…"
+  },
+  {
+   "article": {
+    "extract": "Significant political, constitutional, and social changes in Bangladesh followed the July Uprising of 2024 and the resignation of Prime Minister Sheikh Hasina. The uprising was initially sparked by widespread public protests and calls for reform, led to major changes in Bangladesh's political landscape.",
+    "location": "Bangladesh (with spillovers in India)",
+    "title": "Aftermath of the July Uprising",
+    "url": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"
+   },
+   "categories": [
+    "Business and economy",
+    "Armed conflicts and attacks"
+   ],
+   "group": "2026-11-26-df63ad324107",
+   "headlines": [
+    {
+     "category": "Business and economy",
+     "html": "Around 400 <a href=\"https://en.wikipedia.org/wiki/Textile_industry_in_Bangladesh\">garment factories</a> remain closed across <a href=\"https://en.wikipedia.org/wiki/Savar_Upazila\">Savar</a> and <a href=\"https://en.wikipedia.org/wiki/Gazipur_District\">Gazipur</a>, <a href=\"https://en.wikipedia.org/wiki/Bangladesh\">Bangladesh</a>, as workers rejected a newly announced <a href=\"https://en.wikipedia.org/wiki/Bangladeshi_taka\">৳</a> 17,000 monthly <a href=\"https://en.wikipedia.org/wiki/Minimum_wage\">minimum wage</a> as insufficient block the <a href=\"https://en.wikipedia.org/wiki/N3_(Bangladesh)\">Dhaka–Mymensingh</a> and <a href=\"https://en.wikipedia.org/wiki/N4_(Bangladesh)\">Dhaka–Tangail</a> highways and clash with <a href=\"https://en.wikipedia.org/wiki/Bangladesh_Police\">police</a> firing <a href=\"https://en.wikipedia.org/wiki/Tear_gas\">tear gas</a> and <a href=\"https://en.wikipedia.org/wiki/Stun_grenade\">stun grenades</a>.",
+     "id": "2026-11-26-c03ee25089bd",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_26&action=history",
+      "title": "Portal:Current events/2026 November 26",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_26"
+     },
+     "sources": [
+      {
+       "name": "The Business Standard",
+       "url": "https://www.tbsnews.net/economy/rmg/rmg-workers-clash-police-despite-wage-announcement-400-factories-suspend-production"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Aftermath of the July Uprising, 2026 Bangladesh garment workers protests",
+       "links": [
+        {
+         "label": "Aftermath of the July Uprising",
+         "url": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"
+        },
+        {
+         "label": "2026 Bangladesh garment workers protests",
+         "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"
+      }
+     ]
+    },
+    {
+     "category": "Armed conflicts and attacks",
+     "html": "A clash between rival <a href=\"https://en.wikipedia.org/wiki/Bangladesh_Nationalist_Party\">Bangladesh Nationalist Party</a> factions in <a href=\"https://en.wikipedia.org/wiki/Munshiganj_Sadar_Upazila\">Munshiganj Sadar Upazila</a>, <a href=\"https://en.wikipedia.org/wiki/Bangladesh\">Bangladesh</a>, leaves one person dead and five injured by <a href=\"https://en.wikipedia.org/wiki/Gunfire\">gunfire</a> ahead of upcoming <a href=\"https://en.wikipedia.org/wiki/Union_councils_of_Bangladesh\">union parishad</a> elections.",
+     "id": "2026-11-26-df63ad324107",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_26&action=history",
+      "title": "Portal:Current events/2026 November 26",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_26"
+     },
+     "sources": [
+      {
+       "name": "The Daily Star",
+       "url": "https://www.thedailystar.net/news/politics/news/one-killed-five-injured-bnp-factional-clash-munshiganj-4333826"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Aftermath of the July Uprising",
+       "links": [
+        {
+         "label": "Aftermath of the July Uprising",
+         "url": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-26-c03ee25089bd",
+   "image": {
+    "link": "https://www.tbsnews.net/economy/rmg/rmg-workers-clash-police-despite-wage-announcement-400-factories-suspend-production",
+    "source": "The Business Standard",
+    "url": "https://www.tbsnews.net/sites/default/files/styles/social_share/public/images/2026/11/26/gazipur_wednesday_highway.jpg"
+   },
+   "more_articles": [
+    {
+     "extract": "A series of labour demonstrations organized by workers in the ready-made garment industry have taken place in Bangladesh, demanding an increase in the sector's minimum monthly wage from ৳12,500 (US$100) to ৳30,000 (US$240). Began in August 2026, the protests escalated in late-October and early-November 2026 in the industrial areas of Ashulia, Gazipur and Dhaka.",
+     "location": "Greater Dhaka, Bangladesh",
+     "title": "2026 Bangladesh garment workers protests",
+     "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests"
+    }
+   ],
+   "pub_date": "2026-11-26T00:00:00Z",
+   "title": "Aftermath of the July Uprising, 2026 Bangladesh garment workers protests: Around 400 garment factories remain closed across Savar and Gazipur, Bangladesh, as workers rejected a newly announced ৳ 17,000 monthly minimum wage as insufficient block the Dhaka–Mymensingh and… / A clash between rival Bangladesh Nationalist Party factions in Munshiganj Sadar Upazila, Bangladesh, leaves one person dead and five injured by gunfire ahead of upcoming union parishad elections."
+  },
+  {
+   "article": null,
+   "categories": [
+    "Business and economy"
+   ],
+   "group": "2026-11-26-926fb0a2ffb0",
+   "headlines": [
+    {
+     "category": "Business and economy",
+     "html": "A business <a href=\"https://en.wikipedia.org/wiki/Consortium\">consortium</a> led by U.S.-based <a href=\"https://en.wikipedia.org/wiki/Asset_management\">asset management</a> company <a href=\"https://en.wikipedia.org/wiki/Eldridge_Industries\">Eldridge</a> agrees to purchase international assets of <a href=\"https://en.wikipedia.org/wiki/Russia\">Russian</a> <a href=\"https://en.wikipedia.org/wiki/Petroleum_industry\">oil company</a> <a href=\"https://en.wikipedia.org/wiki/Lukoil\">Lukoil</a>, including <a href=\"https://en.wikipedia.org/wiki/Petroleum_reservoir\">oil and gas fields</a>, <a href=\"https://en.wikipedia.org/wiki/Oil_refinery\">refineries</a>, <a href=\"https://en.wikipedia.org/wiki/Pipeline\">pipelines</a>, and other infrastructure.",
+     "id": "2026-11-26-926fb0a2ffb0",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_26&action=history",
+      "title": "Portal:Current events/2026 November 26",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_26"
+     },
+     "sources": [
+      {
+       "name": "AP",
+       "url": "https://apnews.com/article/russia-ukraine-war-us-sanctions-oil-lukoil-8d5df1befb2ebb2a0ce4f6b259fcdf14"
+      }
+     ],
+     "topics": []
+    }
+   ],
+   "id": "2026-11-26-926fb0a2ffb0",
+   "more_articles": [],
+   "pub_date": "2026-11-26T00:00:00Z",
+   "title": "A business consortium led by U.S.-based asset management company Eldridge agrees to purchase international assets of Russian oil company Lukoil, including oil and gas fields, refineries, pipelines…"
+  },
+  {
+   "article": null,
+   "categories": [
+    "Disasters and accidents"
+   ],
+   "group": "2026-11-26-289e183b3f0f",
+   "headlines": [
+    {
+     "category": "Disasters and accidents",
+     "html": "One crew member is killed and 16 more are rescued after the <a href=\"https://en.wikipedia.org/wiki/Sinking\">sinking</a> of a <a href=\"https://en.wikipedia.org/wiki/Malta\">Malta</a>-flagged tanker off the coast of <a href=\"https://en.wikipedia.org/wiki/Ibiza\">Ibiza</a>, <a href=\"https://en.wikipedia.org/wiki/Spain\">Spain</a>.",
+     "id": "2026-11-26-289e183b3f0f",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_26&action=history",
+      "title": "Portal:Current events/2026 November 26",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_26"
+     },
+     "sources": [
+      {
+       "name": "Reuters",
+       "url": "https://www.reuters.com/business/energy/crew-member-dies-after-diesel-tanker-sinks-off-ibiza-spain-launches-pollution-2026-11-26/"
+      }
+     ],
+     "topics": []
+    }
+   ],
+   "id": "2026-11-26-289e183b3f0f",
+   "more_articles": [],
+   "pub_date": "2026-11-26T00:00:00Z",
+   "title": "One crew member is killed and 16 more are rescued after the sinking of a Malta-flagged tanker off the coast of Ibiza, Spain."
+  },
+  {
+   "article": null,
+   "categories": [
+    "Disasters and accidents"
+   ],
+   "group": "2026-11-26-3bf38a4f51e5",
+   "headlines": [
+    {
+     "category": "Disasters and accidents",
+     "html": "At least nine people are injured, including three critically, in an explosion and fire at an <a href=\"https://en.wikipedia.org/wiki/Bangchak_Corporation\">Bangchak Corporation</a> oil facility in <a href=\"https://en.wikipedia.org/wiki/Bangkok\">Bangkok</a>, <a href=\"https://en.wikipedia.org/wiki/Thailand\">Thailand</a>.",
+     "id": "2026-11-26-3bf38a4f51e5",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_26&action=history",
+      "title": "Portal:Current events/2026 November 26",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_26"
+     },
+     "sources": [
+      {
+       "name": "AP",
+       "url": "https://apnews.com/article/thailand-bangkok-explosion-oil-facility-e8098146bfb994dffc14448b1027c5d1"
+      }
+     ],
+     "topics": []
+    }
+   ],
+   "id": "2026-11-26-3bf38a4f51e5",
+   "more_articles": [],
+   "pub_date": "2026-11-26T00:00:00Z",
+   "title": "At least nine people are injured, including three critically, in an explosion and fire at an Bangchak Corporation oil facility in Bangkok, Thailand."
+  },
+  {
+   "article": {
+    "extract": "On 1 November 2025, a mass stabbing occurred aboard a London North Eastern Railway (LNER) train in England that had departed from Doncaster and was heading for London King's Cross. A man boarded the train at Peterborough railway station in Cambridgeshire at approximately 19:30 GMT, then began attacking passengers indiscriminately.",
+    "location": "LNER train between Peterborough and Huntingdon",
+    "title": "2025 Cambridgeshire train stabbing",
+    "url": "https://en.wikipedia.org/wiki/2025_Cambridgeshire_train_stabbing"
+   },
+   "categories": [
+    "Law and crime"
+   ],
+   "group": "2026-11-26-c0de8a01662d",
+   "headlines": [
+    {
+     "category": "Law and crime",
+     "html": "The <a href=\"https://en.wikipedia.org/wiki/Cambridge_Crown_Court\">Cambridge Crown Court</a> in the <a href=\"https://en.wikipedia.org/wiki/United_Kingdom\">United Kingdom</a> finds 32-year-old Anthony Williams guilty of the <a href=\"https://en.wikipedia.org/wiki/Attempted_murder\">attempted murders</a> of 14 people in three separate incidents, including the <a href=\"https://en.wikipedia.org/wiki/Mass_stabbing\">stabbing</a> of ten people on a <a href=\"https://en.wikipedia.org/wiki/London_North_Eastern_Railway\">LNER train</a> in November 2025.",
+     "id": "2026-11-26-c0de8a01662d",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_26&action=history",
+      "title": "Portal:Current events/2026 November 26",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_26"
+     },
+     "sources": [
+      {
+       "name": "AP",
+       "url": "https://apnews.com/article/britain-train-stabbings-williams-guilty-attempted-murder-4d8ae19ba73ed8b556417abd910812cf"
+      }
+     ],
+     "topics": [
+      {
+       "label": "2025 Cambridgeshire train stabbing",
+       "links": [
+        {
+         "label": "2025 Cambridgeshire train stabbing",
+         "url": "https://en.wikipedia.org/wiki/2025_Cambridgeshire_train_stabbing"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/2025_Cambridgeshire_train_stabbing"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-26-c0de8a01662d",
+   "more_articles": [],
+   "pub_date": "2026-11-26T00:00:00Z",
+   "title": "2025 Cambridgeshire train stabbing: The Cambridge Crown Court in the United Kingdom finds 32-year-old Anthony Williams guilty of the attempted murders of 14 people in three separate incidents, including the stabbing of ten people on a…"
+  },
+  {
+   "article": {
+    "extract": "On 25 November 2026, a fuel tanker carrying petroleum products and gas cylinders overturned on Ring Road in the El Warraq district of Giza Governorate, Egypt. The crash resulted in a massive fire which killed 180+ people and injured 26 others.",
+    "location": "Ring Road, Al Warraq, Giza Governorate, Egypt",
+    "title": "2026 Giza fuel tanker explosion",
+    "url": "https://en.wikipedia.org/wiki/2026_Giza_fuel_tanker_explosion"
+   },
+   "categories": [
+    "Law and crime"
+   ],
+   "group": "2026-11-26-41a251589d95",
+   "headlines": [
+    {
+     "category": "Law and crime",
+     "html": "<a href=\"https://en.wikipedia.org/wiki/Egypt\">Egyptian</a> prosecutors arrest a driver whose speeding car allegedly collided with a <a href=\"https://en.wikipedia.org/wiki/Tank_truck\">tank truck</a> on <a href=\"https://en.wikipedia.org/wiki/Cairo\">Cairo</a>'s <a href=\"https://en.wikipedia.org/wiki/Ring_Road_(Cairo)\">Ring Road</a> yesterday, causing a fire that killed 31 people and injured 21 others.",
+     "id": "2026-11-26-41a251589d95",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_26&action=history",
+      "title": "Portal:Current events/2026 November 26",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_26"
+     },
+     "sources": [
+      {
+       "name": "AFP",
+       "url": "https://www.afp.com/en/egypt-prosecutors-announce-arrest-man-over-deadly-truck-disaster"
+      }
+     ],
+     "topics": [
+      {
+       "label": "2026 Giza fuel tanker explosion",
+       "links": [
+        {
+         "label": "2026 Giza fuel tanker explosion",
+         "url": "https://en.wikipedia.org/wiki/2026_Giza_fuel_tanker_explosion"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/2026_Giza_fuel_tanker_explosion"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-26-41a251589d95",
+   "more_articles": [],
+   "pub_date": "2026-11-26T00:00:00Z",
+   "title": "2026 Giza fuel tanker explosion: Egyptian prosecutors arrest a driver whose speeding car allegedly collided with a tank truck on Cairo's Ring Road yesterday, causing a fire that killed 31 people and injured 21 others."
+  },
+  {
+   "article": {
+    "extract": "Presidential elections will be held in Serbia on 27 December 2026 to elect the president of Serbia. The election is being held early because Aleksandar Vučić resigned on 27 September 2026, before the end of his second term, to lead the list of the Serbian Progressive Party (SNS) as its candidate for prime minister in the snap parliamentary election of 25 October.",
+    "title": "2026 Serbian presidential election",
+    "url": "https://en.wikipedia.org/wiki/2026_Serbian_presidential_election"
+   },
+   "categories": [
+    "Politics and elections"
+   ],
+   "group": "2026-11-26-3634e0728067",
+   "headlines": [
+    {
+     "category": "Politics and elections",
+     "html": "The <a href=\"https://en.wikipedia.org/wiki/Serbia\">Serbian</a> <a href=\"https://en.wikipedia.org/wiki/National_Assembly_(Serbia)\">parliament</a> sets the upcoming <a href=\"https://en.wikipedia.org/wiki/President_of_Serbia\">presidential</a> election to December 27 after former president <a href=\"https://en.wikipedia.org/wiki/Aleksandar_Vu%C4%8Di%C4%87\">Aleksandar Vučić</a> resigned in September.",
+     "id": "2026-11-26-3634e0728067",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_26&action=history",
+      "title": "Portal:Current events/2026 November 26",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_26"
+     },
+     "sources": [
+      {
+       "name": "AP",
+       "url": "https://apnews.com/article/serbia-presidential-election-students-vucic-b069d30d098006f9d4ed21e6b82731c4"
+      }
+     ],
+     "topics": [
+      {
+       "label": "2026 Serbian presidential election",
+       "links": [
+        {
+         "label": "2026 Serbian presidential election",
+         "url": "https://en.wikipedia.org/wiki/2026_Serbian_presidential_election"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/2026_Serbian_presidential_election"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-26-3634e0728067",
+   "more_articles": [],
+   "pub_date": "2026-11-26T00:00:00Z",
+   "title": "2026 Serbian presidential election: The Serbian parliament sets the upcoming presidential election to December 27 after former president Aleksandar Vučić resigned in September."
+  },
+  {
+   "article": {
+    "extract": "A far-reaching anti-corruption campaign was launched in China following the conclusion of the 18th National Congress of the Chinese Communist Party (CCP) in 2012. Initiated by CCP general secretary Xi Jinping, the campaign became the most extensive and systematic anti-corruption effort in the history of CCP governance.",
+    "title": "Anti-corruption campaign under Xi Jinping",
+    "url": "https://en.wikipedia.org/wiki/Anti-corruption_campaign_under_Xi_Jinping"
+   },
+   "categories": [
+    "Politics and elections"
+   ],
+   "group": "2026-11-26-6eb4c225eb6a",
+   "headlines": [
+    {
+     "category": "Politics and elections",
+     "html": "At least 18 <a href=\"https://en.wikipedia.org/wiki/Golf_in_China\">golf courses</a> across <a href=\"https://en.wikipedia.org/wiki/China\">China</a> announce closures, including ten in <a href=\"https://en.wikipedia.org/wiki/Beijing\">Beijing</a>, with many citing <a href=\"https://en.wikipedia.org/wiki/State_Council_of_China\">government</a> orders following earlier restrictions on golf associated with <a href=\"https://en.wikipedia.org/wiki/Paramount_leader\">paramount leader</a> <a href=\"https://en.wikipedia.org/wiki/Xi_Jinping\">Xi Jinping</a>'s anti-<a href=\"https://en.wikipedia.org/wiki/Corruption_in_China\">corruption</a> campaign.",
+     "id": "2026-11-26-6eb4c225eb6a",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_26&action=history",
+      "title": "Portal:Current events/2026 November 26",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_26"
+     },
+     "sources": [
+      {
+       "name": "AFP via France 24",
+       "url": "https://www.france24.com/en/live-news/20261126-china-shuts-down-golf-courses-in-apparent-new-clampdown"
+      },
+      {
+       "name": "The Daily Telegraph",
+       "url": "https://www.telegraph.co.uk/world-news/2026/11/26/china-golf-courses-ccp-western-elites-xi-jinping-corruption/"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Anti-corruption campaign under Xi Jinping",
+       "links": [
+        {
+         "label": "Anti-corruption campaign under Xi Jinping",
+         "url": "https://en.wikipedia.org/wiki/Anti-corruption_campaign_under_Xi_Jinping"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Anti-corruption_campaign_under_Xi_Jinping"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-26-6eb4c225eb6a",
+   "image": {
+    "link": "https://www.france24.com/en/live-news/20261126-china-shuts-down-golf-courses-in-apparent-new-clampdown",
+    "source": "AFP via France 24",
+    "url": "https://s.france24.com/media/display/ef97e428-e989-11f1-8995-f9cf020caef6/w:1280/p:16x9/af56ca64cfb32dba7a7f25a0c32f86ea1883f28f.jpg"
+   },
+   "more_articles": [],
+   "pub_date": "2026-11-26T00:00:00Z",
+   "title": "Anti-corruption campaign under Xi Jinping: At least 18 golf courses across China announce closures, including ten in Beijing, with many citing government orders following earlier restrictions on golf associated with paramount leader Xi…"
+  },
+  {
+   "article": {
+    "extract": "General elections will be held in Guinea-Bissau in November 2028 to elect the president and members of the National People's Assembly. The date was set by the High Military Command for the Restoration of Order, which seized power in a coup d'état on 26 November 2025 that came before the release of the results of the 2025 Guinea-Bissau general election on 23 November, which was annulled.",
+    "title": "2028 Guinea-Bissau general election",
+    "url": "https://en.wikipedia.org/wiki/2028_Guinea-Bissau_general_election"
+   },
+   "categories": [
+    "Politics and elections"
+   ],
+   "group": "2026-11-26-40925f2fefa6",
+   "headlines": [
+    {
+     "category": "Politics and elections",
+     "html": "The <a href=\"https://en.wikipedia.org/wiki/Guinea-Bissau\">Bissau-Guinean</a> <a href=\"https://en.wikipedia.org/wiki/High_Military_Command_for_the_Restoration_of_National_Security_and_Public_Order\">military government</a> postpones <a href=\"https://en.wikipedia.org/wiki/President_of_Guinea-Bissau\">presidential</a> and <a href=\"https://en.wikipedia.org/wiki/National_People%27s_Assembly_(Guinea-Bissau)\">legislative</a> elections from December 2026 to November 2028, citing inadequate resources and logistical preparations, extending its transition to civilian rule following the <a href=\"https://en.wikipedia.org/wiki/2025_Guinea-Bissau_coup_d%27%C3%A9tat\">November 2025 coup</a>.",
+     "id": "2026-11-26-40925f2fefa6",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_26&action=history",
+      "title": "Portal:Current events/2026 November 26",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_26"
+     },
+     "sources": [
+      {
+       "name": "Reuters",
+       "url": "https://www.reuters.com/world/africa/guinea-bissau-delays-elections-extending-military-led-transition-year-after-coup-2026-11-26/"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Next Guinea-Bissau general election",
+       "links": [
+        {
+         "label": "Next Guinea-Bissau general election",
+         "url": "https://en.wikipedia.org/wiki/Next_Guinea-Bissau_general_election"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Next_Guinea-Bissau_general_election"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-26-40925f2fefa6",
+   "more_articles": [],
+   "pub_date": "2026-11-26T00:00:00Z",
+   "title": "Next Guinea-Bissau general election: The Bissau-Guinean military government postpones presidential and legislative elections from December 2026 to November 2028, citing inadequate resources and logistical preparations, extending its…"
+  },
+  {
+   "article": {
+    "extract": "The AI boom is a period of rapid growth in the field of artificial intelligence beginning in the mid-2010s and accelerating in the 2020s. Generative AI technologies include large language models (LLM), which generate text and code, image models, video models, and world models.",
+    "location": "Northern America; East Asia; Western Europe",
+    "title": "AI boom",
+    "url": "https://en.wikipedia.org/wiki/AI_boom"
+   },
+   "categories": [
+    "Science and technology"
+   ],
+   "group": "2026-11-26-b09dbf288344",
+   "headlines": [
+    {
+     "category": "Science and technology",
+     "html": "The <a href=\"https://en.wikipedia.org/wiki/United_States\">United States</a> <a href=\"https://en.wikipedia.org/wiki/Federal_Communications_Commission\">Federal Communications Commission</a> authorizes <a href=\"https://en.wikipedia.org/wiki/SpaceX\">SpaceX</a> to deploy up to one million satellites for its <a href=\"https://en.wikipedia.org/wiki/Starmind_(satellite)\">Starmind</a> <a href=\"https://en.wikipedia.org/wiki/Space-based_data_center\">space-based data center</a> network, despite concerns about <a href=\"https://en.wikipedia.org/wiki/Space_debris\">space debris</a> and interference with <a href=\"https://en.wikipedia.org/wiki/Astronomical_object\">astronomical objects</a>.",
+     "id": "2026-11-26-b09dbf288344",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_26&action=history",
+      "title": "Portal:Current events/2026 November 26",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_26"
+     },
+     "sources": [
+      {
+       "name": "AFP",
+       "url": "https://www.afp.com/en/us-clears-spacex-launch-1-mn-orbital-data-center-satellites"
+      }
+     ],
+     "topics": [
+      {
+       "label": "AI boom, Space policy of the United States",
+       "links": [
+        {
+         "label": "AI boom",
+         "url": "https://en.wikipedia.org/wiki/AI_boom"
+        },
+        {
+         "label": "Space policy of the United States",
+         "url": "https://en.wikipedia.org/wiki/Space_policy_of_the_United_States"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/AI_boom"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-26-b09dbf288344",
+   "more_articles": [
+    {
+     "extract": "The space policy of the United States includes the making of space policy through the legislative process and the implementation of that policy in the U.S. space programs, both civilian and military, through regulatory agencies. The early history of U.S. space policy is linked to the U.S.–Soviet Space Race of the 1960s, which gave way to the Space Shuttle program.",
+     "title": "Space policy of the United States",
+     "url": "https://en.wikipedia.org/wiki/Space_policy_of_the_United_States"
+    }
+   ],
+   "pub_date": "2026-11-26T00:00:00Z",
+   "title": "AI boom, Space policy of the United States: The United States Federal Communications Commission authorizes SpaceX to deploy up to one million satellites for its Starmind space-based data center network, despite concerns about space debris and…"
   },
   {
    "article": {
@@ -646,8 +1203,103 @@
    "title": "In association football, the Court of Arbitration for Sport restores Senegal as the winner of the 2025 Africa Cup of Nations final, overturning the Confederation of African Football's decision to…"
   },
   {
+   "article": null,
+   "categories": [
+    "Disasters and accidents"
+   ],
+   "group": "2026-11-25-281ccf4a4e8c",
+   "headlines": [
+    {
+     "category": "Disasters and accidents",
+     "html": "At least four people are killed, 14 people are injured, and 17 others remain trapped under rubble when a six-story building collapses in <a href=\"https://en.wikipedia.org/wiki/Karachi\">Karachi</a>, <a href=\"https://en.wikipedia.org/wiki/Sindh\">Sindh</a>, <a href=\"https://en.wikipedia.org/wiki/Pakistan\">Pakistan</a>.",
+     "id": "2026-11-25-281ccf4a4e8c",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
+      "title": "Portal:Current events/2026 November 25",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"
+     },
+     "sources": [
+      {
+       "name": "AP",
+       "url": "https://apnews.com/article/pakistan-construction-building-collapse-karachi-3b1555a055cfee2e3299edde37c821b9"
+      }
+     ],
+     "topics": []
+    }
+   ],
+   "id": "2026-11-25-281ccf4a4e8c",
+   "more_articles": [],
+   "pub_date": "2026-11-25T00:00:00Z",
+   "title": "At least four people are killed, 14 people are injured, and 17 others remain trapped under rubble when a six-story building collapses in Karachi, Sindh, Pakistan."
+  },
+  {
+   "article": null,
+   "categories": [
+    "Law and crime"
+   ],
+   "group": "2026-11-25-799a139a766b",
+   "headlines": [
+    {
+     "category": "Law and crime",
+     "html": "Beau Lamarre-Condon is found guilty of <a href=\"https://en.wikipedia.org/wiki/Murder_in_Australian_law\">murdering</a> <a href=\"https://en.wikipedia.org/wiki/Australia\">Australian</a> television presenter <a href=\"https://en.wikipedia.org/wiki/Jesse_Baird\">Jesse Baird</a> and his partner Luke Davies in 2024.",
+     "id": "2026-11-25-799a139a766b",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
+      "title": "Portal:Current events/2026 November 25",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"
+     },
+     "sources": [
+      {
+       "name": "The Guardian",
+       "url": "https://www.theguardian.com/australia-news/2026/nov/25/beau-lamarre-condon-trial-verdict-former-police-officer-jesse-baird-luke-davies-ntwnfb"
+      }
+     ],
+     "topics": []
+    }
+   ],
+   "id": "2026-11-25-799a139a766b",
+   "image": {
+    "link": "https://www.theguardian.com/australia-news/2026/nov/25/beau-lamarre-condon-trial-verdict-former-police-officer-jesse-baird-luke-davies-ntwnfb",
+    "source": "The Guardian",
+    "url": "https://i.guim.co.uk/img/media/ebfc885f7db8935002487a469a0f9baba836690e/262_168_2337_1870/master/2337.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e16d87a17e4dcb69a3b4e1cb03b120ce"
+   },
+   "more_articles": [],
+   "pub_date": "2026-11-25T00:00:00Z",
+   "title": "Beau Lamarre-Condon is found guilty of murdering Australian television presenter Jesse Baird and his partner Luke Davies in 2024."
+  },
+  {
+   "article": null,
+   "categories": [
+    "Law and crime"
+   ],
+   "group": "2026-11-25-d15c04b503f3",
+   "headlines": [
+    {
+     "category": "Law and crime",
+     "html": "A <a href=\"https://en.wikipedia.org/wiki/Magistrates%27_Court_(Kenya)\">magistrates' court</a> in <a href=\"https://en.wikipedia.org/wiki/Mombasa\">Mombasa</a>, <a href=\"https://en.wikipedia.org/wiki/Kenya\">Kenya</a>, finds jailed cult leader <a href=\"https://en.wikipedia.org/wiki/Paul_Mackenzie\">Paul Mackenzie</a>, founder of the <a href=\"https://en.wikipedia.org/wiki/Good_News_International_Ministries\">Good News International Church</a>, of <a href=\"https://en.wikipedia.org/wiki/Assault\">assault</a> and <a href=\"https://en.wikipedia.org/wiki/Child_abuse\">cruelty to children</a>, which will add to his existing sentence of 200 years in prison for <a href=\"https://en.wikipedia.org/wiki/Mass_murder\">mass murder</a>.",
+     "id": "2026-11-25-d15c04b503f3",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
+      "title": "Portal:Current events/2026 November 25",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"
+     },
+     "sources": [
+      {
+       "name": "AP",
+       "url": "https://apnews.com/article/kenya-cult-leader-paul-mackenzie-conviction-e4024cd1ff2e2ddce24b89ee0756b2c4"
+      }
+     ],
+     "topics": []
+    }
+   ],
+   "id": "2026-11-25-d15c04b503f3",
+   "more_articles": [],
+   "pub_date": "2026-11-25T00:00:00Z",
+   "title": "A magistrates' court in Mombasa, Kenya, finds jailed cult leader Paul Mackenzie, founder of the Good News International Church, of assault and cruelty to children, which will add to his existing…"
+  },
+  {
    "article": {
-    "extract": "On 25 November 2026, a fuel tanker carrying petroleum products and gas cylinders overturned on Ring Road in the El Warraq district of Giza Governorate, Egypt. The crash resulted in a massive fire which killed 31 people and injured 21 others.",
+    "extract": "On 25 November 2026, a fuel tanker carrying petroleum products and gas cylinders overturned on Ring Road in the El Warraq district of Giza Governorate, Egypt. The crash resulted in a massive fire which killed 180+ people and injured 26 others.",
     "location": "Ring Road, Al Warraq, Giza Governorate, Egypt",
     "title": "2026 Giza fuel tanker explosion",
     "url": "https://en.wikipedia.org/wiki/2026_Giza_fuel_tanker_explosion"
@@ -1567,7 +2219,7 @@
    "headlines": [
     {
      "category": "Armed conflicts and attacks",
-     "html": "Two <a href=\"https://en.wikipedia.org/wiki/Libyan_Navy\">Libyan naval officers</a> dies of their wounds sustained in the <a href=\"https://en.wikipedia.org/wiki/Ukraine\">Ukrainian</a> <a href=\"https://en.wikipedia.org/wiki/Unmanned_surface_vehicle\">naval</a> <a href=\"https://en.wikipedia.org/wiki/One-way_attack_drone\">drone</a> attack against the <a href=\"https://en.wikipedia.org/wiki/Russian_corvette_Merkury\">Russian corvette Merkury</a> in the <a href=\"https://en.wikipedia.org/wiki/Port_of_Benghazi\">Port of Benghazi</a>, two days ago. <a href=\"https://en.wikipedia.org/wiki/Libya\">Libya</a> announces it will respond.",
+     "html": "Two <a href=\"https://en.wikipedia.org/wiki/Libyan_Navy\">Libyan naval officers</a> die of their wounds sustained in the <a href=\"https://en.wikipedia.org/wiki/Ukraine\">Ukrainian</a> <a href=\"https://en.wikipedia.org/wiki/Unmanned_surface_vehicle\">naval</a> <a href=\"https://en.wikipedia.org/wiki/One-way_attack_drone\">drone</a> attack against the <a href=\"https://en.wikipedia.org/wiki/Russian_corvette_Merkury\">Russian corvette Merkury</a> in the <a href=\"https://en.wikipedia.org/wiki/Port_of_Benghazi\">Port of Benghazi</a>, two days ago. <a href=\"https://en.wikipedia.org/wiki/Libya\">Libya</a> announces it will respond.",
      "id": "2026-11-24-a1e17e3f784c",
      "page": {
       "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_24&action=history",
@@ -1623,7 +2275,7 @@
     }
    ],
    "pub_date": "2026-11-24T00:00:00Z",
-   "title": "Naval warfare in the Russo-Ukrainian war, Ukrainian attacks on the Russian shadow fleet: Two Libyan naval officers dies of their wounds sustained in the Ukrainian naval drone attack against the Russian corvette Merkury in the Port of Benghazi, two days ago."
+   "title": "Naval warfare in the Russo-Ukrainian war, Ukrainian attacks on the Russian shadow fleet: Two Libyan naval officers die of their wounds sustained in the Ukrainian naval drone attack against the Russian corvette Merkury in the Port of Benghazi, two days ago."
   },
   {
    "article": {
@@ -2303,7 +2955,7 @@
    "headlines": [
     {
      "category": "Disasters and accidents",
-     "html": "Nine people are killed and 17 more are missing as a river overflows in <a href=\"https://en.wikipedia.org/wiki/Bogor\">Bogor</a>, <a href=\"https://en.wikipedia.org/wiki/West_Java\">West Java</a>, <a href=\"https://en.wikipedia.org/wiki/Indonesia\">Indonesia</a>, hitting with <a href=\"https://en.wikipedia.org/wiki/Flood\">floods</a> an <a href=\"https://en.wikipedia.org/wiki/Illegal_mining\">illegal</a> <a href=\"https://en.wikipedia.org/wiki/Gold_mining\">gold mine</a>.",
+     "html": "Nine people are killed and 17 more are missing as a river overflows in <a href=\"https://en.wikipedia.org/wiki/Bogor\">Bogor</a>, <a href=\"https://en.wikipedia.org/wiki/West_Java\">West Java</a>, <a href=\"https://en.wikipedia.org/wiki/Indonesia\">Indonesia</a>, hitting an <a href=\"https://en.wikipedia.org/wiki/Illegal_mining\">illegal</a> <a href=\"https://en.wikipedia.org/wiki/Gold_mining\">gold mine</a> with <a href=\"https://en.wikipedia.org/wiki/Flood\">floods</a>.",
      "id": "2026-11-23-bd43d80dd27b",
      "page": {
       "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_23&action=history",
@@ -2322,7 +2974,7 @@
    "id": "2026-11-23-bd43d80dd27b",
    "more_articles": [],
    "pub_date": "2026-11-23T00:00:00Z",
-   "title": "Nine people are killed and 17 more are missing as a river overflows in Bogor, West Java, Indonesia, hitting with floods an illegal gold mine."
+   "title": "Nine people are killed and 17 more are missing as a river overflows in Bogor, West Java, Indonesia, hitting an illegal gold mine with floods."
   },
   {
    "article": {
@@ -2384,7 +3036,7 @@
    "headlines": [
     {
      "category": "Armed conflicts and attacks",
-     "html": "Five people are killed and six others are injured during classe between <a href=\"https://en.wikipedia.org/wiki/Farmer%E2%80%93herder_conflict\">farmers and herders</a> in <a href=\"https://en.wikipedia.org/wiki/East_Darfur\">East Darfur</a>, <a href=\"https://en.wikipedia.org/wiki/Sudan\">Sudan</a>.",
+     "html": "Five people are killed and six others are injured during clashes between <a href=\"https://en.wikipedia.org/wiki/Farmer%E2%80%93herder_conflict\">farmers and herders</a> in <a href=\"https://en.wikipedia.org/wiki/East_Darfur\">East Darfur</a>, <a href=\"https://en.wikipedia.org/wiki/Sudan\">Sudan</a>.",
      "id": "2026-11-23-8a2a72f20189",
      "page": {
       "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_23&action=history",
@@ -2419,7 +3071,7 @@
    },
    "more_articles": [],
    "pub_date": "2026-11-23T00:00:00Z",
-   "title": "Sudanese nomadic conflicts: Five people are killed and six others are injured during classe between farmers and herders in East Darfur, Sudan."
+   "title": "Sudanese nomadic conflicts: Five people are killed and six others are injured during clashes between farmers and herders in East Darfur, Sudan."
   },
   {
    "article": null,
@@ -30933,5 +31585,5 @@
    "title": "2026 U.S. Open Cup final: In association football, St. Louis City SC defeats Columbus Crew in a penalty shoot-out to win the U.S. Open Cup, earning the club its first trophy since beginning play in 2023."
   }
  ],
- "updated": "2026-11-26T17:01:50Z"
+ "updated": "2026-11-27T01:47:24Z"
 }
