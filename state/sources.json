@@ -3004,6 +3004,15 @@
     "title": "Anthropic IPO raises over $81 billion in largest offering on record, topping SpaceX"
    }
   },
+  "https://www.cnbc.com/2026/11/27/norse-atlantic-bankruptcy-fuel-costs.html": {
+   "checked": "2026-11-27T16:46:58Z",
+   "preview": {
+    "description": "Budget carrier Norse Atlantic filed for bankruptcy Friday, saying it failed to secure funding after soaring fuel costs strained the company's operations.",
+    "image": "https://image.cnbcfm.com/api/v1/image/108559107-1795599475604-gettyimages-1636812756-230831b6_lax_planes_b-gr_13.jpeg?v=1795599522&w=1920&h=1080",
+    "site": "CNBC",
+    "title": "Budget airline Norse Atlantic files for bankruptcy in Europe after failing to secure funding"
+   }
+  },
   "https://www.cnn.com/2026/10/23/middleeast/church-shooting-jordan-intl": {
    "checked": "2026-11-21T23:26:18Z",
    "preview": {
@@ -3968,6 +3977,11 @@
     "site": "France 24",
     "title": "China shuts down golf courses in apparent new clampdown"
    }
+  },
+  "https://www.france24.com/en/live-news/20261127-majestic-malinin-breaks-short-programme-world-record": {
+   "checked": "2026-11-27T16:46:58Z",
+   "error": "HTTP 403",
+   "fails": 1
   },
   "https://www.france24.com/en/middle-east/20261026-iran-talks-mecca-pact-nations-war": {
    "checked": "2026-11-21T14:45:33Z",
