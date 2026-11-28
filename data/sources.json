@@ -571,6 +571,11 @@
    "image": "https://live-production.wcms.abc-cdn.net.au/3d968c962fe502b1ec9dfc0fb6408032?impolicy=wcms_watermark_news&cropH=900&cropW=1600&xPos=0&yPos=1&width=862&height=485&imformat=generic",
    "title": "Government moves to close legal loophole after AI Medicare hack"
   },
+  "https://www.abc.net.au/news/2026-11-28/jess-wilson-victorian-liberals-form-government-state-election/107438320": {
+   "description": "Liberal leader Jess Wilson will become Victoria's first popularly elected female premier as the Coalition dislodges Labor from state government after 12 years. In her first speech, the 36-year-old promises to govern for all Victorians and immediately begin work to take the state in a fresh direction.",
+   "image": "https://live-production.wcms.abc-cdn.net.au/665aba88ba07e2f414029979af3a12b7?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485&imformat=generic",
+   "title": "Jess Wilson vows to bring back hope after election win"
+  },
   "https://www.abc.net.au/news/2026-11-28/victorian-election-live-updates-voting-results-seat-count/107418038": {
    "description": "Victorians head to the polls today to decide who will lead Australia's second most populous state for the next four years. Follow live.",
    "image": "https://live-production.wcms.abc-cdn.net.au/be1044bf8eba490397d008c7c1feb258?impolicy=wcms_watermark_news&cropH=887&cropW=1577&xPos=0&yPos=0&width=862&height=485&imformat=generic",
@@ -987,6 +992,12 @@
    "site": "AOL.com",
    "title": "Russia fires cruise missile into Poland during British troop drills - AOL"
   },
+  "https://www.aol.com/articles/france-falls-recession-143511000.html": {
+   "description": "France has been plunged into recession amid spiralling borrowing costs and political paralysis.",
+   "image": "https://hermes.media.static.aol.com/media/2026/11/27/9c484a73-77f9-34f8-901b-40e3808945e0/66de5015-e112-4070-916b-295267c5545c.jpeg",
+   "site": "AOL.com",
+   "title": "France falls into recession - AOL"
+  },
   "https://www.arabnews.com/middle-east/iran-says-supertanker-with-2-million-barrels-of-oil-sank-in-gulf-3012053": {
    "description": "Two tankers caught fire in the Strait of Hormuz after apparently hitting naval mines, according to Iran’s Revolutionary Guards Navy. The report has not been independently verified by Reuters.",
    "image": "https://assets.maestronewsroom.com/media/shared/wires/ap/20261114/2065e72e9f81-Iran_Strait_of_Hormuz_92767--191de.jpg",
@@ -1110,6 +1121,11 @@
    "description": "The attack on the unidentified victim follows a wave of anti-migrants protests in South Africa this year.",
    "image": "https://ichef.bbci.co.uk/news/1024/branded_news/fe24/live/7227bf90-ce27-11f1-9f18-490cec60aa0f.png",
    "title": "Durban attack: Crowd of 50 beats foreigner to death in South Africa"
+  },
+  "https://www.bbc.com/news/articles/ckp80jyz6dl8o": {
+   "description": "A spokesman for Afghanistan's interior ministry says the blast was caused by carelessness at an explosives depot nearby.",
+   "image": "https://ichef.bbci.co.uk/news/1024/branded_news/2bd9/live/19b5f490-eb1d-11f1-8743-3f686b14075c.jpg",
+   "title": "Afghanistan explosion kills 10 students and injures more than 100, official says"
   },
   "https://www.bbc.com/news/articles/ckx27v6dpjz0o": {
    "description": "Russia said Ukraine had launched over 2,000 drones over the course of a day, while Kyiv came under a record 17 air raid alerts.",
@@ -2503,6 +2519,12 @@
    "image": "https://www.tbsnews.net/sites/default/files/styles/social_share/public/images/2026/11/23/screenshot_2026-11-23_234723.png",
    "site": "The Business Standard",
    "title": "At least 20 injured in clash between two AL factions in Gopalganj"
+  },
+  "https://www.tbsnews.net/bangladesh/least-5-injured-clashes-between-banned-al-bnp-activists-kalkini-over-50-crude-bombs": {
+   "description": "The clashes broke out after 8pm in the Thengamara area of Ward 2 of Kalkini municipality.",
+   "image": "https://www.tbsnews.net/sites/default/files/styles/social_share/public/images/2026/11/28/kalkini_bnp_al.jpg",
+   "site": "The Business Standard",
+   "title": "At least 5 injured in clashes between banned AL, BNP activists in Madaripur as over 50 crude bombs exploded"
   },
   "https://www.tbsnews.net/bangladesh/police-garment-workers-clash-kafrul-over-alleged-harassment-female-workers-1606131": {
    "description": "Police personnel from Kafrul Police Station rushed to the scene and attempted to bring the situation under control. At one point, police fired around 10 sound grenades.",

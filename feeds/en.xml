@@ -6,15 +6,30 @@
     <description>News items from Wikipedia's Portal:Current events, one item per entry of the daily pages. Text from Wikipedia contributors, licensed under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). (history: https://en.wikipedia.org/w/index.php?title=Portal:Current_events&amp;action=history)</description>
     <language>en</language>
     <copyright>Text from Wikipedia contributors, licensed under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).</copyright>
-    <lastBuildDate>Sat, 28 Nov 2026 01:29:16 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 15:39:14 GMT</lastBuildDate>
     <generator>wikipedia-noticias-rss</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
     <atom:link href="https://aeonfr.github.io/wikinews-rss/feeds/en.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>2026 Victorian state election: Victorians vote to elect 88 seats of the Legislative Assembly and 40 seats of the Legislative Council.</title>
+      <title>Explosives belonging to mining companies explode at a depot in Asadabad, Afghanistan, killing ten students and wounding 110 more people at a nearby school.</title>
+      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-28-e81018400c74/</link>
+      <description>&lt;p&gt;&lt;a href="https://www.bbc.com/news/articles/ckp80jyz6dl8o"&gt;&lt;img src="https://ichef.bbci.co.uk/news/1024/branded_news/2bd9/live/19b5f490-eb1d-11f1-8743-3f686b14075c.jpg" alt=""&gt;&lt;/a&gt;&lt;br&gt;&lt;small&gt;Image: BBC News&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;Explosives belonging to &lt;a href="https://en.wikipedia.org/wiki/Mining"&gt;mining&lt;/a&gt; companies explode at a depot in &lt;a href="https://en.wikipedia.org/wiki/Asadabad,_Afghanistan"&gt;Asadabad&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Afghanistan"&gt;Afghanistan&lt;/a&gt;, killing ten students and wounding 110 more people at a nearby school.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.bbc.com/news/articles/ckp80jyz6dl8o"&gt;BBC News&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_28"&gt;Portal:Current events/2026 November 28&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_28&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-28:e81018400c74</guid>
+      <pubDate>Sat, 28 Nov 2026 15:39:14 GMT</pubDate>
+      <category>Disasters and accidents</category>
+      <media:content url="https://ichef.bbci.co.uk/news/1024/branded_news/2bd9/live/19b5f490-eb1d-11f1-8743-3f686b14075c.jpg" medium="image" />
+    </item>
+    <item>
+      <title>2026 Victorian state election: Premier and Labor leader Ben Carroll concedes defeat to Liberal leader Jess Wilson, with preliminary results suggesting a significant decline in the Labor vote. / Residents of the Australian state of Victoria vote to elect 88 seats of the Legislative Assembly and 40 seats of the Legislative Council.</title>
       <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-28-bdeeb3d51c20/</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Victoria_(state)"&gt;Victorians&lt;/a&gt; vote to elect 88 seats of the &lt;a href="https://en.wikipedia.org/wiki/Victorian_Legislative_Assembly"&gt;Legislative Assembly&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/2026_Victorian_Legislative_Council_election"&gt;40 seats&lt;/a&gt; of the &lt;a href="https://en.wikipedia.org/wiki/Victorian_Legislative_Council"&gt;Legislative Council&lt;/a&gt;. Incumbent &lt;a href="https://en.wikipedia.org/wiki/Premier_of_Victoria"&gt;premier&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Ben_Carroll"&gt;Ben Carroll&lt;/a&gt; seeks to win a fourth consecutive &lt;a href="https://en.wikipedia.org/wiki/Victorian_Labor_Party"&gt;Labor&lt;/a&gt; government over the &lt;a href="https://en.wikipedia.org/wiki/Liberal%E2%80%93National_Coalition_(Victoria)"&gt;Liberal–National Coalition&lt;/a&gt;, led by &lt;a href="https://en.wikipedia.org/wiki/Leader_of_the_Opposition_(Victoria)"&gt;opposition&lt;/a&gt; leader &lt;a href="https://en.wikipedia.org/wiki/Jess_Wilson"&gt;Jess Wilson&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href="https://www.abc.net.au/news/2026-11-28/jess-wilson-victorian-liberals-form-government-state-election/107438320"&gt;&lt;img src="https://live-production.wcms.abc-cdn.net.au/665aba88ba07e2f414029979af3a12b7?impolicy=wcms_watermark_news&amp;amp;cropH=2813&amp;amp;cropW=5000&amp;amp;xPos=0&amp;amp;yPos=260&amp;amp;width=862&amp;amp;height=485&amp;amp;imformat=generic" alt=""&gt;&lt;/a&gt;&lt;br&gt;&lt;small&gt;Image: ABC News Australia&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Premier_of_Victoria"&gt;Premier&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Victorian_Labor_Party"&gt;Labor&lt;/a&gt; leader &lt;a href="https://en.wikipedia.org/wiki/Ben_Carroll"&gt;Ben Carroll&lt;/a&gt; concedes defeat to &lt;a href="https://en.wikipedia.org/wiki/Victorian_Liberal_Party"&gt;Liberal&lt;/a&gt; leader &lt;a href="https://en.wikipedia.org/wiki/Jess_Wilson"&gt;Jess Wilson&lt;/a&gt;, with preliminary results suggesting a significant decline in the Labor vote. Wilson is set to become the first millennial to lead Victoria, and the first woman to do so by winning a general election.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.abc.net.au/news/2026-11-28/jess-wilson-victorian-liberals-form-government-state-election/107438320"&gt;ABC News Australia&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Residents of the &lt;a href="https://en.wikipedia.org/wiki/Australia"&gt;Australian&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/States_and_territories_of_Australia"&gt;state&lt;/a&gt; of &lt;a href="https://en.wikipedia.org/wiki/Victoria_(state)"&gt;Victoria&lt;/a&gt; vote to elect 88 seats of the &lt;a href="https://en.wikipedia.org/wiki/Victorian_Legislative_Assembly"&gt;Legislative Assembly&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/2026_Victorian_Legislative_Council_election"&gt;40 seats&lt;/a&gt; of the &lt;a href="https://en.wikipedia.org/wiki/Victorian_Legislative_Council"&gt;Legislative Council&lt;/a&gt;. Incumbent &lt;a href="https://en.wikipedia.org/wiki/Premier_of_Victoria"&gt;premier&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Ben_Carroll"&gt;Ben Carroll&lt;/a&gt; seeks to win a fourth consecutive &lt;a href="https://en.wikipedia.org/wiki/Victorian_Labor_Party"&gt;Labor&lt;/a&gt; government over the &lt;a href="https://en.wikipedia.org/wiki/Liberal%E2%80%93National_Coalition_(Victoria)"&gt;Liberal–National Coalition&lt;/a&gt;, led by &lt;a href="https://en.wikipedia.org/wiki/Leader_of_the_Opposition_(Victoria)"&gt;opposition&lt;/a&gt; leader &lt;a href="https://en.wikipedia.org/wiki/Jess_Wilson"&gt;Jess Wilson&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Sources: &lt;a href="https://www.abc.net.au/news/2026-11-28/victorian-election-live-updates-voting-results-seat-count/107418038"&gt;ABC News Australia&lt;/a&gt;, &lt;a href="https://www.theguardian.com/australia-news/2026/nov/28/victorian-election-2026-when-is-it-how-to-vote-date-where-victoria-state-polls-candidates-voting-near-count-ntwnfb"&gt;The Guardian&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Victorian_state_election"&gt;2026 Victorian state election&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_28"&gt;Portal:Current events/2026 November 28&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_28&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
@@ -22,6 +37,7 @@
       <pubDate>Sat, 28 Nov 2026 01:29:16 GMT</pubDate>
       <category>Politics and elections</category>
       <category>2026 Victorian state election</category>
+      <media:content url="https://live-production.wcms.abc-cdn.net.au/665aba88ba07e2f414029979af3a12b7?impolicy=wcms_watermark_news&amp;cropH=2813&amp;cropW=5000&amp;xPos=0&amp;yPos=260&amp;width=862&amp;height=485&amp;imformat=generic" medium="image" />
     </item>
     <item>
       <title>2026 Iran war fuel crisis: Norwegian low-cost carrier Norse Atlantic Airways announces that its Norwegian operating subsidiary filed for bankruptcy after failing to secure short-term funding amid rising fuel costs, cancelling…</title>
@@ -60,9 +76,24 @@
       <category>2026 New Zealand general election</category>
     </item>
     <item>
-      <title>Aftermath of the July Uprising: At least 20 people are injured, several with spear wounds, in an armed clash between the Bangladesh Nationalist Party and the Awami League over local dominance and control of brick kilns in Fatullah…</title>
+      <title>France's economy is contracted for two consecutive quarters and enters into a recession.</title>
+      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-27-c0e51020dc82/</link>
+      <description>&lt;p&gt;&lt;a href="https://www.aol.com/articles/france-falls-recession-143511000.html"&gt;&lt;img src="https://hermes.media.static.aol.com/media/2026/11/27/9c484a73-77f9-34f8-901b-40e3808945e0/66de5015-e112-4070-916b-295267c5545c.jpeg" alt=""&gt;&lt;/a&gt;&lt;br&gt;&lt;small&gt;Image: AOL&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/France"&gt;France&lt;/a&gt;'s &lt;a href="https://en.wikipedia.org/wiki/Economy_of_France"&gt;economy&lt;/a&gt; is &lt;a href="https://en.wikipedia.org/wiki/Economic_collapse"&gt;contracted&lt;/a&gt; for two consecutive quarters and enters into a &lt;a href="https://en.wikipedia.org/wiki/Recession"&gt;recession&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.aol.com/articles/france-falls-recession-143511000.html"&gt;AOL&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_27"&gt;Portal:Current events/2026 November 27&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_27&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-27:c0e51020dc82</guid>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Business and economy</category>
+      <media:content url="https://hermes.media.static.aol.com/media/2026/11/27/9c484a73-77f9-34f8-901b-40e3808945e0/66de5015-e112-4070-916b-295267c5545c.jpeg" medium="image" />
+    </item>
+    <item>
+      <title>Aftermath of the July Uprising: At least five people are injured in clashes between the Awami League and the Bangladesh Nationalist Party in Kalkini Upazila, Madaripur District, Bangladesh, during which more than 50 crude bombs are… / At least 20 people are injured, several with spear wounds, in an armed clash between the Bangladesh Nationalist Party and the Awami League over local dominance and control of brick kilns in Fatullah…</title>
       <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-27-7b865a1c5566/</link>
-      <description>&lt;p&gt;At least 20 people are injured, several with &lt;a href="https://en.wikipedia.org/wiki/Spear"&gt;spear&lt;/a&gt; wounds, in an armed clash between the &lt;a href="https://en.wikipedia.org/wiki/Bangladesh_Nationalist_Party"&gt;Bangladesh Nationalist Party&lt;/a&gt; and the &lt;a href="https://en.wikipedia.org/wiki/Awami_League"&gt;Awami League&lt;/a&gt; over local dominance and control of &lt;a href="https://en.wikipedia.org/wiki/Brickworks"&gt;brick kilns&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Fatullah"&gt;Fatullah&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Narayanganj_District"&gt;Narayanganj District&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Bangladesh"&gt;Bangladesh&lt;/a&gt;, with &lt;a href="https://en.wikipedia.org/wiki/Bangladesh_Police"&gt;police&lt;/a&gt; firing &lt;a href="https://en.wikipedia.org/wiki/Rubber_bullet"&gt;rubber bullets&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Tear_gas"&gt;tear gas&lt;/a&gt; to disperse them.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href="https://www.tbsnews.net/bangladesh/least-5-injured-clashes-between-banned-al-bnp-activists-kalkini-over-50-crude-bombs"&gt;&lt;img src="https://www.tbsnews.net/sites/default/files/styles/social_share/public/images/2026/11/28/kalkini_bnp_al.jpg" alt=""&gt;&lt;/a&gt;&lt;br&gt;&lt;small&gt;Image: The Business Standard&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;At least five people are injured in clashes between the &lt;a href="https://en.wikipedia.org/wiki/Awami_League"&gt;Awami League&lt;/a&gt; and the &lt;a href="https://en.wikipedia.org/wiki/Bangladesh_Nationalist_Party"&gt;Bangladesh Nationalist Party&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Kalkini_Upazila"&gt;Kalkini Upazila&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Madaripur_District"&gt;Madaripur District&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Bangladesh"&gt;Bangladesh&lt;/a&gt;, during which more than 50 &lt;a href="https://en.wikipedia.org/wiki/Improvised_explosive_device"&gt;crude bombs&lt;/a&gt; are detonated.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.tbsnews.net/bangladesh/least-5-injured-clashes-between-banned-al-bnp-activists-kalkini-over-50-crude-bombs"&gt;The Business Standard&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;At least 20 people are injured, several with &lt;a href="https://en.wikipedia.org/wiki/Spear"&gt;spear&lt;/a&gt; wounds, in an armed clash between the &lt;a href="https://en.wikipedia.org/wiki/Bangladesh_Nationalist_Party"&gt;Bangladesh Nationalist Party&lt;/a&gt; and the &lt;a href="https://en.wikipedia.org/wiki/Awami_League"&gt;Awami League&lt;/a&gt; over local dominance and control of &lt;a href="https://en.wikipedia.org/wiki/Brickworks"&gt;brick kilns&lt;/a&gt; in &lt;a href="https://en.wikipedia.org/wiki/Fatullah"&gt;Fatullah&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Narayanganj_District"&gt;Narayanganj District&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Bangladesh"&gt;Bangladesh&lt;/a&gt;, with &lt;a href="https://en.wikipedia.org/wiki/Bangladesh_Police"&gt;police&lt;/a&gt; firing &lt;a href="https://en.wikipedia.org/wiki/Rubber_bullet"&gt;rubber bullets&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Tear_gas"&gt;tear gas&lt;/a&gt; to disperse them.&lt;/p&gt;
 &lt;p&gt;Sources: &lt;a href="https://www.thedailystar.net/news/crime-justice/news/20-injured-fresh-clash-over-local-dominance-brick-kiln-business-narayanganj-4334601"&gt;The Daily Star&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"&gt;Aftermath of the July Uprising&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_27"&gt;Portal:Current events/2026 November 27&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_27&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
@@ -70,6 +101,7 @@
       <pubDate>Fri, 27 Nov 2026 00:00:00 GMT</pubDate>
       <category>Armed conflicts and attacks</category>
       <category>Aftermath of the July Uprising</category>
+      <media:content url="https://www.tbsnews.net/sites/default/files/styles/social_share/public/images/2026/11/28/kalkini_bnp_al.jpg" medium="image" />
     </item>
     <item>
       <title>Indonesia's National Search and Rescue Agency terminates the search for 14 missing miners after flooding at an unauthorized gold mine in Bogor Regency, West Java, killed 13 people, citing risks of…</title>
@@ -84,7 +116,7 @@
     <item>
       <title>Mexico–United States relations, Mexican drug war: The Mexican government files a formal complaint with the United States regarding the anonymous tip lines set up by the Drug Enforcement Administration to receive information about members of…</title>
       <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-27-ede372e8ff00/</link>
-      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Federal_government_of_Mexico"&gt;Mexican government&lt;/a&gt; files a formal complaint with the United States regarding the anonymous tip lines set up by the &lt;a href="https://en.wikipedia.org/wiki/Drug_Enforcement_Administration"&gt;Drug Enforcement Administration&lt;/a&gt; to receive information about members of &lt;a href="https://en.wikipedia.org/wiki/Crime_in_Mexico"&gt;organized crime&lt;/a&gt; and officials allegedly linked to them.&lt;/p&gt;
+      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Federal_government_of_Mexico"&gt;Mexican government&lt;/a&gt; files a formal complaint with the &lt;a href="https://en.wikipedia.org/wiki/United_States"&gt;United States&lt;/a&gt; regarding the anonymous tip lines set up by the &lt;a href="https://en.wikipedia.org/wiki/Drug_Enforcement_Administration"&gt;Drug Enforcement Administration&lt;/a&gt; to receive information about members of &lt;a href="https://en.wikipedia.org/wiki/Crime_in_Mexico"&gt;organized crime&lt;/a&gt; and officials allegedly linked to them.&lt;/p&gt;
 &lt;p&gt;Sources: &lt;a href="https://www.reuters.com/world/americas/mexico-files-complaint-with-us-over-dea-tip-line-alleged-drug-traffickers-2026-11-27/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Mexico%E2%80%93United_States_relations"&gt;Mexico–United States relations&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Mexican_drug_war"&gt;Mexican drug war&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_27"&gt;Portal:Current events/2026 November 27&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_27&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
@@ -173,7 +205,7 @@
       <title>Colombian conflict: A drone strike against a police station in Condoto, Chocó Department, leaves one officer killed and two more wounded, marking the second drone attack in an urban area in the last week.</title>
       <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-26-ef9f97178050/</link>
       <description>&lt;p&gt;A &lt;a href="https://en.wikipedia.org/wiki/Drone_warfare"&gt;drone strike&lt;/a&gt; against a police station in &lt;a href="https://en.wikipedia.org/wiki/Condoto"&gt;Condoto&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Choc%C3%B3_Department"&gt;Chocó Department&lt;/a&gt;, leaves one officer killed and two more wounded, marking the second drone attack in an urban area in the last week.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://cambiocolombia.com/conflicto-armado-en-colombia/articulo/2026/11/ataque-con-dron-en-condoto-choco-dejo-un-policia-muerto-y-dos-heridos-de-la-espriella-ordeno-perseguir-a-los-responsables"&gt;Cambio Colombia&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://cambiocolombia.com/conflicto-armado-en-colombia/articulo/2026/11/ataque-con-dron-en-condoto-choco-dejo-un-policia-muerto-y-dos-heridos-de-la-espriella-ordeno-perseguir-a-los-responsables"&gt;Cambio Colombia in Spanish&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Colombian_conflict"&gt;Colombian conflict&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_26"&gt;Portal:Current events/2026 November 26&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_26&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:en:2026-11-26:ef9f97178050</guid>
@@ -279,9 +311,9 @@
       <category>2026 Giza fuel tanker explosion</category>
     </item>
     <item>
-      <title>2026 Serbian presidential election: The Serbian parliament sets the upcoming presidential election to December 27 after former president Aleksandar Vučić resigned in September.</title>
+      <title>2026 Serbian presidential election: The Serbian parliament schedules the upcoming presidential election for December 27 after former president Aleksandar Vučić resigned in September.</title>
       <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-26-3634e0728067/</link>
-      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Serbia"&gt;Serbian&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/National_Assembly_(Serbia)"&gt;parliament&lt;/a&gt; sets the upcoming &lt;a href="https://en.wikipedia.org/wiki/President_of_Serbia"&gt;presidential&lt;/a&gt; election to December 27 after former president &lt;a href="https://en.wikipedia.org/wiki/Aleksandar_Vu%C4%8Di%C4%87"&gt;Aleksandar Vučić&lt;/a&gt; resigned in September.&lt;/p&gt;
+      <description>&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Serbia"&gt;Serbian&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/National_Assembly_(Serbia)"&gt;parliament&lt;/a&gt; schedules the upcoming &lt;a href="https://en.wikipedia.org/wiki/President_of_Serbia"&gt;presidential&lt;/a&gt; election for December 27 after former president &lt;a href="https://en.wikipedia.org/wiki/Aleksandar_Vu%C4%8Di%C4%87"&gt;Aleksandar Vučić&lt;/a&gt; resigned in September.&lt;/p&gt;
 &lt;p&gt;Sources: &lt;a href="https://apnews.com/article/serbia-presidential-election-students-vucic-b069d30d098006f9d4ed21e6b82731c4"&gt;AP&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/2026_Serbian_presidential_election"&gt;2026 Serbian presidential election&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_26"&gt;Portal:Current events/2026 November 26&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_26&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
@@ -329,7 +361,7 @@
     <item>
       <title>Gaza war: A Hamas security official, his wife, and two daughters, are killed in an Israeli airstrike on the Al-Shati refugee camp near Gaza City.</title>
       <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-25-e3445be79189/</link>
-      <description>&lt;p&gt;A &lt;a href="https://en.wikipedia.org/wiki/Hamas"&gt;Hamas&lt;/a&gt; security official, his wife, and two daughters, are killed in an &lt;a href="https://en.wikipedia.org/wiki/Israel"&gt;Israeli&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Airstrike"&gt;airstrike&lt;/a&gt; on the &lt;a href="https://en.wikipedia.org/wiki/Al-Shati_refugee_camp"&gt;Al-Shati refugee camp&lt;/a&gt; near &lt;a href="https://en.wikipedia.org/wiki/Gaza_City"&gt;Gaza City&lt;/a&gt;. Seven more &lt;a href="https://en.wikipedia.org/wiki/Palestinians"&gt;Palestinians&lt;/a&gt; are also killed and several injured in more Israeli airstrikes.&lt;/p&gt;
+      <description>&lt;p&gt;A &lt;a href="https://en.wikipedia.org/wiki/Hamas"&gt;Hamas&lt;/a&gt; security official, his wife, and two daughters, are killed in an &lt;a href="https://en.wikipedia.org/wiki/Israel"&gt;Israeli&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Airstrike"&gt;airstrike&lt;/a&gt; on the &lt;a href="https://en.wikipedia.org/wiki/Al-Shati_refugee_camp"&gt;Al-Shati refugee camp&lt;/a&gt; near &lt;a href="https://en.wikipedia.org/wiki/Gaza_City"&gt;Gaza City&lt;/a&gt;. Seven more &lt;a href="https://en.wikipedia.org/wiki/Palestinians"&gt;Palestinians&lt;/a&gt; are also killed and several injured in other Israeli airstrikes.&lt;/p&gt;
 &lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/11/25/israeli-strike-kills-hamas-official-his-wife-and-children"&gt;Al Jazeera&lt;/a&gt;, &lt;a href="https://aje.news/0x4p9q?update=5187000"&gt;Al Jazeera 2&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)"&gt;Middle Eastern crisis&lt;/a&gt; › &lt;a href="https://en.wikipedia.org/wiki/Gaza_war"&gt;Gaza war&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"&gt;Portal:Current events/2026 November 25&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
@@ -400,28 +432,40 @@
       <category>Topics in the news</category>
     </item>
     <item>
-      <title>Mexican drug war: An operation against a CJNG ringleader left seven gunmen killed and four detained in Jilotlán de los Dolores, Jalisco, México.</title>
-      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-25-1f8b9968522f/</link>
-      <description>&lt;p&gt;An operation against a &lt;a href="https://en.wikipedia.org/wiki/CJNG"&gt;CJNG&lt;/a&gt; ringleader left seven gunmen killed and four detained in &lt;a href="https://en.wikipedia.org/wiki/Jilotl%C3%A1n_de_los_Dolores"&gt;Jilotlán de los Dolores&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Jalisco"&gt;Jalisco&lt;/a&gt;, México.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.proceso.com.mx/nacional/estados/2026/11/25/operativo-en-jilotlan-jalisco-deja-siete-muertos-y-cuatro-detenidos-384350.html"&gt;Revista Proceso&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Mexican_drug_war"&gt;Mexican drug war&lt;/a&gt;&lt;/p&gt;
+      <title>Jensen Huang scandal, Chinese intelligence activity abroad, Artificial intelligence industry in China: American chipmaker Nvidia directs its manufacturing partners to pause shipments of servers containing its chips to Indonesia, Malaysia, Singapore, and Thailand, following increased U.S. export…</title>
+      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-25-54b0609d9398/</link>
+      <description>&lt;p&gt;American &lt;a href="https://en.wikipedia.org/wiki/Semiconductor_industry"&gt;chipmaker&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Nvidia"&gt;Nvidia&lt;/a&gt; directs its manufacturing partners to pause shipments of &lt;a href="https://en.wikipedia.org/wiki/Nvidia_DGX"&gt;servers&lt;/a&gt; containing its &lt;a href="https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units"&gt;chips&lt;/a&gt; to &lt;a href="https://en.wikipedia.org/wiki/Indonesia"&gt;Indonesia&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Malaysia"&gt;Malaysia&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Singapore"&gt;Singapore&lt;/a&gt;, and &lt;a href="https://en.wikipedia.org/wiki/Thailand"&gt;Thailand&lt;/a&gt;, following increased U.S. &lt;a href="https://en.wikipedia.org/wiki/Export_control"&gt;export control&lt;/a&gt; aimed at preventing &lt;a href="https://en.wikipedia.org/wiki/China"&gt;China&lt;/a&gt; from accessing advanced &lt;a href="https://en.wikipedia.org/wiki/AI"&gt;AI&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Hardware_for_artificial_intelligence"&gt;hardware&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.ft.com/content/7838a715-07d4-4605-aa60-21f5af2b2370?syn-25a6b1a6=1"&gt;Financial Times&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Jensen_Huang_scandal"&gt;Jensen Huang scandal&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Chinese_intelligence_activity_abroad"&gt;Chinese intelligence activity abroad&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Artificial_intelligence_industry_in_China"&gt;Artificial intelligence industry in China&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"&gt;Portal:Current events/2026 November 25&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-25:1f8b9968522f</guid>
+      <guid isPermaLink="false">wikipedia:en:2026-11-25:54b0609d9398</guid>
       <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Armed conflicts and attacks</category>
-      <category>Mexican drug war</category>
+      <category>Business and economy</category>
+      <category>Jensen Huang scandal, Chinese intelligence activity abroad, Artificial intelligence industry in China</category>
     </item>
     <item>
-      <title>Colombian conflict: A car bomb blast near the city hall of Villavicencio, Meta Department, leaving at least 12 people wounded.</title>
+      <title>Colombian conflict: A car bomb blast near the city hall of Villavicencio, Meta Department, Colombia, wounds 12 people.</title>
       <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-25-40be1f7d9216/</link>
-      <description>&lt;p&gt;A car bomb blast near the city hall of &lt;a href="https://en.wikipedia.org/wiki/Villavicencio"&gt;Villavicencio&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Meta_Department"&gt;Meta Department&lt;/a&gt;, leaving at least 12 people wounded.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.eluniversal.com.mx/mundo/presidente-de-colombia-acusa-a-disidentes-de-las-farc-de-atentado-que-devasto-villavicencio-ataque-ensombrece-aniversario-de-paz/"&gt;El Universal&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;A car bomb blast near the city hall of &lt;a href="https://en.wikipedia.org/wiki/Villavicencio"&gt;Villavicencio&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Meta_Department"&gt;Meta Department&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Colombia"&gt;Colombia&lt;/a&gt;, wounds 12 people.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.eluniversal.com.mx/mundo/presidente-de-colombia-acusa-a-disidentes-de-las-farc-de-atentado-que-devasto-villavicencio-ataque-ensombrece-aniversario-de-paz/"&gt;El Universal in Spanish&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Colombian_conflict"&gt;Colombian conflict&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"&gt;Portal:Current events/2026 November 25&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">wikipedia:en:2026-11-25:40be1f7d9216</guid>
       <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
       <category>Armed conflicts and attacks</category>
       <category>Colombian conflict</category>
+    </item>
+    <item>
+      <title>Mexican drug war: An operation against a Jalisco New Generation Cartel ringleader leaves seven gunmen killed and four detained in Jilotlán de los Dolores, Jalisco, México.</title>
+      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-25-1f8b9968522f/</link>
+      <description>&lt;p&gt;An operation against a &lt;a href="https://en.wikipedia.org/wiki/Jalisco_New_Generation_Cartel"&gt;Jalisco New Generation Cartel&lt;/a&gt; ringleader leaves seven gunmen killed and four detained in &lt;a href="https://en.wikipedia.org/wiki/Jilotl%C3%A1n_de_los_Dolores"&gt;Jilotlán de los Dolores&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Jalisco"&gt;Jalisco&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Mexico"&gt;México&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sources: &lt;a href="https://www.proceso.com.mx/nacional/estados/2026/11/25/operativo-en-jilotlan-jalisco-deja-siete-muertos-y-cuatro-detenidos-384350.html"&gt;Proceso in Spanish&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Mexican_drug_war"&gt;Mexican drug war&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"&gt;Portal:Current events/2026 November 25&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">wikipedia:en:2026-11-25:1f8b9968522f</guid>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <category>Armed conflicts and attacks</category>
+      <category>Mexican drug war</category>
     </item>
     <item>
       <title>The 100th Macy's Thanksgiving Day Parade in New York City, New York, United States, is postponed to November 28 due to a severe coastal storm bringing heavy rain, coastal flooding, and wind gusts of…</title>
@@ -558,42 +602,6 @@
       <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
       <category>International relations</category>
       <category>Cambodia–China relations</category>
-    </item>
-    <item>
-      <title>Deportation of Kilmar Abrego Garcia: Salvadoran national Kilmar Abrego Garcia arrives in Madrid, Spain, after voluntarily leaving the United States following a legal dispute over his wrongful deportation to El Salvador in March 2025.</title>
-      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-25-3aed753c82e5/</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Salvadorans"&gt;Salvadoran national&lt;/a&gt; Kilmar Abrego Garcia arrives in &lt;a href="https://en.wikipedia.org/wiki/Madrid"&gt;Madrid&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Spain"&gt;Spain&lt;/a&gt;, after voluntarily leaving the &lt;a href="https://en.wikipedia.org/wiki/United_States"&gt;United States&lt;/a&gt; following a legal dispute over his wrongful &lt;a href="https://en.wikipedia.org/wiki/Deportation_in_the_second_Trump_administration"&gt;deportation&lt;/a&gt; to &lt;a href="https://en.wikipedia.org/wiki/El_Salvador"&gt;El Salvador&lt;/a&gt; in March 2025.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.rfi.fr/en/international-news/20261125-wrongly-deported-salvadoran-man-arrives-in-spain-from-us"&gt;AFP via RFI&lt;/a&gt;, &lt;a href="https://www.reuters.com/world/americas/salvadoran-migrant-kilmar-abrego-garcia-lands-spain-after-us-departure-deal-2026-11-25/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Deportation_of_Kilmar_Abrego_Garcia"&gt;Deportation of Kilmar Abrego Garcia&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"&gt;Portal:Current events/2026 November 25&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-25:3aed753c82e5</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Law and crime</category>
-      <category>Deportation of Kilmar Abrego Garcia</category>
-    </item>
-    <item>
-      <title>The Federal Supreme Court rules that the federal government of Iraq can deploy troops to the country's borders and can oversee and audit the oil industry in the Kurdistan Region, a day after Iraqi…</title>
-      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-25-446b82587724/</link>
-      <description>&lt;p&gt;&lt;a href="https://www.aljazeera.com/news/2026/11/25/iraqs-top-court-rules-government-can-take-over-kurdish-borders-oil-fields"&gt;&lt;img src="https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6b0090b5-1795199157.jpg?resize=1920%2C1440" alt=""&gt;&lt;/a&gt;&lt;br&gt;&lt;small&gt;Image: Al Jazeera&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/Federal_Supreme_Court_of_Iraq"&gt;Federal Supreme Court&lt;/a&gt; rules that the &lt;a href="https://en.wikipedia.org/wiki/Federal_government_of_Iraq"&gt;federal government of Iraq&lt;/a&gt; can deploy &lt;a href="https://en.wikipedia.org/wiki/Iraqi_Armed_Forces"&gt;troops&lt;/a&gt; to the country's borders and can oversee and audit the &lt;a href="https://en.wikipedia.org/wiki/Petroleum_industry_in_Iraq"&gt;oil industry&lt;/a&gt; in the &lt;a href="https://en.wikipedia.org/wiki/Kurdistan_Region"&gt;Kurdistan Region&lt;/a&gt;, a day after &lt;a href="https://en.wikipedia.org/wiki/Prime_Minister_of_Iraq"&gt;Iraqi prime minister&lt;/a&gt; &lt;a href="https://en.wikipedia.org/wiki/Ali_al-Zaidi"&gt;Ali al-Zaidi&lt;/a&gt; announced he is placing the region's oilfields and border crossings under federal control to combat oil smuggling.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.aljazeera.com/news/2026/11/25/iraqs-top-court-rules-government-can-take-over-kurdish-borders-oil-fields"&gt;Al Jazeera&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"&gt;Portal:Current events/2026 November 25&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-25:446b82587724</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Law and crime</category>
-      <media:content url="https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6b0090b5-1795199157.jpg?resize=1920%2C1440" medium="image" />
-    </item>
-    <item>
-      <title>Shenzhou 24: Pakistani astronaut Muhammad Zeeshan Ali becomes the first Pakistani to reach orbit and the first foreign national to board China's Tiangong space station, arriving aboard the Shenzhou-24 spacecraft…</title>
-      <link>https://aeonfr.github.io/wikinews-rss/articles/2026-11-25-08c471cee26d/</link>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Pakistan"&gt;Pakistani&lt;/a&gt; astronaut &lt;a href="https://en.wikipedia.org/wiki/Muhammad_Zeeshan_Ali"&gt;Muhammad Zeeshan Ali&lt;/a&gt; becomes the &lt;a href="https://en.wikipedia.org/wiki/List_of_space_travelers_by_nationality"&gt;first Pakistani to reach orbit&lt;/a&gt; and the first foreign national to board &lt;a href="https://en.wikipedia.org/wiki/China"&gt;China&lt;/a&gt;'s &lt;a href="https://en.wikipedia.org/wiki/Tiangong_space_station"&gt;&lt;i&gt;Tiangong&lt;/i&gt; space station&lt;/a&gt;, arriving aboard the &lt;a href="https://en.wikipedia.org/wiki/China_Manned_Space_Program"&gt;Shenzhou&lt;/a&gt;-24 &lt;a href="https://en.wikipedia.org/wiki/Shenzhou_(spacecraft)"&gt;spacecraft&lt;/a&gt; alongside two &lt;a href="https://en.wikipedia.org/wiki/Chinese_astronauts"&gt;Chinese astronauts&lt;/a&gt; to conduct scientific experiments during a five-day mission.&lt;/p&gt;
-&lt;p&gt;Sources: &lt;a href="https://www.afp.com/en/china-space-station-receives-pakistani-astronaut-historic-mission"&gt;AFP&lt;/a&gt;, &lt;a href="https://www.reuters.com/science/chinas-shenzhou-24-space-flight-takes-off-with-pakistani-national-first-foreign-2026-11-25/"&gt;Reuters&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Topics: &lt;a href="https://en.wikipedia.org/wiki/Shenzhou_24"&gt;Shenzhou 24&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;From Wikipedia's &lt;a href="https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"&gt;Portal:Current events/2026 November 25&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&amp;amp;action=history"&gt;history&lt;/a&gt;). Text licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">wikipedia:en:2026-11-25:08c471cee26d</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
-      <category>Science and technology</category>
-      <category>Shenzhou 24</category>
     </item>
   </channel>
 </rss>

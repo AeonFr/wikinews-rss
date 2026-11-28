@@ -6,8 +6,43 @@
  "retention_days": 183,
  "stories": [
   {
+   "article": null,
+   "categories": [
+    "Disasters and accidents"
+   ],
+   "group": "2026-11-28-e81018400c74",
+   "headlines": [
+    {
+     "category": "Disasters and accidents",
+     "html": "Explosives belonging to <a href=\"https://en.wikipedia.org/wiki/Mining\">mining</a> companies explode at a depot in <a href=\"https://en.wikipedia.org/wiki/Asadabad,_Afghanistan\">Asadabad</a>, <a href=\"https://en.wikipedia.org/wiki/Afghanistan\">Afghanistan</a>, killing ten students and wounding 110 more people at a nearby school.",
+     "id": "2026-11-28-e81018400c74",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_28&action=history",
+      "title": "Portal:Current events/2026 November 28",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_28"
+     },
+     "sources": [
+      {
+       "name": "BBC News",
+       "url": "https://www.bbc.com/news/articles/ckp80jyz6dl8o"
+      }
+     ],
+     "topics": []
+    }
+   ],
+   "id": "2026-11-28-e81018400c74",
+   "image": {
+    "link": "https://www.bbc.com/news/articles/ckp80jyz6dl8o",
+    "source": "BBC News",
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/2bd9/live/19b5f490-eb1d-11f1-8743-3f686b14075c.jpg"
+   },
+   "more_articles": [],
+   "pub_date": "2026-11-28T15:39:14Z",
+   "title": "Explosives belonging to mining companies explode at a depot in Asadabad, Afghanistan, killing ten students and wounding 110 more people at a nearby school."
+  },
+  {
    "article": {
-    "extract": "A general election is scheduled to be held on 28 November 2026 to elect members of the 61st Parliament of Victoria. All 88 seats in the Legislative Assembly and all 40 seats in the Legislative Council will be up for election.",
+    "extract": "The 2026 Victorian state election was held on Saturday, 28 November 2026 to elect members of the 61st Parliament of Victoria. All 88 seats in the Legislative Assembly and all 40 seats in the Legislative Council were contested.",
     "title": "2026 Victorian state election",
     "url": "https://en.wikipedia.org/wiki/2026_Victorian_state_election"
    },
@@ -18,7 +53,35 @@
    "headlines": [
     {
      "category": "Politics and elections",
-     "html": "<a href=\"https://en.wikipedia.org/wiki/Victoria_(state)\">Victorians</a> vote to elect 88 seats of the <a href=\"https://en.wikipedia.org/wiki/Victorian_Legislative_Assembly\">Legislative Assembly</a> and <a href=\"https://en.wikipedia.org/wiki/2026_Victorian_Legislative_Council_election\">40 seats</a> of the <a href=\"https://en.wikipedia.org/wiki/Victorian_Legislative_Council\">Legislative Council</a>. Incumbent <a href=\"https://en.wikipedia.org/wiki/Premier_of_Victoria\">premier</a> <a href=\"https://en.wikipedia.org/wiki/Ben_Carroll\">Ben Carroll</a> seeks to win a fourth consecutive <a href=\"https://en.wikipedia.org/wiki/Victorian_Labor_Party\">Labor</a> government over the <a href=\"https://en.wikipedia.org/wiki/Liberal%E2%80%93National_Coalition_(Victoria)\">Liberal–National Coalition</a>, led by <a href=\"https://en.wikipedia.org/wiki/Leader_of_the_Opposition_(Victoria)\">opposition</a> leader <a href=\"https://en.wikipedia.org/wiki/Jess_Wilson\">Jess Wilson</a>.",
+     "html": "<a href=\"https://en.wikipedia.org/wiki/Premier_of_Victoria\">Premier</a> and <a href=\"https://en.wikipedia.org/wiki/Victorian_Labor_Party\">Labor</a> leader <a href=\"https://en.wikipedia.org/wiki/Ben_Carroll\">Ben Carroll</a> concedes defeat to <a href=\"https://en.wikipedia.org/wiki/Victorian_Liberal_Party\">Liberal</a> leader <a href=\"https://en.wikipedia.org/wiki/Jess_Wilson\">Jess Wilson</a>, with preliminary results suggesting a significant decline in the Labor vote. Wilson is set to become the first millennial to lead Victoria, and the first woman to do so by winning a general election.",
+     "id": "2026-11-28-c3df19907b95",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_28&action=history",
+      "title": "Portal:Current events/2026 November 28",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_28"
+     },
+     "sources": [
+      {
+       "name": "ABC News Australia",
+       "url": "https://www.abc.net.au/news/2026-11-28/jess-wilson-victorian-liberals-form-government-state-election/107438320"
+      }
+     ],
+     "topics": [
+      {
+       "label": "2026 Victorian state election",
+       "links": [
+        {
+         "label": "2026 Victorian state election",
+         "url": "https://en.wikipedia.org/wiki/2026_Victorian_state_election"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/2026_Victorian_state_election"
+      }
+     ]
+    },
+    {
+     "category": "Politics and elections",
+     "html": "Residents of the <a href=\"https://en.wikipedia.org/wiki/Australia\">Australian</a> <a href=\"https://en.wikipedia.org/wiki/States_and_territories_of_Australia\">state</a> of <a href=\"https://en.wikipedia.org/wiki/Victoria_(state)\">Victoria</a> vote to elect 88 seats of the <a href=\"https://en.wikipedia.org/wiki/Victorian_Legislative_Assembly\">Legislative Assembly</a> and <a href=\"https://en.wikipedia.org/wiki/2026_Victorian_Legislative_Council_election\">40 seats</a> of the <a href=\"https://en.wikipedia.org/wiki/Victorian_Legislative_Council\">Legislative Council</a>. Incumbent <a href=\"https://en.wikipedia.org/wiki/Premier_of_Victoria\">premier</a> <a href=\"https://en.wikipedia.org/wiki/Ben_Carroll\">Ben Carroll</a> seeks to win a fourth consecutive <a href=\"https://en.wikipedia.org/wiki/Victorian_Labor_Party\">Labor</a> government over the <a href=\"https://en.wikipedia.org/wiki/Liberal%E2%80%93National_Coalition_(Victoria)\">Liberal–National Coalition</a>, led by <a href=\"https://en.wikipedia.org/wiki/Leader_of_the_Opposition_(Victoria)\">opposition</a> leader <a href=\"https://en.wikipedia.org/wiki/Jess_Wilson\">Jess Wilson</a>.",
      "id": "2026-11-28-bdeeb3d51c20",
      "page": {
       "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_28&action=history",
@@ -51,13 +114,13 @@
    ],
    "id": "2026-11-28-bdeeb3d51c20",
    "image": {
-    "link": "https://www.abc.net.au/news/2026-11-28/victorian-election-live-updates-voting-results-seat-count/107418038",
+    "link": "https://www.abc.net.au/news/2026-11-28/jess-wilson-victorian-liberals-form-government-state-election/107438320",
     "source": "ABC News Australia",
-    "url": "https://live-production.wcms.abc-cdn.net.au/be1044bf8eba490397d008c7c1feb258?impolicy=wcms_watermark_news&cropH=887&cropW=1577&xPos=0&yPos=0&width=862&height=485&imformat=generic"
+    "url": "https://live-production.wcms.abc-cdn.net.au/665aba88ba07e2f414029979af3a12b7?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485&imformat=generic"
    },
    "more_articles": [],
    "pub_date": "2026-11-28T01:29:16Z",
-   "title": "2026 Victorian state election: Victorians vote to elect 88 seats of the Legislative Assembly and 40 seats of the Legislative Council."
+   "title": "2026 Victorian state election: Premier and Labor leader Ben Carroll concedes defeat to Liberal leader Jess Wilson, with preliminary results suggesting a significant decline in the Labor vote. / Residents of the Australian state of Victoria vote to elect 88 seats of the Legislative Assembly and 40 seats of the Legislative Council."
   },
   {
    "article": {
@@ -225,6 +288,41 @@
    "title": "2026 New Zealand general election: The counting of special votes results in the National Party losing two electorate seats, including one overhang seat."
   },
   {
+   "article": null,
+   "categories": [
+    "Business and economy"
+   ],
+   "group": "2026-11-27-c0e51020dc82",
+   "headlines": [
+    {
+     "category": "Business and economy",
+     "html": "<a href=\"https://en.wikipedia.org/wiki/France\">France</a>'s <a href=\"https://en.wikipedia.org/wiki/Economy_of_France\">economy</a> is <a href=\"https://en.wikipedia.org/wiki/Economic_collapse\">contracted</a> for two consecutive quarters and enters into a <a href=\"https://en.wikipedia.org/wiki/Recession\">recession</a>.",
+     "id": "2026-11-27-c0e51020dc82",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_27&action=history",
+      "title": "Portal:Current events/2026 November 27",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_27"
+     },
+     "sources": [
+      {
+       "name": "AOL",
+       "url": "https://www.aol.com/articles/france-falls-recession-143511000.html"
+      }
+     ],
+     "topics": []
+    }
+   ],
+   "id": "2026-11-27-c0e51020dc82",
+   "image": {
+    "link": "https://www.aol.com/articles/france-falls-recession-143511000.html",
+    "source": "AOL",
+    "url": "https://hermes.media.static.aol.com/media/2026/11/27/9c484a73-77f9-34f8-901b-40e3808945e0/66de5015-e112-4070-916b-295267c5545c.jpeg"
+   },
+   "more_articles": [],
+   "pub_date": "2026-11-27T00:00:00Z",
+   "title": "France's economy is contracted for two consecutive quarters and enters into a recession."
+  },
+  {
    "article": {
     "extract": "Significant political, constitutional, and social changes in Bangladesh followed the July Uprising of 2024 and the resignation of Prime Minister Sheikh Hasina. The uprising was initially sparked by widespread public protests and calls for reform, led to major changes in Bangladesh's political landscape.",
     "location": "Bangladesh (with spillovers in India)",
@@ -236,6 +334,34 @@
    ],
    "group": "2026-11-27-7b865a1c5566",
    "headlines": [
+    {
+     "category": "Armed conflicts and attacks",
+     "html": "At least five people are injured in clashes between the <a href=\"https://en.wikipedia.org/wiki/Awami_League\">Awami League</a> and the <a href=\"https://en.wikipedia.org/wiki/Bangladesh_Nationalist_Party\">Bangladesh Nationalist Party</a> in <a href=\"https://en.wikipedia.org/wiki/Kalkini_Upazila\">Kalkini Upazila</a>, <a href=\"https://en.wikipedia.org/wiki/Madaripur_District\">Madaripur District</a>, <a href=\"https://en.wikipedia.org/wiki/Bangladesh\">Bangladesh</a>, during which more than 50 <a href=\"https://en.wikipedia.org/wiki/Improvised_explosive_device\">crude bombs</a> are detonated.",
+     "id": "2026-11-27-57e21182fd4b",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_27&action=history",
+      "title": "Portal:Current events/2026 November 27",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_27"
+     },
+     "sources": [
+      {
+       "name": "The Business Standard",
+       "url": "https://www.tbsnews.net/bangladesh/least-5-injured-clashes-between-banned-al-bnp-activists-kalkini-over-50-crude-bombs"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Aftermath of the July Uprising",
+       "links": [
+        {
+         "label": "Aftermath of the July Uprising",
+         "url": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising"
+      }
+     ]
+    },
     {
      "category": "Armed conflicts and attacks",
      "html": "At least 20 people are injured, several with <a href=\"https://en.wikipedia.org/wiki/Spear\">spear</a> wounds, in an armed clash between the <a href=\"https://en.wikipedia.org/wiki/Bangladesh_Nationalist_Party\">Bangladesh Nationalist Party</a> and the <a href=\"https://en.wikipedia.org/wiki/Awami_League\">Awami League</a> over local dominance and control of <a href=\"https://en.wikipedia.org/wiki/Brickworks\">brick kilns</a> in <a href=\"https://en.wikipedia.org/wiki/Fatullah\">Fatullah</a>, <a href=\"https://en.wikipedia.org/wiki/Narayanganj_District\">Narayanganj District</a>, <a href=\"https://en.wikipedia.org/wiki/Bangladesh\">Bangladesh</a>, with <a href=\"https://en.wikipedia.org/wiki/Bangladesh_Police\">police</a> firing <a href=\"https://en.wikipedia.org/wiki/Rubber_bullet\">rubber bullets</a> and <a href=\"https://en.wikipedia.org/wiki/Tear_gas\">tear gas</a> to disperse them.",
@@ -267,13 +393,13 @@
    ],
    "id": "2026-11-27-7b865a1c5566",
    "image": {
-    "link": "https://www.thedailystar.net/news/crime-justice/news/20-injured-fresh-clash-over-local-dominance-brick-kiln-business-narayanganj-4334601",
-    "source": "The Daily Star",
-    "url": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/narayanganj.jpg"
+    "link": "https://www.tbsnews.net/bangladesh/least-5-injured-clashes-between-banned-al-bnp-activists-kalkini-over-50-crude-bombs",
+    "source": "The Business Standard",
+    "url": "https://www.tbsnews.net/sites/default/files/styles/social_share/public/images/2026/11/28/kalkini_bnp_al.jpg"
    },
    "more_articles": [],
    "pub_date": "2026-11-27T00:00:00Z",
-   "title": "Aftermath of the July Uprising: At least 20 people are injured, several with spear wounds, in an armed clash between the Bangladesh Nationalist Party and the Awami League over local dominance and control of brick kilns in Fatullah…"
+   "title": "Aftermath of the July Uprising: At least five people are injured in clashes between the Awami League and the Bangladesh Nationalist Party in Kalkini Upazila, Madaripur District, Bangladesh, during which more than 50 crude bombs are… / At least 20 people are injured, several with spear wounds, in an armed clash between the Bangladesh Nationalist Party and the Awami League over local dominance and control of brick kilns in Fatullah…"
   },
   {
    "article": null,
@@ -318,7 +444,7 @@
    "headlines": [
     {
      "category": "International relations",
-     "html": "The <a href=\"https://en.wikipedia.org/wiki/Federal_government_of_Mexico\">Mexican government</a> files a formal complaint with the United States regarding the anonymous tip lines set up by the <a href=\"https://en.wikipedia.org/wiki/Drug_Enforcement_Administration\">Drug Enforcement Administration</a> to receive information about members of <a href=\"https://en.wikipedia.org/wiki/Crime_in_Mexico\">organized crime</a> and officials allegedly linked to them.",
+     "html": "The <a href=\"https://en.wikipedia.org/wiki/Federal_government_of_Mexico\">Mexican government</a> files a formal complaint with the <a href=\"https://en.wikipedia.org/wiki/United_States\">United States</a> regarding the anonymous tip lines set up by the <a href=\"https://en.wikipedia.org/wiki/Drug_Enforcement_Administration\">Drug Enforcement Administration</a> to receive information about members of <a href=\"https://en.wikipedia.org/wiki/Crime_in_Mexico\">organized crime</a> and officials allegedly linked to them.",
      "id": "2026-11-27-ede372e8ff00",
      "page": {
       "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_27&action=history",
@@ -458,7 +584,7 @@
   },
   {
    "article": {
-    "extract": "In mathematics, the Riemann hypothesis is the theorem that the Riemann zeta function has its zeros only at the negative even integers and at complex numbers with real part 12. First posed in 1859 by Bernhard Riemann, pure mathematicians consider the hypothesis to be one of the most important problems in the field.",
+    "extract": "In mathematics, the Riemann hypothesis is the theorem that the Riemann zeta function has its zeros only at the negative even integers and at complex numbers with real part 12. First posed in 1859 by Bernhard Riemann, pure mathematicians considered the hypothesis to be one of the most important problems in the field.",
     "title": "Riemann hypothesis",
     "url": "https://en.wikipedia.org/wiki/Riemann_hypothesis"
    },
@@ -744,7 +870,7 @@
      },
      "sources": [
       {
-       "name": "Cambio Colombia",
+       "name": "Cambio Colombia in Spanish",
        "url": "https://cambiocolombia.com/conflicto-armado-en-colombia/articulo/2026/11/ataque-con-dron-en-condoto-choco-dejo-un-policia-muerto-y-dos-heridos-de-la-espriella-ordeno-perseguir-a-los-responsables"
       }
      ],
@@ -765,7 +891,7 @@
    "id": "2026-11-26-ef9f97178050",
    "image": {
     "link": "https://cambiocolombia.com/conflicto-armado-en-colombia/articulo/2026/11/ataque-con-dron-en-condoto-choco-dejo-un-policia-muerto-y-dos-heridos-de-la-espriella-ordeno-perseguir-a-los-responsables",
-    "source": "Cambio Colombia",
+    "source": "Cambio Colombia in Spanish",
     "url": "https://d1x0qnenkl91hi.cloudfront.net/uploads/crops/full-width/article_44692_main_e149b8788a_full-width.webp"
    },
    "more_articles": [],
@@ -1236,7 +1362,7 @@
    "headlines": [
     {
      "category": "Politics and elections",
-     "html": "The <a href=\"https://en.wikipedia.org/wiki/Serbia\">Serbian</a> <a href=\"https://en.wikipedia.org/wiki/National_Assembly_(Serbia)\">parliament</a> sets the upcoming <a href=\"https://en.wikipedia.org/wiki/President_of_Serbia\">presidential</a> election to December 27 after former president <a href=\"https://en.wikipedia.org/wiki/Aleksandar_Vu%C4%8Di%C4%87\">Aleksandar Vučić</a> resigned in September.",
+     "html": "The <a href=\"https://en.wikipedia.org/wiki/Serbia\">Serbian</a> <a href=\"https://en.wikipedia.org/wiki/National_Assembly_(Serbia)\">parliament</a> schedules the upcoming <a href=\"https://en.wikipedia.org/wiki/President_of_Serbia\">presidential</a> election for December 27 after former president <a href=\"https://en.wikipedia.org/wiki/Aleksandar_Vu%C4%8Di%C4%87\">Aleksandar Vučić</a> resigned in September.",
      "id": "2026-11-26-3634e0728067",
      "page": {
       "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_26&action=history",
@@ -1266,7 +1392,7 @@
    "id": "2026-11-26-3634e0728067",
    "more_articles": [],
    "pub_date": "2026-11-26T00:00:00Z",
-   "title": "2026 Serbian presidential election: The Serbian parliament sets the upcoming presidential election to December 27 after former president Aleksandar Vučić resigned in September."
+   "title": "2026 Serbian presidential election: The Serbian parliament schedules the upcoming presidential election for December 27 after former president Aleksandar Vučić resigned in September."
   },
   {
    "article": {
@@ -1437,7 +1563,7 @@
    "headlines": [
     {
      "category": "Armed conflicts and attacks",
-     "html": "A <a href=\"https://en.wikipedia.org/wiki/Hamas\">Hamas</a> security official, his wife, and two daughters, are killed in an <a href=\"https://en.wikipedia.org/wiki/Israel\">Israeli</a> <a href=\"https://en.wikipedia.org/wiki/Airstrike\">airstrike</a> on the <a href=\"https://en.wikipedia.org/wiki/Al-Shati_refugee_camp\">Al-Shati refugee camp</a> near <a href=\"https://en.wikipedia.org/wiki/Gaza_City\">Gaza City</a>. Seven more <a href=\"https://en.wikipedia.org/wiki/Palestinians\">Palestinians</a> are also killed and several injured in more Israeli airstrikes.",
+     "html": "A <a href=\"https://en.wikipedia.org/wiki/Hamas\">Hamas</a> security official, his wife, and two daughters, are killed in an <a href=\"https://en.wikipedia.org/wiki/Israel\">Israeli</a> <a href=\"https://en.wikipedia.org/wiki/Airstrike\">airstrike</a> on the <a href=\"https://en.wikipedia.org/wiki/Al-Shati_refugee_camp\">Al-Shati refugee camp</a> near <a href=\"https://en.wikipedia.org/wiki/Gaza_City\">Gaza City</a>. Seven more <a href=\"https://en.wikipedia.org/wiki/Palestinians\">Palestinians</a> are also killed and several injured in other Israeli airstrikes.",
      "id": "2026-11-25-e3445be79189",
      "page": {
       "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
@@ -1765,20 +1891,19 @@
   },
   {
    "article": {
-    "extract": "The Mexican drug war (Spanish: Guerra contra el narcotráfico en México) is an ongoing asymmetric armed conflict between the Mexican government and various drug trafficking syndicates. When the Mexican military intervened in 2006, the government's main objective was to reduce drug-related violence.",
-    "location": "Latin America and the Caribbean",
-    "title": "Mexican drug war",
-    "url": "https://en.wikipedia.org/wiki/Mexican_drug_war"
+    "extract": "On October 29, 2026, The New York Times reported that Jensen Huang, the co-founder and CEO of Nvidia, had been the target of a spy plot involving the government of China, citing people briefed on U.S. intelligence surveillance who spoke on condition of anonymity. Huang had an extramarital affair with Alice Huang (no relation), a Chinese national who was an executive of Megaspeed, a Singaporean company.",
+    "title": "Jensen Huang scandal",
+    "url": "https://en.wikipedia.org/wiki/Jensen_Huang_scandal"
    },
    "categories": [
-    "Armed conflicts and attacks"
+    "Business and economy"
    ],
-   "group": "2026-11-25-1f8b9968522f",
+   "group": "2026-11-25-54b0609d9398",
    "headlines": [
     {
-     "category": "Armed conflicts and attacks",
-     "html": "An operation against a <a href=\"https://en.wikipedia.org/wiki/CJNG\">CJNG</a> ringleader left seven gunmen killed and four detained in <a href=\"https://en.wikipedia.org/wiki/Jilotl%C3%A1n_de_los_Dolores\">Jilotlán de los Dolores</a>, <a href=\"https://en.wikipedia.org/wiki/Jalisco\">Jalisco</a>, México.",
-     "id": "2026-11-25-1f8b9968522f",
+     "category": "Business and economy",
+     "html": "American <a href=\"https://en.wikipedia.org/wiki/Semiconductor_industry\">chipmaker</a> <a href=\"https://en.wikipedia.org/wiki/Nvidia\">Nvidia</a> directs its manufacturing partners to pause shipments of <a href=\"https://en.wikipedia.org/wiki/Nvidia_DGX\">servers</a> containing its <a href=\"https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units\">chips</a> to <a href=\"https://en.wikipedia.org/wiki/Indonesia\">Indonesia</a>, <a href=\"https://en.wikipedia.org/wiki/Malaysia\">Malaysia</a>, <a href=\"https://en.wikipedia.org/wiki/Singapore\">Singapore</a>, and <a href=\"https://en.wikipedia.org/wiki/Thailand\">Thailand</a>, following increased U.S. <a href=\"https://en.wikipedia.org/wiki/Export_control\">export control</a> aimed at preventing <a href=\"https://en.wikipedia.org/wiki/China\">China</a> from accessing advanced <a href=\"https://en.wikipedia.org/wiki/AI\">AI</a> <a href=\"https://en.wikipedia.org/wiki/Hardware_for_artificial_intelligence\">hardware</a>.",
+     "id": "2026-11-25-54b0609d9398",
      "page": {
       "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
       "title": "Portal:Current events/2026 November 25",
@@ -1786,33 +1911,47 @@
      },
      "sources": [
       {
-       "name": "Revista Proceso",
-       "url": "https://www.proceso.com.mx/nacional/estados/2026/11/25/operativo-en-jilotlan-jalisco-deja-siete-muertos-y-cuatro-detenidos-384350.html"
+       "name": "Financial Times",
+       "url": "https://www.ft.com/content/7838a715-07d4-4605-aa60-21f5af2b2370?syn-25a6b1a6=1"
       }
      ],
      "topics": [
       {
-       "label": "Mexican drug war",
+       "label": "Jensen Huang scandal, Chinese intelligence activity abroad, Artificial intelligence industry in China",
        "links": [
         {
-         "label": "Mexican drug war",
-         "url": "https://en.wikipedia.org/wiki/Mexican_drug_war"
+         "label": "Jensen Huang scandal",
+         "url": "https://en.wikipedia.org/wiki/Jensen_Huang_scandal"
+        },
+        {
+         "label": "Chinese intelligence activity abroad",
+         "url": "https://en.wikipedia.org/wiki/Chinese_intelligence_activity_abroad"
+        },
+        {
+         "label": "Artificial intelligence industry in China",
+         "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_industry_in_China"
         }
        ],
-       "url": "https://en.wikipedia.org/wiki/Mexican_drug_war"
+       "url": "https://en.wikipedia.org/wiki/Jensen_Huang_scandal"
       }
      ]
     }
    ],
-   "id": "2026-11-25-1f8b9968522f",
-   "image": {
-    "link": "https://www.proceso.com.mx/nacional/estados/2026/11/25/operativo-en-jilotlan-jalisco-deja-siete-muertos-y-cuatro-detenidos-384350.html",
-    "source": "Revista Proceso",
-    "url": "https://assets.proceso.com.mx/social/384350-0496bd53c4.jpg"
-   },
-   "more_articles": [],
+   "id": "2026-11-25-54b0609d9398",
+   "more_articles": [
+    {
+     "extract": "The Chinese Communist Party and government of the People's Republic of China is engaged in espionage overseas, directed through diverse methods via the Ministry of State Security (MSS), the Ministry of Public Security (MPS), the United Front Work Department (UFWD), People's Liberation Army (PLA) via its Intelligence Bureau of the Joint Staff Department, and numerous front organizations and state-owned enterprises. It employs a variety of tactics including cyber espionage to gain access to sensitive information remotely, signals intelligence, human intelligence as well as influence operations through united front activity targeting overseas Chinese communities and associations.",
+     "title": "Chinese intelligence activity abroad",
+     "url": "https://en.wikipedia.org/wiki/Chinese_intelligence_activity_abroad"
+    },
+    {
+     "extract": "Since 2006, the Chinese government has steadily developed a national agenda for artificial intelligence (AI) development and emerged as one of the leading nations in AI research and development. In 2016, the Chinese Communist Party (CCP) released its 13th Five-Year Plan in which it aimed to become a global AI leader by 2030.",
+     "title": "Artificial intelligence industry in China",
+     "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_industry_in_China"
+    }
+   ],
    "pub_date": "2026-11-25T00:00:00Z",
-   "title": "Mexican drug war: An operation against a CJNG ringleader left seven gunmen killed and four detained in Jilotlán de los Dolores, Jalisco, México."
+   "title": "Jensen Huang scandal, Chinese intelligence activity abroad, Artificial intelligence industry in China: American chipmaker Nvidia directs its manufacturing partners to pause shipments of servers containing its chips to Indonesia, Malaysia, Singapore, and Thailand, following increased U.S. export…"
   },
   {
    "article": {
@@ -1828,7 +1967,7 @@
    "headlines": [
     {
      "category": "Armed conflicts and attacks",
-     "html": "A car bomb blast near the city hall of <a href=\"https://en.wikipedia.org/wiki/Villavicencio\">Villavicencio</a>, <a href=\"https://en.wikipedia.org/wiki/Meta_Department\">Meta Department</a>, leaving at least 12 people wounded.",
+     "html": "A car bomb blast near the city hall of <a href=\"https://en.wikipedia.org/wiki/Villavicencio\">Villavicencio</a>, <a href=\"https://en.wikipedia.org/wiki/Meta_Department\">Meta Department</a>, <a href=\"https://en.wikipedia.org/wiki/Colombia\">Colombia</a>, wounds 12 people.",
      "id": "2026-11-25-40be1f7d9216",
      "page": {
       "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
@@ -1837,7 +1976,7 @@
      },
      "sources": [
       {
-       "name": "El Universal",
+       "name": "El Universal in Spanish",
        "url": "https://www.eluniversal.com.mx/mundo/presidente-de-colombia-acusa-a-disidentes-de-las-farc-de-atentado-que-devasto-villavicencio-ataque-ensombrece-aniversario-de-paz/"
       }
      ],
@@ -1858,7 +1997,58 @@
    "id": "2026-11-25-40be1f7d9216",
    "more_articles": [],
    "pub_date": "2026-11-25T00:00:00Z",
-   "title": "Colombian conflict: A car bomb blast near the city hall of Villavicencio, Meta Department, leaving at least 12 people wounded."
+   "title": "Colombian conflict: A car bomb blast near the city hall of Villavicencio, Meta Department, Colombia, wounds 12 people."
+  },
+  {
+   "article": {
+    "extract": "The Mexican drug war (Spanish: Guerra contra el narcotráfico en México) is an ongoing asymmetric armed conflict between the Mexican government and various drug trafficking syndicates. When the Mexican military intervened in 2006, the government's main objective was to reduce drug-related violence.",
+    "location": "Latin America and the Caribbean",
+    "title": "Mexican drug war",
+    "url": "https://en.wikipedia.org/wiki/Mexican_drug_war"
+   },
+   "categories": [
+    "Armed conflicts and attacks"
+   ],
+   "group": "2026-11-25-1f8b9968522f",
+   "headlines": [
+    {
+     "category": "Armed conflicts and attacks",
+     "html": "An operation against a <a href=\"https://en.wikipedia.org/wiki/Jalisco_New_Generation_Cartel\">Jalisco New Generation Cartel</a> ringleader leaves seven gunmen killed and four detained in <a href=\"https://en.wikipedia.org/wiki/Jilotl%C3%A1n_de_los_Dolores\">Jilotlán de los Dolores</a>, <a href=\"https://en.wikipedia.org/wiki/Jalisco\">Jalisco</a>, <a href=\"https://en.wikipedia.org/wiki/Mexico\">México</a>.",
+     "id": "2026-11-25-1f8b9968522f",
+     "page": {
+      "history_url": "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_November_25&action=history",
+      "title": "Portal:Current events/2026 November 25",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25"
+     },
+     "sources": [
+      {
+       "name": "Proceso in Spanish",
+       "url": "https://www.proceso.com.mx/nacional/estados/2026/11/25/operativo-en-jilotlan-jalisco-deja-siete-muertos-y-cuatro-detenidos-384350.html"
+      }
+     ],
+     "topics": [
+      {
+       "label": "Mexican drug war",
+       "links": [
+        {
+         "label": "Mexican drug war",
+         "url": "https://en.wikipedia.org/wiki/Mexican_drug_war"
+        }
+       ],
+       "url": "https://en.wikipedia.org/wiki/Mexican_drug_war"
+      }
+     ]
+    }
+   ],
+   "id": "2026-11-25-1f8b9968522f",
+   "image": {
+    "link": "https://www.proceso.com.mx/nacional/estados/2026/11/25/operativo-en-jilotlan-jalisco-deja-siete-muertos-y-cuatro-detenidos-384350.html",
+    "source": "Proceso in Spanish",
+    "url": "https://assets.proceso.com.mx/social/384350-0496bd53c4.jpg"
+   },
+   "more_articles": [],
+   "pub_date": "2026-11-25T00:00:00Z",
+   "title": "Mexican drug war: An operation against a Jalisco New Generation Cartel ringleader leaves seven gunmen killed and four detained in Jilotlán de los Dolores, Jalisco, México."
   },
   {
    "article": null,
@@ -32331,5 +32521,5 @@
    "title": "2026 U.S. Open Cup final: In association football, St. Louis City SC defeats Columbus Crew in a penalty shoot-out to win the U.S. Open Cup, earning the club its first trophy since beginning play in 2023."
   }
  ],
- "updated": "2026-11-28T01:29:16Z"
+ "updated": "2026-11-28T15:39:14Z"
 }

@@ -175,9 +175,9 @@
    "fails": 3
   },
   "https://apnews.com/article/britain-train-stabbings-williams-guilty-attempted-murder-4d8ae19ba73ed8b556417abd910812cf": {
-   "checked": "2026-11-27T01:47:24Z",
+   "checked": "2026-11-28T15:39:14Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://apnews.com/article/bulgaria-president-runoff-yotova-gyrov-radev-russia-cc540e5540a7a268da15aa72c5ec033e": {
    "checked": "2026-11-23T18:24:10Z",
@@ -355,9 +355,9 @@
    "fails": 3
   },
   "https://apnews.com/article/kenya-cult-leader-paul-mackenzie-conviction-e4024cd1ff2e2ddce24b89ee0756b2c4": {
-   "checked": "2026-11-27T01:47:24Z",
+   "checked": "2026-11-28T15:39:14Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://apnews.com/article/marc-marquez-motogp-99638bd5dcc6a86106edba209851ad8f": {
    "checked": "2026-11-25T18:12:36Z",
@@ -425,9 +425,9 @@
    "fails": 3
   },
   "https://apnews.com/article/pakistan-construction-building-collapse-karachi-3b1555a055cfee2e3299edde37c821b9": {
-   "checked": "2026-11-27T01:47:24Z",
+   "checked": "2026-11-28T15:39:14Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://apnews.com/article/pakistan-militants-attack-kohat-afghanistan-police-ttp-260c8876601c767a4111b17fa9dd255c": {
    "checked": "2026-11-22T10:14:34Z",
@@ -505,9 +505,9 @@
    "fails": 3
   },
   "https://apnews.com/article/russia-ukraine-war-us-sanctions-oil-lukoil-8d5df1befb2ebb2a0ce4f6b259fcdf14": {
-   "checked": "2026-11-27T01:47:24Z",
+   "checked": "2026-11-28T15:39:14Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://apnews.com/article/russian-newspaper-media-novaya-gazeta-closure-01cca444cb9636ee74a57979b0dcd604": {
    "checked": "2026-11-22T10:14:34Z",
@@ -530,9 +530,9 @@
    "fails": 3
   },
   "https://apnews.com/article/serbia-presidential-election-students-vucic-b069d30d098006f9d4ed21e6b82731c4": {
-   "checked": "2026-11-27T01:47:24Z",
+   "checked": "2026-11-28T15:39:14Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://apnews.com/article/somalia-uae-ambassador-expulsion-sovereignty-somaliland-mohamud-3cdeb27a0a08d365d6a04de46500d842": {
    "checked": "2026-11-22T10:14:34Z",
@@ -565,9 +565,9 @@
    "fails": 3
   },
   "https://apnews.com/article/thailand-bangkok-explosion-oil-facility-e8098146bfb994dffc14448b1027c5d1": {
-   "checked": "2026-11-27T01:47:24Z",
+   "checked": "2026-11-28T15:39:14Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://apnews.com/article/thailand-eurovision-asia-2026-carmelle-winner-099ca558c4638949e637d3a8f8061d6d": {
    "checked": "2026-11-22T10:14:34Z",
@@ -1082,9 +1082,9 @@
    }
   },
   "https://indianexpress.com/article/explained/explained-culture/miss-universe-2026-controversies-ownership-judging-five-problems-10977410/": {
-   "checked": "2026-11-27T01:47:24Z",
+   "checked": "2026-11-28T15:39:14Z",
    "error": "HTTP 403",
-   "fails": 2
+   "fails": 3
   },
   "https://indianexpress.com/article/india/ujjain-hote-deaths-suffocation-cleaning-waste-chamber-10945636/?ref=archive_pg": {
    "checked": "2026-11-22T23:39:34Z",
@@ -1219,9 +1219,9 @@
    "fails": 3
   },
   "https://people.com/miss-universe-2026-winner-jennifer-barreto-12267491": {
-   "checked": "2026-11-27T01:47:24Z",
+   "checked": "2026-11-28T15:39:14Z",
    "error": "HTTP 403",
-   "fails": 2
+   "fails": 3
   },
   "https://peru21.pe/policiales/villa-el-salvador-detonan-explosivo-en-casa-de-alcalde-electo-marcelino-huaman-cuando-estaba-con-su-familia/": {
    "checked": "2026-11-22T23:39:34Z",
@@ -1531,9 +1531,9 @@
    "fails": 3
   },
   "https://www.aa.com.tr/en/middle-east/saudi-led-coalition-says-it-destroyed-50-houthi-military-targets-across-yemen/4139651": {
-   "checked": "2026-11-27T01:47:24Z",
+   "checked": "2026-11-28T15:39:14Z",
    "error": "no title",
-   "fails": 1
+   "fails": 2
   },
   "https://www.aa.com.tr/en/middle-east/syria-closes-border-crossing-with-jordan-to-passengers-trade/4101844": {
    "checked": "2026-11-23T18:24:10Z",
@@ -1554,6 +1554,14 @@
     "description": "The government will introduce mandatory AI safety standards and establish a new regulator after a rogue OpenAI agent gained unauthorised access to Medicare data in an incident that appears not to have breached any existing laws.",
     "image": "https://live-production.wcms.abc-cdn.net.au/3d968c962fe502b1ec9dfc0fb6408032?impolicy=wcms_watermark_news&cropH=900&cropW=1600&xPos=0&yPos=1&width=862&height=485&imformat=generic",
     "title": "Government moves to close legal loophole after AI Medicare hack"
+   }
+  },
+  "https://www.abc.net.au/news/2026-11-28/jess-wilson-victorian-liberals-form-government-state-election/107438320": {
+   "checked": "2026-11-28T15:39:14Z",
+   "preview": {
+    "description": "Liberal leader Jess Wilson will become Victoria's first popularly elected female premier as the Coalition dislodges Labor from state government after 12 years. In her first speech, the 36-year-old promises to govern for all Victorians and immediately begin work to take the state in a fresh direction.",
+    "image": "https://live-production.wcms.abc-cdn.net.au/665aba88ba07e2f414029979af3a12b7?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485&imformat=generic",
+    "title": "Jess Wilson vows to bring back hope after election win"
    }
   },
   "https://www.abc.net.au/news/2026-11-28/victorian-election-live-updates-voting-results-seat-count/107418038": {
@@ -1660,9 +1668,9 @@
    "fails": 3
   },
   "https://www.afp.com/en/egypt-prosecutors-announce-arrest-man-over-deadly-truck-disaster": {
-   "checked": "2026-11-27T01:47:24Z",
+   "checked": "2026-11-28T15:39:14Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://www.afp.com/en/eight-dead-new-york-building-collapse": {
    "checked": "2026-11-22T10:14:34Z",
@@ -1795,9 +1803,9 @@
    "fails": 2
   },
   "https://www.afp.com/en/us-clears-spacex-launch-1-mn-orbital-data-center-satellites": {
-   "checked": "2026-11-27T01:47:24Z",
+   "checked": "2026-11-28T15:39:14Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://www.afp.com/en/us-grant-flavio-bolsonaro-visa-he-flees-brazil-after-election-loss": {
    "checked": "2026-11-23T18:24:10Z",
@@ -2442,6 +2450,15 @@
     "title": "Russia fires cruise missile into Poland during British troop drills - AOL"
    }
   },
+  "https://www.aol.com/articles/france-falls-recession-143511000.html": {
+   "checked": "2026-11-28T15:39:14Z",
+   "preview": {
+    "description": "France has been plunged into recession amid spiralling borrowing costs and political paralysis.",
+    "image": "https://hermes.media.static.aol.com/media/2026/11/27/9c484a73-77f9-34f8-901b-40e3808945e0/66de5015-e112-4070-916b-295267c5545c.jpeg",
+    "site": "AOL.com",
+    "title": "France falls into recession - AOL"
+   }
+  },
   "https://www.arabnews.com/middle-east/iran-says-supertanker-with-2-million-barrels-of-oil-sank-in-gulf-3012053": {
    "checked": "2026-11-19T19:33:46Z",
    "preview": {
@@ -2666,6 +2683,14 @@
     "description": "The attack on the unidentified victim follows a wave of anti-migrants protests in South Africa this year.",
     "image": "https://ichef.bbci.co.uk/news/1024/branded_news/fe24/live/7227bf90-ce27-11f1-9f18-490cec60aa0f.png",
     "title": "Durban attack: Crowd of 50 beats foreigner to death in South Africa"
+   }
+  },
+  "https://www.bbc.com/news/articles/ckp80jyz6dl8o": {
+   "checked": "2026-11-28T15:39:14Z",
+   "preview": {
+    "description": "A spokesman for Afghanistan's interior ministry says the blast was caused by carelessness at an explosives depot nearby.",
+    "image": "https://ichef.bbci.co.uk/news/1024/branded_news/2bd9/live/19b5f490-eb1d-11f1-8743-3f686b14075c.jpg",
+    "title": "Afghanistan explosion kills 10 students and injures more than 100, official says"
    }
   },
   "https://www.bbc.com/news/articles/ckx27v6dpjz0o": {
@@ -4014,6 +4039,11 @@
     "title": "Mecca pact nations hold talks with Iran to prevent renewed Middle East war"
    }
   },
+  "https://www.ft.com/content/7838a715-07d4-4605-aa60-21f5af2b2370?syn-25a6b1a6=1": {
+   "checked": "2026-11-28T15:39:14Z",
+   "error": "HTTP 403",
+   "fails": 1
+  },
   "https://www.ft.com/content/88a0691a-6ce8-4c97-abf4-7aee0351fd51?syn-25a6b1a6=1": {
    "checked": "2026-11-28T01:29:16Z",
    "error": "HTTP 403",
@@ -4628,9 +4658,9 @@
    "fails": 3
   },
   "https://www.reuters.com/business/energy/crew-member-dies-after-diesel-tanker-sinks-off-ibiza-spain-launches-pollution-2026-11-26/": {
-   "checked": "2026-11-27T01:47:24Z",
+   "checked": "2026-11-28T15:39:14Z",
    "error": "disallowed by robots.txt",
-   "fails": 1
+   "fails": 2
   },
   "https://www.reuters.com/business/energy/drone-strikes-cut-power-across-southeast-sudan-operator-says-2026-10-26/": {
    "checked": "2026-11-23T18:24:10Z",
@@ -4808,9 +4838,9 @@
    "fails": 3
   },
   "https://www.reuters.com/world/africa/guinea-bissau-delays-elections-extending-military-led-transition-year-after-coup-2026-11-26/": {
-   "checked": "2026-11-27T01:47:24Z",
+   "checked": "2026-11-28T15:39:14Z",
    "error": "disallowed by robots.txt",
-   "fails": 1
+   "fails": 2
   },
   "https://www.reuters.com/world/africa/kenyan-court-sentences-cult-leader-200-years-prison-murder-190-children-2026-11-06/": {
    "checked": "2026-11-22T23:39:34Z",
@@ -5396,9 +5426,9 @@
    "fails": 3
   },
   "https://www.scmp.com/news/asia/southeast-asia/article/3375778/3-dead-23-trapped-indonesia-after-illegal-gold-mine-floods": {
-   "checked": "2026-11-27T01:47:24Z",
+   "checked": "2026-11-28T15:39:14Z",
    "error": "HTTP 403",
-   "fails": 2
+   "fails": 3
   },
   "https://www.scmp.com/news/china/politics/article/3373750/fire-northern-china-high-rise-building-kills-14-injures-dozens-more": {
    "checked": "2026-11-22T10:14:34Z",
@@ -5569,6 +5599,15 @@
     "image": "https://www.tbsnews.net/sites/default/files/styles/social_share/public/images/2026/11/23/screenshot_2026-11-23_234723.png",
     "site": "The Business Standard",
     "title": "At least 20 injured in clash between two AL factions in Gopalganj"
+   }
+  },
+  "https://www.tbsnews.net/bangladesh/least-5-injured-clashes-between-banned-al-bnp-activists-kalkini-over-50-crude-bombs": {
+   "checked": "2026-11-28T15:39:14Z",
+   "preview": {
+    "description": "The clashes broke out after 8pm in the Thengamara area of Ward 2 of Kalkini municipality.",
+    "image": "https://www.tbsnews.net/sites/default/files/styles/social_share/public/images/2026/11/28/kalkini_bnp_al.jpg",
+    "site": "The Business Standard",
+    "title": "At least 5 injured in clashes between banned AL, BNP activists in Madaripur as over 50 crude bombs exploded"
    }
   },
   "https://www.tbsnews.net/bangladesh/police-garment-workers-clash-kafrul-over-alleged-harassment-female-workers-1606131": {
