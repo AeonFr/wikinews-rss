@@ -571,6 +571,11 @@
    "image": "https://live-production.wcms.abc-cdn.net.au/3d968c962fe502b1ec9dfc0fb6408032?impolicy=wcms_watermark_news&cropH=900&cropW=1600&xPos=0&yPos=1&width=862&height=485&imformat=generic",
    "title": "Government moves to close legal loophole after AI Medicare hack"
   },
+  "https://www.abc.net.au/news/2026-11-28/victorian-election-live-updates-voting-results-seat-count/107418038": {
+   "description": "Victorians head to the polls today to decide who will lead Australia's second most populous state for the next four years. Follow live.",
+   "image": "https://live-production.wcms.abc-cdn.net.au/be1044bf8eba490397d008c7c1feb258?impolicy=wcms_watermark_news&cropH=887&cropW=1577&xPos=0&yPos=0&width=862&height=485&imformat=generic",
+   "title": "Live: Victorian Liberal costings reveal unannounced plan to scrap first home owner grant"
+  },
   "https://www.al-monitor.com/originals/2026/11/pif-aramco-strikes-hit-heart-saudi-arabias-economic-overhaul": {
    "description": "Long-term economic damage from the Saudi-Houthi conflict is mounting even as a recovery in oil production offers Riyadh a financial lifeline.",
    "image": "https://www.al-monitor.com/sites/default/files/styles/social_media_share/public/2026-11/GettyImages-1569620642.jpg?h=1d34674f&itok=n3emcfbA",
@@ -870,6 +875,12 @@
    "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/reuters_6a94293e-1788094782.jpg?resize=1200%2C675",
    "site": "Al Jazeera",
    "title": "At least 13 Niger soldiers killed in Sanam armed attack"
+  },
+  "https://www.aljazeera.com/news/2026/11/27/us-military-says-it-disabled-merchant-ship-trying-to-breach-iran-blockade": {
+   "description": "The US military says it disabled the Palau-flagged ship’s propulsion but its crew was unharmed.",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6afba6a9-1794877097.jpg?resize=1920%2C1440",
+   "site": "Al Jazeera",
+   "title": "US military says it disabled merchant ship trying to breach Iran blockade"
   },
   "https://www.aljazeera.com/news/2026/11/3/explosions-hit-irans-qeshm-island-as-us-media-report-us-strikes-in-hormuz": {
    "description": "Several explosions heard on Qeshm Island and in Bandar Lengeh as US media report US military strikes in Hormuz.",
@@ -2577,6 +2588,12 @@
    "site": "The Daily Star",
    "title": "15 injured as BNP factions clash in Jhenaidah"
   },
+  "https://www.thedailystar.net/news/crime-justice/news/20-injured-fresh-clash-over-local-dominance-brick-kiln-business-narayanganj-4334601": {
+   "description": "Police fire rubber bullets and tear gas to disperse rival groups in Fatullah; at least eight detained",
+   "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/narayanganj.jpg",
+   "site": "The Daily Star",
+   "title": "20 injured in fresh clash over local dominance, brick kiln business in Narayanganj"
+  },
   "https://www.thedailystar.net/news/crime-justice/news/bgb-deploys-95-platoons-across-seven-districts-maintain-law-and-order-4330136": {
    "description": "Deployment follows instructions from the home ministry, with round-the-clock surveillance using drones and body-worn cameras",
    "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/bgb%20%281%29_0_0.jpg",
@@ -2690,6 +2707,12 @@
    "image": "https://i.guim.co.uk/img/media/ebfc885f7db8935002487a469a0f9baba836690e/262_168_2337_1870/master/2337.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e16d87a17e4dcb69a3b4e1cb03b120ce",
    "site": "the Guardian",
    "title": "Beau Lamarre-Condon found guilty of murdering Jesse Baird and Luke Davies"
+  },
+  "https://www.theguardian.com/australia-news/2026/nov/28/victorian-election-2026-when-is-it-how-to-vote-date-where-victoria-state-polls-candidates-voting-near-count-ntwnfb": {
+   "description": "Labor is chasing a fourth consecutive term and the Liberals are hoping for a breakthrough – but could One Nation end up with the balance of power? And how, when and where can people vote in Victoria?",
+   "image": "https://i.guim.co.uk/img/media/ecc3acb1b21f1c2f22c58810097150d354618d9f/619_304_1738_1391/master/1738.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=b87a2467addc4534f251117f5f438213",
+   "site": "the Guardian",
+   "title": "When, where and how to vote in Victoria’s 2026 state election: what voters need to know on polling day"
   },
   "https://www.theguardian.com/australia-news/2026/oct/25/western-sydney-international-airport-wsi-open-airlines-flights-cost-transport-history": {
    "description": "Some 60km from the CBD and in operation for 24 hours a day, Sydney’s second airport, opening to passengers on Sunday, cost $5.3bn",

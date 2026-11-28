@@ -462,8 +462,15 @@
   "https://en.wikipedia.org/wiki/2026_United_States_elections": {
    "checked": "2026-11-22T10:14:34Z"
   },
+  "https://en.wikipedia.org/wiki/2026_United_States_naval_blockade_of_Iran": {
+   "checked": "2026-11-28T01:29:16Z",
+   "location": "Strait of Hormuz and Persian Gulf coast of Iran, Indo-Pacific region"
+  },
   "https://en.wikipedia.org/wiki/2026_Uttarakhand_helicopter_crash": {
    "checked": "2026-11-22T10:14:34Z"
+  },
+  "https://en.wikipedia.org/wiki/2026_Victorian_state_election": {
+   "checked": "2026-11-28T01:29:16Z"
   },
   "https://en.wikipedia.org/wiki/2026_WNBA_Finals": {
    "checked": "2026-11-22T10:14:34Z"
@@ -991,6 +998,9 @@
   "https://en.wikipedia.org/wiki/Mexican_drug_war": {
    "checked": "2026-11-22T10:14:34Z",
    "location": "Latin America and the Caribbean"
+  },
+  "https://en.wikipedia.org/wiki/Mexico%E2%80%93United_States_relations": {
+   "checked": "2026-11-28T01:29:16Z"
   },
   "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)": {
    "checked": "2026-11-22T10:14:34Z",

@@ -185,9 +185,9 @@
    "fails": 3
   },
   "https://apnews.com/article/cairo-highway-fire-ring-road-89e4cd3d3d53016c9c35440b57c5ea1e": {
-   "checked": "2026-11-26T17:01:50Z",
+   "checked": "2026-11-28T01:29:16Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://apnews.com/article/cambodia-traffic-accidents-school-bus-e0c3e6316356dcbe3c4ff9fbed68a62b": {
    "checked": "2026-11-22T10:14:34Z",
@@ -600,9 +600,9 @@
    "fails": 3
   },
   "https://apnews.com/article/turkey-military-helicopter-crash-eskisehir-d807011ff565dcfbce78fcf44d338994": {
-   "checked": "2026-11-26T17:01:50Z",
+   "checked": "2026-11-28T01:29:16Z",
    "error": "HTTP 403",
-   "fails": 2
+   "fails": 3
   },
   "https://apnews.com/article/ueno-bank-collapse-paraguay-banking-crisis-santiago-pena-impeachment-eccea1c9a64808b5cd7e6e1d5542084f": {
    "checked": "2026-11-22T23:39:34Z",
@@ -1556,6 +1556,14 @@
     "title": "Government moves to close legal loophole after AI Medicare hack"
    }
   },
+  "https://www.abc.net.au/news/2026-11-28/victorian-election-live-updates-voting-results-seat-count/107418038": {
+   "checked": "2026-11-28T01:29:16Z",
+   "preview": {
+    "description": "Victorians head to the polls today to decide who will lead Australia's second most populous state for the next four years. Follow live.",
+    "image": "https://live-production.wcms.abc-cdn.net.au/be1044bf8eba490397d008c7c1feb258?impolicy=wcms_watermark_news&cropH=887&cropW=1577&xPos=0&yPos=0&width=862&height=485&imformat=generic",
+    "title": "Live: Victorian Liberal costings reveal unannounced plan to scrap first home owner grant"
+   }
+  },
   "https://www.abs-cbn.com/news/nation/2026/10/22/filipino-killed-in-drone-attack-targeting-saudi-arabia-oil-field-1739": {
    "checked": "2026-11-25T02:34:34Z",
    "error": "HTTP 403",
@@ -1685,6 +1693,11 @@
    "checked": "2026-11-25T18:12:36Z",
    "error": "HTTP 403",
    "fails": 3
+  },
+  "https://www.afp.com/en/indonesia-calls-search-missing-miners": {
+   "checked": "2026-11-28T01:29:16Z",
+   "error": "HTTP 403",
+   "fails": 1
   },
   "https://www.afp.com/en/japans-yoshida-wins-first-lpga-tour-title-south-korea-win": {
    "checked": "2026-11-24T17:54:20Z",
@@ -2259,6 +2272,15 @@
     "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/reuters_6a94293e-1788094782.jpg?resize=1200%2C675",
     "site": "Al Jazeera",
     "title": "At least 13 Niger soldiers killed in Sanam armed attack"
+   }
+  },
+  "https://www.aljazeera.com/news/2026/11/27/us-military-says-it-disabled-merchant-ship-trying-to-breach-iran-blockade": {
+   "checked": "2026-11-28T01:29:16Z",
+   "preview": {
+    "description": "The US military says it disabled the Palau-flagged ship’s propulsion but its crew was unharmed.",
+    "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6afba6a9-1794877097.jpg?resize=1920%2C1440",
+    "site": "Al Jazeera",
+    "title": "US military says it disabled merchant ship trying to breach Iran blockade"
    }
   },
   "https://www.aljazeera.com/news/2026/11/3/explosions-hit-irans-qeshm-island-as-us-media-report-us-strikes-in-hormuz": {
@@ -3993,9 +4015,9 @@
    }
   },
   "https://www.ft.com/content/88a0691a-6ce8-4c97-abf4-7aee0351fd51?syn-25a6b1a6=1": {
-   "checked": "2026-11-26T17:01:50Z",
+   "checked": "2026-11-28T01:29:16Z",
    "error": "HTTP 403",
-   "fails": 1
+   "fails": 2
   },
   "https://www.genocidewatch.com/single-post/drone-attacks-kill-four-near-sudan-s-capital": {
    "checked": "2026-11-25T02:34:34Z",
@@ -4102,9 +4124,9 @@
    }
   },
   "https://www.ktsm.com/news/juarez/5-people-dead-after-bus-crash-outside-of-juarez-driver-arrested/": {
-   "checked": "2026-11-26T17:01:50Z",
+   "checked": "2026-11-28T01:29:16Z",
    "error": "HTTP 403",
-   "fails": 2
+   "fails": 3
   },
   "https://www.laprensagrafica.com/elsalvador/dos-soldados-salvadorenos-muertos-en-haiti-tras-explosion-en-campamento-20261120-0033.html": {
    "checked": "2026-11-23T18:24:10Z",
@@ -4850,6 +4872,11 @@
    "error": "disallowed by robots.txt",
    "fails": 3
   },
+  "https://www.reuters.com/world/americas/mexico-files-complaint-with-us-over-dea-tip-line-alleged-drug-traffickers-2026-11-27/": {
+   "checked": "2026-11-28T01:29:16Z",
+   "error": "disallowed by robots.txt",
+   "fails": 1
+  },
   "https://www.reuters.com/world/americas/paraguay-judge-orders-ex-president-pea-transferred-military-prison-2026-11-16/": {
    "checked": "2026-11-22T10:14:34Z",
    "error": "disallowed by robots.txt",
@@ -4921,9 +4948,9 @@
    "fails": 3
   },
   "https://www.reuters.com/world/asia-pacific/sheikh-hasina-seeks-return-bangladesh-december-16-state-carrier-2026-11-24/": {
-   "checked": "2026-11-26T17:01:50Z",
+   "checked": "2026-11-28T01:29:16Z",
    "error": "disallowed by robots.txt",
-   "fails": 2
+   "fails": 3
   },
   "https://www.reuters.com/world/asia-pacific/singapore-launch-gold-vault-service-foreign-central-banks-2026-11-10/": {
    "checked": "2026-11-22T10:14:34Z",
@@ -5675,6 +5702,15 @@
     "title": "15 injured as BNP factions clash in Jhenaidah"
    }
   },
+  "https://www.thedailystar.net/news/crime-justice/news/20-injured-fresh-clash-over-local-dominance-brick-kiln-business-narayanganj-4334601": {
+   "checked": "2026-11-28T01:29:16Z",
+   "preview": {
+    "description": "Police fire rubber bullets and tear gas to disperse rival groups in Fatullah; at least eight detained",
+    "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/narayanganj.jpg",
+    "site": "The Daily Star",
+    "title": "20 injured in fresh clash over local dominance, brick kiln business in Narayanganj"
+   }
+  },
   "https://www.thedailystar.net/news/crime-justice/news/bgb-deploys-95-platoons-across-seven-districts-maintain-law-and-order-4330136": {
    "checked": "2026-11-22T11:39:05Z",
    "preview": {
@@ -5844,6 +5880,15 @@
     "image": "https://i.guim.co.uk/img/media/ebfc885f7db8935002487a469a0f9baba836690e/262_168_2337_1870/master/2337.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e16d87a17e4dcb69a3b4e1cb03b120ce",
     "site": "the Guardian",
     "title": "Beau Lamarre-Condon found guilty of murdering Jesse Baird and Luke Davies"
+   }
+  },
+  "https://www.theguardian.com/australia-news/2026/nov/28/victorian-election-2026-when-is-it-how-to-vote-date-where-victoria-state-polls-candidates-voting-near-count-ntwnfb": {
+   "checked": "2026-11-28T01:29:16Z",
+   "preview": {
+    "description": "Labor is chasing a fourth consecutive term and the Liberals are hoping for a breakthrough – but could One Nation end up with the balance of power? And how, when and where can people vote in Victoria?",
+    "image": "https://i.guim.co.uk/img/media/ecc3acb1b21f1c2f22c58810097150d354618d9f/619_304_1738_1391/master/1738.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=b87a2467addc4534f251117f5f438213",
+    "site": "the Guardian",
+    "title": "When, where and how to vote in Victoria’s 2026 state election: what voters need to know on polling day"
    }
   },
   "https://www.theguardian.com/australia-news/2026/oct/25/western-sydney-international-airport-wsi-open-airlines-flights-cost-transport-history": {
@@ -6109,9 +6154,9 @@
    }
   },
   "https://www.voiceofemirates.com/en/news/2026/11/23/mexico-announces-the-killing-of-16-suspected-drug-cartel-members-during-the-arrest-of-el-chapo-isidro/": {
-   "checked": "2026-11-26T17:01:50Z",
+   "checked": "2026-11-28T01:29:16Z",
    "error": "HTTP 403",
-   "fails": 2
+   "fails": 3
   },
   "https://www.washingtonpost.com/elections/results/2026/11/03/michigan-senate-el-sayed-rogers-live-updates/": {
    "checked": "2026-11-22T23:39:34Z",
@@ -6119,9 +6164,9 @@
    "fails": 3
   },
   "https://www.washingtonpost.com/world/2026/11/24/israel-kills-hamas-internal-security-chief-gaza/": {
-   "checked": "2026-11-26T17:01:50Z",
+   "checked": "2026-11-28T01:29:16Z",
    "error": "TimeoutError",
-   "fails": 2
+   "fails": 3
   },
   "https://www.yahoo.com/news/world/articles/brazil-votes-tight-run-off-070332944.html": {
    "checked": "2026-11-21T14:45:33Z",
